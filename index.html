@@ -24,7 +24,15 @@
     <!-- Header -->
     <header id="main-header">
         <nav>
-            <div class="logo">⚡ WanderHawaii ⚡</div>
+            <div class="logo-container">
+                <!-- OPTION 1: Text logo with emoji (current) -->
+                <div class="logo">⚡ WanderHawaii ⚡</div>
+                <div class="slogan">Your Island Adventure Starts Here!</div>
+                
+                <!-- OPTION 2: Uncomment to use image logo -->
+                <!-- <img src="logo.png" alt="WanderHawaii" class="logo-image"> -->
+                <!-- <div class="slogan">Discover Paradise, One Adventure at a Time</div> -->
+            </div>
             <ul class="nav-links">
                 <li><a href="#islands">Islands</a></li>
                 <li><a href="#activities">Activities</a></li>
@@ -120,6 +128,9 @@
     <section class="results-section">
         <div class="results-container">
             <p id="results-count">Showing all 500 adventures</p>
+            <button id="shuffle-btn" class="shuffle-btn" title="See different tours!">
+                🎲 Show Me Different Tours!
+            </button>
         </div>
     </section>
 
