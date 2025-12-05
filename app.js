@@ -4,14 +4,86 @@ let displayedTours = [];
 let currentPage = 0;
 const toursPerPage = 12;
 
+// Shuffle array using Fisher-Yates algorithm
+function shuffleArray(array) {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+}
+
+// Smart shuffle - keeps some top quality tours near the front
+function smartShuffle(tours) {
+    // Separate top-tier tours (quality 100) and others
+    const topTours = tours.filter(t => t.quality === 100);
+    const otherTours = tours.filter(t => t.quality < 100);
+    
+    // Shuffle both groups
+    const shuffledTop = shuffleArray(topTours);
+    const shuffledOthers = shuffleArray(otherTours);
+    
+    // Mix them: Put 3-5 top tours in first 12, rest randomized
+    const result = [];
+    const topToShow = Math.floor(Math.random() * 3) + 3; // 3-5 random
+    
+    // Add some top tours to beginning
+    result.push(...shuffledTop.slice(0, topToShow));
+    
+    // Add random others
+    result.push(...shuffledOthers.slice(0, 12 - topToShow));
+    
+    // Mix in remaining top tours randomly throughout
+    const remainingTop = shuffledTop.slice(topToShow);
+    const remainingOthers = shuffledOthers.slice(12 - topToShow);
+    
+    // Combine and shuffle the rest
+    const remaining = shuffleArray([...remainingTop, ...remainingOthers]);
+    result.push(...remaining);
+    
+    return result;
+}
+
+// Update section title with variety
+function updateSectionTitle() {
+    const titles = [
+        '🔥 TODAY\'S HOTTEST PICKS 🔥',
+        '⚡ FRESH PICKS FOR YOU ⚡',
+        '🌟 DISCOVER THESE GEMS 🌟',
+        '🎯 HANDPICKED ADVENTURES 🎯',
+        '💎 FEATURED ADVENTURES 💎'
+    ];
+    
+    const subtitles = [
+        'Selling out fast!',
+        'New selection just for you!',
+        'Something amazing awaits!',
+        'Your next adventure is here!',
+        'Book before they\'re gone!'
+    ];
+    
+    const randomIndex = Math.floor(Math.random() * titles.length);
+    document.querySelector('.section-header h2').textContent = titles[randomIndex];
+    document.getElementById('section-subtitle').textContent = subtitles[randomIndex];
+}
+
 // Load tours from JSON
 async function loadTours() {
     try {
         const response = await fetch('tours-data.json');
         allTours = await response.json();
+        
+        // RANDOMIZE on every page load!
+        allTours = smartShuffle(allTours);
+        
         displayedTours = [...allTours];
         renderTours();
         updateStats();
+        updateSectionTitle();
+        
+        // Show randomization indicator
+        console.log('🎲 Tours randomized! Refresh for different selection.');
     } catch (error) {
         console.error('Error loading tours:', error);
         document.getElementById('tours-grid').innerHTML = '<p class="loading">Oops! Adventures taking a break. Refresh to try again! 🌴</p>';
@@ -32,7 +104,20 @@ function renderTours(append = false) {
     const toursToShow = displayedTours.slice(start, end);
     
     if (toursToShow.length === 0 && !append) {
-        grid.innerHTML = '<p class="loading">No adventures found! Try different filters 🤔</p>';
+        // Show helpful suggestions when no results
+        const searchTerm = document.getElementById('search-input').value;
+        const suggestions = getSearchSuggestions();
+        
+        grid.innerHTML = `
+            <div class="no-results">
+                <h3>🤔 No adventures found!</h3>
+                <p>Try searching for:</p>
+                <div class="suggestions">
+                    ${suggestions.map(s => `<button class="suggestion-pill" onclick="searchFor('${s}')">${s}</button>`).join('')}
+                </div>
+                <p style="margin-top: 2rem;">Or <button onclick="document.getElementById('clear-filters').click()" class="suggestion-pill">clear all filters</button></p>
+            </div>
+        `;
         document.getElementById('load-more-container').style.display = 'none';
         return;
     }
@@ -52,6 +137,21 @@ function renderTours(append = false) {
     
     // Update results count
     updateResultsCount();
+}
+
+// Get popular search suggestions
+function getSearchSuggestions() {
+    return [
+        'snorkeling', 'helicopter tour', 'surfing', 
+        'zipline', 'kayaking', 'sunset cruise',
+        'volcano tour', 'scuba diving', 'whale watching'
+    ];
+}
+
+// Quick search helper
+function searchFor(term) {
+    document.getElementById('search-input').value = term;
+    applyFilters();
 }
 
 // Create a tour card element
@@ -105,17 +205,34 @@ function createTourCard(tour, index) {
 
 // Filter and search functions
 function applyFilters() {
-    const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    const searchTerm = document.getElementById('search-input').value.toLowerCase().trim();
     const islandFilter = document.getElementById('island-filter').value;
     const activityFilter = document.getElementById('activity-filter').value;
     const sortFilter = document.getElementById('sort-filter').value;
     
-    // Filter tours
+    // Filter tours with ENHANCED SEARCH
     displayedTours = allTours.filter(tour => {
-        const matchesSearch = !searchTerm || 
-            tour.name.toLowerCase().includes(searchTerm) ||
-            tour.tags.some(tag => tag.toLowerCase().includes(searchTerm)) ||
-            tour.island.toLowerCase().includes(searchTerm);
+        // If no search term, only apply filters
+        if (!searchTerm) {
+            const matchesIsland = !islandFilter || tour.island === islandFilter;
+            const matchesActivity = !activityFilter || 
+                tour.tags.some(tag => tag.toLowerCase().includes(activityFilter.toLowerCase()));
+            return matchesIsland && matchesActivity;
+        }
+        
+        // ENHANCED SEARCH: Check multiple fields
+        const searchableText = [
+            tour.name.toLowerCase(),
+            tour.company.toLowerCase(),
+            tour.island.toLowerCase(),
+            ...tour.tags.map(t => t.toLowerCase())
+        ].join(' ');
+        
+        // Split search term into words for better matching
+        const searchWords = searchTerm.split(' ').filter(w => w.length > 0);
+        
+        // Match if ALL search words are found somewhere in the tour data
+        const matchesSearch = searchWords.every(word => searchableText.includes(word));
         
         const matchesIsland = !islandFilter || tour.island === islandFilter;
         
@@ -228,6 +345,31 @@ document.addEventListener('DOMContentLoaded', () => {
         renderTours(true);
     });
     
+    // Shuffle button - show different tours!
+    document.getElementById('shuffle-btn').addEventListener('click', () => {
+        // Re-shuffle all tours
+        allTours = smartShuffle(allTours);
+        
+        // Update section title
+        updateSectionTitle();
+        
+        // Re-apply current filters with new order
+        applyFilters();
+        
+        // Visual feedback
+        const btn = document.getElementById('shuffle-btn');
+        btn.textContent = '✨ Tours Shuffled!';
+        btn.style.background = 'linear-gradient(135deg, var(--sunset-orange), var(--sunset-red))';
+        
+        setTimeout(() => {
+            btn.textContent = '🎲 Show Me Different Tours!';
+            btn.style.background = 'linear-gradient(135deg, var(--palm-green), var(--sky-blue))';
+        }, 2000);
+        
+        // Scroll to tours
+        document.getElementById('tours-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    
     // Island cards
     document.querySelectorAll('.island-card').forEach(card => {
         card.addEventListener('click', () => {
@@ -246,7 +388,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     // Logo click - scroll to top
-    document.querySelector('.logo').addEventListener('click', () => {
+    document.querySelector('.logo-container').addEventListener('click', () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 });
