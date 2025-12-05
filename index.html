@@ -1,248 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WanderHawaii - 500+ Epic Hawaiian Adventures | Best Prices Guaranteed</title>
-    <meta name="description" content="Discover 500+ amazing Hawaiian adventures across Oahu, Maui, Big Island & Kauai. Snorkeling, surfing, helicopter tours, luaus & more. Book now & save 20%!">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700;900&family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>WanderHawaii – Book Hawaii Adventures | Today’s Top 10 • Near You</title>
+    <meta name="description" content="Discover the best Hawaii adventures happening today. Book Oahu, Maui, Big Island, and Kauai tours with real-time availability, near-you options, and island-specific deals." />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700;900&family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Background + Header Upgrades -->
+    <style>
+        body {
+            background: linear-gradient(180deg, #ffb86c, #ff6f51, #ff4f5e, #ff77c0);
+            background-attachment: fixed;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+        }
+
+        /* Sticky header */
+        #main-header {
+            position: sticky;
+            top: 0;
+            z-index: 9999;
+            background: rgba(255,255,255,0.92);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .logo { font-family: 'Passion One'; font-size: 2rem; letter-spacing: 1px; }
+        .slogan { font-size: 0.8rem; font-weight: 600; margin-top: -4px; }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .nav-links li a { font-weight: 600; }
+
+        .cta-btn {
+            padding: 10px 18px;
+            font-weight: 700;
+            border-radius: 8px;
+            background: #ff4f5e;
+            color: #fff !important;
+            border: none;
+            cursor: pointer;
+        }
+
+        #mobile-menu-btn {
+            font-size: 1.8rem;
+            display: none;
+            cursor: pointer;
+        }
+
+        .mobile-cta-pill {
+            display: none;
+            background: #ff4f5e;
+            color: white;
+            padding: 10px 16px;
+            border-radius: 40px;
+            margin-top: 6px;
+            font-weight: bold;
+            width: fit-content;
+        }
+
+        @media(max-width: 900px) {
+            .nav-links { display: none; }
+            #mobile-menu-btn { display: block; }
+            .mobile-cta-pill { display: inline-block; }
+        }
+    </style>
 </head>
+
 <body>
-    <!-- Background Animations -->
-    <div class="sunset-background">
-        <div class="sun"></div>
+
+<!-- HEADER -->
+<header id="main-header">
+    <nav>
+        <div>
+            <div class="logo">WanderHawaii</div>
+            <div class="slogan">Your Island Adventure Starts Now</div>
+            <div class="mobile-cta-pill" id="mobile-dynamic-cta">📍 Explore Oahu</div>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#islands">Islands</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#deals">Deals</a></li>
+            <li><a href="#top10">Top 10 Today</a></li>
+            <li><a href="#planner">Plan Trip</a></li>
+            <li><button class="cta-btn" id="desktop-dynamic-cta">📍 Explore Oahu</button></li>
+        </ul>
+
+        <div id="mobile-menu-btn">☰</div>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" style="text-align:center;padding:60px 20px;color:white;">
+    <h1 style="font-size:3rem;font-family:'Passion One';letter-spacing:2px;">HAWAII AWAITS</h1>
+    <p style="font-size:1.2rem;font-weight:600;">500+ Epic Adventures • Real-Time Availability</p>
+
+    <div class="search-box" style="margin-top:20px;">
+        <input type="text" id="search-input" placeholder="Find an adventure..." style="padding:12px;border-radius:8px;border:none;width:70%;max-width:300px;">
+        <button id="search-btn" style="padding:12px 20px;border:none;border-radius:8px;background:#ff4f5e;color:white;font-weight:bold;">Search</button>
     </div>
 
-    <div class="palm-silhouette palm-left">🌴</div>
-    <div class="palm-silhouette palm-right">🌴</div>
-
-    <!-- Header -->
-    <header id="main-header">
-        <nav>
-            <div class="logo-container">
-                <!-- OPTION 1: Text logo with emoji (current) -->
-                <div class="logo">⚡ WanderHawaii ⚡</div>
-                <div class="slogan">Your Island Adventure Starts Here!</div>
-                
-                <!-- OPTION 2: Uncomment to use image logo -->
-                <!-- <img src="logo.png" alt="WanderHawaii" class="logo-image"> -->
-                <!-- <div class="slogan">Discover Paradise, One Adventure at a Time</div> -->
-            </div>
-            <ul class="nav-links">
-                <li><a href="#islands">Islands</a></li>
-                <li><a href="#activities">Activities</a></li>
-                <li><a href="#deals">Hot Deals</a></li>
-                <li><a href="#" id="trip-planner-btn">Plan Trip</a></li>
-            </ul>
-            <div class="mobile-menu-btn" id="mobile-menu-btn">☰</div>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>HAWAII AWAITS!</h1>
-        <p class="subtitle">🌺 500+ INSANE ADVENTURES 🌺</p>
-        
-        <div class="search-container">
-            <div class="search-box">
-                <input type="text" id="search-input" placeholder="Find Your Perfect Adventure...">
-                <button id="search-btn">LET'S GO! 🚀</button>
-            </div>
-            <div class="filter-pills" id="quick-filters">
-                <div class="pill" data-island="Oahu">🏝️ Oahu</div>
-                <div class="pill" data-island="Big Island">🌋 Big Island</div>
-                <div class="pill" data-island="Maui">🏄 Maui</div>
-                <div class="pill" data-island="Kauai">🌿 Kauai</div>
-                <div class="pill" data-tag="Snorkel">🤿 Snorkel</div>
-                <div class="pill" data-tag="Zipline">⚡ Zipline</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Stats Bar -->
-    <section class="stats-bar">
-        <div class="stats-grid">
-            <div class="stat-item">
-                <h3 id="total-tours">500+</h3>
-                <p>Epic Adventures</p>
-            </div>
-            <div class="stat-item">
-                <h3>4</h3>
-                <p>Main Islands</p>
-            </div>
-            <div class="stat-item">
-                <h3>15K+</h3>
-                <p>Happy Travelers</p>
-            </div>
-            <div class="stat-item">
-                <h3>20%</h3>
-                <p>Cheaper!</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Filter Section -->
-    <section class="filters-section" id="filters-section">
-        <div class="filters-container">
-            <div class="filter-group">
-                <label>🏝️ Island:</label>
-                <select id="island-filter">
-                    <option value="">All Islands</option>
-                    <option value="Oahu">Oahu</option>
-                    <option value="Maui">Maui</option>
-                    <option value="Big Island">Big Island</option>
-                    <option value="Kauai">Kauai</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <label>🎯 Activity:</label>
-                <select id="activity-filter">
-                    <option value="">All Activities</option>
-                    <option value="Snorkel">Snorkeling</option>
-                    <option value="Surf">Surfing</option>
-                    <option value="Zipline">Zipline</option>
-                    <option value="Helicopter">Helicopter</option>
-                    <option value="Kayak">Kayaking</option>
-                    <option value="Boat Tour">Boat Tours</option>
-                    <option value="Scuba">Scuba Diving</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <label>⭐ Sort By:</label>
-                <select id="sort-filter">
-                    <option value="popular">Most Popular</option>
-                    <option value="quality">Highest Rated</option>
-                    <option value="availability">Most Available</option>
-                </select>
-            </div>
-            <button id="clear-filters" class="clear-btn">Clear All</button>
-        </div>
-    </section>
-
-    <!-- Results Counter -->
-    <section class="results-section">
-        <div class="results-container">
-            <p id="results-count">Showing all 500 adventures</p>
-            <button id="shuffle-btn" class="shuffle-btn" title="See different tours!">
-                🎲 Show Me Different Tours!
-            </button>
-        </div>
-    </section>
-
-    <!-- Featured Tours -->
-    <section class="featured-section" id="tours-section">
-        <div class="section-header">
-            <h2>🔥 TODAY'S HOTTEST PICKS 🔥</h2>
-            <p id="section-subtitle">Selling out fast!</p>
-        </div>
-
-        <div class="tours-grid" id="tours-grid">
-            <!-- Tours will be dynamically loaded here -->
-            <div class="loading">Loading amazing adventures... 🌴</div>
-        </div>
-
-        <div class="load-more-container" id="load-more-container" style="display: none;">
-            <button id="load-more-btn" class="load-more-btn">Load More Adventures 🚀</button>
-        </div>
-    </section>
-
-    <!-- Island Showcase -->
-    <section class="islands-section" id="islands">
-        <div class="section-header">
-            <h2>EXPLORE BY ISLAND</h2>
-            <p>Each island has its own magic ✨</p>
-        </div>
-        <div class="islands-grid">
-            <div class="island-card" data-island="Oahu">
-                <div class="island-overlay"></div>
-                <div class="island-content">
-                    <h3>OAHU</h3>
-                    <p id="oahu-count">249 Adventures</p>
-                    <button class="island-btn">Explore Oahu</button>
-                </div>
-            </div>
-            <div class="island-card" data-island="Maui">
-                <div class="island-overlay"></div>
-                <div class="island-content">
-                    <h3>MAUI</h3>
-                    <p id="maui-count">83 Adventures</p>
-                    <button class="island-btn">Explore Maui</button>
-                </div>
-            </div>
-            <div class="island-card" data-island="Big Island">
-                <div class="island-overlay"></div>
-                <div class="island-content">
-                    <h3>BIG ISLAND</h3>
-                    <p id="bigisland-count">115 Adventures</p>
-                    <button class="island-btn">Explore Big Island</button>
-                </div>
-            </div>
-            <div class="island-card" data-island="Kauai">
-                <div class="island-overlay"></div>
-                <div class="island-content">
-                    <h3>KAUAI</h3>
-                    <p id="kauai-count">41 Adventures</p>
-                    <button class="island-btn">Explore Kauai</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOMO Notification -->
-    <div class="notification" id="notification">
-        <div class="notification-icon">🎉</div>
-        <div class="notification-text">
-            <strong class="notification-name">Sarah from Tampa</strong> just booked a snorkel tour!
-        </div>
+    <!-- GPS Near Me -->
+    <div id="gps-box" style="margin-top:25px;font-weight:600;">
+        <button id="gps-btn" style="padding:12px 20px;border:none;border-radius:8px;background:#333;color:white;font-weight:bold;">
+            📍 Show Adventures Near Me
+        </button>
     </div>
+</section>
 
-    <!-- Email Signup -->
-    <section class="email-section">
-        <div class="email-container">
-            <h2>🌺 GET EXCLUSIVE DEALS! 🌺</h2>
-            <p>Join 10,000+ adventurers getting secret discounts & last-minute deals!</p>
-            <form id="email-form" class="email-form">
-                <input type="email" id="email-input" placeholder="your@email.com" required>
-                <button type="submit">GET DEALS! 🎉</button>
-            </form>
-            <p class="email-disclaimer">No spam, unsubscribe anytime. Adventure awaits! ⚡</p>
-        </div>
-    </section>
+<!-- ISLANDS -->
+<section id="islands" style="padding:40px 20px;">
+    <h2 style="text-align:center;font-size:2rem;">Explore by Island</h2>
+    <p style="text-align:center;margin-top:-10px;">Each island has its own magic ✨</p>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>WanderHawaii</h3>
-                <p>Your gateway to 500+ epic Hawaiian adventures. Book with confidence!</p>
-            </div>
-            <div class="footer-section">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#islands">Islands</a></li>
-                    <li><a href="#activities">Activities</a></li>
-                    <li><a href="#deals">Hot Deals</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Support</h4>
-                <ul>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Terms</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 WanderHawaii. All adventures, all islands, all amazing! 🌴</p>
-        </div>
-    </footer>
+    <div class="islands-grid">
+        <div class="island-card" data-island="Oahu"><h3>Oahu</h3><p>249 Adventures</p></div>
+        <div class="island-card" data-island="Maui"><h3>Maui</h3><p>83 Adventures</p></div>
+        <div class="island-card" data-island="Big Island"><h3>Big Island</h3><p>115 Adventures</p></div>
+        <div class="island-card" data-island="Kauai"><h3>Kauai</h3><p>41 Adventures</p></div>
+    </div>
+</section>
 
-    <script src="app.js"></script>
+<!-- TOP 10 TODAY -->
+<section id="top10" style="padding:40px 20px;">
+    <h2 style="text-align:center;font-size:2rem;">🔥 Today's Top 10 Picks 🔥</h2>
+    <div id="tours-grid" class="tours-grid">
+        <div class="loading">Loading today’s hottest adventures… 🌴</div>
+    </div>
+</section>
+
+<!-- ACTIVITIES -->
+<section id="activities" style="padding:40px 20px;text-align:center;">
+    <h2 style="font-size:2rem;">Choose an Activity</h2>
+    <div class="activities-grid" style="margin-top:20px;">
+        <div class="activity-card">🤿 Snorkel</div>
+        <div class="activity-card">🏄 Surf</div>
+        <div class="activity-card">⚡ Zipline</div>
+        <div class="activity-card">🚁 Helicopter</div>
+        <div class="activity-card">🚤 Boat Tours</div>
+        <div class="activity-card">🌋 Volcano</div>
+    </div>
+</section>
+
+<!-- HIDDEN SEO CONTENT -->
+<section style="padding:40px 20px;max-width:900px;margin:auto;color:#333;">
+    <h2>Plan the Perfect Hawaii Adventure</h2>
+    <p>Hawaii offers world-class snorkeling, dramatic volcanic landscapes, breathtaking helicopter flights, and unforgettable cultural experiences. Whether you're staying on Oahu, Maui, Big Island, or Kauai, our curated guides and real-time data help you find the best activities available today.</p>
+</section>
+
+<!-- FOOTER -->
+<footer style="background:#222;color:#ccc;padding:40px 20px;text-align:center;">
+    <h3>WanderHawaii</h3>
+    <p>Your gateway to 500+ Hawaii adventures.</p>
+    <p>&copy; 2025 WanderHawaii</p>
+</footer>
+
+<script src="app.js"></script>
 </body>
 </html>
