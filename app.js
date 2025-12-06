@@ -1,11 +1,26 @@
-// WANDERHAWAII - CLEAN FINAL VERSION
+// WANDERHAWAII - FINAL VERSION
 
 let allTours = [];
 let displayedTours = [];
 let currentPage = 0;
 const toursPerPage = 12;
 
-// Shuffle array
+// ===== CYCLING BACKGROUND IMAGES =====
+let currentBgSlide = 0;
+const bgSlides = document.querySelectorAll('.bg-slide');
+
+function cycleBackground() {
+    if (bgSlides.length === 0) return;
+    
+    bgSlides[currentBgSlide].classList.remove('active');
+    currentBgSlide = (currentBgSlide + 1) % bgSlides.length;
+    bgSlides[currentBgSlide].classList.add('active');
+}
+
+// Change background every 6 seconds
+setInterval(cycleBackground, 6000);
+
+// ===== SHUFFLE =====
 function shuffleArray(arr) {
     const a = [...arr];
     for (let i = a.length - 1; i > 0; i--) {
@@ -15,7 +30,7 @@ function shuffleArray(arr) {
     return a;
 }
 
-// Load tours
+// ===== LOAD TOURS =====
 async function loadTours() {
     try {
         const response = await fetch('tours-data.json');
@@ -29,7 +44,7 @@ async function loadTours() {
     }
 }
 
-// Render tours
+// ===== RENDER TOURS =====
 function renderTours(append = false) {
     const grid = document.getElementById('tours-grid');
     
@@ -67,12 +82,12 @@ function renderTours(append = false) {
     updateResultsCount();
 }
 
-// Create tour card
+// ===== CREATE TOUR CARD =====
 function createTourCard(tour) {
     const card = document.createElement('article');
     card.className = 'tour-card';
     
-    // Badge - only for special tours
+    // Badge - only for truly special tours
     let badge = '';
     if (tour.tags.includes('Private') && tour.quality === 100) {
         badge = '<div class="tour-badge vip">👑 VIP</div>';
@@ -111,7 +126,7 @@ function createTourCard(tour) {
     return card;
 }
 
-// Filters
+// ===== FILTERS =====
 function applyFilters() {
     const search = document.getElementById('search-input').value.toLowerCase().trim();
     const island = document.getElementById('island-filter').value;
@@ -120,40 +135,24 @@ function applyFilters() {
     const sort = document.getElementById('sort-filter').value;
     
     displayedTours = allTours.filter(tour => {
-        // Search
         if (search) {
             const text = `${tour.name} ${tour.company} ${tour.island} ${tour.tags.join(' ')}`.toLowerCase();
             if (!text.includes(search)) return false;
         }
-        
-        // Island
         if (island && tour.island !== island) return false;
-        
-        // Activity
         if (activity && !tour.tags.some(t => t.toLowerCase().includes(activity.toLowerCase()))) return false;
-        
-        // Price
         if (price) {
             const [min, max] = price.split('-').map(Number);
             if (tour.priceMin > max || tour.priceMax < min) return false;
         }
-        
         return true;
     });
     
-    // Sort
     switch(sort) {
-        case 'price-low':
-            displayedTours.sort((a, b) => a.priceMin - b.priceMin);
-            break;
-        case 'price-high':
-            displayedTours.sort((a, b) => b.priceMax - a.priceMax);
-            break;
-        case 'popular':
-            displayedTours.sort((a, b) => b.availability - a.availability);
-            break;
-        default: // featured
-            displayedTours.sort((a, b) => (b.quality * b.priceMax) - (a.quality * a.priceMax));
+        case 'price-low': displayedTours.sort((a, b) => a.priceMin - b.priceMin); break;
+        case 'price-high': displayedTours.sort((a, b) => b.priceMax - a.priceMax); break;
+        case 'popular': displayedTours.sort((a, b) => b.availability - a.availability); break;
+        default: displayedTours.sort((a, b) => (b.quality * b.priceMax) - (a.quality * a.priceMax));
     }
     
     renderTours();
@@ -180,7 +179,7 @@ function clearFilters() {
     renderTours();
 }
 
-// Update counts
+// ===== UPDATE COUNTS =====
 function updateResultsCount() {
     document.getElementById('results-count').textContent = 
         `Showing ${Math.min(displayedTours.length, (currentPage + 1) * toursPerPage)} of ${displayedTours.length} adventures`;
@@ -196,7 +195,7 @@ function updateIslandCounts() {
     document.getElementById('kauai-count').textContent = `${counts.Kauai} Adventures`;
 }
 
-// Event listeners
+// ===== EVENT LISTENERS =====
 document.addEventListener('DOMContentLoaded', () => {
     loadTours();
     
@@ -213,12 +212,12 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('sort-filter').onchange = applyFilters;
     document.getElementById('clear-filters').onclick = clearFilters;
     
-    // Carousel pills
+    // Carousel
     document.querySelectorAll('.carousel-pill').forEach(pill => {
         pill.onclick = () => searchFor(pill.dataset.search);
     });
     
-    // Island cards
+    // Islands
     document.querySelectorAll('.island-card').forEach(card => {
         card.onclick = () => filterByIsland(card.dataset.island);
     });
@@ -249,7 +248,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 });
 
-// Notifications
+// ===== NOTIFICATIONS =====
 const notifications = [
     ['Sarah from Tampa', 'sunset sail'],
     ['Mike from Seattle', 'volcano tour'],
@@ -264,14 +263,13 @@ const notifications = [
 ];
 
 let notifIndex = 0;
-let notifVisible = true;
 let notifCount = 0;
 
 function showNotification() {
     const el = document.getElementById('notification');
-    const [name, activity] = notifications[notifIndex];
+    if (!el) return;
     
-    el.querySelector('.notification-name').textContent = name;
+    const [name, activity] = notifications[notifIndex];
     el.querySelector('.notification-text').innerHTML = `<strong class="notification-name">${name}</strong> just booked a ${activity}!`;
     
     el.style.opacity = '1';
@@ -280,7 +278,6 @@ function showNotification() {
     notifIndex = (notifIndex + 1) % notifications.length;
     notifCount++;
     
-    // After showing 5, hide for 30 seconds
     if (notifCount >= 5) {
         setTimeout(() => {
             el.style.opacity = '0';
