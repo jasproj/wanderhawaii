@@ -521,6 +521,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 2000);
     });
     
+    // Carousel pills
+    document.querySelectorAll('.carousel-pill').forEach(pill => {
+        pill.addEventListener('click', () => {
+            const searchTerm = pill.dataset.search;
+            document.getElementById('search-input').value = searchTerm;
+            applyFilters();
+        });
+    });
+    
     // Island cards
     document.querySelectorAll('.island-card').forEach(card => {
         card.addEventListener('click', () => {
