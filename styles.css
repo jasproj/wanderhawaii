@@ -533,50 +533,6 @@ nav {
 }
 
 /* ===================================
-   RESULTS + SHUFFLE
-   =================================== */
-.results-section {
-    position: relative;
-    z-index: 10;
-    max-width: 1200px;
-    margin: 0 auto 1.5rem;
-    padding: 0 2rem;
-}
-
-.results-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-#results-count {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--white);
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-}
-
-.shuffle-btn {
-    background: linear-gradient(135deg, var(--palm-green), var(--sky-blue));
-    color: var(--white);
-    border: 3px solid var(--white);
-    padding: 0.8rem 1.5rem;
-    border-radius: 50px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: all 0.3s;
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.9rem;
-}
-
-.shuffle-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 5px 20px rgba(46,204,113,0.4);
-}
-
-/* ===================================
    TOURS GRID
    =================================== */
 .featured-section {
@@ -601,6 +557,25 @@ nav {
 .section-header p {
     color: #666;
     font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section-header .shuffle-btn {
+    background: linear-gradient(135deg, var(--sunset-orange), var(--sunset-red));
+    color: var(--white);
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+
+.section-header .shuffle-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px rgba(255,78,80,0.4);
 }
 
 .tours-grid {
@@ -667,6 +642,19 @@ nav {
 .tour-badge.hot { background: var(--sunset-red); }
 .tour-badge.top { background: var(--deep-purple); }
 .tour-badge.popular { background: var(--palm-green); }
+.tour-badge.premium { background: linear-gradient(135deg, #FFD700, #FFA500); color: #333; }
+
+.tour-price-tag {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    background: rgba(0,0,0,0.8);
+    color: var(--white);
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
 
 .tour-content {
     padding: 1.5rem;
@@ -685,10 +673,21 @@ nav {
 
 .tour-content h3 {
     font-family: 'Passion One', cursive;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 0.5rem;
     color: var(--dark);
     line-height: 1.2;
+}
+
+.tour-description {
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .tour-tags {
@@ -1086,20 +1085,11 @@ nav {
     display: flex;
     align-items: center;
     gap: 1rem;
-    animation: notification-slide 0.5s ease-out;
     border: 3px solid var(--sunset-orange);
     max-width: 350px;
-}
-
-@keyframes notification-slide {
-    from {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    transition: all 0.4s ease;
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .notification-icon { font-size: 2rem; }
