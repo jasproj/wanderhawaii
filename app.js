@@ -254,11 +254,86 @@ function createTourCard(tour) {
 // ===================================
 // SEARCH & FILTERS
 // ===================================
+
+// Search synonyms - map common terms to actual tag names
+const searchSynonyms = {
+    'fish': 'Fishing',
+    'fishing': 'Fishing',
+    'whale': 'Whale Watch',
+    'whales': 'Whale Watch',
+    'whale watching': 'Whale Watch',
+    'dolphin': 'Dolphin',
+    'dolphins': 'Dolphin',
+    'swim with dolphins': 'Dolphin',
+    'snorkel': 'Snorkel',
+    'snorkeling': 'Snorkel',
+    'dive': 'Scuba',
+    'diving': 'Scuba',
+    'scuba': 'Scuba',
+    'surf': 'Surf',
+    'surfing': 'Surf',
+    'surf lesson': 'Surf',
+    'kayak': 'Kayak',
+    'kayaking': 'Kayak',
+    'paddle': 'SUP',
+    'paddleboard': 'SUP',
+    'sup': 'SUP',
+    'boat': 'Boat Tour',
+    'cruise': 'Boat Tour',
+    'sunset cruise': 'Boat Tour',
+    'sail': 'Sailing',
+    'sailing': 'Sailing',
+    'catamaran': 'Catamaran',
+    'hike': 'Hiking',
+    'hiking': 'Hiking',
+    'food': 'Food Tour',
+    'eat': 'Food Tour',
+    'restaurant': 'Food Tour',
+    'bike': 'Bike',
+    'biking': 'Bike',
+    'bicycle': 'Bike',
+    'zipline': 'Zipline',
+    'zip line': 'Zipline',
+    'zip': 'Zipline',
+    'helicopter': 'Sightseeing',
+    'heli': 'Sightseeing',
+    'raft': 'Rafting',
+    'rafting': 'Rafting',
+    'jet ski': 'Jet Ski',
+    'jetski': 'Jet Ski',
+    'parasail': 'Parasail',
+    'parasailing': 'Parasail',
+    'canoe': 'Canoe',
+    'outrigger': 'Canoe',
+    'turtle': 'Snorkel',
+    'turtles': 'Snorkel',
+    'manta': 'Scuba',
+    'manta ray': 'Scuba',
+    'shark': 'Scuba',
+    'private': 'Private',
+    'vip': 'Private',
+    'exclusive': 'Private',
+    'museum': 'Museum',
+    'history': 'History Tour',
+    'historical': 'History Tour',
+    'pearl harbor': 'History Tour',
+    'farm': 'Farm',
+    'coffee': 'Farm',
+    'luau': 'Events',
+    'party': 'Events'
+};
+
 function applyFilters() {
-    const searchTerm = document.getElementById('search-input').value.toLowerCase().trim();
+    let searchTerm = document.getElementById('search-input').value.toLowerCase().trim();
     const islandFilter = document.getElementById('island-filter').value;
     const activityFilter = document.getElementById('activity-filter').value;
     const sortFilter = document.getElementById('sort-filter').value;
+    
+    // Check for synonyms
+    let expandedSearch = searchTerm;
+    if (searchSynonyms[searchTerm]) {
+        expandedSearch = searchSynonyms[searchTerm].toLowerCase();
+    }
     
     displayedTours = allTours.filter(tour => {
         if (!searchTerm) {
@@ -275,8 +350,11 @@ function applyFilters() {
             ...tour.tags.map(t => t.toLowerCase())
         ].join(' ');
         
+        // Try both original search and expanded synonym
         const searchWords = searchTerm.split(' ').filter(w => w.length > 0);
-        const matchesSearch = searchWords.every(word => searchableText.includes(word));
+        const matchesOriginal = searchWords.every(word => searchableText.includes(word));
+        const matchesExpanded = searchableText.includes(expandedSearch);
+        const matchesSearch = matchesOriginal || matchesExpanded;
         
         const matchesIsland = !islandFilter || tour.island === islandFilter;
         const matchesActivity = !activityFilter || 
@@ -306,7 +384,11 @@ function filterByIsland(island) {
 }
 
 function getSearchSuggestions() {
-    return ['snorkeling', 'helicopter', 'surfing', 'zipline', 'kayak', 'sunset cruise', 'volcano', 'luau', 'whale watching'];
+    return [
+        'snorkeling', 'boat tour', 'whale watching', 'dolphin', 
+        'kayaking', 'fishing', 'surfing', 'sailing', 'scuba diving',
+        'hiking', 'food tour', 'sunset cruise', 'private tour'
+    ];
 }
 
 function searchFor(term) {
