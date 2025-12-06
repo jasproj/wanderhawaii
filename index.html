@@ -3,35 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- PRIMARY SEO -->
-    <title>WanderHawaii - 500+ Hawaiian Tours & Activities | Best Local Prices</title>
-    <meta name="description" content="Already in Hawaii? Find the best things to do TODAY! 500+ tours across Oahu, Maui, Big Island & Kauai. Snorkeling, helicopters, luaus, surfing & more.">
-    <meta name="keywords" content="Hawaii tours, things to do in Hawaii, Oahu activities, Maui tours, Big Island adventures, Kauai activities">
-    <link rel="canonical" href="https://wanderhawaii.com/">
-    
-    <!-- OPEN GRAPH -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://wanderhawaii.com/">
-    <meta property="og:title" content="WanderHawaii - 500+ Hawaiian Adventures">
-    <meta property="og:description" content="Already in Hawaii? Discover 500+ epic adventures across all islands.">
-    
-    <!-- FAVICON -->
+    <title>WanderHawaii - 500+ Hawaiian Tours & Adventures</title>
+    <meta name="description" content="Find the best things to do in Hawaii! 500+ tours across Oahu, Maui, Big Island & Kauai.">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌺</text></svg>">
-    
-    <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Background -->
-    <div class="hero-background"></div>
+    <!-- Cycling Background Images -->
+    <div class="hero-background">
+        <div class="bg-slide active"></div>
+        <div class="bg-slide"></div>
+        <div class="bg-slide"></div>
+        <div class="bg-slide"></div>
+        <div class="bg-slide"></div>
+        <div class="bg-slide"></div>
+        <div class="bg-slide"></div>
+        <div class="bg-slide"></div>
+    </div>
 
     <!-- Header -->
-    <header id="main-header">
+    <header>
         <nav>
             <a href="/" class="logo-container">
                 <div class="logo">🌺 WanderHawaii</div>
@@ -49,13 +43,13 @@
 
     <!-- HERO -->
     <section class="hero">
-        <h1>FIND YOUR HAWAII ADVENTURE</h1>
-        <p class="subtitle">500+ Tours Across All Islands</p>
+        <h1 class="hero-logo">🌺 WanderHawaii</h1>
+        <p class="subtitle">500+ Adventures Across All Islands</p>
         
         <div class="search-container">
             <div class="search-box">
-                <input type="text" id="search-input" placeholder="What do you want to do?" aria-label="Search tours">
-                <button id="search-btn">SEARCH 🔍</button>
+                <input type="text" id="search-input" placeholder="What adventure are you looking for?" aria-label="Search tours">
+                <button id="search-btn">FIND IT! 🔍</button>
             </div>
             
             <!-- Scrolling Activity Carousel -->
@@ -72,8 +66,8 @@
                     <button class="carousel-pill" data-search="scuba">🤿 Scuba</button>
                     <button class="carousel-pill" data-search="food tour">🍔 Food Tours</button>
                     <button class="carousel-pill" data-search="hiking">🥾 Hiking</button>
-                    <button class="carousel-pill" data-search="private">👑 Private</button>
-                    <!-- Duplicate for seamless loop -->
+                    <button class="carousel-pill" data-search="private">👑 Private Tours</button>
+                    <!-- Duplicate for loop -->
                     <button class="carousel-pill" data-search="boat tour">🚤 Boat Tours</button>
                     <button class="carousel-pill" data-search="snorkel">🤿 Snorkeling</button>
                     <button class="carousel-pill" data-search="whale watch">🐋 Whale Watching</button>
@@ -86,7 +80,7 @@
     </section>
 
     <!-- FILTERS -->
-    <section class="filters-section" id="filters-section">
+    <section class="filters-section">
         <div class="filters-container">
             <div class="filter-group">
                 <label for="island-filter">🏝️ Island</label>
@@ -139,7 +133,7 @@
         </div>
     </section>
 
-    <!-- TOURS GRID -->
+    <!-- TOURS -->
     <section class="featured-section" id="tours-section">
         <div class="section-header">
             <p id="results-count">Showing 500 adventures</p>
@@ -151,7 +145,7 @@
         </div>
 
         <div class="load-more-container" id="load-more-container" style="display: none;">
-            <button id="load-more-btn" class="load-more-btn">Load More 🚀</button>
+            <button id="load-more-btn" class="load-more-btn">Load More Adventures 🚀</button>
         </div>
     </section>
 
@@ -196,7 +190,7 @@
         </div>
     </section>
 
-    <!-- WHY CHOOSE US -->
+    <!-- WHY US -->
     <section class="why-section" id="why">
         <div class="section-header">
             <h2>WHY WANDERHAWAII?</h2>
@@ -225,7 +219,7 @@
         </div>
     </section>
 
-    <!-- EMAIL SIGNUP -->
+    <!-- EMAIL -->
     <section class="email-section">
         <div class="email-container">
             <h2>🌺 GET EXCLUSIVE DEALS</h2>
@@ -258,11 +252,11 @@
         </div>
     </section>
 
-    <!-- FOMO NOTIFICATION -->
+    <!-- NOTIFICATION -->
     <div class="notification" id="notification">
         <div class="notification-icon">🎉</div>
         <div class="notification-text">
-            <strong class="notification-name">Sarah from Tampa</strong> just booked!
+            <strong class="notification-name">Sarah</strong> just booked!
         </div>
     </div>
 
