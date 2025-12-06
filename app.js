@@ -1,24 +1,26 @@
-// WANDERHAWAII - FINAL VERSION
+// WANDERHAWAII - FINAL
 
 let allTours = [];
 let displayedTours = [];
 let currentPage = 0;
 const toursPerPage = 12;
 
-// ===== CYCLING BACKGROUND IMAGES =====
+// ===== ROTATING BACKGROUND - 6 SECONDS =====
 let currentBgSlide = 0;
-const bgSlides = document.querySelectorAll('.bg-slide');
 
-function cycleBackground() {
-    if (bgSlides.length === 0) return;
+function initBackgroundSlider() {
+    const slides = document.querySelectorAll('.bg-slide');
+    if (slides.length === 0) return;
     
-    bgSlides[currentBgSlide].classList.remove('active');
-    currentBgSlide = (currentBgSlide + 1) % bgSlides.length;
-    bgSlides[currentBgSlide].classList.add('active');
+    setInterval(() => {
+        slides[currentBgSlide].classList.remove('active');
+        currentBgSlide = (currentBgSlide + 1) % slides.length;
+        slides[currentBgSlide].classList.add('active');
+    }, 6000);
 }
 
-// Change background every 6 seconds
-setInterval(cycleBackground, 6000);
+// Start background rotation
+initBackgroundSlider();
 
 // ===== SHUFFLE =====
 function shuffleArray(arr) {
@@ -39,7 +41,9 @@ async function loadTours() {
         displayedTours = [...allTours];
         renderTours();
         updateIslandCounts();
+        console.log('🌺 WanderHawaii loaded! ' + allTours.length + ' tours available.');
     } catch (error) {
+        console.error('Error loading tours:', error);
         document.getElementById('tours-grid').innerHTML = '<p class="loading">Error loading tours. Please refresh.</p>';
     }
 }
@@ -87,7 +91,7 @@ function createTourCard(tour) {
     const card = document.createElement('article');
     card.className = 'tour-card';
     
-    // Badge - only for truly special tours
+    // Badge - only for special tours
     let badge = '';
     if (tour.tags.includes('Private') && tour.quality === 100) {
         badge = '<div class="tour-badge vip">👑 VIP</div>';
@@ -212,12 +216,12 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('sort-filter').onchange = applyFilters;
     document.getElementById('clear-filters').onclick = clearFilters;
     
-    // Carousel
+    // Carousel pills
     document.querySelectorAll('.carousel-pill').forEach(pill => {
         pill.onclick = () => searchFor(pill.dataset.search);
     });
     
-    // Islands
+    // Island cards
     document.querySelectorAll('.island-card').forEach(card => {
         card.onclick = () => filterByIsland(card.dataset.island);
     });
@@ -241,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('email-input').value = '';
     };
     
-    // Logo
+    // Logo click
     document.querySelector('.logo-container').onclick = (e) => {
         e.preventDefault();
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -258,7 +262,7 @@ const notifications = [
     ['Ryan from Denver', 'kayak tour'],
     ['Emma from Chicago', 'dolphin swim'],
     ['Chris from Austin', 'manta dive'],
-    ['Lisa from Miami', 'zipline'],
+    ['Lisa from Miami', 'zipline adventure'],
     ['Tom from Phoenix', 'fishing trip']
 ];
 
@@ -278,6 +282,7 @@ function showNotification() {
     notifIndex = (notifIndex + 1) % notifications.length;
     notifCount++;
     
+    // Show 5, then hide for 30s
     if (notifCount >= 5) {
         setTimeout(() => {
             el.style.opacity = '0';
@@ -292,7 +297,7 @@ function showNotification() {
 
 setTimeout(showNotification, 3000);
 
-// Global
+// Global functions
 window.filterByIsland = filterByIsland;
 window.searchFor = searchFor;
 window.clearFilters = clearFilters;
