@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Cycling Background Images -->
+    <!-- Rotating Background Images -->
     <div class="hero-background">
         <div class="bg-slide active"></div>
         <div class="bg-slide"></div>
@@ -37,7 +37,7 @@
                 <li><a href="#why">Why Us</a></li>
                 <li><a href="#faq">FAQs</a></li>
             </ul>
-            <div class="mobile-menu-btn" id="mobile-menu-btn">☰</div>
+            <div class="mobile-menu-btn">☰</div>
         </nav>
     </header>
 
@@ -52,7 +52,7 @@
                 <button id="search-btn">FIND IT! 🔍</button>
             </div>
             
-            <!-- Scrolling Activity Carousel -->
+            <!-- Scrolling Carousel -->
             <div class="carousel-container">
                 <div class="carousel-track">
                     <button class="carousel-pill" data-search="boat tour">🚤 Boat Tours</button>
@@ -64,9 +64,8 @@
                     <button class="carousel-pill" data-search="surf">🏄 Surfing</button>
                     <button class="carousel-pill" data-search="fishing">🎣 Fishing</button>
                     <button class="carousel-pill" data-search="scuba">🤿 Scuba</button>
-                    <button class="carousel-pill" data-search="food tour">🍔 Food Tours</button>
                     <button class="carousel-pill" data-search="hiking">🥾 Hiking</button>
-                    <button class="carousel-pill" data-search="private">👑 Private Tours</button>
+                    <button class="carousel-pill" data-search="private">👑 Private</button>
                     <!-- Duplicate for loop -->
                     <button class="carousel-pill" data-search="boat tour">🚤 Boat Tours</button>
                     <button class="carousel-pill" data-search="snorkel">🤿 Snorkeling</button>
@@ -83,7 +82,7 @@
     <section class="filters-section">
         <div class="filters-container">
             <div class="filter-group">
-                <label for="island-filter">🏝️ Island</label>
+                <label>🏝️ Island</label>
                 <select id="island-filter">
                     <option value="">All Islands</option>
                     <option value="Oahu">Oahu</option>
@@ -93,7 +92,7 @@
                 </select>
             </div>
             <div class="filter-group">
-                <label for="activity-filter">🎯 Activity</label>
+                <label>🎯 Activity</label>
                 <select id="activity-filter">
                     <option value="">All Activities</option>
                     <option value="Snorkel">Snorkeling</option>
@@ -106,12 +105,11 @@
                     <option value="Scuba">Scuba Diving</option>
                     <option value="Fishing">Fishing</option>
                     <option value="Hiking">Hiking</option>
-                    <option value="Food Tour">Food Tours</option>
                     <option value="Private">Private Tours</option>
                 </select>
             </div>
             <div class="filter-group">
-                <label for="price-filter">💰 Price</label>
+                <label>💰 Price</label>
                 <select id="price-filter">
                     <option value="">All Prices</option>
                     <option value="0-75">Under $75</option>
@@ -121,7 +119,7 @@
                 </select>
             </div>
             <div class="filter-group">
-                <label for="sort-filter">↕️ Sort</label>
+                <label>↕️ Sort</label>
                 <select id="sort-filter">
                     <option value="featured">Featured</option>
                     <option value="price-low">Price: Low-High</option>
@@ -129,7 +127,7 @@
                     <option value="popular">Most Popular</option>
                 </select>
             </div>
-            <button id="clear-filters" class="clear-btn">Clear</button>
+            <button id="clear-filters" class="clear-btn">Clear All</button>
         </div>
     </section>
 
