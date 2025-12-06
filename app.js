@@ -1,5 +1,5 @@
 // ===================================
-// WANDERHAWAII V2.0 - FULL FEATURED
+// WANDERHAWAII V3.0 - FULL FEATURED
 // ===================================
 
 let allTours = [];
@@ -20,122 +20,25 @@ function shuffleArray(array) {
 }
 
 function smartShuffle(tours) {
-    const topTours = tours.filter(t => t.quality === 100);
-    const otherTours = tours.filter(t => t.quality < 100);
+    // Featured/premium tours (high price + high quality)
+    const premiumTours = tours.filter(t => t.priceMax >= 200 && t.quality >= 90);
+    const otherTours = tours.filter(t => !(t.priceMax >= 200 && t.quality >= 90));
     
-    const shuffledTop = shuffleArray(topTours);
+    const shuffledPremium = shuffleArray(premiumTours);
     const shuffledOthers = shuffleArray(otherTours);
     
     const result = [];
-    const topToShow = Math.floor(Math.random() * 3) + 3;
+    const premiumToShow = Math.min(Math.floor(Math.random() * 3) + 4, shuffledPremium.length);
     
-    result.push(...shuffledTop.slice(0, topToShow));
-    result.push(...shuffledOthers.slice(0, 12 - topToShow));
+    result.push(...shuffledPremium.slice(0, premiumToShow));
+    result.push(...shuffledOthers.slice(0, 12 - premiumToShow));
     
-    const remainingTop = shuffledTop.slice(topToShow);
-    const remainingOthers = shuffledOthers.slice(12 - topToShow);
-    const remaining = shuffleArray([...remainingTop, ...remainingOthers]);
+    const remainingPremium = shuffledPremium.slice(premiumToShow);
+    const remainingOthers = shuffledOthers.slice(12 - premiumToShow);
+    const remaining = shuffleArray([...remainingPremium, ...remainingOthers]);
     result.push(...remaining);
     
     return result;
-}
-
-// ===================================
-// WEATHER INTEGRATION
-// ===================================
-const islandCoordinates = {
-    'Oahu': { lat: 21.4389, lon: -158.0001 },
-    'Maui': { lat: 20.7984, lon: -156.3319 },
-    'Big Island': { lat: 19.5429, lon: -155.6659 },
-    'Kauai': { lat: 22.0964, lon: -159.5261 }
-};
-
-const weatherSuggestions = {
-    sunny: [
-        "Perfect for snorkeling & beach activities!",
-        "Great day for water sports!",
-        "Ideal conditions for outdoor adventures!"
-    ],
-    cloudy: [
-        "Good for hiking & sightseeing!",
-        "Nice for tours & cultural activities!",
-        "Perfect weather for exploring!"
-    ],
-    rainy: [
-        "Try indoor activities or drive to sunny side!",
-        "Great for waterfalls & lush scenery!",
-        "Museums & luaus are perfect today!"
-    ]
-};
-
-async function loadWeather() {
-    for (const [island, coords] of Object.entries(islandCoordinates)) {
-        try {
-            const response = await fetch(
-                `https://api.open-meteo.com/v1/forecast?latitude=${coords.lat}&longitude=${coords.lon}&current=temperature_2m,weather_code&temperature_unit=fahrenheit`
-            );
-            const data = await response.json();
-            updateWeatherCard(island, data.current);
-        } catch (error) {
-            console.log(`Weather unavailable for ${island}`);
-            setFallbackWeather(island);
-        }
-    }
-}
-
-function updateWeatherCard(island, weather) {
-    const islandKey = island.replace(' ', '').toLowerCase();
-    const tempEl = document.querySelector(`#weather-${islandKey} .weather-temp`);
-    const condEl = document.querySelector(`#weather-${islandKey} .weather-condition`);
-    const suggEl = document.getElementById(`suggestion-${islandKey}`);
-    
-    if (!tempEl) return;
-    
-    const temp = Math.round(weather.temperature_2m);
-    const code = weather.weather_code;
-    
-    let condition = 'Sunny ☀️';
-    let suggestionType = 'sunny';
-    
-    if (code >= 0 && code <= 1) {
-        condition = 'Sunny ☀️';
-        suggestionType = 'sunny';
-    } else if (code >= 2 && code <= 3) {
-        condition = 'Partly Cloudy ⛅';
-        suggestionType = 'sunny';
-    } else if (code >= 45 && code <= 48) {
-        condition = 'Foggy 🌫️';
-        suggestionType = 'cloudy';
-    } else if (code >= 51 && code <= 67) {
-        condition = 'Rainy 🌧️';
-        suggestionType = 'rainy';
-    } else if (code >= 80 && code <= 82) {
-        condition = 'Showers 🌦️';
-        suggestionType = 'rainy';
-    } else {
-        condition = 'Nice ⛅';
-        suggestionType = 'cloudy';
-    }
-    
-    tempEl.textContent = `${temp}°F`;
-    condEl.textContent = condition;
-    
-    const suggestions = weatherSuggestions[suggestionType];
-    suggEl.textContent = suggestions[Math.floor(Math.random() * suggestions.length)];
-}
-
-function setFallbackWeather(island) {
-    const islandKey = island.replace(' ', '').toLowerCase();
-    const tempEl = document.querySelector(`#weather-${islandKey} .weather-temp`);
-    const condEl = document.querySelector(`#weather-${islandKey} .weather-condition`);
-    const suggEl = document.getElementById(`suggestion-${islandKey}`);
-    
-    if (!tempEl) return;
-    
-    // Typical Hawaii weather
-    tempEl.textContent = '78°F';
-    condEl.textContent = 'Beautiful ☀️';
-    suggEl.textContent = 'Perfect day for any adventure!';
 }
 
 // ===================================
@@ -212,26 +115,36 @@ function createTourCard(tour) {
     const card = document.createElement('article');
     card.className = 'tour-card';
     
+    // Badge logic - premium tours get special badges
     let badge = '';
-    if (tour.quality === 100) {
-        badge = '<div class="tour-badge hot">🌋 HOT!</div>';
+    if (tour.priceMax >= 300) {
+        badge = '<div class="tour-badge premium">👑 PREMIUM</div>';
+    } else if (tour.quality === 100) {
+        badge = '<div class="tour-badge hot">🔥 HOT!</div>';
     } else if (tour.quality >= 99) {
         badge = '<div class="tour-badge top">⭐ TOP RATED</div>';
     } else if (tour.availability > 500) {
-        badge = '<div class="tour-badge popular">🔥 POPULAR</div>';
+        badge = '<div class="tour-badge popular">💎 POPULAR</div>';
     }
     
     const displayTags = tour.tags.slice(0, 3);
     const tagsHTML = displayTags.map(tag => `<span class="tour-tag">${tag}</span>`).join('');
     
+    // Price display
+    const priceDisplay = tour.priceMin === tour.priceMax 
+        ? `$${tour.priceMin}` 
+        : `$${tour.priceMin}-$${tour.priceMax}`;
+    
     card.innerHTML = `
         <div class="tour-image">
             ${tour.image ? `<img src="${tour.image}" alt="${tour.name}" loading="lazy" onerror="this.style.display='none'">` : ''}
             ${badge}
+            <div class="tour-price-tag">From ${priceDisplay}</div>
         </div>
         <div class="tour-content">
             <span class="tour-island">📍 ${tour.island}</span>
             <h3>${tour.name}</h3>
+            <p class="tour-description">${tour.description}</p>
             <div class="tour-tags">${tagsHTML}</div>
             <div class="tour-meta">
                 <div class="tour-info">
@@ -254,120 +167,95 @@ function createTourCard(tour) {
 // ===================================
 // SEARCH & FILTERS
 // ===================================
-
-// Search synonyms - map common terms to actual tag names
 const searchSynonyms = {
-    'fish': 'Fishing',
-    'fishing': 'Fishing',
-    'whale': 'Whale Watch',
-    'whales': 'Whale Watch',
-    'whale watching': 'Whale Watch',
-    'dolphin': 'Dolphin',
-    'dolphins': 'Dolphin',
-    'swim with dolphins': 'Dolphin',
-    'snorkel': 'Snorkel',
-    'snorkeling': 'Snorkel',
-    'dive': 'Scuba',
-    'diving': 'Scuba',
-    'scuba': 'Scuba',
-    'surf': 'Surf',
-    'surfing': 'Surf',
-    'surf lesson': 'Surf',
-    'kayak': 'Kayak',
-    'kayaking': 'Kayak',
-    'paddle': 'SUP',
-    'paddleboard': 'SUP',
-    'sup': 'SUP',
-    'boat': 'Boat Tour',
-    'cruise': 'Boat Tour',
-    'sunset cruise': 'Boat Tour',
-    'sail': 'Sailing',
-    'sailing': 'Sailing',
-    'catamaran': 'Catamaran',
-    'hike': 'Hiking',
-    'hiking': 'Hiking',
-    'food': 'Food Tour',
-    'eat': 'Food Tour',
-    'restaurant': 'Food Tour',
-    'bike': 'Bike',
-    'biking': 'Bike',
-    'bicycle': 'Bike',
-    'zipline': 'Zipline',
-    'zip line': 'Zipline',
-    'zip': 'Zipline',
-    'helicopter': 'Sightseeing',
-    'heli': 'Sightseeing',
-    'raft': 'Rafting',
-    'rafting': 'Rafting',
-    'jet ski': 'Jet Ski',
-    'jetski': 'Jet Ski',
-    'parasail': 'Parasail',
-    'parasailing': 'Parasail',
-    'canoe': 'Canoe',
-    'outrigger': 'Canoe',
-    'turtle': 'Snorkel',
-    'turtles': 'Snorkel',
-    'manta': 'Scuba',
-    'manta ray': 'Scuba',
-    'shark': 'Scuba',
-    'private': 'Private',
-    'vip': 'Private',
-    'exclusive': 'Private',
-    'museum': 'Museum',
-    'history': 'History Tour',
-    'historical': 'History Tour',
+    'fish': 'Fishing', 'fishing': 'Fishing',
+    'whale': 'Whale Watch', 'whales': 'Whale Watch',
+    'dolphin': 'Dolphin', 'dolphins': 'Dolphin',
+    'snorkel': 'Snorkel', 'snorkeling': 'Snorkel',
+    'dive': 'Scuba', 'diving': 'Scuba', 'scuba': 'Scuba',
+    'surf': 'Surf', 'surfing': 'Surf',
+    'kayak': 'Kayak', 'kayaking': 'Kayak',
+    'paddle': 'SUP', 'paddleboard': 'SUP',
+    'boat': 'Boat Tour', 'cruise': 'Boat Tour',
+    'sail': 'Sailing', 'sailing': 'Sailing',
+    'hike': 'Hiking', 'hiking': 'Hiking',
+    'food': 'Food Tour', 'eat': 'Food Tour',
+    'zipline': 'Zipline', 'zip': 'Zipline',
+    'helicopter': 'Sightseeing', 'heli': 'Sightseeing',
+    'raft': 'Rafting', 'rafting': 'Rafting',
+    'turtle': 'Snorkel', 'turtles': 'Snorkel',
+    'manta': 'Scuba', 'shark': 'Scuba',
+    'private': 'Private', 'vip': 'Private',
+    'museum': 'Museum', 'history': 'History Tour',
     'pearl harbor': 'History Tour',
-    'farm': 'Farm',
-    'coffee': 'Farm',
-    'luau': 'Events',
-    'party': 'Events'
+    'farm': 'Farm', 'coffee': 'Farm',
+    'luau': 'Events', 'party': 'Events'
 };
 
 function applyFilters() {
     let searchTerm = document.getElementById('search-input').value.toLowerCase().trim();
     const islandFilter = document.getElementById('island-filter').value;
     const activityFilter = document.getElementById('activity-filter').value;
+    const priceFilter = document.getElementById('price-filter').value;
     const sortFilter = document.getElementById('sort-filter').value;
     
-    // Check for synonyms
     let expandedSearch = searchTerm;
     if (searchSynonyms[searchTerm]) {
         expandedSearch = searchSynonyms[searchTerm].toLowerCase();
     }
     
     displayedTours = allTours.filter(tour => {
-        if (!searchTerm) {
-            const matchesIsland = !islandFilter || tour.island === islandFilter;
-            const matchesActivity = !activityFilter || 
-                tour.tags.some(tag => tag.toLowerCase().includes(activityFilter.toLowerCase()));
-            return matchesIsland && matchesActivity;
+        // Search filter
+        let matchesSearch = true;
+        if (searchTerm) {
+            const searchableText = [
+                tour.name.toLowerCase(),
+                tour.company.toLowerCase(),
+                tour.island.toLowerCase(),
+                tour.description.toLowerCase(),
+                ...tour.tags.map(t => t.toLowerCase())
+            ].join(' ');
+            
+            const searchWords = searchTerm.split(' ').filter(w => w.length > 0);
+            const matchesOriginal = searchWords.every(word => searchableText.includes(word));
+            const matchesExpanded = searchableText.includes(expandedSearch);
+            matchesSearch = matchesOriginal || matchesExpanded;
         }
         
-        const searchableText = [
-            tour.name.toLowerCase(),
-            tour.company.toLowerCase(),
-            tour.island.toLowerCase(),
-            ...tour.tags.map(t => t.toLowerCase())
-        ].join(' ');
-        
-        // Try both original search and expanded synonym
-        const searchWords = searchTerm.split(' ').filter(w => w.length > 0);
-        const matchesOriginal = searchWords.every(word => searchableText.includes(word));
-        const matchesExpanded = searchableText.includes(expandedSearch);
-        const matchesSearch = matchesOriginal || matchesExpanded;
-        
+        // Island filter
         const matchesIsland = !islandFilter || tour.island === islandFilter;
+        
+        // Activity filter
         const matchesActivity = !activityFilter || 
             tour.tags.some(tag => tag.toLowerCase().includes(activityFilter.toLowerCase()));
         
-        return matchesSearch && matchesIsland && matchesActivity;
+        // Price filter
+        let matchesPrice = true;
+        if (priceFilter) {
+            const [minPrice, maxPrice] = priceFilter.split('-').map(Number);
+            matchesPrice = tour.priceMin <= maxPrice && tour.priceMax >= minPrice;
+        }
+        
+        return matchesSearch && matchesIsland && matchesActivity && matchesPrice;
     });
     
     // Sort
-    if (sortFilter === 'quality') {
-        displayedTours.sort((a, b) => b.quality - a.quality);
-    } else if (sortFilter === 'availability') {
-        displayedTours.sort((a, b) => b.availability - a.availability);
+    switch(sortFilter) {
+        case 'featured':
+            displayedTours.sort((a, b) => (b.priceMax * b.quality) - (a.priceMax * a.quality));
+            break;
+        case 'quality':
+            displayedTours.sort((a, b) => b.quality - a.quality);
+            break;
+        case 'popular':
+            displayedTours.sort((a, b) => b.availability - a.availability);
+            break;
+        case 'price-high':
+            displayedTours.sort((a, b) => b.priceMax - a.priceMax);
+            break;
+        case 'price-low':
+            displayedTours.sort((a, b) => a.priceMin - b.priceMin);
+            break;
     }
     
     currentPage = 0;
@@ -379,16 +267,13 @@ function applyFilters() {
 function filterByIsland(island) {
     document.getElementById('island-filter').value = island;
     document.getElementById('activity-filter').value = '';
+    document.getElementById('price-filter').value = '';
     document.getElementById('search-input').value = '';
     applyFilters();
 }
 
 function getSearchSuggestions() {
-    return [
-        'snorkeling', 'boat tour', 'whale watching', 'dolphin', 
-        'kayaking', 'fishing', 'surfing', 'sailing', 'scuba diving',
-        'hiking', 'food tour', 'sunset cruise', 'private tour'
-    ];
+    return ['snorkeling', 'boat tour', 'whale watching', 'dolphin', 'kayaking', 'fishing', 'surfing', 'sailing', 'private tour'];
 }
 
 function searchFor(term) {
@@ -400,14 +285,13 @@ function searchFor(term) {
 // UI UPDATES
 // ===================================
 function updateResultsCount() {
-    const count = document.getElementById('results-count');
+    const subtitle = document.getElementById('section-subtitle');
     const total = displayedTours.length;
-    const showing = Math.min((currentPage + 1) * toursPerPage, total);
     
     if (total === allTours.length) {
-        count.textContent = `Showing all ${total} adventures`;
+        subtitle.textContent = `Showing all ${total} adventures across the islands`;
     } else {
-        count.textContent = `Found ${total} adventures • Showing ${showing}`;
+        subtitle.textContent = `Found ${total} adventures matching your search`;
     }
 }
 
@@ -435,27 +319,16 @@ function updateStats() {
 
 function updateSectionTitle() {
     const titles = [
-        '🔥 TOURS AVAILABLE NOW 🔥',
-        '⚡ FRESH PICKS FOR YOU ⚡',
-        '🌟 DISCOVER THESE GEMS 🌟',
-        '🎯 TODAY\'S TOP ADVENTURES 🎯',
-        '💎 HANDPICKED FOR YOU 💎'
-    ];
-    
-    const subtitles = [
-        'Book instantly • Free cancellation on most tours',
-        'Refreshed just for you!',
-        'Something amazing awaits!',
-        'Don\'t miss these experiences!',
-        'Curated adventures across all islands'
+        '🌺 ISLAND ADVENTURES AWAIT 🌺',
+        '🌴 YOUR HAWAIIAN JOURNEY STARTS HERE 🌴',
+        '🔥 TOP PICKS ACROSS THE ISLANDS 🔥',
+        '✨ UNFORGETTABLE EXPERIENCES ✨',
+        '🌊 DIVE INTO PARADISE 🌊'
     ];
     
     const idx = Math.floor(Math.random() * titles.length);
     const titleEl = document.getElementById('tours-title');
-    const subEl = document.getElementById('section-subtitle');
-    
     if (titleEl) titleEl.textContent = titles[idx];
-    if (subEl) subEl.textContent = subtitles[idx];
 }
 
 // ===================================
@@ -463,7 +336,6 @@ function updateSectionTitle() {
 // ===================================
 document.addEventListener('DOMContentLoaded', () => {
     loadTours();
-    loadWeather();
     
     // Search
     document.getElementById('search-btn').addEventListener('click', applyFilters);
@@ -474,6 +346,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Filters
     document.getElementById('island-filter').addEventListener('change', applyFilters);
     document.getElementById('activity-filter').addEventListener('change', applyFilters);
+    document.getElementById('price-filter').addEventListener('change', applyFilters);
     document.getElementById('sort-filter').addEventListener('change', applyFilters);
     
     // Clear filters
@@ -481,44 +354,10 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('search-input').value = '';
         document.getElementById('island-filter').value = '';
         document.getElementById('activity-filter').value = '';
-        document.getElementById('sort-filter').value = 'popular';
-        document.querySelectorAll('.pill').forEach(pill => pill.classList.remove('active'));
+        document.getElementById('price-filter').value = '';
+        document.getElementById('sort-filter').value = 'featured';
         displayedTours = [...allTours];
         renderTours();
-    });
-    
-    // Quick filter pills
-    document.querySelectorAll('.pill').forEach(pill => {
-        pill.addEventListener('click', () => {
-            document.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
-            pill.classList.add('active');
-            
-            if (pill.dataset.island) {
-                document.getElementById('island-filter').value = pill.dataset.island;
-            } else if (pill.dataset.tag) {
-                document.getElementById('activity-filter').value = pill.dataset.tag;
-            }
-            applyFilters();
-        });
-    });
-    
-    // Load more
-    document.getElementById('load-more-btn').addEventListener('click', () => {
-        currentPage++;
-        renderTours(true);
-    });
-    
-    // Shuffle
-    document.getElementById('shuffle-btn').addEventListener('click', () => {
-        allTours = smartShuffle(allTours);
-        updateSectionTitle();
-        applyFilters();
-        
-        const btn = document.getElementById('shuffle-btn');
-        btn.textContent = '✨ Shuffled!';
-        setTimeout(() => {
-            btn.textContent = '🎲 Show Me Different Tours!';
-        }, 2000);
     });
     
     // Carousel pills
@@ -537,6 +376,26 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
     
+    // Load more
+    document.getElementById('load-more-btn').addEventListener('click', () => {
+        currentPage++;
+        renderTours(true);
+    });
+    
+    // Shuffle
+    document.getElementById('shuffle-btn').addEventListener('click', () => {
+        allTours = smartShuffle(allTours);
+        displayedTours = [...allTours];
+        updateSectionTitle();
+        renderTours();
+        
+        const btn = document.getElementById('shuffle-btn');
+        btn.textContent = '✨ Refreshed!';
+        setTimeout(() => {
+            btn.textContent = '🎲 Surprise Me!';
+        }, 2000);
+    });
+    
     // Email form
     document.getElementById('email-form').addEventListener('submit', (e) => {
         e.preventDefault();
@@ -553,38 +412,104 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // ===================================
-// FOMO NOTIFICATIONS
+// FOMO NOTIFICATIONS - 4 ROTATING LISTS
 // ===================================
-const notifications = [
-    { name: 'Sarah from Tampa', activity: 'snorkel tour', emoji: '🤿' },
-    { name: 'Mike from Seattle', activity: 'helicopter tour', emoji: '🚁' },
-    { name: 'Jessica from NYC', activity: 'sunset cruise', emoji: '🌅' },
-    { name: 'David from Boston', activity: 'volcano tour', emoji: '🌋' },
-    { name: 'Amanda from LA', activity: 'surf lesson', emoji: '🏄' },
-    { name: 'Ryan from Denver', activity: 'kayak adventure', emoji: '🚣' },
-    { name: 'Emma from Chicago', activity: 'luau experience', emoji: '🌺' },
-    { name: 'Chris from Austin', activity: 'manta ray dive', emoji: '🦈' },
-    { name: 'Lisa from Miami', activity: 'zipline tour', emoji: '⚡' },
-    { name: 'Tom from Phoenix', activity: 'whale watching', emoji: '🐋' }
+const notificationLists = [
+    // List 1
+    [
+        { name: 'Sarah from Tampa', activity: 'sunset sail', emoji: '⛵' },
+        { name: 'Mike from Seattle', activity: 'volcano tour', emoji: '🌋' },
+        { name: 'Jessica from NYC', activity: 'snorkel adventure', emoji: '🤿' },
+        { name: 'David from Boston', activity: 'whale watching', emoji: '🐋' },
+        { name: 'Amanda from LA', activity: 'helicopter tour', emoji: '🚁' },
+    ],
+    // List 2
+    [
+        { name: 'Ryan from Denver', activity: 'kayak tour', emoji: '🚣' },
+        { name: 'Emma from Chicago', activity: 'dolphin swim', emoji: '🐬' },
+        { name: 'Chris from Austin', activity: 'manta ray dive', emoji: '🦈' },
+        { name: 'Lisa from Miami', activity: 'zipline adventure', emoji: '⚡' },
+        { name: 'Tom from Phoenix', activity: 'fishing charter', emoji: '🎣' },
+    ],
+    // List 3
+    [
+        { name: 'Jennifer from Portland', activity: 'catamaran cruise', emoji: '🛥️' },
+        { name: 'Matt from Atlanta', activity: 'surf lesson', emoji: '🏄' },
+        { name: 'Nicole from Dallas', activity: 'food tour', emoji: '🍔' },
+        { name: 'Kevin from San Diego', activity: 'scuba diving', emoji: '🤿' },
+        { name: 'Rachel from Boston', activity: 'hiking tour', emoji: '🥾' },
+    ],
+    // List 4
+    [
+        { name: 'Brandon from Vegas', activity: 'private yacht', emoji: '🛥️' },
+        { name: 'Megan from Houston', activity: 'pearl harbor tour', emoji: '📜' },
+        { name: 'Tyler from Nashville', activity: 'parasailing', emoji: '🪂' },
+        { name: 'Ashley from Orlando', activity: 'eco tour', emoji: '🌿' },
+        { name: 'Josh from Philly', activity: 'paddleboard tour', emoji: '🏄' },
+    ]
 ];
 
-let notificationIndex = 0;
-setInterval(() => {
-    notificationIndex = (notificationIndex + 1) % notifications.length;
-    const notif = notifications[notificationIndex];
-    
+let currentListIndex = 0;
+let currentNotifIndex = 0;
+let isShowingNotifications = true;
+let notificationTimer = null;
+let pauseTimer = null;
+
+function showNotification(notif) {
     const notificationEl = document.getElementById('notification');
     if (!notificationEl) return;
     
-    notificationEl.style.animation = 'none';
+    // Slide out first
+    notificationEl.style.transform = 'translateY(100px)';
+    notificationEl.style.opacity = '0';
+    
     setTimeout(() => {
         document.querySelector('.notification-icon').textContent = notif.emoji;
         document.querySelector('.notification-text').innerHTML = 
             `<strong class="notification-name">${notif.name}</strong> just booked a ${notif.activity}!`;
-        notificationEl.style.animation = 'notification-slide 0.5s ease-out';
-    }, 50);
-}, 8000);
+        
+        // Slide in
+        notificationEl.style.transform = 'translateY(0)';
+        notificationEl.style.opacity = '1';
+    }, 300);
+}
 
-// Make filterByIsland available globally for onclick handlers
+function hideNotification() {
+    const notificationEl = document.getElementById('notification');
+    if (!notificationEl) return;
+    
+    notificationEl.style.transform = 'translateY(100px)';
+    notificationEl.style.opacity = '0';
+}
+
+function runNotificationCycle() {
+    const currentList = notificationLists[currentListIndex];
+    
+    if (isShowingNotifications) {
+        if (currentNotifIndex < currentList.length) {
+            showNotification(currentList[currentNotifIndex]);
+            currentNotifIndex++;
+            notificationTimer = setTimeout(runNotificationCycle, 4000);
+        } else {
+            // Finished this list, hide and pause
+            hideNotification();
+            isShowingNotifications = false;
+            currentNotifIndex = 0;
+            currentListIndex = (currentListIndex + 1) % notificationLists.length;
+            pauseTimer = setTimeout(runNotificationCycle, 30000); // 30 sec pause
+        }
+    } else {
+        // Start showing again
+        isShowingNotifications = true;
+        runNotificationCycle();
+    }
+}
+
+// Start notifications after 5 seconds
+setTimeout(() => {
+    runNotificationCycle();
+}, 5000);
+
+// Global functions
 window.filterByIsland = filterByIsland;
 window.searchFor = searchFor;
