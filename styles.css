@@ -50,14 +50,14 @@ body {
     opacity: 1;
 }
 
-.bg-slide:nth-child(1) { background-image: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1920&q=85'); }
-.bg-slide:nth-child(2) { background-image: url('https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=1920&q=85'); }
-.bg-slide:nth-child(3) { background-image: url('https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?w=1920&q=85'); }
-.bg-slide:nth-child(4) { background-image: url('https://images.unsplash.com/photo-1542259009477-d625272157b7?w=1920&q=85'); }
-.bg-slide:nth-child(5) { background-image: url('https://images.unsplash.com/photo-1547483238-2cbf881a559f?w=1920&q=85'); }
-.bg-slide:nth-child(6) { background-image: url('https://images.unsplash.com/photo-1559628233-100c798642d4?w=1920&q=85'); }
-.bg-slide:nth-child(7) { background-image: url('https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?w=1920&q=85'); }
-.bg-slide:nth-child(8) { background-image: url('https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1920&q=85'); }
+.bg-slide:nth-child(1) { background-image: url('https://cdn.filestackcontent.com/hKSwAu3TTN68DPTl0sdz'); } /* Manta Ray Sunset */
+.bg-slide:nth-child(2) { background-image: url('https://cdn.filestackcontent.com/oroTk75fSlywq5xG2GZq'); } /* Snorkel Sail */
+.bg-slide:nth-child(3) { background-image: url('https://cdn.filestackcontent.com/mG3nBVaRD6MCJROqcS5A'); } /* Volcano */
+.bg-slide:nth-child(4) { background-image: url('https://cdn.filestackcontent.com/uoa7multR022xrCyagWz'); } /* Manta Dive */
+.bg-slide:nth-child(5) { background-image: url('https://cdn.filestackcontent.com/D9WDnEUCQ12DtOwCtEmQ'); } /* Dolphin */
+.bg-slide:nth-child(6) { background-image: url('https://cdn.filestackcontent.com/aG3xnD8yTfKQE9WIrE37'); } /* Boat Charter */
+.bg-slide:nth-child(7) { background-image: url('https://cdn.filestackcontent.com/93lMtiLfQtiuZL2Wpw4s'); } /* Kayak */
+.bg-slide:nth-child(8) { background-image: url('https://cdn.filestackcontent.com/Vxwa6d5jQ8GE3L8ndzMQ'); } /* Zipline */
 
 .hero-background::after {
     content: '';
