@@ -256,7 +256,7 @@ nav {
 .carousel-track {
     display: flex;
     gap: 0.8rem;
-    animation: scroll-carousel 30s linear infinite;
+    animation: scroll-carousel 60s linear infinite;
     width: max-content;
 }
 
@@ -293,6 +293,23 @@ nav {
     border-color: var(--sunset-yellow);
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 5px 20px rgba(252, 145, 58, 0.4);
+}
+
+/* Hero Stats */
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    color: var(--white);
+    font-size: 1rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.hero-stats strong {
+    font-size: 1.2rem;
+    color: var(--sunset-yellow);
 }
 
 /* ===================================
