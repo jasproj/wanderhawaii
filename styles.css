@@ -29,7 +29,7 @@ body {
     min-height: 100vh;
 }
 
-/* Background - Hawaii Sunset Beach */
+/* Background - Hawaii Mountain Ocean View */
 .sunset-background {
     position: fixed;
     top: 0;
@@ -38,16 +38,16 @@ body {
     height: 100vh;
     z-index: 0;
     pointer-events: none;
-    background: linear-gradient(135deg, #FF6B35 0%, #F7931E 25%, #FFD23F 50%, #FF6B35 75%, #C41E3A 100%);
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #1e3c72 100%);
 }
 
 .sunset-background::before {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('https://images.unsplash.com/photo-1559628233-100c798642d4?w=1920&q=85');
+    background-image: url('https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?w=1920&q=85');
     background-size: cover;
-    background-position: center bottom;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -57,10 +57,10 @@ body {
     inset: 0;
     background: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.2) 0%,
-        rgba(0, 0, 0, 0.3) 40%,
-        rgba(26, 26, 46, 0.85) 80%,
-        rgba(26, 26, 46, 0.98) 100%
+        rgba(0, 0, 0, 0.15) 0%,
+        rgba(0, 0, 0, 0.25) 30%,
+        rgba(26, 26, 46, 0.7) 70%,
+        rgba(26, 26, 46, 0.95) 100%
     );
 }
 
