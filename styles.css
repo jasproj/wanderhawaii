@@ -846,6 +846,11 @@ footer {
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
+    /* Prevent horizontal scroll */
+    body {
+        overflow-x: hidden;
+    }
+    
     /* Header */
     header {
         padding: 0.8rem 1rem;
@@ -863,6 +868,8 @@ footer {
     .hero {
         padding: 120px 1rem 60px;
         min-height: 80vh;
+        width: 100%;
+        overflow: hidden;
     }
     .hero-logo { 
         font-size: 2.8rem; 
@@ -874,20 +881,27 @@ footer {
         margin-bottom: 2rem;
     }
     
-    /* Search */
+    /* Search - FIX OVERFLOW */
     .search-container {
-        padding: 0 0.5rem;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        box-sizing: border-box;
     }
     .search-box { 
         flex-direction: column; 
         border-radius: 20px; 
         padding: 1rem;
         border-width: 3px;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
     }
     .search-box input { 
         text-align: center; 
         font-size: 1rem;
         padding: 0.8rem;
+        width: 100%;
     }
     .search-box button { 
         width: 100%; 
@@ -895,9 +909,12 @@ footer {
         font-size: 1rem;
     }
     
-    /* Carousel */
+    /* Carousel - FIX OVERFLOW */
     .carousel-container {
         margin-top: 1.5rem;
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
     }
     .carousel-pill {
         padding: 0.6rem 1rem;
@@ -907,11 +924,17 @@ footer {
     /* Filters */
     .filters-section { 
         padding: 1rem;
+        width: 100%;
+        overflow: hidden;
     }
     .filters-container { 
         flex-direction: column; 
         align-items: stretch;
         gap: 0.8rem;
+        width: 100%;
+    }
+    .filter-group {
+        width: 100%;
     }
     .filter-group select { 
         width: 100%; 
@@ -923,6 +946,7 @@ footer {
     /* Tours */
     .featured-section {
         padding: 1.5rem 1rem;
+        overflow: hidden;
     }
     .section-header {
         flex-direction: column;
@@ -949,6 +973,7 @@ footer {
     /* Islands */
     .islands-section {
         padding: 2rem 1rem;
+        overflow: hidden;
     }
     .islands-grid {
         grid-template-columns: 1fr;
