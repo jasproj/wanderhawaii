@@ -136,10 +136,10 @@
                 <div class="slogan">Local Hawaii Experts</div>
             </a>
             <ul class="nav-links">
-                <li><a href="#today">Do Today</a></li>
+                <li><a href="#tours-section">Tours</a></li>
                 <li><a href="#islands">Islands</a></li>
-                <li><a href="#tours-section">All Tours</a></li>
                 <li><a href="#why">Why Us</a></li>
+                <li><a href="#faq">FAQs</a></li>
             </ul>
             <div class="mobile-menu-btn" id="mobile-menu-btn">☰</div>
         </nav>
@@ -190,55 +190,6 @@
         </div>
     </section>
 
-    <!-- WHAT TO DO TODAY + WEATHER -->
-    <section class="today-section" id="today">
-        <div class="today-container">
-            <div class="today-header">
-                <h2>☀️ WHAT TO DO TODAY</h2>
-                <p>Real-time recommendations based on current conditions</p>
-            </div>
-            
-            <div class="weather-grid" id="weather-grid">
-                <div class="weather-card" data-island="Oahu">
-                    <h3>🏝️ OAHU</h3>
-                    <div class="weather-info" id="weather-oahu">
-                        <span class="weather-temp">--°F</span>
-                        <span class="weather-condition">Loading...</span>
-                    </div>
-                    <p class="weather-suggestion" id="suggestion-oahu">Checking conditions...</p>
-                    <button class="weather-cta" onclick="filterByIsland('Oahu')">See Oahu Tours →</button>
-                </div>
-                <div class="weather-card" data-island="Maui">
-                    <h3>🏄 MAUI</h3>
-                    <div class="weather-info" id="weather-maui">
-                        <span class="weather-temp">--°F</span>
-                        <span class="weather-condition">Loading...</span>
-                    </div>
-                    <p class="weather-suggestion" id="suggestion-maui">Checking conditions...</p>
-                    <button class="weather-cta" onclick="filterByIsland('Maui')">See Maui Tours →</button>
-                </div>
-                <div class="weather-card" data-island="Big Island">
-                    <h3>🌋 BIG ISLAND</h3>
-                    <div class="weather-info" id="weather-bigisland">
-                        <span class="weather-temp">--°F</span>
-                        <span class="weather-condition">Loading...</span>
-                    </div>
-                    <p class="weather-suggestion" id="suggestion-bigisland">Checking conditions...</p>
-                    <button class="weather-cta" onclick="filterByIsland('Big Island')">See Big Island Tours →</button>
-                </div>
-                <div class="weather-card" data-island="Kauai">
-                    <h3>🌿 KAUAI</h3>
-                    <div class="weather-info" id="weather-kauai">
-                        <span class="weather-temp">--°F</span>
-                        <span class="weather-condition">Loading...</span>
-                    </div>
-                    <p class="weather-suggestion" id="suggestion-kauai">Checking conditions...</p>
-                    <button class="weather-cta" onclick="filterByIsland('Kauai')">See Kauai Tours →</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- TRUST SIGNALS -->
     <section class="trust-bar">
         <div class="trust-grid">
@@ -261,29 +212,7 @@
         </div>
     </section>
 
-    <!-- STATS -->
-    <section class="stats-bar">
-        <div class="stats-grid">
-            <div class="stat-item">
-                <h3 id="total-tours">500+</h3>
-                <p>Epic Adventures</p>
-            </div>
-            <div class="stat-item">
-                <h3>4</h3>
-                <p>Hawaiian Islands</p>
-            </div>
-            <div class="stat-item">
-                <h3>15K+</h3>
-                <p>Happy Travelers</p>
-            </div>
-            <div class="stat-item">
-                <h3>20%</h3>
-                <p>Average Savings</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- FILTERS -->
+    <!-- FILTERS - Right below trust bar -->
     <section class="filters-section" id="filters-section">
         <div class="filters-container">
             <div class="filter-group">
@@ -351,30 +280,35 @@
                 </select>
             </div>
             <div class="filter-group">
+                <label for="price-filter">💰 Price:</label>
+                <select id="price-filter">
+                    <option value="">All Prices</option>
+                    <option value="0-75">Budget: Under $75</option>
+                    <option value="75-150">Mid-Range: $75-$150</option>
+                    <option value="150-300">Premium: $150-$300</option>
+                    <option value="300-9999">Luxury: $300+</option>
+                </select>
+            </div>
+            <div class="filter-group">
                 <label for="sort-filter">⭐ Sort:</label>
                 <select id="sort-filter">
+                    <option value="featured">Featured First</option>
                     <option value="popular">Most Popular</option>
                     <option value="quality">Highest Rated</option>
-                    <option value="availability">Most Available</option>
+                    <option value="price-high">Price: High to Low</option>
+                    <option value="price-low">Price: Low to High</option>
                 </select>
             </div>
             <button id="clear-filters" class="clear-btn">Clear All</button>
         </div>
     </section>
 
-    <!-- RESULTS COUNT + SHUFFLE -->
-    <section class="results-section">
-        <div class="results-container">
-            <p id="results-count">Showing all 500 adventures</p>
-            <button id="shuffle-btn" class="shuffle-btn">🎲 Show Me Different Tours!</button>
-        </div>
-    </section>
-
     <!-- TOURS GRID -->
     <section class="featured-section" id="tours-section">
         <div class="section-header">
-            <h2 id="tours-title">🔥 TOURS AVAILABLE NOW 🔥</h2>
-            <p id="section-subtitle">Book instantly • Free cancellation on most tours</p>
+            <h2 id="tours-title">🌺 ISLAND ADVENTURES AWAIT 🌺</h2>
+            <p id="section-subtitle">Hand-picked experiences across all four islands</p>
+            <button id="shuffle-btn" class="shuffle-btn">🎲 Surprise Me!</button>
         </div>
 
         <div class="tours-grid" id="tours-grid">
@@ -462,6 +396,28 @@
         </div>
     </section>
 
+    <!-- STATS BAR - Moved to bottom -->
+    <section class="stats-bar">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <h3 id="total-tours">500+</h3>
+                <p>Epic Adventures</p>
+            </div>
+            <div class="stat-item">
+                <h3>4</h3>
+                <p>Hawaiian Islands</p>
+            </div>
+            <div class="stat-item">
+                <h3>15K+</h3>
+                <p>Happy Travelers</p>
+            </div>
+            <div class="stat-item">
+                <h3>20%</h3>
+                <p>Average Savings</p>
+            </div>
+        </div>
+    </section>
+
     <!-- EMAIL SIGNUP -->
     <section class="email-section">
         <div class="email-container">
@@ -545,7 +501,7 @@
             <div class="footer-section">
                 <h4>Support</h4>
                 <ul>
-                    <li><a href="/cdn-cgi/l/email-protection#c7a6aba8afa687b0a6a9a3a2b5afa6b0a6aeaee9a4a8aa">Contact Us</a></li>
+                    <li><a href="mailto:aloha@wanderhawaii.com">Contact Us</a></li>
                     <li><a href="#faq">FAQs</a></li>
                     <li><a href="#">Terms of Service</a></li>
                     <li><a href="#">Privacy Policy</a></li>
@@ -558,4 +514,6 @@
         </div>
     </footer>
 
-    <s
+    <script src="app.js"></script>
+</body>
+</html>
