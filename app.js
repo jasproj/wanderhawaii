@@ -115,25 +115,24 @@ function createTourCard(tour) {
     const card = document.createElement('article');
     card.className = 'tour-card';
     
-    // Badge logic - premium tours get special badges
+    // Badge logic - only special tours get badges, not all
     let badge = '';
-    if (tour.priceMax >= 300) {
-        badge = '<div class="tour-badge premium">👑 PREMIUM</div>';
-    } else if (tour.quality === 100) {
+    if (tour.tags.includes('Private') && tour.priceMax >= 400) {
+        badge = '<div class="tour-badge premium">👑 VIP</div>';
+    } else if (tour.quality === 100 && tour.availability > 300) {
         badge = '<div class="tour-badge hot">🔥 HOT!</div>';
-    } else if (tour.quality >= 99) {
+    } else if (tour.quality === 100) {
         badge = '<div class="tour-badge top">⭐ TOP RATED</div>';
-    } else if (tour.availability > 500) {
+    } else if (tour.availability > 700) {
         badge = '<div class="tour-badge popular">💎 POPULAR</div>';
     }
+    // Note: Most tours won't have badges - that's intentional
     
     const displayTags = tour.tags.slice(0, 3);
     const tagsHTML = displayTags.map(tag => `<span class="tour-tag">${tag}</span>`).join('');
     
     // Price display
-    const priceDisplay = tour.priceMin === tour.priceMax 
-        ? `$${tour.priceMin}` 
-        : `$${tour.priceMin}-$${tour.priceMax}`;
+    const priceDisplay = `$${tour.priceMin}+`;
     
     card.innerHTML = `
         <div class="tour-image">
@@ -144,7 +143,6 @@ function createTourCard(tour) {
         <div class="tour-content">
             <span class="tour-island">📍 ${tour.island}</span>
             <h3>${tour.name}</h3>
-            <p class="tour-description">${tour.description}</p>
             <div class="tour-tags">${tagsHTML}</div>
             <div class="tour-meta">
                 <div class="tour-info">
