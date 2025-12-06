@@ -147,7 +147,7 @@
 
     <!-- HERO -->
     <section class="hero">
-        <div class="hero-badge">🏝️ LOCAL HAWAII EXPERTS • NOT A MAINLAND CORPORATION</div>
+        <div class="hero-badge">🏝️ LOCALLY OWNED & OPERATED IN HAWAII • ALOHA SPIRIT GUARANTEED</div>
         <h1>ALREADY IN HAWAII?</h1>
         <p class="subtitle">Find the Best Things to Do <span class="highlight">TODAY!</span></p>
         
@@ -156,15 +156,36 @@
                 <input type="text" id="search-input" placeholder="What adventure are you looking for?" aria-label="Search tours">
                 <button id="search-btn">FIND IT! 🔍</button>
             </div>
-            <div class="filter-pills" id="quick-filters">
-                <button class="pill" data-island="Oahu">🏝️ Oahu</button>
-                <button class="pill" data-island="Maui">🏄 Maui</button>
-                <button class="pill" data-island="Big Island">🌋 Big Island</button>
-                <button class="pill" data-island="Kauai">🌿 Kauai</button>
-                <button class="pill" data-tag="Snorkel">🤿 Snorkel</button>
-                <button class="pill" data-tag="Whale Watch">🐋 Whales</button>
-                <button class="pill" data-tag="Dolphin">🐬 Dolphins</button>
-                <button class="pill" data-tag="Fishing">🎣 Fishing</button>
+            
+            <!-- Scrolling Activity Carousel -->
+            <div class="carousel-container">
+                <div class="carousel-track" id="carousel-track">
+                    <button class="carousel-pill" data-search="boat tour">🚤 Boat Tours</button>
+                    <button class="carousel-pill" data-search="snorkel">🤿 Snorkeling</button>
+                    <button class="carousel-pill" data-search="whale watch">🐋 Whale Watching</button>
+                    <button class="carousel-pill" data-search="dolphin">🐬 Dolphins</button>
+                    <button class="carousel-pill" data-search="kayak">🚣 Kayaking</button>
+                    <button class="carousel-pill" data-search="eco tour">🌿 Eco Tours</button>
+                    <button class="carousel-pill" data-search="history tour">📜 History Tours</button>
+                    <button class="carousel-pill" data-search="sailing">⛵ Sailing</button>
+                    <button class="carousel-pill" data-search="surf">🏄 Surfing</button>
+                    <button class="carousel-pill" data-search="fishing">🎣 Fishing</button>
+                    <button class="carousel-pill" data-search="scuba">🤿 Scuba Diving</button>
+                    <button class="carousel-pill" data-search="food tour">🍔 Food Tours</button>
+                    <button class="carousel-pill" data-search="hiking">🥾 Hiking</button>
+                    <button class="carousel-pill" data-search="private">👑 Private Tours</button>
+                    <button class="carousel-pill" data-search="wildlife">🦎 Wildlife</button>
+                    <button class="carousel-pill" data-search="photography">📸 Photo Tours</button>
+                    <!-- Duplicate for seamless loop -->
+                    <button class="carousel-pill" data-search="boat tour">🚤 Boat Tours</button>
+                    <button class="carousel-pill" data-search="snorkel">🤿 Snorkeling</button>
+                    <button class="carousel-pill" data-search="whale watch">🐋 Whale Watching</button>
+                    <button class="carousel-pill" data-search="dolphin">🐬 Dolphins</button>
+                    <button class="carousel-pill" data-search="kayak">🚣 Kayaking</button>
+                    <button class="carousel-pill" data-search="eco tour">🌿 Eco Tours</button>
+                    <button class="carousel-pill" data-search="history tour">📜 History Tours</button>
+                    <button class="carousel-pill" data-search="sailing">⛵ Sailing</button>
+                </div>
             </div>
         </div>
     </section>
@@ -223,7 +244,7 @@
         <div class="trust-grid">
             <div class="trust-item">
                 <span class="trust-icon">🏝️</span>
-                <div class="trust-text"><strong>Local Hawaii Business</strong><br>Not a mainland corporation</div>
+                <div class="trust-text"><strong>Locally Owned in Hawaii</strong><br>Real aloha spirit</div>
             </div>
             <div class="trust-item">
                 <span class="trust-icon">✅</span>
@@ -415,18 +436,18 @@
     <section class="why-section" id="why">
         <div class="section-header">
             <h2>WHY BOOK WITH WANDERHAWAII?</h2>
-            <p>We're not Expedia. We're not Viator. We're LOCAL.</p>
+            <p>Locally owned, locally loved, 100% aloha spirit 🤙</p>
         </div>
         <div class="why-grid">
             <div class="why-card">
                 <div class="why-icon">🏝️</div>
                 <h3>Local Experts</h3>
-                <p>We live here. We know which tours are actually worth it and which are tourist traps.</p>
+                <p>We live here and love sharing our islands with you. Get insider tips only locals know!</p>
             </div>
             <div class="why-card">
                 <div class="why-icon">💰</div>
                 <h3>Better Prices</h3>
-                <p>Direct partnerships with local operators mean lower prices than the big booking sites.</p>
+                <p>Direct partnerships with local operators mean great prices and more money stays in Hawaii.</p>
             </div>
             <div class="why-card">
                 <div class="why-icon">📱</div>
@@ -436,7 +457,7 @@
             <div class="why-card">
                 <div class="why-icon">🌺</div>
                 <h3>Support Local</h3>
-                <p>Your booking supports Hawaii's small businesses, not mainland corporations.</p>
+                <p>Every booking supports Hawaii's ohana – local families, small businesses, and island communities.</p>
             </div>
         </div>
     </section>
@@ -500,7 +521,7 @@
         <div class="footer-content">
             <div class="footer-section">
                 <h3>🌺 WanderHawaii</h3>
-                <p>Your local gateway to 500+ epic Hawaiian adventures. We're not a mainland corporation – we actually live here!</p>
+                <p>Your local gateway to 500+ epic Hawaiian adventures. Locally owned, operated with aloha!</p>
                 <p><strong>Mahalo for supporting local! 🤙</strong></p>
             </div>
             <div class="footer-section">
@@ -524,7 +545,7 @@
             <div class="footer-section">
                 <h4>Support</h4>
                 <ul>
-                    <li><a href="mailto:aloha@wanderhawaii.com">Contact Us</a></li>
+                    <li><a href="/cdn-cgi/l/email-protection#c7a6aba8afa687b0a6a9a3a2b5afa6b0a6aeaee9a4a8aa">Contact Us</a></li>
                     <li><a href="#faq">FAQs</a></li>
                     <li><a href="#">Terms of Service</a></li>
                     <li><a href="#">Privacy Policy</a></li>
@@ -537,6 +558,4 @@
         </div>
     </footer>
 
-    <script src="app.js"></script>
-</body>
-</html>
+    <s
