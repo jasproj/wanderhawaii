@@ -197,6 +197,7 @@ ul, ol { list-style: none; }
 .hero-bg {
     position: absolute;
     inset: 0;
+    background: url('https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?auto=format&fit=crop&w=2400&q=90') center/cover no-repeat;
 }
 
 .hero-slide {
@@ -213,6 +214,7 @@ ul, ol { list-style: none; }
     /* Na Pali Coast, Kauai - dramatic green cliffs */
     background-image: url('https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?auto=format&fit=crop&w=2400&q=90');
     animation-delay: 0s;
+    opacity: 1;
 }
 
 .hero-slide:nth-child(2) {
