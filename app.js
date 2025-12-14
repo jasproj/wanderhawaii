@@ -159,6 +159,10 @@ async function loadTours() {
         if (!response.ok) throw new Error('Failed to load tours');
         
         allTours = await response.json();
+        
+        // Randomize tour order on each page load for variety
+        allTours = shuffleArray(allTours);
+        
         filteredTours = [...allTours];
         displayTours();
         updateResultsCount();
@@ -507,9 +511,39 @@ function loadMoreTours() {
     displayTours(false);
 }
 
+// Fisher-Yates shuffle for true randomization
+function shuffleArray(array) {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+}
+
 function shuffleTours() {
-    filteredTours = filteredTours.sort(() => Math.random() - 0.5);
+    filteredTours = shuffleArray(filteredTours);
     displayTours(true);
+}
+
+// Toggle FAQ Show More
+function toggleFAQs() {
+    const hiddenFaqs = document.getElementById('faq-hidden');
+    const showMoreBtn = document.getElementById('faq-show-more');
+    
+    if (!hiddenFaqs || !showMoreBtn) return;
+    
+    const isExpanded = hiddenFaqs.classList.contains('show');
+    
+    if (isExpanded) {
+        hiddenFaqs.classList.remove('show');
+        showMoreBtn.classList.remove('expanded');
+        showMoreBtn.querySelector('span:first-child').textContent = 'Show More Questions';
+    } else {
+        hiddenFaqs.classList.add('show');
+        showMoreBtn.classList.add('expanded');
+        showMoreBtn.querySelector('span:first-child').textContent = 'Show Less';
+    }
 }
 
 function scrollToTours() {

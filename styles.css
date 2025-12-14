@@ -159,7 +159,12 @@ ul, ol { list-style: none; }
 
 @media (max-width: 768px) {
     .logo-tagline {
-        display: none;
+        font-size: 0.6rem;
+        padding-left: 0;
+        text-align: center;
+    }
+    .logo-group {
+        align-items: center;
     }
     .header-weather {
         display: none;
@@ -747,7 +752,7 @@ section { padding: var(--space-3xl) 0; }
     border-radius: var(--radius-lg);
     overflow: hidden;
     box-shadow: var(--shadow-md);
-    border: 1px solid var(--gray-200);
+    border: 1px solid var(--gray-300);
     transition: all var(--transition-base);
 }
 
@@ -1079,6 +1084,49 @@ section { padding: var(--space-3xl) 0; }
     line-height: 1.7;
 }
 
+/* FAQ Show More */
+.faq-hidden {
+    display: none;
+}
+
+.faq-hidden.show {
+    display: block;
+}
+
+.faq-show-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+    width: 100%;
+    padding: var(--space-lg);
+    margin-top: var(--space-md);
+    background: var(--white);
+    border: 2px dashed var(--gray-300);
+    border-radius: var(--radius-md);
+    color: var(--ocean-mid);
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.faq-show-more:hover {
+    background: var(--ocean-mid);
+    color: var(--white);
+    border-color: var(--ocean-mid);
+}
+
+.faq-show-more-icon {
+    font-size: 1.25rem;
+    font-weight: 700;
+    transition: transform var(--transition-fast);
+}
+
+.faq-show-more.expanded .faq-show-more-icon {
+    transform: rotate(45deg);
+}
+
 /* ============================================
    FOOTER - CONSISTENT LOGO
    ============================================ */
@@ -1095,7 +1143,15 @@ section { padding: var(--space-3xl) 0; }
     margin-bottom: var(--space-2xl);
 }
 
-.footer-brand .logo { margin-bottom: var(--space-md); }
+.footer-brand .logo { margin-bottom: var(--space-sm); }
+
+.footer-platform-tagline {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--gray-500);
+    margin-bottom: var(--space-md);
+}
 
 /* Footer logo text - white for visibility on dark background */
 .footer .logo-text { color: var(--white); }
@@ -1348,6 +1404,20 @@ section { padding: var(--space-3xl) 0; }
 @media (max-width: 768px) {
     .island-intro-grid { grid-template-columns: 1fr; }
     .island-stats { flex-direction: column; gap: var(--space-md); }
+    .island-intro h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .island-intro p {
+        text-align: center;
+    }
+    .island-highlights {
+        text-align: center;
+    }
+    .island-highlights ul {
+        display: inline-block;
+        text-align: left;
+    }
 }
 
 /* About page */
@@ -1434,4 +1504,289 @@ section { padding: var(--space-3xl) 0; }
 .btn-secondary:hover {
     background: var(--ocean-mid);
     color: var(--white);
+}
+
+/* ============================================
+   MOBILE OPTIMIZATIONS - TIP TOP
+   ============================================ */
+@media (max-width: 768px) {
+    /* Header Mobile */
+    .header-container {
+        padding: var(--space-sm) var(--space-md);
+    }
+    
+    .logo {
+        font-size: 1.25rem;
+    }
+    
+    .logo-flower {
+        font-size: 1.5rem;
+    }
+    
+    .logo-group {
+        align-items: flex-start;
+    }
+    
+    .logo-tagline {
+        display: block;
+        font-size: 0.55rem;
+        padding-left: 2rem;
+        letter-spacing: 0.08em;
+    }
+    
+    /* Hero Mobile */
+    .hero {
+        min-height: 100svh;
+        padding: 100px var(--space-md) 40px;
+    }
+    
+    .hero-content {
+        padding: 0 var(--space-sm);
+    }
+    
+    .hero-tagline {
+        font-size: 0.75rem;
+        letter-spacing: 0.15em;
+    }
+    
+    .hero-logo {
+        flex-direction: column;
+        gap: var(--space-sm);
+    }
+    
+    .hero-logo-flower {
+        font-size: 3rem;
+    }
+    
+    .hero-logo-text {
+        font-size: clamp(2rem, 10vw, 3rem);
+    }
+    
+    .hero-subtitle {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        padding: 0 var(--space-sm);
+    }
+    
+    /* Search Box Mobile */
+    .search-box {
+        padding: var(--space-md);
+    }
+    
+    .search-input-group {
+        flex-direction: column;
+    }
+    
+    .search-input-group input {
+        border-radius: var(--radius-md);
+        padding: var(--space-md);
+    }
+    
+    .search-btn {
+        width: 100%;
+        border-radius: var(--radius-md);
+        padding: var(--space-md);
+    }
+    
+    /* Quick Tags Mobile */
+    .quick-tags-wrapper {
+        margin: var(--space-md) 0;
+    }
+    
+    .quick-tags button {
+        padding: var(--space-xs) var(--space-sm);
+        font-size: 0.75rem;
+    }
+    
+    /* Trust Bar Mobile */
+    .trust-bar {
+        padding: var(--space-sm) var(--space-md);
+        flex-wrap: wrap;
+        gap: var(--space-sm);
+    }
+    
+    .trust-item {
+        flex: 1 1 45%;
+        text-align: center;
+    }
+    
+    .trust-divider {
+        display: none;
+    }
+    
+    .trust-number {
+        font-size: 1.25rem;
+    }
+    
+    .trust-label {
+        font-size: 0.65rem;
+    }
+    
+    /* Section Titles Mobile */
+    .section-title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .section-subtitle {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    
+    /* Tours Section Mobile */
+    .tours-hero-banner {
+        height: 180px;
+    }
+    
+    .tours-hero-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .tours-hero-content p {
+        font-size: 0.9rem;
+    }
+    
+    /* Filters Mobile */
+    .filters-bar {
+        flex-direction: column;
+        gap: var(--space-md);
+        padding: var(--space-md);
+    }
+    
+    .filter-group {
+        width: 100%;
+    }
+    
+    .filter-group select {
+        width: 100%;
+    }
+    
+    /* Tour Cards Mobile */
+    .tours-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-lg);
+    }
+    
+    .tour-card {
+        border: 1px solid var(--gray-300);
+    }
+    
+    .tour-content {
+        padding: var(--space-md);
+    }
+    
+    .tour-name {
+        font-size: 1rem;
+    }
+    
+    .tour-company {
+        font-size: 0.65rem;
+    }
+    
+    .tour-tags {
+        flex-wrap: wrap;
+    }
+    
+    .tour-tag {
+        font-size: 0.65rem;
+    }
+    
+    /* Island Cards Mobile */
+    .island-card {
+        min-height: 200px;
+    }
+    
+    .island-card h3 {
+        font-size: 1.25rem;
+    }
+    
+    /* FAQ Mobile */
+    .faq-item summary {
+        padding: var(--space-md);
+        font-size: 0.9rem;
+    }
+    
+    .faq-answer {
+        padding: 0 var(--space-md) var(--space-md);
+        font-size: 0.875rem;
+    }
+    
+    .faq-show-more {
+        padding: var(--space-md);
+        font-size: 0.9rem;
+    }
+    
+    /* Footer Mobile */
+    .footer {
+        padding: var(--space-2xl) 0 var(--space-lg);
+    }
+    
+    .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: var(--space-xl);
+    }
+    
+    .footer-brand {
+        text-align: center;
+    }
+    
+    .footer-brand .logo {
+        justify-content: center;
+    }
+    
+    .footer-platform-tagline {
+        text-align: center;
+    }
+    
+    .footer-links ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--space-sm) var(--space-md);
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        gap: var(--space-sm);
+        text-align: center;
+    }
+    
+    /* Why Section Mobile */
+    .why-card {
+        text-align: center;
+    }
+    
+    /* Mobile CTA */
+    .mobile-cta {
+        padding: var(--space-sm) var(--space-md);
+    }
+    
+    .mobile-cta-text {
+        font-size: 0.8rem;
+    }
+}
+
+/* Extra Small Screens */
+@media (max-width: 380px) {
+    .logo {
+        font-size: 1.1rem;
+    }
+    
+    .logo-flower {
+        font-size: 1.25rem;
+    }
+    
+    .logo-tagline {
+        font-size: 0.5rem;
+        padding-left: 1.75rem;
+    }
+    
+    .hero-logo-text {
+        font-size: 2rem;
+    }
+    
+    .hero-logo-flower {
+        font-size: 2.5rem;
+    }
 }
