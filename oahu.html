@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oahu Tours & Activities | 329 Adventures | WanderHawaii</title>
+    <meta name="description" content="Discover 329 things to do in Oahu. From Waikiki snorkeling to Pearl Harbor tours, Diamond Head hikes to North Shore adventures. Book direct with local operators.">
+    <link rel="canonical" href="https://wanderhawaii.com/oahu">
+    
+    <meta property="og:title" content="Oahu Tours & Activities | WanderHawaii">
+    <meta property="og:description" content="329 handpicked Oahu adventures. Book direct with local operators.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=1200">
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌺</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="/" class="logo">
+                <span class="logo-flower">🌺</span>
+                <span class="logo-text">WanderHawaii</span>
+            </a>
+            <nav class="nav-desktop">
+                <a href="/#tours-section">Tours</a>
+                <a href="/#islands">Islands</a>
+                <a href="about.html">About</a>
+                <a href="/#faq">FAQs</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="/#tours-section">Tours</a>
+            <a href="/#islands">Islands</a>
+            <a href="about.html">About</a>
+            <a href="/#faq">FAQs</a>
+        </nav>
+    </header>
+
+    <section class="island-hero" style="background-image: url('https://images.unsplash.com/photo-1507876466758-bc54f384809c?auto=format&fit=crop&w=2400&q=90');">
+        <div class="island-hero-content">
+            <div class="breadcrumb"><a href="/">Home</a> / Oahu</div>
+            <h1>Oahu Tours & Adventures</h1>
+            <p>The Gathering Place. From Waikiki's iconic shores to the legendary waves of the North Shore, Oahu blends world-class beaches with rich history and vibrant culture.</p>
+            <div class="island-stats">
+                <div class="island-stat"><span class="island-stat-number">329</span><span class="island-stat-label">Adventures</span></div>
+                <div class="island-stat"><span class="island-stat-number">#1</span><span class="island-stat-label">For First-Timers</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="island-intro">
+        <div class="container">
+            <div class="island-intro-grid">
+                <div class="island-intro-image">
+                    <img src="https://images.unsplash.com/photo-1507876466758-bc54f384809c?auto=format&fit=crop&w=1200&q=90" alt="Diamond Head and Waikiki Beach, Oahu">
+                </div>
+                <div>
+                    <h2>Why Visit Oahu?</h2>
+                    <p>Oahu is where most Hawaiian adventures begin. As the most accessible island, it offers the perfect introduction to island life. Start with a sunrise hike up Diamond Head, snorkel with sea turtles at Hanauma Bay, and watch surfers tackle massive waves on the North Shore.</p>
+                    <p>History buffs will find Pearl Harbor moving and educational. Foodies will discover incredible diversity from food trucks to fine dining. And with 329 tour options, there's something for every type of traveler.</p>
+                </div>
+                <div class="island-highlights">
+                    <h3>🌟 Don't Miss</h3>
+                    <ul>
+                        <li>Snorkeling at Hanauma Bay</li>
+                        <li>Pearl Harbor & USS Arizona</li>
+                        <li>Diamond Head Summit</li>
+                        <li>North Shore surf beaches</li>
+                        <li>Polynesian Cultural Center</li>
+                        <li>Kualoa Ranch tours</li>
+                        <li>Waikiki sunset sail</li>
+                        <li>Shark cage diving</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tours-section" id="tours-section">
+        <div class="container">
+            <h2 class="section-title">Oahu Tours & Activities</h2>
+            <p class="section-subtitle">329 handpicked adventures across the island</p>
+            
+            <div class="filters-bar">
+                <div class="filter-group">
+                    <label for="activity-filter">Activity</label>
+                    <select id="activity-filter">
+                        <option value="">All Activities</option>
+                        <option value="Snorkel">🤿 Snorkeling</option>
+                        <option value="Boat Tour">🚤 Boat Tours</option>
+                        <option value="Scuba">🤿 Scuba</option>
+                        <option value="Surf">🏄 Surfing</option>
+                        <option value="Kayak">🚣 Kayaking</option>
+                        <option value="Hiking">🥾 Hiking</option>
+                        <option value="Food Tour">🍽️ Food Tours</option>
+                        <option value="Private">👑 Private Tours</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="sort-filter">Sort By</label>
+                    <select id="sort-filter">
+                        <option value="quality">Top Rated</option>
+                        <option value="name">Name A-Z</option>
+                    </select>
+                </div>
+                
+                <div class="search-inline">
+                    <input type="text" id="search-input" placeholder="Search Oahu tours...">
+                </div>
+                
+                <button class="clear-filters" onclick="clearAllFilters()">Clear All</button>
+            </div>
+            
+            <div class="results-info">
+                <span id="results-count">Loading...</span>
+                <button class="shuffle-btn" onclick="shuffleTours()">🎲 Shuffle</button>
+            </div>
+            
+            <div class="tours-grid" id="tours-grid">
+                <div class="loading-state"><div class="loading-spinner"></div><p>Loading Oahu adventures...</p></div>
+            </div>
+            
+            <div class="load-more-wrap">
+                <button class="load-more-btn" id="load-more" onclick="loadMoreTours()">Load More <span>→</span></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="islands-nav" style="background: var(--sand);">
+        <div class="container">
+            <h2 class="section-title">Explore Other Islands</h2>
+            <div class="islands-grid" style="grid-template-columns: repeat(3, 1fr);">
+                <a href="maui.html" class="island-card">
+                    <div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1542259009477-d625272157b7?w=600')"></div>
+                    <div class="island-content"><h3>Maui</h3><p>Road to Hana • Whale Watching</p><span class="island-count">101 Adventures</span></div>
+                </a>
+                <a href="big-island.html" class="island-card">
+                    <div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1547483238-f400e65ccd56?w=600')"></div>
+                    <div class="island-content"><h3>Big Island</h3><p>Volcanoes • Manta Rays</p><span class="island-count">110 Adventures</span></div>
+                </a>
+                <a href="kauai.html" class="island-card">
+                    <div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?w=600')"></div>
+                    <div class="island-content"><h3>Kauai</h3><p>Na Pali Coast • Waimea Canyon</p><span class="island-count">55 Adventures</span></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo"><span class="logo-flower">🌺</span><span class="logo-text">WanderHawaii</span></a>
+                    <p>Your guide to 595 Hawaiian adventures.</p>
+                    <p class="footer-tagline">Mahalo for supporting local! 🤙</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Islands</h4>
+                    <ul>
+                        <li><a href="oahu.html">Oahu</a></li>
+                        <li><a href="maui.html">Maui</a></li>
+                        <li><a href="big-island.html">Big Island</a></li>
+                        <li><a href="kauai.html">Kauai</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="mailto:aloha@wanderhawaii.com">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2025 WanderHawaii</p></div>
+        </div>
+    </footer>
+
+    <script>const ISLAND_FILTER = 'oahu';</script>
+    <script src="app.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', () => { currentFilters.island = ISLAND_FILTER; });</script>
+</body>
+</html>
