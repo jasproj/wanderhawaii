@@ -197,19 +197,54 @@ ul, ol { list-style: none; }
 .hero-bg {
     position: absolute;
     inset: 0;
-    background: url('https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=1920') center/cover;
-    animation: heroZoom 20s ease-in-out infinite alternate;
 }
 
-@keyframes heroZoom {
-    0% { transform: scale(1); }
-    100% { transform: scale(1.1); }
+.hero-slide {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    animation: heroFade 24s infinite;
+    transform: scale(1.05);
+}
+
+.hero-slide:nth-child(1) {
+    /* Na Pali Coast, Kauai - dramatic green cliffs */
+    background-image: url('https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?auto=format&fit=crop&w=2400&q=90');
+    animation-delay: 0s;
+}
+
+.hero-slide:nth-child(2) {
+    /* Waikiki Beach sunset with palm trees */
+    background-image: url('https://images.unsplash.com/photo-1483168527879-c66136b56105?auto=format&fit=crop&w=2400&q=90');
+    animation-delay: 6s;
+}
+
+.hero-slide:nth-child(3) {
+    /* Crystal clear Hawaiian water with reef */
+    background-image: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=2400&q=90');
+    animation-delay: 12s;
+}
+
+.hero-slide:nth-child(4) {
+    /* Maui Road to Hana coastline */
+    background-image: url('https://images.unsplash.com/photo-1542259009477-d625272157b7?auto=format&fit=crop&w=2400&q=90');
+    animation-delay: 18s;
+}
+
+@keyframes heroFade {
+    0% { opacity: 0; transform: scale(1.05); }
+    4% { opacity: 1; transform: scale(1.05); }
+    25% { opacity: 1; transform: scale(1); }
+    29% { opacity: 0; transform: scale(1); }
+    100% { opacity: 0; transform: scale(1.05); }
 }
 
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(10, 77, 104, 0.7) 0%, rgba(10, 77, 104, 0.5) 50%, rgba(10, 77, 104, 0.8) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.4) 100%);
 }
 
 .hero-content {
@@ -1083,8 +1118,37 @@ section { padding: var(--space-3xl) 0; }
 
 .island-intro-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: var(--space-3xl);
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: var(--space-2xl);
+    align-items: start;
+}
+
+.island-intro-image {
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-xl);
+}
+
+.island-intro-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 1024px) {
+    .island-intro-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .island-intro-image {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 768px) {
+    .island-intro-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .island-intro h2 {
