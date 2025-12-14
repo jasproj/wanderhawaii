@@ -1,1252 +1,407 @@
-/* ============================================
-   WANDERHAWAII.COM - COMPLETE STYLESHEET
-   ============================================ */
-
-:root {
-    /* Primary Colors */
-    --ocean-deep: #0A4D68;
-    --ocean-mid: #088395;
-    --ocean-light: #05BFDB;
-    --coral: #FF6B6B;
-    --sunset-gold: #FFD93D;
-    --sand: #FFF8E7;
-    --palm-green: #2D6A4F;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderHawaii | 595 Hawaiian Tours & Adventures | Book Direct</title>
+    <meta name="description" content="Discover 595 handpicked Hawaiian adventures across Oahu, Maui, Big Island & Kauai. Snorkeling, whale watching, helicopters, luaus & more. Book direct with local operators.">
+    <meta name="keywords" content="Hawaii tours, Hawaiian activities, Oahu tours, Maui adventures, Big Island activities, Kauai tours, Hawaii snorkeling, whale watching Hawaii">
+    <link rel="canonical" href="https://wanderhawaii.com/">
     
-    /* Neutrals */
-    --white: #FFFFFF;
-    --off-white: #FAFAFA;
-    --gray-100: #F5F5F5;
-    --gray-200: #E5E5E5;
-    --gray-300: #D4D4D4;
-    --gray-400: #A3A3A3;
-    --gray-500: #737373;
-    --gray-600: #525252;
-    --gray-700: #404040;
-    --gray-800: #262626;
-    --gray-900: #171717;
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wanderhawaii.com/">
+    <meta property="og:title" content="WanderHawaii | 595 Hawaiian Tours & Adventures">
+    <meta property="og:description" content="Handpicked Hawaiian adventures across all islands. Book direct with local operators.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=1200">
     
-    /* Logo Colors - CONSISTENT EVERYWHERE */
-    --logo-text: #0A4D68;
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌺</text></svg>">
     
-    /* Typography */
-    --font-display: 'Playfair Display', Georgia, serif;
-    --font-body: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
-    /* Spacing */
-    --space-xs: 0.25rem;
-    --space-sm: 0.5rem;
-    --space-md: 1rem;
-    --space-lg: 1.5rem;
-    --space-xl: 2rem;
-    --space-2xl: 3rem;
-    --space-3xl: 4rem;
+    <link rel="stylesheet" href="styles.css">
     
-    /* Borders & Shadows */
-    --radius-sm: 4px;
-    --radius-md: 8px;
-    --radius-lg: 12px;
-    --radius-xl: 20px;
-    --radius-full: 9999px;
-    --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
-    --shadow-md: 0 4px 6px rgba(0,0,0,0.07);
-    --shadow-lg: 0 10px 25px rgba(0,0,0,0.1);
-    --shadow-xl: 0 20px 40px rgba(0,0,0,0.15);
-    
-    --transition-fast: 150ms ease;
-    --transition-base: 250ms ease;
-    --transition-slow: 400ms ease;
-}
-
-/* RESET */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-body { font-family: var(--font-body); font-size: 16px; line-height: 1.6; color: var(--gray-800); background: var(--white); overflow-x: hidden; }
-img { max-width: 100%; height: auto; display: block; }
-a { color: inherit; text-decoration: none; transition: color var(--transition-fast); }
-button { font-family: inherit; cursor: pointer; border: none; background: none; }
-ul, ol { list-style: none; }
-.container { width: 100%; max-width: 1280px; margin: 0 auto; padding: 0 var(--space-lg); }
-
-/* ============================================
-   HEADER - CONSISTENT LOGO
-   ============================================ */
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--gray-200);
-}
-
-.header.scrolled { box-shadow: var(--shadow-md); }
-
-.header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: var(--space-md) var(--space-lg);
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
-/* LOGO STYLING - SAME IN HEADER AND FOOTER */
-.logo {
-    display: flex;
-    align-items: center;
-    gap: var(--space-sm);
-    font-family: var(--font-display);
-    font-size: 1.5rem;
-    font-weight: 700;
-    transition: transform var(--transition-fast);
-}
-
-.logo:hover { transform: scale(1.02); }
-
-.logo-flower {
-    font-size: 1.75rem;
-    line-height: 1;
-}
-
-.logo-text {
-    color: var(--logo-text);
-    letter-spacing: -0.02em;
-}
-
-/* Navigation */
-.nav-desktop {
-    display: flex;
-    align-items: center;
-    gap: var(--space-xl);
-}
-
-.nav-desktop a {
-    font-weight: 500;
-    color: var(--gray-700);
-    padding: var(--space-sm) 0;
-    position: relative;
-}
-
-.nav-desktop a::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: var(--ocean-mid);
-    transition: width var(--transition-base);
-}
-
-.nav-desktop a:hover { color: var(--ocean-deep); }
-.nav-desktop a:hover::after { width: 100%; }
-
-.mobile-menu-btn {
-    display: none;
-    flex-direction: column;
-    gap: 5px;
-    padding: var(--space-sm);
-}
-
-.mobile-menu-btn span {
-    display: block;
-    width: 24px;
-    height: 2px;
-    background: var(--gray-700);
-    transition: all var(--transition-fast);
-}
-
-.nav-mobile {
-    display: none;
-    flex-direction: column;
-    background: var(--white);
-    border-top: 1px solid var(--gray-200);
-    padding: var(--space-md) var(--space-lg);
-}
-
-.nav-mobile.active { display: flex; }
-
-.nav-mobile a {
-    padding: var(--space-md) 0;
-    border-bottom: 1px solid var(--gray-100);
-    font-weight: 500;
-    color: var(--gray-700);
-}
-
-@media (max-width: 768px) {
-    .nav-desktop { display: none; }
-    .mobile-menu-btn { display: flex; }
-}
-
-/* ============================================
-   HERO
-   ============================================ */
-.hero {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 120px var(--space-lg) 60px;
-    overflow: hidden;
-}
-
-.hero-bg {
-    position: absolute;
-    inset: 0;
-}
-
-.hero-slide {
-    position: absolute;
-    inset: 0;
-    background-size: cover;
-    background-position: center;
-    opacity: 0;
-    animation: heroFade 24s infinite;
-    transform: scale(1.05);
-}
-
-.hero-slide:nth-child(1) {
-    background-image: url('https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=1920');
-    animation-delay: 0s;
-}
-
-.hero-slide:nth-child(2) {
-    background-image: url('https://images.unsplash.com/photo-1542259009477-d625272157b7?w=1920');
-    animation-delay: 6s;
-}
-
-.hero-slide:nth-child(3) {
-    background-image: url('https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?w=1920');
-    animation-delay: 12s;
-}
-
-.hero-slide:nth-child(4) {
-    background-image: url('https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?w=1920');
-    animation-delay: 18s;
-}
-
-@keyframes heroFade {
-    0% { opacity: 0; transform: scale(1.05); }
-    4% { opacity: 1; transform: scale(1.05); }
-    25% { opacity: 1; transform: scale(1); }
-    29% { opacity: 0; transform: scale(1); }
-    100% { opacity: 0; transform: scale(1.05); }
-}
-
-.hero-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, rgba(10, 77, 104, 0.7) 0%, rgba(10, 77, 104, 0.5) 50%, rgba(10, 77, 104, 0.8) 100%);
-}
-
-.hero-content {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    max-width: 800px;
-    color: var(--white);
-}
-
-.hero-tagline {
-    font-size: 1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    margin-bottom: var(--space-md);
-    opacity: 0.9;
-}
-
-.hero h1 {
-    font-family: var(--font-display);
-    font-size: clamp(2.5rem, 6vw, 4rem);
-    font-weight: 700;
-    line-height: 1.1;
-    margin-bottom: var(--space-lg);
-    text-shadow: 0 2px 20px rgba(0,0,0,0.3);
-}
-
-.hero-subtitle {
-    font-size: 1.125rem;
-    line-height: 1.7;
-    opacity: 0.95;
-    margin-bottom: var(--space-2xl);
-}
-
-.hero-search {
-    display: flex;
-    gap: var(--space-sm);
-    max-width: 560px;
-    margin: 0 auto var(--space-xl);
-    background: var(--white);
-    padding: var(--space-sm);
-    border-radius: var(--radius-full);
-    box-shadow: var(--shadow-xl);
-}
-
-.search-input-wrap {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    gap: var(--space-sm);
-    padding-left: var(--space-md);
-}
-
-.search-icon { font-size: 1.25rem; opacity: 0.5; }
-
-.hero-search input {
-    flex: 1;
-    border: none;
-    outline: none;
-    font-size: 1rem;
-    color: var(--gray-800);
-    background: transparent;
-}
-
-.hero-search input::placeholder { color: var(--gray-400); }
-
-.search-btn {
-    background: var(--ocean-mid);
-    color: var(--white);
-    font-weight: 600;
-    padding: var(--space-md) var(--space-xl);
-    border-radius: var(--radius-full);
-    transition: all var(--transition-fast);
-}
-
-.search-btn:hover {
-    background: var(--ocean-deep);
-    transform: translateY(-1px);
-}
-
-@media (max-width: 560px) {
-    .hero-search {
-        flex-direction: column;
-        border-radius: var(--radius-lg);
-        padding: var(--space-md);
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "WanderHawaii",
+        "description": "Hawaii's premier tour discovery platform featuring 595 adventures across all islands.",
+        "url": "https://wanderhawaii.com",
+        "areaServed": {"@type": "Place", "name": "Hawaii, United States"}
     }
-    .search-input-wrap { padding: var(--space-sm); }
-    .search-btn { width: 100%; }
-}
-
-.quick-tags {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: var(--space-sm);
-}
-
-.quick-tags button {
-    background: rgba(255,255,255,0.15);
-    backdrop-filter: blur(10px);
-    color: var(--white);
-    padding: var(--space-sm) var(--space-md);
-    border-radius: var(--radius-full);
-    font-size: 0.875rem;
-    font-weight: 500;
-    border: 1px solid rgba(255,255,255,0.2);
-    transition: all var(--transition-fast);
-}
-
-.quick-tags button:hover {
-    background: rgba(255,255,255,0.25);
-    transform: translateY(-2px);
-}
-
-.trust-bar {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: var(--space-2xl);
-    padding: var(--space-lg);
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(10px);
-    border-top: 1px solid rgba(255,255,255,0.1);
-}
-
-.trust-item { text-align: center; color: var(--white); }
-
-.trust-number {
-    display: block;
-    font-family: var(--font-display);
-    font-size: 1.75rem;
-    font-weight: 700;
-}
-
-.trust-label {
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    opacity: 0.8;
-}
-
-.trust-divider {
-    width: 1px;
-    height: 40px;
-    background: rgba(255,255,255,0.2);
-}
-
-@media (max-width: 640px) {
-    .trust-bar { gap: var(--space-lg); padding: var(--space-md); }
-    .trust-number { font-size: 1.25rem; }
-    .trust-label { font-size: 0.625rem; }
-}
-
-/* ============================================
-   SECTIONS COMMON
-   ============================================ */
-section { padding: var(--space-3xl) 0; }
-
-.section-title {
-    font-family: var(--font-display);
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
-    font-weight: 700;
-    color: var(--gray-900);
-    text-align: center;
-    margin-bottom: var(--space-md);
-}
-
-.section-subtitle {
-    font-size: 1.125rem;
-    color: var(--gray-500);
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto var(--space-2xl);
-}
-
-/* ============================================
-   ISLANDS NAV
-   ============================================ */
-.islands-nav { background: var(--off-white); }
-
-.islands-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: var(--space-lg);
-}
-
-.island-card {
-    position: relative;
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    background: var(--white);
-    box-shadow: var(--shadow-md);
-    transition: all var(--transition-base);
-}
-
-.island-card:hover {
-    transform: translateY(-8px);
-    box-shadow: var(--shadow-xl);
-}
-
-.island-img {
-    height: 180px;
-    background-size: cover;
-    background-position: center;
-    transition: transform var(--transition-slow);
-}
-
-.island-card:hover .island-img { transform: scale(1.1); }
-
-.island-content { padding: var(--space-lg); }
-
-.island-content h3 {
-    font-family: var(--font-display);
-    font-size: 1.5rem;
-    color: var(--gray-900);
-    margin-bottom: var(--space-xs);
-}
-
-.island-content p {
-    font-size: 0.875rem;
-    color: var(--gray-500);
-    margin-bottom: var(--space-sm);
-}
-
-.island-count {
-    display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: var(--ocean-mid);
-    background: rgba(8, 131, 149, 0.1);
-    padding: var(--space-xs) var(--space-sm);
-    border-radius: var(--radius-full);
-}
-
-@media (max-width: 1024px) { .islands-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 540px) { .islands-grid { grid-template-columns: 1fr; } }
-
-/* ============================================
-   TOURS SECTION
-   ============================================ */
-.tours-section { background: var(--white); }
-
-.filters-bar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-md);
-    align-items: flex-end;
-    padding: var(--space-lg);
-    background: var(--gray-100);
-    border-radius: var(--radius-lg);
-    margin-bottom: var(--space-xl);
-}
-
-.filter-group {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-xs);
-}
-
-.filter-group label {
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--gray-500);
-}
-
-.filter-group select {
-    padding: var(--space-sm) var(--space-md);
-    border: 1px solid var(--gray-300);
-    border-radius: var(--radius-md);
-    background: var(--white);
-    font-size: 0.875rem;
-    color: var(--gray-700);
-    min-width: 140px;
-    cursor: pointer;
-}
-
-.filter-group select:focus {
-    outline: none;
-    border-color: var(--ocean-mid);
-}
-
-.search-inline { flex: 1; min-width: 200px; }
-
-.search-inline input {
-    width: 100%;
-    padding: var(--space-sm) var(--space-md);
-    border: 1px solid var(--gray-300);
-    border-radius: var(--radius-md);
-    font-size: 0.875rem;
-}
-
-.search-inline input:focus {
-    outline: none;
-    border-color: var(--ocean-mid);
-}
-
-.clear-filters {
-    padding: var(--space-sm) var(--space-md);
-    font-size: 0.875rem;
-    font-weight: 500;
-    color: var(--gray-500);
-    border: 1px solid var(--gray-300);
-    border-radius: var(--radius-md);
-    background: var(--white);
-    transition: all var(--transition-fast);
-}
-
-.clear-filters:hover {
-    color: var(--coral);
-    border-color: var(--coral);
-}
-
-.results-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: var(--space-lg);
-}
-
-#results-count { font-weight: 500; color: var(--gray-600); }
-
-.shuffle-btn {
-    padding: var(--space-sm) var(--space-md);
-    font-size: 0.875rem;
-    font-weight: 500;
-    color: var(--gray-600);
-    background: var(--gray-100);
-    border-radius: var(--radius-full);
-    transition: all var(--transition-fast);
-}
-
-.shuffle-btn:hover { background: var(--gray-200); }
-
-.tours-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: var(--space-xl);
-}
-
-/* Tour Card */
-.tour-card {
-    background: var(--white);
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    box-shadow: var(--shadow-md);
-    transition: all var(--transition-base);
-}
-
-.tour-card:hover {
-    transform: translateY(-6px);
-    box-shadow: var(--shadow-xl);
-}
-
-.tour-image {
-    position: relative;
-    height: 200px;
-    overflow: hidden;
-    background: var(--gray-100);
-}
-
-.tour-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform var(--transition-slow);
-}
-
-.tour-card:hover .tour-image img { transform: scale(1.08); }
-
-.tour-badge {
-    position: absolute;
-    top: var(--space-sm);
-    left: var(--space-sm);
-    padding: var(--space-xs) var(--space-sm);
-    font-size: 0.7rem;
-    font-weight: 600;
-    border-radius: var(--radius-sm);
-    text-transform: uppercase;
-}
-
-.tour-badge.top-rated { background: var(--sunset-gold); color: var(--gray-900); }
-.tour-badge.popular { background: var(--coral); color: var(--white); }
-
-.tour-island {
-    position: absolute;
-    top: var(--space-sm);
-    right: var(--space-sm);
-    padding: var(--space-xs) var(--space-sm);
-    font-size: 0.7rem;
-    font-weight: 500;
-    background: rgba(255,255,255,0.9);
-    color: var(--gray-700);
-    border-radius: var(--radius-sm);
-    text-transform: capitalize;
-}
-
-.tour-content { padding: var(--space-lg); }
-
-.tour-company {
-    font-size: 0.7rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--ocean-mid);
-    margin-bottom: var(--space-xs);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.tour-name {
-    font-family: var(--font-display);
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--gray-900);
-    margin-bottom: var(--space-sm);
-    line-height: 1.3;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
-
-.tour-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-xs);
-    margin-bottom: var(--space-md);
-}
-
-.tour-tag {
-    font-size: 0.7rem;
-    color: var(--gray-500);
-    background: var(--gray-100);
-    padding: 2px var(--space-sm);
-    border-radius: var(--radius-full);
-}
-
-.tour-footer {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: var(--space-md);
-    border-top: 1px solid var(--gray-100);
-}
-
-.tour-book-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: var(--space-xs);
-    padding: var(--space-sm) var(--space-md);
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: var(--white);
-    background: var(--ocean-mid);
-    border-radius: var(--radius-md);
-    transition: all var(--transition-fast);
-}
-
-.tour-book-btn:hover {
-    background: var(--ocean-deep);
-    transform: translateX(2px);
-}
-
-.loading-state {
-    grid-column: 1 / -1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: var(--space-3xl);
-    color: var(--gray-500);
-}
-
-.loading-spinner {
-    width: 40px;
-    height: 40px;
-    border: 3px solid var(--gray-200);
-    border-top-color: var(--ocean-mid);
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-    margin-bottom: var(--space-md);
-}
-
-@keyframes spin { to { transform: rotate(360deg); } }
-
-.load-more-wrap {
-    display: flex;
-    justify-content: center;
-    margin-top: var(--space-2xl);
-}
-
-.load-more-btn {
-    padding: var(--space-md) var(--space-2xl);
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--ocean-mid);
-    background: var(--white);
-    border: 2px solid var(--ocean-mid);
-    border-radius: var(--radius-full);
-    transition: all var(--transition-fast);
-}
-
-.load-more-btn:hover {
-    background: var(--ocean-mid);
-    color: var(--white);
-}
-
-.load-more-btn span { display: inline-block; transition: transform var(--transition-fast); }
-.load-more-btn:hover span { transform: translateX(4px); }
-
-.no-results {
-    grid-column: 1 / -1;
-    text-align: center;
-    padding: var(--space-3xl);
-}
-
-.no-results-icon { font-size: 4rem; margin-bottom: var(--space-md); }
-
-.no-results h3 {
-    font-family: var(--font-display);
-    font-size: 1.5rem;
-    color: var(--gray-900);
-    margin-bottom: var(--space-sm);
-}
-
-.no-results p {
-    color: var(--gray-500);
-    margin-bottom: var(--space-lg);
-}
-
-/* ============================================
-   WHY SECTION
-   ============================================ */
-.why-section { background: var(--sand); }
-
-.why-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: var(--space-xl);
-}
-
-.why-card {
-    text-align: center;
-    padding: var(--space-xl);
-    background: var(--white);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-sm);
-    transition: all var(--transition-base);
-}
-
-.why-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-lg);
-}
-
-.why-icon { font-size: 2.5rem; margin-bottom: var(--space-md); }
-
-.why-card h3 {
-    font-family: var(--font-display);
-    font-size: 1.25rem;
-    color: var(--gray-900);
-    margin-bottom: var(--space-sm);
-}
-
-.why-card p {
-    font-size: 0.9375rem;
-    color: var(--gray-600);
-    line-height: 1.6;
-}
-
-@media (max-width: 1024px) { .why-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 540px) { .why-grid { grid-template-columns: 1fr; } }
-
-/* ============================================
-   SIGNUP
-   ============================================ */
-.signup-section {
-    background: linear-gradient(135deg, var(--ocean-deep), var(--ocean-mid));
-    padding: var(--space-2xl) 0;
-}
-
-.signup-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: var(--space-2xl);
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.signup-content h2 {
-    font-family: var(--font-display);
-    font-size: 1.75rem;
-    color: var(--white);
-    margin-bottom: var(--space-sm);
-}
-
-.signup-content p { color: rgba(255,255,255,0.85); }
-
-.signup-form { display: flex; gap: var(--space-sm); }
-
-.signup-form input {
-    padding: var(--space-md) var(--space-lg);
-    border: none;
-    border-radius: var(--radius-full);
-    font-size: 1rem;
-    min-width: 280px;
-}
-
-.signup-form input:focus { outline: 2px solid var(--sunset-gold); }
-
-.signup-form button {
-    padding: var(--space-md) var(--space-xl);
-    font-weight: 600;
-    color: var(--gray-900);
-    background: var(--sunset-gold);
-    border-radius: var(--radius-full);
-    white-space: nowrap;
-    transition: all var(--transition-fast);
-}
-
-.signup-form button:hover {
-    background: var(--white);
-    transform: scale(1.02);
-}
-
-@media (max-width: 768px) {
-    .signup-box { flex-direction: column; text-align: center; }
-    .signup-form { flex-direction: column; width: 100%; }
-    .signup-form input { min-width: unset; width: 100%; }
-}
-
-/* ============================================
-   FAQ
-   ============================================ */
-.faq-section { background: var(--off-white); }
-
-.faq-grid { max-width: 800px; margin: 0 auto; }
-
-.faq-item {
-    background: var(--white);
-    border-radius: var(--radius-md);
-    margin-bottom: var(--space-md);
-    box-shadow: var(--shadow-sm);
-    overflow: hidden;
-}
-
-.faq-item summary {
-    padding: var(--space-lg);
-    font-weight: 600;
-    color: var(--gray-800);
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.faq-item summary:hover { background: var(--gray-50); }
-.faq-item summary::marker, .faq-item summary::-webkit-details-marker { display: none; }
-
-.faq-item summary::after {
-    content: '+';
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: var(--gray-400);
-}
-
-.faq-item[open] summary::after { transform: rotate(45deg); }
-
-.faq-answer {
-    padding: 0 var(--space-lg) var(--space-lg);
-    color: var(--gray-600);
-    line-height: 1.7;
-}
-
-/* ============================================
-   FOOTER - CONSISTENT LOGO
-   ============================================ */
-.footer {
-    background: var(--gray-900);
-    color: var(--gray-300);
-    padding: var(--space-3xl) 0 var(--space-xl);
-}
-
-.footer-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: var(--space-2xl);
-    margin-bottom: var(--space-2xl);
-}
-
-.footer-brand .logo { margin-bottom: var(--space-md); }
-
-/* Footer logo text - white for visibility on dark background */
-.footer .logo-text { color: var(--white); }
-
-.footer-brand p {
-    font-size: 0.9375rem;
-    line-height: 1.7;
-    margin-bottom: var(--space-sm);
-}
-
-.footer-tagline { color: var(--sunset-gold); }
-
-.footer-links h4 {
-    color: var(--white);
-    font-weight: 600;
-    margin-bottom: var(--space-md);
-}
-
-.footer-links ul li { margin-bottom: var(--space-sm); }
-
-.footer-links a {
-    font-size: 0.9375rem;
-    transition: color var(--transition-fast);
-}
-
-.footer-links a:hover { color: var(--ocean-light); }
-
-.footer-bottom {
-    padding-top: var(--space-xl);
-    border-top: 1px solid var(--gray-700);
-    text-align: center;
-}
-
-.footer-bottom p {
-    font-size: 0.875rem;
-    margin-bottom: var(--space-sm);
-}
-
-@media (max-width: 768px) {
-    .footer-grid { grid-template-columns: 1fr 1fr; gap: var(--space-xl); }
-    .footer-brand { grid-column: 1 / -1; }
-}
-
-@media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
-
-/* ============================================
-   MOBILE CTA
-   ============================================ */
-.mobile-cta {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 900;
-    padding: var(--space-md);
-    background: var(--white);
-    box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
-}
-
-.mobile-cta-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: var(--space-sm);
-    width: 100%;
-    padding: var(--space-md);
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--white);
-    background: linear-gradient(135deg, var(--ocean-mid), var(--ocean-deep));
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-md);
-}
-
-@media (max-width: 768px) {
-    .mobile-cta.visible { display: block; }
-    .footer { padding-bottom: 100px; }
-}
-
-/* ============================================
-   FOMO NOTIFICATION
-   ============================================ */
-.notification {
-    position: fixed;
-    bottom: 100px;
-    left: var(--space-lg);
-    z-index: 800;
-    background: var(--white);
-    padding: var(--space-md);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-xl);
-    transform: translateX(-120%);
-    transition: transform var(--transition-slow);
-    max-width: 320px;
-}
-
-.notification.show { transform: translateX(0); }
-
-.notification-content {
-    display: flex;
-    align-items: center;
-    gap: var(--space-md);
-}
-
-.notification-icon { font-size: 1.5rem; }
-
-.notification-text { font-size: 0.875rem; line-height: 1.4; }
-.notification-text strong { display: block; color: var(--gray-900); }
-.notification-text span { color: var(--gray-500); }
-
-@media (max-width: 768px) {
-    .notification {
-        bottom: 120px;
-        left: var(--space-md);
-        right: var(--space-md);
-        max-width: unset;
-    }
-}
-
-/* ============================================
-   ISLAND PAGE HERO
-   ============================================ */
-.island-hero {
-    position: relative;
-    padding: 160px var(--space-lg) var(--space-3xl);
-    background-size: cover;
-    background-position: center;
-    color: var(--white);
-}
-
-.island-hero::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, rgba(10, 77, 104, 0.7) 0%, rgba(10, 77, 104, 0.85) 100%);
-}
-
-.island-hero-content {
-    position: relative;
-    z-index: 1;
-    max-width: 800px;
-}
-
-.island-hero .breadcrumb {
-    font-size: 0.875rem;
-    opacity: 0.8;
-    margin-bottom: var(--space-md);
-}
-
-.island-hero .breadcrumb a { color: var(--white); text-decoration: underline; }
-
-.island-hero h1 {
-    font-family: var(--font-display);
-    font-size: clamp(2.5rem, 6vw, 4rem);
-    margin-bottom: var(--space-lg);
-}
-
-.island-hero p {
-    font-size: 1.25rem;
-    line-height: 1.7;
-    margin-bottom: var(--space-xl);
-    max-width: 600px;
-}
-
-.island-stats { display: flex; gap: var(--space-2xl); }
-.island-stat { text-align: left; }
-.island-stat-number { display: block; font-family: var(--font-display); font-size: 2rem; font-weight: 700; }
-.island-stat-label { font-size: 0.875rem; opacity: 0.8; }
-
-.island-intro { padding: var(--space-3xl) 0; background: var(--off-white); }
-
-.island-intro-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: var(--space-3xl);
-}
-
-.island-intro h2 {
-    font-family: var(--font-display);
-    font-size: 2rem;
-    color: var(--gray-900);
-    margin-bottom: var(--space-lg);
-}
-
-.island-intro p {
-    color: var(--gray-600);
-    line-height: 1.8;
-    margin-bottom: var(--space-md);
-}
-
-.island-highlights {
-    background: var(--white);
-    padding: var(--space-xl);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-md);
-}
-
-.island-highlights h3 {
-    font-family: var(--font-display);
-    font-size: 1.25rem;
-    color: var(--gray-900);
-    margin-bottom: var(--space-md);
-}
-
-.island-highlights ul li {
-    display: flex;
-    align-items: center;
-    gap: var(--space-sm);
-    padding: var(--space-sm) 0;
-    color: var(--gray-700);
-    font-size: 0.9375rem;
-}
-
-.island-highlights ul li::before {
-    content: '✓';
-    color: var(--palm-green);
-    font-weight: bold;
-}
-
-@media (max-width: 768px) {
-    .island-intro-grid { grid-template-columns: 1fr; }
-    .island-stats { flex-direction: column; gap: var(--space-md); }
-}
-
-/* About page */
-.page-hero {
-    padding: 140px var(--space-lg) var(--space-3xl);
-    background: linear-gradient(135deg, var(--ocean-deep), var(--ocean-mid));
-    color: var(--white);
-    text-align: center;
-}
-
-.page-hero h1 {
-    font-family: var(--font-display);
-    font-size: clamp(2rem, 5vw, 3rem);
-    margin-bottom: var(--space-md);
-}
-
-.page-hero p {
-    font-size: 1.125rem;
-    opacity: 0.9;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.about-content { padding: var(--space-3xl) 0; }
-
-.about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--space-3xl);
-    align-items: center;
-    margin-bottom: var(--space-3xl);
-}
-
-.about-text h2 {
-    font-family: var(--font-display);
-    font-size: 2rem;
-    color: var(--gray-900);
-    margin-bottom: var(--space-lg);
-}
-
-.about-text p {
-    color: var(--gray-600);
-    line-height: 1.8;
-    margin-bottom: var(--space-md);
-}
-
-.about-image {
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    box-shadow: var(--shadow-xl);
-}
-
-.about-image img { width: 100%; height: auto; }
-
-.about-values { background: var(--sand); padding: var(--space-3xl) 0; }
-
-.values-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-xl);
-}
-
-.value-card { text-align: center; padding: var(--space-xl); }
-.value-card .value-icon { font-size: 3rem; margin-bottom: var(--space-md); }
-.value-card h3 { font-family: var(--font-display); font-size: 1.25rem; color: var(--gray-900); margin-bottom: var(--space-sm); }
-.value-card p { color: var(--gray-600); font-size: 0.9375rem; }
-
-@media (max-width: 768px) {
-    .about-grid { grid-template-columns: 1fr; }
-    .about-image { order: -1; }
-    .values-grid { grid-template-columns: 1fr; }
-}
-
-.btn-secondary {
-    display: inline-block;
-    padding: var(--space-md) var(--space-xl);
-    font-weight: 600;
-    color: var(--ocean-mid);
-    border: 2px solid var(--ocean-mid);
-    border-radius: var(--radius-full);
-    transition: all var(--transition-fast);
-}
-
-.btn-secondary:hover {
-    background: var(--ocean-mid);
-    color: var(--white);
-}
+    </script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <a href="/" class="logo">
+                <span class="logo-flower">🌺</span>
+                <span class="logo-text">WanderHawaii</span>
+            </a>
+            <nav class="nav-desktop">
+                <a href="#tours-section">Tours</a>
+                <a href="#islands">Islands</a>
+                <a href="about.html">About</a>
+                <a href="#faq">FAQs</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="#tours-section">Tours</a>
+            <a href="#islands">Islands</a>
+            <a href="about.html">About</a>
+            <a href="#faq">FAQs</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="hero-slide"></div>
+            <div class="hero-slide"></div>
+            <div class="hero-slide"></div>
+            <div class="hero-slide"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-tagline">Discover Paradise</p>
+            <h1>Your Hawaiian Adventure<br>Starts Here</h1>
+            <p class="hero-subtitle">595 handpicked tours across Oahu, Maui, Big Island & Kauai.<br>Book direct with local operators. Support local families.</p>
+            
+            <div class="hero-search">
+                <div class="search-input-wrap">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="hero-search" placeholder="Search snorkeling, whale watching, helicopters..." autocomplete="off">
+                </div>
+                <button class="search-btn" onclick="executeHeroSearch()">Find Tours</button>
+            </div>
+            
+            <div class="quick-tags">
+                <button onclick="quickFilter('snorkel')">🤿 Snorkeling</button>
+                <button onclick="quickFilter('whale')">🐋 Whale Watch</button>
+                <button onclick="quickFilter('dolphin')">🐬 Dolphins</button>
+                <button onclick="quickFilter('boat')">🚤 Boat Tours</button>
+                <button onclick="quickFilter('scuba')">🤿 Scuba</button>
+                <button onclick="quickFilter('kayak')">🚣 Kayaking</button>
+            </div>
+        </div>
+        
+        <div class="trust-bar">
+            <div class="trust-item">
+                <span class="trust-number">595</span>
+                <span class="trust-label">Verified Tours</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+                <span class="trust-number">4</span>
+                <span class="trust-label">Islands</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+                <span class="trust-number">100%</span>
+                <span class="trust-label">Local Operators</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ISLANDS -->
+    <section class="islands-nav" id="islands">
+        <div class="container">
+            <h2 class="section-title">Explore by Island</h2>
+            <p class="section-subtitle">Each island has its own personality. Find your perfect match.</p>
+            
+            <div class="islands-grid">
+                <a href="oahu.html" class="island-card">
+                    <div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=600')"></div>
+                    <div class="island-content">
+                        <h3>Oahu</h3>
+                        <p>Waikiki • Pearl Harbor • North Shore</p>
+                        <span class="island-count">329 Adventures</span>
+                    </div>
+                </a>
+                
+                <a href="maui.html" class="island-card">
+                    <div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1542259009477-d625272157b7?w=600')"></div>
+                    <div class="island-content">
+                        <h3>Maui</h3>
+                        <p>Road to Hana • Molokini • Whale Watching</p>
+                        <span class="island-count">101 Adventures</span>
+                    </div>
+                </a>
+                
+                <a href="big-island.html" class="island-card">
+                    <div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1547483238-f400e65ccd56?w=600')"></div>
+                    <div class="island-content">
+                        <h3>Big Island</h3>
+                        <p>Volcanoes • Manta Rays • Kona Coffee</p>
+                        <span class="island-count">110 Adventures</span>
+                    </div>
+                </a>
+                
+                <a href="kauai.html" class="island-card">
+                    <div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?w=600')"></div>
+                    <div class="island-content">
+                        <h3>Kauai</h3>
+                        <p>Na Pali Coast • Waimea Canyon</p>
+                        <span class="island-count">55 Adventures</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TOURS -->
+    <section class="tours-section" id="tours-section">
+        <div class="container">
+            <h2 class="section-title">Find Your Perfect Adventure</h2>
+            <p class="section-subtitle">Browse 595 tours from trusted local operators</p>
+            
+            <div class="filters-bar">
+                <div class="filter-group">
+                    <label for="island-filter">Island</label>
+                    <select id="island-filter">
+                        <option value="">All Islands</option>
+                        <option value="oahu">Oahu (329)</option>
+                        <option value="maui">Maui (101)</option>
+                        <option value="big island">Big Island (110)</option>
+                        <option value="kauai">Kauai (55)</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="activity-filter">Activity</label>
+                    <select id="activity-filter">
+                        <option value="">All Activities</option>
+                        <option value="Snorkel">🤿 Snorkeling (114)</option>
+                        <option value="Boat Tour">🚤 Boat Tours (127)</option>
+                        <option value="Whale Watch">🐋 Whale Watching (43)</option>
+                        <option value="Dolphin">🐬 Dolphins (46)</option>
+                        <option value="Scuba">🤿 Scuba Diving (34)</option>
+                        <option value="Kayak">🚣 Kayaking (23)</option>
+                        <option value="Surf">🏄 Surfing (26)</option>
+                        <option value="SUP">🏄 Stand Up Paddle (18)</option>
+                        <option value="Sailing">⛵ Sailing (22)</option>
+                        <option value="Catamaran">⛵ Catamaran (23)</option>
+                        <option value="Fishing">🎣 Fishing (8)</option>
+                        <option value="Hiking">🥾 Hiking (18)</option>
+                        <option value="Zipline">🎢 Zipline (15)</option>
+                        <option value="ATV">🏎️ ATV/UTV (8)</option>
+                        <option value="Air">🚁 Air Tours (10)</option>
+                        <option value="Food Tour">🍽️ Food Tours (16)</option>
+                        <option value="Farm">🌴 Farm Tours (20)</option>
+                        <option value="Private">👑 Private Tours (33)</option>
+                        <option value="Guided Tour">🎯 Guided Tours (63)</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="sort-filter">Sort By</label>
+                    <select id="sort-filter">
+                        <option value="quality">Top Rated</option>
+                        <option value="name">Name A-Z</option>
+                    </select>
+                </div>
+                
+                <div class="search-inline">
+                    <input type="text" id="search-input" placeholder="Search tours...">
+                </div>
+                
+                <button class="clear-filters" onclick="clearAllFilters()">Clear All</button>
+            </div>
+            
+            <div class="results-info">
+                <span id="results-count">Loading adventures...</span>
+                <button class="shuffle-btn" onclick="shuffleTours()">🎲 Shuffle</button>
+            </div>
+            
+            <div class="tours-grid" id="tours-grid">
+                <div class="loading-state">
+                    <div class="loading-spinner"></div>
+                    <p>Loading adventures...</p>
+                </div>
+            </div>
+            
+            <div class="load-more-wrap">
+                <button class="load-more-btn" id="load-more" onclick="loadMoreTours()">
+                    Load More Adventures <span>→</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY US -->
+    <section class="why-section" id="why">
+        <div class="container">
+            <h2 class="section-title">Why Book With WanderHawaii?</h2>
+            <p class="section-subtitle">We connect you directly with Hawaii's best local tour operators.</p>
+            
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon">🏝️</div>
+                    <h3>595 Verified Tours</h3>
+                    <p>Every tour is from a verified local operator. Real businesses, real experiences, real aloha.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">💰</div>
+                    <h3>Book Direct</h3>
+                    <p>No middleman markup. Book directly with the tour operator at their prices.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">🤙</div>
+                    <h3>Support Local</h3>
+                    <p>Your booking supports Hawaiian families and small businesses.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">📱</div>
+                    <h3>Instant Confirmation</h3>
+                    <p>Real-time availability. Book now, get confirmed instantly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EMAIL -->
+    <section class="signup-section">
+        <div class="container">
+            <div class="signup-box">
+                <div class="signup-content">
+                    <h2>🌺 Get Insider Hawaii Tips</h2>
+                    <p>Join travelers getting exclusive deals and local secrets.</p>
+                </div>
+                <form class="signup-form" id="email-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Get the Guide</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-grid">
+                <details class="faq-item">
+                    <summary>What are the best things to do in Hawaii?</summary>
+                    <div class="faq-answer">
+                        <p>Top activities include snorkeling at Molokini Crater or Hanauma Bay, whale watching (December–April), helicopter tours, traditional luaus, surfing lessons, hiking Diamond Head, and swimming with manta rays. We feature 595 tours across all islands.</p>
+                    </div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary>Which Hawaiian island should I visit?</summary>
+                    <div class="faq-answer">
+                        <p><strong>Oahu</strong> is perfect for first-timers—Waikiki Beach, Pearl Harbor, 329 tour options. <strong>Maui</strong> is ideal for couples—Road to Hana, whale watching. <strong>Big Island</strong> is for adventure—volcanoes, manta rays. <strong>Kauai</strong> is for nature lovers—Na Pali Coast, Waimea Canyon.</p>
+                    </div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary>How do I book tours through WanderHawaii?</summary>
+                    <div class="faq-answer">
+                        <p>Browse tours, filter by island or activity, and click "Book Now." You'll be connected directly with the tour operator's booking system. Most offer free cancellation 24-48 hours before your activity.</p>
+                    </div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary>When is whale watching season in Hawaii?</summary>
+                    <div class="faq-answer">
+                        <p>Whale watching season runs <strong>December through April</strong>, with peak sightings in January-March. Thousands of humpback whales migrate to Hawaii's warm waters. Maui is particularly famous for whale watching.</p>
+                    </div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary>What's the best time to visit Hawaii?</summary>
+                    <div class="faq-answer">
+                        <p>Hawaii is beautiful year-round. <strong>Winter (Dec–Mar)</strong> offers whale watching. <strong>Summer (Jun–Aug)</strong> has calmer oceans for snorkeling. <strong>Shoulder seasons</strong> offer lower prices and fewer crowds.</p>
+                    </div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary>Are your prices better than Viator or Expedia?</summary>
+                    <div class="faq-answer">
+                        <p>We connect you directly with local tour operators through their booking systems, so you get their direct prices. More of your money stays in Hawaii's local economy.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <span class="logo-flower">🌺</span>
+                        <span class="logo-text">WanderHawaii</span>
+                    </a>
+                    <p>Your guide to 595 Hawaiian adventures. Verified local operators, instant booking.</p>
+                    <p class="footer-tagline">Mahalo for supporting local! 🤙</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Islands</h4>
+                    <ul>
+                        <li><a href="oahu.html">Oahu (329)</a></li>
+                        <li><a href="maui.html">Maui (101)</a></li>
+                        <li><a href="big-island.html">Big Island (110)</a></li>
+                        <li><a href="kauai.html">Kauai (55)</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Popular</h4>
+                    <ul>
+                        <li><a href="#" onclick="quickFilter('snorkel'); return false;">Snorkeling</a></li>
+                        <li><a href="#" onclick="quickFilter('whale'); return false;">Whale Watching</a></li>
+                        <li><a href="#" onclick="quickFilter('dolphin'); return false;">Dolphins</a></li>
+                        <li><a href="#" onclick="quickFilter('boat'); return false;">Boat Tours</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#faq">FAQs</a></li>
+                        <li><a href="mailto:aloha@wanderhawaii.com">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 WanderHawaii. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MOBILE CTA -->
+    <div class="mobile-cta" id="mobile-cta">
+        <a href="#tours-section" class="mobile-cta-btn">
+            <span>🌺</span> Find Your Adventure
+        </a>
+    </div>
+
+    <!-- FOMO -->
+    <div class="notification" id="notification">
+        <div class="notification-content">
+            <span class="notification-icon">🎉</span>
+            <div class="notification-text">
+                <strong id="notification-name">Sarah from California</strong>
+                <span id="notification-action">just booked a snorkel tour!</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
