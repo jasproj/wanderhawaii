@@ -1537,11 +1537,12 @@ section { padding: var(--space-3xl) 0; }
     /* Hero Mobile */
     .hero {
         min-height: 100svh;
-        padding: 100px var(--space-md) 40px;
+        padding: 100px var(--space-lg) 40px;
     }
     
     .hero-content {
-        padding: 0 var(--space-sm);
+        padding: 0 var(--space-md);
+        width: 100%;
     }
     
     .hero-tagline {
@@ -1563,9 +1564,15 @@ section { padding: var(--space-3xl) 0; }
     }
     
     .hero-subtitle {
-        font-size: 0.9rem;
-        line-height: 1.6;
-        padding: 0 var(--space-sm);
+        font-size: 0.875rem;
+        line-height: 1.7;
+        padding: 0 var(--space-lg);
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    
+    .hero-subtitle br {
+        display: none;
     }
     
     /* Search Box Mobile */
