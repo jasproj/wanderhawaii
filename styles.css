@@ -362,8 +362,8 @@ ul, ol { list-style: none; }
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border-radius: 40px;
-    padding: 30px 50px;
+    border-radius: 50%;
+    padding: 15px;
     margin-bottom: var(--space-lg);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1604,8 +1604,7 @@ section { padding: var(--space-3xl) 0; }
     }
     
     .hero-logo-pill {
-        padding: 20px 30px;
-        border-radius: 30px;
+        padding: 10px;
     }
     
     .hero-logo-flower {
