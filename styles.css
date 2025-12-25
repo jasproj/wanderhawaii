@@ -110,20 +110,19 @@ ul, ol { list-style: none; }
     line-height: 1;
 }
 
-.logo-text {
-    color: var(--logo-text);
-    letter-spacing: -0.02em;
-}
-
 /* Logo Image Styles */
 .logo-img {
     height: 36px;
     width: auto;
+    vertical-align: middle;
 }
 
 .logo-text {
     color: var(--logo-text);
     letter-spacing: -0.02em;
+    line-height: 1;
+    display: flex;
+    align-items: center;
 }
 
 .hero-logo-img {
@@ -358,12 +357,19 @@ ul, ol { list-style: none; }
 }
 
 /* Hero Logo - Big centered branding */
+.hero-logo-pill {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    padding: var(--space-lg) var(--space-2xl);
+    margin-bottom: var(--space-lg);
+}
+
 .hero-logo {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: var(--space-md);
-    margin-bottom: var(--space-lg);
 }
 
 .hero-logo-flower {
