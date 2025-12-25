@@ -117,19 +117,24 @@ ul, ol { list-style: none; }
 
 /* Logo Image Styles */
 .logo-img {
-    height: 48px;
+    height: 36px;
     width: auto;
+}
+
+.logo-text {
+    color: var(--logo-text);
+    letter-spacing: -0.02em;
 }
 
 .hero-logo-img {
-    height: 200px;
+    height: 320px;
     width: auto;
-    max-width: 100%;
-    filter: drop-shadow(0 4px 20px rgba(0,0,0,0.3));
+    max-width: 90%;
+    filter: drop-shadow(0 4px 30px rgba(0,0,0,0.4));
 }
 
 .footer-logo-img {
-    height: 100px;
+    height: 120px;
     width: auto;
 }
 
@@ -188,13 +193,13 @@ ul, ol { list-style: none; }
         display: none;
     }
     .logo-img {
-        height: 40px;
+        height: 32px;
     }
     .hero-logo-img {
-        height: 140px;
+        height: 220px;
     }
     .footer-logo-img {
-        height: 70px;
+        height: 90px;
     }
 }
 
@@ -1817,6 +1822,6 @@ section { padding: var(--space-3xl) 0; }
     }
     
     .hero-logo-img {
-        height: 100px;
+        height: 160px;
     }
 }
