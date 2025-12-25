@@ -923,10 +923,12 @@ section { padding: var(--space-3xl) 0; }
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: var(--ocean-mid);
-    margin-bottom: var(--space-xs);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    flex: 1;
+    min-width: 0;
+    max-width: 60%;
 }
 
 .tour-name,
@@ -976,6 +978,7 @@ section { padding: var(--space-3xl) 0; }
     padding-top: var(--space-md);
     border-top: 1px solid var(--gray-100);
     margin-top: auto;
+    gap: var(--space-sm);
 }
 
 .tour-book-btn {
@@ -989,6 +992,8 @@ section { padding: var(--space-3xl) 0; }
     background: var(--ocean-mid);
     border-radius: var(--radius-md);
     transition: all var(--transition-fast);
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .tour-book-btn:hover {
