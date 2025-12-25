@@ -410,47 +410,59 @@ ul, ol { list-style: none; }
 .hero-search {
     display: flex;
     gap: var(--space-sm);
-    max-width: 560px;
+    max-width: 580px;
     margin: 0 auto var(--space-xl);
     background: var(--white);
-    padding: var(--space-sm);
+    padding: var(--space-md);
     border-radius: var(--radius-full);
-    box-shadow: var(--shadow-xl);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3), 0 0 0 4px rgba(255, 255, 255, 0.3);
+    animation: searchPulse 3s ease-in-out infinite;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+@keyframes searchPulse {
+    0%, 100% { box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3), 0 0 0 4px rgba(255, 255, 255, 0.3); }
+    50% { box-shadow: 0 8px 50px rgba(5, 191, 219, 0.4), 0 0 0 6px rgba(255, 255, 255, 0.5); }
 }
 
 .search-input-wrap {
     flex: 1;
     display: flex;
     align-items: center;
-    gap: var(--space-sm);
-    padding-left: var(--space-md);
+    gap: var(--space-md);
+    padding-left: var(--space-lg);
 }
 
-.search-icon { font-size: 1.25rem; opacity: 0.5; }
+.search-icon { font-size: 1.5rem; opacity: 0.6; }
 
 .hero-search input {
     flex: 1;
     border: none;
     outline: none;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--gray-800);
     background: transparent;
 }
 
-.hero-search input::placeholder { color: var(--gray-400); }
+.hero-search input::placeholder { color: var(--gray-400); font-weight: 500; }
 
 .search-btn {
-    background: var(--ocean-mid);
+    background: linear-gradient(135deg, var(--ocean-mid), var(--ocean-deep));
     color: var(--white);
-    font-weight: 600;
-    padding: var(--space-md) var(--space-xl);
+    font-weight: 700;
+    font-size: 1rem;
+    padding: var(--space-md) var(--space-2xl);
     border-radius: var(--radius-full);
     transition: all var(--transition-fast);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    box-shadow: 0 4px 15px rgba(8, 131, 149, 0.4);
 }
 
 .search-btn:hover {
-    background: var(--ocean-deep);
-    transform: translateY(-1px);
+    background: linear-gradient(135deg, var(--ocean-deep), #063d52);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(8, 131, 149, 0.5);
 }
 
 @media (max-width: 560px) {
