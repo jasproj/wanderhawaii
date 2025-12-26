@@ -141,15 +141,12 @@ ul, ol { list-style: none; }
 
 .footer-logo-img {
     height: 120px;
-    width: 120px;
-    object-fit: contain;
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    padding: 15px;
-    border-radius: 50%;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: auto;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
 }
 
 /* Logo Group with Tagline */
