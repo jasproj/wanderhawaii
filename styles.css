@@ -142,11 +142,6 @@ ul, ol { list-style: none; }
 .footer-logo-img {
     height: 120px;
     width: auto;
-    background: transparent;
-    padding: 0;
-    border-radius: 0;
-    box-shadow: none;
-    border: none;
 }
 
 /* Logo Group with Tagline */
