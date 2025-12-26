@@ -230,10 +230,16 @@
             padding: var(--space-3xl) 0;
         }
         
+        .table-wrapper {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin-top: var(--space-xl);
+        }
+        
         .comparison-table {
             width: 100%;
+            min-width: 600px;
             border-collapse: collapse;
-            margin-top: var(--space-xl);
             background: var(--white);
             border-radius: var(--radius-lg);
             overflow: hidden;
@@ -609,6 +615,7 @@
             <h2 class="section-title">Island Comparison</h2>
             <p class="section-subtitle">Quick facts to help you choose your perfect Hawaiian island</p>
             
+            <div class="table-wrapper">
             <table class="comparison-table">
                 <thead>
                     <tr>
@@ -671,6 +678,7 @@
                     </tr>
                 </tbody>
             </table>
+            </div>
         </div>
     </section>
 
