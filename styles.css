@@ -3,12 +3,19 @@
    ============================================ */
 
 :root {
-    /* Primary Colors */
-    --ocean-deep: #0A4D68;
-    --ocean-mid: #088395;
-    --ocean-light: #05BFDB;
+    /* Primary Colors - LOGO PALETTE */
+    --ocean-deep: #1E3A5F;
+    --ocean-mid: #3B6B8C;
+    --ocean-light: #7AADCF;
+    --pale-blue: #B8D4E8;
+    
+    /* Plumeria Accent - Golden Yellow */
+    --plumeria: #F5C042;
+    --plumeria-hover: #E5AD2E;
+    
+    /* Legacy (keeping for compatibility) */
     --coral: #FF6B6B;
-    --sunset-gold: #FFD93D;
+    --sunset-gold: #F5C042;
     --sand: #FFF8E7;
     --palm-green: #2D6A4F;
     
@@ -26,7 +33,7 @@
     --gray-900: #171717;
     
     /* Logo Colors - CONSISTENT EVERYWHERE */
-    --logo-text: #0A4D68;
+    --logo-text: #1E3A5F;
     
     /* Typography */
     --font-display: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -447,8 +454,8 @@ ul, ol { list-style: none; }
 .hero-search input::placeholder { color: var(--gray-400); font-weight: 500; }
 
 .search-btn {
-    background: linear-gradient(135deg, var(--ocean-mid), var(--ocean-deep));
-    color: var(--white);
+    background: var(--plumeria);
+    color: var(--gray-900);
     font-weight: 700;
     font-size: 1rem;
     padding: var(--space-md) var(--space-2xl);
@@ -456,13 +463,13 @@ ul, ol { list-style: none; }
     transition: all var(--transition-fast);
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    box-shadow: 0 4px 15px rgba(8, 131, 149, 0.4);
+    box-shadow: 0 4px 15px rgba(245, 192, 66, 0.4);
 }
 
 .search-btn:hover {
-    background: linear-gradient(135deg, var(--ocean-deep), #063d52);
+    background: var(--plumeria-hover);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(8, 131, 149, 0.5);
+    box-shadow: 0 6px 20px rgba(245, 192, 66, 0.5);
 }
 
 @media (max-width: 560px) {
@@ -750,8 +757,8 @@ section { padding: var(--space-3xl) 0; }
 
 .filter-group select:focus {
     outline: none;
-    border-color: var(--sunset-gold);
-    box-shadow: 0 0 0 3px rgba(255, 217, 61, 0.3);
+    border-color: var(--plumeria);
+    box-shadow: 0 0 0 3px rgba(245, 192, 66, 0.3);
 }
 
 .search-inline { flex: 1; min-width: 200px; }
@@ -772,8 +779,8 @@ section { padding: var(--space-3xl) 0; }
 
 .search-inline input:focus {
     outline: none;
-    border-color: var(--sunset-gold);
-    box-shadow: 0 0 0 3px rgba(255, 217, 61, 0.3);
+    border-color: var(--plumeria);
+    box-shadow: 0 0 0 3px rgba(245, 192, 66, 0.3);
 }
 
 .search-inline input::placeholder {
@@ -873,7 +880,7 @@ section { padding: var(--space-3xl) 0; }
     text-transform: uppercase;
 }
 
-.tour-badge.top-rated { background: var(--sunset-gold); color: var(--gray-900); }
+.tour-badge.top-rated { background: var(--plumeria); color: var(--gray-900); }
 .tour-badge.popular { background: var(--coral); color: var(--white); }
 
 .quality-badge {
@@ -884,7 +891,7 @@ section { padding: var(--space-3xl) 0; }
     font-size: 0.7rem;
     font-weight: 600;
     border-radius: var(--radius-sm);
-    background: var(--sunset-gold);
+    background: var(--plumeria);
     color: var(--gray-900);
 }
 
@@ -988,8 +995,8 @@ section { padding: var(--space-3xl) 0; }
     padding: var(--space-sm) var(--space-md);
     font-size: 0.875rem;
     font-weight: 600;
-    color: var(--white);
-    background: var(--ocean-mid);
+    color: var(--gray-900);
+    background: var(--plumeria);
     border-radius: var(--radius-md);
     transition: all var(--transition-fast);
     white-space: nowrap;
@@ -997,7 +1004,7 @@ section { padding: var(--space-3xl) 0; }
 }
 
 .tour-book-btn:hover {
-    background: var(--ocean-deep);
+    background: var(--plumeria-hover);
     transform: translateX(2px);
 }
 
@@ -1033,15 +1040,15 @@ section { padding: var(--space-3xl) 0; }
     padding: var(--space-md) var(--space-2xl);
     font-size: 1rem;
     font-weight: 600;
-    color: var(--ocean-mid);
+    color: var(--ocean-deep);
     background: var(--white);
-    border: 2px solid var(--ocean-mid);
+    border: 2px solid var(--ocean-deep);
     border-radius: var(--radius-full);
     transition: all var(--transition-fast);
 }
 
 .load-more-btn:hover {
-    background: var(--ocean-mid);
+    background: var(--ocean-deep);
     color: var(--white);
 }
 
@@ -1147,20 +1154,20 @@ section { padding: var(--space-3xl) 0; }
     min-width: 280px;
 }
 
-.signup-form input:focus { outline: 2px solid var(--sunset-gold); }
+.signup-form input:focus { outline: 2px solid var(--plumeria); }
 
 .signup-form button {
     padding: var(--space-md) var(--space-xl);
     font-weight: 600;
     color: var(--gray-900);
-    background: var(--sunset-gold);
+    background: var(--plumeria);
     border-radius: var(--radius-full);
     white-space: nowrap;
     transition: all var(--transition-fast);
 }
 
 .signup-form button:hover {
-    background: var(--white);
+    background: var(--plumeria-hover);
     transform: scale(1.02);
 }
 
@@ -1233,7 +1240,7 @@ section { padding: var(--space-3xl) 0; }
     background: var(--white);
     border: 2px dashed var(--gray-300);
     border-radius: var(--radius-md);
-    color: var(--ocean-mid);
+    color: var(--ocean-deep);
     font-weight: 600;
     font-size: 1rem;
     cursor: pointer;
@@ -1241,9 +1248,9 @@ section { padding: var(--space-3xl) 0; }
 }
 
 .faq-show-more:hover {
-    background: var(--ocean-mid);
+    background: var(--ocean-deep);
     color: var(--white);
-    border-color: var(--ocean-mid);
+    border-color: var(--ocean-deep);
 }
 
 .faq-show-more-icon {
@@ -1291,7 +1298,7 @@ section { padding: var(--space-3xl) 0; }
     margin-bottom: var(--space-sm);
 }
 
-.footer-tagline { color: var(--sunset-gold); }
+.footer-tagline { color: var(--plumeria); }
 
 .footer-links h4 {
     color: var(--white);
@@ -1624,14 +1631,14 @@ section { padding: var(--space-3xl) 0; }
     display: inline-block;
     padding: var(--space-md) var(--space-xl);
     font-weight: 600;
-    color: var(--ocean-mid);
-    border: 2px solid var(--ocean-mid);
+    color: var(--ocean-deep);
+    border: 2px solid var(--ocean-deep);
     border-radius: var(--radius-full);
     transition: all var(--transition-fast);
 }
 
 .btn-secondary:hover {
-    background: var(--ocean-mid);
+    background: var(--ocean-deep);
     color: var(--white);
 }
 
