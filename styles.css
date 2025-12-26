@@ -672,10 +672,29 @@ section { padding: var(--space-3xl) 0; }
 }
 
 .tours-hero-banner img {
-    width: 100%;
-    height: 100%;
+    width: 120%;
+    height: 120%;
     object-fit: cover;
-    object-position: center 70%;
+    object-position: center;
+    animation: kenBurnsPan 25s ease-in-out infinite alternate;
+}
+
+@keyframes kenBurnsPan {
+    0% {
+        transform: translate(0, 0) scale(1.1);
+    }
+    25% {
+        transform: translate(-5%, -3%) scale(1.15);
+    }
+    50% {
+        transform: translate(-8%, 0) scale(1.1);
+    }
+    75% {
+        transform: translate(-3%, -5%) scale(1.12);
+    }
+    100% {
+        transform: translate(-10%, -2%) scale(1.1);
+    }
 }
 
 .tours-hero-overlay {
@@ -1279,7 +1298,17 @@ section { padding: var(--space-3xl) 0; }
     margin-bottom: var(--space-2xl);
 }
 
-.footer-brand .logo { margin-bottom: var(--space-sm); }
+.footer-brand .logo { 
+    margin-bottom: var(--space-sm);
+    display: inline-block;
+}
+
+.footer-brand .logo .footer-logo-img {
+    background: rgba(255, 255, 255, 0.9);
+    padding: var(--space-md) var(--space-lg);
+    border-radius: var(--radius-xl);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
 
 .footer-platform-tagline {
     font-size: 0.75rem;
@@ -1532,7 +1561,7 @@ section { padding: var(--space-3xl) 0; }
 }
 
 .island-highlights ul li::before {
-    content: 'âœ“';
+    content: '✓';
     color: var(--palm-green);
     font-weight: bold;
 }
