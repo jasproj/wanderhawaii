@@ -55,16 +55,11 @@ function createTourCard(tour) {
         ? '<span class="quality-badge">⭐ Top Rated</span>' 
         : '';
     
-    const priceBadge = tour.price 
-        ? `<span class="price-badge">From $${Math.round(tour.price)}</span>`
-        : '';
-    
     return `
         <article class="tour-card" data-id="${tour.id}">
             <div class="tour-image">
                 <img src="${tour.image}" alt="${tour.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'">
                 ${qualityBadge}
-                ${priceBadge}
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -171,10 +166,6 @@ function filterTours() {
         filteredTours.sort((a, b) => (b.qualityScore || 0) - (a.qualityScore || 0));
     } else if (sortFilter === 'name') {
         filteredTours.sort((a, b) => a.name.localeCompare(b.name));
-    } else if (sortFilter === 'price-low') {
-        filteredTours.sort((a, b) => (a.price || 9999) - (b.price || 9999));
-    } else if (sortFilter === 'price-high') {
-        filteredTours.sort((a, b) => (b.price || 0) - (a.price || 0));
     }
     
     displayedCount = 0;
