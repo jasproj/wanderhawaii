@@ -1,10 +1,4 @@
-# WanderHawaii.com Robots.txt
-
 User-agent: *
 Allow: /
 
-# Sitemap
 Sitemap: https://wanderhawaii.com/sitemap.xml
-
-# Crawl-delay for polite bots
-Crawl-delay: 1
