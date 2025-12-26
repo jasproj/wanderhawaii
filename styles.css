@@ -143,9 +143,9 @@ ul, ol { list-style: none; }
     height: 120px;
     width: auto;
     background: rgba(255, 255, 255, 0.95);
-    padding: var(--space-md) var(--space-lg);
-    border-radius: var(--radius-xl);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px 28px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
 }
 
 /* Logo Group with Tagline */
@@ -1305,6 +1305,10 @@ section { padding: var(--space-3xl) 0; }
 .footer-brand .logo { 
     margin-bottom: var(--space-sm);
     display: inline-block;
+    background: rgba(255, 255, 255, 0.95);
+    padding: var(--space-md) var(--space-lg);
+    border-radius: var(--radius-xl);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .footer-platform-tagline {
