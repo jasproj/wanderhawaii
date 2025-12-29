@@ -2128,3 +2128,236 @@ section { padding: var(--space-3xl) 0; }
 .load-more-btn span {
     margin-left: 8px;
 }
+
+/* ============================================
+   PROMO BANNER - Sticky Top
+   ============================================ */
+
+.promo-banner {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    position: relative;
+    z-index: 1001;
+}
+
+.promo-banner a {
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.promo-icon {
+    font-size: 1.2rem;
+}
+
+.promo-text {
+    font-size: 0.9rem;
+}
+
+.promo-text strong {
+    font-weight: 700;
+}
+
+.promo-cta {
+    background: white;
+    color: #ee5a24;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 8px;
+    transition: transform 0.2s ease;
+}
+
+.promo-banner a:hover .promo-cta {
+    transform: scale(1.05);
+}
+
+.promo-close {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    line-height: 1;
+}
+
+.promo-close:hover {
+    opacity: 1;
+}
+
+.promo-banner.hidden {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .promo-text {
+        font-size: 0.8rem;
+    }
+    .promo-cta {
+        display: none;
+    }
+}
+
+/* ============================================
+   LEAD MAGNET / FREE GUIDE SECTION
+   ============================================ */
+
+.guide-section {
+    background: linear-gradient(135deg, #e8f4f8 0%, #d0ebf5 100%);
+    padding: 60px 0;
+}
+
+.guide-box {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 40px;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0,119,182,0.15);
+}
+
+@media (max-width: 768px) {
+    .guide-box {
+        grid-template-columns: 1fr;
+        padding: 24px;
+        gap: 24px;
+    }
+}
+
+.guide-image {
+    display: flex;
+    justify-content: center;
+}
+
+.guide-preview {
+    position: relative;
+    width: 200px;
+}
+
+.guide-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    box-shadow: 0 4px 12px rgba(238,90,36,0.3);
+    z-index: 1;
+}
+
+.guide-mock {
+    background: linear-gradient(180deg, var(--ocean-mid, #0077b6) 0%, var(--ocean-deep, #023e8a) 100%);
+    color: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(2,62,138,0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.guide-mock span {
+    font-size: 2.5rem;
+}
+
+.guide-mock strong {
+    font-size: 1.1rem;
+    line-height: 1.3;
+}
+
+.guide-mock small {
+    font-size: 0.8rem;
+    opacity: 0.85;
+}
+
+.guide-content h2 {
+    font-size: 1.8rem;
+    color: var(--ocean-deep, #023e8a);
+    margin: 0 0 12px 0;
+}
+
+.guide-content > p {
+    color: #5a6c7d;
+    margin: 0 0 16px 0;
+}
+
+.guide-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.guide-features li {
+    color: #2d3748;
+    padding: 6px 0;
+    font-size: 0.95rem;
+}
+
+.guide-form {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 500px) {
+    .guide-form {
+        flex-direction: column;
+    }
+}
+
+.guide-form input[type="email"] {
+    flex: 1;
+    padding: 14px 18px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.guide-form input[type="email"]:focus {
+    outline: none;
+    border-color: var(--ocean-mid, #0077b6);
+}
+
+.guide-form button {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.guide-form button:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 20px rgba(238,90,36,0.3);
+}
+
+.guide-privacy {
+    font-size: 0.8rem;
+    color: #7a8a9a;
+    margin: 0;
+}
