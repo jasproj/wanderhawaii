@@ -34,6 +34,16 @@
     </script>
 </head>
 <body>
+    <!-- LEAD MAGNET BANNER -->
+    <div class="promo-banner" id="promo-banner">
+        <a href="#free-guide">
+            <span class="promo-icon">🌺</span>
+            <span class="promo-text"><strong>FREE HAWAII TRIP PLANNER:</strong> Subscribe and get the Ultimate 7-Day Itinerary!</span>
+            <span class="promo-cta">Get It Free →</span>
+        </a>
+        <button class="promo-close" onclick="closeBanner()" aria-label="Close">&times;</button>
+    </div>
+
     <!-- HEADER -->
     <header class="header">
         <div class="header-container">
@@ -320,18 +330,37 @@
         </div>
     </section>
 
-    <!-- EMAIL -->
-    <section class="signup-section">
+    <!-- FREE GUIDE / LEAD MAGNET -->
+    <section class="guide-section" id="free-guide">
         <div class="container">
-            <div class="signup-box">
-                <div class="signup-content">
-                    <h2>🌺 Get Insider Hawaii Tips</h2>
-                    <p>Join travelers getting exclusive deals and local secrets.</p>
+            <div class="guide-box">
+                <div class="guide-image">
+                    <div class="guide-preview">
+                        <span class="guide-badge">FREE PDF</span>
+                        <div class="guide-mock">
+                            <span>🌴</span>
+                            <strong>Ultimate Hawaii<br>Trip Planner</strong>
+                            <small>7-Day Itinerary + Tips</small>
+                        </div>
+                    </div>
                 </div>
-                <form class="signup-form" id="email-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-                    <input type="email" name="email" placeholder="Enter your email" required>
-                    <button type="submit">Get the Guide</button>
-                </form>
+                <div class="guide-content">
+                    <h2>Get the Free Hawaii Trip Planner</h2>
+                    <p>Everything you need to plan your perfect Hawaiian adventure:</p>
+                    <ul class="guide-features">
+                        <li>✓ 7-day itineraries for each island</li>
+                        <li>✓ Best times to book popular tours</li>
+                        <li>✓ Local secrets & hidden gems</li>
+                        <li>✓ Packing checklist by activity</li>
+                        <li>✓ Money-saving tips from locals</li>
+                    </ul>
+                    <form class="guide-form" id="guide-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <input type="hidden" name="source" value="hawaii-trip-planner">
+                        <input type="email" name="email" placeholder="Enter your email" required>
+                        <button type="submit">Send Me the Free Guide</button>
+                    </form>
+                    <p class="guide-privacy">🔒 No spam, ever. Unsubscribe anytime.</p>
+                </div>
             </div>
         </div>
     </section>
