@@ -2221,8 +2221,8 @@ section { padding: var(--space-3xl) 0; }
 }
 
 .guide-box {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 40px;
     align-items: center;
     background: white;
@@ -2231,22 +2231,32 @@ section { padding: var(--space-3xl) 0; }
     box-shadow: 0 10px 40px rgba(0,119,182,0.15);
 }
 
-@media (max-width: 768px) {
-    .guide-box {
-        grid-template-columns: 1fr;
-        padding: 24px;
-        gap: 24px;
-    }
-}
-
 .guide-image {
+    flex: 0 0 200px;
     display: flex;
     justify-content: center;
 }
 
+.guide-content {
+    flex: 1;
+    min-width: 280px;
+}
+
+@media (max-width: 768px) {
+    .guide-box {
+        flex-direction: column;
+        padding: 24px;
+        gap: 24px;
+    }
+    .guide-image {
+        flex: none;
+        width: 100%;
+    }
+}
+
 .guide-preview {
     position: relative;
-    width: 200px;
+    width: 180px;
 }
 
 .guide-badge {
@@ -2264,7 +2274,7 @@ section { padding: var(--space-3xl) 0; }
 }
 
 .guide-mock {
-    background: linear-gradient(180deg, var(--ocean-mid, #0077b6) 0%, var(--ocean-deep, #023e8a) 100%);
+    background: linear-gradient(180deg, #0077b6 0%, #023e8a 100%);
     color: white;
     padding: 30px 20px;
     border-radius: 12px;
@@ -2291,7 +2301,7 @@ section { padding: var(--space-3xl) 0; }
 
 .guide-content h2 {
     font-size: 1.8rem;
-    color: var(--ocean-deep, #023e8a);
+    color: #023e8a;
     margin: 0 0 12px 0;
 }
 
@@ -2335,7 +2345,7 @@ section { padding: var(--space-3xl) 0; }
 
 .guide-form input[type="email"]:focus {
     outline: none;
-    border-color: var(--ocean-mid, #0077b6);
+    border-color: #0077b6;
 }
 
 .guide-form button {
