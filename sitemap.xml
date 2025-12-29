@@ -2,67 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://wanderhawaii.com/</loc>
+    <lastmod>2025-12-29</lastmod>
     <priority>1.0</priority>
-    <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/tours.html</loc>
+    <loc>https://wanderhawaii.com/oahu.html</loc>
+    <lastmod>2025-12-29</lastmod>
     <priority>0.9</priority>
-    <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/islands.html</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
+    <loc>https://wanderhawaii.com/maui.html</loc>
+    <lastmod>2025-12-29</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://wanderhawaii.com/big-island.html</loc>
+    <lastmod>2025-12-29</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://wanderhawaii.com/kauai.html</loc>
+    <lastmod>2025-12-29</lastmod>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://wanderhawaii.com/about.html</loc>
+    <lastmod>2025-12-29</lastmod>
     <priority>0.5</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/faq.html</loc>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://wanderhawaii.com/snorkeling.html</loc>
+    <loc>https://wanderhawaii.com/blog.html</loc>
+    <lastmod>2025-12-29</lastmod>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/whale-watching.html</loc>
+    <loc>https://wanderhawaii.com/blog/things-to-do-oahu.html</loc>
+    <lastmod>2025-12-29</lastmod>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/shark-diving.html</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
+    <loc>https://wanderhawaii.com/blog/things-to-do-maui.html</loc>
+    <lastmod>2025-12-29</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/fishing.html</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
+    <loc>https://wanderhawaii.com/blog/whale-watching-maui.html</loc>
+    <lastmod>2025-12-29</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/zipline.html</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
+    <loc>https://wanderhawaii.com/blog/best-snorkeling-hawaii.html</loc>
+    <lastmod>2025-12-29</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/kayak.html</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
+    <loc>https://wanderhawaii.com/blog/manta-ray-big-island.html</loc>
+    <lastmod>2025-12-29</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/waterfalls.html</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
+    <loc>https://wanderhawaii.com/blog/kauai-tours.html</loc>
+    <lastmod>2025-12-29</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/jet-ski.html</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
+    <loc>https://wanderhawaii.com/blog/pearl-harbor-tours.html</loc>
+    <lastmod>2025-12-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wanderhawaii.com/blog/hawaii-helicopter-tours.html</loc>
+    <lastmod>2025-12-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wanderhawaii.com/blog/hawaii-luaus.html</loc>
+    <lastmod>2025-12-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wanderhawaii.com/blog/which-hawaiian-island.html</loc>
+    <lastmod>2025-12-29</lastmod>
+    <priority>0.8</priority>
   </url>
 </urlset>
