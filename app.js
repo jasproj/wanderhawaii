@@ -286,3 +286,20 @@ async function loadWeather() {
 }
 
 loadWeather();
+
+// Promo Banner
+function closeBanner() {
+    const banner = document.getElementById('promo-banner');
+    if (banner) {
+        banner.classList.add('hidden');
+        sessionStorage.setItem('promoBannerClosed', 'true');
+    }
+}
+
+// Check if banner was closed this session
+if (sessionStorage.getItem('promoBannerClosed') === 'true') {
+    document.addEventListener('DOMContentLoaded', () => {
+        const banner = document.getElementById('promo-banner');
+        if (banner) banner.classList.add('hidden');
+    });
+}
