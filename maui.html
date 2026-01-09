@@ -298,6 +298,42 @@
             font-size: 0.75rem;
             font-weight: 500;
         }
+        .tour-price {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: var(--coral);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+        .tour-meta {
+            display: flex;
+            gap: 12px;
+            font-size: 0.8rem;
+            color: var(--gray-500);
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+        }
+        .tour-meta span { display: flex; align-items: center; gap: 4px; }
+        .tour-rating { color: #f59e0b; }
+        .tour-desc {
+            font-size: 0.85rem;
+            color: var(--gray-500);
+            line-height: 1.5;
+            margin-bottom: 12px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .badge-cancel {
+            background: #22c55e;
+            color: white;
+            font-size: 0.65rem;
+        }
         
         .tour-content {
             padding: 16px;
@@ -468,9 +504,10 @@
             </a>
             <nav class="nav">
                 <a href="/">All Islands</a>
-                <a href="/maui">Maui</a>
-                <a href="/big-island">Big Island</a>
-                <a href="/kauai">Kauai</a>
+                <a href="/oahu.html">Oahu</a>
+                <a href="/maui.html">Maui</a>
+                <a href="/big-island.html">Big Island</a>
+                <a href="/kauai.html">Kauai</a>
             </nav>
         </div>
     </header>
@@ -511,6 +548,21 @@
                 <option value="helicopter">🚁 Helicopters</option>
                 <option value="food">🍽️ Food Tours</option>
             </select>
+            <select id="priceFilter" class="filter-select">
+                <option value="">Any Price</option>
+                <option value="0-50">Under $50</option>
+                <option value="50-100">$50 - $100</option>
+                <option value="100-200">$100 - $200</option>
+                <option value="200-500">$200 - $500</option>
+                <option value="500-99999">$500+</option>
+            </select>
+            <select id="durationFilter" class="filter-select">
+                <option value="">Any Duration</option>
+                <option value="0-120">Under 2 hours</option>
+                <option value="120-240">2-4 hours</option>
+                <option value="240-480">Half day</option>
+                <option value="480-99999">Full day+</option>
+            </select>
             <select id="areaFilter" class="filter-select">
                 <option value="">All Areas</option>
                 <option value="lahaina">Lahaina</option>
@@ -521,6 +573,8 @@
             </select>
             <select id="sortFilter" class="filter-select">
                 <option value="quality">Top Rated</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
                 <option value="name">A-Z</option>
             </select>
             <button class="filter-reset" onclick="resetFilters()">Reset</button>
@@ -556,10 +610,10 @@
             <div>
                 <h4>Islands</h4>
                 <ul>
-                    <li><a href="/maui">Maui (101)</a></li>
-                    <li><a href="/maui">Maui (101)</a></li>
-                    <li><a href="/big-island">Big Island (124)</a></li>
-                    <li><a href="/kauai">Kauai (41)</a></li>
+                    <li><a href="/maui.html">Maui (101)</a></li>
+                    <li><a href="/maui.html">Maui (101)</a></li>
+                    <li><a href="/big-island.html">Big Island (124)</a></li>
+                    <li><a href="/kauai.html">Kauai (41)</a></li>
                 </ul>
             </div>
             <div>
@@ -661,9 +715,41 @@
             const desc = tour.description || '';
             const shortDesc = desc.length > 100 ? desc.slice(0, 100) + '...' : desc;
             
+            // Price
+            const priceHtml = tour.price ? `<div class="tour-price">From $${tour.price}</div>` : '';
+            
+            // Badges
             let badges = '';
             if (isTop) badges += '<span class="badge badge-top">⭐ Top Rated</span>';
             else if (isPopular) badges += '<span class="badge badge-popular">🔥 Popular</span>';
+            if (tour.freeCancellation) badges += '<span class="badge badge-cancel">✓ Free Cancel</span>';
+            
+            // Duration
+            let durationText = '';
+            if (tour.duration) {
+                const hours = Math.floor(tour.duration / 60);
+                const mins = tour.duration % 60;
+                if (hours > 0 && mins > 0) durationText = `${hours}h ${mins}m`;
+                else if (hours > 0) durationText = `${hours} hr${hours > 1 ? 's' : ''}`;
+                else durationText = `${mins} min`;
+            }
+            
+            // Rating
+            let ratingHtml = '';
+            if (tour.rating) {
+                const stars = '★'.repeat(Math.floor(tour.rating)) + (tour.rating % 1 >= 0.5 ? '½' : '');
+                ratingHtml = `<span class="tour-rating">★ ${tour.rating}</span>`;
+                if (tour.reviewCount) ratingHtml += ` <span>(${tour.reviewCount})</span>`;
+            }
+            
+            // Meta line (duration + rating)
+            let metaHtml = '';
+            if (durationText || ratingHtml) {
+                metaHtml = '<div class="tour-meta">';
+                if (durationText) metaHtml += `<span>🕐 ${durationText}</span>`;
+                if (ratingHtml) metaHtml += ratingHtml;
+                metaHtml += '</div>';
+            }
             
             return `
                 <article class="tour-card">
@@ -671,11 +757,14 @@
                         <img src="${tour.image}" alt="${tour.name}" loading="lazy" 
                              onerror="this.src='https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400'">
                         <div class="tour-badges">${badges}</div>
+                        ${priceHtml}
                         <div class="tour-location">📍 ${tour.location || 'Maui'}</div>
                     </div>
                     <div class="tour-content">
                         <div class="tour-company">${tour.company}</div>
                         <h3 class="tour-name">${tour.name}</h3>
+                        ${metaHtml}
+                        ${shortDesc ? `<p class="tour-desc">${shortDesc}</p>` : ''}
                         <div class="tour-tags">
                             ${tags.map(t => `<span class="tour-tag">${t}</span>`).join('')}
                         </div>
@@ -696,6 +785,8 @@
         function setupListeners() {
             document.getElementById('searchInput').addEventListener('input', debounce(applyFilters, 300));
             document.getElementById('activityFilter').addEventListener('change', applyFilters);
+            document.getElementById('priceFilter').addEventListener('change', applyFilters);
+            document.getElementById('durationFilter').addEventListener('change', applyFilters);
             document.getElementById('areaFilter').addEventListener('change', applyFilters);
             document.getElementById('sortFilter').addEventListener('change', applyFilters);
         }
@@ -703,6 +794,8 @@
         function applyFilters() {
             const search = document.getElementById('searchInput').value.toLowerCase().trim();
             const activity = document.getElementById('activityFilter').value.toLowerCase();
+            const priceRange = document.getElementById('priceFilter').value;
+            const durationRange = document.getElementById('durationFilter').value;
             const area = document.getElementById('areaFilter').value.toLowerCase();
             const sort = document.getElementById('sortFilter').value;
             
@@ -719,16 +812,38 @@
                 const activityMatch = !activity || 
                     (tour.tags && tour.tags.some(tag => tag.toLowerCase().includes(activity)));
                 
+                // Price match
+                let priceMatch = true;
+                if (priceRange && tour.price) {
+                    const [min, max] = priceRange.split('-').map(Number);
+                    priceMatch = tour.price >= min && tour.price <= max;
+                } else if (priceRange && !tour.price) {
+                    priceMatch = false;
+                }
+                
+                // Duration match
+                let durationMatch = true;
+                if (durationRange && tour.duration) {
+                    const [min, max] = durationRange.split('-').map(Number);
+                    durationMatch = tour.duration >= min && tour.duration <= max;
+                } else if (durationRange && !tour.duration) {
+                    durationMatch = false;
+                }
+                
                 // Area match
                 const areaMatch = !area || 
                     (tour.location && tour.location.toLowerCase().includes(area));
                 
-                return searchMatch && activityMatch && areaMatch;
+                return searchMatch && activityMatch && priceMatch && durationMatch && areaMatch;
             });
             
             // Sort
             if (sort === 'name') {
                 filteredTours.sort((a, b) => a.name.localeCompare(b.name));
+            } else if (sort === 'price-low') {
+                filteredTours.sort((a, b) => (a.price || 9999) - (b.price || 9999));
+            } else if (sort === 'price-high') {
+                filteredTours.sort((a, b) => (b.price || 0) - (a.price || 0));
             } else {
                 filteredTours.sort((a, b) => (b.qualityScore || 0) - (a.qualityScore || 0));
             }
@@ -746,6 +861,8 @@
         function resetFilters() {
             document.getElementById('searchInput').value = '';
             document.getElementById('activityFilter').value = '';
+            document.getElementById('priceFilter').value = '';
+            document.getElementById('durationFilter').value = '';
             document.getElementById('areaFilter').value = '';
             document.getElementById('sortFilter').value = 'quality';
             filteredTours = [...allTours];
