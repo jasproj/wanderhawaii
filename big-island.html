@@ -1,144 +1,491 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL7CN6NG44"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-PL7CN6NG44');
-    </script>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Big Island Tours & Activities | 110 Adventures | WanderHawaii</title>
-    <meta name="description" content="Discover 110 things to do on Hawaii's Big Island. Volcanoes National Park, manta ray night snorkel, Kona coffee tours. Book direct with local operators.">
-    <link rel="canonical" href="https://wanderhawaii.com/big-island">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌺</text></svg>">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Discover 110 tours on Big Island: snorkeling at Kealakekua Bay, manta ray night dives, Hilo adventures, helicopter rides & more. Book direct with local operators.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Big Island Tours & Activities | WanderHawaii">
+    <meta property="og:description" content="110 handpicked Big Island adventures. Snorkeling, Pearl Harbor, helicopters & more.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wanderhawaii.com/big island.html">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL7CN6NG44"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PL7CN6NG44');
+    </script>
+    
     <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        /* Island page specific hero */
+        .island-hero {
+            background: linear-gradient(135deg, rgba(0,100,150,0.9), rgba(0,50,100,0.95)), 
+                        url('https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?auto=format&fit=crop&w=2000&q=80');
+            background-size: cover;
+            background-position: center;
+            padding: 80px 20px 60px;
+            text-align: center;
+            color: white;
+        }
+        .island-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .island-hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 20px;
+        }
+        .island-stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        .island-stat {
+            text-align: center;
+        }
+        .island-stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        .island-stat-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        .breadcrumb {
+            padding: 15px 20px;
+            background: #f8f9fa;
+            font-size: 0.9rem;
+        }
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .breadcrumb span {
+            color: #666;
+        }
+        .island-areas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 25px;
+        }
+        .area-tag {
+            background: rgba(255,255,255,0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: background 0.2s;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        .area-tag:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        .tours-count-badge {
+            background: #ff6b35;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <header class="header">
+    <!-- Header -->
+    <header class="site-header">
         <div class="header-container">
-            <div class="logo-group">
-                <a href="/" class="logo">
-                    <span class="logo-flower">🌺</span>
-                    <span class="logo-text">WanderHawaii</span>
-                </a>
-                <span class="logo-tagline">Tours Discovery Platform</span>
-            </div>
-            <div class="header-weather" id="header-weather">
-                <span class="weather-icon">☀️</span>
-                <span class="weather-temp">--°F</span>
-                <span class="weather-location">Hawaii</span>
-            </div>
-            <nav class="nav-desktop">
-                <a href="/#tours-section">Tours</a><a href="/#islands">Islands</a><a href="about.html">About</a><a href="/#faq">FAQs</a>
+            <a href="/" class="logo-link">
+                <img src="logo-icon.png" alt="WanderHawaii" class="logo-icon">
+                <span class="logo-text">WanderHawaii</span>
+            </a>
+            <nav class="main-nav">
+                <a href="/#tours-section">Tours</a>
+                <a href="/#islands">Islands</a>
+                <a href="blog.html">Blog</a>
+                <a href="about.html">About</a>
             </nav>
-            <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+            <button class="mobile-menu-btn" aria-label="Menu">☰</button>
         </div>
-        <nav class="nav-mobile"><a href="/#tours-section">Tours</a><a href="/#islands">Islands</a><a href="about.html">About</a><a href="/#faq">FAQs</a></nav>
     </header>
 
-    <section class="island-hero" style="background-image: url('https://images.unsplash.com/photo-1547483238-f400e65ccd56?auto=format&fit=crop&w=2400&q=90');">
-        <div class="island-hero-content">
-            <div class="breadcrumb"><a href="/">Home</a> / Big Island</div>
-            <h1>Big Island Tours & Adventures</h1>
-            <p>The Island of Hawaii. Active volcanoes, black sand beaches, and world-famous Kona coffee. The most diverse landscape in the Hawaiian chain.</p>
-            <div class="island-stats">
-                <div class="island-stat"><span class="island-stat-number">110</span><span class="island-stat-label">Adventures</span></div>
-                <div class="island-stat"><span class="island-stat-number">11</span><span class="island-stat-label">Climate Zones</span></div>
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav">
+        <a href="/#tours-section">Tours</a>
+        <a href="/#islands">Islands</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="/">Home</a> <span>→</span> <span>Big Island Tours</span>
+    </div>
+
+    <!-- Island Hero -->
+    <section class="island-hero">
+        <span class="tours-count-badge">🏝️ 110 Adventures</span>
+        <h1>Big Island Tours & Activities</h1>
+        <p>From the beaches of Kona to the historic shores of Pearl Harbor, discover Big Island's best adventures with local operators.</p>
+        
+        <div class="island-areas">
+            <span class="area-tag" onclick="filterByLocation('Kona')">Kona</span>
+            <span class="area-tag" onclick="filterByLocation('Hilo')">Hilo</span>
+            <span class="area-tag" onclick="filterByLocation('Volcano')">Volcano</span>
+            <span class="area-tag" onclick="filterByLocation('Waikoloa')">Waikoloa</span>
+            <span class="area-tag" onclick="filterByLocation('Captain Cook')">Captain Cook</span>
+        </div>
+        
+        <div class="island-stats">
+            <div class="island-stat">
+                <div class="island-stat-number">110</div>
+                <div class="island-stat-label">Tours</div>
+            </div>
+            <div class="island-stat">
+                <div class="island-stat-number">50+</div>
+                <div class="island-stat-label">Operators</div>
+            </div>
+            <div class="island-stat">
+                <div class="island-stat-number">100%</div>
+                <div class="island-stat-label">Local</div>
             </div>
         </div>
     </section>
 
-    <section class="island-intro">
-        <div class="container">
-            <div class="island-intro-grid">
-                <div class="island-intro-image">
-                    <img src="https://images.unsplash.com/photo-1547483238-f400e65ccd56?auto=format&fit=crop&w=1200&q=90" alt="Hawaii Volcanoes National Park, Big Island">
+    <!-- Search & Filter -->
+    <section class="filter-section" style="padding: 30px 20px; background: #fff; border-bottom: 1px solid #eee;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <div style="display: flex; flex-wrap: wrap; gap: 15px; align-items: center; justify-content: space-between;">
+                <input type="text" id="searchInput" placeholder="🔍 Search Big Island tours..." 
+                       style="flex: 1; min-width: 200px; padding: 12px 16px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem;">
+                
+                <select id="activityFilter" style="padding: 12px 16px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem; min-width: 180px;">
+                    <option value="">All Activities</option>
+                    <option value="Snorkel">🤿 Snorkeling</option>
+                    <option value="Boat">🚤 Boat Tours</option>
+                    <option value="Whale">🐋 Whale Watching</option>
+                    <option value="Dolphin">🐬 Dolphins</option>
+                    <option value="Scuba">🤿 Scuba</option>
+                    <option value="Kayak">🚣 Kayaking</option>
+                    <option value="Surf">🏄 Surfing</option>
+                    <option value="Hike">🥾 Hiking</option>
+                    <option value="Helicopter">🚁 Helicopters</option>
+                    <option value="Food">🍽️ Food Tours</option>
+                </select>
+                
+                <select id="sortBy" style="padding: 12px 16px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem;">
+                    <option value="quality">⭐ Top Rated</option>
+                    <option value="name">A-Z</option>
+                </select>
+                
+                <button onclick="shuffleTours()" style="padding: 12px 20px; background: #0066cc; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem;">
+                    🎲 Shuffle
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours Grid -->
+    <section id="tours-section" style="padding: 40px 20px; background: #f8f9fa;">
+        <div style="max-width: 1400px; margin: 0 auto;">
+            <div id="tours-grid" class="tours-grid">
+                <!-- Tours loaded by JavaScript -->
+                <div class="loading-state">Loading Big Island adventures...</div>
+            </div>
+            
+            <div id="load-more-container" style="text-align: center; margin-top: 30px; display: none;">
+                <button id="load-more-btn" onclick="loadMoreTours()" 
+                        style="padding: 15px 40px; background: #0066cc; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem;">
+                    Load More Adventures →
+                </button>
+            </div>
+            
+            <div id="no-results" style="display: none; text-align: center; padding: 60px 20px;">
+                <p style="font-size: 1.2rem; color: #666;">No tours match your search. Try different keywords.</p>
+                <button onclick="resetFilters()" style="margin-top: 15px; padding: 10px 25px; background: #0066cc; color: white; border: none; border-radius: 6px; cursor: pointer;">
+                    Clear Filters
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Book Section -->
+    <section style="padding: 60px 20px; background: #fff;">
+        <div style="max-width: 1000px; margin: 0 auto; text-align: center;">
+            <h2 style="font-size: 2rem; margin-bottom: 40px;">Why Book Big Island Tours With Us?</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px;">
+                <div>
+                    <div style="font-size: 2.5rem; margin-bottom: 10px;">🏝️</div>
+                    <h3>110 Verified Tours</h3>
+                    <p style="color: #666;">Every Big Island tour is from a verified local operator.</p>
                 </div>
                 <div>
-                    <h2>Why Visit Big Island?</h2>
-                    <p>The Big Island is twice the size of all other Hawaiian islands combined—and twice as diverse. Watch lava flow at Hawaii Volcanoes National Park, swim with manta rays under the stars, and tour world-renowned Kona coffee farms.</p>
-                    <p>From snow-capped Mauna Kea to tropical rainforests, the Big Island contains 11 of the world's 13 climate zones. It's an adventure playground unlike anywhere else.</p>
+                    <div style="font-size: 2.5rem; margin-bottom: 10px;">💰</div>
+                    <h3>Book Direct</h3>
+                    <p style="color: #666;">No middleman markup. Best prices guaranteed.</p>
                 </div>
-                <div class="island-highlights">
-                    <h3>🌟 Don't Miss</h3>
-                    <ul>
-                        <li>Manta ray night snorkel</li>
-                        <li>Volcanoes National Park</li>
-                        <li>Mauna Kea stargazing</li>
-                        <li>Kona coffee farm tour</li>
-                        <li>Kealakekua Bay snorkel</li>
-                        <li>Helicopter over lava</li>
-                        <li>Black sand beaches</li>
-                        <li>Deep sea fishing</li>
-                    </ul>
+                <div>
+                    <div style="font-size: 2.5rem; margin-bottom: 10px;">🤙</div>
+                    <h3>Support Local</h3>
+                    <p style="color: #666;">Your booking supports Hawaiian families.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="tours-section" id="tours-section">
-        <div class="container">
-            <h2 class="section-title">Big Island Tours & Activities</h2>
-            <p class="section-subtitle">110 handpicked adventures across the island</p>
-            
-            <div class="filters-bar">
-                <div class="filter-group">
-                    <label for="activity-filter">Activity</label>
-                    <select id="activity-filter">
-                        <option value="">All Activities</option>
-                        <option value="Snorkel">🤿 Snorkeling</option>
-                        <option value="Boat Tour">🚤 Boat Tours</option>
-                        <option value="Scuba">🤿 Scuba/Diving</option>
-                        <option value="Dolphin">🐬 Dolphins</option>
-                        <option value="Fishing">🎣 Fishing</option>
-                        <option value="Farm">🌴 Farm Tours</option>
-                        <option value="Hiking">🥾 Hiking</option>
-                        <option value="Zipline">🎢 Zipline</option>
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <label for="sort-filter">Sort By</label>
-                    <select id="sort-filter"><option value="quality">Top Rated</option><option value="name">Name A-Z</option></select>
-                </div>
-                <div class="search-inline"><input type="text" id="search-input" placeholder="Search Big Island tours..."></div>
-                <button class="clear-filters" onclick="clearAllFilters()">Clear All</button>
-            </div>
-            
-            <div class="results-info"><span id="results-count">Loading...</span><button class="shuffle-btn" onclick="shuffleTours()">🎲 Shuffle</button></div>
-            <div class="tours-grid" id="tours-grid"><div class="loading-state"><div class="loading-spinner"></div><p>Loading Big Island adventures...</p></div></div>
-            <div class="load-more-wrap"><button class="load-more-btn" id="load-more" onclick="loadMoreTours()">Load More <span>→</span></button></div>
-        </div>
-    </section>
-
-    <section class="islands-nav" style="background: var(--sand);">
-        <div class="container">
-            <h2 class="section-title">Explore Other Islands</h2>
-            <div class="islands-grid" style="grid-template-columns: repeat(3, 1fr);">
-                <a href="oahu.html" class="island-card"><div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=600')"></div><div class="island-content"><h3>Oahu</h3><p>Waikiki • Pearl Harbor</p><span class="island-count">329 Adventures</span></div></a>
-                <a href="maui.html" class="island-card"><div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1542259009477-d625272157b7?w=600')"></div><div class="island-content"><h3>Maui</h3><p>Road to Hana • Whales</p><span class="island-count">101 Adventures</span></div></a>
-                <a href="kauai.html" class="island-card"><div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?w=600')"></div><div class="island-content"><h3>Kauai</h3><p>Na Pali Coast</p><span class="island-count">55 Adventures</span></div></a>
+    <!-- Other Islands -->
+    <section style="padding: 60px 20px; background: #f0f4f8;">
+        <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+            <h2 style="font-size: 1.8rem; margin-bottom: 30px;">Explore Other Islands</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+                <a href="maui.html" style="padding: 20px 40px; background: white; border-radius: 12px; text-decoration: none; color: #333; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                    <strong>Maui</strong><br><span style="color: #666;">101 Adventures</span>
+                </a>
+                <a href="big-island.html" style="padding: 20px 40px; background: white; border-radius: 12px; text-decoration: none; color: #333; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                    <strong>Big Island</strong><br><span style="color: #666;">110 Adventures</span>
+                </a>
+                <a href="kauai.html" style="padding: 20px 40px; background: white; border-radius: 12px; text-decoration: none; color: #333; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                    <strong>Kauai</strong><br><span style="color: #666;">55 Adventures</span>
+                </a>
             </div>
         </div>
     </section>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand"><a href="/" class="logo"><span class="logo-flower">🌺</span><span class="logo-text">WanderHawaii</span></a><p>Your guide to 595 Hawaiian adventures.</p><p class="footer-tagline">Mahalo! 🤙</p></div>
-                <div class="footer-links"><h4>Islands</h4><ul><li><a href="oahu.html">Oahu</a></li><li><a href="maui.html">Maui</a></li><li><a href="big-island.html">Big Island</a></li><li><a href="kauai.html">Kauai</a></li></ul></div>
-                <div class="footer-links"><h4>Company</h4><ul><li><a href="about.html">About</a></li><li><a href="/cdn-cgi/l/email-protection#3455585b5c557443555a5051465c5543555d5d1a575b59">Contact</a></li></ul></div>
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="/"><img src="logo-full.png" alt="WanderHawaii" style="max-width: 150px;"></a>
+                <p>Your guide to Hawaiian adventures. Verified local operators, instant booking.</p>
             </div>
-            <div class="footer-bottom"><p>&copy; 2025 WanderHawaii</p></div>
+            <div class="footer-links">
+                <h4>Islands</h4>
+                <ul>
+                    <li><a href="big island.html">Big Island (110)</a></li>
+                    <li><a href="maui.html">Maui (101)</a></li>
+                    <li><a href="big-island.html">Big Island (110)</a></li>
+                    <li><a href="kauai.html">Kauai (55)</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Popular</h4>
+                <ul>
+                    <li><a href="/#tours-section">Snorkeling</a></li>
+                    <li><a href="/#tours-section">Whale Watching</a></li>
+                    <li><a href="/#tours-section">Helicopters</a></li>
+                    <li><a href="/#tours-section">Boat Tours</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="/#faq">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 WanderHawaii. All rights reserved.</p>
         </div>
     </footer>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>const ISLAND_FILTER = 'big island';</script>
-    <script src=
+    <script>
+        // ============================================
+        // BIG ISLAND PAGE - ISLAND-FILTERED TOUR LOADER
+        // ============================================
+        
+        const ISLAND_FILTER = 'big island'; // Pre-filter to this island
+        let allTours = [];
+        let filteredTours = [];
+        let displayedCount = 0;
+        const TOURS_PER_PAGE = 24;
+
+        // Load tours on page load
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                const response = await fetch('tours-data.json');
+                if (!response.ok) throw new Error('Failed to load tours');
+                
+                const data = await response.json();
+                
+                // Filter to this island only
+                allTours = data.filter(tour => 
+                    tour.island && tour.island.toLowerCase() === ISLAND_FILTER
+                );
+                
+                // Sort by quality score
+                allTours.sort((a, b) => (b.qualityScore || 0) - (a.qualityScore || 0));
+                
+                // Initialize filtered tours
+                filteredTours = [...allTours];
+                
+                // Update tour count
+                document.querySelector('.tours-count-badge').textContent = `🏝️ ${allTours.length} Adventures`;
+                document.querySelector('.island-stat-number').textContent = allTours.length;
+                
+                // Display tours
+                displayTours();
+                
+                // Setup event listeners
+                setupFilters();
+                
+            } catch (error) {
+                console.error('Error loading tours:', error);
+                document.getElementById('tours-grid').innerHTML = `
+                    <div style="text-align: center; padding: 60px 20px; grid-column: 1/-1;">
+                        <p style="color: #e74c3c; font-size: 1.2rem;">Unable to load tours. Please refresh the page.</p>
+                    </div>
+                `;
+            }
+        });
+
+        function displayTours() {
+            const grid = document.getElementById('tours-grid');
+            const loadMoreBtn = document.getElementById('load-more-container');
+            const noResults = document.getElementById('no-results');
+            
+            if (filteredTours.length === 0) {
+                grid.innerHTML = '';
+                loadMoreBtn.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+            
+            noResults.style.display = 'none';
+            
+            // Get tours to display
+            const toursToShow = filteredTours.slice(0, displayedCount + TOURS_PER_PAGE);
+            displayedCount = toursToShow.length;
+            
+            // Render tour cards
+            grid.innerHTML = toursToShow.map(tour => createTourCard(tour)).join('');
+            
+            // Show/hide load more
+            loadMoreBtn.style.display = displayedCount < filteredTours.length ? 'block' : 'none';
+        }
+
+        function createTourCard(tour) {
+            const isTopRated = tour.qualityScore >= 100;
+            const description = tour.description || 'Experience this amazing Hawaiian adventure with local experts.';
+            const truncatedDesc = description.length > 120 ? description.substring(0, 120) + '...' : description;
+            
+            // Get first 3 tags
+            const tags = (tour.tags || []).slice(0, 3);
+            
+            return `
+                <article class="tour-card">
+                    <div class="tour-image-container">
+                        <img src="${tour.image}" alt="${tour.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400'">
+                        ${isTopRated ? '<span class="quality-badge">⭐ Top Rated</span>' : ''}
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-location">📍 ${tour.location || 'Big Island'}</div>
+                        <h3 class="tour-title">${tour.name}</h3>
+                        <p class="tour-description">${truncatedDesc}</p>
+                        <div class="tour-tags">
+                            ${tags.map(tag => `<span class="tour-tag">${tag}</span>`).join('')}
+                        </div>
+                        <div class="tour-footer">
+                            <span class="tour-company">${tour.company}</span>
+                            <a href="${tour.bookingLink}" target="_blank" rel="noopener" class="book-btn">Book Now →</a>
+                        </div>
+                    </div>
+                </article>
+            `;
+        }
+
+        function setupFilters() {
+            const searchInput = document.getElementById('searchInput');
+            const activityFilter = document.getElementById('activityFilter');
+            const sortBy = document.getElementById('sortBy');
+            
+            searchInput.addEventListener('input', applyFilters);
+            activityFilter.addEventListener('change', applyFilters);
+            sortBy.addEventListener('change', applyFilters);
+        }
+
+        function applyFilters() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const activity = document.getElementById('activityFilter').value.toLowerCase();
+            const sortBy = document.getElementById('sortBy').value;
+            
+            // Filter tours
+            filteredTours = allTours.filter(tour => {
+                // Search filter
+                const matchesSearch = !searchTerm || 
+                    tour.name.toLowerCase().includes(searchTerm) ||
+                    (tour.company && tour.company.toLowerCase().includes(searchTerm)) ||
+                    (tour.location && tour.location.toLowerCase().includes(searchTerm)) ||
+                    (tour.description && tour.description.toLowerCase().includes(searchTerm)) ||
+                    (tour.tags && tour.tags.some(tag => tag.toLowerCase().includes(searchTerm)));
+                
+                // Activity filter
+                const matchesActivity = !activity || 
+                    (tour.tags && tour.tags.some(tag => tag.toLowerCase().includes(activity)));
+                
+                return matchesSearch && matchesActivity;
+            });
+            
+            // Sort
+            if (sortBy === 'name') {
+                filteredTours.sort((a, b) => a.name.localeCompare(b.name));
+            } else {
+                filteredTours.sort((a, b) => (b.qualityScore || 0) - (a.qualityScore || 0));
+            }
+            
+            // Reset displayed count and show
+            displayedCount = 0;
+            displayTours();
+        }
+
+        function filterByLocation(location) {
+            document.getElementById('searchInput').value = location;
+            applyFilters();
+            document.getElementById('tours-section').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function loadMoreTours() {
+            displayTours();
+        }
+
+        function shuffleTours() {
+            filteredTours = filteredTours.sort(() => Math.random() - 0.5);
+            displayedCount = 0;
+            displayTours();
+        }
+
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('activityFilter').value = '';
+            document.getElementById('sortBy').value = 'quality';
+            filteredTours = [...allTours];
+            displayedCount = 0;
+            displayTours();
+        }
+
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn')?.addEventListener('click', () => {
+            document.querySelector('.mobile-nav')?.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
