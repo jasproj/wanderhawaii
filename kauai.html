@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kauai Tours & Activities | 41 Adventures | WanderHawaii</title>
-    <meta name="description" content="Book 41 Kauai tours direct: Na Pali Coast, helicopter tours, snorkeling, kayaking & more. Local operators, instant confirmation. Save money, support local.">
+    <title>Kauai Tours & Activities | 524 Adventures | WanderHawaii</title>
+    <meta name="description" content="Discover 524 tours on Kauai: snorkeling at Waimea Canyon, Na Pali Coast cruises, Princeville adventures, helicopter rides & more. Book direct with local operators.">
     
+    <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     
-    <meta property="og:title" content="329 Kauai Tours | Book Direct | WanderHawaii">
-    <meta property="og:description" content="Na Pali Coast, helicopter tours, snorkeling, kayaking. Book direct with local operators.">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kauai Tours & Activities | WanderHawaii">
+    <meta property="og:description" content="329 handpicked Kauai adventures. Snorkeling, Pearl Harbor, helicopters & more.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://wanderhawaii.com/kauai">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=1200">
+    <meta property="og:url" content="https://wanderhawaii.com/kauai.html">
     
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL7CN6NG44"></script>
@@ -23,613 +24,297 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-PL7CN6NG44');
-        
-        // Track outbound clicks to FareHarbor
-        function trackBookingClick(tourName, tourId) {
-            gtag('event', 'booking_click', {
-                'event_category': 'conversion',
-                'event_label': tourName,
-                'tour_id': tourId,
-                'island': 'oahu'
-            });
-        }
     </script>
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     
     <style>
-        :root {
-            --ocean-deep: #0A4D68;
-            --ocean-mid: #088395;
-            --ocean-light: #05BFDB;
-            --coral: #FF6B6B;
-            --gold: #FFD93D;
-            --white: #FFFFFF;
-            --gray-50: #FAFAFA;
-            --gray-100: #F5F5F5;
-            --gray-200: #E5E5E5;
-            --gray-500: #737373;
-            --gray-700: #404040;
-            --gray-900: #171717;
-            --font-display: 'DM Sans', sans-serif;
-            --font-body: 'Inter', sans-serif;
-            --shadow: 0 4px 12px rgba(0,0,0,0.08);
-            --shadow-lg: 0 12px 32px rgba(0,0,0,0.12);
-        }
-        
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; }
-        body { font-family: var(--font-body); color: var(--gray-900); background: var(--gray-50); }
-        
-        /* === HEADER === */
-        .header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
-            background: rgba(255,255,255,0.97);
-            backdrop-filter: blur(10px);
-            border-bottom: 1px solid var(--gray-200);
-            height: 56px;
-        }
-        .header-inner {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 16px;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-family: var(--font-display);
-            font-weight: 700;
-            font-size: 1.25rem;
-            color: var(--ocean-deep);
-            text-decoration: none;
-        }
-        .logo img { height: 32px; }
-        .nav { display: flex; gap: 24px; }
-        .nav a { 
-            font-size: 0.9rem; 
-            font-weight: 500; 
-            color: var(--gray-700); 
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-        .nav a:hover { color: var(--ocean-mid); }
-        
-        @media (max-width: 768px) {
-            .nav { display: none; }
-        }
-        
-        /* === HERO (COMPACT) === */
-        .hero {
-            margin-top: 56px;
-            background: linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean-mid) 100%);
-            padding: 24px 16px;
+        /* Island page specific hero */
+        .island-hero {
+            background: linear-gradient(135deg, rgba(0,100,150,0.9), rgba(0,50,100,0.95)), 
+                        url('https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?auto=format&fit=crop&w=2000&q=80');
+            background-size: cover;
+            background-position: center;
+            padding: 80px 20px 60px;
             text-align: center;
             color: white;
         }
-        .hero-badge {
-            display: inline-block;
-            background: rgba(255,255,255,0.2);
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            margin-bottom: 12px;
+        .island-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
         }
-        .hero h1 {
-            font-family: var(--font-display);
-            font-size: 1.75rem;
-            font-weight: 700;
-            margin-bottom: 8px;
-        }
-        .hero-subtitle {
-            font-size: 0.95rem;
+        .island-hero p {
+            font-size: 1.2rem;
             opacity: 0.9;
-            margin-bottom: 16px;
+            max-width: 600px;
+            margin: 0 auto 20px;
         }
-        .hero-search {
-            max-width: 500px;
-            margin: 0 auto;
-            position: relative;
-        }
-        .hero-search input {
-            width: 100%;
-            padding: 14px 16px 14px 44px;
-            border: none;
-            border-radius: 8px;
-            font-size: 1rem;
-            background: white;
-            box-shadow: var(--shadow);
-        }
-        .hero-search input:focus { outline: 2px solid var(--ocean-light); }
-        .hero-search::before {
-            content: '🔍';
-            position: absolute;
-            left: 14px;
-            top: 50%;
-            transform: translateY(-50%);
-            font-size: 1.1rem;
-        }
-        
-        @media (max-width: 768px) {
-            .hero { padding: 20px 16px; }
-            .hero h1 { font-size: 1.5rem; }
-        }
-        
-        /* === TRUST BAR === */
-        .trust-bar {
-            background: white;
-            border-bottom: 1px solid var(--gray-200);
-            padding: 12px 16px;
-            text-align: center;
-        }
-        .trust-items {
+        .island-stats {
             display: flex;
             justify-content: center;
-            gap: 24px;
-            flex-wrap: wrap;
-            font-size: 0.85rem;
-            color: var(--gray-700);
-        }
-        .trust-item { display: flex; align-items: center; gap: 6px; }
-        .trust-check { color: #22c55e; font-weight: bold; }
-        
-        @media (max-width: 768px) {
-            .trust-items { gap: 16px; font-size: 0.8rem; }
-        }
-        
-        /* === FILTER BAR === */
-        .filter-bar {
-            background: white;
-            border-bottom: 1px solid var(--gray-200);
-            padding: 12px 16px;
-            position: sticky;
-            top: 56px;
-            z-index: 100;
-        }
-        .filter-inner {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            gap: 12px;
-            align-items: center;
+            gap: 40px;
+            margin-top: 30px;
             flex-wrap: wrap;
         }
-        .filter-select {
-            padding: 10px 14px;
-            border: 1px solid var(--gray-200);
-            border-radius: 8px;
-            font-size: 0.9rem;
-            background: white;
-            cursor: pointer;
-            min-width: 140px;
+        .island-stat {
+            text-align: center;
         }
-        .filter-select:focus { outline: 2px solid var(--ocean-light); border-color: transparent; }
-        .filter-count {
-            margin-left: auto;
-            font-size: 0.85rem;
-            color: var(--gray-500);
-        }
-        .filter-reset {
-            font-size: 0.85rem;
-            color: var(--ocean-mid);
-            background: none;
-            border: none;
-            cursor: pointer;
-            font-weight: 500;
-        }
-        .filter-reset:hover { text-decoration: underline; }
-        
-        /* === TOURS GRID === */
-        .tours-section {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 24px 16px 60px;
-        }
-        .tours-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 20px;
-        }
-        
-        /* === TOUR CARD === */
-        .tour-card {
-            background: white;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: var(--shadow);
-            transition: transform 0.2s, box-shadow 0.2s;
-            display: flex;
-            flex-direction: column;
-        }
-        .tour-card:hover {
-            transform: translateY(-4px);
-            box-shadow: var(--shadow-lg);
-        }
-        .tour-image {
-            position: relative;
-            height: 180px;
-            overflow: hidden;
-            background: var(--gray-100);
-        }
-        .tour-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.3s;
-        }
-        .tour-card:hover .tour-image img { transform: scale(1.05); }
-        
-        .tour-badges {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            display: flex;
-            gap: 6px;
-        }
-        .badge {
-            padding: 4px 10px;
-            border-radius: 4px;
-            font-size: 0.7rem;
+        .island-stat-number {
+            font-size: 2rem;
             font-weight: 700;
-            text-transform: uppercase;
         }
-        .badge-top { background: var(--gold); color: var(--gray-900); }
-        .badge-popular { background: var(--coral); color: white; }
-        
-        .tour-location {
-            position: absolute;
-            bottom: 10px;
-            left: 10px;
-            background: rgba(0,0,0,0.7);
+        .island-stat-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        .breadcrumb {
+            padding: 15px 20px;
+            background: #f8f9fa;
+            font-size: 0.9rem;
+        }
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .breadcrumb span {
+            color: #666;
+        }
+        .island-areas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 25px;
+        }
+        .area-tag {
+            background: rgba(255,255,255,0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: background 0.2s;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        .area-tag:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        .tours-count-badge {
+            background: #ff6b35;
             color: white;
-            padding: 4px 10px;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-weight: 500;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin-bottom: 20px;
         }
         .tour-price {
             position: absolute;
-            top: 10px;
-            right: 10px;
-            background: var(--coral);
+            bottom: 10px;
+            left: 10px;
+            background: linear-gradient(135deg, #ff6b35, #e85a24);
             color: white;
             padding: 6px 12px;
             border-radius: 6px;
-            font-size: 0.9rem;
             font-weight: 700;
+            font-size: 0.95rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         }
-        .tour-meta {
-            display: flex;
-            gap: 12px;
-            font-size: 0.8rem;
-            color: var(--gray-500);
-            margin-bottom: 8px;
-            flex-wrap: wrap;
+        .tour-image-container {
+            position: relative;
         }
-        .tour-meta span { display: flex; align-items: center; gap: 4px; }
-        .tour-rating { color: #f59e0b; }
-        .tour-desc {
-            font-size: 0.85rem;
-            color: var(--gray-500);
-            line-height: 1.5;
-            margin-bottom: 12px;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .badge-cancel {
-            background: #22c55e;
-            color: white;
-            font-size: 0.65rem;
-        }
-        
-        .tour-content {
-            padding: 16px;
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-        .tour-company {
-            font-size: 0.7rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.03em;
-            color: var(--ocean-mid);
-            margin-bottom: 4px;
-        }
-        .tour-name {
-            font-family: var(--font-display);
-            font-size: 1rem;
-            font-weight: 600;
-            color: var(--gray-900);
-            line-height: 1.3;
-            margin-bottom: 8px;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        .tour-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-            margin-bottom: 12px;
-        }
-        .tour-tag {
-            font-size: 0.7rem;
-            color: var(--gray-500);
-            background: var(--gray-100);
-            padding: 3px 8px;
-            border-radius: 4px;
-        }
-        .tour-footer {
-            margin-top: auto;
-            padding-top: 12px;
-            border-top: 1px solid var(--gray-100);
-        }
-        .tour-cta {
-            display: block;
-            width: 100%;
-            padding: 12px;
-            background: var(--ocean-mid);
-            color: white;
-            font-size: 0.9rem;
-            font-weight: 600;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 8px;
-            transition: background 0.2s;
-        }
-        .tour-cta:hover { background: var(--ocean-deep); }
-        
-        /* === LOAD MORE === */
-        .load-more {
-            text-align: center;
-            padding: 32px 16px;
-        }
-        .load-more-btn {
-            padding: 14px 32px;
-            background: white;
-            border: 2px solid var(--ocean-mid);
-            color: var(--ocean-mid);
-            font-size: 1rem;
-            font-weight: 600;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-        .load-more-btn:hover {
-            background: var(--ocean-mid);
-            color: white;
-        }
-        
-        /* === NO RESULTS === */
-        .no-results {
-            text-align: center;
-            padding: 60px 20px;
-            color: var(--gray-500);
-            display: none;
-        }
-        .no-results h3 { 
-            font-size: 1.25rem; 
-            color: var(--gray-700); 
-            margin-bottom: 8px; 
-        }
-        
-        /* === FOOTER === */
-        .footer {
-            background: var(--gray-900);
-            color: white;
-            padding: 48px 16px 24px;
-        }
-        .footer-inner {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 32px;
-        }
-        .footer-brand { grid-column: span 2; }
-        .footer-brand img { height: 40px; margin-bottom: 12px; filter: brightness(10); }
-        .footer-brand p { font-size: 0.9rem; color: var(--gray-500); line-height: 1.6; }
-        .footer h4 { 
-            font-size: 0.85rem; 
-            font-weight: 600; 
-            text-transform: uppercase; 
-            letter-spacing: 0.05em;
-            margin-bottom: 16px; 
-            color: var(--gray-500);
-        }
-        .footer ul { list-style: none; }
-        .footer li { margin-bottom: 10px; }
-        .footer a { 
-            color: white; 
-            text-decoration: none; 
-            font-size: 0.9rem;
-            transition: color 0.2s;
-        }
-        .footer a:hover { color: var(--ocean-light); }
-        .footer-bottom {
-            max-width: 1200px;
-            margin: 32px auto 0;
-            padding-top: 24px;
-            border-top: 1px solid var(--gray-700);
-            text-align: center;
-            font-size: 0.85rem;
-            color: var(--gray-500);
-        }
-        
-        @media (max-width: 768px) {
-            .footer-brand { grid-column: span 1; }
-            .footer-inner { grid-template-columns: 1fr 1fr; }
-        }
-        
-        /* === LOADING STATE === */
-        .loading {
-            text-align: center;
-            padding: 60px 20px;
-            color: var(--gray-500);
-        }
-        .spinner {
-            width: 40px;
-            height: 40px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--ocean-mid);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin: 0 auto 16px;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
     </style>
 </head>
 <body>
-    <!-- HEADER -->
-    <header class="header">
-        <div class="header-inner">
-            <a href="/" class="logo">
-                <img src="logo-icon.png" alt="">
-                <span>WanderHawaii</span>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="/" class="logo-link">
+                <img src="logo-icon.png" alt="WanderHawaii" class="logo-icon">
+                <span class="logo-text">WanderHawaii</span>
             </a>
-            <nav class="nav">
-                <a href="/">All Islands</a>
-                <a href="/oahu.html">Oahu</a>
-                <a href="/maui.html">Maui</a>
-                <a href="/big-island.html">Big Island</a>
-                <a href="/kauai.html">Kauai</a>
+            <nav class="main-nav">
+                <a href="/#tours-section">Tours</a>
+                <a href="/#islands">Islands</a>
+                <a href="blog.html">Blog</a>
+                <a href="about.html">About</a>
             </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">☰</button>
         </div>
     </header>
 
-    <!-- HERO (COMPACT) -->
-    <section class="hero">
-        <span class="hero-badge">🏝️ <span id="tour-count">41</span> Adventures</span>
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav">
+        <a href="/#tours-section">Tours</a>
+        <a href="/#islands">Islands</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="/">Home</a> <span>→</span> <span>Kauai Tours</span>
+    </div>
+
+    <!-- Island Hero -->
+    <section class="island-hero">
+        <span class="tours-count-badge">🏝️ 524 Adventures</span>
         <h1>Kauai Tours & Activities</h1>
-        <p class="hero-subtitle">Na Pali Coast • Waimea Canyon • Poipu • Princeville</p>
-        <div class="hero-search">
-            <input type="text" id="searchInput" placeholder="Search tours, activities, locations...">
+        <p>From the beaches of Poipu to the historic shores of Pearl Harbor, discover Kauai's best adventures with local operators.</p>
+        
+        <div class="island-areas">
+            <span class="area-tag" onclick="filterByLocation('Poipu')">Poipu</span>
+            <span class="area-tag" onclick="filterByLocation('Princeville')">Princeville</span>
+            <span class="area-tag" onclick="filterByLocation('Hanalei')">Hanalei</span>
+            <span class="area-tag" onclick="filterByLocation('Kapaa')">Kapaa</span>
+            <span class="area-tag" onclick="filterByLocation('Waimea')">Waimea</span>
         </div>
-    </section>
-
-    <!-- TRUST BAR -->
-    <div class="trust-bar">
-        <div class="trust-items">
-            <span class="trust-item"><span class="trust-check">✓</span> Local Operators</span>
-            <span class="trust-item"><span class="trust-check">✓</span> Instant Confirmation</span>
-            <span class="trust-item"><span class="trust-check">✓</span> Best Price Guarantee</span>
-            <span class="trust-item"><span class="trust-check">✓</span> Free Cancellation</span>
-        </div>
-    </div>
-
-    <!-- FILTER BAR -->
-    <div class="filter-bar">
-        <div class="filter-inner">
-            <select id="activityFilter" class="filter-select">
-                <option value="">All Activities</option>
-                <option value="snorkel">🤿 Snorkeling</option>
-                <option value="boat">🚤 Boat Tours</option>
-                <option value="whale">🐋 Whale Watching</option>
-                <option value="dolphin">🐬 Dolphins</option>
-                <option value="scuba">🤿 Scuba</option>
-                <option value="kayak">🚣 Kayaking</option>
-                <option value="surf">🏄 Surfing</option>
-                <option value="hike">🥾 Hiking</option>
-                <option value="helicopter">🚁 Helicopters</option>
-                <option value="food">🍽️ Food Tours</option>
-            </select>
-            <select id="priceFilter" class="filter-select">
-                <option value="">Any Price</option>
-                <option value="0-50">Under $50</option>
-                <option value="50-100">$50 - $100</option>
-                <option value="100-200">$100 - $200</option>
-                <option value="200-500">$200 - $500</option>
-                <option value="500-99999">$500+</option>
-            </select>
-            <select id="durationFilter" class="filter-select">
-                <option value="">Any Duration</option>
-                <option value="0-120">Under 2 hours</option>
-                <option value="120-240">2-4 hours</option>
-                <option value="240-480">Half day</option>
-                <option value="480-99999">Full day+</option>
-            </select>
-            <select id="areaFilter" class="filter-select">
-                <option value="">All Areas</option>
-                <option value="poipu">Poipu</option>
-                <option value="princeville">Princeville</option>
-                <option value="kapaa">Kapaa</option>
-                <option value="lihue">Lihue</option>
-                <option value="hanalei">Hanalei</option>
-            </select>
-            <select id="sortFilter" class="filter-select">
-                <option value="quality">Top Rated</option>
-                <option value="price-low">Price: Low to High</option>
-                <option value="price-high">Price: High to Low</option>
-                <option value="name">A-Z</option>
-            </select>
-            <button class="filter-reset" onclick="resetFilters()">Reset</button>
-            <span class="filter-count"><span id="showing-count">41</span> tours</span>
-        </div>
-    </div>
-
-    <!-- TOURS GRID -->
-    <section class="tours-section">
-        <div class="tours-grid" id="tours-grid">
-            <div class="loading">
-                <div class="spinner"></div>
-                <p>Loading Kauai adventures...</p>
+        
+        <div class="island-stats">
+            <div class="island-stat">
+                <div class="island-stat-number">524</div>
+                <div class="island-stat-label">Tours</div>
+            </div>
+            <div class="island-stat">
+                <div class="island-stat-number">50+</div>
+                <div class="island-stat-label">Operators</div>
+            </div>
+            <div class="island-stat">
+                <div class="island-stat-number">100%</div>
+                <div class="island-stat-label">Local</div>
             </div>
         </div>
-        <div class="no-results" id="no-results">
-            <h3>No tours found</h3>
-            <p>Try adjusting your filters or search term.</p>
-            <button class="load-more-btn" onclick="resetFilters()" style="margin-top: 16px;">Show All Tours</button>
-        </div>
-        <div class="load-more" id="load-more">
-            <button class="load-more-btn" onclick="loadMore()">Load More Tours</button>
+    </section>
+
+    <!-- Search & Filter -->
+    <section class="filter-section" style="padding: 30px 20px; background: #fff; border-bottom: 1px solid #eee;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <div style="display: flex; flex-wrap: wrap; gap: 15px; align-items: center; justify-content: space-between;">
+                <input type="text" id="searchInput" placeholder="🔍 Search Kauai tours..." 
+                       style="flex: 1; min-width: 200px; padding: 12px 16px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem;">
+                
+                <select id="activityFilter" style="padding: 12px 16px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem; min-width: 180px;">
+                    <option value="">All Activities</option>
+                    <option value="Snorkel">🤿 Snorkeling</option>
+                    <option value="Boat">🚤 Boat Tours</option>
+                    <option value="Whale">🐋 Whale Watching</option>
+                    <option value="Dolphin">🐬 Dolphins</option>
+                    <option value="Scuba">🤿 Scuba</option>
+                    <option value="Kayak">🚣 Kayaking</option>
+                    <option value="Surf">🏄 Surfing</option>
+                    <option value="Hike">🥾 Hiking</option>
+                    <option value="Helicopter">🚁 Helicopters</option>
+                    <option value="Food">🍽️ Food Tours</option>
+                </select>
+                
+                <select id="sortBy" style="padding: 12px 16px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem;">
+                    <option value="quality">⭐ Top Rated</option>
+                    <option value="name">A-Z</option>
+                </select>
+                
+                <button onclick="shuffleTours()" style="padding: 12px 20px; background: #0066cc; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem;">
+                    🎲 Shuffle
+                </button>
+            </div>
         </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="footer-inner">
+    <!-- Tours Grid -->
+    <section id="tours-section" style="padding: 40px 20px; background: #f8f9fa;">
+        <div style="max-width: 1400px; margin: 0 auto;">
+            <div id="tours-grid" class="tours-grid">
+                <!-- Tours loaded by JavaScript -->
+                <div class="loading-state">Loading Kauai adventures...</div>
+            </div>
+            
+            <div id="load-more-container" style="text-align: center; margin-top: 30px; display: none;">
+                <button id="load-more-btn" onclick="loadMoreTours()" 
+                        style="padding: 15px 40px; background: #0066cc; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem;">
+                    Load More Adventures →
+                </button>
+            </div>
+            
+            <div id="no-results" style="display: none; text-align: center; padding: 60px 20px;">
+                <p style="font-size: 1.2rem; color: #666;">No tours match your search. Try different keywords.</p>
+                <button onclick="resetFilters()" style="margin-top: 15px; padding: 10px 25px; background: #0066cc; color: white; border: none; border-radius: 6px; cursor: pointer;">
+                    Clear Filters
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Book Section -->
+    <section style="padding: 60px 20px; background: #fff;">
+        <div style="max-width: 1000px; margin: 0 auto; text-align: center;">
+            <h2 style="font-size: 2rem; margin-bottom: 40px;">Why Book Kauai Tours With Us?</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px;">
+                <div>
+                    <div style="font-size: 2.5rem; margin-bottom: 10px;">🏝️</div>
+                    <h3>524 Verified Tours</h3>
+                    <p style="color: #666;">Every Kauai tour is from a verified local operator.</p>
+                </div>
+                <div>
+                    <div style="font-size: 2.5rem; margin-bottom: 10px;">💰</div>
+                    <h3>Book Direct</h3>
+                    <p style="color: #666;">No middleman markup. Best prices guaranteed.</p>
+                </div>
+                <div>
+                    <div style="font-size: 2.5rem; margin-bottom: 10px;">🤙</div>
+                    <h3>Support Local</h3>
+                    <p style="color: #666;">Your booking supports Hawaiian families.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Islands -->
+    <section style="padding: 60px 20px; background: #f0f4f8;">
+        <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+            <h2 style="font-size: 1.8rem; margin-bottom: 30px;">Explore Other Islands</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+                <a href="oahu.html" style="padding: 20px 40px; background: white; border-radius: 12px; text-decoration: none; color: #333; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                    <strong>Oahu</strong><br><span style="color: #666;">1,194 Adventures</span>
+                </a>
+                <a href="maui.html" style="padding: 20px 40px; background: white; border-radius: 12px; text-decoration: none; color: #333; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                    <strong>Maui</strong><br><span style="color: #666;">826 Adventures</span>
+                </a>
+                <a href="big-island.html" style="padding: 20px 40px; background: white; border-radius: 12px; text-decoration: none; color: #333; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                    <strong>Big Island</strong><br><span style="color: #666;">598 Adventures</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
             <div class="footer-brand">
-                <img src="logo-icon.png" alt="WanderHawaii">
-                <p>Your guide to 595 Hawaiian adventures.<br>Book direct with local operators and support local businesses.</p>
+                <a href="/"><img src="logo-full.png" alt="WanderHawaii" style="max-width: 150px;"></a>
+                <p>Your guide to Hawaiian adventures. Verified local operators, instant booking.</p>
             </div>
-            <div>
+            <div class="footer-links">
                 <h4>Islands</h4>
                 <ul>
-                    <li><a href="/kauai.html">Oahu (329)</a></li>
-                    <li><a href="/maui.html">Maui (101)</a></li>
-                    <li><a href="/big-island.html">Big Island (124)</a></li>
-                    <li><a href="/kauai.html">Kauai (41)</a></li>
+                    <li><a href="kauai.html">Kauai (524)</a></li>
+                    <li><a href="maui.html">Maui (826)</a></li>
+                    <li><a href="big-island.html">Big Island (598)</a></li>
+                    <li><a href="kauai.html">Kauai (524)</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="footer-links">
                 <h4>Popular</h4>
                 <ul>
-                    <li><a href="#" onclick="filterActivity('snorkel')">Snorkeling</a></li>
-                    <li><a href="#" onclick="filterActivity('whale')">Whale Watching</a></li>
-                    <li><a href="#" onclick="filterActivity('helicopter')">Helicopters</a></li>
-                    <li><a href="#" onclick="filterActivity('boat')">Boat Tours</a></li>
+                    <li><a href="/#tours-section">Snorkeling</a></li>
+                    <li><a href="/#tours-section">Whale Watching</a></li>
+                    <li><a href="/#tours-section">Helicopters</a></li>
+                    <li><a href="/#tours-section">Boat Tours</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="footer-links">
                 <h4>Company</h4>
                 <ul>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="/#faq">FAQs</a></li>
                 </ul>
             </div>
         </div>
@@ -640,249 +325,188 @@
 
     <script>
         // ============================================
-        // OAHU - CONVERSION-OPTIMIZED TOUR LOADER
+        // OAHU PAGE - ISLAND-FILTERED TOUR LOADER
         // ============================================
         
-        const ISLAND = 'kauai';
-        const TOURS_PER_PAGE = 12;
-        
+        const ISLAND_FILTER = 'kauai'; // Pre-filter to this island
         let allTours = [];
         let filteredTours = [];
         let displayedCount = 0;
-        
-        // Initialize
-        document.addEventListener('DOMContentLoaded', init);
-        
-        async function init() {
+        const TOURS_PER_PAGE = 24;
+
+        // Load tours on page load
+        document.addEventListener('DOMContentLoaded', async () => {
             try {
-                const res = await fetch('tours-data.json');
-                if (!res.ok) throw new Error('Failed to load');
+                const response = await fetch('tours-data.json');
+                if (!response.ok) throw new Error('Failed to load tours');
                 
-                const data = await res.json();
+                const data = await response.json();
                 
-                // Filter to this island
-                allTours = data.filter(t => t.island && t.island.toLowerCase() === ISLAND);
+                // Filter to this island only
+                allTours = data.filter(tour => 
+                    tour.island && tour.island.toLowerCase() === ISLAND_FILTER
+                );
                 
-                // Sort by quality
+                // Sort by quality score
                 allTours.sort((a, b) => (b.qualityScore || 0) - (a.qualityScore || 0));
                 
+                // Initialize filtered tours
                 filteredTours = [...allTours];
                 
-                // Update counts
-                document.getElementById('tour-count').textContent = allTours.length;
+                // Update tour count
+                document.querySelector('.tours-count-badge').textContent = `🏝️ ${allTours.length} Adventures`;
+                document.querySelector('.island-stat-number').textContent = allTours.length;
                 
-                renderTours();
-                setupListeners();
+                // Display tours
+                displayTours();
                 
-            } catch (err) {
-                console.error(err);
+                // Setup event listeners
+                setupFilters();
+                
+            } catch (error) {
+                console.error('Error loading tours:', error);
                 document.getElementById('tours-grid').innerHTML = `
-                    <div style="text-align:center;padding:60px;grid-column:1/-1;color:#737373;">
-                        <p>Unable to load tours. <a href="javascript:location.reload()" style="color:#088395;">Refresh</a></p>
+                    <div style="text-align: center; padding: 60px 20px; grid-column: 1/-1;">
+                        <p style="color: #e74c3c; font-size: 1.2rem;">Unable to load tours. Please refresh the page.</p>
                     </div>
                 `;
             }
-        }
-        
-        function renderTours() {
+        });
+
+        function displayTours() {
             const grid = document.getElementById('tours-grid');
-            const loadMore = document.getElementById('load-more');
+            const loadMoreBtn = document.getElementById('load-more-container');
             const noResults = document.getElementById('no-results');
             
             if (filteredTours.length === 0) {
                 grid.innerHTML = '';
-                loadMore.style.display = 'none';
+                loadMoreBtn.style.display = 'none';
                 noResults.style.display = 'block';
-                document.getElementById('showing-count').textContent = '0';
                 return;
             }
             
             noResults.style.display = 'none';
             
-            const toShow = filteredTours.slice(0, displayedCount + TOURS_PER_PAGE);
-            displayedCount = toShow.length;
+            // Get tours to display
+            const toursToShow = filteredTours.slice(0, displayedCount + TOURS_PER_PAGE);
+            displayedCount = toursToShow.length;
             
-            grid.innerHTML = toShow.map(tour => createCard(tour)).join('');
+            // Render tour cards
+            grid.innerHTML = toursToShow.map(tour => createTourCard(tour)).join('');
             
-            loadMore.style.display = displayedCount < filteredTours.length ? 'block' : 'none';
-            document.getElementById('showing-count').textContent = filteredTours.length;
+            // Show/hide load more
+            loadMoreBtn.style.display = displayedCount < filteredTours.length ? 'block' : 'none';
         }
-        
-        function createCard(tour) {
-            const isTop = tour.qualityScore >= 100;
-            const isPopular = tour.qualityScore >= 80 && tour.qualityScore < 100;
+
+        function createTourCard(tour) {
+            const isTopRated = tour.qualityScore >= 100;
+            const description = tour.description || 'Experience this amazing Hawaiian adventure with local experts.';
+            const truncatedDesc = description.length > 120 ? description.substring(0, 120) + '...' : description;
+            
+            // Get first 3 tags
             const tags = (tour.tags || []).slice(0, 3);
-            const desc = tour.description || '';
-            const shortDesc = desc.length > 100 ? desc.slice(0, 100) + '...' : desc;
             
-            // Price
-            const priceHtml = tour.price ? `<div class="tour-price">From $${tour.price}</div>` : '';
-            
-            // Badges
-            let badges = '';
-            if (isTop) badges += '<span class="badge badge-top">⭐ Top Rated</span>';
-            else if (isPopular) badges += '<span class="badge badge-popular">🔥 Popular</span>';
-            if (tour.freeCancellation) badges += '<span class="badge badge-cancel">✓ Free Cancel</span>';
-            
-            // Duration
-            let durationText = '';
-            if (tour.duration) {
-                const hours = Math.floor(tour.duration / 60);
-                const mins = tour.duration % 60;
-                if (hours > 0 && mins > 0) durationText = `${hours}h ${mins}m`;
-                else if (hours > 0) durationText = `${hours} hr${hours > 1 ? 's' : ''}`;
-                else durationText = `${mins} min`;
-            }
-            
-            // Rating
-            let ratingHtml = '';
-            if (tour.rating) {
-                const stars = '★'.repeat(Math.floor(tour.rating)) + (tour.rating % 1 >= 0.5 ? '½' : '');
-                ratingHtml = `<span class="tour-rating">★ ${tour.rating}</span>`;
-                if (tour.reviewCount) ratingHtml += ` <span>(${tour.reviewCount})</span>`;
-            }
-            
-            // Meta line (duration + rating)
-            let metaHtml = '';
-            if (durationText || ratingHtml) {
-                metaHtml = '<div class="tour-meta">';
-                if (durationText) metaHtml += `<span>🕐 ${durationText}</span>`;
-                if (ratingHtml) metaHtml += ratingHtml;
-                metaHtml += '</div>';
-            }
+            // Format price
+            const priceHtml = tour.price 
+                ? `<span class="tour-price">From $${Math.round(tour.price)}</span>` 
+                : '';
             
             return `
                 <article class="tour-card">
-                    <div class="tour-image">
-                        <img src="${tour.image}" alt="${tour.name}" loading="lazy" 
-                             onerror="this.src='https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400'">
-                        <div class="tour-badges">${badges}</div>
+                    <div class="tour-image-container">
+                        <img src="${tour.image}" alt="${tour.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400'">
+                        ${isTopRated ? '<span class="quality-badge">⭐ Top Rated</span>' : ''}
                         ${priceHtml}
-                        <div class="tour-location">📍 ${tour.location || 'Kauai'}</div>
                     </div>
                     <div class="tour-content">
-                        <div class="tour-company">${tour.company}</div>
-                        <h3 class="tour-name">${tour.name}</h3>
-                        ${metaHtml}
-                        ${shortDesc ? `<p class="tour-desc">${shortDesc}</p>` : ''}
+                        <div class="tour-location">📍 ${tour.location ? tour.location.split('/').pop() : 'Kauai'}</div>
+                        <h3 class="tour-title">${tour.name}</h3>
+                        <p class="tour-description">${truncatedDesc}</p>
                         <div class="tour-tags">
-                            ${tags.map(t => `<span class="tour-tag">${t}</span>`).join('')}
+                            ${tags.map(tag => `<span class="tour-tag">${tag}</span>`).join('')}
                         </div>
                         <div class="tour-footer">
-                            <a href="${tour.bookingLink}" 
-                               target="_blank" 
-                               rel="noopener" 
-                               class="tour-cta"
-                               onclick="trackBookingClick('${tour.name.replace(/'/g, "\\'")}', '${tour.id}')">
-                                Check Availability →
-                            </a>
+                            <span class="tour-company">${tour.company}</span>
+                            <a href="${tour.bookingLink}" target="_blank" rel="noopener" class="book-btn">Book Now →</a>
                         </div>
                     </div>
                 </article>
             `;
         }
-        
-        function setupListeners() {
-            document.getElementById('searchInput').addEventListener('input', debounce(applyFilters, 300));
-            document.getElementById('activityFilter').addEventListener('change', applyFilters);
-            document.getElementById('priceFilter').addEventListener('change', applyFilters);
-            document.getElementById('durationFilter').addEventListener('change', applyFilters);
-            document.getElementById('areaFilter').addEventListener('change', applyFilters);
-            document.getElementById('sortFilter').addEventListener('change', applyFilters);
-        }
-        
-        function applyFilters() {
-            const search = document.getElementById('searchInput').value.toLowerCase().trim();
-            const activity = document.getElementById('activityFilter').value.toLowerCase();
-            const priceRange = document.getElementById('priceFilter').value;
-            const durationRange = document.getElementById('durationFilter').value;
-            const area = document.getElementById('areaFilter').value.toLowerCase();
-            const sort = document.getElementById('sortFilter').value;
+
+        function setupFilters() {
+            const searchInput = document.getElementById('searchInput');
+            const activityFilter = document.getElementById('activityFilter');
+            const sortBy = document.getElementById('sortBy');
             
+            searchInput.addEventListener('input', applyFilters);
+            activityFilter.addEventListener('change', applyFilters);
+            sortBy.addEventListener('change', applyFilters);
+        }
+
+        function applyFilters() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const activity = document.getElementById('activityFilter').value.toLowerCase();
+            const sortBy = document.getElementById('sortBy').value;
+            
+            // Filter tours
             filteredTours = allTours.filter(tour => {
-                // Search match
-                const searchMatch = !search || 
-                    tour.name.toLowerCase().includes(search) ||
-                    (tour.company && tour.company.toLowerCase().includes(search)) ||
-                    (tour.location && tour.location.toLowerCase().includes(search)) ||
-                    (tour.description && tour.description.toLowerCase().includes(search)) ||
-                    (tour.tags && tour.tags.some(tag => tag.toLowerCase().includes(search)));
+                // Search filter
+                const matchesSearch = !searchTerm || 
+                    tour.name.toLowerCase().includes(searchTerm) ||
+                    (tour.company && tour.company.toLowerCase().includes(searchTerm)) ||
+                    (tour.location && tour.location.toLowerCase().includes(searchTerm)) ||
+                    (tour.description && tour.description.toLowerCase().includes(searchTerm)) ||
+                    (tour.tags && tour.tags.some(tag => tag.toLowerCase().includes(searchTerm)));
                 
-                // Activity match
-                const activityMatch = !activity || 
+                // Activity filter
+                const matchesActivity = !activity || 
                     (tour.tags && tour.tags.some(tag => tag.toLowerCase().includes(activity)));
                 
-                // Price match
-                let priceMatch = true;
-                if (priceRange && tour.price) {
-                    const [min, max] = priceRange.split('-').map(Number);
-                    priceMatch = tour.price >= min && tour.price <= max;
-                } else if (priceRange && !tour.price) {
-                    priceMatch = false;
-                }
-                
-                // Duration match
-                let durationMatch = true;
-                if (durationRange && tour.duration) {
-                    const [min, max] = durationRange.split('-').map(Number);
-                    durationMatch = tour.duration >= min && tour.duration <= max;
-                } else if (durationRange && !tour.duration) {
-                    durationMatch = false;
-                }
-                
-                // Area match
-                const areaMatch = !area || 
-                    (tour.location && tour.location.toLowerCase().includes(area));
-                
-                return searchMatch && activityMatch && priceMatch && durationMatch && areaMatch;
+                return matchesSearch && matchesActivity;
             });
             
             // Sort
-            if (sort === 'name') {
+            if (sortBy === 'name') {
                 filteredTours.sort((a, b) => a.name.localeCompare(b.name));
-            } else if (sort === 'price-low') {
-                filteredTours.sort((a, b) => (a.price || 9999) - (b.price || 9999));
-            } else if (sort === 'price-high') {
-                filteredTours.sort((a, b) => (b.price || 0) - (a.price || 0));
             } else {
                 filteredTours.sort((a, b) => (b.qualityScore || 0) - (a.qualityScore || 0));
             }
             
+            // Reset displayed count and show
             displayedCount = 0;
-            renderTours();
+            displayTours();
         }
-        
-        function filterActivity(activity) {
-            document.getElementById('activityFilter').value = activity;
+
+        function filterByLocation(location) {
+            document.getElementById('searchInput').value = location;
             applyFilters();
-            window.scrollTo({ top: 300, behavior: 'smooth' });
+            document.getElementById('tours-section').scrollIntoView({ behavior: 'smooth' });
         }
-        
+
+        function loadMoreTours() {
+            displayTours();
+        }
+
+        function shuffleTours() {
+            filteredTours = filteredTours.sort(() => Math.random() - 0.5);
+            displayedCount = 0;
+            displayTours();
+        }
+
         function resetFilters() {
             document.getElementById('searchInput').value = '';
             document.getElementById('activityFilter').value = '';
-            document.getElementById('priceFilter').value = '';
-            document.getElementById('durationFilter').value = '';
-            document.getElementById('areaFilter').value = '';
-            document.getElementById('sortFilter').value = 'quality';
+            document.getElementById('sortBy').value = 'quality';
             filteredTours = [...allTours];
             displayedCount = 0;
-            renderTours();
+            displayTours();
         }
-        
-        function loadMore() {
-            renderTours();
-            // Track load more clicks
-            gtag('event', 'load_more', { 'island': ISLAND, 'count': displayedCount });
-        }
-        
-        function debounce(fn, delay) {
-            let timer;
-            return function(...args) {
-                clearTimeout(timer);
-                timer = setTimeout(() => fn.apply(this, args), delay);
-            };
-        }
+
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn')?.addEventListener('click', () => {
+            document.querySelector('.mobile-nav')?.classList.toggle('active');
+        });
     </script>
 </body>
 </html>
