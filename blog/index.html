@@ -1,1 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawaii Travel Blog | Local Tips & Tour Guides | WanderHawaii</title>
+    <meta name="description" content="Expert Hawaii travel guides, tour recommendations, and local tips. Find the best snorkeling, whale watching, helicopter tours & more across all islands.">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+    <link rel="canonical" href="https://wanderhawaii.com/blog/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Hawaii Travel Blog | WanderHawaii">
+    <meta property="og:description" content="Expert guides to Hawaii's best tours and adventures.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wanderhawaii.com/blog/">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL7CN6NG44"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PL7CN6NG44');
+    </script>
+    
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .blog-hero {
+            background: linear-gradient(135deg, #0066cc 0%, #004499 100%);
+            padding: 80px 20px 60px;
+            text-align: center;
+            color: white;
+        }
+        .blog-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        .blog-hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+        .blog-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        .blog-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .blog-card-content {
+            padding: 20px;
+        }
+        .blog-category {
+            display: inline-block;
+            background: #e8f4fc;
+            color: #0066cc;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .blog-card h2 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+        .blog-card h2 a {
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+        .blog-card h2 a:hover {
+            color: #0066cc;
+        }
+        .blog-card p {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        .blog-meta {
+            font-size: 0.85rem;
+            color: #999;
+        }
+        .featured-post {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+        }
+        .featured-post img {
+            height: 100%;
+            min-height: 300px;
+        }
+        .featured-post .blog-card-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+        }
+        .featured-post h2 {
+            font-size: 1.8rem;
+        }
+        @media (max-width: 768px) {
+            .featured-post {
+                grid-template-columns: 1fr;
+            }
+            .featured-post img {
+                height: 200px;
+            }
+            .blog-hero h1 {
+                font-size: 2rem;
+            }
+        }
+        .breadcrumb {
+            padding: 15px 20px;
+            background: #f8f9fa;
+            font-size: 0.9rem;
+        }
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="/" class="logo-link">
+                <img src="../logo-icon.png" alt="WanderHawaii" class="logo-icon">
+                <span class="logo-text">WanderHawaii</span>
+            </a>
+            <nav class="main-nav">
+                <a href="/#tours-section">Tours</a>
+                <a href="/#islands">Islands</a>
+                <a href="/blog/" class="active">Blog</a>
+                <a href="/about.html">About</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+        </div>
+    </header>
 
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="/">Home</a> → <span>Blog</span>
+    </div>
+
+    <!-- Hero -->
+    <section class="blog-hero">
+        <h1>Hawaii Travel Guides</h1>
+        <p>Local tips, tour recommendations, and insider knowledge to plan your perfect Hawaiian adventure.</p>
+    </section>
+
+    <!-- Blog Grid -->
+    <section class="blog-grid">
+        <!-- Featured Post -->
+        <article class="blog-card featured-post">
+            <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80" alt="Snorkeling in Oahu">
+            <div class="blog-card-content">
+                <span class="blog-category">🤿 Snorkeling</span>
+                <h2><a href="best-snorkeling-oahu.html">Best Snorkeling in Oahu 2026: Top 7 Spots + Tours</a></h2>
+                <p>From Hanauma Bay's protected reef to the North Shore's turtle cleaning stations, discover Oahu's best underwater adventures. We break down the top snorkel tours with real prices and local tips.</p>
+                <div class="blog-meta">Updated January 2026 • 8 min read</div>
+            </div>
+        </article>
+
+        <!-- Post 2 -->
+        <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1568430462989-44163eb1752f?auto=format&fit=crop&w=600&q=80" alt="Whale watching in Maui">
+            <div class="blog-card-content">
+                <span class="blog-category">🐋 Wildlife</span>
+                <h2><a href="maui-whale-watching-guide.html">Maui Whale Watching Guide 2026: Season, Tours & Tips</a></h2>
+                <p>Humpback season runs December through April. Here's how to see them up close with the best boat tours from Lahaina and Ma'alaea.</p>
+                <div class="blog-meta">Updated January 2026 • 7 min read</div>
+            </div>
+        </article>
+
+        <!-- Post 3 -->
+        <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&w=600&q=80" alt="Manta ray night dive">
+            <div class="blog-card-content">
+                <span class="blog-category">🌙 Night Tours</span>
+                <h2><a href="big-island-manta-ray-tours.html">Big Island Manta Ray Tours: The Ultimate Night Snorkel Guide</a></h2>
+                <p>Swimming with 12-foot manta rays at night is bucket-list Hawaii. Compare the top Kona manta tours from $145.</p>
+                <div class="blog-meta">Updated January 2026 • 6 min read</div>
+            </div>
+        </article>
+
+        <!-- Post 4 -->
+        <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=600&q=80" alt="Hawaii helicopter tour">
+            <div class="blog-card-content">
+                <span class="blog-category">🚁 Air Tours</span>
+                <h2><a href="hawaii-helicopter-tours.html">Hawaii Helicopter Tours: Which Island Has the Best Views?</a></h2>
+                <p>Na Pali cliffs, active volcanoes, or Jurassic Park valleys? Compare helicopter tours across all four islands.</p>
+                <div class="blog-meta">Updated January 2026 • 9 min read</div>
+            </div>
+        </article>
+
+        <!-- Post 5 -->
+        <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?auto=format&fit=crop&w=600&q=80" alt="Na Pali Coast Kauai">
+            <div class="blog-card-content">
+                <span class="blog-category">⛵ Boat Tours</span>
+                <h2><a href="na-pali-coast-tours-kauai.html">Na Pali Coast Tours: Boat, Raft, or Kayak? (2026 Guide)</a></h2>
+                <p>Kauai's most dramatic coastline by sea. Compare catamarans, zodiac rafts, and kayak adventures from $197.</p>
+                <div class="blog-meta">Updated January 2026 • 7 min read</div>
+            </div>
+        </article>
+
+        <!-- Post 6 -->
+        <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1589802829985-817e51171b92?auto=format&fit=crop&w=600&q=80" alt="Hawaii sunset">
+            <div class="blog-card-content">
+                <span class="blog-category">📅 Planning</span>
+                <h2><a href="best-time-to-visit-hawaii.html">Best Time to Visit Hawaii in 2026: Month-by-Month Guide</a></h2>
+                <p>Whale season, surf season, or shoulder season? Find the perfect time for your trip based on weather, crowds, and prices.</p>
+                <div class="blog-meta">Updated January 2026 • 10 min read</div>
+            </div>
+        </article>
+
+        <!-- Post 7 -->
+        <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1507876466758-bc54f384809c?auto=format&fit=crop&w=600&q=80" alt="Hawaii sunset cruise">
+            <div class="blog-card-content">
+                <span class="blog-category">🌅 Sunset</span>
+                <h2><a href="hawaii-sunset-cruises.html">Best Hawaii Sunset Cruises: Romantic Sails on Every Island</a></h2>
+                <p>Champagne, dolphins, and golden hour on the Pacific. Top sunset sails from Waikiki, Maui, and Kona.</p>
+                <div class="blog-meta">Updated January 2026 • 6 min read</div>
+            </div>
+        </article>
+
+        <!-- Post 8 -->
+        <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1563789031959-4c02bcb41319?auto=format&fit=crop&w=600&q=80" alt="Hawaiian luau">
+            <div class="blog-card-content">
+                <span class="blog-category">🎉 Culture</span>
+                <h2><a href="best-luaus-oahu.html">Best Luaus in Oahu 2026: Authentic Hawaiian Experiences</a></h2>
+                <p>From intimate beachside feasts to grand productions, find the perfect luau for your group.</p>
+                <div class="blog-meta">Updated January 2026 • 7 min read</div>
+            </div>
+        </article>
+
+        <!-- Post 9 -->
+        <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1580060839134-75a5edca2e99?auto=format&fit=crop&w=600&q=80" alt="Big Island volcano">
+            <div class="blog-card-content">
+                <span class="blog-category">🌋 Adventure</span>
+                <h2><a href="things-to-do-big-island.html">25 Best Things to Do on Big Island Hawaii (2026)</a></h2>
+                <p>Volcanoes, black sand beaches, coffee farms, and manta rays. The ultimate Big Island bucket list.</p>
+                <div class="blog-meta">Updated January 2026 • 12 min read</div>
+            </div>
+        </article>
+    </section>
+
+    <!-- CTA Section -->
+    <section style="background: #f0f7ff; padding: 60px 20px; text-align: center;">
+        <h2 style="font-size: 1.8rem; margin-bottom: 15px;">Ready to Book Your Adventure?</h2>
+        <p style="color: #666; max-width: 500px; margin: 0 auto 25px;">Browse 3,142 verified tours from local Hawaiian operators.</p>
+        <a href="/#tours-section" style="display: inline-block; background: #0066cc; color: white; padding: 15px 35px; border-radius: 8px; text-decoration: none; font-weight: 600;">Explore All Tours →</a>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: #1a1a1a; color: white; padding: 50px 20px;">
+        <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px;">
+            <div>
+                <img src="../logo-full.png" alt="WanderHawaii" style="max-width: 150px; margin-bottom: 15px;">
+                <p style="color: #999; font-size: 0.9rem;">Your guide to 3,142 Hawaiian adventures. Verified local operators, instant booking.</p>
+            </div>
+            <div>
+                <h4 style="margin-bottom: 15px;">Islands</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 8px;"><a href="/oahu.html" style="color: #999; text-decoration: none;">Oahu (1,194)</a></li>
+                    <li style="margin-bottom: 8px;"><a href="/maui.html" style="color: #999; text-decoration: none;">Maui (826)</a></li>
+                    <li style="margin-bottom: 8px;"><a href="/big-island.html" style="color: #999; text-decoration: none;">Big Island (598)</a></li>
+                    <li style="margin-bottom: 8px;"><a href="/kauai.html" style="color: #999; text-decoration: none;">Kauai (524)</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="margin-bottom: 15px;">Popular Guides</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 8px;"><a href="best-snorkeling-oahu.html" style="color: #999; text-decoration: none;">Oahu Snorkeling</a></li>
+                    <li style="margin-bottom: 8px;"><a href="maui-whale-watching-guide.html" style="color: #999; text-decoration: none;">Maui Whale Watching</a></li>
+                    <li style="margin-bottom: 8px;"><a href="big-island-manta-ray-tours.html" style="color: #999; text-decoration: none;">Manta Ray Tours</a></li>
+                    <li style="margin-bottom: 8px;"><a href="na-pali-coast-tours-kauai.html" style="color: #999; text-decoration: none;">Na Pali Coast</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="margin-bottom: 15px;">Company</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 8px;"><a href="/about.html" style="color: #999; text-decoration: none;">About Us</a></li>
+                    <li style="margin-bottom: 8px;"><a href="/blog/" style="color: #999; text-decoration: none;">Blog</a></li>
+                    <li style="margin-bottom: 8px;"><a href="/#faq" style="color: #999; text-decoration: none;">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #333; color: #666; font-size: 0.9rem;">
+            © 2026 WanderHawaii. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
