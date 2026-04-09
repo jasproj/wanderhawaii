@@ -20,6 +20,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL7CN6NG44"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PL7CN6NG44');
+        
+        function trackBookingClick(tourName, tourId, island) {
+            gtag('event', 'booking_click', {
+                'event_category': 'conversion',
+                'event_label': tourName,
+                'tour_id': tourId,
+                'island': island || 'hawaii'
+            });
+        }
+    </script>
+    
     <link rel="stylesheet" href="styles.css">
     
     <script type="application/ld+json">
@@ -165,7 +183,7 @@
             <p class="section-subtitle">Each island has its own personality. Find your perfect match.</p>
             
             <div class="islands-grid">
-                <a href="oahu.html" class="island-card">
+                <a href="oahu.html" class="island-card" onclick="trackBookingClick('Oahu Tours', 'oahu', 'oahu')">
                     <div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=600')"></div>
                     <div class="island-content">
                         <h3>Oahu</h3>
@@ -174,7 +192,7 @@
                     </div>
                 </a>
                 
-                <a href="maui.html" class="island-card">
+                <a href="maui.html" class="island-card" onclick="trackBookingClick('Maui Tours', 'maui', 'maui')">
                     <div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1542259009477-d625272157b7?w=600')"></div>
                     <div class="island-content">
                         <h3>Maui</h3>
@@ -183,7 +201,7 @@
                     </div>
                 </a>
                 
-                <a href="big-island.html" class="island-card">
+                <a href="big-island.html" class="island-card" onclick="trackBookingClick('Big Island Tours', 'big-island', 'big-island')">
                     <div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1547483238-f400e65ccd56?w=600')"></div>
                     <div class="island-content">
                         <h3>Big Island</h3>
@@ -192,7 +210,7 @@
                     </div>
                 </a>
                 
-                <a href="kauai.html" class="island-card">
+                <a href="kauai.html" class="island-card" onclick="trackBookingClick('Kauai Tours', 'kauai', 'kauai')">
                     <div class="island-img" style="background-image: url('https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?w=600')"></div>
                     <div class="island-content">
                         <h3>Kauai</h3>
@@ -271,7 +289,7 @@
             
             <div class="results-info">
                 <span id="results-count">Loading adventures...</span>
-                <button class="shuffle-btn" onclick="shuffleTours()">🎲 Shuffle</button>
+                <button class="shuffle-btn" onclick="trackBookingClick('Shuffle Tours', 'shuffle', 'all'); shuffleTours()">🎲 Shuffle</button>
             </div>
             
             <div class="tours-grid" id="tours-grid">
@@ -282,7 +300,7 @@
             </div>
             
             <div class="load-more-wrap">
-                <button class="load-more-btn" id="load-more" onclick="loadMoreTours()">
+                <button class="load-more-btn" id="load-more" onclick="trackBookingClick('Load More Adventures', 'load-more', 'all'); loadMoreTours()">
                     Load More Adventures <span>→</span>
                 </button>
             </div>
@@ -512,7 +530,7 @@
 
     <!-- MOBILE CTA -->
     <div class="mobile-cta" id="mobile-cta">
-        <a href="#tours-section" class="mobile-cta-btn">
+        <a href="#tours-section" class="mobile-cta-btn" onclick="trackBookingClick('Find Your Adventure', 'mobile-cta', 'all')">
             <span>🌺</span> Find Your Adventure
         </a>
     </div>
