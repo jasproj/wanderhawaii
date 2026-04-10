@@ -3,12 +3,43 @@
 
 let toursData = [];
 
-// Booking performance optimization - loading indicator
+// ===== BOOKING PERFORMANCE OPTIMIZATIONS =====
+
+// 1. URL Caching - Pre-cache FareHarbor URLs for instant clicks
+const bookingUrlCache = {};
+
+function cacheBookingUrl(tourId, url) {
+    bookingUrlCache[tourId] = {
+        url: url,
+        cached_at: Date.now()
+    };
+    try {
+        localStorage.setItem('fh_cache_' + tourId, JSON.stringify(bookingUrlCache[tourId]));
+    } catch (e) {
+        // localStorage full - continue without persistence
+    }
+}
+
+function getBookingUrl(tourId, fallbackUrl) {
+    const cached = bookingUrlCache[tourId];
+    if (cached && Date.now() - cached.cached_at < 3600000) {
+        return cached.url;
+    }
+    return fallbackUrl;
+}
+
+function preCacheBookingUrls(tours) {
+    tours.forEach(tour => {
+        if (tour.bookingLink) {
+            cacheBookingUrl(tour.id || tour.name, tour.bookingLink);
+        }
+    });
+}
+
+// 2. Loading indicator with optimization
 function openBookingWithLoader(url) {
-    // Prevent default if called from button
     event && event.preventDefault && event.preventDefault();
     
-    // Show loading indicator
     const loader = document.createElement('div');
     loader.id = 'booking-loader';
     loader.className = 'booking-loader';
@@ -20,13 +51,9 @@ function openBookingWithLoader(url) {
     `;
     document.body.appendChild(loader);
     
-    // Fade in
     setTimeout(() => loader.style.opacity = '1', 10);
-    
-    // Open in new tab
     window.open(url, '_blank', 'noopener,noreferrer');
     
-    // Remove loader after 2.5 seconds
     setTimeout(() => {
         loader.style.opacity = '0';
         setTimeout(() => loader.remove(), 300);
@@ -53,6 +80,10 @@ async function loadTours() {
         // Initial shuffle for randomization
         shuffleArray(toursData);
         filteredTours = [...toursData];
+        
+        // Pre-cache booking URLs for instant clicks
+        preCacheBookingUrls(toursData);
+        
         displayedCount = 0;
         renderTours();
         updateResultsCount();
