@@ -168,8 +168,12 @@ function createTourCard(tour) {
     const cleanLoc = cleanLocation(tour.location);
     const priceDisplay = formatPrice(tour.price);
     
+    const schema = generateTourSchema(tour);
+    const schemaJson = JSON.stringify(schema);
+    
     return `
         <article class="tour-card" data-id="${tour.id}">
+            <script type="application/ld+json">${schemaJson}</script>
             <div class="tour-image">
                 <img src="${tour.image}" alt="${tour.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'">
                 ${qualityBadge}
