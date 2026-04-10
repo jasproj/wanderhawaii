@@ -171,6 +171,14 @@ function createTourCard(tour) {
     const schema = generateTourSchema(tour);
     const schemaJson = JSON.stringify(schema);
     
+    let badgesHtml = '<div class="tour-badges">';
+    if (tour.freeCancellation) {
+        badgesHtml += '<span class="trust-badge free-cancel">Free Cancellation</span>';
+    }
+    badgesHtml += '<span class="trust-badge instant">Instant Confirmation</span>';
+    badgesHtml += '<span class="trust-badge local">Local Operator</span>';
+    badgesHtml += '</div>';
+    
     return `
         <article class="tour-card" data-id="${tour.id}">
             <script type="application/ld+json">${schemaJson}</script>
@@ -185,6 +193,7 @@ function createTourCard(tour) {
                 <h3 class="tour-title">${tour.name}</h3>
                 <p class="tour-description">${truncatedDesc}</p>
                 <div class="tour-tags">${tagDisplay}</div>
+                ${badgesHtml}
                 <div class="tour-footer">
                     <div class="tour-price">${priceDisplay}</div>
                     <button onclick="openBookingWithLoader('${tour.bookingLink}')" class="tour-book-btn" style="cursor: pointer; border: none; background: none; padding: 0;">
@@ -400,3 +409,34 @@ if (sessionStorage.getItem('promoBannerClosed') === 'true') {
         if (banner) banner.classList.add('hidden');
     });
 }
+
+// ===== STICKY MOBILE CTA BAR =====
+document.addEventListener('DOMContentLoaded', () => {
+    const stickyBar = document.getElementById('sticky-cta-bar');
+    if (!stickyBar) return;
+    
+    const heroSection = document.querySelector('.hero') || document.querySelector('.tours-section');
+    let heroScrolled = false;
+    
+    window.addEventListener('scroll', () => {
+        const scrolled = window.scrollY > (heroSection?.offsetHeight || 300);
+        
+        if (scrolled && !heroScrolled) {
+            stickyBar.classList.add('visible');
+            heroScrolled = true;
+        } else if (!scrolled && heroScrolled) {
+            stickyBar.classList.remove('visible');
+            heroScrolled = false;
+        }
+    });
+    
+    const ctaButton = stickyBar.querySelector('button');
+    if (ctaButton) {
+        ctaButton.addEventListener('click', () => {
+            const toursGrid = document.getElementById('tours-grid');
+            if (toursGrid) {
+                toursGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    }
+});
