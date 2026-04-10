@@ -9,9 +9,16 @@ const TOURS_PER_PAGE = 24;
 // Load tours data
 async function loadTours() {
     try {
+        console.log('🔄 Fetching tours-data.json...');
         const response = await fetch('tours-data.json');
+        console.log(`📥 Response status: ${response.status}`);
+        
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+        
         toursData = await response.json();
-        console.log(`Loaded ${toursData.length} tours`);
+        console.log(`✅ Loaded ${toursData.length} tours`);
         
         // Initial shuffle for randomization
         shuffleArray(toursData);
@@ -19,11 +26,13 @@ async function loadTours() {
         displayedCount = 0;
         renderTours();
         updateResultsCount();
+        console.log('✅ Tours rendered successfully');
     } catch (error) {
-        console.error('Error loading tours:', error);
+        console.error('❌ Error loading tours:', error.message);
         document.getElementById('tours-grid').innerHTML = `
             <div class="error-state">
-                <p>Unable to load tours. Please refresh the page.</p>
+                <p>⚠️ Unable to load tours. Please refresh the page.</p>
+                <p style="font-size: 12px; color: #666;">Error: ${error.message}</p>
             </div>
         `;
     }
@@ -245,29 +254,9 @@ document.querySelector('.mobile-menu-btn')?.addEventListener('click', function()
     this.classList.toggle('active');
 });
 
-// FOMO notifications
-const fomoNames = ['Sarah from California', 'Mike from Texas', 'Emily from New York', 'David from Florida', 'Jessica from Washington', 'Chris from Colorado', 'Amanda from Arizona', 'Ryan from Oregon'];
-const fomoActions = ['just booked a snorkel tour!', 'booked a whale watching trip!', 'reserved a helicopter tour!', 'signed up for a luau!', 'booked a manta ray dive!', 'reserved a sunset sail!'];
-
-function showNotification() {
-    const notification = document.getElementById('notification');
-    const nameEl = document.getElementById('notification-name');
-    const actionEl = document.getElementById('notification-action');
-    
-    if (notification && nameEl && actionEl) {
-        nameEl.textContent = fomoNames[Math.floor(Math.random() * fomoNames.length)];
-        actionEl.textContent = fomoActions[Math.floor(Math.random() * fomoActions.length)];
-        
-        notification.classList.add('show');
-        setTimeout(() => notification.classList.remove('show'), 4000);
-    }
-}
-
-// Show FOMO notification periodically
-setTimeout(() => {
-    showNotification();
-    setInterval(showNotification, 45000);
-}, 15000);
+// FOMO notifications - DISABLED
+// These fake notifications were removed to improve user trust
+// Users should see real booking confirmations only
 
 // Weather widget
 async function loadWeather() {
