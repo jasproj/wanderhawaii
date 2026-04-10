@@ -38,6 +38,24 @@ async function loadTours() {
     }
 }
 
+// Helper functions
+function formatPrice(price) {
+    return Number.isFinite(price) ? `From $${price}` : 'Check live price';
+}
+
+function cleanLocation(location = '') {
+    return location
+        .replace(/^United States\/Hawaii\//, '')
+        .replace(/^Hawaii\//, '')
+        .trim() || 'Hawaii';
+}
+
+function scoreLabel(score) {
+    if (score >= 90) return 'Top Rated';
+    if (score >= 75) return 'Popular';
+    return '';
+}
+
 // Fisher-Yates shuffle
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -59,10 +77,14 @@ function createTourCard(tour) {
         ? description.substring(0, 117) + '...' 
         : description;
     
-    const isHighQuality = tour.qualityScore === 100;
-    const qualityBadge = isHighQuality 
-        ? '<span class="quality-badge">⭐ Top Rated</span>' 
+    const score = tour.qualityScore || 0;
+    const badge = scoreLabel(score);
+    const qualityBadge = badge 
+        ? `<span class="quality-badge">⭐ ${badge}</span>` 
         : '';
+    
+    const cleanLoc = cleanLocation(tour.location);
+    const priceDisplay = formatPrice(tour.price);
     
     return `
         <article class="tour-card" data-id="${tour.id}">
@@ -72,13 +94,13 @@ function createTourCard(tour) {
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
-                    <span class="tour-location">📍 ${tour.location}, ${capitalizeIsland(tour.island)}</span>
+                    <span class="tour-location">📍 ${cleanLoc}, ${capitalizeIsland(tour.island)}</span>
                 </div>
                 <h3 class="tour-title">${tour.name}</h3>
                 <p class="tour-description">${truncatedDesc}</p>
                 <div class="tour-tags">${tagDisplay}</div>
                 <div class="tour-footer">
-                    <span class="tour-company">${tour.company}</span>
+                    <div class="tour-price">${priceDisplay}</div>
                     <a href="${tour.bookingLink}" target="_blank" rel="noopener" class="tour-book-btn">
                         Book Now →
                     </a>

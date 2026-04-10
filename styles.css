@@ -2371,3 +2371,15 @@ section { padding: var(--space-3xl) 0; }
     color: #7a8a9a;
     margin: 0;
 }
+
+/* Tour card price display */
+.tour-price {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #088395;
+}
+
+/* Tag button contrast */
+.tour-card .tour-tags span {
+    color: #FFFFFF;
+}
