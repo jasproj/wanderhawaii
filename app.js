@@ -2,6 +2,36 @@
 // Load tours from JSON and render with descriptions
 
 let toursData = [];
+
+// Booking performance optimization - loading indicator
+function openBookingWithLoader(url) {
+    // Prevent default if called from button
+    event && event.preventDefault && event.preventDefault();
+    
+    // Show loading indicator
+    const loader = document.createElement('div');
+    loader.id = 'booking-loader';
+    loader.className = 'booking-loader';
+    loader.innerHTML = `
+        <div class="booking-loader-content">
+            <div class="spinner"></div>
+            <p>Opening booking...</p>
+        </div>
+    `;
+    document.body.appendChild(loader);
+    
+    // Fade in
+    setTimeout(() => loader.style.opacity = '1', 10);
+    
+    // Open in new tab
+    window.open(url, '_blank', 'noopener,noreferrer');
+    
+    // Remove loader after 2.5 seconds
+    setTimeout(() => {
+        loader.style.opacity = '0';
+        setTimeout(() => loader.remove(), 300);
+    }, 2500);
+}
 let filteredTours = [];
 let displayedCount = 0;
 const TOURS_PER_PAGE = 24;
@@ -56,6 +86,27 @@ function scoreLabel(score) {
     return '';
 }
 
+function generateTourSchema(tour) {
+    return {
+        "@context": "https://schema.org",
+        "@type": "TouristTrip",
+        "name": tour.name,
+        "description": tour.description || "",
+        "touristType": tour.tags ? tour.tags.join(", ") : "",
+        "offers": {
+            "@type": "Offer",
+            "price": tour.price || "",
+            "priceCurrency": "USD",
+            "url": tour.bookingLink,
+            "availability": "https://schema.org/InStock"
+        },
+        "provider": {
+            "@type": "LocalBusiness",
+            "name": tour.company
+        }
+    };
+}
+
 // Fisher-Yates shuffle
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -101,9 +152,9 @@ function createTourCard(tour) {
                 <div class="tour-tags">${tagDisplay}</div>
                 <div class="tour-footer">
                     <div class="tour-price">${priceDisplay}</div>
-                    <a href="${tour.bookingLink}" target="_blank" rel="noopener" class="tour-book-btn">
+                    <button onclick="openBookingWithLoader('${tour.bookingLink}')" class="tour-book-btn" style="cursor: pointer; border: none; background: none; padding: 0;">
                         Book Now →
-                    </a>
+                    </button>
                 </div>
             </div>
         </article>
