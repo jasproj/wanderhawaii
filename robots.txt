@@ -1,7 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://wanderhawaii.com/sitemap.xml
-
-# AI Assistants
-# llms.txt: https://wanderhawaii.com/llms.txt
