@@ -2570,3 +2570,5 @@ section { padding: var(--space-3xl) 0; }
     background: #FFF3E0;
     color: #E65100;
 }
+
+.blog-featured-image { width: 100%; max-width: 100%; border-radius: 8px; margin: 24px 0; object-fit: cover; }
