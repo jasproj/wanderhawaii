@@ -36,9 +36,47 @@ function preCacheBookingUrls(tours) {
     });
 }
 
-// 2. Loading indicator with optimization
-function openBookingWithLoader(url) {
+// 2. GA4 Tracking Functions
+function trackBookingClick(tour) {
+    gtag('event', 'booking_click', {
+        tour_id: tour.id,
+        tour_name: tour.name,
+        island: tour.island,
+        price: tour.price || 'unknown',
+        company: tour.company,
+        event_category: 'conversion'
+    });
+}
+
+function trackFilterChange(filterType, value) {
+    gtag('event', 'filter_used', {
+        filter_type: filterType,
+        value: value,
+        event_category: 'engagement'
+    });
+}
+
+function trackSearchUsed(searchTerm) {
+    gtag('event', 'search_used', {
+        query: searchTerm,
+        event_category: 'engagement'
+    });
+}
+
+function trackLoadMoreClick() {
+    gtag('event', 'load_more_clicked', {
+        event_category: 'engagement'
+    });
+}
+
+// 3. Loading indicator with optimization
+function openBookingWithLoader(url, tour) {
     event && event.preventDefault && event.preventDefault();
+    
+    // Track the booking click
+    if (tour) {
+        trackBookingClick(tour);
+    }
     
     const loader = document.createElement('div');
     loader.id = 'booking-loader';
@@ -196,7 +234,7 @@ function createTourCard(tour) {
                 ${badgesHtml}
                 <div class="tour-footer">
                     <div class="tour-price">${priceDisplay}</div>
-                    <button onclick="openBookingWithLoader('${tour.bookingLink}')" class="tour-book-btn" style="cursor: pointer; border: none; background: none; padding: 0;">
+                    <button onclick="openBookingWithLoader('${tour.bookingLink}', ${JSON.stringify(tour)})" class="tour-book-btn" style="cursor: pointer; border: none; background: none; padding: 0;">
                         Book Now →
                     </button>
                 </div>
@@ -240,6 +278,7 @@ function renderTours(append = false) {
 
 // Load more tours
 function loadMoreTours() {
+    trackLoadMoreClick();
     renderTours(true);
 }
 
@@ -257,6 +296,11 @@ function filterTours() {
     const activityFilter = document.getElementById('activity-filter')?.value || '';
     const sortFilter = document.getElementById('sort-filter')?.value || 'quality';
     const searchInput = document.getElementById('search-input')?.value?.toLowerCase() || '';
+    
+    // Track filter usage
+    if (islandFilter) trackFilterChange('island', islandFilter);
+    if (activityFilter) trackFilterChange('activity', activityFilter);
+    if (searchInput) trackSearchUsed(searchInput);
     
     filteredTours = toursData.filter(tour => {
         // Island filter
@@ -346,9 +390,21 @@ document.addEventListener('DOMContentLoaded', () => {
     loadTours();
     
     // Filter change listeners
-    document.getElementById('island-filter')?.addEventListener('change', filterTours);
-    document.getElementById('activity-filter')?.addEventListener('change', filterTours);
-    document.getElementById('sort-filter')?.addEventListener('change', filterTours);
+    document.getElementById('island-filter')?.addEventListener('change', () => {
+        const val = document.getElementById('island-filter').value;
+        if (val) trackFilterChange('island', val);
+        filterTours();
+    });
+    document.getElementById('activity-filter')?.addEventListener('change', () => {
+        const val = document.getElementById('activity-filter').value;
+        if (val) trackFilterChange('activity', val);
+        filterTours();
+    });
+    document.getElementById('sort-filter')?.addEventListener('change', () => {
+        const val = document.getElementById('sort-filter').value;
+        if (val) trackFilterChange('sort', val);
+        filterTours();
+    });
     
     // Search input with debounce
     let searchTimeout;
