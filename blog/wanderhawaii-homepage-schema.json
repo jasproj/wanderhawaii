@@ -1,0 +1,83 @@
+{
+  "// NOTE": "Replace TODO_ placeholders before deploying. See comments.",
+  "// REVIEW_NOTE": "Hawaii tours-data.json has no review counts in the feed (qualityScore proxy only). Use your actual Google Business / TripAdvisor count.",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TravelAgency",
+      "@id": "https://wanderhawaii.com/#business",
+      "name": "WanderHawaii",
+      "description": "Hawaii snorkeling tours, catamaran cruises, manta ray night snorkels, and water activities across Oahu, Maui, Big Island, and Kauai. 3,000+ tours from 200+ operators.",
+      "url": "https://wanderhawaii.com",
+      "telephone": "+1-727-623-2652",
+      "email": "jason@floridateleprompter.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "TODO_LOGO_URL"
+      },
+      "image": "TODO_LOGO_URL",
+      "priceRange": "$50\u2013$649",
+      "currenciesAccepted": "USD",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Honolulu",
+        "addressRegion": "HI",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Oahu, Hawaii"
+        },
+        {
+          "@type": "Place",
+          "name": "Maui, Hawaii"
+        },
+        {
+          "@type": "Place",
+          "name": "Big Island, Hawaii"
+        },
+        {
+          "@type": "Place",
+          "name": "Kauai, Hawaii"
+        }
+      ],
+      "serviceType": [
+        "Snorkeling Tour",
+        "Catamaran Charter",
+        "Manta Ray Night Snorkel",
+        "Whale Watching",
+        "Dolphin Watch Tour",
+        "Eco Tour",
+        "Scuba Diving"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "TODO_RATING",
+        "reviewCount": "TODO_REVIEW_COUNT",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "sameAs": [
+        "TODO_SOCIAL_FACEBOOK",
+        "TODO_SOCIAL_INSTAGRAM",
+        "TODO_SOCIAL_TRIPADVISOR"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://wanderhawaii.com/#website",
+      "url": "https://wanderhawaii.com",
+      "name": "WanderHawaii",
+      "description": "Hawaii snorkeling tours, boat charters, and water activities \u2014 3,000+ tours across Oahu, Maui, Big Island, and Kauai.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://wanderhawaii.com/tours?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
