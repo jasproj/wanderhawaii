@@ -2588,3 +2588,8 @@ section { padding: var(--space-3xl) 0; }
 .ad-slot#ad-blog-sidebar { min-height: 280px; } /* 300x250 */
 .ad-slot#ad-tour-native { min-height: 120px; } /* Native ad style */
 .ad-slot#ad-blog-bottom { min-height: 100px; } /* 728x90 leaderboard */
+
+/* Footer badge visibility glow */
+.footer-logo-img {
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
+}
