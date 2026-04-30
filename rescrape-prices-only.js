@@ -67,6 +67,7 @@ async function main() {
       tour.price = price;
       tour.priceConfidence = priceConfidence;
       tour.priceLabel = priceLabel;
+      if (price != null) tour.currency = CURRENCY;
 
       if (process.env.DEBUG_PRICE) {
         const { CURRENCY_CONFIG } = require('./extract-price-v5');
