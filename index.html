@@ -16,7 +16,8 @@
     <meta property="og:image" content="https://wanderhawaii.com/images/og-image.jpg">
     
     <link rel="icon" type="image/png" href="images/favicon.png">
-    
+    <link rel="preload" as="image" href="images/hero-banner.webp" type="image/webp" fetchpriority="high">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -174,7 +175,10 @@
             <p class="hero-tagline">Book Local. Live Aloha.</p>
             <div class="hero-logo-pill">
                 <div class="hero-logo">
-                    <img src="images/hero-banner.png" alt="WanderHawaii" class="hero-logo-img">
+                    <picture>
+                        <source srcset="images/hero-banner.webp" type="image/webp">
+                        <img src="images/hero-banner.png" alt="WanderHawaii" class="hero-logo-img" width="960" height="960" fetchpriority="high">
+                    </picture>
                 </div>
             </div>
             <p class="hero-subtitle">3,142 handpicked tours across Oahu, Maui, Big Island & Kauai.<br>Book direct with local tour guides and support local.</p>
