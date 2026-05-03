@@ -109,7 +109,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/IEPcptpQpqDD71gKUrS8",
     "bookingLink": "https://fareharbor.com/embeds/book/holoholo/items/24206/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 230,
     "description": "• Holo Holo Charters reserves the right to refuse service due to safety and/or health conditions. \n• Routes, destinations, and snorkeling are subject to change without notice due to weather and ocean conditions.",
     "duration": 270,
     "durationText": "Duration\n4.5 hour",
@@ -119,8 +119,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "from"
   },
   {
     "id": "40381",
@@ -2173,7 +2173,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/j0GMEGj0RAyeVr76zV57",
     "bookingLink": "https://fareharbor.com/embeds/book/napaliexperience/items/584304/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1999,
     "description": "Cancellations and reschedules are allowed without penalty up to 48 hours before departure.\nWithin 48 hours of departure, no cancellations, no reschedules, and no refunds are permitted without Trip Protection. No exceptions.",
     "duration": 180,
     "durationText": "3 Hours",
@@ -2183,8 +2183,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "674422",
@@ -3413,7 +3413,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/s39NSwmQTyjjYVUR93Xg",
     "bookingLink": "https://fareharbor.com/embeds/book/gofishkauai/items/186807/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1140,
     "description": "Daily deep sea fishing charters depart 6:00AM from Nawiliwili small boat harbor. Just bring your food and drink for the day; large coolers and ice are already on board. Fishing tackle, gear and license are included.",
     "duration": 600,
     "durationText": "10 Hour",
@@ -3423,8 +3423,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "432711",
@@ -3580,7 +3580,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/T1RHzinKQDpMKSJq3Pbs",
     "bookingLink": "https://fareharbor.com/embeds/book/hawaiianfishingcharters/items/455886/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1300,
     "description": "Full Day Charter Info\nDaily at 6am\n8 hours Charter\n-Glacier Bay ( 3 people Max)\nBlue Water East Side Fishing Charters in Kauai Hawaii\n\nJoin us for deep-sea sport fishing on our 26-foot Glacier Bay charter boat in Kauai, Hawaii called the “Maori Warrior”.If you have a group of 4 to 6 people or you just want a bigger boat with a nice fighting chair you can book Kahuna our 35 foot Bertram. Blue Water Fishing specializes in adventures for Marlin, Tuna, Wahoo, & Mahimahi and is USCG Licensed with Captain Harry who has 25 years of local guide experience.\n\nOur boat is probably the most economical fishing charter boat in Hawaii, but do not let the price fool you. This fishing machine is powered with rebuilt 150 Suzukis along with tall hulls and 8’9″ beam to handle rough waters. Our vessel also has a nice cabin to keep you dry and shaded complete with a real bathroom!\n\nCancellations",
     "duration": 480,
     "durationText": "8hrs",
@@ -3590,8 +3590,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Daily at 6am",
       "8 hours Charter\n-Glacier Bay ( 3 people Max)"
@@ -3927,7 +3927,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/wFA6MVSSuFRhKN0jz9gC",
     "bookingLink": "https://fareharbor.com/embeds/book/hawaiianfishingcharters/items/564718/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1125,
     "description": "3/4 Day Charter Info\nDaily at 6am & 12pm\n6 hours Charter\nBertram (1 to 6 people)\nBlue Water East Side Fishing Charters in Kauai Hawaii\n\nJoin us for deep-sea sport fishing on our 26-foot Glacier Bay charter boat in Kauai, Hawaii called the “Maori Warrior”.If you have a group of 5 to 6 people or you just want a bigger boat with a nice fighting chair, you can book Kahuna our 35 foot Bertram. Blue Water Fishing specializes in adventures for Marlin, Tuna, Wahoo, & Mahimahi and is USCG Licensed with Captain Harry who has 25 years of local guide experience.\n\nOur boat is probably the most economical fishing charter boat in Hawaii, but do not let the price fool you. This fishing machine is powered with rebuilt 150 Suzukis along with tall hulls and 8’9″ beam to handle rough waters. Our vessel also has a nice cabin to keep you dry and shaded complete with a real bathroom!\n\nCancellations",
     "duration": 360,
     "durationText": "6hrs",
@@ -3937,8 +3937,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Daily at 6am & 12pm",
       "6 hours Charter",
@@ -3956,7 +3956,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/9FEfRqvQ5OJJiWFzkMFX",
     "bookingLink": "https://fareharbor.com/embeds/book/hawaiianfishingcharters/items/564722/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1450,
     "description": "Full Day Charter Info\nDaily at 6am\n8 hours Charter\nBertram (6 people Max)\nBlue Water East Side Fishing Charters in Kauai Hawaii\n\nJoin us for deep-sea sport fishing on our 26-foot Glacier Bay charter boat in Kauai, Hawaii called the “Maori Warrior”.If you have a group of 5 to 6 people or you just want a bigger boat with a nice fighting chair you can book Kahuna our 35 foot Bertram. Blue Water Fishing specializes in adventures for Marlin, Tuna, Wahoo, & Mahimahi and is USCG Licensed with Captain Harry who has 25 years of local guide experience.\n\nOur boat is probably the most economical fishing charter boat in Hawaii, but do not let the price fool you. This fishing machine is powered with rebuilt 150 Suzukis along with tall hulls and 8’9″ beam to handle rough waters. Our vessel also has a nice cabin to keep you dry and shaded complete with a real bathroom!\n\nCancellations",
     "duration": 480,
     "durationText": "8hrs",
@@ -3966,8 +3966,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Daily at 6am",
       "8 hours Charter",
@@ -4419,7 +4419,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/Ekwpd3fHQLYQsIIL5lWi",
     "bookingLink": "https://fareharbor.com/embeds/book/napalitours/items/533759/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 3500,
     "description": "Your Sight See Adventure Awaits!\nDuration: 3.0 Hours\nVessel Ikaika 32’ Cave Catamaran - 18 Passengers Max\nRates\nAdult: $250.00 + tax/fees\nChild: $250.00 + tax/fees (age 4 +)\nPrivate Charter: $3,500.00 + tax/fees and 10% crew gratuity\nAbout\n\nCome see why the Na Pali coast is featured in big box office hits and feel like you're in the directors seat!\n\nClimb aboard our open cabin, motorized catamarans built for maneuverability and speed! Thrill seekers wanted on these exciting sight see only tours. Dress to get wet! We plan to catch a lot of sun and sea spray!\n\nDepart from Hanalei Bay, a beautiful natural port, rain AND shine. Amazing photography opportunities from beginning to end as we travel to the renowned Kalalau Valley and beyond. Our knowledgeable crew will provide awesome stories and facts as they navigate active waters to a land lost in time. Look for whales (in season), turtles, sea birds and other marine life!\n\nBottled water & soft drinks included\nRequirements\nAnyone pregnant, under age 4, with a serious health concern, neck or back issue, who has gone through recent surgery, or tests positive for COVID-19 is not permitted.\nGuests must be prepared to be exposed to the elements and ride an open cabin vessel with NO bathroom.\nGuests must be in good general healt",
     "duration": 180,
     "durationText": "Duration: 3.0 Hour",
@@ -4429,8 +4429,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Adult: $250.00 + tax/fees",
       "Child: $250.00 + tax/fees (age 4 +)",
@@ -4712,7 +4712,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/7pIug4F1SyrZStuzaUbQ",
     "bookingLink": "https://fareharbor.com/embeds/book/napaliriders/items/115592/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 5700,
     "description": "Rates\n\n*$5,700\n\nYou must call to book 808-742-6331.\n\nCapacity\n\nThe 30' Zodiac raft may seat up to 28 passengers\n\nDuration\n\nMaximum of 4 hours\n\nCheck-in Time\n\nArrive at least 30 minutes early.\n\nCheck-in Location\n\nMeet us at the NĀ PALI RIDERS OFFICE, then drive your own vehicle to KIKIAOLA SMALL BOAT HARBOR.\n\nDeparture Location\n\nKIKIAOLA SMALL BOAT HARBOR in Waimea\n\nAbout\n\nYour Nā Pali Ocean Raft Tour begins on our 30-foot Zodiac© rigid-hull, inflatable raft. We tour the Nā Pali Coast. Light snacks and drinks provided. This tour may be customized to your liking, please phone us to discuss!\n\nWARNING: The Zodiac© raft makes for a wild and rough ride. Due to the nature of the Nā Pali Ocean Raft Tour, you must be in good physical condition to attend this tour. We cannot accommodate pregnant women, anyone with back or neck problems, medical conditions or recent surgeries.\n\nWhat to Bring\n\n-Comfortable clothing\n-Light jacket\n-Swimsuit\n-Towel\n-Sunscreen\n-Sunglasses\n-Hat (tie-down is recommended)\n-You will be barefoot on the raft tour (socks or water shoes recommended)\n\nWhat we Provide\n\n-Light fruits, snacks and drinks (non-alcoholic beverages)\n-Waterproof duffel bag\n-Snorkel masks and fins\n-Life vests (Provided upon request)\n\nCancellations",
     "duration": 240,
     "durationText": "4 Hours",
@@ -4722,8 +4722,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "427041",
@@ -5287,7 +5287,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/Xgcotan3QAW5xx013cVg",
     "bookingLink": "https://fareharbor.com/embeds/book/gokauaitours/items/549439/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2500,
     "description": "We will help you craft a day of fun and adventure!\nRates\n\nHalf Day $2,500\nFull Day $5,500\n\nAbout\n\nʻO koʻu waʻa kou waʻa\nFor your tour, it's your adventure! Activities include whale watching, sightseeing, snorkeling… we are here to ensure you make lasting memories with your group!\n\nMore info\n\nTour around Kauai Island on our 34' , 600 hp twin outboard powered catamaran\n\nWe begin your tour from Nawiliwili Harbor or Hanalei Bay (May - Sept: requires open water boarding)\n\nSatellite Internet onboard for live streaming your fun\n\nScubaJet motors for your snorkeling adventures\n\nMotorized SUP for touring around offshore\n\nBring you Drones and GoPro's to capture your memories\n\nCancellations",
     "duration": 480,
     "durationText": "8 Hour Charter",
@@ -5297,8 +5297,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Tour around Kauai Island on our 34' , 600 hp twin outboard powered catamaran",
       "We begin your tour from Nawiliwili Harbor or Hanalei Bay (May - Sept: requires open water boarding)",
@@ -5306,7 +5306,8 @@
       "ScubaJet motors for your snorkeling adventures",
       "Motorized SUP for touring around offshore",
       "Bring you Drones and GoPro's to capture your memories"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "561926",
@@ -7848,7 +7849,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/5UifEs3RaGzEdgI5rF5d",
     "bookingLink": "https://fareharbor.com/embeds/book/makaisportfishing/items/294835/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1100,
     "description": "Our PRIVATE tour, is just that. We close the boat to other groups and keep it to just your group! Get your group together and reserve the boat today!\nImportant Information\nOur fishing vessel the \"Pi'ikea' can take a maximum of 6 people.\nOnce on board we'll give a short safety briefing and get on our way. Time for the tour starts once we leave the dock.\nAbout\n\nTypically we'll begin setting the lines in the water as we are exiting the outer break wall and officially declare the fishing has started!\n\nWe'll look at the weather, rely on chatter from other captains and make notes of where we were catching fish the days before to help determine our path for your tour. Based on the length of the trip and time of year we may not be more than one mile or two offshore or we may get 12-15 miles.\n\n80%-90% of what we do will be trolling with artificial lures. On occasion we use dead bait and chunk bait and do a surface jig at the buoys. (When we live bait, the bait is to be caught first thing in the morning).\n\nWhat's Included\nWhile on board you'll have access to our AC Cabin with two different couches, stand up fridge for any food and drinks (but NO GLASS allowed), microwave, usable sing and full stand-up head (restroom).\nOn the back deck we have a large cooler for s",
     "duration": 360,
     "durationText": "6 Hour",
@@ -7858,8 +7859,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Our fishing vessel the \"Pi'ikea' can take a maximum of 6 people.",
       "Once on board we'll give a short safety briefing and get on our way. Time for the tour starts once we leave the dock.",
@@ -7901,7 +7902,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/AT7KHfkbRnSWpzPzhQCo",
     "bookingLink": "https://fareharbor.com/embeds/book/makaisportfishing/items/294839/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1700,
     "description": "Our PRIVATE tour, is just that. We close the boat to other groups and keep it to just your group! Get your group together and reserve the boat today!\nImportant Information\nOur fishing vessel the \"Pi'ikea' can take a maximum of 6 people.\nOnce on board we'll give a short safety briefing and get on our way. Time for the tour starts once we leave the dock.\nAbout\n\nTypically we'll begin setting the lines in the water as we are exiting the outer break wall and officially declare the fishing has started!\n\nWe'll look at the weather, rely on chatter from other captains and make notes of where we were catching fish the days before to help determine our path for your tour. Based on the length of the trip and time of year we may not be more than one mile or two offshore or we may get 12-15 miles.\n\n80%-90% of what we do will be trolling with artificial lures. On occasion we use dead bait and chunk bait and do a surface jig at the buoys. (When we live bait, the bait is to be caught first thing in the morning).\n\nWhat's Included\nWhile on board you'll have access to our AC Cabin with two different couches, stand up fridge for any food and drinks (but NO GLASS allowed), microwave, usable sing and full stand-up head (restroom).\nOn the back deck we have a large cooler f",
     "duration": 600,
     "durationText": "10 Hour",
@@ -7911,8 +7912,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Our fishing vessel the \"Pi'ikea' can take a maximum of 6 people.",
       "Once on board we'll give a short safety briefing and get on our way. Time for the tour starts once we leave the dock.",
@@ -8715,7 +8716,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/foBnM70DQg238GdQfV1T",
     "bookingLink": "https://fareharbor.com/embeds/book/poipuoffshoreadventures/items/537900/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1650,
     "description": "About\nTour Time & Duration\n6 and 8 hour charter options\n7:30 departure\n6 Hour - Fish, Snorkel, Cruise\n\nTry your luck at offshore fishing while we cruise over to the snorkel grounds where you can cool off and marvel at Kauai's diverse fish, turtles and marine life.\n\n8 Hour - Fish, Snorkel\n\nOur 8 hour Fish/ snorkel\nA full day adventure with ample to fish snorkel and explore Kauai’s amazing ocean environment\n\nWhat's Included:\n\nTop of the line equipment and instruction\nDry bag to keep your belongings dry\nHawaiian juices, filtered water, snacks, and fresh local fruits\n\nGratuity is not included in your charter price.\n\nDisclaimer\nOcean Conditions\n\nAll tours are subject to the discretion of the captain and the conditions of the waters. Guests should be of sound body and mind, and have a sense of adventure as Kauai's waters are often exposed to open ocean winds and chop.\n\nHealth Conditions\n\nFor the safety and well-being of all participants, our adventures are not suitable for individuals with neck and back problems, pregnancy, or other serious conditions. We apologize for any inconvenience this may cause.\n\nSea Sickness\n\nTo en",
     "duration": 480,
     "durationText": "8 hour charter",
@@ -8725,8 +8726,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "6 and 8 hour charter options",
       "7:30 departure",
@@ -9045,7 +9046,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/q9knWgdHQfKExXZzu08w",
     "bookingLink": "https://fareharbor.com/embeds/book/poipuoffshoreadventures/items/475922/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1998,
     "description": "About\nTour Time & Duration\n8 hour charter\n7:00 departure\n\nLooking for a true offshore adventure? Cruise along the forgotten south shore en route to the majestic Napali Coast. On this tour we’re bound to find the playful Hawaiian Spinner Dolphins as they frolic in the calm west side waters.\n\nOnce on the Napali Coast, we’ll explore the towering sea cliffs, lush and sheer valleys and canyons, zip into sea caves and snorkel at the base of a soaring cliffside while looking for the resident sea turtles and endangered monk seals.\n\nWhat's Included:\n\nTop of the line equipment and instruction\nDry bag to keep your belongings dry\nHawaiian juices, filtered water, snacks, and fresh local fruits\n\nGratuity is not included in your charter price.\n\n*Important\n\nThis tour launches from Kukui'ula Boat Harbor in Poipu and can add up to a long day on the water. Make sure you're ready for thrill and adventure.\n\nDisclaimer\nOcean Conditions\n\nAll tours are subject to the discretion of the captain and the conditions of the waters. Guests should be of sound body and mind, and have a sense of adventure as Kauai's waters are often exposed to open ocean winds and chop.\n\nHealth Conditions\n\nFor the safety and well-being of all particip",
     "duration": 480,
     "durationText": "Duration\n8 hour",
@@ -9055,8 +9056,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "8 hour charter",
       "7:00 departure",
@@ -10320,7 +10321,7 @@
     "tags": [],
     "image": "",
     "bookingLink": "https://fareharbor.com/embeds/book/imua-fishing-charters-kauai/items/661692/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1950,
     "description": "10 hour private fishing charter on our 35ft Cabo Flybridge boat. Booking a private charter allows you to customize your fishing experience and fishing methods used. Weather permitting we can:\n\nBottom fish for reef predators using a variety of methods from live bait, chunk bait, and artificial jigging.\nTroll for pelagic fish (tuna, mahi, wahoo, marlin)\nCombination of both methods\nWhat's included\n\nCustomizable experience\n\nCancellations",
     "duration": 600,
     "durationText": "Duration\n10 hour",
@@ -10330,8 +10331,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 75,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "capacity": 6,
     "highlights": [
       "Bottom fish for reef predators using a variety of methods from live bait, chunk bait, and artificial jigging.",
@@ -13314,7 +13315,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/yfEm7sQJRkmlcAfFLjDA",
     "bookingLink": "https://fareharbor.com/embeds/book/journeyjill/items/567448/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1400,
     "description": "Customers will also receive a full refund or credit in case of operator cancellation due to weather or other unforeseen circumstances beyond our control. Contact us by phone at 808-867-0822 to cancel or inquire about a cancellation.",
     "duration": 480,
     "durationText": "8 Hours",
@@ -13324,8 +13325,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "620548",
@@ -14846,7 +14848,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/TNRAjQTRGeR1gQvEMW6G",
     "bookingLink": "https://fareharbor.com/embeds/book/hawaiibystorm/items/432601/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1149,
     "description": "• Pickup from Resort/Hotel/Condo/Meeting Location\n• Stop off at Safeway in Kahului to grab “goodies” for the day\n• Start the Hana Highway\n• Pass by “Bamboo Forest”\n• Pass/Stop by the “Painted Forest” where the Rainbow Eucalyptus trees flourish\n• Pass...",
     "duration": 600,
     "durationText": "10 Hours",
@@ -14856,8 +14858,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 100,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "551675",
@@ -14876,7 +14879,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/s2BqdvD8RjidxBE6ZWbV",
     "bookingLink": "https://fareharbor.com/embeds/book/mauisnorkelcharters/items/551675/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 3250,
     "description": "An All-Inclusive Snorkeling Experience\n\nYour private boat tour will include snorkel gear, flotation devices, and reef-safe sunscreen.\n\nIf you will be snorkeling, all you really need is a towel and a swimsuit! We recommend you bring an underwater camera, a change of clothes, and cash for a crew gratuity (at your discretion). Please, no spray-on sunscreen as it is damaging to the reef and the boat.\n\nWe recommend bringing a light jacket or sweater for your comfort.\n\nAll-inclusive private boat charters can include:\n\nSnorkel gear\nFloatation devices\nSunscreen (reef-safe, of course!)\nDetails\n\nPrivate Charters Are Fun For All. We are family friendly! And it’s our priority to provide the best experience on the water despite age or physical limitations.\n\nHowever, your safety comes first. Our minimum excursion age is 5 years old and is not intended for pregnant women. Due to the adventurous nature of the ride, please use discretion if you have back or neck injuries or are recovering from a recent surgery.\n\nCancellations",
     "duration": null,
     "durationText": "",
@@ -14886,13 +14889,14 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 75,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Snorkel gear",
       "Floatation devices",
       "Sunscreen (reef-safe, of course!)"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "568222",
@@ -16819,7 +16823,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/DVcc0yGQjqrYOlzXzcKs",
     "bookingLink": "https://fareharbor.com/embeds/book/frankbernasekphotography/items/594242/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1495,
     "description": "Nestled along the stunning shores of Maui, our boutique wedding company is dedicated to crafting unforgettable beachfront ceremonies that celebrate love in the most breathtaking setting. With a passion for personalized service, we cater to couples seeking an intimate and unique experience, ensuring that every detail reflects their vision and style.\n\nMaui’s natural beauty tirelessly curates idyllic locations where the ocean meets the sky. From the soft sands of Wailea to the lush landscapes of Kaanapali, we offer a selection of picturesque venues that provide the perfect backdrop for saying \"I do.\"\n\nWe specialize in creating tailored packages encompassing everything from floral arrangements and photography to allowing couples to relax and enjoy their special day. Our commitment to sustainability also means we prioritize eco-friendly practices, using local vendors and materials whenever possible.\n\nWhether it’s an intimate elopement or a grand celebration with family and friends, our boutique wedding company transforms your dreams into reality, making your beachfront wedding in Maui a truly magical experience. Let us help you create cherished memories that will last a lifetime.\n\nWhat's included\n\nBeach Permit Included\n\nAssistance With Marriage License\n\nPreferred List Of Efficient\n\n80-100 edi",
     "duration": 60,
     "durationText": "Duration\n1 Hour",
@@ -16829,15 +16833,16 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Beach Permit Included",
       "Assistance With Marriage License",
       "Preferred List Of Efficient",
       "80-100 edited High Res-photos",
       "4k Downloadable Slideshow"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "678515",
@@ -17750,7 +17755,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/OEeG83OMTLmfIFpksCq6",
     "bookingLink": "https://fareharbor.com/embeds/book/switchbackshawaii/items/585174/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1495,
     "description": "Guests are responsible for assessing their own physical fitness and taking necessary precautions. We strongly recommend wearing appropriate footwear, staying hydrated, and following all safety guidelines provided by our guides.",
     "duration": 480,
     "durationText": "Duration\n8 Hour",
@@ -17760,8 +17765,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "692070",
@@ -19024,7 +19030,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/6a5I6BnBSh6CISIuceN4",
     "bookingLink": "https://fareharbor.com/embeds/book/lokahiphotographymaui/items/418658/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1495,
     "description": "Duration\n\n2 Hours\n\nAbout\n\nOur most popular wedding package is perfect for adventurous hearts! Large groups welcome. Groups over 20 require On Site Coordinator\n\nThis elopement collection includes 150+ edited images in full resolution, an online gallery, print release, timeline and planning assistance, necessary permits, and sneak peeks.\n\n2 hours of shooting & 150 images edited in high resolution via an online gallery for downloading, sharing and option to purchase prints and photo albums.\n\nWhat to bring\nMarriage Certificate\nBridal Veil\nFlower Enhancements\nCelebratory Drinks or Champagne if desired\nRings & Ring Box\nWater\nAny props or items you want to include, and a smile!\nWeather conditions can be variable, but be prepared for wind (we recommend hairspray just in case).\nCancellations",
     "duration": 90,
     "durationText": "Duration\n\n90 Min",
@@ -19034,8 +19040,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Marriage Certificate",
       "Bridal Veil",
@@ -19044,7 +19050,8 @@
       "Rings & Ring Box",
       "Any props or items you want to include, and a smile!",
       "Weather conditions can be variable, but be prepared for wind (we recommend hairspray just in case)."
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "452939",
@@ -19222,7 +19229,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/GikNQzLSRqqBBzPqFT4z",
     "bookingLink": "https://fareharbor.com/embeds/book/sail-maui/items/480165/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 6000,
     "description": "Tucked beneath the cliffs are large coral outcroppings that make for beautiful underwater topography and snorkeling. We have a variety of sites along this coast which are some of Maui’s premier snorkel sites including coral gardens.",
     "duration": 360,
     "durationText": "6 Hours",
@@ -19232,8 +19239,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "484561",
@@ -19346,7 +19354,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/F3uhSlSMKbFv8ku5e8A8",
     "bookingLink": "https://fareharbor.com/embeds/book/alohaecoadventures/items/501865/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2290,
     "description": "Aloha Eco Adventures offers private, fully customizable tours that showcase Maui’s diverse landscapes—from the rainforest waterfalls and black sand beaches of the Road to Hana to the high‑elevation volcanic scenery of Haleakala. Small groups travel in luxury 2024/2025 Mercedes Sprinter vans with expert local guides who tailor stops, pacing, and cultural interpretation to your interests. Ideal for honeymoons, weddings, or special occasions, these intimate experiences include snacks, beverages, and flexible itineraries crafted around your preferences.\n\nWhat's included\n\nPickup from hotel, condo, or Kahului Harbor (explicitly mentioned for Haleakala tour)\n\nGuided exploration of Hawaiian sites and cultural interpretation\n\nComplimentary snacks and beverages during the day\n\nBottled water and soft drinks\n\nGinger cookies\n\nUmbrellas\n\nUse of luxury Mercedes Sprinter vans (model year 2024/2025)\n\nAccess to Haleakala National Park included for permitted Halfway to Hana & Haleakala tours\n\nWhat's not included",
     "duration": 600,
     "durationText": "10 hours",
@@ -19356,8 +19364,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Pickup from hotel, condo, or Kahului Harbor (explicitly mentioned for Haleakala tour)",
       "Guided exploration of Hawaiian sites and cultural interpretation",
@@ -19367,7 +19375,8 @@
       "Use of luxury Mercedes Sprinter vans (model year 2024/2025)",
       "Access to Haleakala National Park included for permitted Halfway to Hana & Haleakala tours",
       "Spending money for local crafts"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "520786",
@@ -19410,7 +19419,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/nP91iVO4TkazCS6nzwi0",
     "bookingLink": "https://fareharbor.com/embeds/book/sail-maui/items/526269/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2400,
     "description": "Join us for a Romantic Sunset Cruise!\nRates & Duration\n\nS/V Artemis ~ 47' Sailing Catamaran (Up to 6 passengers) - $2,400\n\nCharter the Fleet (Up to 12 passengers) - $3,200\n\nAbout\n\nJoin us for your own Private Sunset sail. Perfect for celebrating birthdays, anniversaries, proposals, bachelorette parties, quality family time, and more!\n\nTake your loved one and friends sailing on your own boat with the help of a few crew. If desired, we offer a hands-on learning experience for those who wish to learn about sailing! Unlike many other companies that motor the majority of the time, we pride ourselves on sailing as much as possible.\n\nWant to spend a little extra time on the water? Add an extra hour on to your sail.\n\nFor 7-12 guests we offer the opportunity to charter the fleet for a buddy boat sail. We depart at the same time and set sail side-by-side for a once in a lifetime sunset adventure.\n\nWhat's Included\n\nLight appetizers enjoyed onboard\nNon-alcoholic beverages: water, juices, and sodas are provided\n\nWhat's Not Included\n\nAlcoholic beverages are not included. However, you are welcome to bring alcohol onboard and we have all the appropriate glassware for serving.\n\nGratuity is not included in your charter price\n(Private yacht standard generally starts at 20%)\n\nCancellations",
     "duration": 120,
     "durationText": "2 Hours",
@@ -19420,8 +19429,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "starting at",
     "highlights": [
       "Light appetizers enjoyed onboard",
       "Non-alcoholic beverages: water, juices, and sodas are provided",
@@ -19443,7 +19452,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/QwJjOUoSQrKjZCmgbr1q",
     "bookingLink": "https://fareharbor.com/embeds/book/sail-maui/items/526271/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 8400,
     "description": "Come join us on our full day sailing adventure. We begin by sharing several different options for the day's adventure and make sure everything is catered to your desires, the weather conditions, and current wildlife sightings.",
     "duration": 420,
     "durationText": "7 Hours",
@@ -19453,8 +19462,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "539594",
@@ -23485,7 +23495,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/vZoa4erASaSIBx1ZpGcN",
     "bookingLink": "https://fareharbor.com/embeds/book/sail-maui/items/191561/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1440,
     "description": "Join us for a Romantic Sunset Cruise!\nRates & Duration\n\nS/V Nova ~ 42' Sailing Monohull (Up to 6 passengers) - $1,440\nCharter the Fleet (Up to 12 passengers) - $3,200\n\nAbout\n\nJoin us for your own Private Sunset sail. Perfect for celebrating birthdays, anniversaries, proposals, bachelorette parties, quality family time, and more!\n\nTake your loved one and friends sailing on your own boat with the help of a few crew. If desired, we offer a hands-on learning experience for those who wish to learn about sailing! Unlike many other companies that motor the majority of the time, we pride ourselves on sailing as much as possible.\n\nWant to spend a little extra time on the water? Add an extra hour on to your sail.\n\nFor 7-12 guests we offer the opportunity to charter the fleet for a buddy boat sail. We depart at the same time and set sail side-by-side for a once in a lifetime sunset adventure.\n\nWhat's Included\n\nLight appetizers enjoyed onboard\nNon-alcoholic beverages: water, juices, and sodas are provided\n\nWhat's Not Included\n\nAlcoholic beverages are not included. However, you are welcome to bring alcohol onboard and we have all the appropriate glassware for serving.\n\nGratuity is not included in your charter price\n(Private yacht standard generally starts at 20%)\n\nCancellations",
     "duration": 120,
     "durationText": "2 Hours",
@@ -23495,8 +23505,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "starting at",
     "highlights": [
       "Light appetizers enjoyed onboard",
       "Non-alcoholic beverages: water, juices, and sodas are provided",
@@ -23515,7 +23525,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/p3qmsHllQy2Z4aYgRrxv",
     "bookingLink": "https://fareharbor.com/embeds/book/sail-maui/items/191569/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1440,
     "description": "S/V Nova is a unique experience in that it offers pleasant, personal, private sailing adventures for up to six passengers. We have done weddings, proposals, birthdays, ash scatterings, and private dinners.",
     "duration": 720,
     "durationText": "12 Hours",
@@ -23525,8 +23535,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "starting at"
   },
   {
     "id": "220144",
@@ -24150,7 +24160,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/OBcDgdoRSQedSO6TV49g",
     "bookingLink": "https://fareharbor.com/embeds/book/sail-maui/items/415714/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 5040,
     "description": "Come join us on our full day sailing adventure. We begin by sharing several different options for the day's adventure and make sure everything is catered to your desires, the weather conditions, and current wildlife sightings.",
     "duration": 420,
     "durationText": "7 Hours",
@@ -24160,8 +24170,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "484545",
@@ -24751,7 +24762,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/kH2kd52TsyvfbLP0Owtj",
     "bookingLink": "https://fareharbor.com/embeds/book/hawaiinautical-kona/items/224702/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1495,
     "description": "With a fully private vessel and crew, your itinerary is completely customizable — choose to snorkel vibrant reefs, relax on deck with friends and family, or simply cruise the coast in comfort and style.",
     "duration": 300,
     "durationText": "Duration\n5 Hour",
@@ -24761,8 +24772,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "436214",
@@ -26904,7 +26915,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/oNk2mhGQ9MuVIBAOdQ4Q",
     "bookingLink": "https://fareharbor.com/embeds/book/konaoceanadventures/items/20606/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1600,
     "description": "For the ultimate luxury sunset cruise on your own private charter, imagine, white table cloth with a menu especially created by our chef with organic local produce and an infusion of Aloha. Our goal is to exceed your expectations.",
     "duration": 150,
     "durationText": "Duration\n\n2.5 Hour",
@@ -26914,8 +26925,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "20636",
@@ -28551,7 +28562,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/rRcXm030T3CYLp2917pa",
     "bookingLink": "https://fareharbor.com/embeds/book/thevolcanovan/items/435603/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1500,
     "description": "We know, we're called The Volcano Van because our specialty are the volcanoes of the Big Island of Hawai'i. However, the Big Island does offer plenty of beautiful sights to see other then just volcanoes.",
     "duration": 540,
     "durationText": "9 hours",
@@ -28561,8 +28572,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "565479",
@@ -28935,7 +28947,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/C9ychbQqTxa1cp5LIJxH",
     "bookingLink": "https://fareharbor.com/embeds/book/hawaiiislandandoceantours/items/489704/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1500,
     "description": "Customers will receive a full refund in case of operator cancellation due to weather, boat mechanical issues or other unforeseen circumstances. Contact us by phone to inquire about a cancellation. Full refund when canceling 72 hours before the tour.",
     "duration": 240,
     "durationText": "Duration\n4 Hour",
@@ -28945,8 +28957,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "99626",
@@ -29841,7 +29853,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/hsZqy1TARlehIM8m9Pgg",
     "bookingLink": "https://fareharbor.com/embeds/book/snorkelingkona/items/493920/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1100,
     "description": "Fishing & Snorkeling Adventure\n\nSport Fishing for Marlin, Ono, Ahi and other Pacific Ocean Pelagic Species. Snorkeling with assorted Reef Fish and Ocean Life\n\nRate\n\n$1,100\n\nDuration & Time\n\nMonday, Tuesday, Weds, Thursday, Friday, Saturday and Sunday!\nCheck In 6:30am\nReturn: 12:30pm\n\nAbout\n\nGuests spend half the tour fishing and trying for Marlin or some of our native game fish such as Ono or Mahi Mahi. The rest of the day is up to you based on what's happening in the waters off shore. If whales are in the area, we can take you to see them. If Spinner Dolphins are nearby, we can take you to see them as well. This is an Ocean Snorkel Adventure: Few places in the world can offer the wide variety of sea life encounters, dolphins, manta rays and assorted reef fish than the majestic waters off the Kona coast. With over 100 diverse and secured day mooring sites to choose from, your snorkel adventure may never end! Our Captain and his Crews's extensive years of experience in these local waters pays dividends to OUR snorkel participants. We hold many surprises in store for you! Ms Conduct offers you the best snorkel tours and ocean creature observations in Kona. . You will enjoy total comfort and safety while taking in the splendid scenery of the Big Island, the Pacific Ocean and the local Marine Life. Aloha and Mahalo for letting us give you an incredible exper",
     "duration": 360,
     "durationText": "6 hours",
@@ -29851,14 +29863,15 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "All Fishing Gear Included",
       "Snorkel Gear for the Whole Family",
       "Water, Ice Chest and Ice",
       "Noodles for Swimming"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "3307",
@@ -31032,7 +31045,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/dqOh4Q6aTgy9v2QmYEff",
     "bookingLink": "https://fareharbor.com/embeds/book/bigislandvip/items/288608/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1595,
     "description": "See the Best Big Island Attraction!\nDuration\n\n7.5 Hours\n\nAbout\n\nSee the best Big Island attraction, Hawaii Volcanoes National Park, a UNESCO World Heritage Site and make this a day you will remember! Use the extra time to see more of the National Park or use your extra time to:\n\nVolcano Winery (wine/tea tastings not included in the price)\nPunalu'u Black Sand Beach (and hour and a half of extra driving)\nHave a sitdown lunch and take time to wander the Hilo Market and have the best shave ice on the island.\nStop at Rainbow Falls and see an 80 foot waterfall.\n\nSee the best of the National Park which includes Kilauea Volcano Overlook, Halema’uma’u Crater, Steam Vents, Nahuku Lava Tube (also known as Thurston). Plus experience native plant life, lava flows and much more!\n\nWhat to Bring\nClosed-toe shoes\nFor Hilo a light jacket or windbreaker.\nHandicap parking pass if you have one to cut down on walking.\nProvided\nNational Park Certified Interpretive Guide\nSunscreen and bug repellent\nHand sanitizer\n4 trekking poles\nBottled water\nSnacks (trail mix, chips, granola bars)\nBinoculars\nPrivate transportation\nAir-conditioned vehicle\nPonchos and umbrel",
     "duration": 450,
     "durationText": "Duration\n\n7.5 Hour",
@@ -31042,8 +31055,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Volcano Winery (wine/tea tastings not included in the price)",
       "Punalu'u Black Sand Beach (and hour and a half of extra driving)",
@@ -31053,7 +31066,8 @@
       "For Hilo a light jacket or windbreaker.",
       "Handicap parking pass if you have one to cut down on walking.",
       "National Park Certified Interpretive Guide"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "288610",
@@ -31064,7 +31078,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/HajJh7GFTF2DDiROOJzi",
     "bookingLink": "https://fareharbor.com/embeds/book/bigislandvip/items/288610/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1395,
     "description": "See the Best of the National Park!\nDuration\n\n6 Hours\n\nAbout\n\nExplore the best Big Island attraction with your own certified guide in a Mercedes van all to yourself. View a UNESCO World Heritage Site voted as one of the top 10 Parks to visit. See the best of the National Park includes Kilauea Volcano Overlook, Halema’uma’u Crater, Steam Vents, and more! Learn about native plant life, lava flows, and much more!\n\nWhat to Bring\nSuitable shoes for walking\nA light raincoat or windbreaker.\nHandicap parking pass if you have one to cut down on walking.\nProvided\nNational Park Certified Interpretive Guide\nHand sanitizer and wipes\n4 trekking poles\nBottled water\nSnacks (trail mix, chips, granola bars)\nBinoculars\nPrivate transportation\nAir-conditioned vehicle\nPonchos and umbrellas\nFree photos of you and your family/group\n\n** Please note: Park fees and snacks are included. Lunch is not. **\n** We must follow Hawaii State Law for child seats, children 7 and under must be in a booster or child seat. We provide boosters for 4-years-old and over for free, please let us know if you need to use them. **\n\nCancellations",
     "duration": 360,
     "durationText": "Duration\n\n6 Hour",
@@ -31074,8 +31088,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Suitable shoes for walking",
       "A light raincoat or windbreaker.",
@@ -31085,7 +31099,8 @@
       "4 trekking poles",
       "Bottled water",
       "Snacks (trail mix, chips, granola bars)"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "303663",
@@ -31458,7 +31473,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/EEyHadVMTIOflUezS2YA",
     "bookingLink": "https://fareharbor.com/embeds/book/hawaiitourboat/items/497012/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2500,
     "description": "We are located 4.5 mile south of the Kona Airport and 3.5 miles north of Kailua Kona. After turning into the Honokohau Harbor take the very first road to your right. Follow the road which veers to the left until it ends at a large parking lot.",
     "duration": 120,
     "durationText": "Duration\n\n2 Hour",
@@ -31468,8 +31483,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "500892",
@@ -31751,7 +31766,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/PmbhCkxRzmZxP5x1tabo",
     "bookingLink": "https://fareharbor.com/embeds/book/leinlow/items/619810/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1800,
     "description": "The Experience\nWe specialize in offering an unforgettable charter fishing experience. Our state-of-the-art 43' Viking Convertible, Lei'n Low, is fully equipped with everything you need for a premier fishing excursion. With twin 800 hp engines and cutting-edge equipment, we get to the best fishing spots quickly and efficiently.\n\nWhether you're an experienced angler or a beginner looking to reel in your first trophy catch, our crew is dedicated to providing an exceptional experience. From the excitement of landing a monster marlin to the relaxation of cruising the beautiful Kona coast.\n\nJoin us for a thrilling day on the water, where world-class fishing, luxury, and adventure await. Book your charter today and get ready to experience the best of Kona sportfishing!\n\nWhat's included\n\nLuxury Sportfishing Vessel – 43’ Viking with state-of-the-art amenities\n\nAdvanced Fishing Technology – Equipped with a Simrad SY50 Omni system\n\nTop-Tier Fishing Gear – Premium rods, reels, and tackle pro",
     "duration": 240,
     "durationText": "Duration\n4hr",
@@ -31761,8 +31776,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "capacity": 6,
     "highlights": [
       "Luxury Sportfishing Vessel – 43’ Viking with state-of-the-art amenities",
@@ -32211,7 +32226,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/aq8ALjiTS7CSMsailhgd",
     "bookingLink": "https://fareharbor.com/embeds/book/alohaainatourshawaii/items/645162/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1499,
     "description": "For those looking for a more personalized experience, Aloha Aina Tours offers personalized custom tours. Creating a custom Big Island Tour can be an exciting way to explore the diverse beauty and unique attractions of Hawaii’s largest island. The Big Island is known for its diverse landscapes, from lush rainforests to volcanic deserts, pristine beaches, and towering mountains. Whether you’re interested in exploring specific areas of the island, discovering hidden gems off the beaten path, or crafting an itinerary based on your unique interests, Aloha Aina’s guides will design a tour that fits your preferences.\n\nWhy Choose Aloha Aina Tours?\nKnowledgeable, local guides with in-depth knowledge of the Big Island’s culture, history, and geology.\nComfortable, small-group tours (14 per van max) that prioritize a personalized and immersive experience.\nOpportunities to explore natural wonders, wildlife, and iconic landmarks that make the Big Island one-of-a-kind\nWe offer custom tour destinations, with various activities and stops, so guests can experience the island at their own pace.\nCombine any of our standard tours with other destinations or create your own personalized adventure.\nDestionation Options\n\nKona S",
     "duration": 480,
     "durationText": "8 Hours",
@@ -32221,8 +32236,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Knowledgeable, local guides with in-depth knowledge of the Big Island’s culture, history, and geology.",
       "Comfortable, small-group tours (14 per van max) that prioritize a personalized and immersive experience.",
@@ -32232,7 +32247,8 @@
       "Mauna Loa Macadamia Nut Farm",
       "Papakōlea Green Sand Beach",
       "Hapuna Beach"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "808",
@@ -32631,7 +32647,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/aOlgTKPBQjuJOORG56Na",
     "bookingLink": "https://fareharbor.com/embeds/book/thevolcanovan/items/435605/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1500,
     "description": "We know, we're called The Volcano Van because our specialty are the volcanoes of the Big Island of Hawai'i. However, the Big Island does offer plenty of beautiful sights to see other then just volcanoes.",
     "duration": 540,
     "durationText": "9 hours",
@@ -32641,8 +32657,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "505494",
@@ -33478,7 +33495,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/ZZdzSkkqTxOigUIu43IE",
     "bookingLink": "https://fareharbor.com/embeds/book/kapohokine/items/1254/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1599,
     "description": "Moderate air temperatures at sea level with cooler temperatures at higher elevations on the drive from Kona; occasional rain showers; possible walks across uneven, rocky terrain including black lava rock,; red lava cannot be guaranteed on this tour;...",
     "duration": 720,
     "durationText": "Duration\n\n12 hour",
@@ -33488,8 +33505,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "2926",
@@ -33533,7 +33550,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/PmPTKhRfQim5lsYISPvA",
     "bookingLink": "https://fareharbor.com/embeds/book/kapohokine/items/5783/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1599,
     "description": "Moderate air temperatures at sea level with cooler temperatures at higher elevations on the drive from Kona; occasional rain showers; possible walks across uneven, rocky terrain including black lava rock,; red lava cannot be guaranteed on this tour;...",
     "duration": 720,
     "durationText": "Duration\n\n12 Hour",
@@ -33543,8 +33560,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "12068",
@@ -34533,7 +34550,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/S1XOu5JWTNe7XNM3Yk7x",
     "bookingLink": "https://fareharbor.com/embeds/book/aliioceantours/items/19319/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2100,
     "description": "Reserve the Hoku ‘Elima for a 4 hour excursion of your choosing. You can either enjoy one of our standard trips with a cruise all to yourselves or customize a tour with a multitude of options of where to go and what to see.",
     "duration": 240,
     "durationText": "4 Hour Tour",
@@ -34543,8 +34560,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "starting at"
   },
   {
     "id": "286903",
@@ -34639,7 +34656,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/If9vkil3SAD8S7Z95fgQ",
     "bookingLink": "https://fareharbor.com/embeds/book/oceanbluekonatours/items/509332/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2000,
     "description": "Explore the Kona coast on a private snorkel adventure that brings you to iconic sites like the Captain Cook Monument and Makalawena Marine Sanctuary. Guided by an expert crew, you’ll float above vibrant coral gardens, encounter sea turtles and colorful reef fish, and often spot dolphins while cruising between snorkel stops. The experience blends relaxed cruising with active snorkeling, and includes a custom catered meal and assorted beverages so you can refuel between sessions. Ideal for families and those seeking a personalized ocean outing.\n\nWhat's included\n\nSnorkel gear and flotation devices\n\nReef-safe sunscreen\n\nTowels\n\nCustom continental breakfast or sandwich lunch\n\nBeverages (water, juice, sports drinks)\n\nHighlights\nPrivate, customizable snorkel experience along the Kona coast\nVisits to iconic sites including Captain Cook Monument and Makalawena Marine Sanctuary\nFrequent wildlife sightings — sea turtles, colorful reef fish and often dolphins\nExpert crew providing guided snorkeling and local knowledge\nCancellations",
     "duration": null,
     "durationText": "",
@@ -34649,8 +34666,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 80,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Snorkel gear and flotation devices",
       "Reef-safe sunscreen",
@@ -34922,7 +34939,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/aziddjqHTFU8kqOgSL1L",
     "bookingLink": "https://fareharbor.com/embeds/book/grandersuniversity/items/575954/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1400,
     "description": "Customers will receive a full refund or credit with 24 hours notice of cancellation. Customers will also receive a full refund or credit in case of operator cancellation due to weather or other unforeseen circumstances.",
     "duration": 480,
     "durationText": "Duration\n8 hour",
@@ -34932,8 +34949,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "575955",
@@ -34944,7 +34961,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/C7NRKDk1TW6BW0z5GOtj",
     "bookingLink": "https://fareharbor.com/embeds/book/grandersuniversity/items/575955/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1150,
     "description": "Customers will receive a full refund or credit with 24 hours notice of cancellation. Customers will also receive a full refund or credit in case of operator cancellation due to weather or other unforeseen circumstances.",
     "duration": 360,
     "durationText": "Duration\n6 Hour",
@@ -34954,8 +34971,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "575956",
@@ -35046,7 +35064,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/YfnBWwFhSCeydCQTWQoB",
     "bookingLink": "https://fareharbor.com/embeds/book/aliioceantours/items/19316/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 3200,
     "description": "Encounter dolphins, snorkel with tropical fish, explore the coastline, enjoy the challenge of paddle boarding, the options go on and on. Your private charter consultant is standing by to help you design the perfect ocean experience!",
     "duration": 300,
     "durationText": "5 Hour Tour",
@@ -35056,8 +35074,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "43208",
@@ -40095,7 +40113,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/UKtvQpgRNSnzl3NmSQuh",
     "bookingLink": "https://fareharbor.com/embeds/book/andyoucreations/items/632619/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 3000,
     "description": "What is \"Pau Hana\"?\nIn Hawaiian, Pau Hana means “finished work.” It’s the cherished time to relax, connect, and celebrate after a busy day. Embrace the island spirit and unwind on the water with this one-of-a-kind sunset cruise.",
     "duration": 120,
     "durationText": "Duration\n2 Hour",
@@ -40105,8 +40123,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "7573",
@@ -41701,7 +41719,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/nrNGx062QQyXgdfnLNNF",
     "bookingLink": "https://fareharbor.com/embeds/book/alohasunshinetours/items/342218/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1190,
     "description": "About Your Tour\n\nAn exclusive opportunity to explore and experience Hawaii’s only active volcano, join us on our private hawaii volcano and helicopter tour from Oahu Hawaii\n\nThis adventure includes an aerial tour of Hawaii Volcanoes National Park and Kilauea volcano, plus a guided ground tour of the volcano with our expert tour guide. View active lava flows that are not accessible on land, and fly over the massive summit of the volcano, plus visit the incredible sites of Hawaii Volcanoes National Park.\n\nThe chance to discover Hawaii’s only active volcano should not be missed, and the opportunity to see the volcano from two vantage points is not available anywhere else. Seats on this one of a kind tour are very limited and filling fast. Book your tour today.\n\nCancellations",
     "duration": null,
     "durationText": "",
@@ -41711,8 +41729,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 75,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "416151",
@@ -44674,7 +44692,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/f2k1JwCDSIm9ZUzxzuKf",
     "bookingLink": "https://fareharbor.com/embeds/book/andyoucreations/items/636915/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2500,
     "description": "Join the Island Breeze Private Cruise for a scenic 1:00 PM departure along the iconic Waikiki coastline toward Diamond Head. Whether you're looking to relax, celebrate, or explore, this private charter is perfect for a memorable day on the water.\n\nTake in panoramic ocean views, feel the refreshing trade winds, and enjoy the unforgettable backdrop of Diamond Head. Choose a laid-back sightseeing experience or opt for a swim/snorkel stop at Turtle Canyon, where you might encounter Hawaiian green sea turtles in their natural habitat (snorkel gear provided).\n\nWant a livelier vibe? Upgrade to a party-style cruise with open deck space, surround sound with curated Apple Music playlists (or bring your own), and plenty of room to dance and celebrate.\n\nA full-service bar is available onboard, offering cocktails, w",
     "duration": 120,
     "durationText": "Duration\n2 Hour",
@@ -44684,8 +44702,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "capacity": 40,
     "highlights": [
       "Private 2-hour boat charter (Waikiki to Diamond Head)",
@@ -45397,7 +45415,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/PDXckGRdR1S5pY6MUdv9",
     "bookingLink": "https://fareharbor.com/embeds/book/gonuts-hawaii/items/417110/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2148,
     "description": "Go Nuts Hawaii Surf Camp is located at the famous V-land beach. You will surf on some of the best surf spots in the world, always according to your prior surf experience. You won't miss any bit of the amazing North Shore's winter surf sessions. Where else in the world do you have the chance to see the top surfers of the planet competing on some of the largest and the most amazing waves on earth?\n\nHighlights\nStand up paddle board practice\nDaily surf lessons including boards hire\nPrime location less than a mile from Sunset Beach\nEasy access to Valzyland, Sunset Beach, Pipeline, and Waimea\nAmazing surf breaks for all levels\nBreakfasts, lunch, and snacks\n6 nights' accommodation\nTransfers\n\nSkill level\nBeginner\nIntermediate\nAdvanced\n\nStyles\nSurfing\nStand Up Paddling\n\n7 days with instruction in\nEnglish\nThe organizer also speaks: Portuguese, Spanish\nGroup size: Maximum of 5 participants\nAirport transfer included: Honolulu International Airport\n\nAccommodation\nCheck-in Time:\n11:00\nCheck-out Time:\n15:00\n\nFacilities\nFree Wi-Fi\nYou will be accommodated at five bedroom house across the street from one of the most prestigious surf spots in the world \"Valzyland\".\n\nLocation\nThis retreat is located right in the world renowned North Shore of Oahu and the surf spots are Valzyland, Sunset Beach, Pi",
     "duration": 120,
     "durationText": "2 hours",
@@ -45407,8 +45425,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "428026",
@@ -45518,7 +45537,7 @@
     "tags": [],
     "image": "https://cdn.filestackcontent.com/6I1iLgtQNegSZ9nzFi6E",
     "bookingLink": "https://fareharbor.com/embeds/book/islandsplashtours/items/476368/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1150,
     "description": "Book our entire boat for an unforgettable private cruise or snorkel and swim adventure along the beautiful shores of Waikiki. Perfect for special celebrations, family gatherings, corporate outings, or simply an exclusive day on the water, our vessel comfortably accommodates parties of up to 32 guests. Enjoy the flexibility of a fully private experience tailored to your group’s preferences.\n\nSnorkel the crystal-clear waters of Waikiki’s famous Turtle Canyons, where you’ll have the opportunity to swim alongside vibrant tropical fish and Hawaiian green sea turtles in their natural habitat. After snorkeling, relax as we cruise toward the iconic Diamond Head coastline, keeping an eye out for playful dolphins and other marine life along the way. With breathtaking views and warm ocean breezes, this private charter offers a truly memorable ocean experience.\n\nWhat's included\nCold water and soft drinks\nSnorkel equipment\nFlotation vests\nExperienced crew & snorkel guides\nWhat to Bring\nTowel\nCamera\nReef Safe Sunscreen\nAdditional information\nCancellations",
     "duration": 90,
     "durationText": "Duration\n1.5 Hour",
@@ -45528,8 +45547,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Cold water and soft drinks",
       "Snorkel equipment",
@@ -46324,7 +46343,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/fzRmGlXeRRa0uDZW5igA",
     "bookingLink": "https://fareharbor.com/embeds/book/alohasunshinetours/items/522229/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1190,
     "description": "About Your Tour\n\nAn exclusive opportunity to explore and experience Hawaii’s only active volcano, join us on our private hawaii volcano and helicopter tour from Kauai, Hawaii\n\nThis adventure includes an aerial tour of Hawaii Volcanoes National Park and Kilauea volcano, plus a guided ground tour of the volcano with our expert tour guide. View active lava flows that are not accessible on land, and fly over the massive summit of the volcano, plus visit the incredible sites of Hawaii Volcanoes National Park.\n\nThe chance to discover Hawaii’s only active volcano should not be missed, and the opportunity to see the volcano from two vantage points is not available anywhere else. Seats on this one of a kind tour are very limited and filling fast. Book your tour today.\n\nCancellations",
     "duration": null,
     "durationText": "",
@@ -46334,8 +46353,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 75,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "547245",
@@ -48296,7 +48315,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/3CDGTsNgQaesUasb8UAG",
     "bookingLink": "https://fareharbor.com/embeds/book/wildsidespecialtytours/items/623886/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1750,
     "description": "It’s the rare pairing of two awe-inspiring moments — sunset and whales — best experienced far from the crowds, with marine biologists who know this coastline and its wildlife intimately.\n\nThis isn’t a party cruise; it’s an expedition aboard our stable, shaded 34-ft power catamaran (capped at just ten guests — ask about private or larger group options).\n\nWhat's included\nLocal Drinks and Snacks\nBiologist Crew Narration\nHydrophone for whale \"karaoke'\nTour in English\nItinerary\n\nKaʻena Point = Whale Central\nAdventure off the path to Oahu's most whale-rich area. This remote, rugged coastline is a biological hotspot where humpback whales gather during breeding season. Take a front-row seat to awe-inspiring behaviors like breaches, tail slaps, and vocalizations. Often we and the whales will encounter other curious wildlife as well.\n\nHighlights\n\nYou’re not just watching whales — you’re witnessing humpbac",
     "duration": 180,
     "durationText": "Duration\n3 hour",
@@ -48306,8 +48325,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Duration: Approx. 3 hours",
       "Departure: Waianae Small Boat Harbor",
@@ -50141,7 +50160,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/tq9PBeYvTR6In9Y1Jj1U",
     "bookingLink": "https://fareharbor.com/embeds/book/wildhawaiitours/items/497321/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1900,
     "description": "Customers will receive a full refund or credit with 24 hours notice of cancellation. Customers will also receive a full refund or credit in case of operator cancellation due to weather or other unforeseen circumstances.",
     "duration": 660,
     "durationText": "11 Hour Tour",
@@ -50151,8 +50170,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "518078",
@@ -51378,7 +51398,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/yGxTCWbTT6GZ2qTl4Qjt",
     "bookingLink": "https://fareharbor.com/embeds/book/wayfindhawaii/items/606761/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1995,
     "description": "Go beyond the itinerary of a conventional bus tour on an immersive, 100% private journey designed exclusively for your group. Forget the impersonal feel; with your expert guide, you have the flexibility to adjust the pace and spend more time at the stops you love. Your guide will work within the schedule to ensure you experience the best of the island.\n\nWhat Makes This Private Tour Unique:\n\nTailored Itinerary & Flexible Timing: Your day includes the must-see spots (Akaka Falls, Kīlauea Volcano, Black Sand Beach), but the timing and Hilo Town stops (Candies, Falls, Shopping) are customized to your interests.\nGuide Suggestions: While the tour follows a defined itinerary, if time allows, your guide may suggest optional photo stops or slight detours to enhance",
     "duration": 660,
     "durationText": "Duration\n11 Hour",
@@ -51388,8 +51408,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "capacity": 12,
     "highlights": [
       "100% Private: Vehicle reserved exclusively for your party.",
@@ -53486,7 +53506,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/rg9tAaWAQ0KCgG0e8mao",
     "bookingLink": "https://fareharbor.com/embeds/book/liljestrandhouse/items/206142/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1400,
     "description": "Private tours offer an in-depth experience of the architecture and history of Liljestrand House. Tours take approximately 90 minutes. Visits can be arranged by appointment pending schedule availability.",
     "duration": 90,
     "durationText": "Duration\n\n90 min",
@@ -53496,8 +53516,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "206149",
@@ -53511,7 +53532,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/LtkdXH8QzavrVUxWdwxg",
     "bookingLink": "https://fareharbor.com/embeds/book/liljestrandhouse/items/206149/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1800,
     "description": "Sunset tours offer a one-hour tour experience highlighting the architecture and history of Liljestrand House along with the opportunity to enjoy wine and light appetizers on the upstairs lanai overlooking Diamond Head.",
     "duration": 120,
     "durationText": "Duration\n\n2 hour",
@@ -53521,8 +53542,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "463963",
@@ -54197,7 +54219,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/P83jdLyT2a8Mg4DjDXfw",
     "bookingLink": "https://fareharbor.com/embeds/book/bikehawaii/items/674343/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1117,
     "description": "Green World Coffee Farm sample freshly roasted island coffee while learning about locally grown beans. Dole Plantation Stroll through pineapple gardens, shop for souvenirs, or cool off with a refreshing Dole Whip.",
     "duration": 480,
     "durationText": "8 Hours",
@@ -54207,8 +54229,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "674389",
@@ -54221,7 +54243,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/8ojqlLJDQ767TLVCJm0w",
     "bookingLink": "https://fareharbor.com/embeds/book/bikehawaii/items/674389/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1117,
     "description": "Experience the very best of Oʻahu on this full-day circle island adventure. From volcanic craters and dramatic coastlines to sacred temples and charming local towns, this tour blends scenic beauty, cultural insight, and island flavors into one unforg...",
     "duration": 390,
     "durationText": "6.5 Hours",
@@ -54231,8 +54253,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "220155",
@@ -54377,7 +54399,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/RF9Pwon8SBygF1ts9p3c",
     "bookingLink": "https://fareharbor.com/embeds/book/hawaiioceancharters/items/203401/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1199,
     "description": "Marvel at Waikiki’s beautiful city lights and watch a ~5 min firework show right offshore the Hilton Hawaiian Village where they launch. Enjoy a brief coastal cruise of Waikiki’s city lights to and from the fireworks location.",
     "duration": 180,
     "durationText": "3 hours",
@@ -54387,8 +54409,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "220156",
@@ -55651,7 +55673,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/60XAfYIT9yWJrV6aefJt",
     "bookingLink": "https://fareharbor.com/embeds/book/oceantherapycharters/items/550893/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2800,
     "description": "Ultimate adventure with your Private charter along the stunning Waikiki coastline.\nTimes and duration\nCheck-in 7:45am, 2:45pm\nDeparts 8am, 3:00pm\nDuration 5 hours\nAbout\n\nEmbark on the ultimate adventure with our full-day charter along the stunning Waikiki coastline. Five hours of pure bliss await you as you cruise the azure waters, leaving all worries behind. Dive into the vibrant underwater world snorkeling or scuba diving at our favorite reefs or shipwreck, where you'll be mesmerized by the kaleidoscope of marine life.\nOur exclusive charter ensures that you and your party receive VIP treatment, with personalized service catering to your every whim. Safety is our top priority, with all staff certified lifeguards or registered nurses, allowing you to relax and enjoy every moment worry-free. All Dives are lead by a PADI SCUBA Instructor or Divemaster\n\nAs you sail, keep your eyes peeled for exciting wildlife sightings, from playful dolphins to majestic whales.\n\nEscape the crowds and experience Waikiki in luxury, with unparalleled comfort and service at your fingertips. Let us pamper you as you create unforgettable memories.\n\nIncludes\nSnorkel Gear\nSwim mat\nSCUBA gear and two tanks per guest\nPADI eLearn Material for Discovery SCUBA Divers\nSandwiches, Fruit platter, Snacks, Soft Drinks\nCooler with ice for BYOB\nCancellations",
     "duration": 300,
     "durationText": "Duration 5 hour",
@@ -55661,8 +55683,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Check-in 7:45am, 2:45pm",
       "Departs 8am, 3:00pm",
@@ -55727,7 +55749,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/ElnbfTsZSRGdpVgF4R3h",
     "bookingLink": "https://fareharbor.com/embeds/book/oceantherapycharters/items/550951/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1560,
     "description": "Ultimate adventure with your Private charter along the stunning Waikiki coastline.\nTimes and duration\nCheck-in 8:45am, 11:45am, 2:45pm\nDeparts 9am, 12pm, 3pm\nDuration 2.5 hours\nAbout\n\nEmbark on the ultimate adventure with our 2.5 hour charter along the stunning Waikiki coastline. Over 2.5 hours of pure bliss await you as you cruise the azure waters, leaving all worries behind. Dive into the vibrant underwater world with snorkeling or scuba diving at your favorite reef or shipwreck, where you'll be mesmerized by the kaleidoscope of marine life.\nOur exclusive charter ensures that you and your party receive VIP treatment, with personalized service catering to your every whim. Safety is our top priority, with all staff certified lifeguards or registered nurses, allowing you to relax and enjoy every moment worry-free.\n\nAs you sail, keep your eyes peeled for exciting wildlife sightings, from playful dolphins to majestic whales.\n\nEscape the crowds and experience Waikiki in luxury, with unparalleled comfort and service at your fingertips. Let us pamper you as you create unforgettable memories.\n\nIncludes\nSnorkel Gear\nSCUBA gear for certified divers (Must be requested min 24hrs before charter)\nOptional upgrade discount for Discovery SCUBA for Non\nCertified guests\nLight Snacks, Soft Drinks\nCooler with ice for BYOB\nCancellations",
     "duration": 150,
     "durationText": "Duration 2.5 hour",
@@ -55737,8 +55759,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Check-in 8:45am, 11:45am, 2:45pm",
       "Departs 9am, 12pm, 3pm",
@@ -56069,7 +56091,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/7QrMFp9kTfuI7aq9UG9t",
     "bookingLink": "https://fareharbor.com/embeds/book/kinguphawaii/items/622536/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 3300,
     "description": "Next, we head to the heart of the Big Island’s volcanic activity at Hawaii Volcanoes National Park. Here, you’ll explore awe-inspiring lava fields, craters, and steam vents, and gain insights into the powerful forces that have shaped the island.",
     "duration": 600,
     "durationText": "10 Hours",
@@ -56079,8 +56101,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "175865",
@@ -56122,7 +56145,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/p5Nq9jhnQphNxNomhYNV",
     "bookingLink": "https://fareharbor.com/embeds/book/sail-maui/items/526270/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 3600,
     "description": "Take Your Own Sailboat Whale Watching!\nRates & Duration\nThree Hour Charter\n47' Sailing Catamaran (Up to 6 Passengers): $3,600\nCharter the Fleet (Up to 12 Passengers): $4,800\nCall us about adding hours\nAbout\n\nFrom January through April we watch the North Pacific humpback whales that have traveled from southeast Alaska to grace the crystal clear waters of Maui! Arguably the best place to watch humpbacks in the world, there is absolutely no better way to enjoy these charismatic gentle giants than from your very own sailboat. Leave the crowds and the loud engines behind.\n\nWe depart daily out of Ma'alaea harbor and set sail in search of the best conditions and most interesting and charismatic whale groups. Give us a call if you'd like to add time or create a custom whale watching and snorkeling experience.\n\nWhat's Included\n\nExpert interpretation of whale behavior\nListen to the whales underwater with our state of the art hydrophone (waterproof microphone)\nLight snacks\nNon-alcoholic beverages: water, juices, and sodas are provided\n\nWhat's Not Included\n\nAlcoholic beverages are not included. However, you are welcome to bring alcohol onboard and we have all the appropriate glassware for serving.\n\nGratuity is not included in your charter price\n(Private yacht standard generally starts at 20%)\n\nCancellations",
     "duration": null,
     "durationText": "",
@@ -56132,8 +56155,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 75,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Three Hour Charter",
       "47' Sailing Catamaran (Up to 6 Passengers): $3,600",
@@ -56143,7 +56166,8 @@
       "Listen to the whales underwater with our state of the art hydrophone (waterproof microphone)",
       "Light snacks",
       "Non-alcoholic beverages: water, juices, and sodas are provided"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "580384",
@@ -56969,7 +56993,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/KJN4DsJSD6VYDFooo2QA",
     "bookingLink": "https://fareharbor.com/embeds/book/alohaoceanexcursions/items/573012/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2500,
     "description": "Discover the beauty of Hawaii with an exclusive private charter tailored to your preferences. Ideal for families, friends, and special events, our private charters offer a unique and unforgettable adventure on the pristine waters of the Big Island.",
     "duration": 480,
     "durationText": "Duration\n\n8 hour",
@@ -56979,8 +57003,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "88844",
@@ -57117,7 +57141,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/DE7xRuxTfa0ZpkT378wk",
     "bookingLink": "https://fareharbor.com/embeds/book/alohaoceanexcursions/items/573018/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1500,
     "description": "Discover the beauty of Hawaii with an exclusive private charter tailored to your preferences. Ideal for families, friends, and special events, our private charters offer a unique and unforgettable adventure on the pristine waters of the Big Island.",
     "duration": 240,
     "durationText": "Duration\n\n4 hour",
@@ -57127,8 +57151,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "372543",
@@ -58596,7 +58620,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/Ttwo3Q6ESoSiHGf8sbIf",
     "bookingLink": "https://fareharbor.com/embeds/book/goadventurehawaii/items/375850/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1200,
     "description": "Go Fishing Hawaii offers exclusive fishing charters out of Haleiwa on the world famous “North shore” of Oahu. The North Shore is famous for it’s world class surfing and big waves, but it is also renowned for it’s fishing. Our close proximity to prime fishing grounds means shorter runs out to the fish, more time fishing, and more affordable charters.\n\nAside from good fishing we have been seeing dolphins regularly and Humpback whales every winter as this their mating season here in Hawaii runs from December up until the beginning of May. We invite you to be a part of our “ ohana” or family and share our love for the ocean. Hope to see you soon.\n\nWith years of local experience and an unbeatable crew of captains, each bringing their unique skills and knowledge, our fishing charter offers more than just a day on the water. We’re a team driven by a shared love for the ocean and a dedication to giving you an unforgettable fishing experience. Every trip is set up for a great time, with good music, plenty of laughs, and, of course, the thrill of reeling in some serious fish. Whether you’re a seasoned angler or just starting out, you’ll be in good hands with capta",
     "duration": 540,
     "durationText": "9 Hour Charter",
@@ -58606,11 +58630,12 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "5 hours. With-in that time we can cover up to 30 miles round trip. Getting to depths of 6000ft."
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "474716",
@@ -59055,7 +59080,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/aC1vT76kS9infi1OZzNb",
     "bookingLink": "https://fareharbor.com/embeds/book/oceantherapycharters/items/534853/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1000,
     "description": "Experience the ultimate luxury and exclusivity with a private cruise in Waikiki, where you can bask in the breathtaking beauty of the Hawaiian sunset against the backdrop of the iconic Waikiki skyline coming to life with shimmering lights.",
     "duration": 90,
     "durationText": "1.5 hr",
@@ -59065,8 +59090,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "539335",
@@ -59110,7 +59136,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/Vr5L7RtERbC8nCttBXyL",
     "bookingLink": "https://fareharbor.com/embeds/book/goadventurehawaii/items/331452/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1700,
     "description": "Design your ultimate day on the water with a private custom charter that combines two popular activities for a personalized adventure. From May through October choose from cage-free open-water shark diving, deep-sea fishing, or snorkeling with sea turtles and reef fish; from November through April swap snorkeling for whale watching to seek humpback whales. The captain plans the activity order and time spent based on weather and your interests, delivering a tailored mix of excitement and discovery for your ideal day at sea.\n\nWhat's included\n\nPrivate custom charter combining two activities\n\nSeasonal selection of activities (shark diving, deep-sea fishing, snorkeling, or whale watching)\n\nCaptain determines activity order and time based on weather and guest focus\n\nHighlights\nFully private, customizable day on the water\nChoose two activities tailored to season and preference\nOpportunity for close encounters with marine life, from reef fish and sea turtles to humpback whales or open-water sharks\nAdditional information\nFAQs\nCancellations",
     "duration": 480,
     "durationText": "8 Hours",
@@ -59120,8 +59146,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Private custom charter combining two activities",
       "Seasonal selection of activities (shark diving, deep-sea fishing, snorkeling, or whale watching)",
@@ -59130,7 +59156,8 @@
       "Choose two activities tailored to season and preference",
       "Opportunity for close encounters with marine life, from reef fish and sea turtles to humpback whales or open-water sharks",
       "Food and beverages you will need during the cruise"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "409993",
@@ -59465,7 +59492,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/WpIfiJKkQc7XEYRmeqte",
     "bookingLink": "https://fareharbor.com/embeds/book/dawhaleboat/items/363796/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1250,
     "description": "2 or 4 Hours • Discover Sea Creatures like Octopus, Turtles • Ages 2+\n\n$935\n\t2 Hour Private Charters\nUp to 6 guests\n\n\n$1,250\n\t4 Hour Private Charters\nUp to 6 guests\n\nPrices for Friday, May 1, 2026 at 7:30 AM.\n\nThis is where aloha meets adventure!\nDuration\n2 or 4 hour charter\nAbout\n\nEscape the crowds and dive into an unforgettable underwater adventure with Da Whale Boat! Join our passionate local guides as they lead you on a personalized snorkeling tour through Hawaii’s pristine, secluded reefs—teeming with vibrant marine life and wrapped in breathtaking volcanic landscapes.\n\nYou’ll glide through crystal-clear waters encountering colorful tropical fish, majestic green sea turtles, curious pufferfish, playful dolphins, elegant eagle rays, moray eels, sea urchins, octopus, and more. Each tour is tailored to your comfort and experience level, making it perfect for beginners and seasoned snorkelers alike.\n\nAlong the way, you’ll learn about the rich cultural and natural history of Hawaii, and our team will share ways we can all help protect our coral reefs for generations to come.\nTop-of-the-line snorkel gear, fresh fruit, and refreshing drinks are included. Come experience the magic of Hawaii’s underwater world—without the crowds, and with all the aloha.",
     "duration": 240,
     "durationText": "4 hour charter",
@@ -59475,11 +59502,12 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "2 or 4 hour charter"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "367769",
@@ -59732,7 +59760,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/YP1ebt9XRJyG6JnQsG4I",
     "bookingLink": "https://fareharbor.com/embeds/book/oceantherapycharters/items/551295/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1000,
     "description": "Special Touches for a Beautiful Farewell:\nWe provide fresh plumeria lei petals to scatter along with the ashes. As the petals float on the current and the ashes disperse, the scene is graced with nature's elegance.",
     "duration": 90,
     "durationText": "1.5 hr",
@@ -59742,8 +59770,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "176299",
@@ -59996,7 +60024,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/DB5gMdxwTLNiktRr8IJX",
     "bookingLink": "https://fareharbor.com/embeds/book/gunghosailing/items/37696/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1425,
     "description": "Lahaina Harbor, Maui\n\n3 Hours • Up to 6 People\n\n$1,425\n\tThree Hour Sail\nUp to 6 People\n\nPrices for Thursday, April 30, 2026 at 4:00 PM.\n\nBeautiful and unforgettable Maui sailing!\nDuration\n\n3 Hours\n\nAbout\n\nSail GungHo into the sunset on a beautiful and unforgettable Maui sailing charter. We offer a unique take on the evening offshore adventure.\n\nYou and your group will be treated to the rare experience of sailing a private yacht offshore Maui as the sun dips below the horizon.",
     "duration": 180,
     "durationText": "Duration\n\n3 Hour",
@@ -60006,8 +60034,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "410828",
@@ -60069,7 +60098,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/64r0Of66T8OSyhr52oUB",
     "bookingLink": "https://fareharbor.com/embeds/book/pacificluxuryyachtcharters/items/608763/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 3600,
     "description": "Experience the ultimate getaway aboard your own private luxury yacht off Waikīkī. Relax with breathtaking views of the sunset over the Pacific and the city lights of Honolulu as your backdrop. This 2.",
     "duration": 150,
     "durationText": "Duration\n\n2.5 Hour",
@@ -60079,8 +60108,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "348088",
@@ -60145,7 +60175,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/x74PNNrfQ2GtXEKErWgV",
     "bookingLink": "https://fareharbor.com/embeds/book/hawaiiglassbottomboats-slt/items/414190/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1200,
     "description": "Experience a breathtaking 1.5-hour sunset tour along Oahu’s North Shore. Enjoy panoramic views of the \"7 mile miracle\" and explore the Hawaiian waters on a fast and agile 18-passenger boat. This sunset tour offers an unforgettable evening for families or groups looking to relax and soak in the stunning Hawaiian sunset.\n\nWhat's not included\n\nGoPro videos (available for purchase upon request)\n\nItinerary\nNorth Shore Oahu: Enjoy panoramic sunset views along the famous 7-mile stretch.\nHighlights\nStunning sunset views of North Shore Oahu\nExplore the \"7 mile miracle\"\nFast, agile boat for a smooth ride\nOptional GoPro videos for purchase\nAdditional information\nFAQs\nCancellations",
     "duration": 90,
     "durationText": "Duration\n1.5 Hour",
@@ -60155,8 +60185,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "GoPro videos (available for purchase upon request)",
       "North Shore Oahu: Enjoy panoramic sunset views along the famous 7-mile stretch.",
@@ -60390,7 +60420,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/XoUxlfWiQJCzePE0A1Ov",
     "bookingLink": "https://fareharbor.com/embeds/book/kamoauli/items/179690/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1100,
     "description": "Ho'okele Welo\nDuration\n\n2 Hours\n\n4:30pm - Return after sunset\n4:15pm Check-in\n\nAbout\n\nMo‘olelo & activities w/ Practitioner\nTraditional Voyaging Food Dinner\nRefreshments & Music\nCeremonial sunset 'oli\n\nKamoauli seeks to perpetuate Hawaiian historical and cultural understanding of the landscapes and ocean of O'ahu's Kona coast. Come aboard and experience this unique, place-based educational platform for a sunset sail including dinner, refreshments and music. Please arrive and check in no later than 15 minutes prior to departure.\n\nKamoauli is dedicated to providing a family-oriented experience appropriate for all ages.\n\nCancellations",
     "duration": 120,
     "durationText": "Duration\n\n2 Hour",
@@ -60400,8 +60430,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "424717",
@@ -61412,7 +61443,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/X8YF8cNRQ3KBK7FdvDrK",
     "bookingLink": "https://fareharbor.com/embeds/book/marinahawaii/items/46293/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 195,
     "description": "Цена и Расписание Тура:\nПродолжительность: один день (точное время будет указано после заказа)\nЦена: $ 195 (не включает перелет с других островов)\nпутешествие по острову Мауи\n\nТур вулкан Халеакала\n\nосновные пункты маршрута:\nпосещение национального парка на высоте 3-х километров\nпоселок Кула, панорамные виды острова\nдостопримечтальности на вершине вулкана, виды кратера\nэндемичные виды растений и птиц\nживописная долина и пик Иао\nкупание на одно из лучших пляжей Мауи\nисторический поселок китобоев Лахайна\nвозвращение на корабль или остров Оаху\nCancellations",
     "duration": null,
     "durationText": "",
@@ -61422,8 +61453,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 60,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Продолжительность: один день (точное время будет указано после заказа)",
       "Цена: $ 195 (не включает перелет с других островов)",
@@ -61433,7 +61464,8 @@
       "эндемичные виды растений и птиц",
       "живописная долина и пик Иао",
       "купание на одно из лучших пляжей Мауи"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "205836",
@@ -62613,7 +62645,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/VVZioctRECTykZgseque",
     "bookingLink": "https://fareharbor.com/embeds/book/epicmauihikes/items/555668/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2150,
     "description": "**Custom Times Available—Book Your Slot Today!\nSchedule a time to capture this once-in-a-lifetime vacation with your favorite people. You’ll never regret receiving magical photos from your trip. This price is for a group of six or fewer.",
     "duration": 90,
     "durationText": "Duration: 1.5 hour",
@@ -62623,8 +62655,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "563512",
@@ -63141,7 +63174,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/ztnLVeCTAeMgDkV769X0",
     "bookingLink": "https://fareharbor.com/embeds/book/ultimateboatinghawaii/items/513910/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1499,
     "description": "Embark on the ultimate fishing adventure with our full-day trolling trip, designed to reel in the ocean's pelagic treasures. Spend an entire day navigating the open waters in pursuit of fast and fierce pelagic fish, including marlin, sailfish, wahoo, and the vibrant mahi-mahi. The thrill of trolling awaits as you target these high-speed predators, feeling the excitement as your line zips through the waves. Whether you're a seasoned angler or a first-timer, this trip promises an unforgettable experience.\n\nWhat's included\n\n✅ Top‑notch fishing gear is included, tuned and ready so you can cast like a pro\n✅ A big ol’ cooler packed with ice to keep your catch frosty and your drinks chilly while we chase the next trophy.\n\nAll you have to do is show up, hop in, and let the ocean do the rest. Let’s go make some memories out there.\n\nCancellations",
     "duration": 420,
     "durationText": "7 Hours",
@@ -63151,8 +63184,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "625447",
@@ -63217,7 +63250,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/0NT9579XTVywTLLJYpup",
     "bookingLink": "https://fareharbor.com/embeds/book/ultimateboatinghawaii/items/513907/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1199,
     "description": "Get ready for an awesome 5-hour fishing trip where you can mix it up with bottom fishing and trolling. We're talking about a shot at snagging some cool catches like tuna, mahi-mahi, snapper, trevally, and more.",
     "duration": 300,
     "durationText": "5 Hours",
@@ -63227,8 +63260,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "60049",
@@ -63347,7 +63381,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/ZwtKZo7WSoy7IxsQ3PEz",
     "bookingLink": "https://fareharbor.com/embeds/book/mauiphotographytours/items/321617/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1200,
     "description": "For all ages! • For 2 People • Starting @ $1,200\n\nFree cancellation\nInstant confirmation\nOnce in a lifetime photography expedition!\nPricing\n1 Hour: $1,200\n2 Hour: $2,400\nPrice includes two people\nAbout\nJoin photographer Daniel Sullivan for a doors off helicopter photo tour of Maui, Molokai and Lanai. Experience the power of the surf break at Jaws by doorless helicopter during the big wave season on Maui’s North Shore.\nWhat to bring\nGood walking shoes, Sunscreen, Hat, Bathing suit (optional)\nSnacks and drinks provided\nFor a full day pack a lunch\nGear\nCamera\nWide angle lens such as 14-24 or 24-70\nTelephoto lens (70-200) optional\nFilters 10 stop nd filter optional",
     "duration": 60,
     "durationText": "1 Hour",
@@ -63357,8 +63391,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 75,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "1 Hour: $1,200",
       "2 Hour: $2,400",
@@ -63368,7 +63402,8 @@
       "For a full day pack a lunch",
       "Wide angle lens such as 14-24 or 24-70",
       "Telephoto lens (70-200) optional"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "322053",
@@ -63517,7 +63552,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/wXOExmeTSVOWn9lM1NrJ",
     "bookingLink": "https://fareharbor.com/embeds/book/konacowboysportfishing/items/208038/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1350,
     "description": "Set out to new fishing adventures on the prolific Hawaii waters!\nDuration\n\n8 Hours\n\nAbout\n\nYou’ll be fishing with Captain Shawn Slattery and his crew from a Bertram (Flybridge) sportfisher originally built in 1977 and fully restored in 2019. Powered by two 350HP Cummings engines and maximum cruising speed of 25 knots, she’s got plenty of get-up-and-go!\n\nNot only will you be comfortable on our vessel, but she’s equipped with the latest in electronics gear and safety equipment.\n\nWhether you're a novice or pro, you're going to have a memorable time with this friendly and experienced crew that works very hard to put you on the fish. Whether it’s dinner you're after, or a trophy Blue Marlin, Capt. Shawn will make it happen!\n\nIncluded\nFishing License\nTackle & Bait\nFish Cleaning and Packaging\nComplimentary Photos & Video\nCooler with Ice\nWhat to Bring\nSunscreen\nHat\nSunglasses\nDrinks (no glass)\nSnacks\nCancellations",
     "duration": 480,
     "durationText": "Duration\n\n8 Hour",
@@ -63527,8 +63562,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Fishing License",
       "Tackle & Bait",
@@ -63975,7 +64010,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/zUh8kAeqTjKqjPPDkmzl",
     "bookingLink": "https://fareharbor.com/embeds/book/waikikisportfishing/items/331618/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1050,
     "description": "Join us aboard the Renegade and cruise the majestic blue Pacific Ocean. Start your adventure at Kewalo Basin Harbor, just a few minutes from Waikiki, and join us in search of pelagic fish ranging from 5lbs to over 500lbs!",
     "duration": 480,
     "durationText": "8 hour charter",
@@ -63985,8 +64020,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "starting at"
   },
   {
     "id": "331621",
@@ -64211,7 +64246,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/CIBpCnPAQmOgsph6ysvX",
     "bookingLink": "https://fareharbor.com/embeds/book/ultimateboatinghawaii/items/513908/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1199,
     "description": "Get ready for an awesome 5-hour fishing trip where you can mix it up with bottom fishing and trolling. We're talking about a shot at snagging some cool catches like tuna, mahi-mahi, snapper, trevally, and more.",
     "duration": 300,
     "durationText": "5 Hours",
@@ -64221,8 +64256,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "22483",
@@ -64318,7 +64354,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/wqmQxAx7TOSDhQjlNz9Y",
     "bookingLink": "https://fareharbor.com/embeds/book/dawhaleboat/items/502367/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1125,
     "description": "Our fishing experience allows one to have a pole in hand, learn the art of casting, see why people love to bottom fish, and more! We allow for time to clean, when a fish is caught, so you can take home dinner. We only take what we can eat.",
     "duration": 180,
     "durationText": "Duration\n\n3 Hour",
@@ -64328,8 +64364,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "217711",
@@ -65301,7 +65338,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/ZrjavVdqR1eAWciQeMSZ",
     "bookingLink": "https://fareharbor.com/embeds/book/kepoikai/items/605996/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2400,
     "description": "Sit back, relax, and enjoy the beautiful scenery of Waikiki Beach!\nDuration\n\n1 & 2 hour options\n\nAbout\n\nCatamaran sailing is one of the best ways to sit back, relax, and just take in the beautiful scenery of Waikiki Beach and the ocean surrounding it. Let the ocean be your sanctuary away from it all and take a relaxing catamaran sail aboard the Kepoikai II Catamaran. Mai Tais, beer, and soft drinks are available onboard for purchase.\n\nEscape the ordinary aboard this beautiful vessel, head out into the open ocean, and feel the stresses of daily life being washed away!\n\nCancellations",
     "duration": 120,
     "durationText": "2 hour",
@@ -65311,8 +65348,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "86756",
@@ -65803,7 +65840,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/RfQ85hhBSIOZxQM4veh8",
     "bookingLink": "https://fareharbor.com/embeds/book/customislandtours/items/485653/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1000,
     "description": "You can pick and choose the stops on the island tour and go at your own pace. The sailboat leaves from the harbor in Waikiki and sails between the harbor and Diamond Head Crater, and stops at Turtle Canyon to swim with the turtles.",
     "duration": 300,
     "durationText": "5Hrs",
@@ -65813,8 +65850,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 100,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "512571",
@@ -66357,7 +66395,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/nCEQ0LvGQce6rObyEFPT",
     "bookingLink": "https://fareharbor.com/embeds/book/gunghosailing/items/186837/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1900,
     "description": "Snorkel and sail - enjoy the best of Maui's gorgeous marine coastline! Our snorkel sail includes snorkelling followed by sailing along Maui's spectacular coastline. All snorkel gear and instruction is included. Fresh pineapple is included.",
     "duration": 240,
     "durationText": "4 Hours",
@@ -66367,8 +66405,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "213988",
@@ -66435,7 +66474,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/iD1iklkYQsC38PGnzQXj",
     "bookingLink": "https://fareharbor.com/embeds/book/sail-maui/items/328720/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2880,
     "description": "Tucked beneath the cliffs are large coral outcroppings that make for beautiful underwater topography and snorkeling. We have a variety of sites along this coast which are some of Maui’s premier snorkel sites including coral gardens.",
     "duration": 240,
     "durationText": "4 Hours",
@@ -66445,8 +66484,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "470369",
@@ -67365,7 +67405,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/arz2GUHeRluKZ4CLCyag",
     "bookingLink": "https://fareharbor.com/embeds/book/ponophotomaui/items/683729/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1999,
     "description": "ALOHA FRIENDS, I'M CLARISSA,\nWedding Photographer and Passionate for capturing moments gathered with love, joy and celebration. You bring your love, smiles and excitement which enables  me to capture those moments you will never forget.",
     "duration": null,
     "durationText": "",
@@ -67375,8 +67415,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 75,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "686306",
@@ -67390,7 +67431,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/Kfw0axY8SmGlW0feap0b",
     "bookingLink": "https://fareharbor.com/embeds/book/ponophotomaui/items/686306/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2650,
     "description": "WEDDING PHOTOGRAPHY PACKAGES\n\nAll Packages Include Clarissa and her assistant, PROFESSIONAL EDITING and RETOUCHING of all images and FULL REPRODUCTION RIGHTS.\n\n​\n\nWhat's included\n\n3 hours of unlimited digital photography\n\n1 hour of second photographer\n\nCovers ceremony, family portraits and bridal party\n\nRomantic and fun session with bride and groom\n\nGetting ready images and/or some reception images\n\nEntire series Professionally Edited\n\nOnline gallery and app with entire series of all High Resolution Images available for download\n\nAdditional information\nCancellations",
     "duration": 180,
     "durationText": "Duration\n3 Hour",
@@ -67400,8 +67441,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "3 hours of unlimited digital photography",
       "1 hour of second photographer",
@@ -67410,7 +67451,8 @@
       "Getting ready images and/or some reception images",
       "Entire series Professionally Edited",
       "Online gallery and app with entire series of all High Resolution Images available for download"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "686312",
@@ -67577,7 +67619,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/yekhUbgdR5Vu2nZn6UXQ",
     "bookingLink": "https://fareharbor.com/embeds/book/ponophotomaui/items/684855/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1450,
     "description": "WEDDING PHOTOGRAPHY PACKAGES\n\nAll Packages Include Clarissa and her assistant, PROFESSIONAL EDITING and RETOUCHING of all images and FULL REPRODUCTION RIGHTS.\n\n​\n\nWhat's included\n\n1 hour of unlimited digital photography\n\nRecommended only for small weddings with 15 guests or less\n\nCovers ceremony, family portraits and portraits of the bride and groom\n\nEntire series Professionally Edited\n\nOnline gallery with entire series of all High Resolution Images available for download\n\nAdditional information\nCancellations",
     "duration": 60,
     "durationText": "Duration\n1 Hour",
@@ -67587,15 +67629,16 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "1 hour of unlimited digital photography",
       "Recommended only for small weddings with 15 guests or less",
       "Covers ceremony, family portraits and portraits of the bride and groom",
       "Entire series Professionally Edited",
       "Online gallery with entire series of all High Resolution Images available for download"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "686263",
@@ -67609,7 +67652,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/D3sZxmMS965fnwkryzQQ",
     "bookingLink": "https://fareharbor.com/embeds/book/ponophotomaui/items/686263/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2150,
     "description": "​2 hours of unlimited photography\nSecond Photographer\nCovers ceremony, family portraits and bridal party\nRomantic and fun series of the bride and groom\nEntire series Professionally Edited \nOnline gallery and app with entire series of all High Resolut...",
     "duration": 120,
     "durationText": "Duration\n2 Hour",
@@ -67619,8 +67662,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "417778",
@@ -67633,7 +67677,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/KJdxlzLQmGiMiyAe8Kj9",
     "bookingLink": "https://fareharbor.com/embeds/book/familyphotographyprosoahu/items/417778/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 4590,
     "description": "Package includes:\n✓200+ final edited images\n✓ Multiple locations and outfit changes\n✓ Premium retouching/editing for every image\n✓ Complimentary consultation call\n✓ Online gallery delivery, digital downloads with full resolution...",
     "duration": null,
     "durationText": "",
@@ -67643,8 +67687,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 75,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "55940",
@@ -67682,7 +67727,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/Cim46iFeTA29y5eZpywJ",
     "bookingLink": "https://fareharbor.com/embeds/book/gunghosailing/items/153880/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2400,
     "description": "This is a private lesson for up to 4 people. Whether you are a beginner looking to get into sailing, or have some experience and looking to reinforce and build upon what you already know. We will tailor this lesson to challenge you at your pace.",
     "duration": 240,
     "durationText": "Duration\n\n4 Hour",
@@ -67692,8 +67737,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 90,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "179653",
@@ -67757,7 +67803,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/ggVkAMZR52H8zWQRAa3Q",
     "bookingLink": "https://fareharbor.com/embeds/book/diveoahu/items/534383/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2000,
     "description": "The Instructor Development Course consists of both the Assistant Instructor and the Open Water Scuba Instructor Course. With these tools you will learn to conduct all PADI core courses. You'll be able to organize and present information, conduct skill development sessions and control open water dives.\n\nPADI Open Water Scuba Instructors are the most sought-after dive professionals around the world because they've completed the program that sets the standard for training dive professionals.\n\nYou earn a PADI Instructor rating through hard work and commitment, but you're rewarded with a job that lets you share incredible underwater adventures with others - transforming their lives for the better and enriching yours.\n\nPrerequisites:\nPADI Divemaster who has been a certified diver for six months or longer (or qualifying certification)\n60 Logged Dives\nEmergency First Response Primary & Secondary Care within 24 months\nMedically evaluated and cleared by a physician within 12 months\nEmergency First Response Instructor Certification to qualify for Instructor Exam\nDuration:\nFour week course\nSchedule:\nMondays: 5:30 pm to 9:00 pm\nTuesdays: 5:30 pm to 9:00 pm\nThursdays: 5:30 pm to 9:00 pm\nSaturdays: 7:00 am to 12:00 pm\nCancellations",
     "duration": null,
     "durationText": "",
@@ -67767,8 +67813,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 75,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "PADI Divemaster who has been a certified diver for six months or longer (or qualifying certification)",
       "60 Logged Dives",
@@ -67778,7 +67824,8 @@
       "Four week course",
       "Mondays: 5:30 pm to 9:00 pm",
       "Tuesdays: 5:30 pm to 9:00 pm"
-    ]
+    ],
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "534101",
@@ -67792,7 +67839,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/Ezhm95l8QVCKcjpj4mBA",
     "bookingLink": "https://fareharbor.com/embeds/book/diveoahu/items/534101/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1500,
     "description": "PADI Divemaster is the most popular and most recognized professional scuba certification in the world. PADI Divemasters enjoy abundant career opportunities, get paid to scuba dive and share their love for the ocean.",
     "duration": null,
     "durationText": "",
@@ -67802,8 +67849,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 75,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "114418",
@@ -68560,7 +68608,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/xktrif8PRjWWvW1xklia",
     "bookingLink": "https://fareharbor.com/embeds/book/sail-maui/items/193271/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2160,
     "description": "Take Your Own Sailboat Whale Watching!\nRates & Duration\nThree Hour Charter\n42' Sailing Monohull (Up to 6 Passengers): $2,160\nCharter the Fleet (Up to 12 Passengers): $4,800\nCall us about adding hours\nAbout\n\nFrom January through April we watch the North Pacific humpback whales that have traveled from southeast Alaska to grace the crystal clear waters of Maui! Arguably the best place to watch humpbacks in the world, there is absolutely no better way to enjoy these charismatic gentle giants than from your very own sailboat. Leave the crowds and the loud engines behind.\n\nWe depart daily out of Ma'alaea harbor and set sail in search of the best conditions and most interesting and charismatic whale groups. Give us a call if you'd like to add time or create a custom whale watching and snorkeling experience.\n\nWhat's Included\n\nExpert interpretation of whale behavior\nListen to the whales underwater with our state of the art hydrophone (waterproof microphone)\nLight snacks\nNon-alcoholic beverages: water, juices, and sodas are provided\n\nWhat's Not Included\n\nAlcoholic beverages are not included. However, you are welcome to bring alcohol onboard and we have all the appropriate glassware for serving.\n\nGratuity is not included in your charter price\n(Private yacht standard generally starts at 20%)\n\nCancellations",
     "duration": null,
     "durationText": "",
@@ -68570,8 +68618,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "starting at",
     "highlights": [
       "Three Hour Charter",
       "42' Sailing Monohull (Up to 6 Passengers): $2,160",
@@ -68702,7 +68750,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/mvryH7WvRnemjE6mFBef",
     "bookingLink": "https://fareharbor.com/embeds/book/olaparadive/items/451702/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 4000,
     "description": "This Course is tailored to train qualified Rescue Divers in how to control, manage and supervise groups of divers.\nThis 3 module course provides extensive development of ones diving skills, stamina and theoretical diving knowledge.",
     "duration": null,
     "durationText": "",
@@ -68712,8 +68760,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 75,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "470465",
@@ -70629,7 +70678,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/ofECBu8gTyqfpaK8nLd2",
     "bookingLink": "https://fareharbor.com/embeds/book/oceanecotour/items/587813/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1500,
     "description": "Embark on a family-friendly snorkeling adventure to Kealakekua Bay, a protected marine sanctuary known for crystal-clear water, vibrant coral reefs, and abundant marine life. Guided by experienced staff, this relaxed experience welcomes snorkelers of all skill levels and focuses on safe, memorable encounters with colorful fish and sea turtles. The tour blends natural beauty and cultural history—Kealakekua Bay is also the historic site of Captain Cook’s arrival—offering families a serene, educational outing and a chance to create lasting photos and memories in one of Hawaii’s most pristine underwater environments.\n\nWhat's included\n\nFree photos of animals encountered, emailed within 3 days\n\nAll snorkeling equipment\n\nLight snacks\n\nHighlights\nSnorkel in a protected, crystal-clear marine sanctuary\nOpportunity to see colorful fish and sea turtles\nFamily-friendly guided experience suitable for beginners to experts\nFree animal photos from your trip emailed after the tour\nAdditional information\nCancellations",
     "duration": 240,
     "durationText": "4 Hours",
@@ -70639,8 +70688,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "charter",
     "highlights": [
       "Free photos of animals encountered, emailed within 3 days",
       "All snorkeling equipment",
@@ -71220,7 +71269,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/zz7rwg7vQSqTzPiqR5t0",
     "bookingLink": "https://fareharbor.com/embeds/book/snorkelbigisland/items/391875/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1800,
     "description": "Departing from Honokohau Harbor join us for an epic morning snorkel.\nDuration\n\n4 Hours\n\nAbout\nDeparting from Honokohau Harbor join us for an epic morning snorkel. The Kona Coast is known for its clear water, calm conditions, and versatile underwater topography. Snorkel above the beautiful reefs, in private and secluded areas along the coast or at the well known Captain Cook Monument in Kealakekua Bay. Snorkel destination to be determined by captain, guests, and conditions permitting. A Cooler With ICE, Water and Light Snacks are provided, as well as snorkeling gear and flotation equipment.\nCancellations",
     "duration": 240,
     "durationText": "Duration\n\n4 Hour",
@@ -71230,8 +71279,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 80,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "403639",
@@ -75892,7 +75941,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/proZQKplTyWy2yx2957b",
     "bookingLink": "https://fareharbor.com/embeds/book/wildhawaiitours/items/497326/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1900,
     "description": "We will do a full tour of the North half of the big island which offers beautiful waterfalls scenic lookouts, luscious rainforests, black sand beaches and historic towns. Spending as much or as little time at each location as you like!",
     "duration": 600,
     "durationText": "10 Hour Tour",
@@ -75902,8 +75951,9 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 85,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "417214",
@@ -76361,7 +76411,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/FlrGkeRYSn2UwuarAyNk",
     "bookingLink": "https://fareharbor.com/embeds/book/magicalcreaturessanctuary/items/407488/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 70,
     "description": "Kids are welcome and tours are appropriate for all ages but for everyone's safety, we request that groups have a maximum of 2 children 12 and under per adult. We are located outside of Laupahoehoe on the east side of Hawaii's Big Island.",
     "duration": 120,
     "durationText": "2 hours",
@@ -76371,8 +76421,8 @@
     "reviewCount": null,
     "ratingSource": "tripadvisor",
     "qualityScore": 95,
-    "priceConfidence": null,
-    "priceLabel": null
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "683784",
