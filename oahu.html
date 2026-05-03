@@ -343,6 +343,16 @@
         let displayedCount = 0;
         const TOURS_PER_PAGE = 24;
 
+        // Fisher-Yates shuffle (non-mutating)
+        function shuffleArray(arr) {
+            const a = [...arr];
+            for (let i = a.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [a[i], a[j]] = [a[j], a[i]];
+            }
+            return a;
+        }
+
         // Load tours on page load
         document.addEventListener('DOMContentLoaded', async () => {
             try {
@@ -356,8 +366,8 @@
                     tour.island && tour.island.toLowerCase() === ISLAND_FILTER
                 );
                 
-                // Sort by quality score
-                allTours.sort((a, b) => (b.qualityScore || 0) - (a.qualityScore || 0));
+                // Random shuffle on each page load (per-page-load only)
+                allTours = shuffleArray(allTours);
                 
                 // Initialize filtered tours
                 filteredTours = [...allTours];
