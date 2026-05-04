@@ -264,6 +264,26 @@ function capitalizeIsland(island) {
     return island.charAt(0).toUpperCase() + island.slice(1);
 }
 
+// Inject the home in-grid MRec sponsor slot after the 8th tour card on the
+// first page render. Re-rendering (filter change) wipes the grid via
+// innerHTML, so we re-inject; load-more (append=true) leaves the existing
+// slot in place and does not duplicate.
+function injectHomeMrecAfterEighthCard(grid) {
+    if (!grid || grid.querySelector('.home-mrec-injected')) return;
+    const cards = grid.querySelectorAll('.tour-card');
+    if (cards.length < 8) return;
+    const slotHtml = '<div class="sponsor-slot home-mrec-injected"' +
+        ' data-slot-id="home-mrec-1"' +
+        ' data-slot-type="mrec"' +
+        ' data-slot-page="home"' +
+        ' data-allow-adsense="true"' +
+        ' data-adsense-slot="4595979458"></div>';
+    cards[7].insertAdjacentHTML('afterend', slotHtml);
+    if (window.SponsorSlot && typeof window.SponsorSlot.refresh === 'function') {
+        window.SponsorSlot.refresh('home-mrec-1');
+    }
+}
+
 // Render tours to grid
 function renderTours(append = false) {
     const grid = document.getElementById('tours-grid');
@@ -278,6 +298,7 @@ function renderTours(append = false) {
         grid.insertAdjacentHTML('beforeend', html);
     } else {
         grid.innerHTML = html;
+        injectHomeMrecAfterEighthCard(grid);
     }
 
     // The click delegation that used to call openBookingWithLoader was a
