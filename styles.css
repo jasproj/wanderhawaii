@@ -1617,16 +1617,25 @@ section { padding: var(--space-3xl) 0; }
     
     /* Hero Mobile */
     .hero {
-        min-height: 100svh;
-        padding: 90px var(--space-md) 20px;
+        min-height: 90px;
+        max-height: 120px;
+        padding: 8px var(--space-md);
+        overflow: hidden;
     }
-    
+
     .hero-content {
         padding: 0 20px;
-        padding-bottom: 180px;
+        padding-bottom: 0;
         width: 100%;
         max-width: 100%;
         box-sizing: border-box;
+    }
+
+    .hero-tagline,
+    .hero-logo-pill,
+    .hero-subtitle,
+    .quick-tags-wrapper {
+        display: none;
     }
     
     .hero-tagline {

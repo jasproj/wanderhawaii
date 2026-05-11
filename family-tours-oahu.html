@@ -87,6 +87,12 @@
             .included-grid { grid-template-columns: 1fr; }
             .section-title { font-size: 1.5rem; }
         }
+        @media (max-width: 767px) {
+            .hero-section { padding: 8px 20px 6px; min-height: 90px; max-height: 120px; overflow: hidden; }
+            .hero-section h1 { font-size: 1.1rem; margin-bottom: 4px; line-height: 1.15; }
+            .hero-section p,
+            .hero-section .hero-stats { display: none; }
+        }
     </style>
     <script>
         function trackCTA() {
