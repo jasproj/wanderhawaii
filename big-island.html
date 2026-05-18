@@ -361,7 +361,8 @@
                 const response = await fetch('tours-data.json');
                 if (!response.ok) throw new Error('Failed to load tours');
                 
-                const data = await response.json();
+                const _raw = await response.json();
+                const data = Array.isArray(_raw) ? _raw : _raw.tours;
                 
                 // Filter to this island only
                 allTours = data.filter(tour => 
