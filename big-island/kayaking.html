@@ -265,7 +265,8 @@
             const response = await fetch('../tours-data.json');
             if (!response.ok) throw new Error(`HTTP ${response.status}`);
             
-            toursData = await response.json();
+            const _raw = await response.json();
+            toursData = Array.isArray(_raw) ? _raw : _raw.tours;
             filteredTours = toursData.filter(tour => 
                 tour.island?.toLowerCase() === ISLAND && 
                 tour.tags?.includes(ACTIVITY)
