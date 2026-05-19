@@ -75,12 +75,12 @@ function trackLoadMoreClick() {
 // 3. Loading indicator with optimization
 function openBookingWithLoader(url, tour) {
     event && event.preventDefault && event.preventDefault();
-    
+
     // Track the booking click
     if (tour) {
         trackTourBooking(tour);
     }
-    
+
     const loader = document.createElement('div');
     loader.id = 'booking-loader';
     loader.className = 'booking-loader';
@@ -91,10 +91,10 @@ function openBookingWithLoader(url, tour) {
         </div>
     `;
     document.body.appendChild(loader);
-    
+
     setTimeout(() => loader.style.opacity = '1', 10);
     window.open(url, '_blank', 'noopener,noreferrer');
-    
+
     setTimeout(() => {
         loader.style.opacity = '0';
         setTimeout(() => loader.remove(), 300);
@@ -110,22 +110,22 @@ async function loadTours() {
         console.log('🔄 Fetching tours-data.json...');
         const response = await fetch('tours-data.json');
         console.log(`📥 Response status: ${response.status}`);
-        
+
         if (!response.ok) {
             throw new Error(`HTTP ${response.status}: ${response.statusText}`);
         }
-        
+
         const _raw = await response.json();
         toursData = Array.isArray(_raw) ? _raw : _raw.tours;
         console.log(`✅ Loaded ${toursData.length} tours`);
-        
+
         // Initial shuffle for randomization (per page load, non-mutating)
         toursData = shuffleArray(toursData);
         filteredTours = [...toursData];
-        
+
         // Pre-cache booking URLs for instant clicks
         preCacheBookingUrls(toursData);
-        
+
         displayedCount = 0;
         renderTours();
         updateResultsCount();
@@ -217,25 +217,25 @@ function createTourCard(tour) {
     const truncatedDesc = safeDesc.length > 120
         ? safeDesc.substring(0, safeDesc.lastIndexOf(' ', 117)) + '…'
         : safeDesc;
-    
+
     const score = tour.qualityScore || 0;
     const badge = scoreLabel(score);
-    const qualityBadge = badge 
-        ? `<span class="quality-badge">⭐ ${badge}</span>` 
+    const qualityBadge = badge
+        ? `<span class="quality-badge">⭐ ${badge}</span>`
         : '';
-    
+
     const cleanLoc = cleanLocation(tour.location);
     const priceDisplay = formatPrice(tour.price, tour.priceConfidence);
-    
+
     const schema = generateTourSchema(tour);
     const schemaJson = JSON.stringify(schema).replace(/<\/script/gi, '<\\/script');
-    
+
     let badgesHtml = '<div class="tour-badges">';
     if (tour.freeCancellation) {
         badgesHtml += '<span class="trust-badge free-cancel">Free Cancellation</span>';
     }
     badgesHtml += '</div>';
-    
+
     return `
         <article class="tour-card" data-id="${tour.id}">
             <script type="application/ld+json">${schemaJson}</script>
@@ -289,12 +289,12 @@ function injectHomeMrecAfterEighthCard(grid) {
 function renderTours(append = false) {
     const grid = document.getElementById('tours-grid');
     const toursToShow = filteredTours.slice(
-        append ? displayedCount : 0, 
+        append ? displayedCount : 0,
         displayedCount + TOURS_PER_PAGE
     );
-    
+
     const html = toursToShow.map(createTourCard).join('');
-    
+
     if (append) {
         grid.insertAdjacentHTML('beforeend', html);
     } else {
@@ -312,7 +312,7 @@ function renderTours(append = false) {
     displayedCount = append
         ? displayedCount + toursToShow.length
         : toursToShow.length;
-    
+
     // Show/hide load more button
     const loadMoreBtn = document.getElementById('load-more');
     if (loadMoreBtn) {
@@ -340,23 +340,23 @@ function filterTours() {
     const activityFilter = document.getElementById('activity-filter')?.value || '';
     const sortFilter = document.getElementById('sort-filter')?.value || 'quality';
     const searchInput = document.getElementById('search-input')?.value?.toLowerCase() || '';
-    
+
     // Track filter usage
     if (islandFilter) trackFilterChange('island', islandFilter);
     if (activityFilter) trackFilterChange('activity', activityFilter);
     if (searchInput) trackSearchUsed(searchInput);
-    
+
     filteredTours = toursData.filter(tour => {
         // Island filter
         if (islandFilter && tour.island?.toLowerCase() !== islandFilter) {
             return false;
         }
-        
+
         // Activity filter
         if (activityFilter && !tour.tags?.includes(activityFilter)) {
             return false;
         }
-        
+
         // Search filter
         if (searchInput) {
             const searchFields = [
@@ -366,22 +366,22 @@ function filterTours() {
                 tour.description,
                 ...(tour.tags || [])
             ].join(' ').toLowerCase();
-            
+
             if (!searchFields.includes(searchInput)) {
                 return false;
             }
         }
-        
+
         return true;
     });
-    
+
     // Sort
     if (sortFilter === 'quality') {
         filteredTours.sort((a, b) => (b.qualityScore || 0) - (a.qualityScore || 0));
     } else if (sortFilter === 'name') {
         filteredTours.sort((a, b) => a.name.localeCompare(b.name));
     }
-    
+
     displayedCount = 0;
     renderTours();
     updateResultsCount();
@@ -400,12 +400,12 @@ function clearAllFilters() {
     const activityFilter = document.getElementById('activity-filter');
     const sortFilter = document.getElementById('sort-filter');
     const searchInput = document.getElementById('search-input');
-    
+
     if (islandFilter) islandFilter.value = '';
     if (activityFilter) activityFilter.value = '';
     if (sortFilter) sortFilter.value = 'quality';
     if (searchInput) searchInput.value = '';
-    
+
     filterTours();
 }
 
@@ -416,7 +416,7 @@ function quickFilter(term) {
         searchInput.value = term;
     }
     filterTours();
-    
+
     // Scroll to tours section
     document.getElementById('tours-section')?.scrollIntoView({ behavior: 'smooth' });
 }
@@ -432,7 +432,7 @@ function executeHeroSearch() {
 // Event listeners
 document.addEventListener('DOMContentLoaded', () => {
     loadTours();
-    
+
     // Filter change listeners
     document.getElementById('island-filter')?.addEventListener('change', () => {
         const val = document.getElementById('island-filter').value;
@@ -449,14 +449,14 @@ document.addEventListener('DOMContentLoaded', () => {
         if (val) trackFilterChange('sort', val);
         filterTours();
     });
-    
+
     // Search input with debounce
     let searchTimeout;
     document.getElementById('search-input')?.addEventListener('input', (e) => {
         clearTimeout(searchTimeout);
         searchTimeout = setTimeout(filterTours, 300);
     });
-    
+
     // Hero search enter key
     document.getElementById('hero-search')?.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') {
@@ -477,17 +477,23 @@ document.querySelector('.mobile-menu-btn')?.addEventListener('click', function()
 
 // Weather widget
 async function loadWeather() {
+    const CACHE_KEY = 'wx-cache-whaw';
+    const TTL_MS = 10 * 60 * 1000;
+    const weatherEl = document.getElementById('header-weather');
+    if (!weatherEl) return;
     try {
+        const cached = JSON.parse(sessionStorage.getItem(CACHE_KEY) || 'null');
+        if (cached && Date.now() - cached.ts < TTL_MS) {
+            weatherEl.querySelector('.weather-temp').textContent = `${cached.temp}°F`;
+            return;
+        }
         const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=21.31&longitude=-157.86&current_weather=true&temperature_unit=fahrenheit');
         const data = await response.json();
         const temp = Math.round(data.current_weather.temperature);
-        
-        const weatherEl = document.getElementById('header-weather');
-        if (weatherEl) {
-            weatherEl.querySelector('.weather-temp').textContent = `${temp}°F`;
-        }
+        weatherEl.querySelector('.weather-temp').textContent = `${temp}°F`;
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify({ temp, ts: Date.now() }));
     } catch (error) {
-        console.log('Weather unavailable');
+        // Silent fail
     }
 }
 
@@ -514,13 +520,13 @@ if (sessionStorage.getItem('promoBannerClosed') === 'true') {
 document.addEventListener('DOMContentLoaded', () => {
     const stickyBar = document.getElementById('sticky-cta-bar');
     if (!stickyBar) return;
-    
+
     const heroSection = document.querySelector('.hero') || document.querySelector('.tours-section');
     let heroScrolled = false;
-    
+
     window.addEventListener('scroll', () => {
         const scrolled = window.scrollY > (heroSection?.offsetHeight || 300);
-        
+
         if (scrolled && !heroScrolled) {
             stickyBar.classList.add('visible');
             heroScrolled = true;
@@ -529,7 +535,7 @@ document.addEventListener('DOMContentLoaded', () => {
             heroScrolled = false;
         }
     });
-    
+
     const ctaButton = stickyBar.querySelector('button');
     if (ctaButton) {
         ctaButton.addEventListener('click', () => {
