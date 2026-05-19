@@ -115,7 +115,8 @@ ul, ol { list-style: none; }
 }
 
 /* Logo Image Styles */
-.logo-img {
+.logo-img,
+.logo-icon {
     height: 80px;
     width: auto;
     vertical-align: middle;
@@ -135,8 +136,8 @@ ul, ol { list-style: none; }
     max-width: 90%;
     filter:
         drop-shadow(0 4px 6px rgba(0, 0, 0, 0.4))
-        drop-shadow(0 0 25px #FFB3C8)
-        drop-shadow(0 0 50px #FFB3C8);
+        drop-shadow(0 0 25px #FFFFFF)
+        drop-shadow(0 0 50px #FFFFFF);
 }
 
 .footer-logo-img {
@@ -198,7 +199,8 @@ ul, ol { list-style: none; }
     .header-weather {
         display: none;
     }
-    .logo-img {
+    .logo-img,
+    .logo-icon {
         height: 60px;
     }
     .hero-logo-img {
