@@ -15,9 +15,25 @@
      global on pages where app.js loads (homepage and tour grids). That
      path is intentionally left alone; app.js fires through its own grid
      handler, and our delegation does not match <button> elements.
+
+   utm_source tagging:
+   - On every FareHarbor link click, we append utm_source=wanderhawaii
+     so GA4 can attribute the booking to WHAW.
+   - appendUtmSource is a vendored copy of _tools/generators/source-tag.js
+     (PR _tools#84, 4e73885). Inlined here instead of loaded as a
+     separate <script> to avoid editing 114 page <head> blocks.
 */
 
 (function () {
+    function appendUtmSource(url, slug) {
+        if (typeof url !== 'string' || !url) return url;
+        if (typeof slug !== 'string' || !slug) return url;
+        if (url.indexOf('fareharbor.com') === -1) return url;
+        if (/[?&]utm_source=/.test(url)) return url;
+        var sep = url.indexOf('?') === -1 ? '?' : '&';
+        return url + sep + 'utm_source=' + encodeURIComponent(slug);
+    }
+
     var CTA_CLASSES = [
         'book-btn',
         'book-btn-inline',
@@ -81,6 +97,9 @@
         var href = link.getAttribute('href') || '';
         var isFareHarbor = href.indexOf('fareharbor.com') !== -1;
         if (!isFareHarbor && !hasCtaClass(link)) return;
+        if (isFareHarbor) {
+            link.href = appendUtmSource(link.href, 'wanderhawaii');
+        }
         var ctx = readContext(link);
         if (typeof gtag === 'undefined') return;
         gtag('event', 'booking_click', {
