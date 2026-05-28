@@ -144,6 +144,13 @@
             text-decoration: none; border-radius: 10px;
         }
         .sheet-empty { padding: 24px 16px; color: var(--muted); text-align: center; }
+        .see-all {
+            display: flex; align-items: center; justify-content: center;
+            min-height: 48px; padding: 0 16px; margin: 4px 0 8px;
+            border: 1px solid var(--accent); border-radius: 10px;
+            color: var(--accent); font-weight: 600; font-size: 14px;
+            text-decoration: none; text-align: center;
+        }
 
         @media (min-width: 720px) {
             .sheet { left: 50%; transform: translate(-50%, 100%); width: 560px; border-radius: 16px 16px 0 0; }
@@ -185,6 +192,8 @@
     (function () {
         var HAWAII_CENTER = [20.5, -157];
         var HAWAII_ZOOM = 7;
+        var SHEET_CAP = 12;      // max cards in the bottom sheet before "see all"
+        var TOURS_LIST_URL = '/#tours-section';
         var map = null;
         var activated = false;
         var groups = {}; // location string -> { geo, cityLabel, tours: [] }
@@ -276,9 +285,17 @@
                 sheetList.appendChild(el('div', 'sheet-empty', 'No tours to show.'));
             } else {
                 var frag = document.createDocumentFragment();
-                sorted.forEach(function (t) { frag.appendChild(buildCard(t)); });
+                sorted.slice(0, SHEET_CAP).forEach(function (t) { frag.appendChild(buildCard(t)); });
+                // Cap the sheet; deep-link the rest to the main tours list (the
+                // site has no per-location filter URL — search is form-only).
+                if (sorted.length > SHEET_CAP) {
+                    var more = el('a', 'see-all', 'See all ' + sorted.length + ' tours in ' + g.cityLabel + ' →');
+                    more.setAttribute('href', TOURS_LIST_URL);
+                    frag.appendChild(more);
+                }
                 sheetList.appendChild(frag);
             }
+            sheetList.scrollTop = 0;
             sheet.classList.add('open');
             sheet.setAttribute('aria-hidden', 'false');
             backdrop.classList.add('open');
