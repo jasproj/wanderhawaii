@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Map | WanderHawaii</title>
+
+    <!-- Pilot discovery surface — keep out of the index, but follow links. -->
+    <meta name="robots" content="noindex,follow">
+    <link rel="canonical" href="https://wanderhawaii.com/">
+    <meta name="description" content="Explore Hawaiian tours by location on an interactive map.">
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+
+    <!-- Google Analytics 4 (stream G-PL7CN6NG44) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL7CN6NG44"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PL7CN6NG44');
+    </script>
+    <!-- Site-wide booking_click delegation (tags this page's CTAs source=map). -->
+    <script src="/tracking.js" defer></script>
+
+    <!-- Leaflet 1.9.4 (cdnjs). SRI intentionally omitted to avoid a hard
+         page break if a hash drifts; tiles/markers degrade gracefully. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <style>
+        :root { --ink:#15323f; --muted:#5c7480; --line:#e1e8ec; --accent:#0a7d8c; }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+            color: var(--ink);
+            background: #fff;
+        }
+        .map-head {
+            padding: 18px 16px 12px;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+        .map-head a.back { color: var(--accent); text-decoration: none; font-size: 14px; }
+        .map-head h1 { font-size: 22px; margin: 8px 0 4px; }
+        .map-head p { margin: 0; color: var(--muted); font-size: 14px; }
+
+        /* Fixed height hardcoded to prevent layout shift (CLS) before init. */
+        .map-wrap {
+            position: relative;
+            height: 60vh;
+            max-height: 480px;
+            background: #e8eef1;
+            margin: 0 auto;
+            max-width: 960px;
+        }
+        #map { position: absolute; inset: 0; height: 100%; width: 100%; }
+
+        /* Tap-to-explore overlay: Leaflet is not initialised until tapped. */
+        .map-overlay {
+            position: absolute; inset: 0; z-index: 500;
+            display: flex; align-items: center; justify-content: center;
+            flex-direction: column; gap: 6px;
+            background: #e8eef1;
+            cursor: pointer;
+            text-align: center; padding: 16px;
+        }
+        .map-overlay .pin { font-size: 30px; line-height: 1; }
+        .map-overlay .label {
+            font-weight: 600; font-size: 16px; color: var(--ink);
+            min-height: 48px; display: inline-flex; align-items: center;
+            padding: 0 18px; background: #fff; border-radius: 999px;
+            box-shadow: 0 2px 8px rgba(21,50,63,.15);
+        }
+        .map-overlay .hint { font-size: 13px; color: var(--muted); }
+        .map-overlay.hidden { display: none; }
+        .map-overlay.loading .label { opacity: .6; }
+
+        /* Location marker pills (no markercluster). */
+        .loc-pill {
+            background: var(--accent); color: #fff;
+            font-size: 12px; font-weight: 600; white-space: nowrap;
+            padding: 8px 12px; border-radius: 999px;
+            box-shadow: 0 1px 4px rgba(0,0,0,.35);
+            border: 2px solid #fff; cursor: pointer;
+            transform: translate(-50%, -50%);
+        }
+
+        /* Bottom sheet. */
+        .sheet-backdrop {
+            position: fixed; inset: 0; background: rgba(10,25,32,.35);
+            opacity: 0; pointer-events: none; transition: opacity .2s ease;
+            z-index: 900;
+        }
+        .sheet-backdrop.open { opacity: 1; pointer-events: auto; }
+        .sheet {
+            position: fixed; left: 0; right: 0; bottom: 0;
+            height: 45vh; max-height: 60vh;
+            background: #fff; border-radius: 16px 16px 0 0;
+            box-shadow: 0 -4px 24px rgba(21,50,63,.25);
+            transform: translateY(100%); transition: transform .25s ease;
+            z-index: 1000; display: flex; flex-direction: column;
+        }
+        .sheet.open { transform: translateY(0); }
+        .sheet-grip { width: 40px; height: 4px; border-radius: 2px; background: var(--line); margin: 8px auto 4px; }
+        .sheet-header {
+            display: flex; align-items: flex-start; justify-content: space-between;
+            padding: 4px 16px 10px; border-bottom: 1px solid var(--line);
+        }
+        .sheet-header h2 { font-size: 16px; margin: 0; }
+        .sheet-header .approx { font-size: 12px; color: var(--muted); margin-top: 2px; }
+        .sheet-close {
+            border: 0; background: transparent; font-size: 24px; line-height: 1;
+            color: var(--muted); cursor: pointer;
+            min-width: 48px; min-height: 48px;
+        }
+        .sheet-list { overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 8px 12px 24px; }
+
+        .card {
+            display: grid; grid-template-columns: 84px 1fr; gap: 12px;
+            padding: 10px; border: 1px solid var(--line); border-radius: 12px;
+            margin-bottom: 10px; align-items: start;
+        }
+        .card img {
+            width: 84px; height: 84px; object-fit: cover; border-radius: 8px;
+            background: #eef2f4;
+        }
+        .card .no-img { width: 84px; height: 84px; border-radius: 8px; background: #eef2f4; }
+        .card h3 { font-size: 14px; margin: 0 0 2px; line-height: 1.25; }
+        .card .company { font-size: 12px; color: var(--muted); margin: 0 0 6px; }
+        .card .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 8px; }
+        .q-badge { font-size: 11px; font-weight: 600; color: var(--accent); background: #e6f3f5; padding: 2px 8px; border-radius: 999px; }
+        .price { font-size: 13px; font-weight: 600; color: var(--ink); }
+        .cta {
+            display: inline-flex; align-items: center; justify-content: center;
+            min-height: 48px; padding: 0 16px; width: 100%;
+            background: var(--accent); color: #fff; font-weight: 600; font-size: 14px;
+            text-decoration: none; border-radius: 10px;
+        }
+        .sheet-empty { padding: 24px 16px; color: var(--muted); text-align: center; }
+
+        @media (min-width: 720px) {
+            .sheet { left: 50%; transform: translate(-50%, 100%); width: 560px; border-radius: 16px 16px 0 0; }
+            .sheet.open { transform: translate(-50%, 0); }
+        }
+    </style>
+</head>
+<body>
+    <header class="map-head">
+        <a class="back" href="/">&larr; WanderHawaii</a>
+        <h1>Explore tours by location</h1>
+        <p id="map-sub">Tap the map to load tour locations across the islands.</p>
+    </header>
+
+    <div class="map-wrap">
+        <div id="map"></div>
+        <div class="map-overlay" id="map-overlay" role="button" tabindex="0" aria-label="Tap to explore map">
+            <div class="pin">📍</div>
+            <span class="label">Tap to explore map</span>
+            <span class="hint">Markers show how many tours are in each area</span>
+        </div>
+    </div>
+
+    <div class="sheet-backdrop" id="sheet-backdrop"></div>
+    <aside class="sheet" id="sheet" aria-hidden="true">
+        <div class="sheet-grip"></div>
+        <div class="sheet-header">
+            <div>
+                <h2 id="sheet-title">Tours</h2>
+                <div class="approx" id="sheet-approx" hidden>Approximate area</div>
+            </div>
+            <button class="sheet-close" id="sheet-close" aria-label="Close">&times;</button>
+        </div>
+        <div class="sheet-list" id="sheet-list"></div>
+    </aside>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+    (function () {
+        var HAWAII_CENTER = [20.5, -157];
+        var HAWAII_ZOOM = 7;
+        var map = null;
+        var activated = false;
+        var groups = {}; // location string -> { geo, cityLabel, tours: [] }
+
+        var overlay = document.getElementById('map-overlay');
+        var sub = document.getElementById('map-sub');
+        var sheet = document.getElementById('sheet');
+        var backdrop = document.getElementById('sheet-backdrop');
+        var sheetTitle = document.getElementById('sheet-title');
+        var sheetApprox = document.getElementById('sheet-approx');
+        var sheetList = document.getElementById('sheet-list');
+
+        function cityLabel(loc) {
+            var parts = String(loc).split('/');
+            return parts[parts.length - 1].trim() || loc;
+        }
+
+        function priceText(t) {
+            if (t.price == null) return null;
+            var sym = t.currency === 'USD' ? '$' : (t.currency ? t.currency + ' ' : '');
+            var label = t.priceLabel ? ' ' + t.priceLabel : '';
+            return sym + t.price + label;
+        }
+
+        function el(tag, cls, text) {
+            var n = document.createElement(tag);
+            if (cls) n.className = cls;
+            if (text != null) n.textContent = text;
+            return n;
+        }
+
+        function buildCard(t) {
+            var card = el('div', 'card');
+
+            if (t.image) {
+                var img = el('img');
+                img.src = t.image;
+                img.alt = t.name || 'Tour';
+                img.loading = 'lazy';
+                img.decoding = 'async';
+                card.appendChild(img);
+            } else {
+                card.appendChild(el('div', 'no-img'));
+            }
+
+            var body = el('div');
+            body.appendChild(el('h3', null, t.name || 'Tour'));
+            if (t.company) body.appendChild(el('p', 'company', t.company));
+
+            var meta = el('div', 'meta');
+            if (t.qualityScore != null) meta.appendChild(el('span', 'q-badge', 'Quality ' + t.qualityScore));
+            var p = priceText(t);
+            if (p) meta.appendChild(el('span', 'price', p));
+            // rating is intentionally rendered only if present (absent in current data).
+            if (t.rating != null) meta.appendChild(el('span', 'price', '★ ' + t.rating));
+            if (meta.childNodes.length) body.appendChild(meta);
+
+            // CTA: full bookingUrl verbatim in href AND data-url. No URL assembly.
+            var cta = el('a', 'cta', 'Check Availability');
+            cta.setAttribute('href', t.bookingUrl);
+            cta.setAttribute('data-url', t.bookingUrl);
+            cta.setAttribute('target', '_blank');
+            cta.setAttribute('rel', 'noopener noreferrer');
+            cta.setAttribute('data-source', 'map');
+            cta.addEventListener('click', function () {
+                // Navigate to the exact stored URL, never a reconstructed one.
+                this.setAttribute('href', this.dataset.url);
+            });
+            body.appendChild(cta);
+
+            card.appendChild(body);
+            return card;
+        }
+
+        function openSheet(loc) {
+            var g = groups[loc];
+            if (!g) return;
+            sheetTitle.textContent = g.tours.length + ' tour' + (g.tours.length === 1 ? '' : 's') + ' in ' + g.cityLabel;
+            sheetApprox.hidden = (g.geo.confidence === 'exact');
+
+            sheetList.innerHTML = '';
+            var sorted = g.tours.slice().sort(function (a, b) {
+                return (b.qualityScore || 0) - (a.qualityScore || 0);
+            });
+            if (!sorted.length) {
+                sheetList.appendChild(el('div', 'sheet-empty', 'No tours to show.'));
+            } else {
+                var frag = document.createDocumentFragment();
+                sorted.forEach(function (t) { frag.appendChild(buildCard(t)); });
+                sheetList.appendChild(frag);
+            }
+            sheet.classList.add('open');
+            sheet.setAttribute('aria-hidden', 'false');
+            backdrop.classList.add('open');
+        }
+
+        function closeSheet() {
+            sheet.classList.remove('open');
+            sheet.setAttribute('aria-hidden', 'true');
+            backdrop.classList.remove('open');
+        }
+        document.getElementById('sheet-close').addEventListener('click', closeSheet);
+        backdrop.addEventListener('click', closeSheet);
+
+        function addMarkers() {
+            Object.keys(groups).forEach(function (loc) {
+                var g = groups[loc];
+                var icon = L.divIcon({
+                    className: '',
+                    html: '<div class="loc-pill">' + g.cityLabel + ' · ' + g.tours.length + '</div>',
+                    iconSize: null
+                });
+                var m = L.marker([g.geo.lat, g.geo.lng], { icon: icon, keyboard: true });
+                m.on('click', function () { openSheet(loc); });
+                m.addTo(map);
+            });
+        }
+
+        function buildGroups(tours, geo) {
+            tours.forEach(function (t) {
+                if (t.status !== 'active') return;          // pilot scope: active only
+                if (!t.location || !geo[t.location]) return; // only geocoded town locations
+                if (!t.bookingUrl) return;
+                if (!groups[t.location]) {
+                    groups[t.location] = { geo: geo[t.location], cityLabel: cityLabel(t.location), tours: [] };
+                }
+                groups[t.location].tours.push(t);
+            });
+        }
+
+        function activate() {
+            if (activated) return;
+            activated = true;
+            overlay.classList.add('loading');
+            overlay.querySelector('.label').textContent = 'Loading tours…';
+
+            Promise.all([
+                fetch('/data/locations.geo.json').then(function (r) { return r.json(); }),
+                fetch('/tours-data.json').then(function (r) { return r.json(); })
+            ]).then(function (res) {
+                var geo = res[0];
+                var data = res[1];
+                var tours = (data && data.tours) ? data.tours : (Array.isArray(data) ? data : []);
+                buildGroups(tours, geo);
+
+                map = L.map('map', {
+                    center: HAWAII_CENTER,
+                    zoom: HAWAII_ZOOM,
+                    zoomControl: true
+                });
+                L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+                    attribution: '© OpenStreetMap contributors © CARTO',
+                    subdomains: 'abcd',
+                    maxZoom: 19
+                }).addTo(map);
+                addMarkers();
+
+                overlay.classList.add('hidden');
+                var n = Object.keys(groups).length;
+                sub.textContent = n + ' tour locations — tap a marker to see tours.';
+            }).catch(function (err) {
+                overlay.classList.remove('loading');
+                overlay.querySelector('.label').textContent = 'Could not load the map. Tap to retry.';
+                activated = false;
+                if (window.console) console.error('map load failed', err);
+            });
+        }
+
+        overlay.addEventListener('click', activate);
+        overlay.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
+        });
+    })();
+    </script>
+</body>
+</html>
