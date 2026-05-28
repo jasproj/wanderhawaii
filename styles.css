@@ -1622,10 +1622,10 @@ section { padding: var(--space-3xl) 0; }
        sit in the visible image band below it, not behind the header. */
     .hero {
         /* Box is taller than the visible image because the fixed 77px header
-           overlaps the top and the search stacks to ~150px on mobile. This
-           leaves ~200px of visible image below the header (the target). */
-        min-height: 260px;
-        max-height: 280px;
+           overlaps the top and the search stacks to ~150px on mobile. Raised
+           to ~320px so the scaled-down brand logo fits above tagline+search. */
+        min-height: 300px;
+        max-height: 320px;
         padding: 85px var(--space-md) var(--space-md);
         /* anchor content to the top below the fixed header; centering would
            overflow the top of the (stacked) content up behind the header */
@@ -1646,10 +1646,8 @@ section { padding: var(--space-3xl) 0; }
         box-sizing: border-box;
     }
 
-    /* Keep the hero compact at ~200px: only the tagline returns over the image.
-       trust-bar hidden too — it doesn't fit the compact image band and would
-       overlap the search. (Network spec: mobile image-hero = tagline + search.) */
-    .hero-logo-pill,
+    /* Mobile image-hero stack = tagline + brand logo + search, over the photo.
+       subtitle/quick-tags/trust-bar stay hidden (no room over the image). */
     .hero-subtitle,
     .quick-tags-wrapper,
     .trust-bar {
@@ -1661,14 +1659,25 @@ section { padding: var(--space-3xl) 0; }
         letter-spacing: 0.15em;
         margin-bottom: var(--space-sm);
     }
-    
+
     .hero-logo {
         flex-direction: column;
         gap: var(--space-sm);
     }
-    
+
+    /* Scaled-down brand logo over the photo; tight spacing so all three fit */
     .hero-logo-pill {
-        padding: 10px;
+        display: inline-block;
+        padding: 0;
+        margin-bottom: var(--space-sm);
+    }
+
+    .hero-logo-img {
+        height: 44px;
+        width: auto;
+        /* drop the heavy coral glow at this size — it blurs the small mark;
+           keep a subtle shadow so it stays legible over the photo */
+        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.45));
     }
     
     .hero-logo-flower {
