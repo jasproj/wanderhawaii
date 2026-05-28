@@ -76,32 +76,28 @@
         .map-overlay.hidden { display: none; }
         .map-overlay.loading .label { opacity: .6; }
 
-        /* Location markers (no markercluster). Compact count badge at low
-           zoom; full town-labelled pill once zoomed in (>= zoom 9). */
-        .loc-pill, .loc-badge {
-            background: var(--accent); color: #fff; font-weight: 600;
-            box-shadow: 0 1px 4px rgba(0,0,0,.35);
+        /* Markers (no markercluster). Overview (zoom < 9) = one bold island
+           badge; zoomed in (>= 9) = per-town pills. Strong contrast for
+           legibility over satellite imagery. */
+        .loc-pill, .loc-island {
+            color: #fff; font-weight: 600; white-space: nowrap;
             border: 2px solid #fff; cursor: pointer;
             transform: translate(-50%, -50%);
         }
         .loc-pill {
-            font-size: 12px; white-space: nowrap;
-            padding: 8px 12px; border-radius: 999px;
+            background: var(--accent); font-size: 12px;
+            padding: 7px 11px; border-radius: 999px;
+            box-shadow: 0 1px 5px rgba(0,0,0,.55);
         }
-        .loc-badge {
-            font-size: 12px; font-weight: 700; line-height: 1;
-            min-width: 30px; height: 30px; padding: 0 7px;
-            display: inline-flex; align-items: center; justify-content: center;
-            border-radius: 999px;
+        .loc-island {
+            background: #0a4d57; font-size: 15px; font-weight: 700; letter-spacing: .2px;
+            padding: 10px 16px; border-radius: 999px;
+            box-shadow: 0 2px 10px rgba(0,0,0,.6);
         }
-        /* Bring the hovered/focused pill forward — markers overlap at the
-           Hawaii-wide default zoom; zooming in separates them. */
         .leaflet-marker-icon:hover .loc-pill,
-        .leaflet-marker-icon:focus .loc-pill,
-        .leaflet-marker-icon:hover .loc-badge,
-        .leaflet-marker-icon:focus .loc-badge {
-            background: #075863; box-shadow: 0 2px 10px rgba(0,0,0,.5);
-        }
+        .leaflet-marker-icon:focus .loc-pill { background: #075863; box-shadow: 0 2px 10px rgba(0,0,0,.6); }
+        .leaflet-marker-icon:hover .loc-island,
+        .leaflet-marker-icon:focus .loc-island { background: #063b43; }
 
         /* Bottom sheet. */
         .sheet-backdrop {
@@ -203,14 +199,14 @@
     (function () {
         var HAWAII_CENTER = [20.5, -157];
         var HAWAII_ZOOM = 7;
-        var LABEL_ZOOM = 9;      // at/above this zoom, markers show the town label
+        var LABEL_ZOOM = 9;      // < this: island badges; >= this: town badges
         var SHEET_CAP = 12;      // max cards in the bottom sheet before "see all"
         var TOURS_LIST_URL = '/#tours-section';
         var map = null;
         var activated = false;
-        var groups = {}; // location string -> { geo, cityLabel, tours: [] }
-        var markerObjs = []; // { m, g } for zoom-responsive icon swaps
-        var labeledNow = null;
+        var townGroups = {};   // pinKey -> { lat, lng, cityLabel, island, confidence, tours: [] }
+        var islandGroups = {}; // island -> { name, tours, pts:[[lat,lng]], bounds, count }
+        var townLayer = null, islandLayer = null, currentLevel = null;
 
         var overlay = document.getElementById('map-overlay');
         var sub = document.getElementById('map-sub');
@@ -220,16 +216,13 @@
         var sheetApprox = document.getElementById('sheet-approx');
         var sheetList = document.getElementById('sheet-list');
 
-        function cityLabel(loc) {
-            var parts = String(loc).split('/');
-            return parts[parts.length - 1].trim() || loc;
-        }
+        function titleCase(s) { return String(s || '').replace(/\b\w/g, function (c) { return c.toUpperCase(); }); }
 
         function priceText(t) {
             if (t.price == null) return null;
             var sym = t.currency === 'USD' ? '$' : (t.currency ? t.currency + ' ' : '');
-            var label = t.priceLabel ? ' ' + t.priceLabel : '';
-            return sym + t.price + label;
+            var hasLabel = t.priceLabel && String(t.priceLabel).toLowerCase() !== 'unknown';
+            return sym + t.price + (hasLabel ? ' ' + t.priceLabel : '');
         }
 
         function el(tag, cls, text) {
@@ -285,11 +278,11 @@
             return card;
         }
 
-        function openSheet(loc) {
-            var g = groups[loc];
+        function openSheet(pinKey) {
+            var g = townGroups[pinKey];
             if (!g) return;
             sheetTitle.textContent = g.tours.length + ' tour' + (g.tours.length === 1 ? '' : 's') + ' in ' + g.cityLabel;
-            sheetApprox.hidden = (g.geo.confidence === 'exact');
+            sheetApprox.hidden = (g.confidence === 'exact');
 
             sheetList.innerHTML = '';
             var sorted = g.tours.slice().sort(function (a, b) {
@@ -323,42 +316,60 @@
         document.getElementById('sheet-close').addEventListener('click', closeSheet);
         backdrop.addEventListener('click', closeSheet);
 
-        function makeIcon(g, labeled) {
-            var html = labeled
-                ? '<div class="loc-pill">' + g.cityLabel + ' · ' + g.tours.length + '</div>'
-                : '<div class="loc-badge">' + g.tours.length + '</div>';
-            return L.divIcon({ className: '', html: html, iconSize: null });
-        }
-
-        function addMarkers() {
-            labeledNow = map.getZoom() >= LABEL_ZOOM;
-            Object.keys(groups).forEach(function (loc) {
-                var g = groups[loc];
-                var m = L.marker([g.geo.lat, g.geo.lng], { icon: makeIcon(g, labeledNow), keyboard: true, riseOnHover: true });
-                m.on('click', function () { openSheet(loc); });
-                m.addTo(map);
-                markerObjs.push({ m: m, g: g });
-            });
-            // Swap icon style only when crossing the label-zoom threshold.
-            map.on('zoomend', function () {
-                var labeled = map.getZoom() >= LABEL_ZOOM;
-                if (labeled === labeledNow) return;
-                labeledNow = labeled;
-                markerObjs.forEach(function (o) { o.m.setIcon(makeIcon(o.g, labeled)); });
-            });
-        }
-
+        // Group LIVE tours into one entry per geocoded PIN (geo.pinKey dedupes
+        // flat-town and slash-path spellings of the same place), then roll pins
+        // up into per-island groups for the zoomed-out overview.
         function buildGroups(tours, geo) {
             tours.forEach(function (t) {
-                if (t.status !== 'active') return;          // pilot scope: active only
-                if (t.bookingDead) return;                   // dead booking link (audit 2026-05-28)
-                if (!t.location || !geo[t.location]) return; // only geocoded town locations
+                if (t.bookingDead) return;                    // dead booking link — never shown
+                if (!t.location || !geo[t.location]) return;  // only geocoded (unambiguous) towns
                 if (!t.bookingUrl) return;
-                if (!groups[t.location]) {
-                    groups[t.location] = { geo: geo[t.location], cityLabel: cityLabel(t.location), tours: [] };
+                var pin = geo[t.location].pinKey || t.location;
+                var ge = geo[pin] || geo[t.location];
+                if (!townGroups[pin]) {
+                    townGroups[pin] = { lat: ge.lat, lng: ge.lng, cityLabel: ge.cityLabel || pin, island: ge.island || 'hawaii', confidence: ge.confidence, tours: [] };
                 }
-                groups[t.location].tours.push(t);
+                townGroups[pin].tours.push(t);
             });
+            Object.keys(townGroups).forEach(function (pin) {
+                var g = townGroups[pin];
+                var isl = g.island;
+                if (!islandGroups[isl]) islandGroups[isl] = { name: titleCase(isl), tours: [], pts: [], count: 0 };
+                islandGroups[isl].count += g.tours.length;
+                islandGroups[isl].pts.push([g.lat, g.lng]);
+            });
+            Object.keys(islandGroups).forEach(function (isl) {
+                var ig = islandGroups[isl];
+                ig.bounds = L.latLngBounds(ig.pts);
+                ig.centroid = [ig.pts.reduce(function (s, p) { return s + p[0]; }, 0) / ig.pts.length,
+                               ig.pts.reduce(function (s, p) { return s + p[1]; }, 0) / ig.pts.length];
+            });
+        }
+
+        function buildLayers() {
+            townLayer = L.layerGroup();
+            Object.keys(townGroups).forEach(function (pin) {
+                var g = townGroups[pin];
+                var icon = L.divIcon({ className: '', iconSize: null, html: '<div class="loc-pill">' + g.cityLabel + ' · ' + g.tours.length + '</div>' });
+                var m = L.marker([g.lat, g.lng], { icon: icon, keyboard: true, riseOnHover: true });
+                m.on('click', function () { openSheet(pin); });
+                townLayer.addLayer(m);
+            });
+            islandLayer = L.layerGroup();
+            Object.keys(islandGroups).forEach(function (isl) {
+                var ig = islandGroups[isl];
+                var icon = L.divIcon({ className: '', iconSize: null, html: '<div class="loc-island">' + ig.name + ' · ' + ig.count.toLocaleString() + '</div>' });
+                var m = L.marker(ig.centroid, { icon: icon, keyboard: true, riseOnHover: true });
+                m.on('click', function () { map.fitBounds(ig.bounds, { padding: [50, 50], maxZoom: 12 }); });
+                islandLayer.addLayer(m);
+            });
+        }
+
+        function showLevel(level) {
+            if (level === currentLevel) return;
+            currentLevel = level;
+            if (level === 'island') { if (townLayer) map.removeLayer(townLayer); map.addLayer(islandLayer); }
+            else { if (islandLayer) map.removeLayer(islandLayer); map.addLayer(townLayer); }
         }
 
         function activate() {
@@ -376,22 +387,22 @@
                 var tours = (data && data.tours) ? data.tours : (Array.isArray(data) ? data : []);
                 buildGroups(tours, geo);
 
-                map = L.map('map', {
-                    center: HAWAII_CENTER,
-                    zoom: HAWAII_ZOOM,
-                    zoomControl: true
-                });
-                L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-                    attribution: '© OpenStreetMap contributors © CARTO',
-                    subdomains: 'abcd',
-                    maxZoom: 19
+                map = L.map('map', { center: HAWAII_CENTER, zoom: HAWAII_ZOOM, zoomControl: true });
+                // Satellite basemap (Esri World Imagery) + town-name labels overlay.
+                L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+                    attribution: 'Tiles © Esri', maxZoom: 19, zIndex: 1
                 }).addTo(map);
-                window.__whMap = map; // debug/test handle for the Leaflet instance
-                addMarkers();
+                L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {
+                    maxZoom: 19, zIndex: 2
+                }).addTo(map);
+                window.__whMap = map; // debug/test handle
+
+                buildLayers();
+                showLevel(map.getZoom() >= LABEL_ZOOM ? 'town' : 'island');
+                map.on('zoomend', function () { showLevel(map.getZoom() >= LABEL_ZOOM ? 'town' : 'island'); });
 
                 overlay.classList.add('hidden');
-                var n = Object.keys(groups).length;
-                sub.textContent = n + ' tour locations — tap a marker to see tours.';
+                sub.textContent = Object.keys(townGroups).length + ' towns across ' + Object.keys(islandGroups).length + ' islands — zoom in or tap an island.';
             }).catch(function (err) {
                 overlay.classList.remove('loading');
                 overlay.querySelector('.label').textContent = 'Could not load the map. Tap to retry.';

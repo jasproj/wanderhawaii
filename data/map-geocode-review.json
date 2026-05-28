@@ -1,0 +1,44 @@
+{
+  "note": "Flat-town locations whose name matches settlements on 2+ Hawaiian islands. Held OFF the map until manually resolved (pick the correct island, then add a slash-path or manual_override geo entry).",
+  "generatedAt": "2026-05-28",
+  "sourceSchemaVersion": "1.0.8",
+  "count": 2,
+  "ambiguous": [
+    {
+      "location": "Waimea",
+      "tours": 38,
+      "candidates": [
+        {
+          "island": "big island",
+          "lat": 20.0217,
+          "lng": -155.66859,
+          "display": "Waimea/Kamuela, Hawaiʻi County, Hawaii, United States"
+        },
+        {
+          "island": "kauai",
+          "lat": 21.96365,
+          "lng": -159.67414,
+          "display": "Waimea, Kauaʻi County, Hawaii, United States"
+        }
+      ]
+    },
+    {
+      "location": "Waialua",
+      "tours": 7,
+      "candidates": [
+        {
+          "island": "oahu",
+          "lat": 21.57131,
+          "lng": -158.12518,
+          "display": "Waialua, Honolulu County, Hawaii, 96791, United States"
+        },
+        {
+          "island": "molokai",
+          "lat": 21.09827,
+          "lng": -156.75909,
+          "display": "Waialua, Maui County, Hawaii, United States"
+        }
+      ]
+    }
+  ]
+}
