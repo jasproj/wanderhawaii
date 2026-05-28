@@ -2610,3 +2610,101 @@ section { padding: var(--space-3xl) 0; }
     padding: 10px;
     filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
 }
+
+/* ===== MAP-PREVIEW BANNER (homepage) ===== */
+.map-banner {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    margin-bottom: var(--space-2xl);
+    background: var(--ocean-deep);
+}
+.map-banner img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* anchor right + upper so the island chain + pins stay in frame when the
+       wide-short banner crops the taller artwork */
+    object-position: right 30%;
+}
+.map-banner-scrim {
+    position: absolute;
+    inset: 0;
+    /* left-to-right dark scrim: fully covers the left text zone, clears by ~55%
+       so the center-right islands + pins read through */
+    background: linear-gradient(90deg,
+        rgba(10, 77, 104, 0.85) 0%,
+        rgba(10, 77, 104, 0.55) 28%,
+        rgba(10, 77, 104, 0.1) 52%,
+        rgba(10, 77, 104, 0) 65%);
+}
+.map-banner-inner {
+    position: relative;
+    height: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+    display: flex;
+    align-items: center;
+}
+.map-banner-content {
+    max-width: 460px;
+    color: var(--white);
+}
+.map-banner-content h2 {
+    font-family: var(--font-display);
+    font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: var(--space-lg);
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+.map-banner-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0 var(--space-xl);
+    background: var(--sunset-gold);
+    color: var(--ocean-deep);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: var(--radius-full);
+    box-shadow: var(--shadow-md);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+.map-banner-cta:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+@media (max-width: 767px) {
+    .map-banner {
+        height: 200px;
+        margin-bottom: var(--space-xl);
+    }
+    .map-banner-scrim {
+        /* stronger coverage where text overlaps more of the image on small screens */
+        background: linear-gradient(90deg,
+            rgba(10, 77, 104, 0.92) 0%,
+            rgba(10, 77, 104, 0.75) 45%,
+            rgba(10, 77, 104, 0.35) 80%,
+            rgba(10, 77, 104, 0.1) 100%);
+    }
+    .map-banner-content {
+        max-width: 100%;
+    }
+    .map-banner-content h2 {
+        font-size: 1.35rem;
+        margin-bottom: var(--space-md);
+    }
+    .map-banner-cta {
+        font-size: 0.95rem;
+        padding: 0 var(--space-lg);
+    }
+}
