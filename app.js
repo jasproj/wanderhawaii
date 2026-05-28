@@ -105,6 +105,13 @@ let displayedCount = 0;
 const TOURS_PER_PAGE = 24;
 
 // Load tours data
+// Wire the homepage "Verified Tours" stat to the live (non-dead) catalog size,
+// replacing the hardcoded value. No-op on pages without the element.
+function updateVerifiedToursCount(n) {
+    const el = document.getElementById('verified-tours-count');
+    if (el) el.textContent = Number(n).toLocaleString();
+}
+
 async function loadTours() {
     try {
         console.log('🔄 Fetching tours-data.json...');
@@ -117,8 +124,11 @@ async function loadTours() {
 
         const _raw = await response.json();
         toursData = Array.isArray(_raw) ? _raw : _raw.tours;
-        toursData = toursData.filter(t => t.status !== 'inactive');
+        // Hide tours whose FareHarbor booking link is dead (audit 2026-05-28)
+        // and any explicitly inactive tours, from every render surface.
+        toursData = toursData.filter(t => t.status !== 'inactive' && !t.bookingDead);
         console.log(`✅ Loaded ${toursData.length} tours`);
+        updateVerifiedToursCount(toursData.length);
 
         // Initial shuffle for randomization (per page load, non-mutating)
         toursData = shuffleArray(toursData);

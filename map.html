@@ -351,6 +351,7 @@
         function buildGroups(tours, geo) {
             tours.forEach(function (t) {
                 if (t.status !== 'active') return;          // pilot scope: active only
+                if (t.bookingDead) return;                   // dead booking link (audit 2026-05-28)
                 if (!t.location || !geo[t.location]) return; // only geocoded town locations
                 if (!t.bookingUrl) return;
                 if (!groups[t.location]) {
