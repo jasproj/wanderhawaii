@@ -1617,12 +1617,25 @@ section { padding: var(--space-3xl) 0; }
         letter-spacing: 0.08em;
     }
     
-    /* Hero Mobile */
+    /* Hero Mobile — image-backed band (~200px), search overlaid on the photo.
+       Top padding clears the position:fixed 77px header so the tagline + search
+       sit in the visible image band below it, not behind the header. */
     .hero {
-        min-height: 90px;
-        max-height: 120px;
-        padding: 8px var(--space-md);
+        /* Box is taller than the visible image because the fixed 77px header
+           overlaps the top and the search stacks to ~150px on mobile. This
+           leaves ~200px of visible image below the header (the target). */
+        min-height: 260px;
+        max-height: 280px;
+        padding: 85px var(--space-md) var(--space-md);
+        /* anchor content to the top below the fixed header; centering would
+           overflow the top of the (stacked) content up behind the header */
+        justify-content: flex-start;
         overflow: hidden;
+    }
+
+    /* Darker scrim on mobile so the white tagline + search read over the photo */
+    .hero-overlay {
+        background: rgba(0, 0, 0, 0.4);
     }
 
     .hero-content {
@@ -1633,16 +1646,20 @@ section { padding: var(--space-3xl) 0; }
         box-sizing: border-box;
     }
 
-    .hero-tagline,
+    /* Keep the hero compact at ~200px: only the tagline returns over the image.
+       trust-bar hidden too — it doesn't fit the compact image band and would
+       overlap the search. (Network spec: mobile image-hero = tagline + search.) */
     .hero-logo-pill,
     .hero-subtitle,
-    .quick-tags-wrapper {
+    .quick-tags-wrapper,
+    .trust-bar {
         display: none;
     }
-    
+
     .hero-tagline {
         font-size: 0.75rem;
         letter-spacing: 0.15em;
+        margin-bottom: var(--space-sm);
     }
     
     .hero-logo {
