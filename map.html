@@ -85,6 +85,12 @@
             border: 2px solid #fff; cursor: pointer;
             transform: translate(-50%, -50%);
         }
+        /* Bring the hovered/focused pill forward — markers overlap at the
+           Hawaii-wide default zoom; zooming in separates them. */
+        .leaflet-marker-icon:hover .loc-pill,
+        .leaflet-marker-icon:focus .loc-pill {
+            background: #075863; box-shadow: 0 2px 10px rgba(0,0,0,.5);
+        }
 
         /* Bottom sheet. */
         .sheet-backdrop {
@@ -243,6 +249,9 @@
             cta.setAttribute('target', '_blank');
             cta.setAttribute('rel', 'noopener noreferrer');
             cta.setAttribute('data-source', 'map');
+            // Feed tracking.js readContext so GA4 logs the real tour, not the CTA text.
+            if (t.name) cta.setAttribute('data-tour-name', t.name);
+            if (t.id != null) cta.setAttribute('data-tour-id', String(t.id));
             cta.addEventListener('click', function () {
                 // Navigate to the exact stored URL, never a reconstructed one.
                 this.setAttribute('href', this.dataset.url);
@@ -291,7 +300,7 @@
                     html: '<div class="loc-pill">' + g.cityLabel + ' · ' + g.tours.length + '</div>',
                     iconSize: null
                 });
-                var m = L.marker([g.geo.lat, g.geo.lng], { icon: icon, keyboard: true });
+                var m = L.marker([g.geo.lat, g.geo.lng], { icon: icon, keyboard: true, riseOnHover: true });
                 m.on('click', function () { openSheet(loc); });
                 m.addTo(map);
             });
