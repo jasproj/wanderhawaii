@@ -1,0 +1,271 @@
+{
+  "note": "Tours excluded from the active-only map pilot (Option 2). Fast-follow worklist — flat-town-named entries are the highest-value backlog once their booking-link status is verified.",
+  "generatedFrom": "tours-data.json",
+  "sourceSchemaVersion": "1.0.8",
+  "generatedAt": "2026-05-28",
+  "summary": {
+    "flat_town_named": {
+      "locations": 38,
+      "tours": 419
+    },
+    "island_only": {
+      "locations": 6,
+      "tours": 1120
+    },
+    "vague_or_foreign": {
+      "locations": 5,
+      "tours": 130
+    }
+  },
+  "flat_town_named": [
+    {
+      "location": "Haleiwa",
+      "tours": 83,
+      "activeTours": 0
+    },
+    {
+      "location": "Waimea",
+      "tours": 38,
+      "activeTours": 0
+    },
+    {
+      "location": "Wailuku",
+      "tours": 37,
+      "activeTours": 0
+    },
+    {
+      "location": "Koloa",
+      "tours": 27,
+      "activeTours": 0
+    },
+    {
+      "location": "Kaneohe",
+      "tours": 19,
+      "activeTours": 0
+    },
+    {
+      "location": "Waianae",
+      "tours": 19,
+      "activeTours": 0
+    },
+    {
+      "location": "Kula",
+      "tours": 16,
+      "activeTours": 0
+    },
+    {
+      "location": "Makawao",
+      "tours": 15,
+      "activeTours": 0
+    },
+    {
+      "location": "Kapolei",
+      "tours": 14,
+      "activeTours": 0
+    },
+    {
+      "location": "Kilauea",
+      "tours": 14,
+      "activeTours": 0
+    },
+    {
+      "location": "Kaunakakai",
+      "tours": 12,
+      "activeTours": 0
+    },
+    {
+      "location": "Maalaea",
+      "tours": 11,
+      "activeTours": 0
+    },
+    {
+      "location": "Ewa Beach",
+      "tours": 9,
+      "activeTours": 0
+    },
+    {
+      "location": "Holualoa",
+      "tours": 9,
+      "activeTours": 0
+    },
+    {
+      "location": "Paia",
+      "tours": 9,
+      "activeTours": 0
+    },
+    {
+      "location": "Hauula",
+      "tours": 8,
+      "activeTours": 0
+    },
+    {
+      "location": "Kaiminani",
+      "tours": 8,
+      "activeTours": 0
+    },
+    {
+      "location": "Aiea",
+      "tours": 7,
+      "activeTours": 0
+    },
+    {
+      "location": "Kahuku",
+      "tours": 7,
+      "activeTours": 0
+    },
+    {
+      "location": "Kapaʻa",
+      "tours": 7,
+      "activeTours": 0
+    },
+    {
+      "location": "Waialua",
+      "tours": 7,
+      "activeTours": 0
+    },
+    {
+      "location": "Pearl City",
+      "tours": 6,
+      "activeTours": 0
+    },
+    {
+      "location": "Pāhoa",
+      "tours": 5,
+      "activeTours": 0
+    },
+    {
+      "location": "Kualapuu",
+      "tours": 4,
+      "activeTours": 0
+    },
+    {
+      "location": "Waipahu",
+      "tours": 4,
+      "activeTours": 0
+    },
+    {
+      "location": "Hakalau",
+      "tours": 3,
+      "activeTours": 0
+    },
+    {
+      "location": "Mountain View",
+      "tours": 3,
+      "activeTours": 0
+    },
+    {
+      "location": "Wahiawa",
+      "tours": 3,
+      "activeTours": 0
+    },
+    {
+      "location": "Kaaawa",
+      "tours": 2,
+      "activeTours": 0
+    },
+    {
+      "location": "Kealakekua",
+      "tours": 2,
+      "activeTours": 0
+    },
+    {
+      "location": "Kekaha",
+      "tours": 2,
+      "activeTours": 0
+    },
+    {
+      "location": "Laupahoehoe",
+      "tours": 2,
+      "activeTours": 0
+    },
+    {
+      "location": "Papaikou",
+      "tours": 2,
+      "activeTours": 0
+    },
+    {
+      "location": "Anahola",
+      "tours": 1,
+      "activeTours": 0
+    },
+    {
+      "location": "Haiku-Pauwela",
+      "tours": 1,
+      "activeTours": 0
+    },
+    {
+      "location": "Keaau",
+      "tours": 1,
+      "activeTours": 0
+    },
+    {
+      "location": "Kunia Camp",
+      "tours": 1,
+      "activeTours": 0
+    },
+    {
+      "location": "Waimanalo",
+      "tours": 1,
+      "activeTours": 0
+    }
+  ],
+  "island_only": [
+    {
+      "location": "Oahu",
+      "tours": 665,
+      "activeTours": 0
+    },
+    {
+      "location": "Maui",
+      "tours": 370,
+      "activeTours": 0
+    },
+    {
+      "location": "Kauai",
+      "tours": 40,
+      "activeTours": 0
+    },
+    {
+      "location": "Big Island",
+      "tours": 30,
+      "activeTours": 0
+    },
+    {
+      "location": "Hawaii",
+      "tours": 13,
+      "activeTours": 0
+    },
+    {
+      "location": "Lanai",
+      "tours": 2,
+      "activeTours": 0
+    }
+  ],
+  "vague_or_foreign": [
+    {
+      "location": "United States/Hawaii",
+      "tours": 112,
+      "activeTours": 112
+    },
+    {
+      "location": "United States",
+      "tours": 8,
+      "activeTours": 8
+    },
+    {
+      "location": "French Polynesia/Windward Islands/Taiʻarapu-Ouest",
+      "tours": 4,
+      "activeTours": 4
+    },
+    {
+      "location": "United States/Maryland",
+      "tours": 4,
+      "activeTours": 4
+    },
+    {
+      "location": "United States/California/San Jose",
+      "tours": 2,
+      "activeTours": 2
+    }
+  ]
+}
