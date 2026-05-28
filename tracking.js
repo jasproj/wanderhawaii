@@ -76,7 +76,8 @@
                 event_label: tourName,
                 tour_name: tourName,
                 tour_id: tourId,
-                island: island || detectRegion()
+                island: island || detectRegion(),
+                source: 'list'
             });
         };
     }
@@ -102,12 +103,16 @@
         }
         var ctx = readContext(link);
         if (typeof gtag === 'undefined') return;
+        // Attribution source: "map" when the CTA opts in via data-source,
+        // else "list" so existing list/grid clicks are unchanged.
+        var source = (link.dataset && link.dataset.source) || 'list';
         gtag('event', 'booking_click', {
             event_category: 'conversion',
             event_label: ctx.name,
             tour_name: ctx.name,
             tour_id: ctx.id,
-            island: detectRegion()
+            island: detectRegion(),
+            source: source
         });
     });
 })();
