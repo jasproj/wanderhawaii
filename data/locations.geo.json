@@ -1,0 +1,392 @@
+{
+  "United States/Hawaii/Anahola": {
+    "lat": 22.14597,
+    "lng": -159.31703,
+    "island": "kauai",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Captain Cook": {
+    "lat": 19.49443,
+    "lng": -155.91728,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Eleele": {
+    "lat": 21.90501,
+    "lng": -159.58276,
+    "island": "kauai",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Ewa Beach": {
+    "lat": 21.3156,
+    "lng": -158.0088,
+    "island": "oahu",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Haiku": {
+    "lat": 20.91439,
+    "lng": -156.32296,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Haiku-Pauwela": {
+    "lat": 20.92876,
+    "lng": -156.32181,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Hakalau": {
+    "lat": 19.89783,
+    "lng": -155.12695,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Haleiwa": {
+    "lat": 21.58763,
+    "lng": -158.10356,
+    "island": "oahu",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Hana": {
+    "lat": 20.7574,
+    "lng": -155.98798,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Hanalei": {
+    "lat": 22.20299,
+    "lng": -159.49569,
+    "island": "kauai",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Hanapepe": {
+    "lat": 21.91534,
+    "lng": -159.58703,
+    "island": "kauai",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Hauula": {
+    "lat": 21.60971,
+    "lng": -157.91225,
+    "island": "oahu",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Hawaii Volcanoes National Park": {
+    "lat": 19.26083,
+    "lng": -155.35787,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Hawi": {
+    "lat": 20.23787,
+    "lng": -155.83404,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Hilo": {
+    "lat": 19.70737,
+    "lng": -155.08158,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Holualoa": {
+    "lat": 19.62947,
+    "lng": -155.91686,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Honokaa": {
+    "lat": 20.07556,
+    "lng": -155.46388,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Honolulu": {
+    "lat": 21.30455,
+    "lng": -157.85568,
+    "island": "oahu",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Honomu": {
+    "lat": 19.86918,
+    "lng": -155.11151,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kaaawa": {
+    "lat": 21.55547,
+    "lng": -157.85462,
+    "island": "oahu",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kaanapali": {
+    "lat": 20.9334,
+    "lng": -156.68343,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kahuku": {
+    "lat": 21.68445,
+    "lng": -157.94167,
+    "island": "oahu",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kahului": {
+    "lat": 20.87477,
+    "lng": -156.45297,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kailua": {
+    "lat": 19.6634,
+    "lng": -155.95644,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kailua-Kona": {
+    "lat": 19.64194,
+    "lng": -155.99693,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kaiminani": {
+    "lat": 19.71824,
+    "lng": -155.98495,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kalaheo": {
+    "lat": 21.91853,
+    "lng": -159.5207,
+    "island": "kauai",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kaneohe": {
+    "lat": 21.41856,
+    "lng": -157.80418,
+    "island": "oahu",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kapalua": {
+    "lat": 20.9949,
+    "lng": -156.65623,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kapaʻa": {
+    "lat": 22.08334,
+    "lng": -159.34635,
+    "island": "kauai",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kapolei": {
+    "lat": 21.34483,
+    "lng": -158.06333,
+    "island": "oahu",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Keaau": {
+    "lat": 19.62252,
+    "lng": -155.03904,
+    "island": "big island",
+    "confidence": "island_centroid"
+  },
+  "United States/Hawaii/Kealakekua": {
+    "lat": 19.51773,
+    "lng": -155.9214,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kekaha": {
+    "lat": 21.96728,
+    "lng": -159.7136,
+    "island": "kauai",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kihei": {
+    "lat": 20.74763,
+    "lng": -156.45499,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kilauea": {
+    "lat": 22.20878,
+    "lng": -159.40776,
+    "island": "kauai",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Koloa": {
+    "lat": 21.90423,
+    "lng": -159.46573,
+    "island": "kauai",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kula": {
+    "lat": 20.79203,
+    "lng": -156.32371,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Kunia Camp": {
+    "lat": 21.45882,
+    "lng": -158.06168,
+    "island": "oahu",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Lahaina": {
+    "lat": 20.87388,
+    "lng": -156.67768,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Laie": {
+    "lat": 21.64384,
+    "lng": -157.92444,
+    "island": "oahu",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Laupahoehoe": {
+    "lat": 19.98395,
+    "lng": -155.23615,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Lihue": {
+    "lat": 21.97696,
+    "lng": -159.36877,
+    "island": "kauai",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Maalaea": {
+    "lat": 20.8013,
+    "lng": -156.49059,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Makawao": {
+    "lat": 20.8511,
+    "lng": -156.32372,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Makena": {
+    "lat": 20.65503,
+    "lng": -156.44244,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Mountain View": {
+    "lat": 19.53168,
+    "lng": -155.16352,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Paauilo": {
+    "lat": 20.04069,
+    "lng": -155.36958,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Paia": {
+    "lat": 20.90246,
+    "lng": -156.37272,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Papaikou": {
+    "lat": 19.78886,
+    "lng": -155.09312,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Pepeekeo": {
+    "lat": 19.83232,
+    "lng": -155.10462,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Poipu": {
+    "lat": 21.87665,
+    "lng": -159.45391,
+    "island": "kauai",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Princeville": {
+    "lat": 22.22361,
+    "lng": -159.48528,
+    "island": "kauai",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Pukalani": {
+    "lat": 20.83268,
+    "lng": -156.33698,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Puunene": {
+    "lat": 20.86794,
+    "lng": -156.45512,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Pāhoa": {
+    "lat": 19.49675,
+    "lng": -154.95007,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Volcano": {
+    "lat": 19.4892,
+    "lng": -155.25737,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Waialua": {
+    "lat": 21.57572,
+    "lng": -158.12485,
+    "island": "oahu",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Waianae": {
+    "lat": 21.44549,
+    "lng": -158.18782,
+    "island": "oahu",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Waikoloa Village": {
+    "lat": 19.94693,
+    "lng": -155.7874,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Wailea-Makena": {
+    "lat": 20.65537,
+    "lng": -156.43148,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Wailuku": {
+    "lat": 20.89054,
+    "lng": -156.50309,
+    "island": "maui",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Waimanalo": {
+    "lat": 21.3453,
+    "lng": -157.72142,
+    "island": "oahu",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Waimea": {
+    "lat": 20.0217,
+    "lng": -155.66859,
+    "island": "big island",
+    "confidence": "town_centroid"
+  },
+  "United States/Hawaii/Waipahu": {
+    "lat": 21.38483,
+    "lng": -158.0116,
+    "island": "oahu",
+    "confidence": "town_centroid"
+  }
+}
