@@ -203,9 +203,6 @@ ul, ol { list-style: none; }
     .logo-icon {
         height: 60px;
     }
-    .hero-logo-img {
-        height: 330px;
-    }
     .footer-logo-img {
         height: 90px;
     }
@@ -468,16 +465,6 @@ ul, ol { list-style: none; }
     background: linear-gradient(135deg, var(--ocean-deep), #063d52);
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(8, 131, 149, 0.5);
-}
-
-@media (max-width: 560px) {
-    .hero-search {
-        flex-direction: column;
-        border-radius: var(--radius-lg);
-        padding: var(--space-md);
-    }
-    .search-input-wrap { padding: var(--space-sm); }
-    .search-btn { width: 100%; }
 }
 
 /* Quick Tags - Scrolling Marquee */
@@ -1924,18 +1911,6 @@ section { padding: var(--space-3xl) 0; }
     .logo-tagline {
         font-size: 0.5rem;
         padding-left: 0;
-    }
-    
-    .hero-logo-text {
-        font-size: 2rem;
-    }
-    
-    .hero-logo-flower {
-        font-size: 2.5rem;
-    }
-    
-    .hero-logo-img {
-        height: 240px;
     }
 }
 /* ============================================
