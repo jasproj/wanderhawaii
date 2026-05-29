@@ -1617,18 +1617,17 @@ section { padding: var(--space-3xl) 0; }
         letter-spacing: 0.08em;
     }
     
-    /* Hero Mobile — image-backed band (~200px), search overlaid on the photo.
-       Top padding clears the position:fixed 77px header so the tagline + search
-       sit in the visible image band below it, not behind the header. */
+    /* Hero Mobile — image-backed band, photo with brand logo + tagline +
+       single-row search overlaid. Top padding clears the position:fixed 77px
+       header so the stack sits in the visible band below it. */
     .hero {
-        /* Box is taller than the visible image because the fixed 77px header
-           overlaps the top and the search stacks to ~150px on mobile. This
-           leaves ~200px of visible image below the header (the target). */
-        min-height: 260px;
-        max-height: 280px;
+        /* Single-row search (~65px) frees room for a prominent logo; the box
+           fits logo + tagline + search below the 77px header at ~290px. */
+        min-height: 280px;
+        max-height: 290px;
         padding: 85px var(--space-md) var(--space-md);
         /* anchor content to the top below the fixed header; centering would
-           overflow the top of the (stacked) content up behind the header */
+           overflow the top of the content up behind the header */
         justify-content: flex-start;
         overflow: hidden;
     }
@@ -1646,10 +1645,8 @@ section { padding: var(--space-3xl) 0; }
         box-sizing: border-box;
     }
 
-    /* Keep the hero compact at ~200px: only the tagline returns over the image.
-       trust-bar hidden too — it doesn't fit the compact image band and would
-       overlap the search. (Network spec: mobile image-hero = tagline + search.) */
-    .hero-logo-pill,
+    /* Mobile image-hero stack = tagline + prominent brand logo + single-row
+       search, over the photo. subtitle/quick-tags/trust-bar stay hidden. */
     .hero-subtitle,
     .quick-tags-wrapper,
     .trust-bar {
@@ -1661,14 +1658,52 @@ section { padding: var(--space-3xl) 0; }
         letter-spacing: 0.15em;
         margin-bottom: var(--space-sm);
     }
-    
+
     .hero-logo {
         flex-direction: column;
         gap: var(--space-sm);
     }
-    
+
+    /* Prominent brand logo over the photo (single-row search reclaims the room) */
     .hero-logo-pill {
-        padding: 10px;
+        display: inline-block;
+        padding: 0;
+        margin-bottom: var(--space-sm);
+    }
+
+    .hero-logo-img {
+        height: 80px;
+        width: auto;
+        /* lighter shadow than the desktop coral glow so the mark stays crisp */
+        filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5));
+    }
+
+    /* Single-row search (un-stack the <=560px column override, which is
+       earlier in the source so this wins): input grows, button shrinks,
+       never wraps. Narrow input just truncates its placeholder. */
+    .hero-search {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: var(--space-sm);
+        padding: var(--space-sm);
+    }
+
+    .hero-search .search-input-wrap {
+        flex: 1;
+        min-width: 0;
+        padding-left: var(--space-sm);
+    }
+
+    .hero-search input {
+        min-width: 0;
+    }
+
+    .search-btn {
+        width: auto;
+        flex: 0 0 auto;
+        white-space: nowrap;
+        padding: var(--space-sm) var(--space-md);
     }
     
     .hero-logo-flower {
