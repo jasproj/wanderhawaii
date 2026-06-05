@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner Demo | Tour Widget for Hotels | Wander Hawaii Tours</title>
+    <meta name="description" content="Free embeddable tour widget for Hawaii hotels and resorts. Give your guests access to 4,400+ local tours. No markup, no fees.">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+        .demo-hero {
+            background: linear-gradient(135deg, #1a5f4a 0%, #2d8a6e 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .demo-hero h1 {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
+        .demo-hero p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .demo-section {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .demo-section h2 {
+            color: #1a5f4a;
+            margin-bottom: 20px;
+        }
+        .widget-preview {
+            background: #f8f9fa;
+            border: 2px dashed #2d8a6e;
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+        .widget-preview h3 {
+            text-align: center;
+            color: #666;
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+        .tour-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .tour-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .tour-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+        }
+        .tour-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .tour-card-content {
+            padding: 15px;
+        }
+        .tour-card h4 {
+            font-size: 1rem;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .tour-card .company {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .tour-card .price {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #2d8a6e;
+        }
+        .tour-card .book-btn {
+            display: block;
+            background: #2d8a6e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+        .tour-card .book-btn:hover {
+            background: #1a5f4a;
+        }
+        .benefits {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        .benefit {
+            text-align: center;
+            padding: 20px;
+        }
+        .benefit-icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .benefit h3 {
+            color: #1a5f4a;
+            margin-bottom: 8px;
+        }
+        .benefit p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        .cta-section {
+            background: #f0f7f4;
+            padding: 50px 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .cta-section h2 {
+            color: #1a5f4a;
+            margin-bottom: 15px;
+        }
+        .cta-section p {
+            color: #666;
+            margin-bottom: 25px;
+        }
+        .cta-contact {
+            font-size: 1.2rem;
+        }
+        .cta-contact a {
+            color: #2d8a6e;
+            font-weight: bold;
+        }
+        .how-it-works {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+        .how-it-works ol {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .how-it-works li {
+            margin-bottom: 15px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="/" class="logo">
+                <img src="/logo.png" alt="Wander Hawaii Tours" class="logo-img">
+                <span class="logo-text">Wander Hawaii Tours</span>
+            </a>
+            <nav class="nav-desktop">
+                <a href="/#tours">Tours</a>
+                <a href="/oahu.html">Oahu</a>
+                <a href="/maui.html">Maui</a>
+                <a href="/big-island.html">Big Island</a>
+                <a href="/kauai.html">Kauai</a>
+            </nav>
+            <a href="tel:7276232652" class="header-phone">
+                <span class="phone-icon">📞</span>
+                <span class="phone-number">(727) 623-2652</span>
+            </a>
+            <button class="nav-toggle" aria-label="Menu">☰</button>
+        </div>
+    </header>
+
+    <div class="demo-hero">
+        <h1>Free Tour Widget for Your Property</h1>
+        <p>Give your guests instant access to 4,400+ Hawaii tours across all islands. Direct booking, no markup, no fees to you.</p>
+    </div>
+
+    <div class="demo-section">
+        <h2>What Your Guests See</h2>
+        <p>This is a preview of the embeddable widget. We customize it to match your property's branding and can filter to specific islands or tour types.</p>
+        
+        <div class="widget-preview">
+            <h3>🏨 Demo: Oceanfront Resort Concierge Page</h3>
+            <div class="tour-grid" id="tour-grid">
+                <!-- Tours loaded dynamically -->
+            </div>
+        </div>
+
+        <h2>Why Hawaii Hotels Partner With Us</h2>
+        <div class="benefits">
+            <div class="benefit">
+                <div class="benefit-icon">💰</div>
+                <h3>Zero Cost</h3>
+                <p>No fees, no setup cost, no monthly charges. We only earn when guests complete a booking.</p>
+            </div>
+            <div class="benefit">
+                <div class="benefit-icon">🌴</div>
+                <h3>All Islands Covered</h3>
+                <p>4,400+ tours across Oahu, Maui, Big Island, and Kauai. One widget, complete coverage.</p>
+            </div>
+            <div class="benefit">
+                <div class="benefit-icon">🎯</div>
+                <h3>No Markup</h3>
+                <p>Same price as booking direct. Your guests trust you're not upselling them.</p>
+            </div>
+            <div class="benefit">
+                <div class="benefit-icon">⚡</div>
+                <h3>5-Minute Setup</h3>
+                <p>We handle everything. Just tell us where you want the widget and we'll send the code.</p>
+            </div>
+        </div>
+
+        <div class="how-it-works">
+            <h2>How It Works</h2>
+            <ol>
+                <li><strong>You add our widget</strong> to your concierge page, lobby display, or guest portal.</li>
+                <li><strong>Your guests browse tours</strong> — snorkeling, helicopter rides, luaus, whale watching, and more.</li>
+                <li><strong>They book direct</strong> through FareHarbor with the tour operator. No middleman pricing.</li>
+                <li><strong>Everyone wins</strong> — guests get great tours, operators get bookings, you look good.</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="cta-section">
+        <h2>Ready to Add Tours for Your Guests?</h2>
+        <p>Takes 5 minutes. We'll customize the widget for your property and send the embed code.</p>
+        <p class="cta-contact">
+            📧 <a href="mailto:wanderhawaiitours@gmail.com">wanderhawaiitours@gmail.com</a><br>
+            📞 <a href="tel:7276232652">(727) 623-2652</a> — Jay
+        </p>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/"><img src="/logo.png" alt="Wander Hawaii Tours" class="footer-logo"></a>
+                <p>Your guide to 4,400+ Hawaii adventures across all islands.</p>
+                <p class="footer-email"><a href="mailto:wanderhawaiitours@gmail.com">wanderhawaiitours@gmail.com</a></p>
+            </div>
+            <div class="footer-links">
+                <h4>Islands</h4>
+                <ul>
+                    <li><a href="/oahu.html">Oahu</a></li>
+                    <li><a href="/maui.html">Maui</a></li>
+                    <li><a href="/big-island.html">Big Island</a></li>
+                    <li><a href="/kauai.html">Kauai</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Popular</h4>
+                <ul>
+                    <li><a href="/#tours">Snorkeling</a></li>
+                    <li><a href="/#tours">Helicopter Tours</a></li>
+                    <li><a href="/#tours">Luaus</a></li>
+                    <li><a href="/#tours">Whale Watching</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="/about.html">About Us</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Wander Hawaii Tours. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle')?.addEventListener('click', () => {
+            document.querySelector('.nav-mobile')?.classList.toggle('active');
+        });
+
+        // Load sample tours for demo
+        const sampleTours = [
+            {
+                name: "Na Pali Coast Snorkel Adventure",
+                company: "Kauai Offshore Adventures",
+                price: 197,
+                image: "https://cdn.filestackcontent.com/gDpUmbwTVKMwDmPLgl5g",
+                url: "https://wanderhawaii.com/kauai.html"
+            },
+            {
+                name: "Doors-Off Helicopter Tour",
+                company: "Blue Hawaiian",
+                price: 349,
+                image: "https://cdn.filestackcontent.com/resize=w:600/auto_image/compress/QpYJhFTRQu6NzTc7KWDA",
+                url: "https://wanderhawaii.com/oahu.html"
+            },
+            {
+                name: "Molokini Snorkel & Sail",
+                company: "Trilogy Excursions",
+                price: 165,
+                image: "https://cdn.filestackcontent.com/resize=w:600/auto_image/compress/vJrPqLRkTGimdU9WkVfg",
+                url: "https://wanderhawaii.com/maui.html"
+            },
+            {
+                name: "Manta Ray Night Dive",
+                company: "Jack's Diving Locker",
+                price: 185,
+                image: "https://cdn.filestackcontent.com/resize=w:600/auto_image/compress/dVPju7rSo279Z1WyNqlC",
+                url: "https://wanderhawaii.com/big-island.html"
+            },
+            {
+                name: "Old Lahaina Luau",
+                company: "Old Lahaina Luau",
+                price: 225,
+                image: "https://cdn.filestackcontent.com/resize=w:600/auto_image/compress/9Pw0kQQnSfWxSxXmHZg2",
+                url: "https://wanderhawaii.com/maui.html"
+            },
+            {
+                name: "Whale Watch Cruise",
+                company: "Pacific Whale Foundation",
+                price: 59,
+                image: "https://cdn.filestackcontent.com/resize=w:600/auto_image/compress/q3jS0KnRxCqcvkQq6jLQ",
+                url: "https://wanderhawaii.com/maui.html"
+            }
+        ];
+
+        const grid = document.getElementById('tour-grid');
+        sampleTours.forEach(tour => {
+            grid.innerHTML += `
+                <div class="tour-card">
+                    <img src="${tour.image}" alt="${tour.name}" loading="lazy">
+                    <div class="tour-card-content">
+                        <h4>${tour.name}</h4>
+                        <div class="company">${tour.company}</div>
+                        <div class="price">From $${tour.price}</div>
+                        <a href="${tour.url}" class="book-btn" target="_blank">Check Availability</a>
+                    </div>
+                </div>
+            `;
+        });
+    </script>
+</body>
+</html>
