@@ -1644,11 +1644,9 @@ section { padding: var(--space-3xl) 0; }
     /* Prominent brand logo over the photo (single-row search reclaims the room) */
     .hero-logo-pill {
         display: inline-block;
-        background: rgba(255, 255, 255, 0.80);
+        background: rgba(255, 255, 255, 0.72);
         padding: var(--space-sm) var(--space-md);
         border-radius: 28px;
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
         margin-bottom: var(--space-sm);
     }
 
