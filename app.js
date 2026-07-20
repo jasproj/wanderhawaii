@@ -287,9 +287,7 @@ function injectHomeMrecAfterEighthCard(grid) {
     const slotHtml = '<div class="sponsor-slot home-mrec-injected"' +
         ' data-slot-id="home-mrec-1"' +
         ' data-slot-type="mrec"' +
-        ' data-slot-page="home"' +
-        ' data-allow-adsense="true"' +
-        ' data-adsense-slot="4595979458"></div>';
+        ' data-slot-page="home"></div>';
     cards[7].insertAdjacentHTML('afterend', slotHtml);
     if (window.SponsorSlot && typeof window.SponsorSlot.refresh === 'function') {
         window.SponsorSlot.refresh('home-mrec-1');
