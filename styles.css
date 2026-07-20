@@ -130,6 +130,16 @@ ul, ol { list-style: none; }
     align-items: center;
 }
 
+.hero-logo-img {
+    height: 480px;
+    width: auto;
+    max-width: 90%;
+    filter:
+        drop-shadow(0 4px 6px rgba(0, 0, 0, 0.4))
+        drop-shadow(0 0 25px #FF6F61)
+        drop-shadow(0 0 50px #FF6F61);
+}
+
 .footer-logo-img {
     height: 120px;
     width: auto;
@@ -351,6 +361,21 @@ ul, ol { list-style: none; }
     letter-spacing: 0.2em;
     margin-bottom: var(--space-md);
     opacity: 0.9;
+}
+
+/* Hero Logo - Big centered branding */
+.hero-logo-pill {
+    display: inline-block;
+    background: transparent;
+    padding: 0;
+    margin-bottom: var(--space-lg);
+}
+
+.hero-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-md);
 }
 
 .hero h1 {
@@ -1568,10 +1593,13 @@ section { padding: var(--space-3xl) 0; }
        single-row search overlaid. Top padding clears the position:fixed 77px
        header so the stack sits in the visible band below it. */
     .hero {
-        /* Single-row search (~65px) frees room for a prominent logo; the box
-           fits logo + tagline + search below the 77px header at ~290px. */
-        min-height: 280px;
-        max-height: 290px;
+        /* Single-row search (~55px) + a prominent 200px brand logo + tagline,
+           stacked below the 77px fixed header (85px top padding). Sized to fit
+           the full stack with comfortable spacing and no clipping: the logo
+           alone is 200px, so the band grows to ~450px rather than shrinking
+           the logo. */
+        min-height: 450px;
+        max-height: 480px;
         padding: 85px var(--space-md) var(--space-md);
         /* anchor content to the top below the fixed header; centering would
            overflow the top of the content up behind the header */
@@ -1604,6 +1632,24 @@ section { padding: var(--space-3xl) 0; }
         font-size: 0.75rem;
         letter-spacing: 0.15em;
         margin-bottom: var(--space-sm);
+    }
+
+    .hero-logo {
+        flex-direction: column;
+        gap: var(--space-sm);
+    }
+
+    /* Prominent brand logo over the photo (single-row search reclaims the room) */
+    .hero-logo-pill {
+        display: inline-block;
+        padding: 0;
+        margin-bottom: var(--space-sm);
+    }
+
+    .hero-logo-img {
+        height: 200px;
+        width: auto;
+        filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5));
     }
 
     /* Single-row search (un-stack the <=560px column override, which is
