@@ -170,7 +170,7 @@
     </header>
 
     <!-- HERO -->
-    <section class="hero">
+    <section class="hero" id="islands">
         <div class="hero-bg">
             <div class="hero-slide"></div>
             <div class="hero-slide"></div>
@@ -180,65 +180,25 @@
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <p class="hero-tagline">Book Local. Live Aloha.</p>
-            <div class="hero-logo-pill">
-                <div class="hero-logo">
-                    <picture>
-                        <source srcset="images/hero-banner.webp" type="image/webp">
-                        <img src="images/hero-banner.png" alt="WanderHawaii" class="hero-logo-img" width="960" height="960" fetchpriority="high">
-                    </picture>
-                </div>
-            </div>
-            <p class="hero-subtitle">Handpicked tours across Oahu, Maui, Big Island & Kauai.<br>Book direct with local tour guides and support local.</p>
-            
-            <div class="hero-search">
-                <div class="search-input-wrap">
-                    <span class="search-icon">🔍</span>
-                    <input type="text" id="hero-search" placeholder="Search snorkeling, whale watching, helicopters..." autocomplete="off">
-                </div>
-                <button class="search-btn" onclick="executeHeroSearch()">Find Tours</button>
-            </div>
-            
-            <!-- Scrolling Category Tags -->
-            <div class="quick-tags-wrapper">
-                <div class="quick-tags">
-                    <button onclick="quickFilter('snorkel')">🤿 Snorkeling</button>
-                    <button onclick="quickFilter('whale')">🐋 Whale Watch</button>
-                    <button onclick="quickFilter('dolphin')">🐬 Dolphins</button>
-                    <button onclick="quickFilter('boat')">🚤 Boat Tours</button>
-                    <button onclick="quickFilter('scuba')">🤿 Scuba & Diving</button>
-                    <button onclick="quickFilter('kayak')">🚣 Kayaking</button>
-                    <button onclick="quickFilter('helicopter')">🚁 Helicopter</button>
-                    <button onclick="quickFilter('sunset')">🌅 Sunset Cruises</button>
-                    <button onclick="quickFilter('hiking')">🥾 Hiking</button>
-                    <button onclick="quickFilter('surf')">🏄 Surfing</button>
-                    <button onclick="quickFilter('zipline')">🎢 Zipline</button>
-                    <button onclick="quickFilter('food')">🍽️ Food Tours</button>
-                    <button onclick="quickFilter('sailing')">⛵ Sailing</button>
-                    <button onclick="quickFilter('manta')">🌙 Manta Rays</button>
-                    <button onclick="quickFilter('private')">✨ Private Tours</button>
-                    <button onclick="quickFilter('farm')">🌴 Farm Tours</button>
-                    <button onclick="quickFilter('fishing')">🎣 Fishing</button>
-                    <button onclick="quickFilter('atv')">🏎️ ATV/UTV</button>
-                    <!-- Duplicate for seamless loop -->
-                    <button onclick="quickFilter('snorkel')">🤿 Snorkeling</button>
-                    <button onclick="quickFilter('whale')">🐋 Whale Watch</button>
-                    <button onclick="quickFilter('dolphin')">🐬 Dolphins</button>
-                    <button onclick="quickFilter('boat')">🚤 Boat Tours</button>
-                    <button onclick="quickFilter('scuba')">🤿 Scuba & Diving</button>
-                    <button onclick="quickFilter('kayak')">🚣 Kayaking</button>
-                    <button onclick="quickFilter('helicopter')">🚁 Helicopter</button>
-                    <button onclick="quickFilter('sunset')">🌅 Sunset Cruises</button>
-                    <button onclick="quickFilter('hiking')">🥾 Hiking</button>
-                    <button onclick="quickFilter('surf')">🏄 Surfing</button>
-                    <button onclick="quickFilter('zipline')">🎢 Zipline</button>
-                    <button onclick="quickFilter('food')">🍽️ Food Tours</button>
-                    <button onclick="quickFilter('sailing')">⛵ Sailing</button>
-                    <button onclick="quickFilter('manta')">🌙 Manta Rays</button>
-                    <button onclick="quickFilter('private')">✨ Private Tours</button>
-                    <button onclick="quickFilter('farm')">🌴 Farm Tours</button>
-                    <button onclick="quickFilter('fishing')">🎣 Fishing</button>
-                    <button onclick="quickFilter('atv')">🏎️ ATV/UTV</button>
-                </div>
+            <h1 class="hero-decision-h1">Which Hawaiian island should you book?</h1>
+            <p class="hero-decision-sub">Oahu has the most tours. Maui has the whales. Big Island has the volcano and the manta rays. Kauai has the coastline.</p>
+            <div class="island-decision-cards">
+                <a class="island-decision-card" href="oahu.html" onclick="trackBookingClick('Oahu Tours', 'oahu', 'oahu')">
+                    <span class="island-decision-card__name">Oahu</span>
+                    <span class="island-decision-card__desc">Most tours, easiest logistics · best for first-timers</span>
+                </a>
+                <a class="island-decision-card" href="maui.html" onclick="trackBookingClick('Maui Tours', 'maui', 'maui')">
+                    <span class="island-decision-card__name">Maui</span>
+                    <span class="island-decision-card__desc">Whales, Road to Hana, Molokini snorkeling</span>
+                </a>
+                <a class="island-decision-card" href="big-island.html" onclick="trackBookingClick('Big Island Tours', 'big-island', 'big-island')">
+                    <span class="island-decision-card__name">Big Island</span>
+                    <span class="island-decision-card__desc">Volcano, manta ray night snorkel, Kona coffee</span>
+                </a>
+                <a class="island-decision-card" href="kauai.html" onclick="trackBookingClick('Kauai Tours', 'kauai', 'kauai')">
+                    <span class="island-decision-card__name">Kauai</span>
+                    <span class="island-decision-card__desc">Na Pali coast, Waimea Canyon, most dramatic scenery</span>
+                </a>
             </div>
         </div>
         
@@ -261,51 +221,6 @@
     </section>
 
     <!-- ISLANDS -->
-    <section class="islands-nav" id="islands">
-        <div class="container">
-            <h2 class="section-title">Explore by Island</h2>
-            <p class="section-subtitle">Each island has its own personality. Find your perfect match.</p>
-            
-            <div class="islands-grid">
-                <a href="oahu.html" class="island-card" onclick="trackBookingClick('Oahu Tours', 'oahu', 'oahu')">
-                    <div class="island-img" style="background-image: url('images/oahu-card.jpg')"></div>
-                    <div class="island-content">
-                        <h3>Oahu</h3>
-                        <p>Waikiki • Pearl Harbor • North Shore</p>
-                        <span class="island-count">1,194 Adventures</span>
-                    </div>
-                </a>
-                
-                <a href="maui.html" class="island-card" onclick="trackBookingClick('Maui Tours', 'maui', 'maui')">
-                    <div class="island-img" style="background-image: url('images/maui-card.jpg')"></div>
-                    <div class="island-content">
-                        <h3>Maui</h3>
-                        <p>Road to Hana • Molokini • Whale Watching</p>
-                        <span class="island-count">826 Adventures</span>
-                    </div>
-                </a>
-                
-                <a href="big-island.html" class="island-card" onclick="trackBookingClick('Big Island Tours', 'big-island', 'big-island')">
-                    <div class="island-img" style="background-image: url('images/big-island-card.jpg')"></div>
-                    <div class="island-content">
-                        <h3>Big Island</h3>
-                        <p>Volcanoes • Manta Rays • Kona Coffee</p>
-                        <span class="island-count">598 Adventures</span>
-                    </div>
-                </a>
-                
-                <a href="kauai.html" class="island-card" onclick="trackBookingClick('Kauai Tours', 'kauai', 'kauai')">
-                    <div class="island-img" style="background-image: url('images/kauai-card.jpg')"></div>
-                    <div class="island-content">
-                        <h3>Kauai</h3>
-                        <p>Na Pali Coast • Waimea Canyon</p>
-                        <span class="island-count">524 Adventures</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
     <!-- FEATURED: Manta Ray decision page (route traffic to /manta-ray-big-island.html) -->
     <section style="padding: 32px 20px; background: #eef6fb;">
         <a href="/manta-ray-big-island.html" style="display:flex;align-items:center;justify-content:space-between;gap:16px;max-width:1100px;margin:0 auto;padding:22px 26px;background:#fff;border:1px solid #cfe3f0;border-left:5px solid #0077b6;border-radius:12px;text-decoration:none;color:inherit;">
