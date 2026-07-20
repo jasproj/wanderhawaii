@@ -1637,13 +1637,15 @@ section { padding: var(--space-3xl) 0; }
     .hero-logo {
         flex-direction: column;
         gap: var(--space-sm);
+        width: 100%;
+        justify-content: center;
     }
 
     /* Prominent brand logo over the photo (single-row search reclaims the room) */
     .hero-logo-pill {
         display: inline-block;
-        background: rgba(255, 255, 255, 0.92);
-        padding: var(--space-md) var(--space-lg);
+        background: rgba(255, 255, 255, 0.80);
+        padding: var(--space-sm) var(--space-md);
         border-radius: 28px;
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
@@ -1653,6 +1655,8 @@ section { padding: var(--space-3xl) 0; }
     .hero-logo-img {
         height: 200px;
         width: auto;
+        display: block;
+        margin: 0 auto;
         filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.28));
     }
 
