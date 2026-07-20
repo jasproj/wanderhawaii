@@ -130,16 +130,6 @@ ul, ol { list-style: none; }
     align-items: center;
 }
 
-.hero-logo-img {
-    height: 480px;
-    width: auto;
-    max-width: 90%;
-    filter:
-        drop-shadow(0 4px 6px rgba(0, 0, 0, 0.4))
-        drop-shadow(0 0 25px #FF6F61)
-        drop-shadow(0 0 50px #FF6F61);
-}
-
 .footer-logo-img {
     height: 120px;
     width: auto;
@@ -361,36 +351,6 @@ ul, ol { list-style: none; }
     letter-spacing: 0.2em;
     margin-bottom: var(--space-md);
     opacity: 0.9;
-}
-
-/* Hero Logo - Big centered branding */
-.hero-logo-pill {
-    display: inline-block;
-    background: transparent;
-    padding: 0;
-    margin-bottom: var(--space-lg);
-}
-
-.hero-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: var(--space-md);
-}
-
-.hero-logo-flower {
-    font-size: 4rem;
-    line-height: 1;
-    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
-}
-
-.hero-logo-text {
-    font-family: var(--font-display);
-    font-size: clamp(3rem, 8vw, 5rem);
-    font-weight: 700;
-    color: var(--white);
-    text-shadow: 0 4px 20px rgba(0,0,0,0.4);
-    letter-spacing: -0.02em;
 }
 
 .hero h1 {
@@ -1646,25 +1606,6 @@ section { padding: var(--space-3xl) 0; }
         margin-bottom: var(--space-sm);
     }
 
-    .hero-logo {
-        flex-direction: column;
-        gap: var(--space-sm);
-    }
-
-    /* Prominent brand logo over the photo (single-row search reclaims the room) */
-    .hero-logo-pill {
-        display: inline-block;
-        padding: 0;
-        margin-bottom: var(--space-sm);
-    }
-
-    .hero-logo-img {
-        height: 80px;
-        width: auto;
-        /* lighter shadow than the desktop coral glow so the mark stays crisp */
-        filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5));
-    }
-
     /* Single-row search (un-stack the <=560px column override, which is
        earlier in the source so this wins): input grows, button shrinks,
        never wraps. Narrow input just truncates its placeholder. */
@@ -1691,14 +1632,6 @@ section { padding: var(--space-3xl) 0; }
         flex: 0 0 auto;
         white-space: nowrap;
         padding: var(--space-sm) var(--space-md);
-    }
-    
-    .hero-logo-flower {
-        font-size: 3rem;
-    }
-    
-    .hero-logo-text {
-        font-size: clamp(2rem, 10vw, 3rem);
     }
     
     .hero-subtitle {
@@ -2609,26 +2542,6 @@ section { padding: var(--space-3xl) 0; }
 }
 
 .blog-featured-image { width: 100%; max-width: 100%; border-radius: 8px; margin: 24px 0; object-fit: cover; }
-
-/* ============================================
-   AD SLOT STYLING
-   ============================================ */
-.ad-slot {
-    background: #f0f0f0;
-    text-align: center;
-    padding: 20px;
-    margin: 20px 0;
-    border: 1px dashed #ccc;
-    border-radius: 4px;
-    font-size: 14px;
-    color: #666;
-    font-weight: 500;
-}
-
-.ad-slot#ad-hero-below { min-height: 100px; } /* 728x90 leaderboard */
-.ad-slot#ad-blog-sidebar { min-height: 280px; } /* 300x250 */
-.ad-slot#ad-tour-native { min-height: 120px; } /* Native ad style */
-.ad-slot#ad-blog-bottom { min-height: 100px; } /* 728x90 leaderboard */
 
 /* Footer badge — light pill background for contrast on dark footer */
 .footer-logo-img {
