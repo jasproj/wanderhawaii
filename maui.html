@@ -25,8 +25,8 @@
     <style>
         /* Island page specific hero */
         .island-hero {
-            background: linear-gradient(135deg, rgba(0,100,150,0.9), rgba(0,50,100,0.95)), 
-                        url('https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?auto=format&fit=crop&w=2000&q=80');
+            background: linear-gradient(135deg, rgba(0,100,150,0.55), rgba(0,50,100,0.7)),
+                        url('images/maui-card.jpg');
             background-size: cover;
             background-position: center;
             padding: 80px 20px 60px;
@@ -118,12 +118,12 @@
         }
 
         @media (max-width: 767px) {
-            .island-hero { padding: 8px 20px 6px; min-height: 90px; max-height: 120px; overflow: hidden; }
-            .island-hero h1 { font-size: 1.1rem; margin-bottom: 4px; line-height: 1.15; }
-            .island-hero p,
-            .island-stats,
-            .island-areas,
-            .tours-count-badge { display: none; }
+            .island-hero { padding: 28px 20px 32px; }
+            .island-hero h1 { font-size: 1.75rem; margin-bottom: 10px; line-height: 1.2; }
+            .island-hero p { font-size: 1rem; margin-bottom: 18px; }
+            .island-areas { gap: 8px; margin-top: 18px; }
+            .area-tag { font-size: 0.85rem; padding: 7px 14px; }
+            .island-stats { display: none; }
         }
     </style>
 <!-- Google tag (gtag.js) -->
