@@ -235,12 +235,36 @@
         </div>
     </section>
 
+    <!-- Tours Grid -->
+    <section id="tours-section" style="padding: 40px 20px; background: #f8f9fa;">
+        <div style="max-width: 1400px; margin: 0 auto;">
+            <div id="tours-grid" class="tours-grid">
+                <!-- Tours loaded by JavaScript -->
+                <div class="loading-state">Loading Maui adventures...</div>
+            </div>
+            
+            <div id="load-more-container" style="text-align: center; margin-top: 30px; display: none;">
+                <button id="load-more-btn" onclick="loadMoreTours()" 
+                        style="padding: 15px 40px; background: #0066cc; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem;">
+                    Load More Adventures →
+                </button>
+            </div>
+            
+            <div id="no-results" style="display: none; text-align: center; padding: 60px 20px;">
+                <p style="font-size: 1.2rem; color: #666;">No tours match your search. Try different keywords.</p>
+                <button onclick="resetFilters()" style="margin-top: 15px; padding: 10px 25px; background: #0066cc; color: white; border: none; border-radius: 6px; cursor: pointer;">
+                    Clear Filters
+                </button>
+            </div>
+        </div>
+    </section>
+
 <!--
   WHAW Weather Widget — Maui drop-in partial.
   Sources: Open-Meteo (current conditions), NOAA Tides & Currents (Honolulu station 1615680), Windy.com (radar iframe).
   Coordinates: Maui / Honolulu (20.8783, -156.4729). No API keys required.
   Self-contained: includes scoped CSS in <style> and JS in <script>.
-  Inject between the filter-section close and <section id="tours-section">.
+  Rendered after <section id="tours-section"> — below the tour grid and Load More button.
 -->
 <!-- WEATHER WIDGET START -->
 <section class="kwst-weather" id="weather" aria-labelledby="kwst-weather-heading">
@@ -468,30 +492,6 @@
 })();
 </script>
 <!-- WEATHER WIDGET END -->
-
-    <!-- Tours Grid -->
-    <section id="tours-section" style="padding: 40px 20px; background: #f8f9fa;">
-        <div style="max-width: 1400px; margin: 0 auto;">
-            <div id="tours-grid" class="tours-grid">
-                <!-- Tours loaded by JavaScript -->
-                <div class="loading-state">Loading Maui adventures...</div>
-            </div>
-            
-            <div id="load-more-container" style="text-align: center; margin-top: 30px; display: none;">
-                <button id="load-more-btn" onclick="loadMoreTours()" 
-                        style="padding: 15px 40px; background: #0066cc; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem;">
-                    Load More Adventures →
-                </button>
-            </div>
-            
-            <div id="no-results" style="display: none; text-align: center; padding: 60px 20px;">
-                <p style="font-size: 1.2rem; color: #666;">No tours match your search. Try different keywords.</p>
-                <button onclick="resetFilters()" style="margin-top: 15px; padding: 10px 25px; background: #0066cc; color: white; border: none; border-radius: 6px; cursor: pointer;">
-                    Clear Filters
-                </button>
-            </div>
-        </div>
-    </section>
 
     <!-- Why Book Section -->
     <section style="padding: 60px 20px; background: #fff;">
