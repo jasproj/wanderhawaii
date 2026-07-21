@@ -1236,12 +1236,18 @@ section { padding: var(--space-3xl) 0; }
     position: absolute;
     inset: 0;
     background: linear-gradient(180deg, rgba(10, 77, 104, 0.7) 0%, rgba(10, 77, 104, 0.85) 100%);
+    z-index: 0;
 }
 
 .island-hero-content {
     position: relative;
     z-index: 1;
     max-width: 800px;
+}
+
+.island-hero > * {
+    position: relative;
+    z-index: 1;
 }
 
 .island-hero .breadcrumb {
