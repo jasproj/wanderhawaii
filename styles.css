@@ -74,7 +74,8 @@ ul, ol { list-style: none; }
 /* ============================================
    HEADER - CONSISTENT LOGO
    ============================================ */
-.header {
+.header,
+.site-header {
     position: fixed;
     top: 0;
     left: 0;
@@ -97,7 +98,8 @@ ul, ol { list-style: none; }
 }
 
 /* LOGO STYLING - SAME IN HEADER AND FOOTER */
-.logo {
+.logo,
+.logo-link {
     display: flex;
     align-items: center;
     gap: var(--space-sm);
@@ -107,7 +109,8 @@ ul, ol { list-style: none; }
     transition: transform var(--transition-fast);
 }
 
-.logo:hover { transform: scale(1.02); }
+.logo:hover,
+.logo-link:hover { transform: scale(1.02); }
 
 .logo-flower {
     font-size: 1.75rem;
@@ -199,20 +202,23 @@ ul, ol { list-style: none; }
 }
 
 /* Navigation */
-.nav-desktop {
+.nav-desktop,
+.main-nav {
     display: flex;
     align-items: center;
     gap: var(--space-xl);
 }
 
-.nav-desktop a {
+.nav-desktop a,
+.main-nav a {
     font-weight: 500;
     color: var(--gray-700);
     padding: var(--space-sm) 0;
     position: relative;
 }
 
-.nav-desktop a::after {
+.nav-desktop a::after,
+.main-nav a::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -223,8 +229,10 @@ ul, ol { list-style: none; }
     transition: width var(--transition-base);
 }
 
-.nav-desktop a:hover { color: var(--ocean-deep); }
-.nav-desktop a:hover::after { width: 100%; }
+.nav-desktop a:hover,
+.main-nav a:hover { color: var(--ocean-deep); }
+.nav-desktop a:hover::after,
+.main-nav a:hover::after { width: 100%; }
 
 .mobile-menu-btn {
     display: none;
@@ -241,7 +249,17 @@ ul, ol { list-style: none; }
     transition: all var(--transition-fast);
 }
 
-.nav-mobile {
+/* Island/blog pages use a text glyph button (<button class="mobile-menu-btn">☰</button>)
+   instead of the homepage's three <span> bars. Scoped to .site-header so it only
+   sizes the glyph variant and never touches the homepage's span button. */
+.site-header .mobile-menu-btn {
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--gray-700);
+}
+
+.nav-mobile,
+.mobile-nav {
     display: none;
     flex-direction: column;
     background: var(--white);
@@ -249,9 +267,11 @@ ul, ol { list-style: none; }
     padding: var(--space-md) var(--space-lg);
 }
 
-.nav-mobile.active { display: flex; }
+.nav-mobile.active,
+.mobile-nav.active { display: flex; }
 
-.nav-mobile a {
+.nav-mobile a,
+.mobile-nav a {
     padding: var(--space-md) 0;
     border-bottom: 1px solid var(--gray-100);
     font-weight: 500;
@@ -259,7 +279,8 @@ ul, ol { list-style: none; }
 }
 
 @media (max-width: 768px) {
-    .nav-desktop { display: none; }
+    .nav-desktop,
+    .main-nav { display: none; }
     .mobile-menu-btn { display: flex; }
 }
 
