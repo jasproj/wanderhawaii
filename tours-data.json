@@ -631,14 +631,15 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "no-online-availability",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 55
-      }
+      },
+      "statusCheckedAt": "2026-07-24"
     },
     {
       "id": "215652",
@@ -2325,8 +2326,8 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "no-online-availability",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -2335,7 +2336,8 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:18:08.594Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "statusCheckedAt": "2026-07-24"
     },
     {
       "id": "346473",
@@ -47312,15 +47314,16 @@
       "timeOfDay": "night",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "no-online-availability",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 210
       },
-      "gallery": []
+      "gallery": [],
+      "statusCheckedAt": "2026-07-24"
     },
     {
       "id": "425699",
@@ -50750,15 +50753,16 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "no-online-availability",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 90
       },
-      "gallery": []
+      "gallery": [],
+      "statusCheckedAt": "2026-07-24"
     },
     {
       "id": "266963",
@@ -62789,8 +62793,8 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "no-online-availability",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -62799,7 +62803,8 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:22:15.834Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "statusCheckedAt": "2026-07-24"
     },
     {
       "id": "506567",
@@ -108598,15 +108603,16 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "no-online-availability",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 120
       },
-      "gallery": []
+      "gallery": [],
+      "statusCheckedAt": "2026-07-24"
     },
     {
       "id": "281128",
