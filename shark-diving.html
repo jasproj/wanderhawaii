@@ -65,7 +65,12 @@
         .cta-btn { display: inline-flex; align-items: center; gap: var(--space-sm); padding: var(--space-lg) var(--space-2xl); background: var(--plumeria); color: var(--gray-900); font-weight: 600; font-size: 1.125rem; border-radius: var(--radius-full); transition: all var(--transition-fast); }
         .cta-btn:hover { background: var(--plumeria-hover); transform: translateY(-2px); }
         
-        @media (max-width: 768px) { .info-grid { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) {
+            .activity-hero { padding: 48px var(--space-lg) 32px; }
+            .activity-hero h1 { font-size: 1.75rem; }
+            .hero-stats { gap: 1rem 1.5rem; }
+            .hero-stat-number { font-size: 1.5rem; }
+ .info-grid { grid-template-columns: 1fr; } }
         @media (max-width: 767px) {
             .activity-hero { padding: 8px var(--space-md) 6px; min-height: 90px; max-height: 120px; overflow: hidden; }
             .activity-hero h1 { font-size: 1.1rem; margin-bottom: 4px; line-height: 1.15; }
