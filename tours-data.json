@@ -79890,7 +79890,7 @@
       "island": "oahu",
       "price": 60,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "420 minutes",
