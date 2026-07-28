@@ -277,6 +277,7 @@
             
             // Filter by island and activity
             filteredTours = toursData.filter(tour => 
+                tour.status !== 'inactive' && !tour.bookingDead && 
                 tour.island?.toLowerCase() === ISLAND && 
                 tour.tags?.includes(ACTIVITY)
             );
