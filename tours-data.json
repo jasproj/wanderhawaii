@@ -8586,7 +8586,7 @@
       "island": "kauai",
       "price": 249,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "120 minutes",
@@ -11807,7 +11807,7 @@
       "island": "kauai",
       "price": 600,
       "priceLabel": "Anaina Hou Camp - Student",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 75,
       "currency": "USD",
       "duration": null,
@@ -19654,7 +19654,7 @@
       "island": "kauai",
       "price": 20,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -19814,7 +19814,7 @@
       "island": "kauai",
       "price": 55,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -31481,7 +31481,7 @@
       "island": "maui",
       "price": 149,
       "priceLabel": "Passenger",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "120 minutes",
@@ -33654,7 +33654,7 @@
       "island": "maui",
       "price": 199,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "300 minutes",
@@ -34650,7 +34650,7 @@
       "island": "maui",
       "price": 3500,
       "priceLabel": "Private Dive Charter",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "360 minutes",
@@ -39865,7 +39865,7 @@
       "island": "maui",
       "price": 1799,
       "priceLabel": "Private Charter - For Groups of 1-10 Hikers",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "360 minutes",
@@ -40115,7 +40115,7 @@
       "island": "maui",
       "price": 137,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "60 minutes",
@@ -41351,7 +41351,7 @@
       "island": "maui",
       "price": 298,
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "180 minutes",
@@ -45816,7 +45816,7 @@
       "island": "big island",
       "price": 175,
       "priceLabel": "Certified Open Water Diver or Above",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "120 minutes",
@@ -49052,7 +49052,7 @@
       "island": "big island",
       "price": 118,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "150 minutes",
@@ -51333,7 +51333,7 @@
       "island": "oahu",
       "price": 125,
       "priceLabel": "Group",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "2880 minutes",
@@ -54268,7 +54268,7 @@
       "island": "big island",
       "price": 300,
       "priceLabel": "Private Group Minimum",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "60 minutes",
@@ -54867,7 +54867,7 @@
       "island": "big island",
       "price": 152,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -57053,7 +57053,7 @@
       "island": "big island",
       "price": 155,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -58709,7 +58709,7 @@
       "island": "big island",
       "price": 229,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "660 minutes",
@@ -62817,7 +62817,7 @@
       "island": "big island",
       "price": 45,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -65492,7 +65492,7 @@
       "island": "oahu",
       "price": 1499,
       "priceLabel": "Helicopter Diver Specialty Level 1",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "360 minutes",
@@ -78898,7 +78898,7 @@
       "island": "oahu",
       "price": 160,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "90 minutes",
@@ -80218,7 +80218,7 @@
       "island": "oahu",
       "price": 55,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "90 minutes",
@@ -84337,7 +84337,7 @@
       "island": "oahu",
       "price": 20,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 90,
       "currency": "USD",
       "duration": "420 minutes",
@@ -86701,7 +86701,7 @@
       "island": "oahu",
       "price": 125,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -86750,7 +86750,7 @@
       "island": "oahu",
       "price": 72,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -89677,7 +89677,7 @@
       "island": "maui",
       "price": 89,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -91818,7 +91818,7 @@
       "island": "maui",
       "price": 30,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "60 minutes",
@@ -92103,7 +92103,7 @@
       "island": "maui",
       "price": 79,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -92230,7 +92230,7 @@
       "island": "maui",
       "price": 145,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "240 minutes",
@@ -93151,7 +93151,7 @@
       "island": "oahu",
       "price": 96,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "150 minutes",
@@ -93300,7 +93300,7 @@
       "island": "oahu",
       "price": 129,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -94621,7 +94621,7 @@
       "island": "big island",
       "price": 250,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "60 minutes",
@@ -95900,7 +95900,7 @@
       "island": "oahu",
       "price": 350,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "50 minutes",
@@ -100192,7 +100192,7 @@
       "island": "big island",
       "price": 45,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "60 minutes",
@@ -101063,7 +101063,7 @@
       "island": "oahu",
       "price": 175,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "420 minutes",
@@ -103495,7 +103495,7 @@
       "island": "maui",
       "price": 199,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "150 minutes",
@@ -104703,7 +104703,7 @@
       "island": "maui",
       "price": 174,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -104830,7 +104830,7 @@
       "island": "maui",
       "price": 174,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "150 minutes",
@@ -104997,7 +104997,7 @@
       "island": "maui",
       "price": 119,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "120 minutes",
@@ -105090,7 +105090,7 @@
       "island": "maui",
       "price": 124,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -105132,7 +105132,7 @@
       "island": "oahu",
       "price": 69,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "300 minutes",
@@ -120215,7 +120215,7 @@
       "island": "maui",
       "price": 189,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "120 minutes",
@@ -120695,7 +120695,7 @@
       "island": "oahu",
       "price": 35,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 80,
       "currency": "USD",
       "duration": "180 minutes",
@@ -123127,7 +123127,7 @@
       "island": "oahu",
       "price": 16,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "90 minutes",
@@ -130672,7 +130672,7 @@
       "island": "maui",
       "price": 399,
       "priceLabel": "per person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 80,
       "currency": "USD",
       "duration": "300 minutes",
@@ -141771,7 +141771,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1202540,
@@ -155084,7 +155084,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Premium Seat",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1028332,
@@ -155794,7 +155794,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "2-Hour Rental",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1182581,
@@ -158666,7 +158666,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Public Charter Ticket",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1151105,
@@ -161193,7 +161193,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Cleanup Diver",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 715270,
@@ -161726,7 +161726,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Eight Hour Kayak Rental",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1027605,
@@ -162610,7 +162610,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "1 Hour Lesson",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 775075,
@@ -163958,7 +163958,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Single Kayak One Hour Rental",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 991392,
@@ -164710,7 +164710,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Rider",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1004771,
@@ -164769,7 +164769,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Rider",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1004771,
@@ -169049,7 +169049,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Two Day Rental",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 555470,
@@ -169244,7 +169244,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Two Day Rental",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 555470,
@@ -169439,7 +169439,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Two Day Rental",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 555470,
@@ -170770,7 +170770,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 380524,
@@ -174827,7 +174827,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "3 Hour Private Charter",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 546351,
@@ -176209,7 +176209,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 717127,
@@ -178540,7 +178540,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Recreational Avelo Diver (RAD) Certification",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1194118,
@@ -186845,7 +186845,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "8 Hour Fireworks 1-6",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1112605,
@@ -186911,7 +186911,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "8 Hour Fireworks 7-12",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1112648,
@@ -187033,7 +187033,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "General Admission Ticket",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 2280,
@@ -194757,7 +194757,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Person",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 244409,
@@ -194863,7 +194863,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Helicopter Jump",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 264336,
@@ -200406,7 +200406,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "30 Minute Sessions",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1206750,
@@ -200465,7 +200465,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "30 Minute Sessions",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1206750,
@@ -200524,7 +200524,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "30 Minute Sessions",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1206750,
@@ -200583,7 +200583,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "30 Minute Sessions",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1206750,
@@ -201900,7 +201900,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 738568,
@@ -203839,7 +203839,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Camper",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 738820,
@@ -204861,7 +204861,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 738568,
@@ -205525,7 +205525,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Certified Diver",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1208383,
@@ -205694,7 +205694,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Keiki",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 852334,
@@ -205868,7 +205868,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Guest",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 650867,
@@ -206600,7 +206600,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Full Week Extended Care",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1236390,
@@ -207178,7 +207178,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "ʻULAʻULA",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1266059,
@@ -207240,7 +207240,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Aqua Glider Hourly",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1256422,
@@ -207295,7 +207295,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 619944,
@@ -209553,7 +209553,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Rebreather Diver",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1146261,
@@ -209708,7 +209708,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Divemaster Weekend Course Student (7Week)",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1203366,
