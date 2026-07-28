@@ -274,6 +274,7 @@
             toursData = Array.isArray(_raw) ? _raw : _raw.tours;
             // Filter: Kauai + (Rafting tag OR NaPali in name)
             filteredTours = toursData.filter(tour => 
+                tour.status !== 'inactive' && !tour.bookingDead && 
                 tour.island?.toLowerCase() === ISLAND && 
                 (tour.tags?.includes('Rafting') || tour.name?.toLowerCase().includes('napali'))
             );

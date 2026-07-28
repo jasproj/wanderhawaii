@@ -274,6 +274,7 @@
             const _raw = await response.json();
             toursData = Array.isArray(_raw) ? _raw : _raw.tours;
             filteredTours = toursData.filter(tour => 
+                tour.status !== 'inactive' && !tour.bookingDead && 
                 tour.island?.toLowerCase() === ISLAND && 
                 tour.tags?.includes(ACTIVITY)
             );

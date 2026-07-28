@@ -640,6 +640,7 @@
                 
                 // Filter to this island only
                 allTours = data.filter(tour => 
+                    tour.status !== 'inactive' && !tour.bookingDead && 
                     tour.island && tour.island.toLowerCase() === ISLAND_FILTER
                 );
                 
