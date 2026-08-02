@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pearl Harbor Tours 2025: Complete Visitor Guide | WanderHawaii</title>
     <meta name="description" content="Plan your Pearl Harbor visit with our complete guide. USS Arizona Memorial tickets, USS Missouri tours, what to expect, and tour recommendations. Updated 2025.">
-    <link rel="canonical" href="https://wanderhawaii.com/blog/pearl-harbor-tours.html">
+    <link rel="canonical" href="https://wanderhawaii.com/pearl-harbor-tours.html">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,6 +34,14 @@
             .blog-hero { padding: 8px 20px 6px; min-height: 90px; max-height: 120px; overflow: hidden; }
             .blog-hero h1 { font-size: 1.1rem; line-height: 1.15; margin-bottom: 0; }
         }
+            /* Inline tour cards ported from the /blog/ twin (PR: canonical reversal).
+           .book-btn-inline is already in tracking.js CTA_CLASSES. */
+        .tour-card-inline { background: #f8fbff; border: 1px solid #e0e8f0; border-radius: 12px; padding: 25px; margin: 25px 0; }
+        .tour-card-inline h3 { margin-top: 0; color: #0066cc; }
+        .tour-price { font-size: 1.4rem; font-weight: 700; color: #e85a24; }
+        .tour-basis { display: block; font-size: 0.85rem; font-weight: 600; color: #8a5a2b; margin-top: 2px; }
+        .tour-details { color: #666; margin: 10px 0 15px; }
+        .book-btn-inline { display: inline-block; background: #0066cc; color: white; padding: 12px 25px; border-radius: 6px; text-decoration: none; font-weight: 600; }
     </style>
     <script type="application/ld+json">
 {
@@ -123,6 +131,28 @@
         </div>
 
         <h2>DIY vs. Guided Tour</h2>
+        <div class="tour-card-inline">
+            <h3>Pearl Harbor City – from Waikiki</h3>
+            <div class="tour-price">From $69</div>
+            <p class="tour-details">E Noa Corporation runs a 5-hour bus tour from Waikiki covering Pearl Harbor and downtown Honolulu sites including the USS Arizona Memorial Visitor Center, King Kamehameha Statue, and Aloha Tower. Handles transportation and narration. Free cancellation. Best option if you don't want to drive and deal with Pearl Harbor's confusing parking situation.</p>
+            <p><strong>Duration:</strong> 5 hours &bull; <strong>Operator:</strong> E Noa Corporation &bull; <strong>Departs:</strong> Waikiki</p>
+            <a href="https://fareharbor.com/embeds/book/enoatours/items/42966/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures" class="book-btn-inline" target="_blank" rel="noopener" data-tour-name="Pearl Harbor City – from Waikiki (E Noa Corporation)" data-tour-id="enoatours/42966">Check Availability &rarr;</a>
+        </div>
+        <div class="tour-card-inline">
+            <h3>Pearl Harbor City Tour / USS Arizona Memorial</h3>
+            <div class="tour-price">Check availability</div>
+            <p class="tour-details">Aloha Hawaii Tours runs a 5-hour guided tour focused on Pearl Harbor's historical sites and the USS Arizona Memorial, plus key Honolulu landmarks. Immersive historical narration throughout. Free cancellation. Good choice for visitors who want more depth on the historical context rather than just transportation.</p>
+            <p><strong>Duration:</strong> 5 hours &bull; <strong>Operator:</strong> Aloha Hawaii Tours &bull; <strong>Departs:</strong> Waikiki</p>
+            <a href="https://fareharbor.com/embeds/book/alohahawaiitours/items/163820/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures" class="book-btn-inline" target="_blank" rel="noopener" data-tour-name="Pearl Harbor City Tour / USS Arizona Memorial (Aloha Hawaii Tours)" data-tour-id="alohahawaiitours/163820">Check Availability &rarr;</a>
+        </div>
+        <div class="tour-card-inline">
+            <h3>Kauai to Oahu: WWII Deluxe Pearl Harbor Tour</h3>
+            <div class="tour-price">From $550</div>
+            <p class="tour-details">Polynesian Adventure Activities runs an all-inclusive 13-hour day trip from Kauai to Pearl Harbor. Includes inter-island flight, transportation between sites, and guided tours of the memorial and surrounding sites. Free cancellation available. Best option for Kauai visitors who want to see Pearl Harbor without planning all the logistics themselves.</p>
+            <p><strong>Duration:</strong> 13 hours &bull; <strong>Operator:</strong> Polynesian Adventure Activities &bull; <strong>Departs:</strong> Kauai</p>
+            <a href="https://fareharbor.com/embeds/book/polyad-activities/items/540441/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures" class="book-btn-inline" target="_blank" rel="noopener" data-tour-name="Kauai to Oahu: WWII Deluxe Pearl Harbor Tour (Polynesian Adventure Activities)" data-tour-id="polyad-activities/540441">Check Availability &rarr;</a>
+        </div>
+
 
         <h3>Do It Yourself</h3>
         <ul>

@@ -56,13 +56,13 @@
   </url>
   <url>
     <loc>https://wanderhawaii.com/hawaii-helicopter-tours.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://wanderhawaii.com/hawaii-luaus.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>https://wanderhawaii.com/kauai-tours.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -152,7 +152,7 @@
   </url>
   <url>
     <loc>https://wanderhawaii.com/pearl-harbor-tours.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -176,13 +176,13 @@
   </url>
   <url>
     <loc>https://wanderhawaii.com/things-to-do-maui.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://wanderhawaii.com/things-to-do-oahu.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -361,19 +361,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/blog/hawaii-helicopter-tours.html</loc>
-    <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://wanderhawaii.com/blog/hawaii-kayak-tours.html</loc>
-    <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wanderhawaii.com/blog/hawaii-luaus.html</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -441,12 +429,6 @@
   <url>
     <loc>https://wanderhawaii.com/blog/</loc>
     <lastmod>2026-07-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wanderhawaii.com/blog/kauai-tours.html</loc>
-    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -547,12 +529,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/blog/pearl-harbor-tours.html</loc>
-    <lastmod>2026-07-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://wanderhawaii.com/blog/private-vs-group-tours-hawaii.html</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -579,18 +555,6 @@
   <url>
     <loc>https://wanderhawaii.com/blog/things-to-do-big-island.html</loc>
     <lastmod>2026-07-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wanderhawaii.com/blog/things-to-do-maui.html</loc>
-    <lastmod>2026-07-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wanderhawaii.com/blog/things-to-do-oahu.html</loc>
-    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
