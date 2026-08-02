@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Browse 595 Hawaii Tours | Find Your Perfect Adventure | WanderHawaii</title>
-    <meta name="description" content="Explore 595 Hawaiian tours with our interactive guide. Take the quiz to find your perfect adventure, compare activities, and get personalized recommendations.">
+    <title>Browse Hawaii Tours | Find Your Perfect Adventure | WanderHawaii</title>
+    <meta name="description" content="Explore Hawaiian tours with our interactive guide. Take the quiz to find your perfect adventure, compare activities, and get personalized recommendations.">
     <meta name="keywords" content="Hawaii tours, book Hawaii activities, Hawaiian adventures, tour finder, Hawaii trip planner">
     <link rel="canonical" href="https://wanderhawaii.com/tours.html">
     
@@ -602,10 +602,6 @@
             <p>Not sure where to start? Take our 60-second quiz or browse by category below.</p>
             <div class="hero-stats">
                 <div class="hero-stat">
-                    <span class="hero-stat-number">595</span>
-                    <span class="hero-stat-label">Tours</span>
-                </div>
-                <div class="hero-stat">
                     <span class="hero-stat-number">4</span>
                     <span class="hero-stat-label">Islands</span>
                 </div>
@@ -789,66 +785,50 @@
             <h2 class="section-title">Browse by Activity</h2>
             <p class="section-subtitle">Explore our guides or jump straight to tours</p>
             
+            <!-- Every card must land on a page that renders at least one FareHarbor
+                 CTA. Cards for Ziplines, Waterfalls, Shark Diving, Jet Skis and
+                 Dolphins were removed rather than repointed: the inventory exists
+                 (37/86/27/1/142 records) but no page renders it with a booking
+                 path, and an island grid showing none of that activity is a dead
+                 end wearing a category label. Restore a card only alongside a
+                 surface that actually serves it.
+                 Scope label replaces the old hardcoded counts, matching the
+                 convention in #97-#100. -->
             <div class="categories-grid">
-                <a href="snorkeling.html" class="category-card">
+                <a href="oahu/snorkeling.html" class="category-card">
                     <div class="category-icon">🤿</div>
                     <div class="category-name">Snorkeling</div>
-                    <div class="category-count">114 tours</div>
-                </a>
-                <a href="whale-watching.html" class="category-card">
-                    <div class="category-icon">🐋</div>
-                    <div class="category-name">Whale Watching</div>
-                    <div class="category-count">43 tours</div>
-                </a>
-                <a href="kayak.html" class="category-card">
-                    <div class="category-icon">🚣</div>
-                    <div class="category-name">Kayaking</div>
-                    <div class="category-count">23 tours</div>
-                </a>
-                <a href="zipline.html" class="category-card">
-                    <div class="category-icon">🎢</div>
-                    <div class="category-name">Ziplines</div>
-                    <div class="category-count">15 tours</div>
-                </a>
-                <a href="waterfalls.html" class="category-card">
-                    <div class="category-icon">💦</div>
-                    <div class="category-name">Waterfalls</div>
-                    <div class="category-count">20+ tours</div>
-                </a>
-                <a href="shark-diving.html" class="category-card">
-                    <div class="category-icon">🦈</div>
-                    <div class="category-name">Shark Diving</div>
                     <div class="category-count">Oahu</div>
                 </a>
-                <a href="fishing.html" class="category-card">
+                <a href="maui/whale-watching.html" class="category-card">
+                    <div class="category-icon">🐋</div>
+                    <div class="category-name">Whale Watching</div>
+                    <div class="category-count">Maui</div>
+                </a>
+                <a href="big-island/kayaking.html" class="category-card">
+                    <div class="category-icon">🚣</div>
+                    <div class="category-name">Kayaking</div>
+                    <div class="category-count">Big Island</div>
+                </a>
+                <a href="blog/hawaii-fishing-charters.html" class="category-card">
                     <div class="category-icon">🎣</div>
                     <div class="category-name">Fishing</div>
-                    <div class="category-count">8 charters</div>
+                    <div class="category-count">All islands</div>
                 </a>
-                <a href="jet-ski.html" class="category-card">
-                    <div class="category-icon">🚤</div>
-                    <div class="category-name">Jet Skis</div>
-                    <div class="category-count">3 islands</div>
-                </a>
-                <a href="index.html#tours-section" class="category-card" onclick="localStorage.setItem('filterActivity', 'Dolphin')">
-                    <div class="category-icon">🐬</div>
-                    <div class="category-name">Dolphins</div>
-                    <div class="category-count">46 tours</div>
-                </a>
-                <a href="index.html#tours-section" class="category-card" onclick="localStorage.setItem('filterActivity', 'Scuba')">
+                <a href="blog/hawaii-scuba-diving.html" class="category-card">
                     <div class="category-icon">🫧</div>
                     <div class="category-name">Scuba Diving</div>
-                    <div class="category-count">34 tours</div>
+                    <div class="category-count">All islands</div>
                 </a>
-                <a href="index.html#tours-section" class="category-card" onclick="localStorage.setItem('filterActivity', 'Surf')">
+                <a href="blog/hawaii-surfing-lessons.html" class="category-card">
                     <div class="category-icon">🏄</div>
                     <div class="category-name">Surfing</div>
-                    <div class="category-count">26 tours</div>
+                    <div class="category-count">All islands</div>
                 </a>
-                <a href="index.html#tours-section" class="category-card" onclick="localStorage.setItem('filterActivity', 'Air')">
+                <a href="blog/hawaii-helicopter-tours.html" class="category-card">
                     <div class="category-icon">🚁</div>
                     <div class="category-name">Helicopters</div>
-                    <div class="category-count">10 tours</div>
+                    <div class="category-count">All islands</div>
                 </a>
             </div>
         </div>
@@ -896,7 +876,7 @@
     <!-- BROWSE CTA -->
     <section class="browse-cta">
         <div class="container">
-            <h2>Ready to Explore All 595 Tours?</h2>
+            <h2>Ready to Explore Every Hawaii Tour?</h2>
             <p>Filter by island, activity, and more on our main tours page.</p>
             <a href="index.html#tours-section" class="browse-cta-btn">
                 Browse All Tours →
