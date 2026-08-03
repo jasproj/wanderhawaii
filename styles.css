@@ -2427,3 +2427,38 @@ section { padding: var(--space-3xl) 0; }
     padding: 10px;
     filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
 }
+
+/* ============================================
+   RELATED CARDS
+   Nine root pages define these in an inline <style> that loads after this
+   file, so their copies keep winning and are unaffected. These rules exist
+   for the thirty blog/ pages, which carry no inline <style> at all and so
+   render .related-card with no chrome whatsoever.
+
+   Values for .related-posts / .related-grid / .related-card are copied
+   verbatim from those nine, which agree byte-identically.
+
+   The blog/ markup is the article variant — <article class="related-card">
+   wrapping an <img>, an <h3><a>, and a <p> — not the root anchor variant
+   (<a class="related-card"> wrapping <h4> and <p>). The h3 and img rules
+   below exist only for that variant; neither selector matches anything on
+   the nine.
+   ============================================ */
+.related-posts { background: #f8f9fa; padding: 40px 20px; margin-top: 40px; }
+.related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 800px; margin: 0 auto; }
+.related-card { background: white; border-radius: 8px; padding: 20px; text-decoration: none; color: inherit; }
+
+/* No color declared. The nine give .related-card h4 a per-page accent, six
+   distinct values across them, so there is no single correct one to share.
+   The h3 on all thirty currently computes rgb(38, 38, 38) — the inherited
+   body color, not an accent — and that is left exactly as it is. Only the
+   structural margin is taken from the reference. */
+.related-card h3 { margin-bottom: 0.5rem; }
+
+/* The img is unsized today: intrinsic 400x267 on most cards, 400x192 on a
+   few, rendered at natural size because nothing constrains it. Inside the
+   253.3px card, max-width alone would leave rows ragged — 142px tall for a
+   400x267 asset next to 102px for a 400x192 one. Pinning the ratio to 3/2,
+   the dominant intrinsic ratio, makes every card in a row identical and
+   crops the odd asset instead of letterboxing it. */
+.related-card img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; border-radius: 4px; margin-bottom: 12px; }

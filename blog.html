@@ -45,6 +45,10 @@
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 30px;
+            /* Cards size to their own content instead of stretching to the
+               tallest in the row, so a card without an image band does not
+               leave blank space below its text. */
+            align-items: start;
         }
         .blog-card {
             background: white;
@@ -180,7 +184,6 @@
         </a>
 
         <a href="blog/pearl-harbor-tours.html" class="blog-card">
-            <div class="blog-card-img" style="background-image: url('https://images.unsplash.com/photo-1564347524726-da8cb3f0b65d?w=600')"></div>
             <div class="blog-card-content">
                 <span class="blog-card-tag">History</span>
                 <h2>Pearl Harbor Tours: Complete Visitor Guide</h2>
