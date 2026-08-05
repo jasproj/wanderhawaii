@@ -737,7 +737,7 @@
                         </div>
                         <div class="tour-footer">
                             <span class="tour-company">${tour.company}</span>
-                            <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="book-btn">Check Availability →</a>
+                            <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="book-btn" data-tour-id="${tour.id ?? tour.pk}" data-tour-name="${tour.name.replace(/"/g,'&quot;')}">Check Availability →</a>
                         </div>
                     </div>
                 </article>

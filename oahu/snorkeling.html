@@ -346,7 +346,7 @@
                     <div class="tour-tags">${tagDisplay}</div>
                     <div class="tour-footer">
                         <div class="tour-price">${price}</div>
-                        <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-book-btn">Check Availability →</a>
+                        <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-book-btn" data-tour-id="${tour.id ?? tour.pk}" data-tour-name="${tour.name.replace(/"/g,'&quot;')}">Check Availability →</a>
                     </div>
                 </div>
             </article>
