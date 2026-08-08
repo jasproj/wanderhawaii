@@ -30,15 +30,6 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-PL7CN6NG44');
-
-        function trackBookingClick(tourName, tourId, island) {
-            gtag('event', 'booking_click', {
-                'event_category': 'conversion',
-                'event_label': tourName,
-                'tour_id': tourId,
-                'island': island || 'hawaii'
-            });
-        }
     </script>
 
     <link rel="preload" as="image" href="images/hero-banner.webp" type="image/webp" fetchpriority="high">
@@ -175,19 +166,19 @@
             <h1 class="hero-decision-h1">Which Hawaiian island should you book?</h1>
             <p class="hero-decision-sub">Oahu has the most tours. Maui has the whales. Big Island has the volcano and the manta rays. Kauai has the coastline.</p>
             <div class="island-decision-cards">
-                <a class="island-decision-card" href="oahu.html" onclick="trackBookingClick('Oahu Tours', 'oahu', 'oahu')">
+                <a class="island-decision-card" href="oahu.html">
                     <span class="island-decision-card__name">Oahu</span>
                     <span class="island-decision-card__desc">Most tours, easiest logistics · best for first-timers</span>
                 </a>
-                <a class="island-decision-card" href="maui.html" onclick="trackBookingClick('Maui Tours', 'maui', 'maui')">
+                <a class="island-decision-card" href="maui.html">
                     <span class="island-decision-card__name">Maui</span>
                     <span class="island-decision-card__desc">Whales, Road to Hana, Molokini snorkeling</span>
                 </a>
-                <a class="island-decision-card" href="big-island.html" onclick="trackBookingClick('Big Island Tours', 'big-island', 'big-island')">
+                <a class="island-decision-card" href="big-island.html">
                     <span class="island-decision-card__name">Big Island</span>
                     <span class="island-decision-card__desc">Volcano, manta ray night snorkel, Kona coffee</span>
                 </a>
-                <a class="island-decision-card" href="kauai.html" onclick="trackBookingClick('Kauai Tours', 'kauai', 'kauai')">
+                <a class="island-decision-card" href="kauai.html">
                     <span class="island-decision-card__name">Kauai</span>
                     <span class="island-decision-card__desc">Na Pali coast, Waimea Canyon, most dramatic scenery</span>
                 </a>
@@ -288,7 +279,7 @@
             
             <div class="results-info">
                 <span id="results-count">Loading adventures...</span>
-                <button class="shuffle-btn" onclick="trackBookingClick('Shuffle Tours', 'shuffle', 'all'); shuffleTours()">🎲 Shuffle</button>
+                <button class="shuffle-btn" onclick="shuffleTours()">🎲 Shuffle</button>
             </div>
             
             <div class="tours-grid" id="tours-grid">
@@ -299,7 +290,7 @@
             </div>
             
             <div class="load-more-wrap">
-                <button class="load-more-btn" id="load-more" onclick="trackBookingClick('Load More Adventures', 'load-more', 'all'); loadMoreTours()">
+                <button class="load-more-btn" id="load-more" onclick="loadMoreTours()">
                     Load More Adventures <span>→</span>
                 </button>
             </div>
@@ -593,7 +584,7 @@
 
     <!-- MOBILE CTA -->
     <div class="mobile-cta" id="mobile-cta">
-        <a href="#tours-section" class="mobile-cta-btn" onclick="trackBookingClick('Find Your Adventure', 'mobile-cta', 'all')">
+        <a href="#tours-section" class="mobile-cta-btn">
             <span>🌺</span> Find Your Adventure
         </a>
     </div>
