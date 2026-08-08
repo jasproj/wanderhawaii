@@ -4,17 +4,22 @@
    Single source of truth for the booking_click GA4 conversion event.
    Loaded site-wide via <script src="/tracking.js" defer> in <head>.
 
-   Wires every Check Availability anchor (FareHarbor links and CTA-class
-   anchors) via document-level click delegation — no per-anchor onclick
-   required. Survives runtime-rendered anchors.
+   Wires every Check Availability anchor that links to fareharbor.com via
+   document-level click delegation — no per-anchor onclick required.
+   Survives runtime-rendered anchors. A CTA class alone never fires this
+   event; only a FareHarbor href does.
 
    Coexistence notes:
    - Anchors with an existing onclick="trackBookingClick(...)" are skipped
-     so they do not double-fire (10 such anchors live in blog/*).
-   - app.js defines its own trackBookingClick(tour) that overrides the
-     global on pages where app.js loads (homepage and tour grids). That
-     path is intentionally left alone; app.js fires through its own grid
-     handler, and our delegation does not match <button> elements.
+     so they do not double-fire. Measured 2026-08-08: 0 such anchors in
+     blog/*; index.html carried 7 (4 island-decision-cards, shuffle,
+     load-more, mobile scroll CTA) — all removed as non-booking actions
+     that were firing the canonical conversion event. This guard stays as
+     a defensive no-op for any future onclick="trackBookingClick(...)".
+   - app.js defines its own trackTourBooking(tour) for grid clicks (renamed
+     from trackBookingClick specifically to avoid shadowing the global);
+     that path is intentionally left alone, and our delegation does not
+     match <button> elements.
 
    utm_source tagging:
    - On every FareHarbor link click, we append utm_source=wanderhawaii
@@ -33,22 +38,6 @@
         var sep = url.indexOf('?') === -1 ? '?' : '&';
         return url + sep + 'utm_source=' + encodeURIComponent(slug);
     }
-
-    var CTA_CLASSES = [
-        'book-btn',
-        'book-btn-inline',
-        'btn-primary',
-        'tour-book-btn',
-        'cta-btn',
-        'final-cta-btn',
-        'browse-cta-btn',
-        'mobile-cta-btn',
-        'primary-cta',
-        'island-cta',
-        'footer-cta',
-        'sidebar-cta',
-        'blog-cta'
-    ];
 
     function detectRegion() {
         var path = (location && location.pathname) || '';
@@ -82,14 +71,6 @@
         };
     }
 
-    function hasCtaClass(link) {
-        if (!link.classList) return false;
-        for (var i = 0; i < CTA_CLASSES.length; i++) {
-            if (link.classList.contains(CTA_CLASSES[i])) return true;
-        }
-        return false;
-    }
-
     document.addEventListener('click', function (e) {
         var link = e.target.closest && e.target.closest('a');
         if (!link) return;
@@ -97,10 +78,8 @@
         if (onclickAttr.indexOf('trackBookingClick') !== -1) return;
         var href = link.getAttribute('href') || '';
         var isFareHarbor = href.indexOf('fareharbor.com') !== -1;
-        if (!isFareHarbor && !hasCtaClass(link)) return;
-        if (isFareHarbor) {
-            link.href = appendUtmSource(link.href, 'wanderhawaii');
-        }
+        if (!isFareHarbor) return;
+        link.href = appendUtmSource(link.href, 'wanderhawaii');
         var ctx = readContext(link);
         if (typeof gtag === 'undefined') return;
         // Attribution source: "map" when the CTA opts in via data-source,
