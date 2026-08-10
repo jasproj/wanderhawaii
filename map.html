@@ -316,6 +316,31 @@
         document.getElementById('sheet-close').addEventListener('click', closeSheet);
         backdrop.addEventListener('click', closeSheet);
 
+        // Untagged add-on/rental SKUs (bike seats, swim belts, bocce sets, etc.)
+        // share their operator's default photo and clutter the map sheet. Derived
+        // from priceBreakdown shape, not tags (most real tours have empty tags
+        // too): an item is hidden ONLY if every price tier is a rental/logistics
+        // variant (e.g. "Three Day Rental") AND neither the name nor any tier
+        // mentions an activity (tour/charter/lesson/dive/self-guided/etc.) or a
+        // passenger type (adult/child/private/diver/etc.). No priceBreakdown at
+        // all => not hidden.
+        function isAddonOrRental(tour) {
+            var ACTIVITY_WORDS = /\b(charter|tours?|cruise|sail(?:ing)?|lessons?|courses?|classes?|excursion|trip|div(?:e|ing)|workshop|camp|photoshoot|photo shoot|safari|expedition|adventure|walk|snorkel|whale\s*watch|luau|sunset|sunrise|package|certification|certified|experience|voyage|paddle\s*board\s*tour|freedive|free\s*dive|self[- ]?guided)\b/i;
+            var RENTAL_WORDS = /\b(rentals?|delivery|pick[- ]?up|drop[- ]?off)\b/i;
+            var PEOPLE_WORDS = /\b(adults?|child(?:ren)?|kids?|keiki|youth|infant|senior|military|veteran|persons?|general|admission|vip|group|couple|family|guests?|participant|camper|private|shared|tandem|solo|traveler|passengers?|rider|divers?|snorkelers?|swimmers?|non[- ]?swimmer|toddler|teen|junior)\b/i;
+
+            var name = tour.name || '';
+            var pb = Array.isArray(tour.priceBreakdown) ? tour.priceBreakdown : [];
+            var labels = pb.map(function (p) { return (p.singular || '').trim(); }).filter(Boolean);
+            var haystacks = [name].concat(labels);
+
+            if (haystacks.some(function (h) { return ACTIVITY_WORDS.test(h); })) return false;
+            if (labels.length === 0) return false;
+            if (labels.some(function (l) { return PEOPLE_WORDS.test(l); })) return false;
+            var rentalHits = labels.filter(function (l) { return RENTAL_WORDS.test(l); }).length;
+            return rentalHits === labels.length;
+        }
+
         // Group LIVE tours into one entry per geocoded PIN (geo.pinKey dedupes
         // flat-town and slash-path spellings of the same place), then roll pins
         // up into per-island groups for the zoomed-out overview.
@@ -324,6 +349,7 @@
                 if (t.bookingDead) return;                    // dead booking link — never shown
                 if (!t.location || !geo[t.location]) return;  // only geocoded (unambiguous) towns
                 if (!t.bookingUrl) return;
+                if (isAddonOrRental(t)) return;                // untagged add-on/rental SKU — never shown
                 var pin = geo[t.location].pinKey || t.location;
                 var ge = geo[pin] || geo[t.location];
                 if (!townGroups[pin]) {

@@ -629,6 +629,30 @@
             return a;
         }
 
+        // Untagged add-on/rental SKUs (bike seats, swim belts, bocce sets, etc.)
+        // share their operator's default photo and clutter the grid. Derived from
+        // priceBreakdown shape, not tags (most real tours have empty tags too):
+        // an item is hidden ONLY if every price tier is a rental/logistics variant
+        // (e.g. "Three Day Rental") AND neither the name nor any tier mentions an
+        // activity (tour/charter/lesson/dive/self-guided/etc.) or a passenger type
+        // (adult/child/private/diver/etc.). No priceBreakdown at all => not hidden.
+        function isAddonOrRental(tour) {
+            const ACTIVITY_WORDS = /\b(charter|tours?|cruise|sail(?:ing)?|lessons?|courses?|classes?|excursion|trip|div(?:e|ing)|workshop|camp|photoshoot|photo shoot|safari|expedition|adventure|walk|snorkel|whale\s*watch|luau|sunset|sunrise|package|certification|certified|experience|voyage|paddle\s*board\s*tour|freedive|free\s*dive|self[- ]?guided)\b/i;
+            const RENTAL_WORDS = /\b(rentals?|delivery|pick[- ]?up|drop[- ]?off)\b/i;
+            const PEOPLE_WORDS = /\b(adults?|child(?:ren)?|kids?|keiki|youth|infant|senior|military|veteran|persons?|general|admission|vip|group|couple|family|guests?|participant|camper|private|shared|tandem|solo|traveler|passengers?|rider|divers?|snorkelers?|swimmers?|non[- ]?swimmer|toddler|teen|junior)\b/i;
+
+            const name = tour.name || '';
+            const pb = Array.isArray(tour.priceBreakdown) ? tour.priceBreakdown : [];
+            const labels = pb.map(p => (p.singular || '').trim()).filter(Boolean);
+            const haystacks = [name, ...labels];
+
+            if (haystacks.some(h => ACTIVITY_WORDS.test(h))) return false;
+            if (labels.length === 0) return false;
+            if (labels.some(l => PEOPLE_WORDS.test(l))) return false;
+            const rentalHits = labels.filter(l => RENTAL_WORDS.test(l)).length;
+            return rentalHits === labels.length;
+        }
+
         // Load tours on page load
         document.addEventListener('DOMContentLoaded', async () => {
             try {
@@ -641,7 +665,8 @@
                 // Filter to this island only
                 allTours = data.filter(tour => 
                     tour.status !== 'inactive' && !tour.bookingDead && 
-                    tour.island && tour.island.toLowerCase() === ISLAND_FILTER
+                    tour.island && tour.island.toLowerCase() === ISLAND_FILTER &&
+                    !isAddonOrRental(tour)
                 );
                 
                 // Random shuffle on each page load (per-page-load only)
