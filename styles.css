@@ -2301,6 +2301,7 @@ section { padding: var(--space-3xl) 0; }
     display: inline-flex;
     align-items: center;
     gap: 8px;
+    min-height: 48px;
 }
 
 .tour-book-btn:hover {
@@ -2311,6 +2312,16 @@ section { padding: var(--space-3xl) 0; }
 
 .tour-book-btn:active {
     transform: translateY(0);
+}
+
+/* Island hub "Check Availability" link had no rule at all (0px padding,
+   ~26px tall from line-height alone) -- below the 48px touch-target
+   minimum. Sizing only, no color/background/border added, so the link
+   keeps its current plain-text appearance. */
+.book-btn {
+    display: inline-flex;
+    align-items: center;
+    min-height: 48px;
 }
 
 /* ============================================
