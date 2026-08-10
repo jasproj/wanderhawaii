@@ -38,33 +38,63 @@
   gtag('config', 'G-PL7CN6NG44');
 </script>
 <script src="/tracking.js" defer></script>
+    <style>
+        .blog-article { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        .blog-article h1 { font-size: 2.2rem; line-height: 1.2; margin-bottom: 20px; }
+        .blog-meta { color: #666; font-size: 0.95rem; margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+        .blog-hero-image { width: 100%; max-height: 450px; object-fit: cover; border-radius: 12px; margin-bottom: 30px; }
+        .blog-article p { font-size: 1.1rem; line-height: 1.8; margin-bottom: 20px; color: #333; }
+        .blog-article h2 { font-size: 1.6rem; margin-top: 40px; margin-bottom: 15px; }
+        .blog-article h3 { font-size: 1.3rem; margin-top: 30px; margin-bottom: 12px; }
+        .tour-card-inline { background: #f8fbff; border: 1px solid #e0e8f0; border-radius: 12px; padding: 25px; margin: 25px 0; }
+        .tour-card-inline h3 { margin-top: 0; color: #0066cc; }
+        .tour-price { font-size: 1.4rem; font-weight: 700; color: #e85a24; }
+        .tour-details { color: #666; margin: 10px 0 15px; }
+        .book-btn-inline { display: inline-block; background: #0066cc; color: white; padding: 12px 25px; border-radius: 6px; text-decoration: none; font-weight: 600; }
+        .tip-box { background: #fff8e6; border-left: 4px solid #f5a623; padding: 20px; margin: 25px 0; border-radius: 0 8px 8px 0; }
+        .breadcrumb { padding: 15px 20px; background: #f8f9fa; font-size: 0.9rem; }
+        .breadcrumb a { color: #0066cc; text-decoration: none; }
+        .cta-box { background: linear-gradient(135deg, #0066cc, #004499); color: white; padding: 35px; border-radius: 12px; text-align: center; margin: 40px 0; }
+        .cta-box h3 { color: white; margin-top: 0; }
+        .cta-box a { display: inline-block; background: white; color: #0066cc; padding: 14px 30px; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 15px; }
+        .compare-table { width: 100%; border-collapse: collapse; margin: 25px 0; }
+        .compare-table th, .compare-table td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; }
+        .compare-table th { background: #f8f9fa; }
+    </style>
 </head>
 <body>
     <header class="site-header">
-        <div class="header-inner">
-            <a href="/" class="logo">WanderHawaii</a>
-            <nav class="nav-desktop">
+        <div class="header-container">
+            <a href="/" class="logo-link">
+                <picture><source type="image/webp" srcset="/images/header-logo-160.webp 160w, /images/header-logo-320.webp 320w, /images/header-logo-480.webp 480w" sizes="(max-width: 768px) 143px, 191px"><img src="/images/header-logo.png" alt="WanderHawaii" class="logo-icon" loading="eager" decoding="async"></picture>
+</a>
+            <nav class="main-nav">
                 <a href="/#tours-section">Tours</a>
                 <a href="/#islands">Islands</a>
                 <a href="/blog/">Blog</a>
                 <a href="/about.html">About</a>
-                <a href="/#faq">FAQs</a>
             </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">☰</button>
         </div>
     </header>
 
-    <main class="blog-post">
-        <div class="breadcrumb">
-            <a href="/">Home</a> &rsaquo; <a href="/blog/">Blog</a> &rsaquo; Private Surf Lessons Hawaii
-        </div>
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav">
+        <a href="/#tours-section">Tours</a>
+        <a href="/#islands">Islands</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+    </nav>
 
-        <article>
-            <header class="post-header">
-                <h1>Private Surf Lessons in Hawaii for Beginners: Complete 2026 Guide</h1>
-                <p class="post-meta">Updated July 27, 2026 | By WanderHawaii Team</p>
-            </header>
+    <div class="breadcrumb">
+        <a href="/">Home</a> &rsaquo; <a href="/blog/">Blog</a> &rsaquo; Private Surf Lessons Hawaii
+    </div>
 
-            <div class="post-content">
+    <article class="blog-article">
+            <h1>Private Surf Lessons in Hawaii for Beginners: Complete 2026 Guide</h1>
+
+            <div class="blog-meta">Updated July 27, 2026 &bull; By WanderHawaii Team</div>
+
                 <p>If you've ever dreamed of catching a wave in the birthplace of surfing, private surf lessons in Hawaii offer the fastest, safest path to standing up on a board. Unlike group lessons where instruction is shared among 6-10 students, a private lesson gives you one-on-one attention from an experienced instructor who can adapt to your learning style, comfort level, and physical abilities.</p>
 
                 <p>This guide covers everything you need to know about booking private surf lessons across Hawaii's major islands—from Oahu's famous Waikiki Beach to Maui's calm Lahaina shores—plus real pricing, what to expect, and how to choose the right school for your goals.</p>
@@ -145,43 +175,49 @@
 
                 <h2>Ready to Ride Your First Wave?</h2>
                 <p>Private surf lessons in Hawaii transform a dream into reality. With personalized instruction, patient experts guides, and the world's most iconic waves as your classroom, you'll be standing on a surfboard far faster than trying to learn on your own.</p>
-            </div>
 
-            <aside class="post-cta">
+            <div class="cta-box">
                 <h3>Book Your Private Surf Lesson</h3>
                 <p>Browse verified private surf lessons across Oahu, Maui, and Kauai. Every tour includes equipment, expert instruction, and free cancellation.</p>
-                <a href="/blog/hawaii-surfing-lessons.html" class="btn-primary">Browse All Surfing Lessons →</a>
-            </aside>
+                <a href="/blog/hawaii-surfing-lessons.html">Browse All Surfing Lessons →</a>
+            </div>
         </article>
-    </main>
 
     <!-- FAQ SECTION -->
-    <section class="blog-faq">
+    <section class="faq-section" id="faq">
         <div class="container">
-            <h2>Frequently Asked Questions</h2>
+            <h2 class="section-title">Frequently Asked Questions</h2>
             <div class="faq-grid">
-                <div class="faq-item">
-                    <h3>Can beginners take private surf lessons in Hawaii?</h3>
+                <details class="faq-item">
+                    <summary>Can beginners take private surf lessons in Hawaii?</summary>
+                    <div class="faq-answer">
                     <p>Absolutely. Private lessons are actually the best choice for complete beginners because the instructor can provide dedicated attention and adapt to your pace. Most operators welcome true beginners who've never touched a surfboard.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>What's the minimum age for private surf lessons?</h3>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary>What's the minimum age for private surf lessons?</summary>
+                    <div class="faq-answer">
                     <p>Most operators require children to be at least 5-7 years old for private lessons, though this varies by school. Some offer kid-specific sessions with specially sized equipment and patient instructors experienced with young learners.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>Do I need to be a strong swimmer?</h3>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary>Do I need to be a strong swimmer?</summary>
+                    <div class="faq-answer">
                     <p>Basic swimming ability helps, but you don't need to be an athlete. Your instructor stays right beside you in the water and may provide a flotation device. Just be comfortable in the ocean and let your instructor know about any concerns upfront.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>How many people can I bring to a private surf lesson?</h3>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary>How many people can I bring to a private surf lesson?</summary>
+                    <div class="faq-answer">
                     <p>Private lessons typically accommodate 1-2 people for true one-on-one attention. Some operators allow larger groups (3-10) in a "private group" format where one instructor works with your party exclusively. Expect to pay more for additional participants.</p>
-                </div>
+                    </div>
+                </details>
             </div>
         </div>
     </section>
 
     <!-- RELATED POSTS -->
-    <section class="blog-related">
+    <section class="related-posts">
         <div class="container">
             <h2 class="section-title">Related Articles</h2>
             <div class="related-grid">
@@ -232,28 +268,35 @@
                 <div class="footer-links">
                     <h4>Popular</h4>
                     <ul>
-                        <li><a href="/snorkeling-tours-hawaii.html">Snorkeling</a></li>
-                        <li><a href="/hawaii-luaus.html">Luaus</a></li>
+                        <li><a href="/snorkeling.html">Snorkeling</a></li>
                         <li><a href="/whale-watching.html">Whale Watching</a></li>
-                        <li><a href="/hawaii-helicopter-tours.html">Helicopter Tours</a></li>
+                        <li><a href="/shark-diving.html">Shark Diving</a></li>
+                        <li><a href="/tours.html">Boat Tours</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-links">
                     <h4>Company</h4>
                     <ul>
-                        <li><a href="/about.html">About Us</a></li>
-                        <li><a href="/advertise.html">List Your Tours</a></li>
-                        <li><a href="/privacy.html">Privacy Policy</a></li>
-                        <li><a href="/terms.html">Terms of Service</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                        <li><a href="/advertise.html">Advertise</a></li>
+                        <li><a href="/faq.html">FAQs</a></li>
+                        <li><a href="mailto:info@wanderhawaii.com">Contact</a></li>
                     </ul>
                 </div>
             </div>
 
             <div class="footer-bottom">
                 <p>&copy; 2026 WanderHawaii. All rights reserved.</p>
+                <p><a href="/privacy.html">Privacy Policy</a> | <a href="/terms.html">Terms of Service</a></p>
             </div>
         </div>
     </footer>
+<script>
+document.querySelector('.mobile-menu-btn')?.addEventListener('click', () => {
+    document.querySelector('.mobile-nav')?.classList.toggle('active');
+});
+</script>
 </body>
 </html>

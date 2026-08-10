@@ -38,27 +38,59 @@
   gtag('config', 'G-PL7CN6NG44');
 </script>
 <script src="/tracking.js" defer></script>
+    <style>
+        .blog-article { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        .blog-article h1 { font-size: 2.2rem; line-height: 1.2; margin-bottom: 20px; }
+        .blog-meta { color: #666; font-size: 0.95rem; margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+        .blog-hero-image { width: 100%; max-height: 450px; object-fit: cover; border-radius: 12px; margin-bottom: 30px; }
+        .blog-article p { font-size: 1.1rem; line-height: 1.8; margin-bottom: 20px; color: #333; }
+        .blog-article h2 { font-size: 1.6rem; margin-top: 40px; margin-bottom: 15px; }
+        .blog-article h3 { font-size: 1.3rem; margin-top: 30px; margin-bottom: 12px; }
+        .tour-card-inline { background: #f8fbff; border: 1px solid #e0e8f0; border-radius: 12px; padding: 25px; margin: 25px 0; }
+        .tour-card-inline h3 { margin-top: 0; color: #0066cc; }
+        .tour-price { font-size: 1.4rem; font-weight: 700; color: #e85a24; }
+        .tour-details { color: #666; margin: 10px 0 15px; }
+        .book-btn-inline { display: inline-block; background: #0066cc; color: white; padding: 12px 25px; border-radius: 6px; text-decoration: none; font-weight: 600; }
+        .tip-box { background: #fff8e6; border-left: 4px solid #f5a623; padding: 20px; margin: 25px 0; border-radius: 0 8px 8px 0; }
+        .breadcrumb { padding: 15px 20px; background: #f8f9fa; font-size: 0.9rem; }
+        .breadcrumb a { color: #0066cc; text-decoration: none; }
+        .cta-box { background: linear-gradient(135deg, #0066cc, #004499); color: white; padding: 35px; border-radius: 12px; text-align: center; margin: 40px 0; }
+        .cta-box h3 { color: white; margin-top: 0; }
+        .cta-box a { display: inline-block; background: white; color: #0066cc; padding: 14px 30px; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 15px; }
+        .compare-table { width: 100%; border-collapse: collapse; margin: 25px 0; }
+        .compare-table th, .compare-table td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; }
+        .compare-table th { background: #f8f9fa; }
+    </style>
 </head>
 <body>
     <header class="site-header">
-        <div class="header-inner">
-            <a href="/" class="logo">WanderHawaii</a>
-            <nav class="nav-desktop">
+        <div class="header-container">
+            <a href="/" class="logo-link">
+                <picture><source type="image/webp" srcset="/images/header-logo-160.webp 160w, /images/header-logo-320.webp 320w, /images/header-logo-480.webp 480w" sizes="(max-width: 768px) 143px, 191px"><img src="/images/header-logo.png" alt="WanderHawaii" class="logo-icon" loading="eager" decoding="async"></picture>
+</a>
+            <nav class="main-nav">
                 <a href="/#tours-section">Tours</a>
                 <a href="/#islands">Islands</a>
                 <a href="/blog/">Blog</a>
                 <a href="/about.html">About</a>
-                <a href="/#faq">FAQs</a>
             </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">☰</button>
         </div>
     </header>
 
-    <main class="blog-post">
-        <div class="breadcrumb">
-            <a href="/">Home</a> &rsaquo; <a href="/blog/">Blog</a> &rsaquo; Hawaii Surfing Lessons
-        </div>
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav">
+        <a href="/#tours-section">Tours</a>
+        <a href="/#islands">Islands</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+    </nav>
 
-        <article>
+    <div class="breadcrumb">
+        <a href="/">Home</a> &rsaquo; <a href="/blog/">Blog</a> &rsaquo; Hawaii Surfing Lessons
+    </div>
+
+    <article class="blog-article">
             <h1>Hawaii Surfing Lessons: Best Surf Schools on Every Island</h1>
 
             <div class="blog-meta">
@@ -81,6 +113,7 @@
 
             <h2>Group vs. Semi-Private vs. Private Surf Lessons</h2>
 
+            <div style="overflow-x:auto;max-width:100%">
             <table class="compare-table">
                 <thead>
                     <tr>
@@ -117,6 +150,7 @@
                     </tr>
                 </tbody>
             </table>
+            </div>
 
             <h2>Oahu: Hans Hedemann Surf School</h2>
 
@@ -252,10 +286,9 @@
             <div class="cta-box">
                 <h3>Book a Surfing Lesson in Hawaii</h3>
                 <p>Oahu, Maui, Kauai — all three islands have established schools with experienced instructors. Book directly below to confirm your morning session.</p>
-                <a href="/oahu.html" class="cta-btn">Browse Oahu Surf Lessons</a>
+                <a href="/oahu.html">Browse Oahu Surf Lessons</a>
             </div>
         </article>
-    </main>
 
     <footer class="footer">
         <div class="container">
@@ -319,6 +352,11 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   });
+});
+</script>
+<script>
+document.querySelector('.mobile-menu-btn')?.addEventListener('click', () => {
+    document.querySelector('.mobile-nav')?.classList.toggle('active');
 });
 </script>
 </body>
