@@ -1502,6 +1502,16 @@ section { padding: var(--space-3xl) 0; }
         overflow: hidden;
     }
 
+    /* Blog Post hero has no decision-card stack -- just an H1 + one meta
+       line -- so it doesn't need the 560px floor above, sized for the
+       home decision hero's card stack. min-height is still a floor, not a
+       cap: overflow:hidden above only clips the absolutely-positioned
+       .hero-bg photo layer, not this normally-flowing content, so a long
+       title still grows the box and is never truncated. */
+    .hero-blog {
+        min-height: 320px;
+    }
+
     /* Darker scrim on mobile so the white text + cards read over the photo */
     .hero-overlay {
         background: rgba(0, 0, 0, 0.4);
