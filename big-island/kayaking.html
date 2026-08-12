@@ -320,7 +320,7 @@
         const desc = tour.description || '';
         const truncated = desc.length > 120 ? desc.substring(0, 117) + '...' : desc;
         const badge = (tour.qualityScore || 0) >= 75 ? '<span class="quality-badge">⭐ Popular</span>' : '';
-        const price = Number.isFinite(tour.price) ? `From $${tour.price}` : 'Check live price';
+        const price = (tour.priceLabel === 'per adult' && Number.isFinite(tour.price)) ? `From $${tour.price}` : 'Check live price';
         
         return `
             <article class="tour-card" data-id="${tour.id}">
