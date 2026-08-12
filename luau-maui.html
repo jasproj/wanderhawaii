@@ -20,6 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Inter', sans-serif; color: #333; line-height: 1.6; }
@@ -126,7 +127,7 @@
                 <div class="stat-label">Open Bar</div>
             </div>
         </div>
-        <button class="cta-btn" onclick="gtag('event', 'luau_cta_hero'); document.querySelector('.offer-box').scrollIntoView({behavior:'smooth'});">Check Availability</button>
+        <a href="#tours-grid" class="cta-btn">Check Availability</a>
     </section>
 
     <section class="offer-section">
@@ -137,7 +138,7 @@
                     <li>Dinner + show • Oceanfront seating</li>
                     <li>Premium • Front row seating + pre-show appetizers</li>
                 </ul>
-                <button class="cta-btn" onclick="gtag('event', 'luau_cta_offer');">Check Availability</button>
+                <a href="#tours-grid" class="cta-btn">Check Availability</a>
             </div>
 
             <div class="included">
@@ -150,6 +151,31 @@
                     <li>Live island music & culture</li>
                     <li>Sunset viewing area</li>
                 </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- TOURS GRID -->
+    <section class="tours-section">
+        <div class="container">
+            <h2 class="section-title">Maui Luau Tours</h2>
+
+            <div class="results-info">
+                <span id="results-count">Loading tours...</span>
+                <button class="shuffle-btn" onclick="shuffleActivityTours()">🎲 Shuffle</button>
+            </div>
+
+            <div class="tours-grid" id="tours-grid">
+                <div class="loading-state">
+                    <div class="loading-spinner"></div>
+                    <p>Loading luau tours...</p>
+                </div>
+            </div>
+
+            <div class="load-more-wrap">
+                <button class="load-more-btn" id="load-more" onclick="loadMoreActivityTours()">
+                    Load More Tours <span>→</span>
+                </button>
             </div>
         </div>
     </section>
@@ -183,7 +209,7 @@
     <section class="footer-cta">
         <h2>Ready for Your Maui Luau Experience?</h2>
         <p style="margin: 15px 0; font-size: 1.1rem;">Traditional feast, fire show, open bar, oceanfront sunset. Hawaiian night.</p>
-        <button class="cta-btn" onclick="gtag('event', 'luau_cta_footer');">Check Availability</button>
+        <a href="#tours-grid" class="cta-btn">Check Availability</a>
     </section>
 
     <script>
@@ -192,6 +218,125 @@
                 this.parentElement.classList.toggle('open');
             });
         });
+    </script>
+    <script>
+    let toursData = [];
+    let filteredTours = [];
+    let displayedCount = 0;
+    const TOURS_PER_PAGE = 24;
+
+    function isLuauTour(tour) {
+        return tour.island?.toLowerCase() === 'maui' && tour.name?.toLowerCase().includes('luau');
+    }
+
+    // Load and filter tours
+    async function loadActivityTours() {
+        try {
+            const response = await fetch('tours-data.json');
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+            const _raw = await response.json();
+            toursData = Array.isArray(_raw) ? _raw : _raw.tours;
+
+            filteredTours = toursData.filter(tour =>
+                tour.status !== 'inactive' && !tour.bookingDead &&
+                isLuauTour(tour)
+            );
+
+            console.log(`✅ Loaded ${filteredTours.length} luau tours`);
+            renderActivityTours();
+            updateActivityCount();
+        } catch (error) {
+            console.error('Error loading tours:', error);
+            document.getElementById('tours-grid').innerHTML = `
+                <div class="error-state">
+                    <p>⚠️ Unable to load tours. Please refresh the page.</p>
+                </div>
+            `;
+        }
+    }
+
+    function renderActivityTours(append = false) {
+        const grid = document.getElementById('tours-grid');
+        const toursToShow = filteredTours.slice(
+            append ? displayedCount : 0,
+            displayedCount + TOURS_PER_PAGE
+        );
+
+        const html = toursToShow.map(createTourCard).join('');
+
+        if (append) {
+            grid.insertAdjacentHTML('beforeend', html);
+        } else {
+            grid.innerHTML = html;
+        }
+
+        displayedCount = append
+            ? displayedCount + toursToShow.length
+            : toursToShow.length;
+
+        const loadMoreBtn = document.getElementById('load-more');
+        if (loadMoreBtn) {
+            loadMoreBtn.style.display = displayedCount >= filteredTours.length ? 'none' : 'block';
+        }
+    }
+
+    function createTourCard(tour) {
+        const tags = tour.tags || [];
+        const tagDisplay = tags.slice(0, 3).map(tag =>
+            `<span class="tour-tag">${tag}</span>`
+        ).join('');
+
+        const desc = tour.description || '';
+        const truncated = desc.length > 120 ? desc.substring(0, 117) + '...' : desc;
+        const badge = (tour.qualityScore || 0) >= 75 ? '<span class="quality-badge">⭐ Popular</span>' : '';
+        const price = (tour.priceLabel === 'per adult' && Number.isFinite(tour.price)) ? `From $${tour.price}` : 'Check live price';
+
+        return `
+            <article class="tour-card" data-id="${tour.id}">
+                <div class="tour-image">
+                    <img src="${tour.image}" alt="${tour.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'">
+                    ${badge}
+                </div>
+                <div class="tour-content">
+                    <div class="tour-meta">
+                        <span class="tour-location">📍 ${tour.location?.replace(/^United States\/Hawaii\//, '').trim() || 'Hawaii'}</span>
+                    </div>
+                    <h3 class="tour-title">${tour.name}</h3>
+                    <p class="tour-description">${truncated}</p>
+                    <div class="tour-tags">${tagDisplay}</div>
+                    <div class="tour-footer">
+                        <div class="tour-price">${price}</div>
+                        <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-book-btn" data-tour-id="${tour.id ?? tour.pk}" data-tour-name="${tour.name.replace(/"/g,'&quot;')}">Check Availability →</a>
+                    </div>
+                </div>
+            </article>
+        `;
+    }
+
+    function updateActivityCount() {
+        const countEl = document.getElementById('results-count');
+        if (countEl) {
+            countEl.textContent = `Showing ${Math.min(displayedCount, filteredTours.length)} of ${filteredTours.length} adventures`;
+        }
+    }
+
+    function loadMoreActivityTours() {
+        renderActivityTours(true);
+        updateActivityCount();
+    }
+
+    function shuffleActivityTours() {
+        for (let i = filteredTours.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [filteredTours[i], filteredTours[j]] = [filteredTours[j], filteredTours[i]];
+        }
+        displayedCount = 0;
+        renderActivityTours();
+        updateActivityCount();
+    }
+
+    document.addEventListener('DOMContentLoaded', loadActivityTours);
     </script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
