@@ -94608,7 +94608,15 @@
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:24:42.564Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "_unknownFields": {
+        "islandRuling": {
+          "status": "closed",
+          "date": "2026-08-12",
+          "rule": "island-names-destination-not-location",
+          "note": "This tour's island field names its destination island; location names the Honolulu booking office. Both are correct — two different, legitimate field semantics, not a data error. Ruled closed 2026-08-12; do not auto-correct via a location→island lookup."
+        }
+      }
     },
     {
       "id": "201702",
@@ -99011,7 +99019,15 @@
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:24:55.477Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "_unknownFields": {
+        "islandRuling": {
+          "status": "closed",
+          "date": "2026-08-12",
+          "rule": "island-names-destination-not-location",
+          "note": "This tour's island field names its destination island; location names the Honolulu booking office. Both are correct — two different, legitimate field semantics, not a data error. Ruled closed 2026-08-12; do not auto-correct via a location→island lookup."
+        }
+      }
     },
     {
       "id": "275262",
@@ -99412,7 +99428,15 @@
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:24:55.477Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "_unknownFields": {
+        "islandRuling": {
+          "status": "closed",
+          "date": "2026-08-12",
+          "rule": "island-names-destination-not-location",
+          "note": "This tour's island field names its destination island; location names the Honolulu booking office. Both are correct — two different, legitimate field semantics, not a data error. Ruled closed 2026-08-12; do not auto-correct via a location→island lookup."
+        }
+      }
     },
     {
       "id": "18870",
@@ -107895,7 +107919,15 @@
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:24:42.564Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "_unknownFields": {
+        "islandRuling": {
+          "status": "closed",
+          "date": "2026-08-12",
+          "rule": "island-names-destination-not-location",
+          "note": "This tour's island field names its destination island; location names the Honolulu booking office. Both are correct — two different, legitimate field semantics, not a data error. Ruled closed 2026-08-12; do not auto-correct via a location→island lookup."
+        }
+      }
     },
     {
       "id": "46298",
@@ -113619,7 +113651,15 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "_unknownFields": {
+        "islandRuling": {
+          "status": "closed",
+          "date": "2026-08-12",
+          "rule": "island-names-destination-not-location",
+          "note": "Closed 2026-08-12 as part of the Honolulu-cluster ruling (island names destination, location names booking office — both correct) by default, but NOT independently corroborated: this record's own name references Kona/Big Island Airport, not Maui, and neither island (maui) nor location (Honolulu) matches the name. If this cluster is ever revisited, check this record first."
+        }
+      }
     },
     {
       "id": "295882",
@@ -116550,7 +116590,13 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 1440
+        "durationMinutes": 1440,
+        "islandRuling": {
+          "status": "closed",
+          "date": "2026-08-12",
+          "rule": "island-names-destination-not-location",
+          "note": "This tour's island field names its destination island; location names the Honolulu booking office. Both are correct — two different, legitimate field semantics, not a data error. Ruled closed 2026-08-12; do not auto-correct via a location→island lookup."
+        }
       }
     },
     {
@@ -118256,7 +118302,13 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "priceSource": "v52-dominant-gate"
+        "priceSource": "v52-dominant-gate",
+        "islandRuling": {
+          "status": "closed",
+          "date": "2026-08-12",
+          "rule": "island-names-destination-not-location",
+          "note": "This tour's island field names its destination island; location names the Honolulu booking office. Both are correct — two different, legitimate field semantics, not a data error. Ruled closed 2026-08-12; do not auto-correct via a location→island lookup."
+        }
       },
       "gallery": []
     },
@@ -118644,7 +118696,15 @@
       "lastUpdated": "",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:26:15.346Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "_unknownFields": {
+        "islandRuling": {
+          "status": "closed",
+          "date": "2026-08-12",
+          "rule": "island-names-destination-not-location",
+          "note": "This tour's island field names its destination island; location names the Honolulu booking office. Both are correct — two different, legitimate field semantics, not a data error. Ruled closed 2026-08-12; do not auto-correct via a location→island lookup."
+        }
+      }
     },
     {
       "id": "71844",
@@ -125908,7 +125968,13 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 45
+        "durationMinutes": 45,
+        "islandRuling": {
+          "status": "closed",
+          "date": "2026-08-12",
+          "rule": "island-names-destination-not-location",
+          "note": "This tour's island field names its destination island; location names the Honolulu booking office. Both are correct — two different, legitimate field semantics, not a data error. Ruled closed 2026-08-12; do not auto-correct via a location→island lookup."
+        }
       },
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
@@ -125955,7 +126021,13 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 60
+        "durationMinutes": 60,
+        "islandRuling": {
+          "status": "closed",
+          "date": "2026-08-12",
+          "rule": "island-names-destination-not-location",
+          "note": "This tour's island field names its destination island; location names the Honolulu booking office. Both are correct — two different, legitimate field semantics, not a data error. Ruled closed 2026-08-12; do not auto-correct via a location→island lookup."
+        }
       },
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
@@ -126002,7 +126074,13 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 30
+        "durationMinutes": 30,
+        "islandRuling": {
+          "status": "closed",
+          "date": "2026-08-12",
+          "rule": "island-names-destination-not-location",
+          "note": "This tour's island field names its destination island; location names the Honolulu booking office. Both are correct — two different, legitimate field semantics, not a data error. Ruled closed 2026-08-12; do not auto-correct via a location→island lookup."
+        }
       },
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
@@ -132760,7 +132838,13 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 150
+        "durationMinutes": 150,
+        "islandRuling": {
+          "status": "closed",
+          "date": "2026-08-12",
+          "rule": "island-names-destination-not-location",
+          "note": "Closed 2026-08-12 as part of the Honolulu-cluster ruling (island names destination, location names booking office — both correct) by default, but NOT independently corroborated: this record's name carries no island-identifying signal in either direction. Closed on cluster-membership grounds only."
+        }
       },
       "bookingDead": true,
       "bookingDeadCheckedAt": "2026-05-28"
