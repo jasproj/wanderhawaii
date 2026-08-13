@@ -255,7 +255,7 @@ function createTourCard(tour) {
     badgesHtml += '</div>';
 
     return `
-        <article class="tour-card" data-id="${tour.id}">
+        <article class="tour-card" data-id="${tour.id ?? tour.pk}">
             <script type="application/ld+json">${schemaJson}</script>
             <div class="tour-image">
                 <img src="${tour.image || FALLBACK_IMAGE}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'" style="width: 100%; height: auto; object-fit: cover;">
@@ -270,7 +270,7 @@ function createTourCard(tour) {
                 <div class="tour-tags">${tagDisplay}</div>
                 <div class="tour-footer">
                     <div class="tour-price">${priceDisplay}</div>
-                    <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-book-btn book-now-btn" data-tour-id="${escapeHtml(tour.id)}" data-tour-name="${escapeHtml(tour.name)}" style="text-decoration: none;">Check Availability →</a>
+                    <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-book-btn book-now-btn" data-tour-id="${escapeHtml(tour.id ?? tour.pk)}" data-tour-name="${escapeHtml(tour.name)}" style="text-decoration: none;">Check Availability →</a>
                 </div>
             </div>
         </article>
