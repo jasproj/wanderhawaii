@@ -202,8 +202,7 @@ function generateTourSchema(tour) {
                 "@type": "Offer",
                 "price": tour.price,
                 "priceCurrency": "USD",
-                "url": tour.bookingUrl,
-                "availability": "https://schema.org/InStock"
+                "url": tour.bookingUrl
             }
         }),
         "provider": {
