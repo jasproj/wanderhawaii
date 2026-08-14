@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="styles.css">
     <script type="application/ld+json">
 {
-  "// NOTE": "Placeholders filled 2026-04-17. AggregateRating uses placeholder values (4.9/500) until real review counts are verified.",
+  "// NOTE": "No aggregateRating or priceRange is emitted: tours-data.json carries no rating, reviewCount, or defensible business-wide price range. Do not add placeholder values.",
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -52,7 +52,6 @@
         "url": "https://wanderhawaii.com/images/logo.png"
       },
       "image": "https://wanderhawaii.com/images/logo.png",
-      "priceRange": "$50\u2013$649",
       "currenciesAccepted": "USD",
       "address": {
         "@type": "PostalAddress",
@@ -87,13 +86,6 @@
         "Eco Tour",
         "Scuba Diving"
       ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "500",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
       "sameAs": [
         "https://wanderhawaii.com"
       ]
