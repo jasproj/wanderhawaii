@@ -347,6 +347,7 @@
         function buildGroups(tours, geo) {
             tours.forEach(function (t) {
                 if (t.bookingDead) return;                    // dead booking link — never shown
+                if (t.status === 'inactive') return;          // hidden — no online availability
                 if (!t.location || !geo[t.location]) return;  // only geocoded (unambiguous) towns
                 if (!t.bookingUrl) return;
                 if (isAddonOrRental(t)) return;                // untagged add-on/rental SKU — never shown
