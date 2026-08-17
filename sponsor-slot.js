@@ -174,8 +174,22 @@
         ' data-ad-slot="' + escAttr(fill.creative.adsenseSlot) + '"' +
         ' data-ad-format="auto" data-full-width-responsive="true"></ins>';
       try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
-      // Collapse slot if AdSense returns unfilled. Polls 5x over ~5s.
-      // CSS rule [data-fill-state="empty"] { display:none } hides the slot.
+      // Collapse the slot unless AdSense positively reports a fill. Polls 5x
+      // over ~5s. CSS rule [data-fill-state="empty"] { display:none } hides it.
+      //
+      // ONLY data-ad-status="filled" keeps the slot visible. Anything else --
+      // "unfilled", an unrecognised value, or the attribute never being set at
+      // all -- collapses it. The absent case is not theoretical: if the AdSense
+      // library is blocked, fails to load, or never processes the push, that
+      // attribute is never written. The previous version cleared the interval
+      // on timeout WITHOUT collapsing, so the slot stayed data-fill-state=
+      // "filled" -- display:block, gray backdrop, "Advertisement" label,
+      // min-height:250px -- permanently empty. That is the defect that took
+      // AdSense off this site on 2026-07-20 (PRs #78/#79/#81), after two
+      // earlier attempts (#35, #39) fixed only the symptoms it presents.
+      //
+      // Failing closed is the right default: an unfilled slot that collapses
+      // costs nothing, an empty labelled ad box costs the layout.
       var pollCount = 0;
       var poll = setInterval(function () {
         var ins = slotEl.querySelector('ins.adsbygoogle');
@@ -183,8 +197,12 @@
         if (status === 'unfilled') {
           clearInterval(poll);
           slotEl.setAttribute('data-fill-state', 'empty');
-        } else if (status === 'filled' || ++pollCount >= 5) {
+        } else if (status === 'filled') {
           clearInterval(poll);
+        } else if (++pollCount >= 5) {
+          // No verdict from AdSense within the poll window. Treat as unfilled.
+          clearInterval(poll);
+          slotEl.setAttribute('data-fill-state', 'empty');
         }
       }, 1000);
       return;
