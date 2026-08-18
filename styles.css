@@ -1494,9 +1494,13 @@ section { padding: var(--space-3xl) 0; }
     
     /* Hero Mobile — image-backed band holding the island decision stack
        (tagline + H1 + subhead + 4 island cards), over the photo. Top padding
-       clears the position:fixed 77px header. No max-height clamp: the box
-       grows to fit the full card stack (min-height is only a floor), so a
-       taller decision list never clips. */
+       clears the position:fixed header, measured at 77px here and 113px on
+       desktop; the two heights swap at the max-width:768px breakpoint this
+       block opens (60px vs 80px logo, --space-sm vs --space-md container
+       padding, plus the 1px bottom border). 77px is the mobile height only,
+       not the header height globally. No max-height clamp: the box grows to
+       fit the full card stack (min-height is only a floor), so a taller
+       decision list never clips. */
     .hero {
         min-height: 560px;
         padding: 85px var(--space-md) var(--space-xl);
@@ -2496,3 +2500,15 @@ section { padding: var(--space-3xl) 0; }
    .selected only via specificity (3 classes beats tours.html's 1), so the
    resting state and every other quiz option are untouched. */
 .quiz-option.selected .quiz-option-desc { color: var(--gray-600); }
+
+/* .cta-box sets color:white on the box, but the per-page inline <style> rule
+   `.blog-article p { color: #333 }` re-specifies it on the paragraph itself,
+   so inheritance never reaches it: #333 lands on the box's #0066cc->#004499
+   gradient. The h3 was already patched with an explicit .cta-box h3 rule;
+   the <p> was missed on 22 pages.
+   The double-class selector is load-bearing. Sheet order is styles.css ->
+   sponsor-slot.css -> inline, so a bare `.cta-box p` at (0,1,1) would tie
+   `.blog-article p` and lose on order. (0,2,1) wins outright, no !important.
+   The bare selector is kept alongside it for .cta-box outside .blog-article. */
+.blog-article .cta-box p,
+.cta-box p { color: #fff; }
