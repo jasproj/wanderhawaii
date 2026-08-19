@@ -87,6 +87,17 @@
         }
         @media (max-width: 767px) {
             .hero-section { padding: 8px 20px 6px; min-height: 90px; max-height: 120px; overflow: hidden; }
+            /* Clear the fixed .header (var(--header-h) = 77px here). The clamp above is
+               PR #28 and stays: these values re-express it relative to the header rather
+               than replacing it, so the visible hero band below the header is still 90px.
+               padding, not margin -- the hero paints a gradient that must run under the
+               translucent header. section.hero-section is (0,1,1) and out-specifies the
+               (0,1,0) rule above, so this does not depend on source order. */
+            section.hero-section {
+                padding-top: calc(var(--header-h) + 8px);
+                min-height: calc(90px + var(--header-h));
+                max-height: calc(120px + var(--header-h));
+            }
             .hero-section h1 { font-size: 1.1rem; margin-bottom: 4px; line-height: 1.15; }
             .hero-section p,
             .hero-section .hero-stats { display: none; }
@@ -111,6 +122,30 @@
 <script src="/tracking.js" defer></script>
 </head>
 <body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo">
+                    <picture><source type="image/webp" srcset="/images/header-logo-160.webp 160w, /images/header-logo-320.webp 320w, /images/header-logo-480.webp 480w" sizes="(max-width: 768px) 143px, 191px"><img src="/images/header-logo.png" alt="WanderHawaii" class="logo-img" loading="eager" decoding="async"></picture>
+</a>
+</div>
+            <nav class="nav-desktop">
+                <a href="/">Home</a>
+                <a href="/">Tours</a>
+                <a href="/blog/">Blog</a>
+                <a href="/about.html">About</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="/">Home</a>
+            <a href="/">Tours</a>
+            <a href="/blog/">Blog</a>
+            <a href="/about.html">About</a>
+        </nav>
+    </header>
     <section class="hero-section">
         <div class="hero-content">
             <h1>Family Tours in Oahu | Safe & Fun | From $39/Child</h1>
