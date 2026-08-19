@@ -100,6 +100,18 @@ ul, ol { list-style: none; }
    translucent header. Elements that DO paint a background need margin-top. */
 nav.breadcrumb { padding-top: var(--header-h); }
 
+/* div.breadcrumb is the first in-flow element on 31 pages, offset only by its
+   own `padding: 15px 20px`, so its box starts at y=0 behind the fixed header.
+
+   margin-top, NOT padding-top, because these paint `background: #f8f9fa` and
+   the header is only rgba(255,255,255,0.95). Padding would leave box-top at 0
+   and drag the grey band behind a translucent header -- and it would still
+   satisfy a contentTop-only assertion, which is why the check for this rule is
+   box-top >= headerH, not contentTop >= headerH. Measured on oahu.html:
+   padding-top:113px -> boxTop 0 (band behind header); margin-top:113px ->
+   boxTop 113 (band below it). */
+div.breadcrumb { margin-top: var(--header-h); }
+
 /* ============================================
    HEADER - CONSISTENT LOGO
    ============================================ */
