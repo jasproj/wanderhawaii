@@ -86,6 +86,21 @@ ul, ol { list-style: none; }
 .container { width: 100%; max-width: 1280px; margin: 0 auto; padding: 0 var(--space-lg); }
 
 /* ============================================
+   HEADER CLEARANCE
+   ============================================ */
+
+/* nav.breadcrumb is the first in-flow element on 47 pages and carries no
+   padding of its own, so its text renders at y=0 -- directly behind the
+   position:fixed header. Measured contentTop was 0 on all 47 at both widths.
+
+   Element-qualified at (0,1,1) so it outranks any page-level `.breadcrumb`
+   rule at (0,1,0) regardless of source order; today none of the 47 defines
+   one. padding-top (not margin-top) is correct here because the element's
+   background is rgba(0,0,0,0) on all 47 -- nothing is dragged behind the
+   translucent header. Elements that DO paint a background need margin-top. */
+nav.breadcrumb { padding-top: var(--header-h); }
+
+/* ============================================
    HEADER - CONSISTENT LOGO
    ============================================ */
 .header,
