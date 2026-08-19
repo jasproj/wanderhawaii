@@ -129,6 +129,29 @@ div.breadcrumb { margin-top: var(--header-h); }
    to authored spacing; it never replaces it. */
 header + article.blog-article { margin-top: var(--header-h); }
 
+/* .activity-hero is authored per page, not here, and only its MOBILE padding
+   is short of the header: desktop is 160px and already clears 113px.
+
+   The authored mobile top padding differs by page -- 48px on all eight from
+   #124, overridden to 8px on the four that also carry the >=#28 compact
+   treatment (min-height 90, max-height 120, overflow hidden). Clearance ADDS
+   to the authored value rather than replacing it, so the page supplies its own
+   via --activity-hero-pad and this rule adds the header height to it. The four
+   compact pages declare 8px; the fallback 48px covers the other four.
+
+   padding, not margin: desktop deliberately renders the hero image behind the
+   header (box-top 0, contentTop 160). margin-top would move the image down on
+   all eight to solve a problem on four, and the hero image behind a header is
+   the intended design, not a defect.
+
+   The compact treatment is NOT retired here. Removing it was measured and
+   pushes the first FareHarbor booking link out of the first screen on
+   shark-diving (829 -> 1305) and waterfalls (522 -> 1011) at 390x844, which is
+   exactly what #28 exists to prevent. */
+@media (max-width: 768px) {
+    section.activity-hero { padding-top: calc(var(--header-h) + var(--activity-hero-pad, 48px)); }
+}
+
 /* ============================================
    HEADER - CONSISTENT LOGO
    ============================================ */
