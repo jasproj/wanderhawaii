@@ -112,6 +112,23 @@ nav.breadcrumb { padding-top: var(--header-h); }
    boxTop 113 (band below it). */
 div.breadcrumb { margin-top: var(--header-h); }
 
+/* On 3 blog posts the article is the first in-flow element -- they carry no
+   breadcrumb, so nothing sits between <header> and <article>. The other 65
+   pages using .blog-article DO have a breadcrumb and are already cleared by
+   the two rules above.
+
+   Scoped with the adjacent-sibling combinator rather than a page list: it can
+   only match when nothing intervenes, which is exactly the defect condition,
+   so it cannot regress a page that has a breadcrumb and needs no maintenance
+   as pages are added. Verified against all 68 .blog-article files: matches 3.
+
+   margin-top, not padding-top. These compute rgba(0,0,0,0), so background is
+   not the deciding factor here -- but the article authors its own
+   `padding: 40px`, and padding-top would REPLACE that, deleting 40px of
+   intended spacing and making the shift 73px instead of 113px. Clearance adds
+   to authored spacing; it never replaces it. */
+header + article.blog-article { margin-top: var(--header-h); }
+
 /* ============================================
    HEADER - CONSISTENT LOGO
    ============================================ */
