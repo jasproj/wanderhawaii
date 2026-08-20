@@ -12,10 +12,20 @@
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What happens on a Hawaii snorkeling tour?", "acceptedAnswer": {"@type": "Answer", "text": "You board a boat at a harbor, cruise 20\u201345 minutes to the reef site, receive a gear briefing, snorkel for 45\u201390 minutes with guides in the water, then return. Most 3\u20134 hour tours include one or two reef stops. Equipment (mask, snorkel, fins) is provided. Guides stay in the water and point out sea life."}}, {"@type": "Question", "name": "How do I avoid seasickness on a Hawaii snorkel tour?", "acceptedAnswer": {"@type": "Answer", "text": "Take Bonine or Dramamine the night before and morning of departure \u2014 don't wait until you feel ill. Choose morning departures when conditions are calmer. Sit at the middle of the boat near the waterline (less motion). Focus on the horizon, not the water surface. Stay hydrated and avoid heavy meals 2 hours before. If prone to motion sickness, choose a small-boat tour (smoother at speed) over a catamaran (rolls more in swell)."}}, {"@type": "Question", "name": "Do I need to know how to swim to snorkel in Hawaii?", "acceptedAnswer": {"@type": "Answer", "text": "You don't need to be a strong swimmer. All guided tours provide flotation devices, life vests, and wetsuits on request. Most snorkel sites are in 10\u201330 feet of water and you snorkel on the surface. Guides stay in the water with non-swimmers. Hanauma Bay (Oahu) and Turtle Town (Maui) are the most beginner-friendly sites."}}]}
 </script>
+<link rel="stylesheet" href="/styles.css">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#0d1b2a;color:#cdd9e5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:17px;line-height:1.7}
 .wrap{max-width:780px;margin:0 auto;padding:24px 16px 60px}
+/* Clear the fixed .header ported below. --header-h is 113px at >=769px and 77px
+   at <=768px, so one declaration covers both widths; this page authors only 24px
+   against a header that is 77px even at its shortest, so clearance is needed at
+   every width. The +24px preserves the authored gap. padding, not margin:
+   article.wrap paints nothing and is height-unconstrained (no max-height, no
+   overflow:hidden anywhere in its ancestor chain), so padding moves content
+   rather than consuming a clamp. article.wrap is (0,1,1) and out-specifies the
+   (0,1,0) .wrap rule above. */
+article.wrap{padding-top:calc(var(--header-h) + 24px)}
 h1{font-size:clamp(1.6rem,5vw,2.2rem);color:#F5B84C;line-height:1.25;margin-bottom:12px;font-weight:800}
 h2{font-size:1.35rem;color:#F5B84C;margin:36px 0 14px;font-weight:700}
 h3{font-size:1.1rem;color:#fff;margin:20px 0 8px;font-weight:600}
@@ -64,6 +74,30 @@ details div{padding:0 18px 16px;font-size:0.93rem;color:#aec6cf;line-height:1.7}
     <script src="/sponsor-slot.js" defer></script>
 </head>
 <body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo">
+                    <picture><source type="image/webp" srcset="/images/header-logo-160.webp 160w, /images/header-logo-320.webp 320w, /images/header-logo-480.webp 480w" sizes="(max-width: 768px) 143px, 191px"><img src="/images/header-logo.png" alt="WanderHawaii" class="logo-img" loading="eager" decoding="async"></picture>
+</a>
+</div>
+            <nav class="nav-desktop">
+                <a href="/">Home</a>
+                <a href="/">Tours</a>
+                <a href="/blog/">Blog</a>
+                <a href="/about.html">About</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="/">Home</a>
+            <a href="/">Tours</a>
+            <a href="/blog/">Blog</a>
+            <a href="/about.html">About</a>
+        </nav>
+    </header>
 <article class="wrap">
 <p class="meta">WanderHawaii &nbsp;·&nbsp; First-Timer's Guide</p>
 <h1>What to Expect on a Hawaii Snorkeling Tour: A First-Timer's Guide</h1>
