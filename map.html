@@ -287,7 +287,8 @@
             if (t.company) body.appendChild(el('p', 'company', t.company));
 
             var meta = el('div', 'meta');
-            if (t.qualityScore != null) meta.appendChild(el('span', 'q-badge', 'Quality ' + t.qualityScore));
+            // qualityScore is an internal scrape-completeness score and is no longer
+            // rendered to visitors. It remains available for ordering.
             var p = priceText(t);
             if (p) meta.appendChild(el('span', 'price', p));
             // rating is intentionally rendered only if present (absent in current data).
