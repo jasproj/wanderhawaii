@@ -4169,11 +4169,15 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Bus Tour-City Tour",
+        "Bus Tour",
+        "City Tour",
         "Eco Tour",
         "Guided Tour",
         "History Tour",
-        "Photography Tour-Sightseeing Tour-SUP-Trolley"
+        "Photography Tour",
+        "Sightseeing Tour",
+        "SUP",
+        "Trolley"
       ],
       "image": "https://cdn.filestackcontent.com/fFhqJGVRPGXBwpt2Aaxg",
       "galleryImages": [],
@@ -4469,10 +4473,13 @@
       ],
       "tags": [
         "City Tour",
-        "Eco Tour-Environmental Attraction",
+        "Eco Tour",
+        "Environmental Attraction",
         "Guided Tour",
         "History Tour",
-        "Photography Tour-Sightseeing Tour-Trolley"
+        "Photography Tour",
+        "Sightseeing Tour",
+        "Trolley"
       ],
       "image": "https://cdn.filestackcontent.com/CNeTt9A4ToMIppvlS9g2",
       "galleryImages": [],
@@ -6678,11 +6685,15 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Attraction-City Tour",
-        "Eco Tour-Environmental Attraction",
+        "Attraction",
+        "City Tour",
+        "Eco Tour",
+        "Environmental Attraction",
         "Guided Tour",
         "History Tour",
-        "Photography Tour-Sightseeing Tour-Trolley"
+        "Photography Tour",
+        "Sightseeing Tour",
+        "Trolley"
       ],
       "image": "https://cdn.filestackcontent.com/WCVhE0iTOfJulvsV7IOA",
       "galleryImages": [],
@@ -8111,10 +8122,13 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Attraction-Environmental Attraction",
+        "Attraction",
+        "Environmental Attraction",
         "Guided Tour",
         "History Tour",
-        "Photography Tour-Sightseeing Tour-Trolley"
+        "Photography Tour",
+        "Sightseeing Tour",
+        "Trolley"
       ],
       "image": "https://cdn.filestackcontent.com/GLWbzsDqSv6QRA9Ywdrs",
       "galleryImages": [],
@@ -8418,10 +8432,14 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Attraction-Bus Tour-City Tour",
+        "Attraction",
+        "Bus Tour",
+        "City Tour",
         "Eco Tour",
         "History Tour",
-        "Photography Tour-Transportation-Trolley"
+        "Photography Tour",
+        "Transportation",
+        "Trolley"
       ],
       "image": "https://cdn.filestackcontent.com/jxhFZHNNTdWqNLATnYtl",
       "galleryImages": [],
@@ -44564,7 +44582,9 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Guided Tour-Rentals-Sightseeing Tour"
+        "Guided Tour",
+        "Rentals",
+        "Sightseeing Tour"
       ],
       "image": "https://cdn.filestackcontent.com/0UBMZ7ERgOrwGzYW9FM0",
       "galleryImages": [],
@@ -45458,9 +45478,12 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Events-Hiking",
+        "Events",
+        "Hiking",
         "History Tour",
-        "Private-Transportation-Walking Tour"
+        "Private",
+        "Transportation",
+        "Walking Tour"
       ],
       "image": "https://cdn.filestackcontent.com/g2mempSGGgaVKqiNqrqA",
       "galleryImages": [],
@@ -47133,9 +47156,11 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Events-Hiking",
+        "Events",
+        "Hiking",
         "History Tour",
-        "Private-Walking Tour"
+        "Private",
+        "Walking Tour"
       ],
       "image": "https://cdn.filestackcontent.com/wGlvIbWBTQagQ32kNUEF",
       "galleryImages": [],
@@ -55523,8 +55548,10 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Food Tour-Hiking",
-        "History Tour-Lodging",
+        "Food Tour",
+        "Hiking",
+        "History Tour",
+        "Lodging",
         "Photography Tour",
         "Private",
         "Water Activities"
@@ -56125,7 +56152,8 @@
       "highlights": [],
       "tags": [
         "Boat Tour",
-        "Guided Tour-Walking Tour"
+        "Guided Tour",
+        "Walking Tour"
       ],
       "image": "https://cdn.filestackcontent.com/S3aU1HQcR1GaL4Qrcd71",
       "galleryImages": [],
@@ -57285,9 +57313,15 @@
         "Hapuna Beach"
       ],
       "tags": [
-        "Bus Tour-City Tour-Environmental Attraction",
-        "History Tour-Self",
-        "Guided Tour-Shuttle-Sightseeing Tour-Walking Tour"
+        "Bus Tour",
+        "City Tour",
+        "Environmental Attraction",
+        "History Tour",
+        "Self",
+        "Guided Tour",
+        "Shuttle",
+        "Sightseeing Tour",
+        "Walking Tour"
       ],
       "image": "https://cdn.filestackcontent.com/aq8ALjiTS7CSMsailhgd",
       "galleryImages": [],
@@ -59082,7 +59116,8 @@
       "tags": [
         "Attraction",
         "Guided Tour",
-        "History Tour-Sightseeing Tour",
+        "History Tour",
+        "Sightseeing Tour",
         "Wildlife"
       ],
       "image": "https://cdn.filestackcontent.com/C8Yo3l5QkK0QejLrwrxM",
@@ -63928,7 +63963,8 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Bike Rental-Boat Tour"
+        "Bike Rental",
+        "Boat Tour"
       ],
       "image": "https://cdn.filestackcontent.com/w6qpX2SMSjCtVO7oSboD",
       "galleryImages": [],
@@ -67388,7 +67424,8 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "ATV/UTV-Farm"
+        "ATV/UTV",
+        "Farm"
       ],
       "image": "https://cdn.filestackcontent.com/gZSX2RczRTiikZQ1FS2A",
       "galleryImages": [],
@@ -70700,8 +70737,11 @@
         "Return approximately at 5:30pm"
       ],
       "tags": [
-        "Attraction-Bus Tour-Farm",
-        "History Tour-Shuttle"
+        "Attraction",
+        "Bus Tour",
+        "Farm",
+        "History Tour",
+        "Shuttle"
       ],
       "image": "https://cdn.filestackcontent.com/ZfhTdOSOypuCG6dqXNEA",
       "galleryImages": [],
@@ -72625,7 +72665,8 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Rentals-Snorkel"
+        "Rentals",
+        "Snorkel"
       ],
       "image": "https://cdn.filestackcontent.com/Beh4haCRNqzLcTIGfRY3",
       "galleryImages": [],
@@ -75126,9 +75167,11 @@
       "highlights": [],
       "tags": [
         "Boat Tour",
-        "Bus Tour-Farm",
+        "Bus Tour",
+        "Farm",
         "History Tour",
-        "Surf-Transportation"
+        "Surf",
+        "Transportation"
       ],
       "image": "https://cdn.filestackcontent.com/StvkLq8hRe2GVm0o0FN5",
       "galleryImages": [],
@@ -75448,9 +75491,13 @@
       "highlights": [],
       "tags": [
         "Boat Tour",
-        "Bus Tour-Events-Farm",
-        "History Tour-Museum",
-        "Surf-Transportation"
+        "Bus Tour",
+        "Events",
+        "Farm",
+        "History Tour",
+        "Museum",
+        "Surf",
+        "Transportation"
       ],
       "image": "https://cdn.filestackcontent.com/7wf95q3BQrOtZYBk2Joe",
       "galleryImages": [],
@@ -76179,7 +76226,8 @@
       "tags": [
         "Boat Tour",
         "Dolphin",
-        "Eco Tour-Free Diving",
+        "Eco Tour",
+        "Free Diving",
         "Guided Tour",
         "Snorkel",
         "Water Activities",
@@ -76223,8 +76271,10 @@
       "highlights": [],
       "tags": [
         "Bus Tour",
-        "Eco Tour-Farm",
-        "Guided Tour-Sightseeing Tour"
+        "Eco Tour",
+        "Farm",
+        "Guided Tour",
+        "Sightseeing Tour"
       ],
       "image": "https://cdn.filestackcontent.com/ZEArH6TnSgmh8iTKe9fF",
       "galleryImages": [],
@@ -78497,8 +78547,11 @@
       "tags": [
         "Boat Tour",
         "Farm",
-        "History Tour-Museum-Sightseeing Tour",
-        "Surf-Transportation"
+        "History Tour",
+        "Museum",
+        "Sightseeing Tour",
+        "Surf",
+        "Transportation"
       ],
       "image": "https://cdn.filestackcontent.com/olj8NjlQaevPUxBoLE6S",
       "galleryImages": [],
@@ -78588,8 +78641,11 @@
       "tags": [
         "Boat Tour",
         "Farm",
-        "History Tour-Museum-Sightseeing Tour",
-        "Surf-Transportation"
+        "History Tour",
+        "Museum",
+        "Sightseeing Tour",
+        "Surf",
+        "Transportation"
       ],
       "image": "https://cdn.filestackcontent.com/UUEQUQTQrSzLjCMgNd8E",
       "galleryImages": [],
@@ -83366,7 +83422,8 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Bus Tour-Sightseeing Tour"
+        "Bus Tour",
+        "Sightseeing Tour"
       ],
       "image": "https://cdn.filestackcontent.com/Sw5i6UL3QCOmy4aBDQ5G",
       "galleryImages": [],
@@ -86211,7 +86268,21 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Boat Rental-Boat Tour-Dolphin-Eco Tour-Environmental Attraction-Free Diving-Guided Tour-Marina-Rentals-Scuba-Service-Snorkel-Water Activities-Whale Watch-Wildlife"
+        "Boat Rental",
+        "Boat Tour",
+        "Dolphin",
+        "Eco Tour",
+        "Environmental Attraction",
+        "Free Diving",
+        "Guided Tour",
+        "Marina",
+        "Rentals",
+        "Scuba",
+        "Service",
+        "Snorkel",
+        "Water Activities",
+        "Whale Watch",
+        "Wildlife"
       ],
       "image": "https://cdn.filestackcontent.com/ABrb8UB4R4y12Kta5oiD",
       "galleryImages": [],
@@ -87072,7 +87143,10 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Eco Tour-Environmental Attraction-Wellness-Hiking"
+        "Eco Tour",
+        "Environmental Attraction",
+        "Wellness",
+        "Hiking"
       ],
       "image": "https://cdn.filestackcontent.com/9yAb7UHgR0CLNyzOEgwc",
       "galleryImages": [],
@@ -88129,7 +88203,8 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Boat Tour-Museum"
+        "Boat Tour",
+        "Museum"
       ],
       "image": "https://cdn.filestackcontent.com/oQSIfLsQGKDJCq1kKSTA",
       "galleryImages": [],
@@ -89866,7 +89941,9 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Boat Rental-Boat Tour-History Tour"
+        "Boat Rental",
+        "Boat Tour",
+        "History Tour"
       ],
       "image": "https://cdn.filestackcontent.com/eX969jDBTPSg7DPO8dXh",
       "galleryImages": [],
@@ -91013,7 +91090,8 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Bike Rental-Boat Tour"
+        "Bike Rental",
+        "Boat Tour"
       ],
       "image": "https://cdn.filestackcontent.com/8wNLBMcRsu5JJz2tw4np",
       "galleryImages": [],
@@ -91330,7 +91408,9 @@
         "Kaʻū Coffee Farm: Sample award-winning coffee and learn about local production."
       ],
       "tags": [
-        "Guided Tour-History Tour-Sightseeing Tour"
+        "Guided Tour",
+        "History Tour",
+        "Sightseeing Tour"
       ],
       "image": "https://cdn.filestackcontent.com/yGxTCWbTT6GZ2qTl4Qjt",
       "galleryImages": [],
@@ -93622,7 +93702,8 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Hiking-Snorkel"
+        "Hiking",
+        "Snorkel"
       ],
       "image": "",
       "galleryImages": [],
@@ -94759,7 +94840,8 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Kayak-Snorkel"
+        "Kayak",
+        "Snorkel"
       ],
       "image": "https://cdn.filestackcontent.com/8nYijXYLR3i0LUjN0xOV",
       "galleryImages": [],
@@ -97713,7 +97795,12 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Attraction-Wellness-Other-Service-Water Activities-Workshop"
+        "Attraction",
+        "Wellness",
+        "Other",
+        "Service",
+        "Water Activities",
+        "Workshop"
       ],
       "image": "https://cdn.filestackcontent.com/kyOu1V78S7KuhhIwVaw2",
       "galleryImages": [],
@@ -101398,7 +101485,8 @@
         "Chef Cater Cajun BBQ Ribletts (lightly Applewood Smoked to a ONOLICIOUS tenderness)"
       ],
       "tags": [
-        "Boat Tour-Dinner Boat"
+        "Boat Tour",
+        "Dinner Boat"
       ],
       "image": "https://cdn.filestackcontent.com/I9HRQzLFQvSSyv2oatPi",
       "galleryImages": [],
@@ -103068,7 +103156,9 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Boat Tour-Dolphin-Sailing"
+        "Boat Tour",
+        "Dolphin",
+        "Sailing"
       ],
       "image": "https://cdn.filestackcontent.com/m9iGbF1cR42zyYj5p7EZ",
       "galleryImages": [],
@@ -103211,7 +103301,9 @@
         "🚐 Pickup & Drop-off Service\nTransportation is not included.\nGuests must arrange their own transportation to and from Kewalo Basin Harbor."
       ],
       "tags": [
-        "Boat Tour-Snorkel-Water Activities"
+        "Boat Tour",
+        "Snorkel",
+        "Water Activities"
       ],
       "image": "https://cdn.filestackcontent.com/FMWlo8VoTvuCq7GTJWvv",
       "galleryImages": [],
@@ -108778,7 +108870,8 @@
         "Sunscreen (non aerosol)"
       ],
       "tags": [
-        "Dolphin-Whale Watch"
+        "Dolphin",
+        "Whale Watch"
       ],
       "image": "https://cdn.filestackcontent.com/68cz2b2aRK2sfmUTsupM",
       "galleryImages": [],
@@ -117111,7 +117204,8 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Sailing-Snorkel"
+        "Sailing",
+        "Snorkel"
       ],
       "image": "https://cdn.filestackcontent.com/GXR0I15RQ2eQm80RxNnh",
       "galleryImages": [],
@@ -122723,7 +122817,8 @@
       "descriptionQuality": "",
       "highlights": [],
       "tags": [
-        "Snorkel-SUP"
+        "Snorkel",
+        "SUP"
       ],
       "image": "https://cdn.filestackcontent.com/VOj2RTV0SF63VcuKdKpJ",
       "galleryImages": [],
