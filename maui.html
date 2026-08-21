@@ -244,7 +244,7 @@
                 </select>
                 
                 <select id="sortBy" style="padding: 12px 16px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem;">
-                    <option value="quality">⭐ Top Rated</option>
+                    <option value="quality">Most detailed</option>
                     <option value="name">A-Z</option>
                 </select>
                 
@@ -748,7 +748,6 @@
         }
 
         function createTourCard(tour) {
-            const isTopRated = tour.qualityScore >= 100;
             const description = tour.description || 'Experience this amazing Hawaiian adventure with local experts.';
             const truncatedDesc = description.length > 120 ? description.substring(0, 120) + '...' : description;
             
@@ -764,7 +763,6 @@
                 <article class="tour-card">
                     <div class="tour-image-container">
                         <img src="${tour.image}" alt="${tour.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400'">
-                        ${isTopRated ? '<span class="quality-badge">⭐ Top Rated</span>' : ''}
                         ${priceHtml}
                     </div>
                     <div class="tour-content">

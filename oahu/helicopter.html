@@ -316,14 +316,12 @@
         
         const desc = tour.description || '';
         const truncated = desc.length > 120 ? desc.substring(0, 117) + '...' : desc;
-        const badge = (tour.qualityScore || 0) >= 75 ? '<span class="quality-badge">⭐ Popular</span>' : '';
         const price = (tour.priceLabel === 'per adult' && Number.isFinite(tour.price)) ? `From $${tour.price}` : 'Check live price';
         
         return `
             <article class="tour-card" data-id="${tour.id}">
                 <div class="tour-image">
                     <img src="${tour.image}" alt="${tour.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'">
-                    ${badge}
                 </div>
                 <div class="tour-content">
                     <div class="tour-meta">

@@ -230,11 +230,13 @@ function cleanLocation(location = '') {
         .trim() || 'Hawaii';
 }
 
-function scoreLabel(score) {
-    if (score >= 90) return 'Top Rated';
-    if (score >= 75) return 'Popular';
-    return '';
-}
+// scoreLabel() removed 2026-08-21. It turned qualityScore into "Top Rated" /
+// "Popular" beside a star glyph -- a claim about customer sentiment on a catalogue
+// where `rating` and `reviewCount` are NULL on all 2,951 rows that carry them, and
+// where no FareHarbor endpoint exposes a rating value to source one from.
+// qualityScore is a SCRAPE-COMPLETENESS score, not a rating: it measures how much
+// of our own record we managed to fill. It stays in the data as a sort key.
+// Do not reinstate a badge, a star, or a superlative from it.
 
 function generateTourSchema(tour) {
     const emitPrice = Number.isFinite(tour.price) && tour.priceConfidence !== 'low';
@@ -282,11 +284,6 @@ function createTourCard(tour) {
         ? safeDesc.substring(0, safeDesc.lastIndexOf(' ', 117)) + '…'
         : safeDesc;
 
-    const score = tour.qualityScore || 0;
-    const badge = scoreLabel(score);
-    const qualityBadge = badge
-        ? `<span class="quality-badge">⭐ ${badge}</span>`
-        : '';
 
     const cleanLoc = cleanLocation(tour.location);
     const priceDisplay = formatPrice(tour.price, tour.priceConfidence);
@@ -305,7 +302,7 @@ function createTourCard(tour) {
             <script type="application/ld+json">${schemaJson}</script>
             <div class="tour-image">
                 <img src="${tour.image || FALLBACK_IMAGE}" alt="${escapeHtml(tour.name)}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'" style="width: 100%; height: auto; object-fit: cover;">
-                ${qualityBadge}
+                
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
