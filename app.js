@@ -136,7 +136,8 @@ async function loadTours() {
         // A card with no price cannot convert, so unpriced tours are removed from the
         // DRAW POOL rather than rendered as "Price on request". Eligibility only --
         // page size, ordering and the shuffle are untouched.
-        toursData = toursData.filter(t => t.status !== 'inactive' && !t.bookingDead && hasUsablePrice(t));
+        toursData = toursData.filter(t => t.status !== 'inactive' && !t.bookingDead
+                                      && hasUsablePrice(t) && !isAddonOrRental(t));
         console.log(`✅ Loaded ${toursData.length} tours`);
         updateVerifiedToursCount(toursData.length);
 
@@ -171,6 +172,40 @@ function escapeHtml(str) {
         .replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;')
         .replace(/'/g, '&#39;');
+}
+
+/**
+ * Add-on / rental exclusion. PORTED VERBATIM from the four island hubs
+ * (oahu/maui/big-island/kauai .html -- sha256[:16] 79470a9ded732109 on all four,
+ * extracted by brace balance rather than by an indentation guess). Not re-derived:
+ * a guessed predicate is how this repo produced `ACTIVITY = 'Air'` and `'Luau'`,
+ * both matching zero records while looking correct.
+ *
+ * It keys on priceBreakdown[].singular -- the customer-type labels -- which is the
+ * field that distinguishes a wheelchair cushion from a snorkel tour. An earlier pass
+ * declared no structural discriminator existed after checking company, tags, category
+ * and priceLabel; the answer was already shipped on four pages in this repo.
+ *
+ * Removes 66 rows from the homepage draw pool: 25 vehicle rentals, 15 medical/baby
+ * gear, 11 beach kit and lockers, 10 watersport gear rentals, 5 other. The 10
+ * watersport rows are a KNOWN, DELIBERATE cost, filed as its own open decision --
+ * all five surfaces exclude them today, so re-admitting is a five-surface call.
+ */
+function isAddonOrRental(tour) {
+    const ACTIVITY_WORDS = /\b(charter|tours?|cruise|sail(?:ing)?|lessons?|courses?|classes?|excursion|trip|div(?:e|ing)|workshop|camp|photoshoot|photo shoot|safari|expedition|adventure|walk|snorkel|whale\s*watch|luau|sunset|sunrise|package|certification|certified|experience|voyage|paddle\s*board\s*tour|freedive|free\s*dive|self[- ]?guided)\b/i;
+    const RENTAL_WORDS = /\b(rentals?|delivery|pick[- ]?up|drop[- ]?off)\b/i;
+    const PEOPLE_WORDS = /\b(adults?|child(?:ren)?|kids?|keiki|youth|infant|senior|military|veteran|persons?|general|admission|vip|group|couple|family|guests?|participant|camper|private|shared|tandem|solo|traveler|passengers?|rider|divers?|snorkelers?|swimmers?|non[- ]?swimmer|toddler|teen|junior)\b/i;
+
+    const name = tour.name || '';
+    const pb = Array.isArray(tour.priceBreakdown) ? tour.priceBreakdown : [];
+    const labels = pb.map(p => (p.singular || '').trim()).filter(Boolean);
+    const haystacks = [name, ...labels];
+
+    if (haystacks.some(h => ACTIVITY_WORDS.test(h))) return false;
+    if (labels.length === 0) return false;
+    if (labels.some(l => PEOPLE_WORDS.test(l))) return false;
+    const rentalHits = labels.filter(l => RENTAL_WORDS.test(l)).length;
+    return rentalHits === labels.length;
 }
 
 // Single source of truth for "this card can show a real price".
