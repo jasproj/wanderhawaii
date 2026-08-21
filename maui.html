@@ -220,14 +220,27 @@
                 <select id="activityFilter" style="padding: 12px 16px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem; min-width: 180px;">
                     <option value="">All Activities</option>
                     <option value="Snorkel">🤿 Snorkeling</option>
-                    <option value="Boat">🚤 Boat Tours</option>
-                    <option value="Whale">🐋 Whale Watching</option>
+                    <option value="Boat Tour">🚤 Boat Tours</option>
+                    <option value="Whale Watch">🐋 Whale Watching</option>
                     <option value="Dolphin">🐬 Dolphins</option>
-                    <option value="Scuba">🤿 Scuba</option>
+                    <option value="Scuba">🤿 Scuba Diving</option>
                     <option value="Kayak">🚣 Kayaking</option>
                     <option value="Surf">🏄 Surfing</option>
+                    <option value="SUP">🏄 Stand Up Paddle</option>
+                    <option value="Sailing">⛵ Sailing</option>
+                    <option value="Catamaran">⛵ Catamaran</option>
+                    <option value="Fishing">🎣 Fishing</option>
                     <option value="Hiking">🥾 Hiking</option>
-                    <option value="Food">🍽️ Food Tours</option>
+                    <option value="Zipline">🎢 Zipline</option>
+                    <option value="ATV/UTV">🏎️ ATV/UTV</option>
+                    <option value="Food Tour">🍽️ Food Tours</option>
+                    <option value="Farm">🌴 Farm Tours</option>
+                    <option value="Private">👑 Private Tours</option>
+                    <option value="Guided Tour">🎯 Guided Tours</option>
+                    <option value="Eco Tour">🌿 Eco Tours</option>
+                    <option value="Water Activities">🌊 Water Activities</option>
+                    <option value="Sightseeing Tour">🗺️ Sightseeing</option>
+                    <option value="History Tour">🏛️ History Tours</option>
                 </select>
                 
                 <select id="sortBy" style="padding: 12px 16px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem;">
@@ -797,7 +810,10 @@
         function applyFilters() {
             justShuffled = false;
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-            const activity = document.getElementById('activityFilter').value.toLowerCase();
+            // NOT lowercased: the match is now an EXACT tag comparison, and tags are
+            // capitalised ('Snorkel', 'Boat Tour'). Lowercasing here would make every
+            // option match zero -- the 'Air'/'Luau' failure with a different cause.
+            const activity = document.getElementById('activityFilter').value;
             const sortBy = document.getElementById('sortBy').value;
             
             // Filter tours
@@ -811,8 +827,12 @@
                     (tour.tags && tour.tags.some(tag => tag.toLowerCase().includes(searchTerm)));
                 
                 // Activity filter
-                const matchesActivity = !activity || 
-                    (tour.tags && tour.tags.some(tag => tag.toLowerCase().includes(activity)));
+                // EXACT tag match, same rule the homepage uses. Substring matching
+                // silently folded in adjacent tags -- 'Boat' also caught 'Boat Rental'
+                // and 'Dinner Boat' -- so the two surfaces disagreed on what an option
+                // meant. scripts/check-activity-filters.mjs asserts both against the data.
+                const matchesActivity = !activity ||
+                    (tour.tags && tour.tags.includes(activity));
                 
                 return matchesSearch && matchesActivity;
             });
