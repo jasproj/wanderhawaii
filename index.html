@@ -103,6 +103,15 @@
 <script src="/tracking.js" defer></script>
     <link rel="stylesheet" href="/sponsor-slot.css">
     <script src="/sponsor-slot.js" defer></script>
+    <style>
+        /* Filter bar moved above the fold. The .header is position:fixed, so this
+           section carries its own clearance -- 113px desktop / 77px mobile, both
+           measured, not assumed. Nothing about the controls changed; only where
+           they sit. Measured 2026-08-21: the bar was at 1,417px against an 800px
+           fold while filter_used fired 44 times to load_more_clicked's 2. */
+        .filters-section-top { padding: 129px 20px 8px; background: var(--white, #fff); }
+        @media (max-width: 768px) { .filters-section-top { padding: 93px 16px 8px; } }
+    </style>
 </head>
 <body>
     <!-- LEAD MAGNET BANNER -->
@@ -143,6 +152,64 @@
             <a href="#faq">FAQs</a>
         </nav>
     </header>
+
+    <!-- FILTER BAR (moved above the fold; controls unchanged) -->
+    <section class="filters-section-top">
+        <div class="container">
+                <div class="filters-bar">
+                    <div class="filter-group">
+                        <label for="island-filter">Island</label>
+                        <select id="island-filter">
+                            <option value="">All Islands</option>
+                            <option value="oahu">Oahu</option>
+                            <option value="maui">Maui</option>
+                            <option value="big island">Big Island</option>
+                            <option value="kauai">Kauai</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="activity-filter">Activity</label>
+                        <select id="activity-filter">
+                            <option value="">All Activities</option>
+                            <option value="Snorkel">🤿 Snorkeling</option>
+                            <option value="Boat Tour">🚤 Boat Tours</option>
+                            <option value="Whale Watch">🐋 Whale Watching</option>
+                            <option value="Dolphin">🐬 Dolphins</option>
+                            <option value="Scuba">🤿 Scuba Diving</option>
+                            <option value="Kayak">🚣 Kayaking</option>
+                            <option value="Surf">🏄 Surfing</option>
+                            <option value="SUP">🏄 Stand Up Paddle</option>
+                            <option value="Sailing">⛵ Sailing</option>
+                            <option value="Catamaran">⛵ Catamaran</option>
+                            <option value="Fishing">🎣 Fishing</option>
+                            <option value="Hiking">🥾 Hiking</option>
+                            <option value="Zipline">🎢 Zipline</option>
+                            <option value="ATV/UTV">🏎️ ATV/UTV</option>
+                            <option value="Air Tour">🚁 Air Tours</option>
+                            <option value="Food Tour">🍽️ Food Tours</option>
+                            <option value="Farm">🌴 Farm Tours</option>
+                            <option value="Private">👑 Private Tours</option>
+                            <option value="Guided Tour">🎯 Guided Tours</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="sort-filter">Sort By</label>
+                        <select id="sort-filter">
+                            <option value="quality">Top Rated</option>
+                            <option value="name">Name A-Z</option>
+                        </select>
+                    </div>
+                    
+                    <div class="search-inline">
+                        <input type="text" id="search-input" placeholder="Search tours...">
+                    </div>
+                    
+                    <button class="clear-filters" onclick="clearAllFilters()">Clear All</button>
+                </div>
+        </div>
+    </section>
 
     <!-- HERO -->
     <section class="hero" id="islands">
@@ -216,58 +283,6 @@
         </div>
         <div class="container">
             
-            <div class="filters-bar">
-                <div class="filter-group">
-                    <label for="island-filter">Island</label>
-                    <select id="island-filter">
-                        <option value="">All Islands</option>
-                        <option value="oahu">Oahu</option>
-                        <option value="maui">Maui</option>
-                        <option value="big island">Big Island</option>
-                        <option value="kauai">Kauai</option>
-                    </select>
-                </div>
-                
-                <div class="filter-group">
-                    <label for="activity-filter">Activity</label>
-                    <select id="activity-filter">
-                        <option value="">All Activities</option>
-                        <option value="Snorkel">🤿 Snorkeling</option>
-                        <option value="Boat Tour">🚤 Boat Tours</option>
-                        <option value="Whale Watch">🐋 Whale Watching</option>
-                        <option value="Dolphin">🐬 Dolphins</option>
-                        <option value="Scuba">🤿 Scuba Diving</option>
-                        <option value="Kayak">🚣 Kayaking</option>
-                        <option value="Surf">🏄 Surfing</option>
-                        <option value="SUP">🏄 Stand Up Paddle</option>
-                        <option value="Sailing">⛵ Sailing</option>
-                        <option value="Catamaran">⛵ Catamaran</option>
-                        <option value="Fishing">🎣 Fishing</option>
-                        <option value="Hiking">🥾 Hiking</option>
-                        <option value="Zipline">🎢 Zipline</option>
-                        <option value="ATV/UTV">🏎️ ATV/UTV</option>
-                        <option value="Air Tour">🚁 Air Tours</option>
-                        <option value="Food Tour">🍽️ Food Tours</option>
-                        <option value="Farm">🌴 Farm Tours</option>
-                        <option value="Private">👑 Private Tours</option>
-                        <option value="Guided Tour">🎯 Guided Tours</option>
-                    </select>
-                </div>
-                
-                <div class="filter-group">
-                    <label for="sort-filter">Sort By</label>
-                    <select id="sort-filter">
-                        <option value="quality">Top Rated</option>
-                        <option value="name">Name A-Z</option>
-                    </select>
-                </div>
-                
-                <div class="search-inline">
-                    <input type="text" id="search-input" placeholder="Search tours...">
-                </div>
-                
-                <button class="clear-filters" onclick="clearAllFilters()">Clear All</button>
-            </div>
             
             <div class="results-info">
                 <span id="results-count">Loading adventures...</span>
