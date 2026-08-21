@@ -133,7 +133,10 @@ async function loadTours() {
         toursData = Array.isArray(_raw) ? _raw : _raw.tours;
         // Hide tours whose FareHarbor booking link is dead (audit 2026-05-28)
         // and any explicitly inactive tours, from every render surface.
-        toursData = toursData.filter(t => t.status !== 'inactive' && !t.bookingDead);
+        // A card with no price cannot convert, so unpriced tours are removed from the
+        // DRAW POOL rather than rendered as "Price on request". Eligibility only --
+        // page size, ordering and the shuffle are untouched.
+        toursData = toursData.filter(t => t.status !== 'inactive' && !t.bookingDead && hasUsablePrice(t));
         console.log(`✅ Loaded ${toursData.length} tours`);
         updateVerifiedToursCount(toursData.length);
 
@@ -170,9 +173,18 @@ function escapeHtml(str) {
         .replace(/'/g, '&#39;');
 }
 
+// Single source of truth for "this card can show a real price".
+// formatPrice() renders from it and loadTours() filters the draw pool on it, so
+// the renderer and the eligibility rule cannot drift apart. price > 1 rather than
+// > 0 because one row (pk 286903, "Open Water Diver Course Day 2") publishes $1
+// with confidence 'high' -- a broken price, and a priced-only pool concentrates it
+// onto the first screen instead of removing it.
+function hasUsablePrice(tour) {
+    return Number.isFinite(tour.price) && tour.price > 1 && tour.priceConfidence !== 'low';
+}
+
 function formatPrice(price, confidence) {
-    if (!Number.isFinite(price) || price <= 0) return 'Price on request';
-    if (confidence === 'low') return 'Price on request';
+    if (!hasUsablePrice({ price: price, priceConfidence: confidence })) return 'Price on request';
     return `From $${price}`;
 }
 
