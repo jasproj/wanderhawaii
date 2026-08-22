@@ -10325,9 +10325,9 @@
       "category": "",
       "location": "United States/Hawaii/Lihue",
       "island": "kauai",
-      "price": 85,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 595,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "1440 minutes",
@@ -10355,7 +10355,99 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 1440
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 858709,
+          "singular": "Group Rate 7 up Sonia",
+          "plural": "Group Rate (7 or More People)",
+          "note": "Sonia Orchid",
+          "priceCents": 8500,
+          "price": 85,
+          "minPartySize": 1
+        },
+        {
+          "id": 858710,
+          "singular": "Group Rate 7 up Kukui",
+          "plural": "Group Rate (7 or More People)",
+          "note": "Kukui Nut",
+          "priceCents": 8500,
+          "price": 85,
+          "minPartySize": 1
+        },
+        {
+          "id": 78510,
+          "singular": "Standard Lei",
+          "plural": "Standard Leis",
+          "note": "Book (4 or More) And Get Comp Kukui Nut Leis For All Sonia Orchid",
+          "priceCents": 59500,
+          "price": 595,
+          "minPartySize": 1
+        },
+        {
+          "id": 78511,
+          "singular": "Standard Upgrade Lei",
+          "plural": "Standard Upgrade Leis",
+          "note": "Book (4 or More) And Get Comp Kukui Nut Leis For All Plumeria, Sonia Orchid & Tuberose, Ti-Leaf, Kukui Nut, White, Green Orchid,",
+          "priceCents": 64000,
+          "price": 640,
+          "minPartySize": 1
+        },
+        {
+          "id": 78512,
+          "singular": "Superior Lei",
+          "plural": "Superior Leis",
+          "note": "Ti-Leaf & Sonia Orchid, White Orchid, Tuberose, Kukuna-o-kala, Crown Flower, He'e Moch Orange",
+          "priceCents": 66000,
+          "price": 660,
+          "minPartySize": 1
+        },
+        {
+          "id": 78513,
+          "singular": "Adult Deluxe Lei",
+          "plural": "Adult Deluxe Leis",
+          "note": "Double Plumeria, Tuberose, Lantern Ilima, Sonia Orchid, Dendrobium",
+          "priceCents": 68000,
+          "price": 680,
+          "minPartySize": 1
+        },
+        {
+          "id": 78521,
+          "singular": "Adult Special Lei",
+          "plural": "Adult Special Leis",
+          "note": "Crown Pikake Style, Micronesian Ginger, Ohai'i-Ali'i, Cigar, Kika, Maile, Puakenikeni, Haku, Kukui Mock Orange, Carnation",
+          "priceCents": 70000,
+          "price": 700,
+          "minPartySize": 1
+        },
+        {
+          "id": 78522,
+          "singular": "VIP",
+          "plural": "VIPs",
+          "note": "Feather Sonia Orchid, Triple Ginger, Christina, Sweetheart, Black Beauty, King 11, Leilani",
+          "priceCents": 72000,
+          "price": 720,
+          "minPartySize": 1
+        },
+        {
+          "id": 78523,
+          "singular": "Celebrity Lei",
+          "plural": "Celebrity Leis",
+          "note": "Haku & Deluxe Double Lei (Flowers: Tuberose, Sonia Orchid & Red Roses) Rope Pikake",
+          "priceCents": 82000,
+          "price": 820,
+          "minPartySize": 1
+        },
+        {
+          "id": 139561,
+          "singular": "Bride and Groom Lei",
+          "plural": "Bride and Groom Lei",
+          "note": "1-Double Orchid, 1-Ti-Leaf & Orchid Twist - Open End (Orchids Use - Sonia, White, Green)",
+          "priceCents": 87000,
+          "price": 870,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "135574",
@@ -89103,8 +89195,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 45,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "480 minutes",
@@ -89132,7 +89224,36 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 480
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 150158,
+          "singular": "Exclusive (1 person)",
+          "plural": "Exclusive (1 person)",
+          "note": "",
+          "priceCents": 4500,
+          "price": 45,
+          "minPartySize": 1
+        },
+        {
+          "id": 150159,
+          "singular": "Ohana Small Group (2-7 people)",
+          "plural": "Ohana Small Group (2-7 people)",
+          "note": "",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 1
+        },
+        {
+          "id": 150160,
+          "singular": "Large Group (8 or more)",
+          "plural": "Large Group (8 or more)",
+          "note": "",
+          "priceCents": 3500,
+          "price": 35,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "69111",
@@ -89144,8 +89265,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 59,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "480 minutes",
@@ -89174,7 +89295,36 @@
       "_unknownFields": {
         "durationMinutes": 480
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 150158,
+          "singular": "Exclusive (1 person)",
+          "plural": "Exclusive (1 person)",
+          "note": "",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 150159,
+          "singular": "Ohana Small Group (2-7 people)",
+          "plural": "Ohana Small Group (2-7 people)",
+          "note": "",
+          "priceCents": 4900,
+          "price": 49,
+          "minPartySize": 1
+        },
+        {
+          "id": 150160,
+          "singular": "Large Group (8 or more)",
+          "plural": "Large Group (8 or more)",
+          "note": "",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "69138",
@@ -89186,8 +89336,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 59,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -89212,7 +89362,36 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "priceBreakdown": [
+        {
+          "id": 150158,
+          "singular": "Exclusive (1 person)",
+          "plural": "Exclusive (1 person)",
+          "note": "",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 150159,
+          "singular": "Ohana Small Group (2-7 people)",
+          "plural": "Ohana Small Group (2-7 people)",
+          "note": "",
+          "priceCents": 4900,
+          "price": 49,
+          "minPartySize": 1
+        },
+        {
+          "id": 150160,
+          "singular": "Large Group (8 or more)",
+          "plural": "Large Group (8 or more)",
+          "note": "",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "69174",
@@ -89224,8 +89403,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 59,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -89251,7 +89430,36 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 150158,
+          "singular": "Exclusive (1 person)",
+          "plural": "Exclusive (1 person)",
+          "note": "",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 150159,
+          "singular": "Ohana Small Group (2-7 people)",
+          "plural": "Ohana Small Group (2-7 people)",
+          "note": "",
+          "priceCents": 4900,
+          "price": 49,
+          "minPartySize": 1
+        },
+        {
+          "id": 150160,
+          "singular": "Large Group (8 or more)",
+          "plural": "Large Group (8 or more)",
+          "note": "",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "72696",
@@ -92280,8 +92488,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 49,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -92306,7 +92514,81 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "priceBreakdown": [
+        {
+          "id": 150162,
+          "singular": "Classic Orchid Lei",
+          "plural": "Classic Orchid Lei",
+          "note": "A single strand of fresh orchids",
+          "priceCents": 4900,
+          "price": 49,
+          "minPartySize": 2
+        },
+        {
+          "id": 150181,
+          "singular": "Kukui Nut Lei",
+          "plural": "Kukui Nut Lei",
+          "note": "Traditional Kukui Nut Lei Keepsake",
+          "priceCents": 4900,
+          "price": 49,
+          "minPartySize": 2
+        },
+        {
+          "id": 150164,
+          "singular": "Ti Leaf Lei",
+          "plural": "Ti Leaf Lei",
+          "note": "Braided, Open-Ended Ti Leaf Lei",
+          "priceCents": 4900,
+          "price": 49,
+          "minPartySize": 2
+        },
+        {
+          "id": 150165,
+          "singular": "Keiki (Child) Lei",
+          "plural": "Keiki (Child) Lei",
+          "note": "A single strand of orchids made shorter for kids up to 6 years old",
+          "priceCents": 4900,
+          "price": 49,
+          "minPartySize": 2
+        },
+        {
+          "id": 515921,
+          "singular": "Candy Lei",
+          "plural": "Candy Lei",
+          "note": "A fun alternative to flowers for the children! These treats are great for adults too. The type of candy varies in each lei.",
+          "priceCents": 4900,
+          "price": 49,
+          "minPartySize": 2
+        },
+        {
+          "id": 515922,
+          "singular": "Kukui Nut & Ti Leaf Twist Lei",
+          "plural": "Kukui Nut & Ti Leaf Twist Lei",
+          "note": "Ti Leaf braid and polished kukui nut twist.",
+          "priceCents": 7900,
+          "price": 79,
+          "minPartySize": 2
+        },
+        {
+          "id": 150167,
+          "singular": "Deluxe Orchid Lei",
+          "plural": "Deluxe Orchid Lei",
+          "note": "Triple the flowers are used to create a thick beautiful festive orchid lei",
+          "priceCents": 8500,
+          "price": 85,
+          "minPartySize": 2
+        },
+        {
+          "id": 515923,
+          "singular": "Ti Leaf & Orchids Twist Lei",
+          "plural": "Ti Leaf & Orchids Twist Lei",
+          "note": "Ti leaf braid and purple orchid twist.",
+          "priceCents": 7900,
+          "price": 79,
+          "minPartySize": 2
+        }
+      ]
     },
     {
       "id": "72431",
@@ -93119,8 +93401,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 39,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -93145,7 +93427,117 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "priceBreakdown": [
+        {
+          "id": 150162,
+          "singular": "Classic Orchid Lei",
+          "plural": "Classic Orchid Lei",
+          "note": "A single strand of fresh orchids",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 1
+        },
+        {
+          "id": 150181,
+          "singular": "Kukui Nut Lei",
+          "plural": "Kukui Nut Lei",
+          "note": "Traditional Kukui Nut Lei Keepsake",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 1
+        },
+        {
+          "id": 150164,
+          "singular": "Ti Leaf Lei",
+          "plural": "Ti Leaf Lei",
+          "note": "Braided, Open-Ended Ti Leaf Lei",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 1
+        },
+        {
+          "id": 150165,
+          "singular": "Keiki (Child) Lei",
+          "plural": "Keiki (Child) Lei",
+          "note": "A single strand of orchids made shorter for kids up to 6 years old",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 1
+        },
+        {
+          "id": 515921,
+          "singular": "Candy Lei",
+          "plural": "Candy Lei",
+          "note": "A fun alternative to flowers for the children! These treats are great for adults too. The type of candy varies in each lei.",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 1
+        },
+        {
+          "id": 150166,
+          "singular": "Fragrant Tuberose & Orchid Lei",
+          "plural": "Fragrant Tuberose & Orchid Lei",
+          "note": "A single strand mix of fragrant tuberose and fresh orchids",
+          "priceCents": 4500,
+          "price": 45,
+          "minPartySize": 1
+        },
+        {
+          "id": 515922,
+          "singular": "Kukui Nut & Ti Leaf Twist Lei",
+          "plural": "Kukui Nut & Ti Leaf Twist Lei",
+          "note": "Ti Leaf braid and polished kukui nut twist.",
+          "priceCents": 4900,
+          "price": 49,
+          "minPartySize": 1
+        },
+        {
+          "id": 150167,
+          "singular": "Deluxe Orchid Lei",
+          "plural": "Deluxe Orchid Lei",
+          "note": "Triple the flowers are used to create a thick beautiful festive orchid lei",
+          "priceCents": 6900,
+          "price": 69,
+          "minPartySize": 1
+        },
+        {
+          "id": 515923,
+          "singular": "Ti Leaf & Orchids Twist Lei",
+          "plural": "Ti Leaf & Orchids Twist Lei",
+          "note": "Ti leaf braid and purple orchid twist.",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 150168,
+          "singular": "Deluxe Kukui Nut Lei",
+          "plural": "Deluxe Kukui Nut Lei",
+          "note": "Kukui Nuts, Shells, and fresh greenery make up this handsome lei",
+          "priceCents": 6900,
+          "price": 69,
+          "minPartySize": 1
+        },
+        {
+          "id": 150169,
+          "singular": "Deluxe Tuberose & Orchid Lei",
+          "plural": "Deluxe Tuberose & Orchid Lei",
+          "note": "Triple the flowers are used to create this beautiful and fragrant lei",
+          "priceCents": 6900,
+          "price": 69,
+          "minPartySize": 1
+        },
+        {
+          "id": 150170,
+          "singular": "Deluxe Cigar Lei",
+          "plural": "Deluxe Cigar Lei",
+          "note": "Hundreds of tiny local cigar flowers are used to make this local favorite for the guys",
+          "priceCents": 6900,
+          "price": 69,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "67269",
@@ -93157,8 +93549,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 35,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -93183,7 +93575,99 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "priceBreakdown": [
+        {
+          "id": 150162,
+          "singular": "Classic Orchid Lei",
+          "plural": "Classic Orchid Lei",
+          "note": "A single strand of fresh orchids",
+          "priceCents": 3500,
+          "price": 35,
+          "minPartySize": 8
+        },
+        {
+          "id": 150181,
+          "singular": "Kukui Nut Lei",
+          "plural": "Kukui Nut Lei",
+          "note": "Traditional Kukui Nut Lei Keepsake",
+          "priceCents": 3500,
+          "price": 35,
+          "minPartySize": 8
+        },
+        {
+          "id": 150164,
+          "singular": "Ti Leaf Lei",
+          "plural": "Ti Leaf Lei",
+          "note": "Braided, Open-Ended Ti Leaf Lei",
+          "priceCents": 3500,
+          "price": 35,
+          "minPartySize": 8
+        },
+        {
+          "id": 150165,
+          "singular": "Keiki (Child) Lei",
+          "plural": "Keiki (Child) Lei",
+          "note": "A single strand of orchids made shorter for kids up to 6 years old",
+          "priceCents": 3500,
+          "price": 35,
+          "minPartySize": 8
+        },
+        {
+          "id": 515921,
+          "singular": "Candy Lei",
+          "plural": "Candy Lei",
+          "note": "A fun alternative to flowers for the children! These treats are great for adults too. The type of candy varies in each lei.",
+          "priceCents": 3500,
+          "price": 35,
+          "minPartySize": 8
+        },
+        {
+          "id": 515922,
+          "singular": "Kukui Nut & Ti Leaf Twist Lei",
+          "plural": "Kukui Nut & Ti Leaf Twist Lei",
+          "note": "Ti Leaf braid and polished kukui nut twist.",
+          "priceCents": 4500,
+          "price": 45,
+          "minPartySize": 8
+        },
+        {
+          "id": 150167,
+          "singular": "Deluxe Orchid Lei",
+          "plural": "Deluxe Orchid Lei",
+          "note": "Triple the flowers are used to create a thick beautiful festive orchid lei",
+          "priceCents": 6500,
+          "price": 65,
+          "minPartySize": 8
+        },
+        {
+          "id": 515923,
+          "singular": "Ti Leaf & Orchids Twist Lei",
+          "plural": "Ti Leaf & Orchids Twist Lei",
+          "note": "Ti leaf braid and purple orchid twist.",
+          "priceCents": 5500,
+          "price": 55,
+          "minPartySize": 8
+        },
+        {
+          "id": 150168,
+          "singular": "Deluxe Kukui Nut Lei",
+          "plural": "Deluxe Kukui Nut Lei",
+          "note": "Kukui Nuts, Shells, and fresh greenery make up this handsome lei",
+          "priceCents": 6500,
+          "price": 65,
+          "minPartySize": 8
+        },
+        {
+          "id": 150170,
+          "singular": "Deluxe Cigar Lei",
+          "plural": "Deluxe Cigar Lei",
+          "note": "Hundreds of tiny local cigar flowers are used to make this local favorite for the guys",
+          "priceCents": 6500,
+          "price": 65,
+          "minPartySize": 8
+        }
+      ]
     },
     {
       "id": "69114",
@@ -93195,8 +93679,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 59,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -93222,7 +93706,81 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 150162,
+          "singular": "Classic Orchid Lei",
+          "plural": "Classic Orchid Lei",
+          "note": "A single strand of fresh orchids",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 150181,
+          "singular": "Kukui Nut Lei",
+          "plural": "Kukui Nut Lei",
+          "note": "Traditional Kukui Nut Lei Keepsake",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 150164,
+          "singular": "Ti Leaf Lei",
+          "plural": "Ti Leaf Lei",
+          "note": "Braided, Open-Ended Ti Leaf Lei",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 150165,
+          "singular": "Keiki (Child) Lei",
+          "plural": "Keiki (Child) Lei",
+          "note": "A single strand of orchids made shorter for kids up to 6 years old",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 515921,
+          "singular": "Candy Lei",
+          "plural": "Candy Lei",
+          "note": "A fun alternative to flowers for the children! These treats are great for adults too. The type of candy varies in each lei.",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 515922,
+          "singular": "Kukui Nut & Ti Leaf Twist Lei",
+          "plural": "Kukui Nut & Ti Leaf Twist Lei",
+          "note": "Ti Leaf braid and polished kukui nut twist.",
+          "priceCents": 8900,
+          "price": 89,
+          "minPartySize": 1
+        },
+        {
+          "id": 150167,
+          "singular": "Deluxe Orchid Lei",
+          "plural": "Deluxe Orchid Lei",
+          "note": "Triple the flowers are used to create a thick beautiful festive orchid lei",
+          "priceCents": 9500,
+          "price": 95,
+          "minPartySize": 1
+        },
+        {
+          "id": 515923,
+          "singular": "Ti Leaf & Orchids Twist Lei",
+          "plural": "Ti Leaf & Orchids Twist Lei",
+          "note": "Ti leaf braid and purple orchid twist.",
+          "priceCents": 8900,
+          "price": 89,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "69135",
@@ -93234,8 +93792,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 39,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -93260,7 +93818,81 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "priceBreakdown": [
+        {
+          "id": 150162,
+          "singular": "Classic Orchid Lei",
+          "plural": "Classic Orchid Lei",
+          "note": "A single strand of fresh orchids",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 8
+        },
+        {
+          "id": 150181,
+          "singular": "Kukui Nut Lei",
+          "plural": "Kukui Nut Lei",
+          "note": "Traditional Kukui Nut Lei Keepsake",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 8
+        },
+        {
+          "id": 150164,
+          "singular": "Ti Leaf Lei",
+          "plural": "Ti Leaf Lei",
+          "note": "Braided, Open-Ended Ti Leaf Lei",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 8
+        },
+        {
+          "id": 150165,
+          "singular": "Keiki (Child) Lei",
+          "plural": "Keiki (Child) Lei",
+          "note": "A single strand of orchids made shorter for kids up to 6 years old",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 8
+        },
+        {
+          "id": 515921,
+          "singular": "Candy Lei",
+          "plural": "Candy Lei",
+          "note": "A fun alternative to flowers for the children! These treats are great for adults too. The type of candy varies in each lei.",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 8
+        },
+        {
+          "id": 515922,
+          "singular": "Kukui Nut & Ti Leaf Twist Lei",
+          "plural": "Kukui Nut & Ti Leaf Twist Lei",
+          "note": "Ti Leaf braid and polished kukui nut twist.",
+          "priceCents": 7000,
+          "price": 70,
+          "minPartySize": 8
+        },
+        {
+          "id": 150167,
+          "singular": "Deluxe Orchid Lei",
+          "plural": "Deluxe Orchid Lei",
+          "note": "Triple the flowers are used to create a thick beautiful festive orchid lei",
+          "priceCents": 8000,
+          "price": 80,
+          "minPartySize": 8
+        },
+        {
+          "id": 515923,
+          "singular": "Ti Leaf & Orchids Twist Lei",
+          "plural": "Ti Leaf & Orchids Twist Lei",
+          "note": "Ti leaf braid and purple orchid twist.",
+          "priceCents": 7000,
+          "price": 70,
+          "minPartySize": 8
+        }
+      ]
     },
     {
       "id": "69142",
@@ -93272,8 +93904,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 59,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -93299,7 +93931,90 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 150162,
+          "singular": "Classic Orchid Lei",
+          "plural": "Classic Orchid Lei",
+          "note": "A single strand of fresh orchids",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 150181,
+          "singular": "Kukui Nut Lei",
+          "plural": "Kukui Nut Lei",
+          "note": "Traditional Kukui Nut Lei Keepsake",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 150164,
+          "singular": "Ti Leaf Lei",
+          "plural": "Ti Leaf Lei",
+          "note": "Braided, Open-Ended Ti Leaf Lei",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 150165,
+          "singular": "Keiki (Child) Lei",
+          "plural": "Keiki (Child) Lei",
+          "note": "A single strand of orchids made shorter for kids up to 6 years old",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 515921,
+          "singular": "Candy Lei",
+          "plural": "Candy Lei",
+          "note": "A fun alternative to flowers for the children! These treats are great for adults too. The type of candy varies in each lei.",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 515922,
+          "singular": "Kukui Nut & Ti Leaf Twist Lei",
+          "plural": "Kukui Nut & Ti Leaf Twist Lei",
+          "note": "Ti Leaf braid and polished kukui nut twist.",
+          "priceCents": 8900,
+          "price": 89,
+          "minPartySize": 1
+        },
+        {
+          "id": 150167,
+          "singular": "Deluxe Orchid Lei",
+          "plural": "Deluxe Orchid Lei",
+          "note": "Triple the flowers are used to create a thick beautiful festive orchid lei",
+          "priceCents": 9500,
+          "price": 95,
+          "minPartySize": 1
+        },
+        {
+          "id": 150168,
+          "singular": "Deluxe Kukui Nut Lei",
+          "plural": "Deluxe Kukui Nut Lei",
+          "note": "Kukui Nuts, Shells, and fresh greenery make up this handsome lei",
+          "priceCents": 8500,
+          "price": 85,
+          "minPartySize": 1
+        },
+        {
+          "id": 150170,
+          "singular": "Deluxe Cigar Lei",
+          "plural": "Deluxe Cigar Lei",
+          "note": "Hundreds of tiny local cigar flowers are used to make this local favorite for the guys",
+          "priceCents": 8500,
+          "price": 85,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "69155",
@@ -93311,8 +94026,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 49,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -93338,7 +94053,27 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 150162,
+          "singular": "Classic Orchid Lei",
+          "plural": "Classic Orchid Lei",
+          "note": "A single strand of fresh orchids",
+          "priceCents": 4900,
+          "price": 49,
+          "minPartySize": 2
+        },
+        {
+          "id": 150167,
+          "singular": "Deluxe Orchid Lei",
+          "plural": "Deluxe Orchid Lei",
+          "note": "Triple the flowers are used to create a thick beautiful festive orchid lei",
+          "priceCents": 8500,
+          "price": 85,
+          "minPartySize": 2
+        }
+      ]
     },
     {
       "id": "69158",
@@ -93350,8 +94085,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 39,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -93376,7 +94111,90 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "priceBreakdown": [
+        {
+          "id": 150162,
+          "singular": "Classic Orchid Lei",
+          "plural": "Classic Orchid Lei",
+          "note": "A single strand of fresh orchids",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 8
+        },
+        {
+          "id": 150181,
+          "singular": "Kukui Nut Lei",
+          "plural": "Kukui Nut Lei",
+          "note": "Traditional Kukui Nut Lei Keepsake",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 8
+        },
+        {
+          "id": 150164,
+          "singular": "Ti Leaf Lei",
+          "plural": "Ti Leaf Lei",
+          "note": "Braided, Open-Ended Ti Leaf Lei",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 8
+        },
+        {
+          "id": 150165,
+          "singular": "Keiki (Child) Lei",
+          "plural": "Keiki (Child) Lei",
+          "note": "A single strand of orchids made shorter for kids up to 6 years old",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 8
+        },
+        {
+          "id": 515921,
+          "singular": "Candy Lei",
+          "plural": "Candy Lei",
+          "note": "A fun alternative to flowers for the children! These treats are great for adults too. The type of candy varies in each lei.",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 8
+        },
+        {
+          "id": 515922,
+          "singular": "Kukui Nut & Ti Leaf Twist Lei",
+          "plural": "Kukui Nut & Ti Leaf Twist Lei",
+          "note": "Ti Leaf braid and polished kukui nut twist.",
+          "priceCents": 7000,
+          "price": 70,
+          "minPartySize": 8
+        },
+        {
+          "id": 150167,
+          "singular": "Deluxe Orchid Lei",
+          "plural": "Deluxe Orchid Lei",
+          "note": "Triple the flowers are used to create a thick beautiful festive orchid lei",
+          "priceCents": 8000,
+          "price": 80,
+          "minPartySize": 8
+        },
+        {
+          "id": 150168,
+          "singular": "Deluxe Kukui Nut Lei",
+          "plural": "Deluxe Kukui Nut Lei",
+          "note": "Kukui Nuts, Shells, and fresh greenery make up this handsome lei",
+          "priceCents": 6500,
+          "price": 65,
+          "minPartySize": 8
+        },
+        {
+          "id": 150170,
+          "singular": "Deluxe Cigar Lei",
+          "plural": "Deluxe Cigar Lei",
+          "note": "Hundreds of tiny local cigar flowers are used to make this local favorite for the guys",
+          "priceCents": 6500,
+          "price": 65,
+          "minPartySize": 8
+        }
+      ]
     },
     {
       "id": "69175",
@@ -93388,8 +94206,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 59,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -93415,7 +94233,27 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 150162,
+          "singular": "Classic Orchid Lei",
+          "plural": "Classic Orchid Lei",
+          "note": "A single strand of fresh orchids",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 150167,
+          "singular": "Deluxe Orchid Lei",
+          "plural": "Deluxe Orchid Lei",
+          "note": "Triple the flowers are used to create a thick beautiful festive orchid lei",
+          "priceCents": 9500,
+          "price": 95,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "69207",
@@ -93427,8 +94265,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 39,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -93454,7 +94292,27 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 150162,
+          "singular": "Classic Orchid Lei",
+          "plural": "Classic Orchid Lei",
+          "note": "A single strand of fresh orchids",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 8
+        },
+        {
+          "id": 150167,
+          "singular": "Deluxe Orchid Lei",
+          "plural": "Deluxe Orchid Lei",
+          "note": "Triple the flowers are used to create a thick beautiful festive orchid lei",
+          "priceCents": 8000,
+          "price": 80,
+          "minPartySize": 8
+        }
+      ]
     },
     {
       "id": "90866",
@@ -94329,8 +95187,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 45,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "480 minutes",
@@ -94359,7 +95217,117 @@
       "_unknownFields": {
         "durationMinutes": 480
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 150162,
+          "singular": "Classic Orchid Lei",
+          "plural": "Classic Orchid Lei",
+          "note": "A single strand of fresh orchids",
+          "priceCents": 4500,
+          "price": 45,
+          "minPartySize": 1
+        },
+        {
+          "id": 150181,
+          "singular": "Kukui Nut Lei",
+          "plural": "Kukui Nut Lei",
+          "note": "Traditional Kukui Nut Lei Keepsake",
+          "priceCents": 4500,
+          "price": 45,
+          "minPartySize": 1
+        },
+        {
+          "id": 150164,
+          "singular": "Ti Leaf Lei",
+          "plural": "Ti Leaf Lei",
+          "note": "Braided, Open-Ended Ti Leaf Lei",
+          "priceCents": 4500,
+          "price": 45,
+          "minPartySize": 1
+        },
+        {
+          "id": 150165,
+          "singular": "Keiki (Child) Lei",
+          "plural": "Keiki (Child) Lei",
+          "note": "A single strand of orchids made shorter for kids up to 6 years old",
+          "priceCents": 4500,
+          "price": 45,
+          "minPartySize": 1
+        },
+        {
+          "id": 515921,
+          "singular": "Candy Lei",
+          "plural": "Candy Lei",
+          "note": "A fun alternative to flowers for the children! These treats are great for adults too. The type of candy varies in each lei.",
+          "priceCents": 4500,
+          "price": 45,
+          "minPartySize": 1
+        },
+        {
+          "id": 150166,
+          "singular": "Fragrant Tuberose & Orchid Lei",
+          "plural": "Fragrant Tuberose & Orchid Lei",
+          "note": "A single strand mix of fragrant tuberose and fresh orchids",
+          "priceCents": 5000,
+          "price": 50,
+          "minPartySize": 1
+        },
+        {
+          "id": 515922,
+          "singular": "Kukui Nut & Ti Leaf Twist Lei",
+          "plural": "Kukui Nut & Ti Leaf Twist Lei",
+          "note": "Ti Leaf braid and polished kukui nut twist.",
+          "priceCents": 5500,
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "id": 150167,
+          "singular": "Deluxe Orchid Lei",
+          "plural": "Deluxe Orchid Lei",
+          "note": "Triple the flowers are used to create a thick beautiful festive orchid lei",
+          "priceCents": 8000,
+          "price": 80,
+          "minPartySize": 1
+        },
+        {
+          "id": 515923,
+          "singular": "Ti Leaf & Orchids Twist Lei",
+          "plural": "Ti Leaf & Orchids Twist Lei",
+          "note": "Ti leaf braid and purple orchid twist.",
+          "priceCents": 7000,
+          "price": 70,
+          "minPartySize": 1
+        },
+        {
+          "id": 150168,
+          "singular": "Deluxe Kukui Nut Lei",
+          "plural": "Deluxe Kukui Nut Lei",
+          "note": "Kukui Nuts, Shells, and fresh greenery make up this handsome lei",
+          "priceCents": 8000,
+          "price": 80,
+          "minPartySize": 1
+        },
+        {
+          "id": 150169,
+          "singular": "Deluxe Tuberose & Orchid Lei",
+          "plural": "Deluxe Tuberose & Orchid Lei",
+          "note": "Triple the flowers are used to create this beautiful and fragrant lei",
+          "priceCents": 8000,
+          "price": 80,
+          "minPartySize": 1
+        },
+        {
+          "id": 150170,
+          "singular": "Deluxe Cigar Lei",
+          "plural": "Deluxe Cigar Lei",
+          "note": "Hundreds of tiny local cigar flowers are used to make this local favorite for the guys",
+          "priceCents": 8000,
+          "price": 80,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "67260",
@@ -94371,8 +95339,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 75,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "480 minutes",
@@ -94401,7 +95369,63 @@
       "_unknownFields": {
         "durationMinutes": 480
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 150172,
+          "singular": "Classic Orchid Honeymoon Special (Set of 2)",
+          "plural": "Classic Orchid Honeymoon Special (Set of 2)",
+          "note": "Two single strand orchid lei",
+          "priceCents": 7500,
+          "price": 75,
+          "minPartySize": 1
+        },
+        {
+          "id": 150174,
+          "singular": "Traditional Honeymoon Special (Set of 2)",
+          "plural": "Traditional Honeymoon Special (Set of 2)",
+          "note": "One Deluxe Orchid Lei & one Ti Leaf/Orchid Lei",
+          "priceCents": 12500,
+          "price": 125,
+          "minPartySize": 1
+        },
+        {
+          "id": 150175,
+          "singular": "Deluxe Honeymoon Special (Set of 2)",
+          "plural": "Deluxe Honeymoon Special (Set of 2)",
+          "note": "Two Deluxe Orchid Lei",
+          "priceCents": 13500,
+          "price": 135,
+          "minPartySize": 1
+        },
+        {
+          "id": 150176,
+          "singular": "Aloha Honeymoon Special (Set of 2)",
+          "plural": "Aloha Honeymoon Special (Set of 2)",
+          "note": "One Single Strand Orchid Lei & one Ti Leaf Lei",
+          "priceCents": 7500,
+          "price": 75,
+          "minPartySize": 1
+        },
+        {
+          "id": 150177,
+          "singular": "Makahiki Honeymoon Special (Set of 2)",
+          "plural": "Makahiki Honeymoon Special (Set of 2)",
+          "note": "One Single Strand Orchid Lei & one Kukui Nut Lei",
+          "priceCents": 7500,
+          "price": 75,
+          "minPartySize": 1
+        },
+        {
+          "id": 150179,
+          "singular": "Local Honeymoon Special (Set of 2)",
+          "plural": "Local Honeymoon Special (Set of 2)",
+          "note": "One Deluxe Tuberose/Orchid & one Cigar Lei",
+          "priceCents": 13500,
+          "price": 135,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "69116",
@@ -94413,8 +95437,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 95,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -94440,7 +95464,54 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 150172,
+          "singular": "Classic Orchid Honeymoon Special (Set of 2)",
+          "plural": "Classic Orchid Honeymoon Special (Set of 2)",
+          "note": "Two single strand orchid lei",
+          "priceCents": 9500,
+          "price": 95,
+          "minPartySize": 1
+        },
+        {
+          "id": 150174,
+          "singular": "Traditional Honeymoon Special (Set of 2)",
+          "plural": "Traditional Honeymoon Special (Set of 2)",
+          "note": "One Deluxe Orchid Lei & one Ti Leaf/Orchid Lei",
+          "priceCents": 15900,
+          "price": 159,
+          "minPartySize": 1
+        },
+        {
+          "id": 150175,
+          "singular": "Deluxe Honeymoon Special (Set of 2)",
+          "plural": "Deluxe Honeymoon Special (Set of 2)",
+          "note": "Two Deluxe Orchid Lei",
+          "priceCents": 16500,
+          "price": 165,
+          "minPartySize": 1
+        },
+        {
+          "id": 150176,
+          "singular": "Aloha Honeymoon Special (Set of 2)",
+          "plural": "Aloha Honeymoon Special (Set of 2)",
+          "note": "One Single Strand Orchid Lei & one Ti Leaf Lei",
+          "priceCents": 9500,
+          "price": 95,
+          "minPartySize": 1
+        },
+        {
+          "id": 150177,
+          "singular": "Makahiki Honeymoon Special (Set of 2)",
+          "plural": "Makahiki Honeymoon Special (Set of 2)",
+          "note": "One Single Strand Orchid Lei & one Kukui Nut Lei",
+          "priceCents": 9500,
+          "price": 95,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "69146",
@@ -94452,8 +95523,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 95,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -94479,7 +95550,54 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 150172,
+          "singular": "Classic Orchid Honeymoon Special (Set of 2)",
+          "plural": "Classic Orchid Honeymoon Special (Set of 2)",
+          "note": "Two single strand orchid lei",
+          "priceCents": 9500,
+          "price": 95,
+          "minPartySize": 1
+        },
+        {
+          "id": 150174,
+          "singular": "Traditional Honeymoon Special (Set of 2)",
+          "plural": "Traditional Honeymoon Special (Set of 2)",
+          "note": "One Deluxe Orchid Lei & one Ti Leaf/Orchid Lei",
+          "priceCents": 15900,
+          "price": 159,
+          "minPartySize": 1
+        },
+        {
+          "id": 150175,
+          "singular": "Deluxe Honeymoon Special (Set of 2)",
+          "plural": "Deluxe Honeymoon Special (Set of 2)",
+          "note": "Two Deluxe Orchid Lei",
+          "priceCents": 16500,
+          "price": 165,
+          "minPartySize": 1
+        },
+        {
+          "id": 150176,
+          "singular": "Aloha Honeymoon Special (Set of 2)",
+          "plural": "Aloha Honeymoon Special (Set of 2)",
+          "note": "One Single Strand Orchid Lei & one Ti Leaf Lei",
+          "priceCents": 9500,
+          "price": 95,
+          "minPartySize": 1
+        },
+        {
+          "id": 150177,
+          "singular": "Makahiki Honeymoon Special (Set of 2)",
+          "plural": "Makahiki Honeymoon Special (Set of 2)",
+          "note": "One Single Strand Orchid Lei & one Kukui Nut Lei",
+          "priceCents": 9500,
+          "price": 95,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "69177",
@@ -94491,8 +95609,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 95,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -94518,7 +95636,27 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 150172,
+          "singular": "Classic Orchid Honeymoon Special (Set of 2)",
+          "plural": "Classic Orchid Honeymoon Special (Set of 2)",
+          "note": "Two single strand orchid lei",
+          "priceCents": 9500,
+          "price": 95,
+          "minPartySize": 1
+        },
+        {
+          "id": 150175,
+          "singular": "Deluxe Honeymoon Special (Set of 2)",
+          "plural": "Deluxe Honeymoon Special (Set of 2)",
+          "note": "Two Deluxe Orchid Lei",
+          "priceCents": 16500,
+          "price": 165,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "90185",
@@ -125589,8 +126727,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "maui",
       "price": 49,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -125623,7 +126761,99 @@
           "rule": "island-names-destination-not-location",
           "note": "Closed 2026-08-12 as part of the Honolulu-cluster ruling (island names destination, location names booking office — both correct) by default, but NOT independently corroborated: this record's own name references Kona/Big Island Airport, not Maui, and neither island (maui) nor location (Honolulu) matches the name. If this cluster is ever revisited, check this record first."
         }
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 150162,
+          "singular": "Classic Orchid Lei",
+          "plural": "Classic Orchid Lei",
+          "note": "A single strand of fresh orchids",
+          "priceCents": 4900,
+          "price": 49,
+          "minPartySize": 2
+        },
+        {
+          "id": 150181,
+          "singular": "Kukui Nut Lei",
+          "plural": "Kukui Nut Lei",
+          "note": "Traditional Kukui Nut Lei Keepsake",
+          "priceCents": 4900,
+          "price": 49,
+          "minPartySize": 2
+        },
+        {
+          "id": 150164,
+          "singular": "Ti Leaf Lei",
+          "plural": "Ti Leaf Lei",
+          "note": "Braided, Open-Ended Ti Leaf Lei",
+          "priceCents": 4900,
+          "price": 49,
+          "minPartySize": 2
+        },
+        {
+          "id": 150165,
+          "singular": "Keiki (Child) Lei",
+          "plural": "Keiki (Child) Lei",
+          "note": "A single strand of orchids made shorter for kids up to 6 years old",
+          "priceCents": 4900,
+          "price": 49,
+          "minPartySize": 2
+        },
+        {
+          "id": 515921,
+          "singular": "Candy Lei",
+          "plural": "Candy Lei",
+          "note": "A fun alternative to flowers for the children! These treats are great for adults too. The type of candy varies in each lei.",
+          "priceCents": 4900,
+          "price": 49,
+          "minPartySize": 2
+        },
+        {
+          "id": 515922,
+          "singular": "Kukui Nut & Ti Leaf Twist Lei",
+          "plural": "Kukui Nut & Ti Leaf Twist Lei",
+          "note": "Ti Leaf braid and polished kukui nut twist.",
+          "priceCents": 7900,
+          "price": 79,
+          "minPartySize": 2
+        },
+        {
+          "id": 150167,
+          "singular": "Deluxe Orchid Lei",
+          "plural": "Deluxe Orchid Lei",
+          "note": "Triple the flowers are used to create a thick beautiful festive orchid lei",
+          "priceCents": 8500,
+          "price": 85,
+          "minPartySize": 2
+        },
+        {
+          "id": 515923,
+          "singular": "Ti Leaf & Orchids Twist Lei",
+          "plural": "Ti Leaf & Orchids Twist Lei",
+          "note": "Ti leaf braid and purple orchid twist.",
+          "priceCents": 7900,
+          "price": 79,
+          "minPartySize": 2
+        },
+        {
+          "id": 150168,
+          "singular": "Deluxe Kukui Nut Lei",
+          "plural": "Deluxe Kukui Nut Lei",
+          "note": "Kukui Nuts, Shells, and fresh greenery make up this handsome lei",
+          "priceCents": 7500,
+          "price": 75,
+          "minPartySize": 2
+        },
+        {
+          "id": 150170,
+          "singular": "Deluxe Cigar Lei",
+          "plural": "Deluxe Cigar Lei",
+          "note": "Hundreds of tiny local cigar flowers are used to make this local favorite for the guys",
+          "priceCents": 7500,
+          "price": 75,
+          "minPartySize": 2
+        }
+      ]
     },
     {
       "id": "295882",
@@ -126670,9 +127900,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 20,
+      "price": null,
       "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceConfidence": "",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -127964,9 +129194,9 @@
       "category": "",
       "location": "United States/Hawaii/Hilo",
       "island": "big island",
-      "price": 85,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 595,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "1440 minutes",
@@ -127994,7 +129224,108 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 1440
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 858709,
+          "singular": "Group Rate 7 up Sonia",
+          "plural": "Group Rate (7 or More People)",
+          "note": "Sonia Orchid",
+          "priceCents": 8500,
+          "price": 85,
+          "minPartySize": 1
+        },
+        {
+          "id": 858710,
+          "singular": "Group Rate 7 up Kukui",
+          "plural": "Group Rate (7 or More People)",
+          "note": "Kukui Nut",
+          "priceCents": 8500,
+          "price": 85,
+          "minPartySize": 1
+        },
+        {
+          "id": 78510,
+          "singular": "Standard Lei",
+          "plural": "Standard Leis",
+          "note": "Book (4 or More) And Get Comp Kukui Nut Leis For All Sonia Orchid",
+          "priceCents": 59500,
+          "price": 595,
+          "minPartySize": 1
+        },
+        {
+          "id": 290112,
+          "singular": "Standard Kukui Nut Lei",
+          "plural": "Standard Kukui Nut Lei",
+          "note": "Book (4 or More) And Get Comp Kukui Nut Leis For All Kukui Nut",
+          "priceCents": 59500,
+          "price": 595,
+          "minPartySize": 1
+        },
+        {
+          "id": 78511,
+          "singular": "Standard Upgrade Lei",
+          "plural": "Standard Upgrade Leis",
+          "note": "Book (4 or More) And Get Comp Kukui Nut Leis For All Plumeria, Sonia Orchid & Tuberose, Ti-Leaf, Kukui Nut, White, Green Orchid,",
+          "priceCents": 64000,
+          "price": 640,
+          "minPartySize": 1
+        },
+        {
+          "id": 78512,
+          "singular": "Superior Lei",
+          "plural": "Superior Leis",
+          "note": "Ti-Leaf & Sonia Orchid, White Orchid, Tuberose, Kukuna-o-kala, Crown Flower, He'e Moch Orange",
+          "priceCents": 66000,
+          "price": 660,
+          "minPartySize": 1
+        },
+        {
+          "id": 78513,
+          "singular": "Adult Deluxe Lei",
+          "plural": "Adult Deluxe Leis",
+          "note": "Double Plumeria, Tuberose, Lantern Ilima, Sonia Orchid, Dendrobium",
+          "priceCents": 68000,
+          "price": 680,
+          "minPartySize": 1
+        },
+        {
+          "id": 78521,
+          "singular": "Adult Special Lei",
+          "plural": "Adult Special Leis",
+          "note": "Crown Pikake Style, Micronesian Ginger, Ohai'i-Ali'i, Cigar, Kika, Maile, Puakenikeni, Haku, Kukui Mock Orange, Carnation",
+          "priceCents": 70000,
+          "price": 700,
+          "minPartySize": 1
+        },
+        {
+          "id": 78522,
+          "singular": "VIP",
+          "plural": "VIPs",
+          "note": "Feather Sonia Orchid, Triple Ginger, Christina, Sweetheart, Black Beauty, King 11, Leilani",
+          "priceCents": 72000,
+          "price": 720,
+          "minPartySize": 1
+        },
+        {
+          "id": 78523,
+          "singular": "Celebrity Lei",
+          "plural": "Celebrity Leis",
+          "note": "Haku & Deluxe Double Lei (Flowers: Tuberose, Sonia Orchid & Red Roses) Rope Pikake",
+          "priceCents": 82000,
+          "price": 820,
+          "minPartySize": 1
+        },
+        {
+          "id": 139561,
+          "singular": "Bride and Groom Lei",
+          "plural": "Bride and Groom Lei",
+          "note": "1-Double Orchid, 1-Ti-Leaf & Orchid Twist - Open End (Orchids Use - Sonia, White, Green)",
+          "priceCents": 87000,
+          "price": 870,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "341489",
@@ -128845,8 +130176,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "kauai",
       "price": 250,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "1440 minutes",
@@ -128880,7 +130211,45 @@
           "rule": "island-names-destination-not-location",
           "note": "This tour's island field names its destination island; location names the Honolulu booking office. Both are correct — two different, legitimate field semantics, not a data error. Ruled closed 2026-08-12; do not auto-correct via a location→island lookup."
         }
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 214825,
+          "singular": "Departure Rate",
+          "plural": "Departure Rates",
+          "note": "(1 to 3) Per Person $250.00 each",
+          "priceCents": 25000,
+          "price": 250,
+          "minPartySize": 1
+        },
+        {
+          "id": 214826,
+          "singular": "Departure Family",
+          "plural": "Departure Family",
+          "note": "(4 to 6) Per Person $175.00 each",
+          "priceCents": 17500,
+          "price": 175,
+          "minPartySize": 1
+        },
+        {
+          "id": 214827,
+          "singular": "Departure Small Group",
+          "plural": "Departure Small Group",
+          "note": "(7 to 11) Per Person $150.00 each",
+          "priceCents": 15000,
+          "price": 150,
+          "minPartySize": 1
+        },
+        {
+          "id": 214828,
+          "singular": "Departure Large Group",
+          "plural": "Departure Large Group",
+          "note": "(12 or More) Per Person $100.00 each",
+          "priceCents": 10000,
+          "price": 100,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "394028",
@@ -129113,9 +130482,9 @@
       "category": "",
       "location": "United States/Hawaii/Kahului",
       "island": "maui",
-      "price": 85,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 275,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "1440 minutes",
@@ -129143,7 +130512,99 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 1440
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 858709,
+          "singular": "Group Rate 7 up Sonia",
+          "plural": "Group Rate (7 or More People)",
+          "note": "Sonia Orchid",
+          "priceCents": 8500,
+          "price": 85,
+          "minPartySize": 1
+        },
+        {
+          "id": 858710,
+          "singular": "Group Rate 7 up Kukui",
+          "plural": "Group Rate (7 or More People)",
+          "note": "Kukui Nut",
+          "priceCents": 8500,
+          "price": 85,
+          "minPartySize": 1
+        },
+        {
+          "id": 78510,
+          "singular": "Standard Lei",
+          "plural": "Standard Leis",
+          "note": "Book (4 or More) And Get Comp Kukui Nut Leis For All Sonia Orchid",
+          "priceCents": 27500,
+          "price": 275,
+          "minPartySize": 1
+        },
+        {
+          "id": 78511,
+          "singular": "Standard Upgrade Lei",
+          "plural": "Standard Upgrade Leis",
+          "note": "Book (4 or More) And Get Comp Kukui Nut Leis For All Plumeria, Sonia Orchid & Tuberose, Ti-Leaf, Kukui Nut, White, Green Orchid,",
+          "priceCents": 32000,
+          "price": 320,
+          "minPartySize": 1
+        },
+        {
+          "id": 78512,
+          "singular": "Superior Lei",
+          "plural": "Superior Leis",
+          "note": "Ti-Leaf & Sonia Orchid, White Orchid, Tuberose, Kukuna-o-kala, Crown Flower, He'e Moch Orange",
+          "priceCents": 34000,
+          "price": 340,
+          "minPartySize": 1
+        },
+        {
+          "id": 78513,
+          "singular": "Adult Deluxe Lei",
+          "plural": "Adult Deluxe Leis",
+          "note": "Double Plumeria, Tuberose, Lantern Ilima, Sonia Orchid, Dendrobium",
+          "priceCents": 36000,
+          "price": 360,
+          "minPartySize": 1
+        },
+        {
+          "id": 78521,
+          "singular": "Adult Special Lei",
+          "plural": "Adult Special Leis",
+          "note": "Crown Pikake Style, Micronesian Ginger, Ohai'i-Ali'i, Cigar, Kika, Maile, Puakenikeni, Haku, Kukui Mock Orange, Carnation",
+          "priceCents": 38000,
+          "price": 380,
+          "minPartySize": 1
+        },
+        {
+          "id": 78522,
+          "singular": "VIP",
+          "plural": "VIPs",
+          "note": "Feather Sonia Orchid, Triple Ginger, Christina, Sweetheart, Black Beauty, King 11, Leilani",
+          "priceCents": 40000,
+          "price": 400,
+          "minPartySize": 1
+        },
+        {
+          "id": 78523,
+          "singular": "Celebrity Lei",
+          "plural": "Celebrity Leis",
+          "note": "Haku & Deluxe Double Lei (Flowers: Tuberose, Sonia Orchid & Red Roses) Rope Pikake",
+          "priceCents": 50000,
+          "price": 500,
+          "minPartySize": 1
+        },
+        {
+          "id": 139561,
+          "singular": "Bride and Groom Lei",
+          "plural": "Bride and Groom Lei",
+          "note": "1-Double Orchid, 1-Ti-Leaf & Orchid Twist - Open End (Orchids Use - Sonia, White, Green)",
+          "priceCents": 55000,
+          "price": 550,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "48326",
@@ -129154,9 +130615,9 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 85,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 595,
+      "priceLabel": "per adult",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "1440 minutes",
@@ -129184,7 +130645,99 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 1440
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 858709,
+          "singular": "Group Rate 7 up Sonia",
+          "plural": "Group Rate (7 or More People)",
+          "note": "Sonia Orchid",
+          "priceCents": 8500,
+          "price": 85,
+          "minPartySize": 1
+        },
+        {
+          "id": 858710,
+          "singular": "Group Rate 7 up Kukui",
+          "plural": "Group Rate (7 or More People)",
+          "note": "Kukui Nut",
+          "priceCents": 8500,
+          "price": 85,
+          "minPartySize": 1
+        },
+        {
+          "id": 78510,
+          "singular": "Standard Lei",
+          "plural": "Standard Leis",
+          "note": "Book (4 or More) And Get Comp Kukui Nut Leis For All Sonia Orchid",
+          "priceCents": 59500,
+          "price": 595,
+          "minPartySize": 1
+        },
+        {
+          "id": 78511,
+          "singular": "Standard Upgrade Lei",
+          "plural": "Standard Upgrade Leis",
+          "note": "Book (4 or More) And Get Comp Kukui Nut Leis For All Plumeria, Sonia Orchid & Tuberose, Ti-Leaf, Kukui Nut, White, Green Orchid,",
+          "priceCents": 64000,
+          "price": 640,
+          "minPartySize": 1
+        },
+        {
+          "id": 78512,
+          "singular": "Superior Lei",
+          "plural": "Superior Leis",
+          "note": "Ti-Leaf & Sonia Orchid, White Orchid, Tuberose, Kukuna-o-kala, Crown Flower, He'e Moch Orange",
+          "priceCents": 66000,
+          "price": 660,
+          "minPartySize": 1
+        },
+        {
+          "id": 78513,
+          "singular": "Adult Deluxe Lei",
+          "plural": "Adult Deluxe Leis",
+          "note": "Double Plumeria, Tuberose, Lantern Ilima, Sonia Orchid, Dendrobium",
+          "priceCents": 68000,
+          "price": 680,
+          "minPartySize": 1
+        },
+        {
+          "id": 78521,
+          "singular": "Adult Special Lei",
+          "plural": "Adult Special Leis",
+          "note": "Crown Pikake Style, Micronesian Ginger, Ohai'i-Ali'i, Cigar, Kika, Maile, Puakenikeni, Haku, Kukui Mock Orange, Carnation",
+          "priceCents": 70000,
+          "price": 700,
+          "minPartySize": 1
+        },
+        {
+          "id": 78522,
+          "singular": "VIP",
+          "plural": "VIPs",
+          "note": "Feather Sonia Orchid, Triple Ginger, Christina, Sweetheart, Black Beauty, King 11, Leilani",
+          "priceCents": 72000,
+          "price": 720,
+          "minPartySize": 1
+        },
+        {
+          "id": 78523,
+          "singular": "Celebrity Lei",
+          "plural": "Celebrity Leis",
+          "note": "Haku & Deluxe Double Lei (Flowers: Tuberose, Sonia Orchid & Red Roses) Rope Pikake",
+          "priceCents": 82000,
+          "price": 820,
+          "minPartySize": 1
+        },
+        {
+          "id": 139561,
+          "singular": "Bride and Groom Lei",
+          "plural": "Bride and Groom Lei",
+          "note": "1-Double Orchid, 1-Ti-Leaf & Orchid Twist - Open End (Orchids Use - Sonia, White, Green)",
+          "priceCents": 87000,
+          "price": 870,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "60961",
