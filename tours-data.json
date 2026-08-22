@@ -2173,8 +2173,8 @@
       "location": "United States/Hawaii/Lihue",
       "island": "kauai",
       "price": 359,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "60 minutes",
@@ -2202,7 +2202,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 60
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 57395,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Per Person Price",
+          "priceCents": 35900,
+          "price": 359,
+          "minPartySize": 2
+        }
+      ]
     },
     {
       "id": "36429",
@@ -2756,9 +2767,9 @@
       "category": "",
       "location": "United States/Hawaii/Hanalei",
       "island": "kauai",
-      "price": 40,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 299,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -2788,7 +2799,36 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 240
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 14400,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "Ages 18+",
+          "priceCents": 29900,
+          "price": 299,
+          "minPartySize": 1
+        },
+        {
+          "id": 14401,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "Ages 4-17",
+          "priceCents": 26900,
+          "price": 269,
+          "minPartySize": 1
+        },
+        {
+          "id": 14402,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "18 Passengers Maximum",
+          "priceCents": 500000,
+          "price": 5000,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "14963",
@@ -2949,8 +2989,8 @@
       "location": "United States/Hawaii/Koloa",
       "island": "kauai",
       "price": 150,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "90 minutes",
@@ -2980,7 +3020,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 90
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 77404,
+          "singular": "Surfer",
+          "plural": "Surfers",
+          "note": "PLEASE NOTE: Semi-Private means up to 2 Students to 1 instructor.  Price is $150+tax PER PERSON!!!!!",
+          "priceCents": 15000,
+          "price": 150,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "34666",
@@ -3074,8 +3125,8 @@
       "location": "United States/Hawaii/Koloa",
       "island": "kauai",
       "price": 239,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "300 minutes",
@@ -3106,7 +3157,27 @@
       "_unknownFields": {
         "durationMinutes": 300
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 758988,
+          "singular": "Certified Diver",
+          "plural": "Certified Diver",
+          "note": "",
+          "priceCents": 23900,
+          "price": 239,
+          "minPartySize": 1
+        },
+        {
+          "id": 778626,
+          "singular": "Rider",
+          "plural": "Riders",
+          "note": "$135 for standby seat",
+          "priceCents": 23900,
+          "price": 239,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "421173",
@@ -4287,8 +4358,8 @@
       "location": "United States/Hawaii/Hanalei",
       "island": "kauai",
       "price": 175,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "90 minutes",
@@ -4314,7 +4385,45 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 90
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 43169,
+          "singular": "Private Lesson",
+          "plural": "Private Lessons",
+          "note": "Price for 1 surfer",
+          "priceCents": 17500,
+          "price": 175,
+          "minPartySize": 1
+        },
+        {
+          "id": 43171,
+          "singular": "Semi-Private Lesson for 2 Surfers - All ages",
+          "plural": "Semi-Private Lessons for 2 Surfers - All ages",
+          "note": "Price for 2 surfers",
+          "priceCents": 22500,
+          "price": 225,
+          "minPartySize": 1
+        },
+        {
+          "id": 44323,
+          "singular": "Semi-Private Lesson for 3 Surfers - All Ages",
+          "plural": "Semi-Private Lessons for 3 Surfers - All Ages",
+          "note": "Price for 3 surfers",
+          "priceCents": 27500,
+          "price": 275,
+          "minPartySize": 1
+        },
+        {
+          "id": 43172,
+          "singular": "Semi-Private Lesson for 4 Surfers - All Ages",
+          "plural": "Semi-Private Lessons for 4 Surfers - All Ages",
+          "note": "Price for 4 surfers",
+          "priceCents": 35000,
+          "price": 350,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "109242",
@@ -4326,8 +4435,8 @@
       "location": "United States/Hawaii/Kapaʻa",
       "island": "kauai",
       "price": 125,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "270 minutes",
@@ -4356,7 +4465,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 270
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 231394,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Age 5+",
+          "priceCents": 12500,
+          "price": 125,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "455885",
@@ -5446,9 +5566,9 @@
       "category": "",
       "location": "United States/Hawaii/Koloa",
       "island": "kauai",
-      "price": 277,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 239,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "270 minutes",
@@ -5477,7 +5597,54 @@
       "_unknownFields": {
         "durationMinutes": 270
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 29818,
+          "singular": "Certified Diver",
+          "plural": "Certified Divers",
+          "note": "",
+          "priceCents": 23900,
+          "price": 239,
+          "minPartySize": 1
+        },
+        {
+          "id": 61033,
+          "singular": "Cert As Intro",
+          "plural": "Cert As Intro",
+          "note": "Certified diver that would like to dive with a Non-Certified diver (Includes gear rental)",
+          "priceCents": 28900,
+          "price": 289,
+          "minPartySize": 1
+        },
+        {
+          "id": 29819,
+          "singular": "Non-Certified Diver",
+          "plural": "Non-Certified Diver",
+          "note": "Non-Certified Divers must pass medical questionnaire and be able to swim. Must attend lesson at 10:00.",
+          "priceCents": 32000,
+          "price": 320,
+          "minPartySize": 1
+        },
+        {
+          "id": 29824,
+          "singular": "Snorkeler/Ride Along",
+          "plural": "Snorkeler/Ride Along",
+          "note": "Must be 7 years or older.",
+          "priceCents": 16500,
+          "price": 165,
+          "minPartySize": 1
+        },
+        {
+          "id": 29825,
+          "singular": "Student",
+          "plural": "Students",
+          "note": "",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "11361",
@@ -5488,9 +5655,9 @@
       "category": "",
       "location": "United States/Hawaii/Koloa",
       "island": "kauai",
-      "price": 179,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 145,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -5519,7 +5686,45 @@
       "_unknownFields": {
         "durationMinutes": 240
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 29820,
+          "singular": "Certified Diver 1-Tank",
+          "plural": "Certified Diver 1-Tank",
+          "note": "",
+          "priceCents": 14500,
+          "price": 145,
+          "minPartySize": 1
+        },
+        {
+          "id": 29822,
+          "singular": "Non-Certified Diver 1-Tank",
+          "plural": "Non-Certified Diver 1-Tank",
+          "note": "Non-Certified Divers must pass medical questionnaire and be able to swim",
+          "priceCents": 19000,
+          "price": 190,
+          "minPartySize": 1
+        },
+        {
+          "id": 29823,
+          "singular": "Non-Certified Diver 2-Tank",
+          "plural": "Non-Certified Diver 2-Tank",
+          "note": "Non-Certified Divers must pass medical questionnaire and be able to swim",
+          "priceCents": 22500,
+          "price": 225,
+          "minPartySize": 1
+        },
+        {
+          "id": 29821,
+          "singular": "Certified 2-Tank",
+          "plural": "Certified 2-Tank",
+          "note": "",
+          "priceCents": 16500,
+          "price": 165,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "37795",
@@ -5571,8 +5776,8 @@
       "location": "United States/Hawaii/Lihue",
       "island": "kauai",
       "price": 114,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -5602,7 +5807,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 180
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 236586,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 12 and over",
+          "priceCents": 11400,
+          "price": 114,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "153153",
@@ -6818,9 +7034,9 @@
       "category": "",
       "location": "United States/Hawaii/Poipu",
       "island": "kauai",
-      "price": 239,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 299,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "120 minutes",
@@ -6846,7 +7062,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 120
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 29825,
+          "singular": "Student",
+          "plural": "Students",
+          "note": "",
+          "priceCents": 29900,
+          "price": 299,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "12675",
@@ -7349,7 +7576,36 @@
       "_unknownFields": {
         "durationMinutes": 480
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 893745,
+          "singular": "Double Kayak Rental",
+          "plural": "Double Kayak Rental",
+          "note": "",
+          "priceCents": 10000,
+          "price": 100,
+          "minPartySize": 1
+        },
+        {
+          "id": 893746,
+          "singular": "Single Kayak Rental",
+          "plural": "Single Kayak Rental",
+          "note": "",
+          "priceCents": 5000,
+          "price": 50,
+          "minPartySize": 1
+        },
+        {
+          "id": 893747,
+          "singular": "SUP Rental",
+          "plural": "SUP Rental",
+          "note": "",
+          "priceCents": 3000,
+          "price": 30,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "500432",
@@ -8858,8 +9114,8 @@
       "location": "United States/Hawaii/Lihue",
       "island": "kauai",
       "price": 45,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 90,
       "currency": "USD",
       "duration": "360 minutes",
@@ -8885,7 +9141,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 360
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 994707,
+          "singular": "Per Person",
+          "plural": "People",
+          "note": "Ages 6+",
+          "priceCents": 4500,
+          "price": 45,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "642074",
@@ -10637,8 +10904,8 @@
       "location": "United States/Hawaii/Koloa",
       "island": "kauai",
       "price": 87,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per booking",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -10661,7 +10928,108 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "priceBreakdown": [
+        {
+          "id": 752800,
+          "singular": "Aventon Level Small E-Bike",
+          "plural": "Aventon Level Small E-Bike",
+          "note": "15+ years old per state of Hawaii",
+          "priceCents": 8700,
+          "price": 87,
+          "minPartySize": 1
+        },
+        {
+          "id": 752801,
+          "singular": "Aventon Pace 500 Medium E-Bike",
+          "plural": "Aventon Pace 500 Medium E-bike",
+          "note": "15+ years old per state of Hawaii",
+          "priceCents": 8700,
+          "price": 87,
+          "minPartySize": 1
+        },
+        {
+          "id": 752802,
+          "singular": "Aventon Pace 500 Large E-Bike",
+          "plural": "Aventon Pace 500 Large E-Bike",
+          "note": "15+ years old per state of Hawaii",
+          "priceCents": 8700,
+          "price": 87,
+          "minPartySize": 1
+        },
+        {
+          "id": 752803,
+          "singular": "Aventon Pace 350 Medium E-Bike",
+          "plural": "Aventon Pace 350 Medium E-Bike",
+          "note": "15+ years old per state of Hawaii",
+          "priceCents": 8700,
+          "price": 87,
+          "minPartySize": 1
+        },
+        {
+          "id": 752804,
+          "singular": "Aventon Pace 350 Small E-Bike",
+          "plural": "Aventon Pace 350 Small E-Bike",
+          "note": "15+ years old per state of Hawaii",
+          "priceCents": 8700,
+          "price": 87,
+          "minPartySize": 1
+        },
+        {
+          "id": 752805,
+          "singular": "Aventon Aventure fat tire",
+          "plural": "Aventon Aventure fat tire",
+          "note": "15+ years old per state of Hawaii",
+          "priceCents": 8700,
+          "price": 87,
+          "minPartySize": 1
+        },
+        {
+          "id": 752806,
+          "singular": "Aventon Aventure fat tire",
+          "plural": "Aventon Aventure fat tire",
+          "note": "",
+          "priceCents": 8700,
+          "price": 87,
+          "minPartySize": 1
+        },
+        {
+          "id": 770253,
+          "singular": "Aventon Aventure fat tire",
+          "plural": "Aventon Aventure fat tire",
+          "note": "",
+          "priceCents": 8700,
+          "price": 87,
+          "minPartySize": 1
+        },
+        {
+          "id": 810991,
+          "singular": "Aventon Level ebike Small",
+          "plural": "Aventon Level ebike Small",
+          "note": "",
+          "priceCents": 8700,
+          "price": 87,
+          "minPartySize": 1
+        },
+        {
+          "id": 810992,
+          "singular": "Aventon Level ebike M/L",
+          "plural": "Aventon Level ebike M/L",
+          "note": "",
+          "priceCents": 8700,
+          "price": 87,
+          "minPartySize": 1
+        },
+        {
+          "id": 822365,
+          "singular": "Aventon Aventure fat tire",
+          "plural": "Aventon Aventure fat tire",
+          "note": "",
+          "priceCents": 8700,
+          "price": 87,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "417332",
@@ -11163,7 +11531,36 @@
       "_unknownFields": {
         "durationMinutes": 480
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 1102094,
+          "singular": "Double Kayak Rental",
+          "plural": "Double Kayak Rentals",
+          "note": "",
+          "priceCents": 10000,
+          "price": 100,
+          "minPartySize": 1
+        },
+        {
+          "id": 1102095,
+          "singular": "Single Kayak Rental",
+          "plural": "Single Kayak Rentals",
+          "note": "",
+          "priceCents": 5000,
+          "price": 50,
+          "minPartySize": 1
+        },
+        {
+          "id": 1102096,
+          "singular": "SUP Rental",
+          "plural": "SUP Rentals",
+          "note": "",
+          "priceCents": 3000,
+          "price": 30,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "241861",
@@ -12369,7 +12766,72 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "priceBreakdown": [
+        {
+          "id": 569475,
+          "singular": "One Day Rental",
+          "plural": "One Day Rentals",
+          "note": "24 Hours",
+          "priceCents": 499,
+          "price": 4.99,
+          "minPartySize": 1
+        },
+        {
+          "id": 569476,
+          "singular": "Two Day Rental",
+          "plural": "Two Day Rentals",
+          "note": "",
+          "priceCents": 998,
+          "price": 9.98,
+          "minPartySize": 1
+        },
+        {
+          "id": 569477,
+          "singular": "Three Day Rental",
+          "plural": "Three Day Rentals",
+          "note": "",
+          "priceCents": 1497,
+          "price": 14.97,
+          "minPartySize": 1
+        },
+        {
+          "id": 569478,
+          "singular": "Four Day Rental",
+          "plural": "Four Day Rentals",
+          "note": "",
+          "priceCents": 1996,
+          "price": 19.96,
+          "minPartySize": 1
+        },
+        {
+          "id": 569479,
+          "singular": "Five Day Rental",
+          "plural": "Five Day Rentals",
+          "note": "",
+          "priceCents": 2495,
+          "price": 24.95,
+          "minPartySize": 1
+        },
+        {
+          "id": 569480,
+          "singular": "Six Day Rental",
+          "plural": "Six Day Rentals",
+          "note": "",
+          "priceCents": 2495,
+          "price": 24.95,
+          "minPartySize": 1
+        },
+        {
+          "id": 569481,
+          "singular": "Weekly Rental",
+          "plural": "Weekly Rentals",
+          "note": "7 Days",
+          "priceCents": 2495,
+          "price": 24.95,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "439534",
@@ -12894,8 +13356,8 @@
       "location": "United States/Hawaii/Koloa",
       "island": "kauai",
       "price": 300,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per group",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -12919,7 +13381,18 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 768293,
+          "singular": "Semi Private",
+          "plural": "Semi Private",
+          "note": "Group of 2-3",
+          "priceCents": 30000,
+          "price": 300,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "79552",
@@ -15440,7 +15913,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 1440
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 1122128,
+          "singular": "One Day Rental",
+          "plural": "One Day Rentals",
+          "note": "",
+          "priceCents": 9500,
+          "price": 95,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "5397",
@@ -21543,8 +22027,8 @@
       "location": "United States/Hawaii/Kihei",
       "island": "maui",
       "price": 149,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "90 minutes",
@@ -21574,7 +22058,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 90
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 247784,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 5-75",
+          "priceCents": 14900,
+          "price": 149,
+          "minPartySize": 2
+        }
+      ]
     },
     {
       "id": "203744",
@@ -22351,8 +22846,8 @@
       "location": "United States/Hawaii/Kihei",
       "island": "maui",
       "price": 199,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "90 minutes",
@@ -22383,7 +22878,18 @@
       "_unknownFields": {
         "durationMinutes": 90
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 247784,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 5-75",
+          "priceCents": 19900,
+          "price": 199,
+          "minPartySize": 2
+        }
+      ]
     },
     {
       "id": "129033",
@@ -23579,8 +24085,8 @@
       "location": "United States/Hawaii/Kihei",
       "island": "maui",
       "price": 149,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "90 minutes",
@@ -23610,7 +24116,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 90
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 247784,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 5-75",
+          "priceCents": 14900,
+          "price": 149,
+          "minPartySize": 2
+        }
+      ]
     },
     {
       "id": "372577",
@@ -24981,7 +25498,90 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 240
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 1093178,
+          "singular": "4 Hour Rental",
+          "plural": "4 Hour Rentals",
+          "note": "",
+          "priceCents": 17900,
+          "price": 179,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093179,
+          "singular": "8 Hour Rental",
+          "plural": "8 Hour Rentals",
+          "note": "",
+          "priceCents": 19900,
+          "price": 199,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093180,
+          "singular": "24 Hour Rental",
+          "plural": "24 Hour Rentals",
+          "note": "",
+          "priceCents": 21900,
+          "price": 219,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093181,
+          "singular": "2 Day Rental",
+          "plural": "2 Day Rentals",
+          "note": "",
+          "priceCents": 43800,
+          "price": 438,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093205,
+          "singular": "3 Day Rental",
+          "plural": "3 Day Rentals",
+          "note": "",
+          "priceCents": 59700,
+          "price": 597,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093206,
+          "singular": "4 Day Rental",
+          "plural": "4 Day Rentals",
+          "note": "",
+          "priceCents": 79600,
+          "price": 796,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093207,
+          "singular": "5 Day Rental",
+          "plural": "5 Day Rentals",
+          "note": "",
+          "priceCents": 99500,
+          "price": 995,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093208,
+          "singular": "6 Day Rental",
+          "plural": "6 Day Rentals",
+          "note": "",
+          "priceCents": 119400,
+          "price": 1194,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093209,
+          "singular": "7 Day Rental",
+          "plural": "7 Day Rentals",
+          "note": "",
+          "priceCents": 125300,
+          "price": 1253,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "651496",
@@ -26900,8 +27500,8 @@
       "location": "United States/Hawaii/Kihei",
       "island": "maui",
       "price": 189,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -26931,7 +27531,27 @@
       "_unknownFields": {
         "durationMinutes": 180
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 7425,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "18 years of age and older",
+          "priceCents": 18900,
+          "price": 189,
+          "minPartySize": 1
+        },
+        {
+          "id": 7426,
+          "singular": "Child",
+          "plural": "Children",
+          "note": "Ages 3- 17",
+          "priceCents": 18900,
+          "price": 189,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "8630",
@@ -28551,7 +29171,90 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 240
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 1093229,
+          "singular": "Four Hour Rental",
+          "plural": "Four Hour Rentals",
+          "note": "",
+          "priceCents": 15900,
+          "price": 159,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093230,
+          "singular": "Eight Hour Rental",
+          "plural": "Eight Hour Rentals",
+          "note": "",
+          "priceCents": 17900,
+          "price": 179,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093231,
+          "singular": "24 Hour Rental",
+          "plural": "24 Hour Rentals",
+          "note": "",
+          "priceCents": 19900,
+          "price": 199,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093235,
+          "singular": "Two Day Rental",
+          "plural": "Two Day Rentals",
+          "note": "",
+          "priceCents": 39800,
+          "price": 398,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093236,
+          "singular": "Three Day Rental",
+          "plural": "Three Day Rentals",
+          "note": "",
+          "priceCents": 53700,
+          "price": 537,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093237,
+          "singular": "Four Day Rental",
+          "plural": "Four Day Rentals",
+          "note": "",
+          "priceCents": 71600,
+          "price": 716,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093238,
+          "singular": "Five Day Rental",
+          "plural": "Five Day Rentals",
+          "note": "",
+          "priceCents": 89500,
+          "price": 895,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093239,
+          "singular": "Six Day Rental",
+          "plural": "Six Day Rentals",
+          "note": "",
+          "priceCents": 107400,
+          "price": 1074,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093240,
+          "singular": "Seven Day Rental",
+          "plural": "Seven Day Rentals",
+          "note": "",
+          "priceCents": 111300,
+          "price": 1113,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "621372",
@@ -28592,7 +29295,90 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 240
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 1093229,
+          "singular": "Four Hour Rental",
+          "plural": "Four Hour Rentals",
+          "note": "",
+          "priceCents": 13900,
+          "price": 139,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093230,
+          "singular": "Eight Hour Rental",
+          "plural": "Eight Hour Rentals",
+          "note": "",
+          "priceCents": 15900,
+          "price": 159,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093231,
+          "singular": "24 Hour Rental",
+          "plural": "24 Hour Rentals",
+          "note": "",
+          "priceCents": 17900,
+          "price": 179,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093235,
+          "singular": "Two Day Rental",
+          "plural": "Two Day Rentals",
+          "note": "",
+          "priceCents": 35800,
+          "price": 358,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093236,
+          "singular": "Three Day Rental",
+          "plural": "Three Day Rentals",
+          "note": "",
+          "priceCents": 47700,
+          "price": 477,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093237,
+          "singular": "Four Day Rental",
+          "plural": "Four Day Rentals",
+          "note": "",
+          "priceCents": 63600,
+          "price": 636,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093238,
+          "singular": "Five Day Rental",
+          "plural": "Five Day Rentals",
+          "note": "",
+          "priceCents": 79500,
+          "price": 795,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093239,
+          "singular": "Six Day Rental",
+          "plural": "Six Day Rentals",
+          "note": "",
+          "priceCents": 95400,
+          "price": 954,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093240,
+          "singular": "Seven Day Rental",
+          "plural": "Seven Day Rentals",
+          "note": "",
+          "priceCents": 97300,
+          "price": 973,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "621374",
@@ -28633,7 +29419,90 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 240
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 1093229,
+          "singular": "Four Hour Rental",
+          "plural": "Four Hour Rentals",
+          "note": "",
+          "priceCents": 13900,
+          "price": 139,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093230,
+          "singular": "Eight Hour Rental",
+          "plural": "Eight Hour Rentals",
+          "note": "",
+          "priceCents": 15900,
+          "price": 159,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093231,
+          "singular": "24 Hour Rental",
+          "plural": "24 Hour Rentals",
+          "note": "",
+          "priceCents": 17900,
+          "price": 179,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093235,
+          "singular": "Two Day Rental",
+          "plural": "Two Day Rentals",
+          "note": "",
+          "priceCents": 35800,
+          "price": 358,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093236,
+          "singular": "Three Day Rental",
+          "plural": "Three Day Rentals",
+          "note": "",
+          "priceCents": 47700,
+          "price": 477,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093237,
+          "singular": "Four Day Rental",
+          "plural": "Four Day Rentals",
+          "note": "",
+          "priceCents": 63600,
+          "price": 636,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093238,
+          "singular": "Five Day Rental",
+          "plural": "Five Day Rentals",
+          "note": "",
+          "priceCents": 79500,
+          "price": 795,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093239,
+          "singular": "Six Day Rental",
+          "plural": "Six Day Rentals",
+          "note": "",
+          "priceCents": 95400,
+          "price": 954,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093240,
+          "singular": "Seven Day Rental",
+          "plural": "Seven Day Rentals",
+          "note": "",
+          "priceCents": 97300,
+          "price": 973,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "621375",
@@ -29761,8 +30630,8 @@
       "location": "United States/Hawaii/Makawao",
       "island": "maui",
       "price": 395,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per group",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "30 minutes",
@@ -29788,7 +30657,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 30
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 754846,
+          "singular": "Private Photoshoot",
+          "plural": "Private Photoshoots",
+          "note": "Up to 6 people",
+          "priceCents": 39500,
+          "price": 395,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "678344",
@@ -32194,8 +33074,8 @@
       "location": "United States/Hawaii/Kihei",
       "island": "maui",
       "price": 95,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "120 minutes",
@@ -32224,7 +33104,18 @@
       "_unknownFields": {
         "durationMinutes": 120
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 7970,
+          "singular": "Surf Group Lesson 2hr (per person)",
+          "plural": "Surf Group Lesson 2hr (per person)",
+          "note": "Mixed Adult, Min age 12 yrs.",
+          "priceCents": 9500,
+          "price": 95,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "2866",
@@ -39910,8 +40801,8 @@
       "location": "United States/Hawaii/Kihei",
       "island": "maui",
       "price": 299,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -39935,7 +40826,27 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 352343,
+          "singular": "Diver",
+          "plural": "Divers",
+          "note": "Without Specialty Gear",
+          "priceCents": 29900,
+          "price": 299,
+          "minPartySize": 1
+        },
+        {
+          "id": 352343,
+          "singular": "Diver",
+          "plural": "Divers",
+          "note": "With Specialty Gear",
+          "priceCents": 34900,
+          "price": 349,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "414455",
@@ -43469,9 +44380,9 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 143,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 139,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "240 minutes",
@@ -43500,7 +44411,27 @@
       "_unknownFields": {
         "durationMinutes": 240
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 35546,
+          "singular": "Person: Refundable: Up To 48 Hours Before Trip",
+          "plural": "People: Refundable: Up To 48 Hours Before Trip",
+          "note": "Ages 3+ • Free Cancellation up to 48 Hours Before the Start of the Trip",
+          "priceCents": 15900,
+          "price": 159,
+          "minPartySize": 1
+        },
+        {
+          "id": 1010199,
+          "singular": "Person:  Non-Refundable • All Sales are Final",
+          "plural": "People: Non-Refundable • All Sales are Final",
+          "note": "Ages 3+ • This Rate is NON-REFUNDABLE • All Sales are Final",
+          "priceCents": 13900,
+          "price": 139,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "139321",
@@ -43761,9 +44692,9 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 109,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 109.99,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "300 minutes",
@@ -43791,7 +44722,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 300
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 764684,
+          "singular": "Guest",
+          "plural": "Guests",
+          "note": "Ages 6 to 70",
+          "priceCents": 10999,
+          "price": 109.99,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "2665",
@@ -44528,9 +45470,9 @@
       "category": "",
       "location": "United States/Hawaii/Hilo",
       "island": "big island",
-      "price": 101,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 119,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -44559,7 +45501,18 @@
       "_unknownFields": {
         "durationMinutes": 180
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 231478,
+          "singular": "Snorkeler",
+          "plural": "Snorkelers",
+          "note": "",
+          "priceCents": 11900,
+          "price": 119,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "285627",
@@ -48516,9 +49469,9 @@
       "category": "",
       "location": "United States/Hawaii/Captain Cook",
       "island": "big island",
-      "price": 79,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 79.95,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -48552,7 +49505,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 180
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 62243,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 10+",
+          "priceCents": 7995,
+          "price": 79.95,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "296866",
@@ -49752,7 +50716,81 @@
       "_unknownFields": {
         "durationMinutes": 1440
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 574994,
+          "singular": "Full Day Rental",
+          "plural": "Full Day Rental",
+          "note": "Due back the same day by 5:00pm",
+          "priceCents": 25000,
+          "price": 250,
+          "minPartySize": 1
+        },
+        {
+          "id": 574995,
+          "singular": "24 Hour Rental",
+          "plural": "24 Hour Rental",
+          "note": "",
+          "priceCents": 28500,
+          "price": 285,
+          "minPartySize": 1
+        },
+        {
+          "id": 574996,
+          "singular": "Two Day Rental",
+          "plural": "Two Day Rental",
+          "note": "",
+          "priceCents": 45000,
+          "price": 450,
+          "minPartySize": 1
+        },
+        {
+          "id": 575399,
+          "singular": "Three Day Rental",
+          "plural": "Three Day Rental",
+          "note": "",
+          "priceCents": 62500,
+          "price": 625,
+          "minPartySize": 1
+        },
+        {
+          "id": 575401,
+          "singular": "Four Day Rental",
+          "plural": "Four Day Rental",
+          "note": "",
+          "priceCents": 79500,
+          "price": 795,
+          "minPartySize": 1
+        },
+        {
+          "id": 575402,
+          "singular": "Five Day Rental",
+          "plural": "Five Day Rental",
+          "note": "",
+          "priceCents": 95000,
+          "price": 950,
+          "minPartySize": 1
+        },
+        {
+          "id": 575403,
+          "singular": "Six Day Rental",
+          "plural": "Six Day Rental",
+          "note": "",
+          "priceCents": 105000,
+          "price": 1050,
+          "minPartySize": 1
+        },
+        {
+          "id": 575404,
+          "singular": "Week Rental",
+          "plural": "Week Rental",
+          "note": "",
+          "priceCents": 115000,
+          "price": 1150,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "410154",
@@ -51806,8 +52844,8 @@
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
       "price": 195,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "300 minutes",
@@ -51833,7 +52871,54 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 300
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 150942,
+          "singular": "Certified Diver",
+          "plural": "Certified Divers",
+          "note": "",
+          "priceCents": 19500,
+          "price": 195,
+          "minPartySize": 1
+        },
+        {
+          "id": 150943,
+          "singular": "Snorkeler",
+          "plural": "Snorkelers",
+          "note": "",
+          "priceCents": 19500,
+          "price": 195,
+          "minPartySize": 1
+        },
+        {
+          "id": 1223942,
+          "singular": "Ride Along",
+          "plural": "Ride Alongs",
+          "note": "",
+          "priceCents": 19500,
+          "price": 195,
+          "minPartySize": 1
+        },
+        {
+          "id": 251393,
+          "singular": "Discover Scuba Diver",
+          "plural": "Discover Scuba Divers",
+          "note": "15 years and older",
+          "priceCents": 35900,
+          "price": 359,
+          "minPartySize": 1
+        },
+        {
+          "id": 683947,
+          "singular": "Discover Scuba Diver - Junior",
+          "plural": "Discover Scuba Diver - Juniors",
+          "note": "10 - 14 years of age",
+          "priceCents": 45900,
+          "price": 459,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "85712",
@@ -53380,9 +54465,9 @@
       "category": "",
       "location": "United States/Hawaii/Paauilo",
       "island": "big island",
-      "price": 41,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 41.5,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "60 minutes",
@@ -53410,7 +54495,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 60
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 15237,
+          "singular": "Person",
+          "plural": "People",
+          "note": "All Ages",
+          "priceCents": 4150,
+          "price": 41.5,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "39303",
@@ -53422,8 +54518,8 @@
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
       "price": 124,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "90 minutes",
@@ -53452,7 +54548,18 @@
       "_unknownFields": {
         "durationMinutes": 90
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 87770,
+          "singular": "Person",
+          "plural": "People",
+          "note": "Ages 10+",
+          "priceCents": 12400,
+          "price": 124,
+          "minPartySize": 2
+        }
+      ]
     },
     {
       "id": "39304",
@@ -53548,8 +54655,8 @@
       "location": "United States/Hawaii",
       "island": "big island",
       "price": 699,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per group",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "360 minutes",
@@ -53578,7 +54685,45 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 360
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 342816,
+          "singular": "Group Size - 1 to 4 People",
+          "plural": "Group Size - 1 to 4 People",
+          "note": "",
+          "priceCents": 69900,
+          "price": 699,
+          "minPartySize": 1
+        },
+        {
+          "id": 342817,
+          "singular": "Group Size - 5 to 7 People",
+          "plural": "Group Size - 5 to 7 People",
+          "note": "",
+          "priceCents": 89900,
+          "price": 899,
+          "minPartySize": 1
+        },
+        {
+          "id": 972645,
+          "singular": "Group Size - 8 to 10 People",
+          "plural": "Group Size - 8 to 10 People",
+          "note": "",
+          "priceCents": 109900,
+          "price": 1099,
+          "minPartySize": 1
+        },
+        {
+          "id": 972650,
+          "singular": "Group Size - 11 to 14 People",
+          "plural": "Group Size - 11 to 14 People",
+          "note": "",
+          "priceCents": 139900,
+          "price": 1399,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "175076",
@@ -56811,8 +57956,8 @@
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
       "price": 129,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "150 minutes",
@@ -56839,7 +57984,45 @@
       "_unknownFields": {
         "durationMinutes": 150
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 60518,
+          "singular": "Snorkeler",
+          "plural": "Snorkeler",
+          "note": "Gear Provided",
+          "priceCents": 12900,
+          "price": 129,
+          "minPartySize": 1
+        },
+        {
+          "id": 60880,
+          "singular": "Manta Private Charter 2-10 Passengers",
+          "plural": "Manta Private Charter 2-10 Passengers",
+          "note": "",
+          "priceCents": 140000,
+          "price": 1400,
+          "minPartySize": 1
+        },
+        {
+          "id": 60881,
+          "singular": "Manta Private Charter 11-18 Passengers",
+          "plural": "Manta Private Charter 11-18 Passengers",
+          "note": "",
+          "priceCents": 190000,
+          "price": 1900,
+          "minPartySize": 1
+        },
+        {
+          "id": 173681,
+          "singular": "Certified Diver",
+          "plural": "Certified Divers",
+          "note": "",
+          "priceCents": 15900,
+          "price": 159,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "37420",
@@ -64458,8 +65641,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 150,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "60 minutes",
@@ -64488,7 +65671,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 60
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 151793,
+          "singular": "One-on-One Individual",
+          "plural": "One-on-One Individual",
+          "note": "1 Student per Instructor",
+          "priceCents": 15000,
+          "price": 150,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "68065",
@@ -64738,8 +65932,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 56,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "120 minutes",
@@ -64769,7 +65963,27 @@
       "_unknownFields": {
         "durationMinutes": 120
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 174975,
+          "singular": "Guest",
+          "plural": "Guests",
+          "note": "4 years and older",
+          "priceCents": 5600,
+          "price": 56,
+          "minPartySize": 1
+        },
+        {
+          "id": 174992,
+          "singular": "Toddler",
+          "plural": "Toddlers",
+          "note": "3 Years Old and Under (FREE)",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "141714",
@@ -68206,9 +69420,9 @@
       "category": "",
       "location": "United States/Hawaii/Waialua",
       "island": "oahu",
-      "price": 376,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 336,
+      "priceLabel": "per group",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "2880 minutes",
@@ -68237,7 +69451,54 @@
       "_unknownFields": {
         "durationMinutes": 2880
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 723473,
+          "singular": "Group of 2 Private Ride",
+          "plural": "Group of 2 Private Ride",
+          "note": "",
+          "priceCents": 37600,
+          "price": 376,
+          "minPartySize": 1
+        },
+        {
+          "id": 723475,
+          "singular": "Group of 4 Private Ride",
+          "plural": "Group of 4 Private Ride",
+          "note": "",
+          "priceCents": 75200,
+          "price": 752,
+          "minPartySize": 1
+        },
+        {
+          "id": 723477,
+          "singular": "Group of 6 Private Ride",
+          "plural": "Group of 6 Private Ride",
+          "note": "",
+          "priceCents": 112800,
+          "price": 1128,
+          "minPartySize": 1
+        },
+        {
+          "id": 723478,
+          "singular": "Group of 7 Private Ride",
+          "plural": "Group of 7 Private Ride",
+          "note": "",
+          "priceCents": 131600,
+          "price": 1316,
+          "minPartySize": 1
+        },
+        {
+          "id": 733030,
+          "singular": "Group of 8 Private Ride",
+          "plural": "Group of 8 Private Ride",
+          "note": "",
+          "priceCents": 150400,
+          "price": 1504,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "9627",
@@ -70042,9 +71303,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 79,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 129,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "360 minutes",
@@ -70072,7 +71333,27 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 360
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 1267097,
+          "singular": "Person- Pearl Harbor Downtown Regular Pricing",
+          "plural": "Per Person",
+          "note": "",
+          "priceCents": 12900,
+          "price": 129,
+          "minPartySize": 1
+        },
+        {
+          "id": 1272418,
+          "singular": "Additional Seating Space Upgrade (+$75)",
+          "plural": "Additional Seating Space Upgrades (+$75)",
+          "note": "Please select '1' for each additional seat your party requires",
+          "priceCents": 7500,
+          "price": 75,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "107746",
@@ -70125,9 +71406,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 630,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 630.3,
+      "priceLabel": "per group",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "600 minutes",
@@ -70156,7 +71437,54 @@
       "_unknownFields": {
         "durationMinutes": 600
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 1198041,
+          "singular": "Private Complete Island Adventure with Sunrise (1-3 Guests)",
+          "plural": "Private Complete Island Adventure with Sunrise (1-3 Guests)",
+          "note": "Base price includes up to 3 guests",
+          "priceCents": 63030,
+          "price": 630.3,
+          "minPartySize": 1
+        },
+        {
+          "id": 1198042,
+          "singular": "Private Complete Island Adventure with Sunrise (4-5 Guests)",
+          "plural": "Private Complete Island Adventure with Sunrise (4-5 Guests)",
+          "note": "Base price includes up to 5 guests",
+          "priceCents": 85950,
+          "price": 859.5,
+          "minPartySize": 1
+        },
+        {
+          "id": 1198044,
+          "singular": "Private Complete Island Adventure with Sunrise (6-7 Guests)",
+          "plural": "Private Complete Island Adventure with Sunrise (6-7 Guests)",
+          "note": "Base price includes up to 7 guests",
+          "priceCents": 114600,
+          "price": 1146,
+          "minPartySize": 1
+        },
+        {
+          "id": 1198045,
+          "singular": "Private Complete Island Adventure with Sunrise (8-11 Guests)",
+          "plural": "Private Complete Island Adventure with Sunrise (8-11 Guests)",
+          "note": "Base price includes up to 11 guests",
+          "priceCents": 152800,
+          "price": 1528,
+          "minPartySize": 1
+        },
+        {
+          "id": 1198047,
+          "singular": "Private Complete Island Adventure with Sunrise (12-14 Guests)",
+          "plural": "Private Complete Island Adventure with Sunrise (12-14 Guests)",
+          "note": "Base price includes up to 14 guests",
+          "priceCents": 181450,
+          "price": 1814.5,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "119561",
@@ -71867,8 +73195,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 800,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per group",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "540 minutes",
@@ -71898,7 +73226,36 @@
       "_unknownFields": {
         "durationMinutes": 540
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 1243184,
+          "singular": "Private Tour (Up to 7 people)",
+          "plural": "Private Tour (Up to 7 people)",
+          "note": "",
+          "priceCents": 80000,
+          "price": 800,
+          "minPartySize": 1
+        },
+        {
+          "id": 1432,
+          "singular": "Private Tour (Up to 14 people)",
+          "plural": "Private Tour (Up to 14 people)",
+          "note": "",
+          "priceCents": 139900,
+          "price": 1399,
+          "minPartySize": 1
+        },
+        {
+          "id": 13090,
+          "singular": "Private Tour (Up to 24 people)",
+          "plural": "Private Tour (Up to 24 people)",
+          "note": "",
+          "priceCents": 199900,
+          "price": 1999,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "10287",
@@ -73572,7 +74929,72 @@
       "_unknownFields": {
         "durationMinutes": 1440
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 1018911,
+          "singular": "24 Hours Rental",
+          "plural": "24 Hours Rental",
+          "note": "Overnight Rental | Return the same time next day | Shop pickup required",
+          "priceCents": 6500,
+          "price": 65,
+          "minPartySize": 1
+        },
+        {
+          "id": 1018912,
+          "singular": "Two Day Rental",
+          "plural": "Two Day Rental",
+          "note": "48 Hours Rental | Return 2 days later | Free delivery within Waikiki available",
+          "priceCents": 8000,
+          "price": 80,
+          "minPartySize": 1
+        },
+        {
+          "id": 1017595,
+          "singular": "Three Days Rental",
+          "plural": "Three Days Rental",
+          "note": "72 Hours Rental | Return 3 days later | Free delivery within Waikiki available",
+          "priceCents": 12000,
+          "price": 120,
+          "minPartySize": 1
+        },
+        {
+          "id": 1017593,
+          "singular": "Four Days Rental",
+          "plural": "Four Days Rental",
+          "note": "96 Hours Rental | Return 4 days later | Free delivery within Waikiki available",
+          "priceCents": 16000,
+          "price": 160,
+          "minPartySize": 1
+        },
+        {
+          "id": 1017594,
+          "singular": "Five Days Rental",
+          "plural": "Five Days Rental",
+          "note": "120 Hours Rental | Return 5 days later | Free delivery within Waikiki available",
+          "priceCents": 20000,
+          "price": 200,
+          "minPartySize": 1
+        },
+        {
+          "id": 1018913,
+          "singular": "Six Days Rental",
+          "plural": "Six Days Rental",
+          "note": "144 Hours | Return 6 days later | Free delivery within Waikiki available",
+          "priceCents": 24000,
+          "price": 240,
+          "minPartySize": 1
+        },
+        {
+          "id": 1018914,
+          "singular": "Seven Days Rental",
+          "plural": "Seven Days Rental",
+          "note": "168 Hours | Return by 7 days later | Free delivery within Waikiki available",
+          "priceCents": 28000,
+          "price": 280,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "647735",
@@ -74720,9 +76142,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 159,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 175,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "210 minutes",
@@ -74751,7 +76173,27 @@
       "_unknownFields": {
         "durationMinutes": 210
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 968829,
+          "singular": "Certified Diver",
+          "plural": "Certified Divers",
+          "note": "",
+          "priceCents": 17500,
+          "price": 175,
+          "minPartySize": 1
+        },
+        {
+          "id": 1246,
+          "singular": "Ride along",
+          "plural": "Ride along",
+          "note": "",
+          "priceCents": 6500,
+          "price": 65,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "505",
@@ -75527,9 +76969,9 @@
       "category": "",
       "location": "United States/Hawaii/Haleiwa",
       "island": "oahu",
-      "price": 39,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 39.95,
+      "priceLabel": "per booking",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "120 minutes",
@@ -75557,7 +76999,81 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 120
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 603368,
+          "singular": "SUP - Two Hour Rental",
+          "plural": "SUP - Two Hour Rental",
+          "note": "",
+          "priceCents": 3995,
+          "price": 39.95,
+          "minPartySize": 1
+        },
+        {
+          "id": 599985,
+          "singular": "SUP Same Day Rental",
+          "plural": "SUP Same Day Rental",
+          "note": "",
+          "priceCents": 4995,
+          "price": 49.95,
+          "minPartySize": 1
+        },
+        {
+          "id": 603369,
+          "singular": "Single Kayak - Two Hour rental",
+          "plural": "Single Kayak - Two Hour rental",
+          "note": "",
+          "priceCents": 3995,
+          "price": 39.95,
+          "minPartySize": 1
+        },
+        {
+          "id": 599986,
+          "singular": "Single Kayak Same Day Rental",
+          "plural": "Single Kayak Same Day Rental",
+          "note": "",
+          "priceCents": 4995,
+          "price": 49.95,
+          "minPartySize": 1
+        },
+        {
+          "id": 603370,
+          "singular": "Double Kayak - Two Hour Rental",
+          "plural": "Double Kayak - Two Hour Rental",
+          "note": "",
+          "priceCents": 5495,
+          "price": 54.95,
+          "minPartySize": 1
+        },
+        {
+          "id": 599987,
+          "singular": "Double Kayak Same Day Rental",
+          "plural": "Double Kayak Same Day Rental",
+          "note": "",
+          "priceCents": 8495,
+          "price": 84.95,
+          "minPartySize": 1
+        },
+        {
+          "id": 690614,
+          "singular": "Locker",
+          "plural": "Lockers",
+          "note": "",
+          "priceCents": 200,
+          "price": 2,
+          "minPartySize": 1
+        },
+        {
+          "id": 706106,
+          "singular": "2 Hour Dry Bag Rental",
+          "plural": "2 Hour Dry Bag Rentals",
+          "note": "For Phone, Key Fob, Valuables • Use At Your Own Risk, No Sharp Items In Dry Bag",
+          "priceCents": 400,
+          "price": 4,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "340194",
@@ -79854,8 +81370,8 @@
       "location": "United States/Hawaii/Haleiwa",
       "island": "oahu",
       "price": 750,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per group",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "480 minutes",
@@ -79884,7 +81400,18 @@
       "_unknownFields": {
         "durationMinutes": 480
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 26590,
+          "singular": "Full Day Adventure",
+          "plural": "Full Day Adventure",
+          "note": "Flat rate for up to 3 guests • $250 for each additional guest",
+          "priceCents": 75000,
+          "price": 750,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "9790",
@@ -80017,8 +81544,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 144,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "480 minutes",
@@ -80047,7 +81574,63 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 480
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 646405,
+          "singular": "Ohana Package - Adult",
+          "plural": "Ohana Package - Adults",
+          "note": "13 years & older. Save online - Book Now!",
+          "priceCents": 14400,
+          "price": 144,
+          "minPartySize": 1
+        },
+        {
+          "id": 647005,
+          "singular": "Ohana Package - Child",
+          "plural": "Ohana Package - Children",
+          "note": "3-12 years old. Save online - Book Now!",
+          "priceCents": 11400,
+          "price": 114,
+          "minPartySize": 1
+        },
+        {
+          "id": 97182,
+          "singular": "Lap Child",
+          "plural": "Lap Child",
+          "note": "2 yrs old & under - FREE",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 985737,
+          "singular": "Tip for large parties 10-14 PAX",
+          "plural": "Tip for large parties 10-14 PAX",
+          "note": "",
+          "priceCents": 10000,
+          "price": 100,
+          "minPartySize": 1
+        },
+        {
+          "id": 985738,
+          "singular": "Tip for large parties 15 - 19 PAX",
+          "plural": "Tip for large parties 15 - 19 PAX",
+          "note": "",
+          "priceCents": 15000,
+          "price": 150,
+          "minPartySize": 1
+        },
+        {
+          "id": 985739,
+          "singular": "Tip for large parties 20 - 24 PAX",
+          "plural": "Tip for large parties 20 - 24 PAX",
+          "note": "",
+          "priceCents": 20000,
+          "price": 200,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "44662",
@@ -80130,7 +81713,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 150
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 136188,
+          "singular": "SUP Rental",
+          "plural": "SUP Rentals",
+          "note": "",
+          "priceCents": 4000,
+          "price": 40,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "67250",
@@ -86075,8 +87669,8 @@
       "location": "United States/Hawaii/Ewa Beach",
       "island": "oahu",
       "price": 144,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "480 minutes",
@@ -86112,7 +87706,18 @@
       "_unknownFields": {
         "durationMinutes": 480
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 1174160,
+          "singular": "Person (Ages 10+) Half Day",
+          "plural": "Person (Ages 10+) Half Day",
+          "note": "Surf Session, Paddle Pass, AquaVenture & AquaPeakz  & Nalo Kai Access w/locker (Half Day)",
+          "priceCents": 14400,
+          "price": 144,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "143704",
@@ -90849,7 +92454,27 @@
       "_unknownFields": {
         "durationMinutes": 60
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 232163,
+          "singular": "One Hour Rental",
+          "plural": "One Hour Rentals",
+          "note": "",
+          "priceCents": 4000,
+          "price": 40,
+          "minPartySize": 1
+        },
+        {
+          "id": 232164,
+          "singular": "Two Hour Rental",
+          "plural": "Two Hour Rentals",
+          "note": "",
+          "priceCents": 7500,
+          "price": 75,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "275245",
@@ -95430,8 +97055,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 160,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "540 minutes",
@@ -95461,7 +97086,36 @@
       "_unknownFields": {
         "durationMinutes": 540
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 64792,
+          "singular": "North Shore Tour - Adult",
+          "plural": "North Shore Tour - Adult",
+          "note": "13+ years old",
+          "priceCents": 16000,
+          "price": 160,
+          "minPartySize": 1
+        },
+        {
+          "id": 64793,
+          "singular": "North Shore Tour - Child",
+          "plural": "North Shore Tour - Children",
+          "note": "4 to 12 years old",
+          "priceCents": 13000,
+          "price": 130,
+          "minPartySize": 1
+        },
+        {
+          "id": 60999,
+          "singular": "Lap Child",
+          "plural": "Lap Child",
+          "note": "0-3 years old",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "331449",
@@ -97170,8 +98824,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 300,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per group",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -97200,7 +98854,18 @@
       "_unknownFields": {
         "durationMinutes": 240
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 17998,
+          "singular": "Book a 10 passenger van",
+          "plural": "Book a 10 passenger van",
+          "note": "",
+          "priceCents": 30000,
+          "price": 300,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "20498",
@@ -98463,8 +100128,8 @@
       "location": "United States/Hawaii/Makena",
       "island": "maui",
       "price": 39,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "60 minutes",
@@ -98493,7 +100158,18 @@
       "_unknownFields": {
         "durationMinutes": 60
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 586134,
+          "singular": "Person",
+          "plural": "People",
+          "note": "",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "550893",
@@ -106341,8 +108017,8 @@
       "location": "United States/Hawaii/Lahaina",
       "island": "maui",
       "price": 950,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per group",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -106374,7 +108050,27 @@
       "_unknownFields": {
         "durationMinutes": 180
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 131895,
+          "singular": "Two Hour Sail",
+          "plural": "Two Hour Sail",
+          "note": "Up to 6 People",
+          "priceCents": 95000,
+          "price": 950,
+          "minPartySize": 1
+        },
+        {
+          "id": 131897,
+          "singular": "Three Hour Sail",
+          "plural": "Three Hour Sail",
+          "note": "Up to 6 People",
+          "priceCents": 142500,
+          "price": 1425,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "480736",
@@ -112853,7 +114549,72 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 37511,
+          "singular": "Surfboard Daily Rental",
+          "plural": "Surfboard Daily Rental",
+          "note": "Receive board anytime after 8AM and return by 5PM",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 43276,
+          "singular": "SUP Board and Paddle Daily Rental",
+          "plural": "SUP Board and Paddle Daily Rental",
+          "note": "Receive board anytime after 8AM and return by 5PM",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 43277,
+          "singular": "Kiteboard Daily Rental",
+          "plural": "Kiteboard Daily Rental",
+          "note": "Board only - Receive board anytime after 8AM and return by 5PM",
+          "priceCents": 3900,
+          "price": 39,
+          "minPartySize": 1
+        },
+        {
+          "id": 139909,
+          "singular": "Weekly Board Rental Special -  Surf, SUP, or Kite",
+          "plural": "Weekly Board Rental Special - Surf, SUP, or Kite",
+          "note": "7 Day Rental - Receive board anytime after 8AM on your first day, and return by 5PM on your last day",
+          "priceCents": 19900,
+          "price": 199,
+          "minPartySize": 1
+        },
+        {
+          "id": 140860,
+          "singular": "Kiteboarding Full Equipment Rental (board, kite, bar, harness)",
+          "plural": "Kiteboarding Full Equipment Rental (board, kite, bar, harness)",
+          "note": "Must be able to ride upwind to rent equipment.",
+          "priceCents": 19900,
+          "price": 199,
+          "minPartySize": 1
+        },
+        {
+          "id": 331015,
+          "singular": "SUP Board and Paddle Rental",
+          "plural": "SUP Board and Paddle Rentals",
+          "note": "Please call to book SUP boards and Paddle Rentals",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 331016,
+          "singular": "Beginner Windsurf Daily Rental",
+          "plural": "Beginner Windsurf Daily Rental",
+          "note": "",
+          "priceCents": 14900,
+          "price": 149,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "93475",
@@ -114460,9 +116221,9 @@
       "category": "",
       "location": "United States/Hawaii/Laie",
       "island": "oahu",
-      "price": 49,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 59,
+      "priceLabel": "per booking",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "540 minutes",
@@ -114491,7 +116252,27 @@
       "_unknownFields": {
         "durationMinutes": 540
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 546372,
+          "singular": "Scooter",
+          "plural": "Scooters",
+          "note": "Select the number of scooters. One per person. Full day rental",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 971128,
+          "singular": "Seat Cushion",
+          "plural": "Seat Cushions",
+          "note": "Enhance your experience by reserving a seat cushion that will alleviate back pressure.",
+          "priceCents": 500,
+          "price": 5,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "575939",
@@ -114630,8 +116411,8 @@
       "location": "United States/Hawaii/Kailua",
       "island": "oahu",
       "price": 32,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "90 minutes",
@@ -114659,7 +116440,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 90
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 188195,
+          "singular": "Adult",
+          "plural": "Adults",
+          "note": "21 and over",
+          "priceCents": 3200,
+          "price": 32,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "175044",
@@ -122806,8 +124598,8 @@
       "location": "United States/Hawaii/Haleiwa",
       "island": "oahu",
       "price": 30,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per booking",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "60 minutes",
@@ -122836,7 +124628,36 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 60
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 259291,
+          "singular": "Paddleboard",
+          "plural": "Paddleboards",
+          "note": "",
+          "priceCents": 3000,
+          "price": 30,
+          "minPartySize": 1
+        },
+        {
+          "id": 34922,
+          "singular": "1-rider kayak",
+          "plural": "1-rider kayaks",
+          "note": "",
+          "priceCents": 3500,
+          "price": 35,
+          "minPartySize": 1
+        },
+        {
+          "id": 34924,
+          "singular": "2-rider kayak",
+          "plural": "2-rider kayaks",
+          "note": "",
+          "priceCents": 4000,
+          "price": 40,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "104328",
@@ -123508,9 +125329,9 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 115,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 115.54,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "50 minutes",
@@ -123539,7 +125360,27 @@
       "_unknownFields": {
         "durationMinutes": 50
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 4399,
+          "singular": "Person",
+          "plural": "People",
+          "note": "",
+          "priceCents": 11554,
+          "price": 115.54,
+          "minPartySize": 1
+        },
+        {
+          "id": 4148,
+          "singular": "Private Charter",
+          "plural": "Private Charter",
+          "note": "Up to 11 passengers!",
+          "priceCents": 110876,
+          "price": 1108.76,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "174865",
@@ -127502,8 +129343,8 @@
       "location": "United States/Hawaii/Hauula",
       "island": "oahu",
       "price": 69,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per booking",
+      "priceConfidence": "high",
       "qualityScore": 80,
       "currency": "USD",
       "duration": "180 minutes",
@@ -127535,7 +129376,36 @@
       "_unknownFields": {
         "durationMinutes": 180
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 692439,
+          "singular": "Single Kayak",
+          "plural": "Single Kayaks",
+          "note": "Kayak rental for 1 person",
+          "priceCents": 6900,
+          "price": 69,
+          "minPartySize": 1
+        },
+        {
+          "id": 692440,
+          "singular": "Double Kayak",
+          "plural": "Double Kayaks",
+          "note": "Kayak rental for two people",
+          "priceCents": 8500,
+          "price": 85,
+          "minPartySize": 1
+        },
+        {
+          "id": 692441,
+          "singular": "Stand Up Paddleboard",
+          "plural": "Stand Up Paddleboards",
+          "note": "",
+          "priceCents": 6900,
+          "price": 69,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "436466",
@@ -136948,8 +138818,8 @@
       "location": "United States/Hawaii/Mountain View",
       "island": "big island",
       "price": 280,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per booking",
+      "priceConfidence": "high",
       "qualityScore": 75,
       "currency": "USD",
       "duration": null,
@@ -136975,7 +138845,144 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 961750,
+          "singular": "Two Days",
+          "plural": "Two Days",
+          "note": "Select the number of vans you want",
+          "priceCents": 28000,
+          "price": 280,
+          "minPartySize": 1
+        },
+        {
+          "id": 962865,
+          "singular": "Three Days",
+          "plural": "Three Days",
+          "note": "Select the number of vans you want",
+          "priceCents": 42000,
+          "price": 420,
+          "minPartySize": 1
+        },
+        {
+          "id": 961749,
+          "singular": "Four Days",
+          "plural": "Four Days",
+          "note": "Select the number of vans you want",
+          "priceCents": 56000,
+          "price": 560,
+          "minPartySize": 1
+        },
+        {
+          "id": 962866,
+          "singular": "Five Days",
+          "plural": "Five Days",
+          "note": "Select the number of vans you want",
+          "priceCents": 70000,
+          "price": 700,
+          "minPartySize": 1
+        },
+        {
+          "id": 962867,
+          "singular": "Six Days",
+          "plural": "Six Days",
+          "note": "Select the number of vans you want",
+          "priceCents": 84000,
+          "price": 840,
+          "minPartySize": 1
+        },
+        {
+          "id": 961751,
+          "singular": "One Week",
+          "plural": "One Week",
+          "note": "Select the number of vans you want",
+          "priceCents": 85000,
+          "price": 850,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093103,
+          "singular": "Eight Days",
+          "plural": "Eight Days",
+          "note": "Select the number of vans you want",
+          "priceCents": 99000,
+          "price": 990,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093105,
+          "singular": "Nine Days",
+          "plural": "Nine Days",
+          "note": "Select the number of vans you want",
+          "priceCents": 113000,
+          "price": 1130,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093106,
+          "singular": "Ten Days",
+          "plural": "Ten Days",
+          "note": "Select the number of vans you want",
+          "priceCents": 127000,
+          "price": 1270,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093107,
+          "singular": "Eleven Days",
+          "plural": "Eleven Days",
+          "note": "Select the number of vans you want",
+          "priceCents": 141000,
+          "price": 1410,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093108,
+          "singular": "Twelve Days",
+          "plural": "Twelve Days",
+          "note": "Select the number of vans you want",
+          "priceCents": 155000,
+          "price": 1550,
+          "minPartySize": 1
+        },
+        {
+          "id": 1093109,
+          "singular": "Thirteen Days",
+          "plural": "Thirteen Days",
+          "note": "Select the number of vans you want",
+          "priceCents": 169000,
+          "price": 1690,
+          "minPartySize": 1
+        },
+        {
+          "id": 961763,
+          "singular": "Two Weeks",
+          "plural": "Two Weeks",
+          "note": "Select the number of vans you want",
+          "priceCents": 170000,
+          "price": 1700,
+          "minPartySize": 1
+        },
+        {
+          "id": 962868,
+          "singular": "Three Weeks",
+          "plural": "Three Weeks",
+          "note": "Select the number of vans you want",
+          "priceCents": 255000,
+          "price": 2550,
+          "minPartySize": 1
+        },
+        {
+          "id": 961764,
+          "singular": "One Month",
+          "plural": "One Month",
+          "note": "Select the number of vans you want",
+          "priceCents": 300000,
+          "price": 3000,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "562914",
