@@ -11,11 +11,17 @@
  * they become reachable under 12 distinct shipped options.
  *
  * THE HYPHENATED-TOKEN GUARD. A naive split('-') also breaks legitimate tokens that
- * contain a hyphen. Measured across 5,152 export rows: "E-Bike" is the only such
- * token, affecting 20 of 4,529 non-empty tag values (0.44%). ZERO wanderhawaii rows
- * are affected today. The guard is here because it belongs wherever the split lives,
- * not wherever it currently bites -- when the Hawaii export lands and tags are joined
- * at ingest, that step must call splitTagValue() rather than reimplement it.
+ * contain a hyphen. An earlier measurement over 5,152 export rows found "E-Bike" as
+ * the only such token and recorded it as the only one that exists. That was a
+ * property of THAT population, not of the splitter: re-measured over the Hawaii +
+ * Gulf Coast exports (10,448 distinct item_ids), "Self-Guided Tour" is a second one.
+ * The guard is here because it belongs wherever the split lives, not wherever it
+ * currently bites -- when tags are joined at ingest, that step must call
+ * splitTagValue() rather than reimplement it.
+ *
+ * To find the next one: split every raw tag value, then flag any produced fragment
+ * that never appears as an atomic (hyphen-free) tag value anywhere in the export.
+ * That test surfaces "Self" (40 hits) next to "E-Bike" immediately.
  *
  * Idempotent: an already-split array is left alone.
  */
@@ -26,19 +32,27 @@ const REPO = path.resolve(new URL('..', import.meta.url).pathname);
 const FILE = path.join(REPO, 'tours-data.json');
 
 /** Tokens that legitimately contain a hyphen and must survive the split. */
-export const HYPHENATED_TOKENS = ['E-Bike'];
+export const HYPHENATED_TOKENS = ['E-Bike', 'Self-Guided Tour'];
 
 /**
  * Compound iff it contains a hyphen. Known hyphenated tokens are preserved by
  * re-merging after the split (see splitTagValue), so they need no exclusion here.
  *
  * THE THRESHOLD IS DELIBERATELY LOOSE, and the asymmetry is why. Over-splitting is
- * free: the filter option list is a CURATED allow-list of 23, so any token a split
- * produces that is not an option is inert and can never render. Under-splitting
+ * USUALLY free: the filter option list is a CURATED allow-list of 23, so any token a
+ * split produces that is not an option is inert and can never render. Under-splitting
  * leaves rows unreachable by every option. An earlier cutoff of `>=3 segments AND
  * >25 chars` caught 11 live rows; `>=3 segments` caught 12; this rule catches 26.
  * Those were three answers to three different questions, and only the last one was
  * about compound tags.
+ *
+ * THE EXCEPTION, and it is why HYPHENATED_TOKENS is not optional. "Over-splitting is
+ * free" holds only while the fragments MISS the allow-list. Splitting
+ * "Self-Guided Tour" yields "Self" (inert, harmless) AND "Guided Tour" -- which IS
+ * one of the 23. That does not lose a tag, it MANUFACTURES a curated one: 11 Hawaii
+ * export rows would advertise a self-guided product as guided. Whenever a new export
+ * population lands, re-run the fragment test above against the allow-list; a fragment
+ * that lands ON it is a false positive, not an inert leftover.
  */
 export const isCompound = (v) => typeof v === 'string' && v.includes('-');
 
