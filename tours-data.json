@@ -6471,9 +6471,9 @@
       "category": "",
       "location": "United States/Hawaii/Kalaheo",
       "island": "kauai",
-      "price": 45,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 50,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "60 minutes",
@@ -6500,7 +6500,45 @@
       "_unknownFields": {
         "durationMinutes": 60
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 323779,
+          "singular": "Kama'aina Child",
+          "plural": "Kama'aina Child",
+          "note": "Must present a Hawaii drivers license or ID at check-in",
+          "priceCents": 4000,
+          "price": 40,
+          "minPartySize": 1
+        },
+        {
+          "id": 309745,
+          "singular": "Child",
+          "plural": "Child",
+          "note": "Ages 8-18",
+          "priceCents": 4500,
+          "price": 45,
+          "minPartySize": 1
+        },
+        {
+          "id": 323778,
+          "singular": "Kama'aina Adult",
+          "plural": "Kama'aina Adult",
+          "note": "Must present a Hawaii drivers license or ID at check-in",
+          "priceCents": 4500,
+          "price": 45,
+          "minPartySize": 1
+        },
+        {
+          "id": 309744,
+          "singular": "Adult",
+          "plural": "Adult",
+          "note": "Over 18",
+          "priceCents": 5000,
+          "price": 50,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "17239",
@@ -9354,8 +9392,8 @@
       "location": "United States/Hawaii/Poipu",
       "island": "kauai",
       "price": 275,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 80,
       "currency": "USD",
       "duration": "90 minutes",
@@ -9392,7 +9430,27 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 90
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 494053,
+          "singular": "Semi-Private lesson",
+          "plural": "Semi-Private lesson",
+          "note": "For up to 2 children ages 4-12 years old • Must know how to swim",
+          "priceCents": 27500,
+          "price": 275,
+          "minPartySize": 1
+        },
+        {
+          "id": 494054,
+          "singular": "Private lesson",
+          "plural": "Private lesson",
+          "note": "For one child 4-12 years old • Must know how to swim",
+          "priceCents": 27500,
+          "price": 275,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "332071",
@@ -10822,9 +10880,9 @@
       "category": "",
       "location": "United States/Hawaii/Poipu",
       "island": "kauai",
-      "price": 360,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 275,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "90 minutes",
@@ -10855,7 +10913,27 @@
       "_unknownFields": {
         "durationMinutes": 90
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 494054,
+          "singular": "Private lesson",
+          "plural": "Private lesson",
+          "note": "1 Surfer • Ages 12 and up • Must know how to swim",
+          "priceCents": 27500,
+          "price": 275,
+          "minPartySize": 1
+        },
+        {
+          "id": 494053,
+          "singular": "Semi-Private lesson",
+          "plural": "Semi-Private lesson",
+          "note": "2-3 Surfers • Ages 12 and up • Must know how to swim",
+          "priceCents": 36000,
+          "price": 360,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "627203",
@@ -16247,8 +16325,8 @@
       "location": "United States/Hawaii/Kilauea",
       "island": "kauai",
       "price": 25,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "180 minutes",
@@ -16275,7 +16353,63 @@
       "_unknownFields": {
         "durationMinutes": 180
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 1193734,
+          "singular": "Toddler",
+          "plural": "Toddler",
+          "note": "Toddlers 0-23 months must be booked online and accompanied by an adult.",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1207570,
+          "singular": "Kama'aina Children",
+          "plural": "Kama'aina Children",
+          "note": "Kama'aina children must be booked with an adult who has a valid Hawaii State ID at check in.",
+          "priceCents": 1125,
+          "price": 11.25,
+          "minPartySize": 1
+        },
+        {
+          "id": 730400,
+          "singular": "Children",
+          "plural": "Children",
+          "note": "Children ages 2-12 must be booked online and accompanied by an adult.",
+          "priceCents": 1500,
+          "price": 15,
+          "minPartySize": 1
+        },
+        {
+          "id": 734691,
+          "singular": "Military",
+          "plural": "Military",
+          "note": "Must present Military ID at check in.",
+          "priceCents": 1875,
+          "price": 18.75,
+          "minPartySize": 1
+        },
+        {
+          "id": 734690,
+          "singular": "Kama'aina Guests",
+          "plural": "Kama'aina Guests",
+          "note": "Must present valid Hawaii State ID at check in. Ages 13+",
+          "priceCents": 1875,
+          "price": 18.75,
+          "minPartySize": 1
+        },
+        {
+          "id": 1193121,
+          "singular": "Guest",
+          "plural": "Guest",
+          "note": "Ages 13+",
+          "priceCents": 2500,
+          "price": 25,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "424128",
@@ -17351,9 +17485,9 @@
       "category": "",
       "location": "United States/Hawaii/Hanapepe",
       "island": "kauai",
-      "price": 156,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 166,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -17380,7 +17514,18 @@
       "_unknownFields": {
         "durationMinutes": 240
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 258157,
+          "singular": "Biker",
+          "plural": "Biker",
+          "note": "Ages 14+ | Price per Biker",
+          "priceCents": 16600,
+          "price": 166,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "336377",
@@ -20674,9 +20819,9 @@
       "category": "",
       "location": "United States/Hawaii/Lihue",
       "island": "kauai",
-      "price": 20,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 30,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "90 minutes",
@@ -20702,7 +20847,54 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 90
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 349437,
+          "singular": "Owner",
+          "plural": "Owner",
+          "note": "*Owner*",
+          "priceCents": 2000,
+          "price": 20,
+          "minPartySize": 1
+        },
+        {
+          "id": 349438,
+          "singular": "Leisure Guests",
+          "plural": "Leisure Guests",
+          "note": "",
+          "priceCents": 3000,
+          "price": 30,
+          "minPartySize": 1
+        },
+        {
+          "id": 349439,
+          "singular": "Child",
+          "plural": "Child",
+          "note": "Ages 17 and younger",
+          "priceCents": 3000,
+          "price": 30,
+          "minPartySize": 1
+        },
+        {
+          "id": 659855,
+          "singular": "Off-Property Child",
+          "plural": "Off-Property Child",
+          "note": "",
+          "priceCents": 3000,
+          "price": 30,
+          "minPartySize": 1
+        },
+        {
+          "id": 659854,
+          "singular": "Off-Property Adult",
+          "plural": "Off-Property Adult",
+          "note": "",
+          "priceCents": 3500,
+          "price": 35,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "219781",
@@ -24210,9 +24402,9 @@
       "category": "",
       "location": "United States/Hawaii/Wailuku",
       "island": "maui",
-      "price": 219,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 189,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "360 minutes",
@@ -24240,7 +24432,36 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 360
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 202588,
+          "singular": "Snorkeler",
+          "plural": "Snorkeler",
+          "note": "Age 10+",
+          "priceCents": 18900,
+          "price": 189,
+          "minPartySize": 1
+        },
+        {
+          "id": 202557,
+          "singular": "Passenger",
+          "plural": "Passenger",
+          "note": "Ages 10 and up - Not entering the water",
+          "priceCents": 18900,
+          "price": 189,
+          "minPartySize": 1
+        },
+        {
+          "id": 202571,
+          "singular": "Certified Diver",
+          "plural": "Certified Diver",
+          "note": "Must be certified",
+          "priceCents": 23900,
+          "price": 239,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "156809",
@@ -24419,8 +24640,8 @@
       "location": "United States/Hawaii/Lahaina",
       "island": "maui",
       "price": 240,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "210 minutes",
@@ -24448,7 +24669,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 210
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 443635,
+          "singular": "Guest",
+          "plural": "Guest",
+          "note": "250 lbs. maximum, fully clothed with shoes. Minimum 60 lbs. &4 ft. tall Ages 10+. Ages 10-17 must be accompanied by an Adult.",
+          "priceCents": 24000,
+          "price": 240,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "55071",
@@ -26553,8 +26785,8 @@
       "location": "United States/Hawaii/Lahaina",
       "island": "maui",
       "price": 198,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "150 minutes",
@@ -26582,7 +26814,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 150
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 443635,
+          "singular": "Guest",
+          "plural": "Guest",
+          "note": "250 lbs. maximum, fully clothed with shoes. Minimum 60 lbs. &4 ft. tall Ages 10+. Ages 10-17 must be accompanied by an Adult.",
+          "priceCents": 19800,
+          "price": 198,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "567448",
@@ -31143,9 +31386,9 @@
       "category": "",
       "location": "United States/Hawaii/Kihei",
       "island": "maui",
-      "price": 150,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 105,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "120 minutes",
@@ -31175,7 +31418,27 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 120
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 81701,
+          "singular": "Semi-Private Surf Lesson",
+          "plural": "Semi-Private Surf Lesson",
+          "note": "2 or more students in closed party/ Price per person",
+          "priceCents": 10500,
+          "price": 105,
+          "minPartySize": 1
+        },
+        {
+          "id": 81700,
+          "singular": "Private Surf Lesson",
+          "plural": "Private Surf Lesson",
+          "note": "1 student per instructor/ Price per person",
+          "priceCents": 15000,
+          "price": 150,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "64302",
@@ -37796,8 +38059,8 @@
       "location": "United States/Hawaii/Kihei",
       "island": "maui",
       "price": 450,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "1440 minutes",
@@ -37830,7 +38093,18 @@
       "_unknownFields": {
         "durationMinutes": 1440
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 346122,
+          "singular": "24 Hour Rental",
+          "plural": "24 Hour Rental",
+          "note": "24 Hours • Ages 21+",
+          "priceCents": 45000,
+          "price": 450,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "220159",
@@ -37842,8 +38116,8 @@
       "location": "United States/Hawaii/Kihei",
       "island": "maui",
       "price": 350,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "480 minutes",
@@ -37874,7 +38148,18 @@
       "_unknownFields": {
         "durationMinutes": 480
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 346121,
+          "singular": "Eight Hour Rental",
+          "plural": "Eight Hour Rental",
+          "note": "Ages 21+",
+          "priceCents": 35000,
+          "price": 350,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "220160",
@@ -44236,9 +44521,9 @@
       "category": "",
       "location": "United States/Hawaii/Kula",
       "island": "maui",
-      "price": 48,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 62,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "60 minutes",
@@ -44267,7 +44552,27 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 60
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 184941,
+          "singular": "Kama'aina Rate",
+          "plural": "Kama'aina Rate",
+          "note": "Proof of Hi Drivers license required",
+          "priceCents": 4800,
+          "price": 48,
+          "minPartySize": 1
+        },
+        {
+          "id": 184906,
+          "singular": "Person",
+          "plural": "Person",
+          "note": "",
+          "priceCents": 6200,
+          "price": 62,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "111757",
@@ -45169,8 +45474,8 @@
       "location": "United States/Hawaii/Lahaina",
       "island": "maui",
       "price": 599,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "300 minutes",
@@ -45197,7 +45502,18 @@
       "_unknownFields": {
         "durationMinutes": 300
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 636316,
+          "singular": "Private Fisherman",
+          "plural": "Private Fisherman",
+          "note": "Ages 8+ • Initial Price based on 1 fisherman",
+          "priceCents": 59900,
+          "price": 599,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "410220",
@@ -45868,8 +46184,8 @@
       "location": "United States/Hawaii",
       "island": "maui",
       "price": 295,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "120 minutes",
@@ -45898,7 +46214,27 @@
       "_unknownFields": {
         "durationMinutes": 120
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 16604,
+          "singular": "Child",
+          "plural": "Child",
+          "note": "Ages 10-15",
+          "priceCents": 29500,
+          "price": 295,
+          "minPartySize": 1
+        },
+        {
+          "id": 16591,
+          "singular": "Surf Kids Camp 3-Days (6 hours)",
+          "plural": "Surf Kids Camp 3-Days (6 hours)",
+          "note": "Ages 10-15, 2 hours per day.",
+          "priceCents": 29500,
+          "price": 295,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "26663",
@@ -46221,8 +46557,8 @@
       "location": "United States/Hawaii/Lahaina",
       "island": "maui",
       "price": 275,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "210 minutes",
@@ -46249,7 +46585,18 @@
       "_unknownFields": {
         "durationMinutes": 210
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 636317,
+          "singular": "Fisherman",
+          "plural": "Fisherman",
+          "note": "Ages 8+",
+          "priceCents": 27500,
+          "price": 275,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "426266",
@@ -49010,8 +49357,8 @@
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
       "price": 99,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "120 minutes",
@@ -49040,7 +49387,27 @@
       "_unknownFields": {
         "durationMinutes": 120
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 1010199,
+          "singular": "Person:  Non-Refundable • All Sales are Final",
+          "plural": "Person:  Non-Refundable • All Sales are Final",
+          "note": "Ages 3+ • This Rate is NON-REFUNDABLE • All Sales are Final",
+          "priceCents": 9900,
+          "price": 99,
+          "minPartySize": 1
+        },
+        {
+          "id": 35546,
+          "singular": "Person: Refundable: Up To 48 Hours Before Trip",
+          "plural": "Person: Refundable: Up To 48 Hours Before Trip",
+          "note": "Ages 3+ • Free Cancellation up to 48 Hours Before the Start of the Trip",
+          "priceCents": 11700,
+          "price": 117,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "397613",
@@ -67123,9 +67490,9 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 186,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 399.5,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "540 minutes",
@@ -67153,7 +67520,27 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 540
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 560039,
+          "singular": "Certified Dive Buddy",
+          "plural": "Certified Dive Buddy",
+          "note": "",
+          "priceCents": 18550,
+          "price": 185.5,
+          "minPartySize": 1
+        },
+        {
+          "id": 311653,
+          "singular": "Referal Student",
+          "plural": "Referal Student",
+          "note": "",
+          "priceCents": 39950,
+          "price": 399.5,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "301399",
@@ -69129,8 +69516,8 @@
       "location": "United States/Hawaii/Mountain View",
       "island": "big island",
       "price": 29,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "120 minutes",
@@ -69161,7 +69548,18 @@
       "_unknownFields": {
         "durationMinutes": 120
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 944020,
+          "singular": "Participant",
+          "plural": "Participant",
+          "note": "under 2 years old free",
+          "priceCents": 2900,
+          "price": 29,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "676117",
@@ -69847,9 +70245,9 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 186,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 3827.75,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "540 minutes",
@@ -69878,7 +70276,27 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 540
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 560039,
+          "singular": "Certified Dive Buddy",
+          "plural": "Certified Dive Buddy",
+          "note": "",
+          "priceCents": 18550,
+          "price": 185.5,
+          "minPartySize": 1
+        },
+        {
+          "id": 232671,
+          "singular": "Non-Certified Diver",
+          "plural": "Non-Certified Diver",
+          "note": "Ages 10+",
+          "priceCents": 382775,
+          "price": 3827.75,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "131874",
@@ -69889,9 +70307,9 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 186,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 345.5,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -69916,7 +70334,36 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "priceBreakdown": [
+        {
+          "id": 560039,
+          "singular": "Certified Dive Buddy",
+          "plural": "Certified Dive Buddy",
+          "note": "",
+          "priceCents": 18550,
+          "price": 185.5,
+          "minPartySize": 1
+        },
+        {
+          "id": 232672,
+          "singular": "Child",
+          "plural": "Child",
+          "note": "Ages 10-15",
+          "priceCents": 34500,
+          "price": 345,
+          "minPartySize": 1
+        },
+        {
+          "id": 232671,
+          "singular": "Non-Certified Diver",
+          "plural": "Non-Certified Diver",
+          "note": "Ages 10+",
+          "priceCents": 34550,
+          "price": 345.5,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "174863",
@@ -70094,8 +70541,8 @@
       "location": "United States/Hawaii/Waikoloa Village",
       "island": "big island",
       "price": 250,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -70126,7 +70573,27 @@
       "_unknownFields": {
         "durationMinutes": 240
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 349127,
+          "singular": "Four Hour Rental",
+          "plural": "Four Hour Rental",
+          "note": "Ages 21+",
+          "priceCents": 25000,
+          "price": 250,
+          "minPartySize": 1
+        },
+        {
+          "id": 349130,
+          "singular": "Eight Hour Rental",
+          "plural": "Eight Hour Rental",
+          "note": "",
+          "priceCents": 35000,
+          "price": 350,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "220150",
@@ -70138,8 +70605,8 @@
       "location": "United States/Hawaii/Waikoloa Village",
       "island": "big island",
       "price": 350,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "480 minutes",
@@ -70170,7 +70637,18 @@
       "_unknownFields": {
         "durationMinutes": 480
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 349130,
+          "singular": "Eight Hour Rental",
+          "plural": "Eight Hour Rental",
+          "note": "Ages 21+",
+          "priceCents": 35000,
+          "price": 350,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "220151",
@@ -70227,8 +70705,8 @@
       "location": "United States/Hawaii/Waikoloa Village",
       "island": "big island",
       "price": 450,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "1440 minutes",
@@ -70259,7 +70737,18 @@
       "_unknownFields": {
         "durationMinutes": 1440
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 349132,
+          "singular": "24 Hour Rental",
+          "plural": "24 Hour Rental",
+          "note": "24 Hours • Ages 21+",
+          "priceCents": 45000,
+          "price": 450,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "241412",
@@ -71748,8 +72237,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 231,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -71783,7 +72272,27 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 240
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 73547,
+          "singular": "Rider",
+          "plural": "Rider",
+          "note": "Ages 16+",
+          "priceCents": 9900,
+          "price": 99,
+          "minPartySize": 1
+        },
+        {
+          "id": 820,
+          "singular": "Certified Diver",
+          "plural": "Certified Diver",
+          "note": "Ages 15+",
+          "priceCents": 23100,
+          "price": 231,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "491549",
@@ -71795,8 +72304,8 @@
       "location": "United States/Hawaii/Kailua",
       "island": "oahu",
       "price": 145,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "180 minutes",
@@ -71828,7 +72337,63 @@
       "_unknownFields": {
         "durationMinutes": 180
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 1183893,
+          "singular": "Transportation",
+          "plural": "Transportation",
+          "note": "I choose to add an e-bike and trailer for each person to transport the kayaks to the beach (Riders 16+ or 8 and Under)",
+          "priceCents": 3141,
+          "price": 31.41,
+          "minPartySize": 1
+        },
+        {
+          "id": 945,
+          "singular": "Child",
+          "plural": "Child",
+          "note": "5-12 Years Old",
+          "priceCents": 12500,
+          "price": 125,
+          "minPartySize": 1
+        },
+        {
+          "id": 1056,
+          "singular": "Kama'aina or Military",
+          "plural": "Kama'aina or Military",
+          "note": "Hawaii Resident",
+          "priceCents": 12500,
+          "price": 125,
+          "minPartySize": 1
+        },
+        {
+          "id": 944,
+          "singular": "Visitor",
+          "plural": "Visitor",
+          "note": "Ages 13+",
+          "priceCents": 14500,
+          "price": 145,
+          "minPartySize": 1
+        },
+        {
+          "id": 1172327,
+          "singular": "Private Tour - 3 or More People",
+          "plural": "Private Tour - 3 or More People",
+          "note": "Adult or Child, price is per-person",
+          "priceCents": 19900,
+          "price": 199,
+          "minPartySize": 1
+        },
+        {
+          "id": 1172326,
+          "singular": "Private Tour - 1-2 People",
+          "plural": "Private Tour - 1-2 People",
+          "note": "Adult or Child, price is per-person",
+          "priceCents": 28500,
+          "price": 285,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "8984",
@@ -71839,9 +72404,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 231,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 131,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -71872,7 +72437,63 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 240
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 861841,
+          "singular": "Rider Youth",
+          "plural": "Rider Youth",
+          "note": "8-12 years old. Must be accompanied by an adult at all times",
+          "priceCents": 7900,
+          "price": 79,
+          "minPartySize": 1
+        },
+        {
+          "id": 73547,
+          "singular": "Rider",
+          "plural": "Rider",
+          "note": "Ages 16+",
+          "priceCents": 9900,
+          "price": 99,
+          "minPartySize": 1
+        },
+        {
+          "id": 616237,
+          "singular": "Snorkeler, (Child)",
+          "plural": "Snorkeler, (Child)",
+          "note": "8-12 years old. Must swim and be accompanied by an adult at all times",
+          "priceCents": 10100,
+          "price": 101,
+          "minPartySize": 1
+        },
+        {
+          "id": 822,
+          "singular": "Snorkeler",
+          "plural": "Snorkeler",
+          "note": "Ages 13+",
+          "priceCents": 13100,
+          "price": 131,
+          "minPartySize": 1
+        },
+        {
+          "id": 820,
+          "singular": "Certified Diver",
+          "plural": "Certified Diver",
+          "note": "Ages 15+",
+          "priceCents": 23100,
+          "price": 231,
+          "minPartySize": 1
+        },
+        {
+          "id": 821,
+          "singular": "Discovery Scuba Diver/Intro Diver",
+          "plural": "Discovery Scuba Diver/Intro Diver",
+          "note": "Ages 10+",
+          "priceCents": 25100,
+          "price": 251,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "68062",
@@ -72424,8 +73045,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 231,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -72453,7 +73074,27 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 240
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 73547,
+          "singular": "Rider",
+          "plural": "Rider",
+          "note": "Ages 16+",
+          "priceCents": 9900,
+          "price": 99,
+          "minPartySize": 1
+        },
+        {
+          "id": 820,
+          "singular": "Certified Diver",
+          "plural": "Certified Diver",
+          "note": "Ages 15+",
+          "priceCents": 23100,
+          "price": 231,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "110203",
@@ -72607,9 +73248,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 109,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 79,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "120 minutes",
@@ -72642,7 +73283,36 @@
       "_unknownFields": {
         "durationMinutes": 120
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 947183,
+          "singular": "Infant (Children Under 3 Not Permitted)",
+          "plural": "Infant (Children Under 3 Not Permitted)",
+          "note": "Children Under 3 Years of Age Not Permitted",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1220812,
+          "singular": "Person Ages 3+:  Non-Refundable • All Sales are Final",
+          "plural": "Person Ages 3+:  Non-Refundable • All Sales are Final",
+          "note": "Ages 3+ • This Rate is NON-REFUNDABLE • All Sales are Final",
+          "priceCents": 7900,
+          "price": 79,
+          "minPartySize": 1
+        },
+        {
+          "id": 1220810,
+          "singular": "Person Age 3+: Refundable • Up To 48 Hours Before Trip",
+          "plural": "Person Age 3+: Refundable • Up To 48 Hours Before Trip",
+          "note": "Free Cancellation up to 48 hours Before the Start of the Trip • Ages 3+",
+          "priceCents": 8900,
+          "price": 89,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "509073",
@@ -72839,8 +73509,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 59,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "60 minutes",
@@ -72870,7 +73540,27 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 60
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 1220812,
+          "singular": "Person Ages 3+:  Non-Refundable • All Sales are Final",
+          "plural": "Person Ages 3+:  Non-Refundable • All Sales are Final",
+          "note": "Ages 3+ • This Rate is NON-REFUNDABLE • All Sales are Final",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        },
+        {
+          "id": 1220810,
+          "singular": "Person Age 3+: Refundable • Up To 48 Hours Before Trip",
+          "plural": "Person Age 3+: Refundable • Up To 48 Hours Before Trip",
+          "note": "Free Cancellation up to 48 hours Before the Start of the Trip • Ages 3+",
+          "priceCents": 6900,
+          "price": 69,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "334772",
@@ -72923,9 +73613,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 99,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 79,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "150 minutes",
@@ -72956,7 +73646,27 @@
       "_unknownFields": {
         "durationMinutes": 150
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 1220812,
+          "singular": "Person Ages 3+:  Non-Refundable • All Sales are Final",
+          "plural": "Person Ages 3+:  Non-Refundable • All Sales are Final",
+          "note": "Ages 3+ • This Rate is NON-REFUNDABLE • All Sales are Final",
+          "priceCents": 7900,
+          "price": 79,
+          "minPartySize": 1
+        },
+        {
+          "id": 1220810,
+          "singular": "Person Age 3+: Refundable • Up To 48 Hours Before Trip",
+          "plural": "Person Age 3+: Refundable • Up To 48 Hours Before Trip",
+          "note": "Free Cancellation up to 48 hours Before the Start of the Trip • Ages 3+",
+          "priceCents": 8900,
+          "price": 89,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "570420",
@@ -73499,9 +74209,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 79,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 179,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -73528,7 +74238,54 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 744637,
+          "singular": "Gift Card",
+          "plural": "Gift Card",
+          "note": "Make bubbles, share happiness",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 212,
+          "singular": "Optional Snorkeler/Rider",
+          "plural": "Optional Snorkeler/Rider",
+          "note": "Age 10+,  Optional snorkeling - Free gear rental/Must know how to swim/Not a tour",
+          "priceCents": 8900,
+          "price": 89,
+          "minPartySize": 1
+        },
+        {
+          "id": 1061061,
+          "singular": "Advanced Certified Diver",
+          "plural": "Advanced Certified Diver",
+          "note": "All Premier Gear Rental Included. Must be Advanced Open Water Certified Diver (AOW) or Higher",
+          "priceCents": 17900,
+          "price": 179,
+          "minPartySize": 1
+        },
+        {
+          "id": 1064047,
+          "singular": "Open Water Certified Diver - Adventure Wreck Dive",
+          "plural": "Open Water Certified Diver - Adventure Wreck Dive",
+          "note": "Open Water certified divers wishing to do a Training Dive (One dive credit for PADI Adventure or Advanced OW Certification)",
+          "priceCents": 21900,
+          "price": 219,
+          "minPartySize": 1
+        },
+        {
+          "id": 1061074,
+          "singular": "Open Water Certified Diver - Excursion Wreck Dive",
+          "plural": "Open Water Certified Diver - Excursion Wreck Dive",
+          "note": "Fun local excursions to Sea Tiger, Navy Tug, Ewa Pinnacles, Y.O., San Pedro, or Corsair etc",
+          "priceCents": 21900,
+          "price": 219,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "68067",
@@ -76680,8 +77437,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 49,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "60 minutes",
@@ -76707,7 +77464,27 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 60
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 1220812,
+          "singular": "Person Ages 3+:  Non-Refundable • All Sales are Final",
+          "plural": "Person Ages 3+:  Non-Refundable • All Sales are Final",
+          "note": "Ages 3+ • This Rate is NON-REFUNDABLE • All Sales are Final",
+          "priceCents": 4900,
+          "price": 49,
+          "minPartySize": 1
+        },
+        {
+          "id": 1220810,
+          "singular": "Person Age 3+: Refundable • Up To 48 Hours Before Trip",
+          "plural": "Person Age 3+: Refundable • Up To 48 Hours Before Trip",
+          "note": "Free Cancellation up to 48 hours Before the Start of the Trip • Ages 3+",
+          "priceCents": 5900,
+          "price": 59,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "619667",
@@ -80952,9 +81729,9 @@
       "category": "",
       "location": "United States/Hawaii/Haleiwa",
       "island": "oahu",
-      "price": 149,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 119.95,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "60 minutes",
@@ -80985,7 +81762,63 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 60
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 136174,
+          "singular": "Semi Private 1 Hour Lesson",
+          "plural": "Semi Private 1 Hour Lesson",
+          "note": "Price is per person, 2-on-1 Instruction, Ages 2+",
+          "priceCents": 11995,
+          "price": 119.95,
+          "minPartySize": 1
+        },
+        {
+          "id": 136172,
+          "singular": "Private 1 Hour Lesson",
+          "plural": "Private 1 Hour Lesson",
+          "note": "1-on-1 Instruction, Ages 2+",
+          "priceCents": 14995,
+          "price": 149.95,
+          "minPartySize": 1
+        },
+        {
+          "id": 350354,
+          "singular": "Semi Private 1.5 Hour Lesson",
+          "plural": "Semi Private 1.5 Hour Lesson",
+          "note": "",
+          "priceCents": 14995,
+          "price": 149.95,
+          "minPartySize": 1
+        },
+        {
+          "id": 350355,
+          "singular": "Private 1.5 Hour Lesson",
+          "plural": "Private 1.5 Hour Lesson",
+          "note": "",
+          "priceCents": 18995,
+          "price": 189.95,
+          "minPartySize": 1
+        },
+        {
+          "id": 136175,
+          "singular": "Semi Private 2 Hour Lesson",
+          "plural": "Semi Private 2 Hour Lesson",
+          "note": "Price is per person, 2-on-1 Instruction, Ages 2+",
+          "priceCents": 18995,
+          "price": 189.95,
+          "minPartySize": 1
+        },
+        {
+          "id": 136173,
+          "singular": "Private 2 Hour Lesson",
+          "plural": "Private 2 Hour Lesson",
+          "note": "1-on-1 Instruction, Ages 2+",
+          "priceCents": 22595,
+          "price": 225.95,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "90038",
@@ -84348,8 +85181,8 @@
       "location": "United States/Hawaii/Kapolei",
       "island": "oahu",
       "price": 158,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "2880 minutes",
@@ -84378,7 +85211,18 @@
       "_unknownFields": {
         "durationMinutes": 2880
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 754040,
+          "singular": "Group Ride",
+          "plural": "Group Ride",
+          "note": "Adult/Child (Age 8 & over)",
+          "priceCents": 15800,
+          "price": 158,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "419361",
@@ -85091,9 +85935,9 @@
       "category": "",
       "location": "United States/Hawaii/Waianae",
       "island": "oahu",
-      "price": 206,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 131,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -85123,7 +85967,45 @@
       "_unknownFields": {
         "durationMinutes": 240
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 73547,
+          "singular": "Rider",
+          "plural": "Rider",
+          "note": "Ages 16+",
+          "priceCents": 9900,
+          "price": 99,
+          "minPartySize": 1
+        },
+        {
+          "id": 822,
+          "singular": "Snorkeler",
+          "plural": "Snorkeler",
+          "note": "Ages 13+",
+          "priceCents": 13100,
+          "price": 131,
+          "minPartySize": 1
+        },
+        {
+          "id": 820,
+          "singular": "Certified Diver",
+          "plural": "Certified Diver",
+          "note": "Ages 15+",
+          "priceCents": 23100,
+          "price": 231,
+          "minPartySize": 1
+        },
+        {
+          "id": 821,
+          "singular": "Discovery Scuba Diver/Intro Diver",
+          "plural": "Discovery Scuba Diver/Intro Diver",
+          "note": "Ages 12+",
+          "priceCents": 25100,
+          "price": 251,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "665953",
@@ -85518,8 +86400,8 @@
       "location": "United States/Hawaii/Kapolei",
       "island": "oahu",
       "price": 138,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "2880 minutes",
@@ -85548,7 +86430,18 @@
       "_unknownFields": {
         "durationMinutes": 2880
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 754040,
+          "singular": "Group Ride",
+          "plural": "Group Ride",
+          "note": "Adult/Child (Age 8 & over)",
+          "priceCents": 13800,
+          "price": 138,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "428345",
@@ -87938,9 +88831,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 79,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 179,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -87968,7 +88861,63 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 240
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 744637,
+          "singular": "Gift Card",
+          "plural": "Gift Card",
+          "note": "",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1399,
+          "singular": "Rider Package",
+          "plural": "Rider Package",
+          "note": "Rider/Not a tour, Min 10 years old, One rider per diver - Not suitable for non-swimmer with seasickness",
+          "priceCents": 7900,
+          "price": 79,
+          "minPartySize": 1
+        },
+        {
+          "id": 639,
+          "singular": "Certified Diver",
+          "plural": "Certified Diver",
+          "note": "All inclusive 2-tank boat dive",
+          "priceCents": 17900,
+          "price": 179,
+          "minPartySize": 1
+        },
+        {
+          "id": 681873,
+          "singular": "Certified Refresher",
+          "plural": "Certified Refresher",
+          "note": "Not a PADI Course but a Casual Refresher with a PADI Professional",
+          "priceCents": 20900,
+          "price": 209,
+          "minPartySize": 1
+        },
+        {
+          "id": 638,
+          "singular": "Beginner Diver",
+          "plural": "Beginner Diver",
+          "note": "All inclusive 2-tank boat dive, Certified Instructor led small group",
+          "priceCents": 20900,
+          "price": 209,
+          "minPartySize": 1
+        },
+        {
+          "id": 1212443,
+          "singular": "AIDA Freedive Beginner",
+          "plural": "AIDA Freedive Beginner",
+          "note": "Offering Mondays and Tuesdays - Minimum Age 16+",
+          "priceCents": 21900,
+          "price": 219,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "128707",
@@ -89748,8 +90697,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 249,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "120 minutes",
@@ -89779,7 +90728,18 @@
       "_unknownFields": {
         "durationMinutes": 120
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 564568,
+          "singular": "Single",
+          "plural": "Single",
+          "note": "Price is per Student",
+          "priceCents": 24900,
+          "price": 249,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "307126",
@@ -91096,8 +92056,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 131,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -91126,7 +92086,45 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 180
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 861841,
+          "singular": "Rider Youth",
+          "plural": "Rider Youth",
+          "note": "8-12 years old. Must be accompanied by an adult at all times",
+          "priceCents": 7900,
+          "price": 79,
+          "minPartySize": 1
+        },
+        {
+          "id": 73547,
+          "singular": "Rider",
+          "plural": "Rider",
+          "note": "Ages 13+",
+          "priceCents": 9900,
+          "price": 99,
+          "minPartySize": 1
+        },
+        {
+          "id": 616237,
+          "singular": "Snorkeler, (Child)",
+          "plural": "Snorkeler, (Child)",
+          "note": "8-12 years old",
+          "priceCents": 10100,
+          "price": 101,
+          "minPartySize": 1
+        },
+        {
+          "id": 822,
+          "singular": "Snorkeler",
+          "plural": "Snorkeler",
+          "note": "Ages 13+",
+          "priceCents": 13100,
+          "price": 131,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "222383",
@@ -92091,9 +93089,9 @@
       "category": "",
       "location": "United States/Hawaii/Waianae",
       "island": "oahu",
-      "price": 206,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 231,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -92119,7 +93117,27 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 240
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 73547,
+          "singular": "Rider",
+          "plural": "Rider",
+          "note": "Ages 16+",
+          "priceCents": 9900,
+          "price": 99,
+          "minPartySize": 1
+        },
+        {
+          "id": 820,
+          "singular": "Certified Diver",
+          "plural": "Certified Diver",
+          "note": "Ages 15+",
+          "priceCents": 23100,
+          "price": 231,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "2121",
@@ -95101,9 +96119,9 @@
       "category": "",
       "location": "United States/Hawaii/Kapolei",
       "island": "oahu",
-      "price": 139,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 109,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "60 minutes",
@@ -95133,7 +96151,81 @@
       "_unknownFields": {
         "durationMinutes": 60
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 1875,
+          "singular": "Group Adult Lesson",
+          "plural": "Group Adult Lesson",
+          "note": "4 students/Instructor (Appropriate for good swimmers and athletes.)",
+          "priceCents": 10900,
+          "price": 109,
+          "minPartySize": 1
+        },
+        {
+          "id": 138828,
+          "singular": "Private Child Lesson",
+          "plural": "Private Child Lesson",
+          "note": "Ages 3-12 or under 100 lbs (Lesson duration about 1.25 hours)",
+          "priceCents": 11900,
+          "price": 119,
+          "minPartySize": 1
+        },
+        {
+          "id": 11367,
+          "singular": "Exclusive Adult Lesson",
+          "plural": "Exclusive Adult Lesson",
+          "note": "Per person registration:  Two students/Instructor Ratio (Lesson duration about 1.25 hours)",
+          "priceCents": 12900,
+          "price": 129,
+          "minPartySize": 1
+        },
+        {
+          "id": 1548,
+          "singular": "Private Adult Lesson",
+          "plural": "Private Adult Lesson",
+          "note": "Ages 13+ or over 100 lbs (Lesson duration about 1.25 hours)",
+          "priceCents": 13900,
+          "price": 139,
+          "minPartySize": 1
+        },
+        {
+          "id": 1549,
+          "singular": "Group Lesson Adult 2 HR",
+          "plural": "Group Lesson Adult 2 HR",
+          "note": "4 students/Instructor (Appropriate for good swimmers & athletes.  Not for those needing life jackets or extra attention)",
+          "priceCents": 17900,
+          "price": 179,
+          "minPartySize": 1
+        },
+        {
+          "id": 1152414,
+          "singular": "Private Child Lesson 2 HR",
+          "plural": "Private Child Lesson 2 HR",
+          "note": "Ages 3-12 or under 100 lbs",
+          "priceCents": 18900,
+          "price": 189,
+          "minPartySize": 1
+        },
+        {
+          "id": 1550,
+          "singular": "Exclusive Lesson Adult 2 HR",
+          "plural": "Exclusive Lesson Adult 2 HR",
+          "note": "Per person registration.  Two students/Instructor ratio",
+          "priceCents": 19900,
+          "price": 199,
+          "minPartySize": 1
+        },
+        {
+          "id": 1557,
+          "singular": "Private Lesson Adult 2 HR",
+          "plural": "Private Lesson Adult 2 HR",
+          "note": "One student/Instructor",
+          "priceCents": 20900,
+          "price": 209,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "47623",
@@ -95694,9 +96786,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 251,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 131,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -95725,7 +96817,54 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 240
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 861841,
+          "singular": "Rider Youth",
+          "plural": "Rider Youth",
+          "note": "8-12 years old",
+          "priceCents": 7900,
+          "price": 79,
+          "minPartySize": 1
+        },
+        {
+          "id": 73547,
+          "singular": "Rider",
+          "plural": "Rider",
+          "note": "Ages 16+",
+          "priceCents": 9900,
+          "price": 99,
+          "minPartySize": 1
+        },
+        {
+          "id": 616237,
+          "singular": "Snorkeler, (Child)",
+          "plural": "Snorkeler, (Child)",
+          "note": "8-12 years old. Must be able to swim and be accompanied by an adult at all times",
+          "priceCents": 10100,
+          "price": 101,
+          "minPartySize": 1
+        },
+        {
+          "id": 822,
+          "singular": "Snorkeler",
+          "plural": "Snorkeler",
+          "note": "Ages 13+",
+          "priceCents": 13100,
+          "price": 131,
+          "minPartySize": 1
+        },
+        {
+          "id": 821,
+          "singular": "Discovery Scuba Diver/Intro Diver",
+          "plural": "Discovery Scuba Diver/Intro Diver",
+          "note": "Ages 10+",
+          "priceCents": 25100,
+          "price": 251,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "284411",
@@ -98555,8 +99694,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 75,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "90 minutes",
@@ -98585,7 +99724,36 @@
       "_unknownFields": {
         "durationMinutes": 90
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 394469,
+          "singular": "Student",
+          "plural": "Student",
+          "note": "Ages 10+ | Must have valid student ID",
+          "priceCents": 5500,
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "id": 1143654,
+          "singular": "Kama'aina",
+          "plural": "Kama'aina",
+          "note": "Ages 10+ Must have a valid Hawaii state id or driver's license",
+          "priceCents": 5500,
+          "price": 55,
+          "minPartySize": 1
+        },
+        {
+          "id": 394453,
+          "singular": "Person",
+          "plural": "Person",
+          "note": "Ages 10+",
+          "priceCents": 7500,
+          "price": 75,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "226739",
@@ -107445,8 +108613,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 350,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "480 minutes",
@@ -107475,7 +108643,27 @@
       "_unknownFields": {
         "durationMinutes": 480
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 393108,
+          "singular": "Eight Hour Rental",
+          "plural": "Eight Hour Rental",
+          "note": "Ages 21+",
+          "priceCents": 35000,
+          "price": 350,
+          "minPartySize": 1
+        },
+        {
+          "id": 393109,
+          "singular": "24 Hour Rental",
+          "plural": "24 Hour Rental",
+          "note": "24 Hours",
+          "priceCents": 45000,
+          "price": 450,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "220157",
@@ -107637,9 +108825,9 @@
       "category": "",
       "location": "United States/Hawaii/Ewa Beach",
       "island": "oahu",
-      "price": 20,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 60,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "480 minutes",
@@ -107670,7 +108858,45 @@
       "_unknownFields": {
         "durationMinutes": 480
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 1001646,
+          "singular": "Keiki Course Half Day Pass (Ages 4-6)",
+          "plural": "Keiki Course Half Day Pass (Ages 4-6)",
+          "note": "Adult pass & supervision required",
+          "priceCents": 2000,
+          "price": 20,
+          "minPartySize": 1
+        },
+        {
+          "id": 1053142,
+          "singular": "Keiki Course Day Pass (Age 4-6)",
+          "plural": "Keiki Course Day Pass (Age 4-6)",
+          "note": "4-6 years old must be accompanied by at least one adult on separated course",
+          "priceCents": 2500,
+          "price": 25,
+          "minPartySize": 1
+        },
+        {
+          "id": 1131484,
+          "singular": "AquaVenture & AquaPeakz (Half Day)",
+          "plural": "AquaVenture & AquaPeakz (Half Day)",
+          "note": "Ages 7+ / Time Block Pass",
+          "priceCents": 6000,
+          "price": 60,
+          "minPartySize": 1
+        },
+        {
+          "id": 1131485,
+          "singular": "AquaVenture & AquaPeakz (Full Day Pass)",
+          "plural": "AquaVenture & AquaPeakz (Full Day Pass)",
+          "note": "Ages 7+ / Full Day Pass",
+          "priceCents": 7500,
+          "price": 75,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "203401",
@@ -107727,8 +108953,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 450,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "1440 minutes",
@@ -107757,7 +108983,18 @@
       "_unknownFields": {
         "durationMinutes": 1440
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 393109,
+          "singular": "24 Hour Rental",
+          "plural": "24 Hour Rental",
+          "note": "24 Hours • Ages 21+",
+          "priceCents": 45000,
+          "price": 450,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "454788",
@@ -112488,8 +113725,8 @@
       "location": "United States/Hawaii/Ewa Beach",
       "island": "oahu",
       "price": 25,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "480 minutes",
@@ -112517,7 +113754,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 480
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 903578,
+          "singular": "Nalo Kai Day Pass",
+          "plural": "Nalo Kai Day Pass",
+          "note": "Ages 6 and under free w/paying adult (1 per guest)",
+          "priceCents": 2500,
+          "price": 25,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "573012",
@@ -119146,9 +120394,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 199,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 109.99,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -119177,7 +120425,36 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 240
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 389103,
+          "singular": "Snorkeler",
+          "plural": "Snorkeler",
+          "note": "",
+          "priceCents": 10999,
+          "price": 109.99,
+          "minPartySize": 1
+        },
+        {
+          "id": 389106,
+          "singular": "Ride Along",
+          "plural": "Ride Along",
+          "note": "",
+          "priceCents": 10999,
+          "price": 109.99,
+          "minPartySize": 1
+        },
+        {
+          "id": 383475,
+          "singular": "Beginner Scuba Diver",
+          "plural": "Beginner Scuba Diver",
+          "note": "No Previous Diving or Swimming Experience Necessary",
+          "priceCents": 19999,
+          "price": 199.99,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "390775",
@@ -121078,8 +122355,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 450,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "1440 minutes",
@@ -121110,7 +122387,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 1440
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 393109,
+          "singular": "24 Hour Rental",
+          "plural": "24 Hour Rental",
+          "note": "24 Hours • Ages 21+",
+          "priceCents": 45000,
+          "price": 450,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "547236",
@@ -121491,8 +122779,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 199,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "90 minutes",
@@ -121522,7 +122810,18 @@
       "_unknownFields": {
         "durationMinutes": 90
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 564568,
+          "singular": "Single",
+          "plural": "Single",
+          "note": "Price is per Student",
+          "priceCents": 19900,
+          "price": 199,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "625287",
@@ -121660,8 +122959,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 450,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "1440 minutes",
@@ -121691,7 +122990,18 @@
       "_unknownFields": {
         "durationMinutes": 1440
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 393109,
+          "singular": "24 Hour Rental",
+          "plural": "24 Hour Rental",
+          "note": "24 Hours • Ages 21+",
+          "priceCents": 45000,
+          "price": 450,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "641",
@@ -128195,8 +129505,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 189,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "300 minutes",
@@ -128224,7 +129534,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 300
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 220721,
+          "singular": "Two Tank Certified Dive",
+          "plural": "Two Tank Certified Dive",
+          "note": "Certified Divers Only • Age 10+",
+          "priceCents": 18900,
+          "price": 189,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "125685",
@@ -128900,8 +130221,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 159,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "210 minutes",
@@ -128929,7 +130250,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 210
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 220721,
+          "singular": "Two Tank Certified Dive",
+          "plural": "Two Tank Certified Dive",
+          "note": "Certified Divers Only • Age 10+",
+          "priceCents": 15900,
+          "price": 159,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "125504",
@@ -132667,9 +133999,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 179,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 125,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "240 minutes",
@@ -132698,7 +134030,45 @@
       "_unknownFields": {
         "durationMinutes": 240
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 899121,
+          "singular": "Ride along",
+          "plural": "Ride along",
+          "note": "",
+          "priceCents": 12000,
+          "price": 120,
+          "minPartySize": 1
+        },
+        {
+          "id": 899122,
+          "singular": "Snorkeler",
+          "plural": "Snorkeler",
+          "note": "Includes Mask, Snorkel, Fins, Snorkel vest or belt",
+          "priceCents": 12500,
+          "price": 125,
+          "minPartySize": 1
+        },
+        {
+          "id": 899119,
+          "singular": "Certified Diver 2 Tank",
+          "plural": "Certified Diver 2 Tank",
+          "note": "Must present dive certification",
+          "priceCents": 17900,
+          "price": 179,
+          "minPartySize": 1
+        },
+        {
+          "id": 911909,
+          "singular": "Discovery SCUBA Dive",
+          "plural": "Discovery SCUBA Dive",
+          "note": "For NON Certified Divers. Inc. all Dive Gear",
+          "priceCents": 25000,
+          "price": 250,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "510960",
@@ -132977,9 +134347,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 169,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 169.99,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "150 minutes",
@@ -133008,7 +134378,27 @@
       "_unknownFields": {
         "durationMinutes": 150
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 383475,
+          "singular": "Beginner Scuba Diver",
+          "plural": "Beginner Scuba Diver",
+          "note": "Ages 10+",
+          "priceCents": 16999,
+          "price": 169.99,
+          "minPartySize": 1
+        },
+        {
+          "id": 659403,
+          "singular": "Certified Scuba Diver",
+          "plural": "Certified Scuba Diver",
+          "note": "MUST Show Valid Proof Of Scuba Certification",
+          "priceCents": 18499,
+          "price": 184.99,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "417576",
@@ -140487,9 +141877,9 @@
       "category": "",
       "location": "United States/Hawaii/Kapolei",
       "island": "oahu",
-      "price": 109,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 99,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "60 minutes",
@@ -140519,7 +141909,63 @@
       "_unknownFields": {
         "durationMinutes": 60
       },
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 1875,
+          "singular": "Group Adult Lesson",
+          "plural": "Group Adult Lesson",
+          "note": "4 students/Instructor (Appropriate for good swimmers and athletes.)",
+          "priceCents": 9900,
+          "price": 99,
+          "minPartySize": 1
+        },
+        {
+          "id": 11367,
+          "singular": "Exclusive Adult Lesson",
+          "plural": "Exclusive Adult Lesson",
+          "note": "Per person registration:  Two students/Instructor Ratio (Lesson duration about 1.25 hours)",
+          "priceCents": 10900,
+          "price": 109,
+          "minPartySize": 1
+        },
+        {
+          "id": 1548,
+          "singular": "Private Adult Lesson",
+          "plural": "Private Adult Lesson",
+          "note": "Ages 13+ or over 100 lbs (Lesson duration about 1.25 hours)",
+          "priceCents": 12900,
+          "price": 129,
+          "minPartySize": 1
+        },
+        {
+          "id": 1549,
+          "singular": "Group Lesson Adult 2 HR",
+          "plural": "Group Lesson Adult 2 HR",
+          "note": "4 students/Instructor (Appropriate for good swimmers & athletes.  Not for those needing life jackets or extra attention)",
+          "priceCents": 14900,
+          "price": 149,
+          "minPartySize": 1
+        },
+        {
+          "id": 1550,
+          "singular": "Exclusive Lesson Adult 2 HR",
+          "plural": "Exclusive Lesson Adult 2 HR",
+          "note": "Per person registration.  Two students/Instructor ratio",
+          "priceCents": 15900,
+          "price": 159,
+          "minPartySize": 1
+        },
+        {
+          "id": 1557,
+          "singular": "Private Lesson Adult 2 HR",
+          "plural": "Private Lesson Adult 2 HR",
+          "note": "One student/Instructor",
+          "priceCents": 17900,
+          "price": 179,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "334244",
@@ -141079,9 +142525,9 @@
       "category": "",
       "location": "United States/Hawaii/Haleiwa",
       "island": "oahu",
-      "price": 149,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 79.95,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "90 minutes",
@@ -141110,7 +142556,45 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 90
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 136185,
+          "singular": "Group SUP Lesson",
+          "plural": "Group SUP Lesson",
+          "note": "Price is per person, 4-on-1 Instruction, Ages 8+ • Minimum 3 to book",
+          "priceCents": 7995,
+          "price": 79.95,
+          "minPartySize": 1
+        },
+        {
+          "id": 138857,
+          "singular": "Private Family SUP Lesson",
+          "plural": "Private Family SUP Lesson",
+          "note": "Price is per person, this is an exclusive lesson with only the members of your party • Minimum 3 to book",
+          "priceCents": 11900,
+          "price": 119,
+          "minPartySize": 1
+        },
+        {
+          "id": 136184,
+          "singular": "Semi Private SUP Lesson",
+          "plural": "Semi Private SUP Lesson",
+          "note": "Price is per person, 2-on-1 Instruction, Ages 8+",
+          "priceCents": 11995,
+          "price": 119.95,
+          "minPartySize": 1
+        },
+        {
+          "id": 136183,
+          "singular": "Private SUP Lesson",
+          "plural": "Private SUP Lesson",
+          "note": "1-on-1 Instruction, Ages 2+",
+          "priceCents": 14995,
+          "price": 149.95,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "493",
@@ -148603,9 +150087,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 145,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 159,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "150 minutes",
@@ -148633,7 +150117,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 150
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 1011746,
+          "singular": "Attendee",
+          "plural": "Attendee",
+          "note": "Ages 2+",
+          "priceCents": 15900,
+          "price": 159,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "506246",
