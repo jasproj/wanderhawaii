@@ -1,0 +1,60 @@
+{
+ "figures": [
+  175,
+  230,
+  750,
+  950,
+  1125,
+  1750
+ ],
+ "census": {
+  "175": {
+   "decision cards / badges (class contains card|badge|price)": {
+    "$175": 1
+   },
+   "visible body text (all, script-stripped)": {
+    "$175": 2
+   }
+  },
+  "230": {
+   "decision cards / badges (class contains card|badge|price)": {
+    "$230": 1
+   },
+   "visible body text (all, script-stripped)": {
+    "$230": 2
+   }
+  },
+  "750": {
+   "decision cards / badges (class contains card|badge|price)": {
+    "$750": 1
+   },
+   "visible body text (all, script-stripped)": {
+    "$750": 3
+   }
+  },
+  "950": {
+   "decision cards / badges (class contains card|badge|price)": {
+    "$950": 1
+   },
+   "visible body text (all, script-stripped)": {
+    "$950": 1
+   }
+  },
+  "1125": {
+   "decision cards / badges (class contains card|badge|price)": {
+    "$1,125": 1
+   },
+   "visible body text (all, script-stripped)": {
+    "$1,125": 2
+   }
+  },
+  "1750": {
+   "decision cards / badges (class contains card|badge|price)": {
+    "$1,750": 1
+   },
+   "visible body text (all, script-stripped)": {
+    "$1,750": 1
+   }
+  }
+ }
+}

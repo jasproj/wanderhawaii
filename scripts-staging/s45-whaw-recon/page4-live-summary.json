@@ -1,0 +1,114 @@
+{
+ "492399": {
+  "class": "PAGE",
+  "stored": 215.0,
+  "floor": 180.0,
+  "tiers": [
+   {
+    "singular": "Spectator- Shared Charter",
+    "note": "No Fishing",
+    "mps": 2,
+    "floor": 180.0,
+    "ceil": 180.0,
+    "n": 11
+   },
+   {
+    "singular": "Angler - Shared Charter",
+    "note": "",
+    "mps": 2,
+    "floor": 215.0,
+    "ceil": 215.0,
+    "n": 11
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 6,
+   "OK": 11
+  },
+  "validReadings": 11,
+  "storedInLadder": true
+ },
+ "522075": {
+  "class": "PAGE",
+  "stored": 295.0,
+  "floor": 240.0,
+  "tiers": [
+   {
+    "singular": "Spectator- Shared Charter",
+    "note": "No Fishing",
+    "mps": 2,
+    "floor": 240.0,
+    "ceil": 240.0,
+    "n": 8
+   },
+   {
+    "singular": "Angler - Shared Charter",
+    "note": "",
+    "mps": 2,
+    "floor": 295.0,
+    "ceil": 295.0,
+    "n": 8
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 9,
+   "OK": 8
+  },
+  "validReadings": 8,
+  "storedInLadder": true
+ },
+ "564716": {
+  "class": "PAGE",
+  "stored": 750.0,
+  "floor": 750.0,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "6 People Max (Bertram)",
+    "mps": 1,
+    "floor": 750.0,
+    "ceil": 750.0,
+    "n": 14
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 3,
+   "OK": 14
+  },
+  "validReadings": 14,
+  "storedInLadder": true
+ },
+ "564718": {
+  "class": "PAGE",
+  "stored": 1125.0,
+  "floor": 1125.0,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "6 People Max (Bertram)",
+    "mps": 1,
+    "floor": 1125.0,
+    "ceil": 1125.0,
+    "n": 11
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 6,
+   "OK": 11
+  },
+  "validReadings": 11,
+  "storedInLadder": true
+ }
+}

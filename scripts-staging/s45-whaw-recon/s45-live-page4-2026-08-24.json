@@ -1,0 +1,1850 @@
+{
+ "anchor": "2026-08-24",
+ "companies": {
+  "hawaiianfishingcharters": {
+   "body_head": "{\"company\":{\"cls\":\"Company\",\"uri\":\"\\/api\\/v1\\/companies\\/hawaiianfishingcharters",
+   "code": 200,
+   "err": null
+  },
+  "kauaifishingcharters": {
+   "body_head": "{\"company\":{\"cls\":\"Company\",\"uri\":\"\\/api\\/v1\\/companies\\/kauaifishingcharters\\/\"",
+   "code": 200,
+   "err": null
+  }
+ },
+ "control": {
+  "code": 400,
+  "falsifiable": true
+ },
+ "dates": [
+  "2026-08-24",
+  "2026-08-25",
+  "2026-08-26",
+  "2026-08-27",
+  "2026-08-28",
+  "2026-08-29",
+  "2026-08-30",
+  "2026-08-31",
+  "2026-09-01",
+  "2026-09-02",
+  "2026-09-03",
+  "2026-09-04",
+  "2026-09-05",
+  "2026-09-06",
+  "2026-09-23",
+  "2026-10-23",
+  "2026-11-22"
+ ],
+ "errors": [],
+ "meta": {
+  "492399": {
+   "class": "PAGE",
+   "name": "Four Hour Shared Charter",
+   "sn": "kauaifishingcharters",
+   "stored": 215
+  },
+  "522075": {
+   "class": "PAGE",
+   "name": "Six Hour Shared Charter",
+   "sn": "kauaifishingcharters",
+   "stored": 295
+  },
+  "564716": {
+   "class": "PAGE",
+   "name": "Half-Day Charter Bertram",
+   "sn": "hawaiianfishingcharters",
+   "stored": 750
+  },
+  "564718": {
+   "class": "PAGE",
+   "name": "3/4 Day Charter Bertram",
+   "sn": "hawaiianfishingcharters",
+   "stored": 1125
+  }
+ },
+ "obs": {
+  "492399": {
+   "2026-08-24": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-08-24",
+    "start_at": "2026-08-25T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-25": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-08-25",
+    "start_at": "2026-08-25T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-26": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-08-26",
+    "start_at": "2026-08-26T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-27": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-08-27",
+    "start_at": "2026-08-27T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-28": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-08-28",
+    "start_at": "2026-08-28T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-29": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-08-29",
+    "start_at": "2026-08-29T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-30": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-08-30",
+    "start_at": "2026-08-31T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-31": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-08-31",
+    "start_at": "2026-08-31T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-01": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-09-01",
+    "start_at": "2026-09-01T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-02": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-09-02",
+    "start_at": "2026-09-03T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-03": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-09-03",
+    "start_at": "2026-09-03T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-04": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-09-04",
+    "start_at": "2026-09-04T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-05": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-09-05",
+    "start_at": "2026-09-08T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-06": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-09-06",
+    "start_at": "2026-09-08T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-23": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-09-23",
+    "start_at": "2026-09-24T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-10-23": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-10-23",
+    "start_at": "2026-10-23T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-11-22": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 21500,
+    "low": 18000,
+    "requested": "2026-11-22",
+    "start_at": "2026-11-22T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 215.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 180.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   }
+  },
+  "522075": {
+   "2026-08-24": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-08-24",
+    "start_at": "2026-08-26T10:30:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-25": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-08-25",
+    "start_at": "2026-08-26T10:30:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-26": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-08-26",
+    "start_at": "2026-08-26T10:30:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-27": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-08-27",
+    "start_at": "2026-08-27T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-28": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-08-28",
+    "start_at": "2026-08-28T10:30:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-29": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-08-29",
+    "start_at": "2026-08-29T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-30": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-08-30",
+    "start_at": "2026-08-31T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-31": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-08-31",
+    "start_at": "2026-08-31T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-01": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-09-01",
+    "start_at": "2026-09-01T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-02": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-09-02",
+    "start_at": "2026-09-08T10:30:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-03": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-09-03",
+    "start_at": "2026-09-08T10:30:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-04": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-09-04",
+    "start_at": "2026-09-08T10:30:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-05": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-09-05",
+    "start_at": "2026-09-08T10:30:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-06": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-09-06",
+    "start_at": "2026-09-08T10:30:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-23": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-09-23",
+    "start_at": "2026-09-24T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-10-23": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-10-23",
+    "start_at": "2026-10-23T10:30:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-11-22": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 29500,
+    "low": 24000,
+    "requested": "2026-11-22",
+    "start_at": "2026-11-22T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 295.0,
+      "min_party_size": 2,
+      "note": "",
+      "plural": "Anglers - Shared Charter",
+      "singular": "Angler - Shared Charter",
+      "tier_id": 880246
+     },
+     {
+      "dollars": 240.0,
+      "min_party_size": 2,
+      "note": "No Fishing",
+      "plural": "Spectators- Shared Charter",
+      "singular": "Spectator- Shared Charter",
+      "tier_id": 880247
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   }
+  },
+  "564716": {
+   "2026-08-24": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-08-24",
+    "start_at": "2026-08-25T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-25": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-08-25",
+    "start_at": "2026-08-25T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-26": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-08-26",
+    "start_at": "2026-08-26T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-27": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-08-27",
+    "start_at": "2026-08-27T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-28": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-08-28",
+    "start_at": "2026-08-28T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-29": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-08-29",
+    "start_at": "2026-08-29T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-30": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-08-30",
+    "start_at": "2026-08-30T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-31": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-08-31",
+    "start_at": "2026-08-31T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-01": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-09-01",
+    "start_at": "2026-09-01T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-02": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-09-02",
+    "start_at": "2026-09-02T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-03": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-09-03",
+    "start_at": "2026-09-03T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-04": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-09-04",
+    "start_at": "2026-09-04T12:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-05": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-09-05",
+    "start_at": "2026-09-05T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-06": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-09-06",
+    "start_at": "2026-09-07T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-23": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-09-23",
+    "start_at": "2026-09-23T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-10-23": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-10-23",
+    "start_at": "2026-10-23T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-11-22": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 75000,
+    "low": 75000,
+    "requested": "2026-11-22",
+    "start_at": "2026-11-23T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 750.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   }
+  },
+  "564718": {
+   "2026-08-24": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-08-24",
+    "start_at": "2026-08-25T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-25": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-08-25",
+    "start_at": "2026-08-25T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-26": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-08-26",
+    "start_at": "2026-08-27T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-27": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-08-27",
+    "start_at": "2026-08-27T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-28": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-08-28",
+    "start_at": "2026-08-28T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-29": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-08-29",
+    "start_at": "2026-08-29T10:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-30": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-08-30",
+    "start_at": "2026-08-30T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-08-31": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-08-31",
+    "start_at": "2026-08-31T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-01": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-09-01",
+    "start_at": "2026-09-01T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-02": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-09-02",
+    "start_at": "2026-09-02T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-03": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-09-03",
+    "start_at": "2026-09-05T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-04": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-09-04",
+    "start_at": "2026-09-05T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-05": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-09-05",
+    "start_at": "2026-09-05T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-06": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-09-06",
+    "start_at": "2026-09-07T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-09-23": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-09-23",
+    "start_at": "2026-09-23T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-10-23": {
+    "date_valid": true,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-10-23",
+    "start_at": "2026-10-23T06:00:00",
+    "status": "OK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   },
+   "2026-11-22": {
+    "date_valid": false,
+    "gratuity_tiers": [],
+    "high": 112500,
+    "low": 112500,
+    "requested": "2026-11-22",
+    "start_at": "2026-11-23T06:00:00",
+    "status": "FALLBACK",
+    "tiers": [
+     {
+      "dollars": 1125.0,
+      "min_party_size": 1,
+      "note": "6 People Max (Bertram)",
+      "plural": "Private Charter",
+      "singular": "Private Charter",
+      "tier_id": 884476
+     }
+    ],
+    "window": "anchor:2026-08-24",
+    "zeroOnly": false,
+    "zero_tiers": []
+   }
+  }
+ },
+ "population": [
+  492399,
+  522075,
+  564716,
+  564718
+ ],
+ "reanchored": {}
+}

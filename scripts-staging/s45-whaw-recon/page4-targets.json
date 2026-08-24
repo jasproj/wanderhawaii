@@ -1,0 +1,38 @@
+{
+ "492399": {
+  "class": "PAGE",
+  "sn": "kauaifishingcharters",
+  "name": "Four Hour Shared Charter",
+  "price": 215,
+  "priceLabel": "per person",
+  "status": "active",
+  "durationText": "Duration\n4 hour"
+ },
+ "522075": {
+  "class": "PAGE",
+  "sn": "kauaifishingcharters",
+  "name": "Six Hour Shared Charter",
+  "price": 295,
+  "priceLabel": "per person",
+  "status": "active",
+  "durationText": ""
+ },
+ "564716": {
+  "class": "PAGE",
+  "sn": "hawaiianfishingcharters",
+  "name": "Half-Day Charter Bertram",
+  "price": 750,
+  "priceLabel": "charter",
+  "status": "active",
+  "durationText": "4hrs"
+ },
+ "564718": {
+  "class": "PAGE",
+  "sn": "hawaiianfishingcharters",
+  "name": "3/4 Day Charter Bertram",
+  "price": 1125,
+  "priceLabel": "charter",
+  "status": "active",
+  "durationText": "6hrs"
+ }
+}

@@ -1,0 +1,716 @@
+{
+ "1321": {
+  "class": "STALE",
+  "stored": 950.0,
+  "floor": 215.0,
+  "tiers": [
+   {
+    "singular": "Four Hour Share Trip - Passenger",
+    "note": "Up to 6 passengers.",
+    "mps": 1,
+    "floor": 215.0,
+    "ceil": 215.0,
+    "n": 15
+   },
+   {
+    "singular": "Six Hour Share Trip - Passenger",
+    "note": "Up to 6 passengers.",
+    "mps": 1,
+    "floor": 250.0,
+    "ceil": 250.0,
+    "n": 14
+   },
+   {
+    "singular": "Four Hour Deluxe Share Trip - Passenger",
+    "note": "Up to 4 passengers.",
+    "mps": 1,
+    "floor": 250.0,
+    "ceil": 250.0,
+    "n": 15
+   },
+   {
+    "singular": "Six Hour Deluxe Share Trip - Passenger",
+    "note": "Up to 4 passengers.",
+    "mps": 1,
+    "floor": 320.0,
+    "ceil": 320.0,
+    "n": 14
+   },
+   {
+    "singular": "Four Hour Private Charter",
+    "note": "Up to 6 passengers.",
+    "mps": 1,
+    "floor": 900.0,
+    "ceil": 900.0,
+    "n": 15
+   },
+   {
+    "singular": "Six Hour Private Charter",
+    "note": "Up to 6 passengers.",
+    "mps": 1,
+    "floor": 1200.0,
+    "ceil": 1200.0,
+    "n": 14
+   },
+   {
+    "singular": "Eight Hour Private Charter",
+    "note": "Up to 6 passengers.",
+    "mps": 1,
+    "floor": 1700.0,
+    "ceil": 1700.0,
+    "n": 11
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 2,
+   "OK": 15
+  },
+  "validReadings": 15,
+  "storedInLadder": false
+ },
+ "57549": {
+  "class": "MISPAIR",
+  "stored": 325.0,
+  "floor": 105.0,
+  "tiers": [
+   {
+    "singular": "Infant",
+    "note": "0-2 years old",
+    "mps": 1,
+    "floor": 105.0,
+    "ceil": 105.0,
+    "n": 3
+   },
+   {
+    "singular": "Person",
+    "note": "Ages 3 and older. Price is per person",
+    "mps": 1,
+    "floor": 325.0,
+    "ceil": 325.0,
+    "n": 3
+   },
+   {
+    "singular": "Make it Private",
+    "note": "All Ages \u2022\u00a0Same cruise, just your crew",
+    "mps": 1,
+    "floor": 1950.0,
+    "ceil": 1950.0,
+    "n": 3
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 14,
+   "OK": 3
+  },
+  "validReadings": 3,
+  "storedInLadder": true
+ },
+ "186807": {
+  "class": "STALE",
+  "stored": 1140.0,
+  "floor": 1198.8,
+  "tiers": [
+   {
+    "singular": "Four hour private charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1198.8,
+    "ceil": 1198.8,
+    "n": 13
+   },
+   {
+    "singular": "Six hour private charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1558.8,
+    "ceil": 1558.8,
+    "n": 10
+   },
+   {
+    "singular": "Eight hour private charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1918.8,
+    "ceil": 1918.8,
+    "n": 6
+   },
+   {
+    "singular": "Ten hour private charter",
+    "note": "",
+    "mps": 1,
+    "floor": 2398.8,
+    "ceil": 2398.8,
+    "n": 6
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 4,
+   "OK": 13
+  },
+  "validReadings": 13,
+  "storedInLadder": false
+ },
+ "203410": {
+  "class": "MISPAIR",
+  "stored": 950.0,
+  "floor": 649.0,
+  "tiers": [
+   {
+    "singular": "Two Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 649.0,
+    "ceil": 649.0,
+    "n": 16
+   },
+   {
+    "singular": "Three Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 950.0,
+    "ceil": 950.0,
+    "n": 16
+   },
+   {
+    "singular": "Four Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1199.0,
+    "ceil": 1199.0,
+    "n": 16
+   },
+   {
+    "singular": "Five Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1498.0,
+    "ceil": 1498.0,
+    "n": 16
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 1,
+   "OK": 16
+  },
+  "validReadings": 16,
+  "storedInLadder": true
+ },
+ "224702": {
+  "class": "MISPAIR",
+  "stored": 1495.0,
+  "floor": 995.0,
+  "tiers": [
+   {
+    "singular": "Private Charter 2 Hour",
+    "note": "All ages \u2022 Max 6 people",
+    "mps": 1,
+    "floor": 995.0,
+    "ceil": 995.0,
+    "n": 1
+   },
+   {
+    "singular": "Private Charter 3 Hour",
+    "note": "All ages \u2022 Max 6 people",
+    "mps": 1,
+    "floor": 1495.0,
+    "ceil": 1495.0,
+    "n": 9
+   },
+   {
+    "singular": "Private Charter 6 Hour",
+    "note": "All ages \u2022 Max 6 people",
+    "mps": 1,
+    "floor": 2495.0,
+    "ceil": 2495.0,
+    "n": 5
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 2,
+   "OK": 15
+  },
+  "validReadings": 15,
+  "storedInLadder": true
+ },
+ "332728": {
+  "class": "MISPAIR",
+  "stored": 920.0,
+  "floor": 520.0,
+  "tiers": [
+   {
+    "singular": "Minivan",
+    "note": "Per Group up to 5 passengers",
+    "mps": 1,
+    "floor": 520.0,
+    "ceil": 520.0,
+    "n": 15
+   },
+   {
+    "singular": "Classic SUV - Cadillac Escalade",
+    "note": "\u2b50 Most Popular - Per Group up to 5 passengers",
+    "mps": 1,
+    "floor": 680.0,
+    "ceil": 680.0,
+    "n": 15
+   },
+   {
+    "singular": "Passenger Van - Ford Transit",
+    "note": "Per Group up to 14 passengers",
+    "mps": 1,
+    "floor": 840.0,
+    "ceil": 840.0,
+    "n": 15
+   },
+   {
+    "singular": "Luxury SUV - Cadillac Escalade",
+    "note": "Per Group up to 5 passengers",
+    "mps": 1,
+    "floor": 920.0,
+    "ceil": 920.0,
+    "n": 14
+   },
+   {
+    "singular": "Passenger Van - Mercedes Sprinter",
+    "note": "\u2b50 Most Popular - Per Group up to 14 passengers",
+    "mps": 1,
+    "floor": 1040.0,
+    "ceil": 1040.0,
+    "n": 14
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [
+   "Luxury SUV - Cadillac Escalade",
+   "Passenger Van - Mercedes Sprinter"
+  ],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 2,
+   "OK": 15
+  },
+  "validReadings": 15,
+  "storedInLadder": true
+ },
+ "391875": {
+  "class": "STALE",
+  "stored": 1800.0,
+  "floor": 189.0,
+  "tiers": [
+   {
+    "singular": "Passenger",
+    "note": "Ages 4+",
+    "mps": 1,
+    "floor": 189.0,
+    "ceil": 189.0,
+    "n": 16
+   },
+   {
+    "singular": "Private Charter",
+    "note": "Up to 18 Total Passengers",
+    "mps": 1,
+    "floor": 2400.0,
+    "ceil": 2400.0,
+    "n": 16
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 1,
+   "OK": 16
+  },
+  "validReadings": 16,
+  "storedInLadder": false
+ },
+ "476368": {
+  "class": "STALE",
+  "stored": 1150.0,
+  "floor": 1400.0,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "Up to 20 people",
+    "mps": 1,
+    "floor": 1400.0,
+    "ceil": 1400.0,
+    "n": 6
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 11,
+   "OK": 6
+  },
+  "validReadings": 6,
+  "storedInLadder": false
+ },
+ "492381": {
+  "class": "STALE",
+  "stored": 950.0,
+  "floor": 900.0,
+  "tiers": [
+   {
+    "singular": "Half Day Charter (4hrs)",
+    "note": "6 guest max",
+    "mps": 1,
+    "floor": 900.0,
+    "ceil": 900.0,
+    "n": 10
+   },
+   {
+    "singular": "3/4 Day Charter (6hrs)",
+    "note": "6 guest max",
+    "mps": 1,
+    "floor": 1200.0,
+    "ceil": 1200.0,
+    "n": 10
+   },
+   {
+    "singular": "Full Day Charter (8hrs)",
+    "note": "6 guest max",
+    "mps": 1,
+    "floor": 1750.0,
+    "ceil": 1750.0,
+    "n": 10
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 7,
+   "OK": 10
+  },
+  "validReadings": 10,
+  "storedInLadder": false
+ },
+ "506372": {
+  "class": "STALE",
+  "stored": 950.0,
+  "floor": 850.0,
+  "tiers": [
+   {
+    "singular": "Four Hour Private Charter",
+    "note": "Up to 6 Passengers",
+    "mps": 1,
+    "floor": 850.0,
+    "ceil": 850.0,
+    "n": 9
+   },
+   {
+    "singular": "Six Hour Private Charter",
+    "note": "Up to 6 Passengers",
+    "mps": 1,
+    "floor": 1150.0,
+    "ceil": 1150.0,
+    "n": 9
+   },
+   {
+    "singular": "Eight Hour Private Charter",
+    "note": "Up to 6 Passengers",
+    "mps": 1,
+    "floor": 1450.0,
+    "ceil": 1450.0,
+    "n": 8
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 8,
+   "OK": 9
+  },
+  "validReadings": 9,
+  "storedInLadder": false
+ },
+ "509332": {
+  "class": "STALE",
+  "stored": 2000.0,
+  "floor": 1650.0,
+  "tiers": [
+   {
+    "singular": "Four Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1650.0,
+    "ceil": 1650.0,
+    "n": 13
+   },
+   {
+    "singular": "Five Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1900.0,
+    "ceil": 1900.0,
+    "n": 13
+   },
+   {
+    "singular": "Six Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 2150.0,
+    "ceil": 2150.0,
+    "n": 13
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 4,
+   "OK": 13
+  },
+  "validReadings": 13,
+  "storedInLadder": false
+ },
+ "513910": {
+  "class": "STALE",
+  "stored": 1499.0,
+  "floor": 1199.0,
+  "tiers": [
+   {
+    "singular": "7H Offshore fishing",
+    "note": "",
+    "mps": 1,
+    "floor": 1199.0,
+    "ceil": 1199.0,
+    "n": 7
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 10,
+   "OK": 7
+  },
+  "validReadings": 7,
+  "storedInLadder": false
+ },
+ "565618": {
+  "class": "MISPAIR",
+  "stored": 899.0,
+  "floor": 699.0,
+  "tiers": [
+   {
+    "singular": "Two Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 699.0,
+    "ceil": 699.0,
+    "n": 17
+   },
+   {
+    "singular": "Three Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 899.0,
+    "ceil": 899.0,
+    "n": 17
+   },
+   {
+    "singular": "Four Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1099.0,
+    "ceil": 1099.0,
+    "n": 17
+   },
+   {
+    "singular": "Five Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1299.0,
+    "ceil": 1299.0,
+    "n": 17
+   },
+   {
+    "singular": "Six Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1499.0,
+    "ceil": 1499.0,
+    "n": 16
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "OK": 17
+  },
+  "validReadings": 17,
+  "storedInLadder": true
+ },
+ "593603": {
+  "class": "MISPAIR",
+  "stored": 499.0,
+  "floor": 199.0,
+  "tiers": [
+   {
+    "singular": "CATERED MENU Add-On",
+    "note": "This selection requires a minimum of 7 days advanced notice.  Price is per passenger, select the number of passengers.",
+    "mps": 1,
+    "floor": 199.0,
+    "ceil": 199.0,
+    "n": 4
+   },
+   {
+    "singular": "Additional Hours",
+    "note": "",
+    "mps": 1,
+    "floor": 499.0,
+    "ceil": 499.0,
+    "n": 4
+   },
+   {
+    "singular": "TRANSPORTATION Add-On",
+    "note": "",
+    "mps": 1,
+    "floor": 499.0,
+    "ceil": 499.0,
+    "n": 4
+   },
+   {
+    "singular": "Two Hour Private Charter",
+    "note": "Up to 6 Passengers",
+    "mps": 1,
+    "floor": 1999.0,
+    "ceil": 1999.0,
+    "n": 4
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 13,
+   "OK": 4
+  },
+  "validReadings": 4,
+  "storedInLadder": true
+ },
+ "611584": {
+  "class": "STALE",
+  "stored": 700.0,
+  "floor": 900.0,
+  "tiers": [
+   {
+    "singular": "Private charter",
+    "note": "All ages",
+    "mps": 1,
+    "floor": 900.0,
+    "ceil": 900.0,
+    "n": 16
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 1,
+   "OK": 16
+  },
+  "validReadings": 16,
+  "storedInLadder": false
+ },
+ "670258": {
+  "class": "STALE",
+  "stored": 995.0,
+  "floor": 950.0,
+  "tiers": [
+   {
+    "singular": "Two Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 950.0,
+    "ceil": 950.0,
+    "n": 15
+   },
+   {
+    "singular": "Three Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1200.0,
+    "ceil": 1200.0,
+    "n": 15
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 2,
+   "OK": 15
+  },
+  "validReadings": 15,
+  "storedInLadder": false
+ },
+ "674343": {
+  "class": "STALE",
+  "stored": 1117.0,
+  "floor": 1117.38,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "Flat rate for up to 6 guests \u2022 Additional charge for extra guests \u2022 Max 14 passengers",
+    "mps": 6,
+    "floor": 1117.38,
+    "ceil": 1117.38,
+    "n": 16
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 1,
+   "OK": 16
+  },
+  "validReadings": 16,
+  "storedInLadder": false
+ },
+ "674389": {
+  "class": "STALE",
+  "stored": 1117.0,
+  "floor": 1117.38,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "Flat rate for up to 6 guests \u2022 Additional charge for extra guests \u2022 Max 14 passengers",
+    "mps": 6,
+    "floor": 1117.38,
+    "ceil": 1117.38,
+    "n": 16
+   }
+  ],
+  "zeroOnlyDates": [],
+  "zeroTiers": [],
+  "gratuity": [],
+  "statuses": {
+   "FALLBACK": 1,
+   "OK": 16
+  },
+  "validReadings": 16,
+  "storedInLadder": false
+ }
+}

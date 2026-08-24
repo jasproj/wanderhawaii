@@ -1,0 +1,57 @@
+bytes 32666
+distinct $-figures: [175, 230, 750, 950, 1125, 1750]
+JSON-LD blocks: 2
+
+=== CENSUS (figure -> location -> spelling:count) ===
+$175:
+    decision cards / badges (class contains card|badge|price): {'$175': 1}
+    visible body text (all, script-stripped): {'$175': 2}
+$230:
+    decision cards / badges (class contains card|badge|price): {'$230': 1}
+    visible body text (all, script-stripped): {'$230': 2}
+$750:
+    decision cards / badges (class contains card|badge|price): {'$750': 1}
+    visible body text (all, script-stripped): {'$750': 3}
+$950:
+    decision cards / badges (class contains card|badge|price): {'$950': 1}
+    visible body text (all, script-stripped): {'$950': 1}
+$1,125:
+    decision cards / badges (class contains card|badge|price): {'$1,125': 1}
+    visible body text (all, script-stripped): {'$1,125': 2}
+$1,750:
+    decision cards / badges (class contains card|badge|price): {'$1,750': 1}
+    visible body text (all, script-stripped): {'$1,750': 1}
+
+=== JSON-LD detail ===
+  FAQ Q: Do I need a fishing license for a charter trip in Hawaii?
+     A: No personal license is required for recreational anglers fishing on a licensed charter vessel in Hawaii's offshore (federal) waters. The charter operator holds the required license. If you're fishing in state nearshore waters, rules differ — your captain handles this.
+  FAQ Q: What's the minimum age for a fishing charter?
+     A: Most operators accept kids as young as 6–8 for shared charters, though rough conditions can limit participation. Private charters give more flexibility to accommodate families with young children. Confirm age requirements with the specific operator when booking.
+  FAQ Q: Will I definitely catch fish?
+     A: No charter can guarantee fish — this is open-ocean sport fishing. Experienced captains dramatically improve your odds by knowing productive grounds and using the right tactics, but fish behavior isn't predictable. A "no fish" day is uncommon with good operators but not impossible.
+  FAQ Q: Can I keep the fish I catch?
+     A: Policy varies by operator. Some let you take your catch; others keep it for the boat. Confirm before booking, especially if you want to take fish home for dinner. You'll also need cooking facilities — check if your accommodation has a kitchen.
+  FAQ Q: How rough are the seas?
+     A: Kauai's south shore typically has calmer departure conditions than the north or east. Ocean swells of 2–5 feet are normal offshore; rough days can see 6–8 foot swells. Captains monitor forecasts and will cancel trips if conditions are unsafe. Motion sickness is a real factor — prepare for it even if you've never been seasick before.
+  FAQ Q: What time do fishing charters depart?
+     A: Most full-day and morning charters depart between 6:00 and 7:30 AM. The early start is intentional — morning hours often see better fish activity, and you're back before afternoon trade winds build seas.
+  FAQ Q: What's the fish policy?
+     A: Some captains keep all catch; others let you take fish home (verify if your accommodation has a kitchen). Get this in writing before booking.
+  FAQ Q: What's included?
+     A: Tackle and gear are almost always included. Some include snacks; others don't — clarify so you know what to bring.
+  FAQ Q: What's the seasickness policy?
+     A: Offshore fishing involves real ocean swells. Take preventative seasickness medication (Bonine/Dramamine) the night before and morning of. Most operators won't issue refunds for motion sickness.
+  FAQ Q: How many anglers?
+     A: On shared trips, a full boat of 6 means rotating through rods. A smaller shared boat means more fishing time per person.
+
+=== every href resolved (urljoin against https://wanderhawaii.com/blog/hawaii-fishing-charters.html) ===
+   https://fareharbor.com/embeds/book/kauaifishingcharters/items/522075/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no | Check Availability | ['522075', 'Six Hour Shared Charter']
+   https://fareharbor.com/embeds/book/kauaifishingcharters/items/492399/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no | Check Availability | ['492399', 'Four Hour Shared Charter']
+   https://fareharbor.com/embeds/book/kauaifishingcharters/items/492381/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no | Check Availability | ['492381', 'Private Charters']
+   https://fareharbor.com/embeds/book/hawaiianfishingcharters/items/564716/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no | Check Availability | ['564716', 'Half-Day Charter Bertram']
+   https://fareharbor.com/embeds/book/hawaiianfishingcharters/items/564718/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no | Check Availability | ['564718', '3/4 Day Charter Bertram']
+   https://fareharbor.com/embeds/book/fishingcharterskauai/items/1321/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no | Check Availability | ['1321', 'Ohana Fishing Charter']
+
+=== all fareharbor item refs on page ===
+[('fishingcharterskauai', '1321'), ('hawaiianfishingcharters', '564716'), ('hawaiianfishingcharters', '564718'), ('kauaifishingcharters', '492381'), ('kauaifishingcharters', '492399'), ('kauaifishingcharters', '522075')]
+data-tour-id: ['1321', '492381', '492399', '522075', '564716', '564718']

@@ -1,0 +1,127 @@
+tracked files scanned: 176 of which html: 126
+pk 1321: 8 refs in ['blog/hawaii-fishing-charters.html', 'scripts-staging/s44-charter-ladders-2026-08-24.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      blog/hawaii-fishing-charters.html | tps://fareharbor.com/embeds/book/fishingcharterskauai/items/1321/?asn=fhdn&asn-ref=walktheplankadventure
+      blog/hawaii-fishing-charters.html | ok-btn-inline" target="_blank" rel="noopener" data-tour-id="1321" data-tour-name="Ohana Fishing Charter"
+      scripts-staging/s44-charter-ladders-2026-08-24.json | rskauai": {    "code": 200,    "err": null,    "pks": [     1321    ]   },   "gofishkauai": {    "code":
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "1321": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json | : "inactive",    "storedPrice": 5700,    "tags": []   },   "1321": {    "durationText": "8 Hour",    "is
+      scripts-staging/s44-charter-ladders-2026-08-24.json | ,    "2026-11-22": {     "status": "UNSAMPLED"    }   },   "1321": {    "2026-08-24": {     "date_valid"
+pk 57549: 6 refs in ['scripts-staging/s44-charter-ladders-2026-08-24.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      scripts-staging/s44-charter-ladders-2026-08-24.json | cruises": {    "code": 200,    "err": null,    "pks": [     57549,     496437,     496438,     496441,   
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "57549": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json | edPrice": 1500,    "tags": [     "Boat Rental"    ]   },   "57549": {    "durationText": "3 Hour",    "is
+      scripts-staging/s44-charter-ladders-2026-08-24.json | d": 1014345      }     ],     "zero_tiers": []    }   },   "57549": {    "2026-08-24": {     "date_valid"
+      tours-data.json.bak-pre-akamai-cleanup | el": "per adult",     "currency": "USD"   },   {     "id": "57549",     "name": "Ko Olina Exclusive Snork
+      tours-data.json.bak-pre-akamai-cleanup | ink": "https://fareharbor.com/embeds/book/manacruises/items/57549/?asn=fhdn&asn-ref=walktheplankadventure
+pk 186807: 8 refs in ['scripts-staging/s44-charter-ladders-2026-08-24.json', 'scripts-staging/v52-wh-dryrun-raw.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      scripts-staging/s44-charter-ladders-2026-08-24.json | shkauai": {    "code": 200,    "err": null,    "pks": [     186807    ]   },   "grandersuniversity": {    
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "186807": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 0,    "tags": [     "Boat Tour",     "Fishing"    ]   },   "186807": {    "durationText": "10 Hour",    "i
+      scripts-staging/s44-charter-ladders-2026-08-24.json | id": 341339      }     ],     "zero_tiers": []    }   },   "186807": {    "2026-08-24": {     "date_valid"
+      scripts-staging/v52-wh-dryrun-raw.json | nal information ",     "dollarHits": []   },   {     "id": "186807",     "name": "Private Fishing Charter"
+      scripts-staging/v52-wh-dryrun-raw.json | ink": "https://fareharbor.com/embeds/book/gofishkauai/items/186807/?asn=fhdn&asn-ref=walktheplankadventure
+pk 203410: 6 refs in ['scripts-staging/s44-charter-ladders-2026-08-24.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      scripts-staging/s44-charter-ladders-2026-08-24.json |    "code": 200,    "err": null,    "pks": [     203401,     203410    ]   },   "hawaiitourboat": {    "cod
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "203410": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json |    "Catamaran",     "Food Tour",     "Private"    ]   },   "203410": {    "durationText": "4 Hours",    "i
+      scripts-staging/s44-charter-ladders-2026-08-24.json | id": 690551      }     ],     "zero_tiers": []    }   },   "203410": {    "2026-08-24": {     "date_valid"
+      tours-data.json.bak-pre-akamai-cleanup | abel": "unknown",     "currency": "USD"   },   {     "id": "203410",     "name": "Private Catamaran Cruise
+      tours-data.json.bak-pre-akamai-cleanup | ttps://fareharbor.com/embeds/book/hawaiioceancharters/items/203410/?asn=fhdn&asn-ref=walktheplankadventure
+pk 224702: 8 refs in ['scripts-staging/s44-charter-ladders-2026-08-24.json', 'scripts-staging/v52-wh-dryrun-raw.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      scripts-staging/s44-charter-ladders-2026-08-24.json | al-kona": {    "code": 200,    "err": null,    "pks": [     224702    ]   },   "hawaiinautical-maui": {   
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "224702": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json |  [     "Private",     "Scooter",     "Snorkel"    ]   },   "224702": {    "durationText": "Duration\n5 Hou
+      scripts-staging/s44-charter-ladders-2026-08-24.json | id": 411042      }     ],     "zero_tiers": []    }   },   "224702": {    "2026-08-24": {     "date_valid"
+      scripts-staging/v52-wh-dryrun-raw.json | ails Cruise alon",     "dollarHits": []   },   {     "id": "224702",     "name": "Kona Luxury Private Yach
+      scripts-staging/v52-wh-dryrun-raw.json | ttps://fareharbor.com/embeds/book/hawaiinautical-kona/items/224702/?asn=fhdn&asn-ref=walktheplankadventure
+pk 332728: 6 refs in ['scripts-staging/s44-charter-ladders-2026-08-24.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      scripts-staging/s44-charter-ladders-2026-08-24.json |    "code": 200,    "err": null,    "pks": [     330790,     332728,     416254    ]   },   "poipuoffshorea
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "332728": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json | "storedPrice": 520,    "tags": [     "Shuttle"    ]   },   "332728": {    "durationText": "8 Hours",    "i
+      scripts-staging/s44-charter-ladders-2026-08-24.json | id": 606769      }     ],     "zero_tiers": []    }   },   "332728": {    "2026-08-24": {     "date_valid"
+      tours-data.json.bak-pre-akamai-cleanup | abel": "charter",     "currency": "USD"   },   {     "id": "332728",     "name": "「Private Charter」8 Hours
+      tours-data.json.bak-pre-akamai-cleanup | ttps://fareharbor.com/embeds/book/paradisehawaiitours/items/332728/?asn=fhdn&asn-ref=walktheplankadventure
+pk 391875: 8 refs in ['scripts-staging/s44-charter-ladders-2026-08-24.json', 'scripts-staging/v52-wh-dryrun-raw.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      scripts-staging/s44-charter-ladders-2026-08-24.json | gisland": {    "code": 200,    "err": null,    "pks": [     391875    ]   },   "snorkelingkona": {    "cod
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "391875": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json | toredPrice": 400,    "tags": [     "Boat Tour"    ]   },   "391875": {    "durationText": "Duration\n\n4 H
+      scripts-staging/s44-charter-ladders-2026-08-24.json | id": 619220      }     ],     "zero_tiers": []    }   },   "391875": {    "2026-08-24": {     "date_valid"
+      scripts-staging/v52-wh-dryrun-raw.json | ayaking. Let us ",     "dollarHits": []   },   {     "id": "391875",     "name": "4 Hour Kealakekua Snorke
+      scripts-staging/v52-wh-dryrun-raw.json |  "https://fareharbor.com/embeds/book/snorkelbigisland/items/391875/?asn=fhdn&asn-ref=walktheplankadventure
+pk 476368: 8 refs in ['scripts-staging/s44-charter-ladders-2026-08-24.json', 'scripts-staging/v52-wh-dryrun-raw.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      scripts-staging/s44-charter-ladders-2026-08-24.json | shtours": {    "code": 200,    "err": null,    "pks": [     476368    ]   },   "kauaifishingcharters": {  
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "476368": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json | s": "active",    "storedPrice": 1998,    "tags": []   },   "476368": {    "durationText": "Duration\n1.5 H
+      scripts-staging/s44-charter-ladders-2026-08-24.json | ,    "2026-11-22": {     "status": "UNSAMPLED"    }   },   "476368": {    "2026-08-24": {     "date_valid"
+      scripts-staging/v52-wh-dryrun-raw.json | ,     "dollarHits": [       "$80"     ]   },   {     "id": "476368",     "name": "Private Tour",     "comp
+      scripts-staging/v52-wh-dryrun-raw.json | "https://fareharbor.com/embeds/book/islandsplashtours/items/476368/?asn=fhdn&asn-ref=walktheplankadventure
+pk 492381: 8 refs in ['blog/hawaii-fishing-charters.html', 'scripts-staging/s44-charter-ladders-2026-08-24.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      blog/hawaii-fishing-charters.html | tps://fareharbor.com/embeds/book/kauaifishingcharters/items/492381/?asn=fhdn&asn-ref=walktheplankadventure
+      blog/hawaii-fishing-charters.html | ok-btn-inline" target="_blank" rel="noopener" data-tour-id="492381" data-tour-name="Private Charters">Chec
+      scripts-staging/s44-charter-ladders-2026-08-24.json | harters": {    "code": 200,    "err": null,    "pks": [     492381    ]   },   "kepoikai": {    "code": 20
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "492381": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json |  "Boat Rental",     "Boat Tour",     "Private"    ]   },   "492381": {    "durationText": "8hrs",    "isla
+      scripts-staging/s44-charter-ladders-2026-08-24.json | id": 876078      }     ],     "zero_tiers": []    }   },   "492381": {    "2026-08-24": {     "date_valid"
+pk 506372: 6 refs in ['scripts-staging/s44-charter-ladders-2026-08-24.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      scripts-staging/s44-charter-ladders-2026-08-24.json | fishing": {    "code": 200,    "err": null,    "pks": [     506372    ]   },   "alohaoceanexcursions": {  
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "506372": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json | us": "active",    "storedPrice": 995,    "tags": []   },   "506372": {    "durationText": "Duration\n4 Hou
+      scripts-staging/s44-charter-ladders-2026-08-24.json | id": 925760      }     ],     "zero_tiers": []    }   },   "506372": {    "2026-08-24": {     "date_valid"
+      tours-data.json.bak-pre-akamai-cleanup | abel": "unknown",     "currency": "USD"   },   {     "id": "506372",     "name": "Private Charters",     "
+      tours-data.json.bak-pre-akamai-cleanup | s://fareharbor.com/embeds/book/alohakauaisportfishing/items/506372/?asn=fhdn&asn-ref=walktheplankadventure
+pk 509332: 8 refs in ['scripts-staging/s44-charter-ladders-2026-08-24.json', 'scripts-staging/v52-wh-dryrun-raw.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      scripts-staging/s44-charter-ladders-2026-08-24.json |    "code": 200,    "err": null,    "pks": [     504448,     509332,     509333,     670258    ]   },   "oc
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "509332": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json | us": "active",    "storedPrice": 950,    "tags": []   },   "509332": {    "durationText": "",    "island":
+      scripts-staging/s44-charter-ladders-2026-08-24.json | id": 903015      }     ],     "zero_tiers": []    }   },   "509332": {    "2026-08-24": {     "date_valid"
+      scripts-staging/v52-wh-dryrun-raw.json | See any illegal ",     "dollarHits": []   },   {     "id": "509332",     "name": "Premium Snorkeling Chart
+      scripts-staging/v52-wh-dryrun-raw.json | https://fareharbor.com/embeds/book/oceanbluekonatours/items/509332/?asn=fhdn&asn-ref=walktheplankadventure
+pk 513910: 8 refs in ['scripts-staging/s44-charter-ladders-2026-08-24.json', 'scripts-staging/v52-wh-dryrun-raw.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      scripts-staging/s44-charter-ladders-2026-08-24.json | ghawaii": {    "code": 200,    "err": null,    "pks": [     513910    ]   },   "waikikimarinesports": {   
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "513910": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json | us": "active",    "storedPrice": 995,    "tags": []   },   "513910": {    "durationText": "7 Hours",    "i
+      scripts-staging/s44-charter-ladders-2026-08-24.json | id": 900325      }     ],     "zero_tiers": []    }   },   "513910": {    "2026-08-24": {     "date_valid"
+      scripts-staging/v52-wh-dryrun-raw.json | oy a bi-coastal ",     "dollarHits": []   },   {     "id": "513910",     "name": "Full Day 7H Private Offs
+      scripts-staging/v52-wh-dryrun-raw.json | ps://fareharbor.com/embeds/book/ultimateboatinghawaii/items/513910/?asn=fhdn&asn-ref=walktheplankadventure
+pk 565618: 6 refs in ['scripts-staging/s44-charter-ladders-2026-08-24.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      scripts-staging/s44-charter-ladders-2026-08-24.json | onolulu": {    "code": 200,    "err": null,    "pks": [     565618,     565627    ]   },   "snorkelbigisla
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "565618": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json | oredPrice": 1450,    "tags": [     "Boat Tour"    ]   },   "565618": {    "durationText": "6 hour",    "is
+      scripts-staging/s44-charter-ladders-2026-08-24.json | id": 884476      }     ],     "zero_tiers": []    }   },   "565618": {    "2026-08-24": {     "date_valid"
+      tours-data.json.bak-pre-akamai-cleanup | abel": "unknown",     "currency": "USD"   },   {     "id": "565618",     "name": "Day Sail",     "company"
+      tours-data.json.bak-pre-akamai-cleanup | ://fareharbor.com/embeds/book/sailingbeautyofhonolulu/items/565618/?asn=fhdn&asn-ref=walktheplankadventure
+pk 593603: 6 refs in ['scripts-staging/s44-charter-ladders-2026-08-24.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      scripts-staging/s44-charter-ladders-2026-08-24.json | harters": {    "code": 200,    "err": null,    "pks": [     593603    ]   },   "hawaiinautical-kona": {   
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "593603": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json | us": "active",    "storedPrice": 995,    "tags": []   },   "593603": {    "durationText": "",    "island":
+      scripts-staging/s44-charter-ladders-2026-08-24.json | d": 1050765      }     ],     "zero_tiers": []    }   },   "593603": {    "2026-08-24": {     "date_valid"
+      tours-data.json.bak-pre-akamai-cleanup | ny food you wish to bring aboard"     ]   },   {     "id": "593603",     "name": "Sunset Cruise",     "com
+      tours-data.json.bak-pre-akamai-cleanup | areharbor.com/embeds/book/hawaiiislandprivatecharters/items/593603/?asn=fhdn&asn-ref=walktheplankadventure
+pk 611584: 6 refs in ['scripts-staging/s44-charter-ladders-2026-08-24.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      scripts-staging/s44-charter-ladders-2026-08-24.json |    "code": 200,    "err": null,    "pks": [     605996,     611584    ]   },   "konacowboysportfishing": {
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "611584": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json | r",     "History Tour",     "Sightseeing Tour"    ]   },   "611584": {    "durationText": "Duration\n\n1 h
+      scripts-staging/s44-charter-ladders-2026-08-24.json | d": 1070996      }     ],     "zero_tiers": []    }   },   "611584": {    "2026-08-24": {     "date_valid"
+      tours-data.json.bak-pre-akamai-cleanup | ngers safely to Honolulu Harbor."     ]   },   {     "id": "611584",     "name": "Morning Ceremony Sail", 
+      tours-data.json.bak-pre-akamai-cleanup | ngLink": "https://fareharbor.com/embeds/book/kepoikai/items/611584/?asn=fhdn&asn-ref=walktheplankadventure
+pk 670258: 6 refs in ['scripts-staging/s44-charter-ladders-2026-08-24.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      scripts-staging/s44-charter-ladders-2026-08-24.json | : null,    "pks": [     504448,     509332,     509333,     670258    ]   },   "oceanecotour": {    "code"
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "670258": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json | s": "active",    "storedPrice": 1950,    "tags": []   },   "670258": {    "durationText": "",    "island":
+      scripts-staging/s44-charter-ladders-2026-08-24.json | charter",       "tier_id": 633817      }     ]    }   },   "670258": {    "2026-08-24": {     "date_valid"
+      tours-data.json.bak-pre-akamai-cleanup | es, to review photos, and relax!"     ]   },   {     "id": "670258",     "name": "Mini Snorkeling Charter"
+      tours-data.json.bak-pre-akamai-cleanup | https://fareharbor.com/embeds/book/oceanbluekonatours/items/670258/?asn=fhdn&asn-ref=walktheplankadventure
+pk 674343: 8 refs in ['scripts-staging/s44-charter-ladders-2026-08-24.json', 'scripts-staging/v52-wh-dryrun-raw.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      scripts-staging/s44-charter-ladders-2026-08-24.json | ehawaii": {    "code": 200,    "err": null,    "pks": [     674343,     674389    ]   },   "bishaka": {   
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "674343": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json | us": "active",    "storedPrice": 995,    "tags": []   },   "674343": {    "durationText": "8 Hours",    "i
+      scripts-staging/s44-charter-ladders-2026-08-24.json | id": 925761      }     ],     "zero_tiers": []    }   },   "674343": {    "2026-08-24": {     "date_valid"
+      scripts-staging/v52-wh-dryrun-raw.json | nal information ",     "dollarHits": []   },   {     "id": "674343",     "name": "Waimea Falls Oahu Circle
+      scripts-staging/v52-wh-dryrun-raw.json | Link": "https://fareharbor.com/embeds/book/bikehawaii/items/674343/?asn=fhdn&asn-ref=walktheplankadventure
+pk 674389: 8 refs in ['scripts-staging/s44-charter-ladders-2026-08-24.json', 'scripts-staging/v52-wh-dryrun-raw.json', 'tours-data.json.bak-pre-akamai-cleanup']
+      scripts-staging/s44-charter-ladders-2026-08-24.json |    "code": 200,    "err": null,    "pks": [     674343,     674389    ]   },   "bishaka": {    "code": 200
+      scripts-staging/s44-charter-ladders-2026-08-24.json | 3": 200,    "2026-10-23": 200,    "2026-11-22": 200   },   "674389": {    "2026-08-24": 200,    "2026-08-2
+      scripts-staging/s44-charter-ladders-2026-08-24.json | toredPrice": 1117,    "tags": [     "Bus Tour"    ]   },   "674389": {    "durationText": "6.5 Hours",    
+      scripts-staging/s44-charter-ladders-2026-08-24.json | d": 1240532      }     ],     "zero_tiers": []    }   },   "674389": {    "2026-08-24": {     "date_valid"
+      scripts-staging/v52-wh-dryrun-raw.json | "dollarHits": [       "$1,117.38"     ]   },   {     "id": "674389",     "name": "East Side Oahu Island To
+      scripts-staging/v52-wh-dryrun-raw.json | Link": "https://fareharbor.com/embeds/book/bikehawaii/items/674389/?asn=fhdn&asn-ref=walktheplankadventure

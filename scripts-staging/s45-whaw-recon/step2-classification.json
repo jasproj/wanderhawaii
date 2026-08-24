@@ -1,0 +1,2925 @@
+{
+ "1321": {
+  "class": "STALE",
+  "why": "stored $950.00 matches no live tier; ladder Four Hour Share Trip - Passenger $215.00 / Four Hour Deluxe Share Trip - Passenger $250.00 / Six Hour Share Trip - Passenger $250.00 / Six Hour Deluxe Share Trip - Passenger $320.00 / Four Hour Private Charter $900.00 / Six Hour Private Charter $1,200.00 / Eight Hour Private Charter $1,700.00",
+  "name": "Ohana Fishing Charter",
+  "price": 950,
+  "status": "active",
+  "sn": "fishingcharterskauai",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 15,
+  "tiers": [
+   {
+    "singular": "Four Hour Share Trip - Passenger",
+    "note": "Up to 6 passengers.",
+    "mps": 1,
+    "floor": 215.0,
+    "ceil": 215.0,
+    "n": 15
+   },
+   {
+    "singular": "Four Hour Deluxe Share Trip - Passenger",
+    "note": "Up to 4 passengers.",
+    "mps": 1,
+    "floor": 250.0,
+    "ceil": 250.0,
+    "n": 15
+   },
+   {
+    "singular": "Six Hour Share Trip - Passenger",
+    "note": "Up to 6 passengers.",
+    "mps": 1,
+    "floor": 250.0,
+    "ceil": 250.0,
+    "n": 14
+   },
+   {
+    "singular": "Six Hour Deluxe Share Trip - Passenger",
+    "note": "Up to 4 passengers.",
+    "mps": 1,
+    "floor": 320.0,
+    "ceil": 320.0,
+    "n": 14
+   },
+   {
+    "singular": "Four Hour Private Charter",
+    "note": "Up to 6 passengers.",
+    "mps": 1,
+    "floor": 900.0,
+    "ceil": 900.0,
+    "n": 15
+   },
+   {
+    "singular": "Six Hour Private Charter",
+    "note": "Up to 6 passengers.",
+    "mps": 1,
+    "floor": 1200.0,
+    "ceil": 1200.0,
+    "n": 14
+   },
+   {
+    "singular": "Eight Hour Private Charter",
+    "note": "Up to 6 passengers.",
+    "mps": 1,
+    "floor": 1700.0,
+    "ceil": 1700.0,
+    "n": 11
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 15,
+   "FALLBACK": 2,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "5544": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); UNSAMPLED=17",
+  "name": "Diamond Head Sunset Cruise",
+  "price": 899,
+  "status": "inactive",
+  "sn": "honsail",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 0,
+   "UNSAMPLED": 17,
+   "ERROR": 0
+  }
+ },
+ "19316": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Private Charter (Ali'i Package)",
+  "price": 3200,
+  "status": "active",
+  "sn": "aliioceantours",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 12,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 3200.0,
+    "ceil": 3200.0,
+    "n": 12
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 12,
+   "FALLBACK": 5,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "20606": {
+  "class": "INSUFFICIENT",
+  "why": "no purchasable tier ($0 tiers: ['Boat'])",
+  "name": "Exclusive Sunset Cruise",
+  "price": 1600,
+  "status": "active",
+  "sn": "konaoceanadventures",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 7,
+  "tiers": [],
+  "zeros": [
+   "Boat"
+  ],
+  "grat": [],
+  "statuses": {
+   "OK": 7,
+   "FALLBACK": 10,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "29906": {
+  "class": "a",
+  "why": "stored == ladder floor",
+  "name": "Private Charters for Large Groups: 5-in-1 Deluxe Experience",
+  "price": 3400,
+  "status": "active",
+  "sn": "waikikimarinesports",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 4,
+  "tiers": [
+   {
+    "singular": "5 in 1 Deluxe Turtle Snorkeling - Up to 20 guests",
+    "note": "3Hrs, Large Group Private Charters",
+    "mps": 1,
+    "floor": 3400.0,
+    "ceil": 3400.0,
+    "n": 4
+   },
+   {
+    "singular": "5 in 1 Deluxe Turtle Snorkeling - Up to 40 guests",
+    "note": "3Hrs, Large Group Private Charters",
+    "mps": 1,
+    "floor": 6200.0,
+    "ceil": 6200.0,
+    "n": 4
+   },
+   {
+    "singular": "5 in 1 Deluxe Turtle Snorkeling - Up to 60 guests",
+    "note": "3Hrs, Large Group Private Charters",
+    "mps": 1,
+    "floor": 9300.0,
+    "ceil": 9300.0,
+    "n": 4
+   },
+   {
+    "singular": "5 in 1 Deluxe Turtle Snorkeling - Up to 80 guests",
+    "note": "3Hrs, Large Group Private Charters",
+    "mps": 1,
+    "floor": 12000.0,
+    "ceil": 12000.0,
+    "n": 4
+   },
+   {
+    "singular": "5 in 1 Deluxe Turtle Snorkeling - Up to 100 guests",
+    "note": "3Hrs, Large Group Private Charters",
+    "mps": 1,
+    "floor": 15000.0,
+    "ceil": 15000.0,
+    "n": 4
+   },
+   {
+    "singular": "5 in 1 Deluxe Turtle Snorkeling - Up to 130 guests",
+    "note": "3Hrs, Large Group Private Charters",
+    "mps": 1,
+    "floor": 18500.0,
+    "ceil": 18500.0,
+    "n": 4
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 4,
+   "FALLBACK": 13,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "48382": {
+  "class": "a",
+  "why": "stored is the only whole-unit tier 'Private Charter'; other tiers are per-person seats",
+  "name": "N\u0101 Pali Sunrise Morning Tour",
+  "price": 1700,
+  "status": "active",
+  "sn": "napaliextreme",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 9,
+  "tiers": [
+   {
+    "singular": "Kama\u2019aina",
+    "note": "Must show valid HAWAII drivers license/ID",
+    "mps": 1,
+    "floor": 175.0,
+    "ceil": 175.0,
+    "n": 9
+   },
+   {
+    "singular": "Adult & Children",
+    "note": "Ages 5 and up",
+    "mps": 1,
+    "floor": 275.0,
+    "ceil": 275.0,
+    "n": 9
+   },
+   {
+    "singular": "Private Charter",
+    "note": "For up to 6 people",
+    "mps": 1,
+    "floor": 1700.0,
+    "ceil": 1700.0,
+    "n": 9
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 9,
+   "FALLBACK": 6,
+   "UNSAMPLED": 2,
+   "ERROR": 0
+  }
+ },
+ "55130": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Family Snorkel / Fish Charter Maheli Heli",
+  "price": 1595,
+  "status": "active",
+  "sn": "snorkelingkona",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 15,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1595.0,
+    "ceil": 1595.0,
+    "n": 15
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 15,
+   "FALLBACK": 2,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "57549": {
+  "class": "MISPAIR",
+  "why": "stored == 'Person', neither floor $105.00 nor ceiling $1,950.00, not named by row",
+  "name": "Ko Olina Exclusive Snorkel + Lunch",
+  "price": 325,
+  "status": "active",
+  "sn": "manacruises",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 3,
+  "tiers": [
+   {
+    "singular": "Infant",
+    "note": "0-2 years old",
+    "mps": 1,
+    "floor": 105.0,
+    "ceil": 105.0,
+    "n": 3
+   },
+   {
+    "singular": "Person",
+    "note": "Ages 3 and older. Price is per person",
+    "mps": 1,
+    "floor": 325.0,
+    "ceil": 325.0,
+    "n": 3
+   },
+   {
+    "singular": "Make it Private",
+    "note": "All Ages \u2022\u00a0Same cruise, just your crew",
+    "mps": 1,
+    "floor": 1950.0,
+    "ceil": 1950.0,
+    "n": 3
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 3,
+   "FALLBACK": 14,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "85712": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); UNSAMPLED=17",
+  "name": "Whale Watch/ Coastline Tour",
+  "price": 595,
+  "status": "inactive",
+  "sn": "bishaka",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 0,
+   "UNSAMPLED": 17,
+   "ERROR": 0
+  }
+ },
+ "115592": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); UNSAMPLED=17",
+  "name": "PRIVATE CHARTER (Call to Book 808-742-6331)",
+  "price": 5700,
+  "status": "inactive",
+  "sn": "napaliriders",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 0,
+   "UNSAMPLED": 17,
+   "ERROR": 0
+  }
+ },
+ "173903": {
+  "class": "a",
+  "why": "name/durationText names the stored tier 'Ten Hour Private Charter'",
+  "name": "Private Luxury Fishing Charter on 47ft Vessel 'KU'ULA KAI. Bathrooms & A/C",
+  "price": 2300,
+  "status": "active",
+  "sn": "apexkauai",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 10,
+  "tiers": [
+   {
+    "singular": "Four Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1000.0,
+    "ceil": 1000.0,
+    "n": 10
+   },
+   {
+    "singular": "Six Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1450.0,
+    "ceil": 1450.0,
+    "n": 10
+   },
+   {
+    "singular": "Eight Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1900.0,
+    "ceil": 1900.0,
+    "n": 9
+   },
+   {
+    "singular": "Ten Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 2300.0,
+    "ceil": 2300.0,
+    "n": 9
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 10,
+   "FALLBACK": 7,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "186807": {
+  "class": "STALE",
+  "why": "stored $1,140.00 matches no live tier; ladder Four hour private charter $1,198.80 / Six hour private charter $1,558.80 / Eight hour private charter $1,918.80 / Ten hour private charter $2,398.80",
+  "name": "Private Fishing Charter",
+  "price": 1140,
+  "status": "active",
+  "sn": "gofishkauai",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 13,
+  "tiers": [
+   {
+    "singular": "Four hour private charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1198.8,
+    "ceil": 1198.8,
+    "n": 13
+   },
+   {
+    "singular": "Six hour private charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1558.8,
+    "ceil": 1558.8,
+    "n": 10
+   },
+   {
+    "singular": "Eight hour private charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1918.8,
+    "ceil": 1918.8,
+    "n": 7
+   },
+   {
+    "singular": "Ten hour private charter",
+    "note": "",
+    "mps": 1,
+    "floor": 2398.8,
+    "ceil": 2398.8,
+    "n": 7
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 13,
+   "FALLBACK": 4,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "203401": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Private Fireworks & City Lights Cruise Keanuenue",
+  "price": 1199,
+  "status": "active",
+  "sn": "hawaiioceancharters",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 3,
+  "tiers": [
+   {
+    "singular": "Four Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1199.0,
+    "ceil": 1199.0,
+    "n": 3
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 3,
+   "FALLBACK": 14,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "203410": {
+  "class": "MISPAIR",
+  "why": "stored == 'Three Hour Private Charter', neither floor $649.00 nor ceiling $1,498.00, not named by row",
+  "name": "Private Catamaran Cruise & Snorkeling Keanuenue",
+  "price": 950,
+  "status": "active",
+  "sn": "hawaiioceancharters",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 16,
+  "tiers": [
+   {
+    "singular": "Two Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 649.0,
+    "ceil": 649.0,
+    "n": 16
+   },
+   {
+    "singular": "Three Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 950.0,
+    "ceil": 950.0,
+    "n": 16
+   },
+   {
+    "singular": "Four Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1199.0,
+    "ceil": 1199.0,
+    "n": 16
+   },
+   {
+    "singular": "Five Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1498.0,
+    "ceil": 1498.0,
+    "n": 16
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 16,
+   "FALLBACK": 1,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "208024": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Half Day Charter",
+  "price": 950,
+  "status": "active",
+  "sn": "konacowboysportfishing",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 11,
+  "tiers": [
+   {
+    "singular": "Private charter",
+    "note": "Up to 6 passengers- Children over 5 yrs",
+    "mps": 1,
+    "floor": 950.0,
+    "ceil": 950.0,
+    "n": 11
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 11,
+   "FALLBACK": 6,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "208038": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Full Day Charter",
+  "price": 1350,
+  "status": "active",
+  "sn": "konacowboysportfishing",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 10,
+  "tiers": [
+   {
+    "singular": "Private charter",
+    "note": "Up to 6 passengers- Children over 5 yrs",
+    "mps": 1,
+    "floor": 1350.0,
+    "ceil": 1350.0,
+    "n": 10
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 10,
+   "FALLBACK": 7,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "213988": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Private Tours Beach Entry - Sea Scooters",
+  "price": 625,
+  "status": "active",
+  "sn": "ecoseascootersnorkeling",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 14,
+  "tiers": [
+   {
+    "singular": "Private group",
+    "note": "Ages 10+ \u2022 2 hours \u2022 up to 5 people",
+    "mps": 1,
+    "floor": 625.0,
+    "ceil": 625.0,
+    "n": 14
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 14,
+   "FALLBACK": 3,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "224702": {
+  "class": "MISPAIR",
+  "why": "stored == 'Private Charter 3 Hour', neither floor $995.00 nor ceiling $2,495.00, not named by row",
+  "name": "Kona Luxury Private Yacht Charter",
+  "price": 1495,
+  "status": "active",
+  "sn": "hawaiinautical-kona",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 15,
+  "tiers": [
+   {
+    "singular": "Private Charter 2 Hour",
+    "note": "All ages \u2022 Max 6 people",
+    "mps": 1,
+    "floor": 995.0,
+    "ceil": 995.0,
+    "n": 1
+   },
+   {
+    "singular": "Private Charter 3 Hour",
+    "note": "All ages \u2022 Max 6 people",
+    "mps": 1,
+    "floor": 1495.0,
+    "ceil": 1495.0,
+    "n": 8
+   },
+   {
+    "singular": "Private Charter 6 Hour",
+    "note": "All ages \u2022 Max 6 people",
+    "mps": 1,
+    "floor": 2495.0,
+    "ceil": 2495.0,
+    "n": 6
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 15,
+   "FALLBACK": 2,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "273240": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); FALLBACK=15, UNSAMPLED=2",
+  "name": "Private Island Tour",
+  "price": 999,
+  "status": "active",
+  "sn": "hi5hawaii",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 15,
+   "UNSAMPLED": 2,
+   "ERROR": 0
+  }
+ },
+ "292927": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); UNSAMPLED=17",
+  "name": "Waikiki Sail & Snorkel Adventure",
+  "price": 599,
+  "status": "inactive",
+  "sn": "honsail",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 0,
+   "UNSAMPLED": 17,
+   "ERROR": 0
+  }
+ },
+ "294833": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "4 Hour PRIVATE Kauai Sportfishing Tour",
+  "price": 850,
+  "status": "active",
+  "sn": "makaisportfishing",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 11,
+  "tiers": [
+   {
+    "singular": "Private charter",
+    "note": "Up To 6 People | Minimum Age 5 Years Old",
+    "mps": 1,
+    "floor": 850.0,
+    "ceil": 850.0,
+    "n": 11
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 11,
+   "FALLBACK": 6,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "294835": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "6 Hour PRIVATE Kauai Sportfishing Tour",
+  "price": 1100,
+  "status": "active",
+  "sn": "makaisportfishing",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 9,
+  "tiers": [
+   {
+    "singular": "Private charter",
+    "note": "Up To 6 People | Minimum Age 5 Years Old",
+    "mps": 1,
+    "floor": 1100.0,
+    "ceil": 1100.0,
+    "n": 9
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 9,
+   "FALLBACK": 8,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "294839": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "10 Hour PRIVATE Kauai Sportfishing Tour",
+  "price": 1700,
+  "status": "active",
+  "sn": "makaisportfishing",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 5,
+  "tiers": [
+   {
+    "singular": "Private charter",
+    "note": "Up To 6 People | Minimum Age 5 Years Old",
+    "mps": 1,
+    "floor": 1700.0,
+    "ceil": 1700.0,
+    "n": 5
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 5,
+   "FALLBACK": 12,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "326188": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); UNSAMPLED=17",
+  "name": "Private Whale Watching Cruise",
+  "price": 599,
+  "status": "inactive",
+  "sn": "honsail",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 0,
+   "UNSAMPLED": 17,
+   "ERROR": 0
+  }
+ },
+ "326199": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); UNSAMPLED=17",
+  "name": "OFFSHORE FISHING",
+  "price": 699,
+  "status": "inactive",
+  "sn": "honsail",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 0,
+   "UNSAMPLED": 17,
+   "ERROR": 0
+  }
+ },
+ "330790": {
+  "class": "HELD-NONVESSEL",
+  "why": "stored == ceiling 'Passenger Van - Mercedes Sprinter'; floor $260.00; ground transport",
+  "name": "\u300cPrivate Charter\u300d4 Hours",
+  "price": 520,
+  "status": "active",
+  "sn": "paradisehawaiitours",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 16,
+  "tiers": [
+   {
+    "singular": "Minivan",
+    "note": "Per Group up to 5 passengers",
+    "mps": 1,
+    "floor": 260.0,
+    "ceil": 260.0,
+    "n": 16
+   },
+   {
+    "singular": "Classic SUV - Cadillac Escalade",
+    "note": "\u2b50 Most Popular - Per Group up to 5 passengers",
+    "mps": 1,
+    "floor": 340.0,
+    "ceil": 340.0,
+    "n": 16
+   },
+   {
+    "singular": "Passenger Van - Ford Transit",
+    "note": "Per Group up to 14 passengers",
+    "mps": 1,
+    "floor": 420.0,
+    "ceil": 420.0,
+    "n": 16
+   },
+   {
+    "singular": "Luxury SUV - Cadillac Escalade",
+    "note": "Per Group up to 5 passengers",
+    "mps": 1,
+    "floor": 460.0,
+    "ceil": 460.0,
+    "n": 16
+   },
+   {
+    "singular": "Passenger Van - Mercedes Sprinter",
+    "note": "\u2b50 Most Popular - Per Group up to 14 passengers",
+    "mps": 1,
+    "floor": 520.0,
+    "ceil": 520.0,
+    "n": 16
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 16,
+   "FALLBACK": 1,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "332728": {
+  "class": "MISPAIR",
+  "why": "stored == 'Luxury SUV - Cadillac Escalade', neither floor $520.00 nor ceiling $1,040.00, not named by row",
+  "name": "\u300cPrivate Charter\u300d8 Hours",
+  "price": 920,
+  "status": "active",
+  "sn": "paradisehawaiitours",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 15,
+  "tiers": [
+   {
+    "singular": "Minivan",
+    "note": "Per Group up to 5 passengers",
+    "mps": 1,
+    "floor": 520.0,
+    "ceil": 520.0,
+    "n": 15
+   },
+   {
+    "singular": "Classic SUV - Cadillac Escalade",
+    "note": "\u2b50 Most Popular - Per Group up to 5 passengers",
+    "mps": 1,
+    "floor": 680.0,
+    "ceil": 680.0,
+    "n": 15
+   },
+   {
+    "singular": "Passenger Van - Ford Transit",
+    "note": "Per Group up to 14 passengers",
+    "mps": 1,
+    "floor": 840.0,
+    "ceil": 840.0,
+    "n": 15
+   },
+   {
+    "singular": "Luxury SUV - Cadillac Escalade",
+    "note": "Per Group up to 5 passengers",
+    "mps": 1,
+    "floor": 920.0,
+    "ceil": 920.0,
+    "n": 15
+   },
+   {
+    "singular": "Passenger Van - Mercedes Sprinter",
+    "note": "\u2b50 Most Popular - Per Group up to 14 passengers",
+    "mps": 1,
+    "floor": 1040.0,
+    "ceil": 1040.0,
+    "n": 15
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 15,
+   "FALLBACK": 2,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "338208": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Sunset Cruise",
+  "price": 400,
+  "status": "active",
+  "sn": "deepblueecotours",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 16,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "Up to 6 Passengers",
+    "mps": 1,
+    "floor": 400.0,
+    "ceil": 400.0,
+    "n": 16
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 16,
+   "FALLBACK": 1,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "391875": {
+  "class": "STALE",
+  "why": "stored $1,800.00 matches no live tier; ladder Passenger $189.00 / Private Charter $2,400.00",
+  "name": "4 Hour Kealakekua Snorkel",
+  "price": 1800,
+  "status": "active",
+  "sn": "snorkelbigisland",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 16,
+  "tiers": [
+   {
+    "singular": "Passenger",
+    "note": "Ages 4+",
+    "mps": 1,
+    "floor": 189.0,
+    "ceil": 189.0,
+    "n": 16
+   },
+   {
+    "singular": "Private Charter",
+    "note": "Up to 18 Total Passengers",
+    "mps": 1,
+    "floor": 2400.0,
+    "ceil": 2400.0,
+    "n": 16
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 16,
+   "FALLBACK": 1,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "408343": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); UNSAMPLED=17",
+  "name": "Winter Na Pali Sight See",
+  "price": 500,
+  "status": "inactive",
+  "sn": "napalitours",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 0,
+   "UNSAMPLED": 17,
+   "ERROR": 0
+  }
+ },
+ "414190": {
+  "class": "a",
+  "why": "stored is the only whole-unit tier 'Private Boat Charter'; other tiers are per-person seats",
+  "name": "North Shore Sunset Tour",
+  "price": 1200,
+  "status": "active",
+  "sn": "hawaiiglassbottomboats-slt",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 8,
+  "tiers": [
+   {
+    "singular": "Person",
+    "note": "Ages 3+",
+    "mps": 1,
+    "floor": 99.0,
+    "ceil": 99.0,
+    "n": 8
+   },
+   {
+    "singular": "Private Boat Charter",
+    "note": "All ages are welcome on a Private Charter",
+    "mps": 1,
+    "floor": 1200.0,
+    "ceil": 1200.0,
+    "n": 8
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 8,
+   "FALLBACK": 0,
+   "UNSAMPLED": 9,
+   "ERROR": 0
+  }
+ },
+ "416254": {
+  "class": "HELD-NONVESSEL",
+  "why": "stored == ceiling 'Passenger Van - Mercedes Sprinter'; floor $390.00; ground transport",
+  "name": "\u300cPrivate Charter\u300d6 Hours",
+  "price": 780,
+  "status": "active",
+  "sn": "paradisehawaiitours",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 16,
+  "tiers": [
+   {
+    "singular": "Minivan",
+    "note": "Per Group up to 5 passengers",
+    "mps": 1,
+    "floor": 390.0,
+    "ceil": 390.0,
+    "n": 16
+   },
+   {
+    "singular": "Classic SUV - Cadillac Escalade",
+    "note": "\u2b50 Most Popular - Per Group up to 5 passengers",
+    "mps": 1,
+    "floor": 510.0,
+    "ceil": 510.0,
+    "n": 16
+   },
+   {
+    "singular": "Passenger Van - Ford Transit",
+    "note": "Per Group up to 14 passengers",
+    "mps": 1,
+    "floor": 630.0,
+    "ceil": 630.0,
+    "n": 16
+   },
+   {
+    "singular": "Luxury SUV - Cadillac Escalade",
+    "note": "Per Group up to 5 passengers",
+    "mps": 1,
+    "floor": 690.0,
+    "ceil": 690.0,
+    "n": 16
+   },
+   {
+    "singular": "Passenger Van - Mercedes Sprinter",
+    "note": "\u2b50 Most Popular - Per Group up to 14 passengers",
+    "mps": 1,
+    "floor": 780.0,
+    "ceil": 780.0,
+    "n": 16
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 16,
+   "FALLBACK": 1,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "429361": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "3 Hour Private Custom Charter",
+  "price": 689,
+  "status": "active",
+  "sn": "poipuoffshoreadventures",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 10,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "Up to 6 Guests \u2022 Ages 5 & Up",
+    "mps": 1,
+    "floor": 689.0,
+    "ceil": 689.0,
+    "n": 10
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 10,
+   "FALLBACK": 7,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "429365": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); UNSAMPLED=17",
+  "name": "Sunset Whalewatch",
+  "price": 689,
+  "status": "inactive",
+  "sn": "poipuoffshoreadventures",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 0,
+   "UNSAMPLED": 17,
+   "ERROR": 0
+  }
+ },
+ "429367": {
+  "class": "a",
+  "why": "stored == ladder floor",
+  "name": "Fishing Charter",
+  "price": 850,
+  "status": "active",
+  "sn": "poipuoffshoreadventures",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 9,
+  "tiers": [
+   {
+    "singular": "4 Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 850.0,
+    "ceil": 850.0,
+    "n": 9
+   },
+   {
+    "singular": "6 Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1198.0,
+    "ceil": 1198.0,
+    "n": 9
+   },
+   {
+    "singular": "8 Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1598.0,
+    "ceil": 1598.0,
+    "n": 9
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 9,
+   "FALLBACK": 8,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "432243": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Sunset Booze Cruise",
+  "price": 500,
+  "status": "active",
+  "sn": "alohascubadiving",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 16,
+  "tiers": [
+   {
+    "singular": "Private charter",
+    "note": "",
+    "mps": 1,
+    "floor": 500.0,
+    "ceil": 500.0,
+    "n": 16
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 16,
+   "FALLBACK": 1,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "454788": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); UNSAMPLED=17",
+  "name": "Private Charter",
+  "price": 300,
+  "status": "inactive",
+  "sn": "islandexpressshuttle",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 0,
+   "UNSAMPLED": 17,
+   "ERROR": 0
+  }
+ },
+ "455883": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); UNSAMPLED=17",
+  "name": "Half-Day Charter Glacier Bay",
+  "price": 650,
+  "status": "inactive",
+  "sn": "hawaiianfishingcharters",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 0,
+   "UNSAMPLED": 17,
+   "ERROR": 0
+  }
+ },
+ "455885": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); UNSAMPLED=17",
+  "name": "3/4 Day Charter Glacier Bay",
+  "price": 975,
+  "status": "inactive",
+  "sn": "hawaiianfishingcharters",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 0,
+   "UNSAMPLED": 17,
+   "ERROR": 0
+  }
+ },
+ "455886": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); UNSAMPLED=17",
+  "name": "Full Day Charter Glacier Bay",
+  "price": 1300,
+  "status": "inactive",
+  "sn": "hawaiianfishingcharters",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 0,
+   "UNSAMPLED": 17,
+   "ERROR": 0
+  }
+ },
+ "470467": {
+  "class": "INSUFFICIENT",
+  "why": "2 date-valid readings (<3); OK=2, FALLBACK=15",
+  "name": "Special Events",
+  "price": 495,
+  "status": "active",
+  "sn": "waikikisailingtours",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 2,
+  "tiers": [
+   {
+    "singular": "Private Tour",
+    "note": "Call to book!",
+    "mps": 1,
+    "floor": 599.0,
+    "ceil": 599.0,
+    "n": 2
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 2,
+   "FALLBACK": 15,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "475922": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Napali Coast Adventure *April-September",
+  "price": 1998,
+  "status": "active",
+  "sn": "poipuoffshoreadventures",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 8,
+  "tiers": [
+   {
+    "singular": "8 Hour Private Charter",
+    "note": "Up to 6 people. Ages 5 & up.",
+    "mps": 1,
+    "floor": 1998.0,
+    "ceil": 1998.0,
+    "n": 8
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 8,
+   "FALLBACK": 8,
+   "UNSAMPLED": 1,
+   "ERROR": 0
+  }
+ },
+ "476368": {
+  "class": "STALE",
+  "why": "stored $1,150.00 matches no live tier; ladder Private Charter $1,400.00",
+  "name": "Private Tour",
+  "price": 1150,
+  "status": "active",
+  "sn": "islandsplashtours",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 6,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "Up to 20 people",
+    "mps": 1,
+    "floor": 1400.0,
+    "ceil": 1400.0,
+    "n": 6
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 6,
+   "FALLBACK": 11,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "487040": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); UNSAMPLED=17",
+  "name": "Private Captain Cook Snorkeling Charter | Departs Keauhou Bay",
+  "price": 899,
+  "status": "inactive",
+  "sn": "captcookcruises",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 0,
+   "UNSAMPLED": 17,
+   "ERROR": 0
+  }
+ },
+ "489704": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Private Charter",
+  "price": 1500,
+  "status": "active",
+  "sn": "hawaiiislandandoceantours",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 11,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1500.0,
+    "ceil": 1500.0,
+    "n": 11
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 11,
+   "FALLBACK": 6,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "492381": {
+  "class": "STALE",
+  "why": "stored $950.00 matches no live tier; ladder Half Day Charter (4hrs) $900.00 / 3/4 Day Charter (6hrs) $1,200.00 / Full Day Charter (8hrs) $1,750.00",
+  "name": "Private Charters",
+  "price": 950,
+  "status": "active",
+  "sn": "kauaifishingcharters",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 10,
+  "tiers": [
+   {
+    "singular": "Half Day Charter (4hrs)",
+    "note": "6 guest max",
+    "mps": 1,
+    "floor": 900.0,
+    "ceil": 900.0,
+    "n": 10
+   },
+   {
+    "singular": "3/4 Day Charter (6hrs)",
+    "note": "6 guest max",
+    "mps": 1,
+    "floor": 1200.0,
+    "ceil": 1200.0,
+    "n": 10
+   },
+   {
+    "singular": "Full Day Charter (8hrs)",
+    "note": "6 guest max",
+    "mps": 1,
+    "floor": 1750.0,
+    "ceil": 1750.0,
+    "n": 10
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 10,
+   "FALLBACK": 7,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "496437": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Venture Ko Olina Nearshore Fishing",
+  "price": 650,
+  "status": "active",
+  "sn": "manacruises",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 11,
+  "tiers": [
+   {
+    "singular": "Venture Nearshore Fishing",
+    "note": "Private charter - up to 6 people, 2 anglers at a time \u2022 7a",
+    "mps": 1,
+    "floor": 650.0,
+    "ceil": 650.0,
+    "n": 11
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 11,
+   "FALLBACK": 6,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "496438": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Venture Ko Olina Wildlife Snorkel",
+  "price": 995,
+  "status": "active",
+  "sn": "manacruises",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 12,
+  "tiers": [
+   {
+    "singular": "Venture West Wildlife Snorkel",
+    "note": "Private charter, just your crew - up to 6 people",
+    "mps": 1,
+    "floor": 995.0,
+    "ceil": 995.0,
+    "n": 12
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 12,
+   "FALLBACK": 5,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "496441": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); FALLBACK=17",
+  "name": "Venture Ko Olina Whale Watch",
+  "price": 750,
+  "status": "active",
+  "sn": "manacruises",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 17,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "497012": {
+  "class": "a",
+  "why": "stored == ladder floor",
+  "name": "Private Manta Ray Night Adventure",
+  "price": 1500,
+  "status": "active",
+  "sn": "hawaiitourboat",
+  "priceSource": "s44-fix-charter-maxtier",
+  "priceConfidence": "high",
+  "valid": 17,
+  "tiers": [
+   {
+    "singular": "Small Private Charter",
+    "note": "Up to 15 people",
+    "mps": 1,
+    "floor": 1500.0,
+    "ceil": 1500.0,
+    "n": 17
+   },
+   {
+    "singular": "Large Private Charter",
+    "note": "16 - 24 People",
+    "mps": 1,
+    "floor": 2500.0,
+    "ceil": 2500.0,
+    "n": 17
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 17,
+   "FALLBACK": 0,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "504448": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Private Sunset Cruise",
+  "price": 995,
+  "status": "active",
+  "sn": "oceanbluekonatours",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 15,
+  "tiers": [
+   {
+    "singular": "Two Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 995.0,
+    "ceil": 995.0,
+    "n": 15
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 15,
+   "FALLBACK": 2,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "506372": {
+  "class": "STALE",
+  "why": "stored $950.00 matches no live tier; ladder Four Hour Private Charter $850.00 / Six Hour Private Charter $1,150.00 / Eight Hour Private Charter $1,450.00",
+  "name": "Private Charters",
+  "price": 950,
+  "status": "active",
+  "sn": "alohakauaisportfishing",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 9,
+  "tiers": [
+   {
+    "singular": "Four Hour Private Charter",
+    "note": "Up to 6 Passengers",
+    "mps": 1,
+    "floor": 850.0,
+    "ceil": 850.0,
+    "n": 9
+   },
+   {
+    "singular": "Six Hour Private Charter",
+    "note": "Up to 6 Passengers",
+    "mps": 1,
+    "floor": 1150.0,
+    "ceil": 1150.0,
+    "n": 9
+   },
+   {
+    "singular": "Eight Hour Private Charter",
+    "note": "Up to 6 Passengers",
+    "mps": 1,
+    "floor": 1450.0,
+    "ceil": 1450.0,
+    "n": 8
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 9,
+   "FALLBACK": 8,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "509332": {
+  "class": "STALE",
+  "why": "stored $2,000.00 matches no live tier; ladder Four Hour Private Charter $1,650.00 / Five Hour Private Charter $1,900.00 / Six Hour Private Charter $2,150.00",
+  "name": "Premium Snorkeling Charter",
+  "price": 2000,
+  "status": "active",
+  "sn": "oceanbluekonatours",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 13,
+  "tiers": [
+   {
+    "singular": "Four Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1650.0,
+    "ceil": 1650.0,
+    "n": 13
+   },
+   {
+    "singular": "Five Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1900.0,
+    "ceil": 1900.0,
+    "n": 13
+   },
+   {
+    "singular": "Six Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 2150.0,
+    "ceil": 2150.0,
+    "n": 13
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 13,
+   "FALLBACK": 4,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "509333": {
+  "class": "INSUFFICIENT",
+  "why": "2 date-valid readings (<3); OK=2, FALLBACK=15",
+  "name": "Private Whale Watching Charter",
+  "price": 995,
+  "status": "active",
+  "sn": "oceanbluekonatours",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 2,
+  "tiers": [
+   {
+    "singular": "Two Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 950.0,
+    "ceil": 950.0,
+    "n": 2
+   },
+   {
+    "singular": "Three Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1100.0,
+    "ceil": 1100.0,
+    "n": 2
+   },
+   {
+    "singular": "Four Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1300.0,
+    "ceil": 1300.0,
+    "n": 2
+   },
+   {
+    "singular": "Five Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1550.0,
+    "ceil": 1550.0,
+    "n": 2
+   },
+   {
+    "singular": "Six Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1800.0,
+    "ceil": 1800.0,
+    "n": 2
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 2,
+   "FALLBACK": 15,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "513910": {
+  "class": "STALE",
+  "why": "stored $1,499.00 matches no live tier; ladder 7H Offshore fishing $1,199.00",
+  "name": "Full Day 7H Private Offshore Fishing",
+  "price": 1499,
+  "status": "active",
+  "sn": "ultimateboatinghawaii",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 7,
+  "tiers": [
+   {
+    "singular": "7H Offshore fishing",
+    "note": "",
+    "mps": 1,
+    "floor": 1199.0,
+    "ceil": 1199.0,
+    "n": 7
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 7,
+   "FALLBACK": 10,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "533759": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); UNSAMPLED=17",
+  "name": "N\u0101 Pali Sight See Adventure",
+  "price": 3500,
+  "status": "inactive",
+  "sn": "napalitours",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 0,
+   "UNSAMPLED": 17,
+   "ERROR": 0
+  }
+ },
+ "537900": {
+  "class": "a",
+  "why": "name/durationText names the stored tier '8 Hour Private Charter'",
+  "name": "\u200b\u200bFish & Snorkel Combo Charter",
+  "price": 1650,
+  "status": "active",
+  "sn": "poipuoffshoreadventures",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 9,
+  "tiers": [
+   {
+    "singular": "6 Hour Private Charter",
+    "note": "Fish, snorkel, cruise.",
+    "mps": 1,
+    "floor": 1250.0,
+    "ceil": 1250.0,
+    "n": 9
+   },
+   {
+    "singular": "8 Hour Private Charter",
+    "note": "Full day adventure to get to the best grounds for epic fishing and snorkeling",
+    "mps": 1,
+    "floor": 1650.0,
+    "ceil": 1650.0,
+    "n": 9
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 9,
+   "FALLBACK": 8,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "550893": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Private 5 hr Scuba / Snorkel Charter",
+  "price": 2800,
+  "status": "active",
+  "sn": "oceantherapycharters",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 16,
+  "tiers": [
+   {
+    "singular": "3 Hour Private Charter",
+    "note": "5 hours \u2022 up to 6 people",
+    "mps": 1,
+    "floor": 2800.0,
+    "ceil": 2800.0,
+    "n": 16
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 16,
+   "FALLBACK": 1,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "550951": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Private 2.5 hr Snorkel Charter",
+  "price": 1560,
+  "status": "active",
+  "sn": "oceantherapycharters",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 16,
+  "tiers": [
+   {
+    "singular": "2.5 Hour Private Charter",
+    "note": "2.5 hours \u2022 up to 6 people",
+    "mps": 1,
+    "floor": 1560.0,
+    "ceil": 1560.0,
+    "n": 16
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 16,
+   "FALLBACK": 1,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "551295": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Private 1.5 hr Ash Scattering Charter (Silver)",
+  "price": 1000,
+  "status": "active",
+  "sn": "oceantherapycharters",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 17,
+  "tiers": [
+   {
+    "singular": "1.5 Hour Private Charter",
+    "note": "Private 1.5 hr Ash Scattering Charter",
+    "mps": 1,
+    "floor": 1000.0,
+    "ceil": 1000.0,
+    "n": 17
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 17,
+   "FALLBACK": 0,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "564716": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Half-Day Charter Bertram",
+  "price": 750,
+  "status": "active",
+  "sn": "hawaiianfishingcharters",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 14,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "6 People Max (Bertram)",
+    "mps": 1,
+    "floor": 750.0,
+    "ceil": 750.0,
+    "n": 14
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 14,
+   "FALLBACK": 3,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "564718": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "3/4 Day Charter Bertram",
+  "price": 1125,
+  "status": "active",
+  "sn": "hawaiianfishingcharters",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 11,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "6 People Max (Bertram)",
+    "mps": 1,
+    "floor": 1125.0,
+    "ceil": 1125.0,
+    "n": 11
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 11,
+   "FALLBACK": 6,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "564722": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Full Day Charter Bertram",
+  "price": 1450,
+  "status": "active",
+  "sn": "hawaiianfishingcharters",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 10,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "6 People Max (Bertram)",
+    "mps": 1,
+    "floor": 1450.0,
+    "ceil": 1450.0,
+    "n": 10
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 10,
+   "FALLBACK": 7,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "565618": {
+  "class": "MISPAIR",
+  "why": "stored == 'Three Hour Private Charter', neither floor $699.00 nor ceiling $1,499.00, not named by row",
+  "name": "Day Sail",
+  "price": 899,
+  "status": "active",
+  "sn": "sailingbeautyofhonolulu",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 17,
+  "tiers": [
+   {
+    "singular": "Two Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 699.0,
+    "ceil": 699.0,
+    "n": 17
+   },
+   {
+    "singular": "Three Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 899.0,
+    "ceil": 899.0,
+    "n": 17
+   },
+   {
+    "singular": "Four Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1099.0,
+    "ceil": 1099.0,
+    "n": 17
+   },
+   {
+    "singular": "Five Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1299.0,
+    "ceil": 1299.0,
+    "n": 17
+   },
+   {
+    "singular": "Six Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1499.0,
+    "ceil": 1499.0,
+    "n": 16
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 17,
+   "FALLBACK": 0,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "565627": {
+  "class": "a",
+  "why": "stored == ladder floor",
+  "name": "Ash Scattering",
+  "price": 899,
+  "status": "active",
+  "sn": "sailingbeautyofhonolulu",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 17,
+  "tiers": [
+   {
+    "singular": "Three Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 899.0,
+    "ceil": 899.0,
+    "n": 17
+   },
+   {
+    "singular": "Four Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1099.0,
+    "ceil": 1099.0,
+    "n": 17
+   },
+   {
+    "singular": "Five Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1299.0,
+    "ceil": 1299.0,
+    "n": 17
+   },
+   {
+    "singular": "Six Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1299.0,
+    "ceil": 1299.0,
+    "n": 17
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 17,
+   "FALLBACK": 0,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "567354": {
+  "class": "a",
+  "why": "stored is the only whole-unit tier 'Private Charter'; other tiers are per-person seats",
+  "name": "Sunset Cruise",
+  "price": 900,
+  "status": "active",
+  "sn": "konaoffshoreadventures",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 6,
+  "tiers": [
+   {
+    "singular": "Person",
+    "note": "",
+    "mps": 1,
+    "floor": 150.0,
+    "ceil": 150.0,
+    "n": 6
+   },
+   {
+    "singular": "Private Charter",
+    "note": "Up to 6 Guests",
+    "mps": 1,
+    "floor": 900.0,
+    "ceil": 900.0,
+    "n": 6
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 6,
+   "FALLBACK": 11,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "573012": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Private Charters - Full-Day Charter",
+  "price": 2500,
+  "status": "active",
+  "sn": "alohaoceanexcursions",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 16,
+  "tiers": [
+   {
+    "singular": "Full Day Charter",
+    "note": "8 Hours \u2022 Price includes 12 People",
+    "mps": 1,
+    "floor": 2500.0,
+    "ceil": 2500.0,
+    "n": 16
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 16,
+   "FALLBACK": 1,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "573018": {
+  "class": "a",
+  "why": "single purchasable tier; ceiling == floor",
+  "name": "Private Charters - Half-Day Charter",
+  "price": 1500,
+  "status": "active",
+  "sn": "alohaoceanexcursions",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 16,
+  "tiers": [
+   {
+    "singular": "Half Day Charter",
+    "note": "4 hours",
+    "mps": 1,
+    "floor": 1500.0,
+    "ceil": 1500.0,
+    "n": 16
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 16,
+   "FALLBACK": 1,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "575954": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); UNSAMPLED=17",
+  "name": "Private Full Day Charter",
+  "price": 1400,
+  "status": "inactive",
+  "sn": "grandersuniversity",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 0,
+   "UNSAMPLED": 17,
+   "ERROR": 0
+  }
+ },
+ "584304": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); FALLBACK=17",
+  "name": "Private Whale Watch Charter",
+  "price": 1999,
+  "status": "active",
+  "sn": "napaliexperience",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 17,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "587813": {
+  "class": "HELD-NONVESSEL",
+  "why": "stored == ceiling 'Private Charter'; floor $1,200.00; no vessel assertion (D-596)",
+  "name": "PRIVATE KEALAKEKUA BAY SNORKEL WITH DOLPHIN WATCH",
+  "price": 1500,
+  "status": "active",
+  "sn": "oceanecotour",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 14,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "1-6 guests",
+    "mps": 1,
+    "floor": 1200.0,
+    "ceil": 1200.0,
+    "n": 14
+   },
+   {
+    "singular": "Private Charter",
+    "note": "7-12 guests",
+    "mps": 1,
+    "floor": 1500.0,
+    "ceil": 1500.0,
+    "n": 14
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 14,
+   "FALLBACK": 3,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "591682": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); FALLBACK=17",
+  "name": "Venture Whale Watch + Snorkel",
+  "price": 995,
+  "status": "active",
+  "sn": "manacruises",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 17,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "593603": {
+  "class": "MISPAIR",
+  "why": "stored == 'Additional Hours', neither floor $199.00 nor ceiling $1,999.00, not named by row",
+  "name": "Sunset Cruise",
+  "price": 499,
+  "status": "active",
+  "sn": "hawaiiislandprivatecharters",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 4,
+  "tiers": [
+   {
+    "singular": "CATERED MENU Add-On",
+    "note": "This selection requires a minimum of 7 days advanced notice.  Price is per passenger, select the number of passengers.",
+    "mps": 1,
+    "floor": 199.0,
+    "ceil": 199.0,
+    "n": 4
+   },
+   {
+    "singular": "Additional Hours",
+    "note": "",
+    "mps": 1,
+    "floor": 499.0,
+    "ceil": 499.0,
+    "n": 4
+   },
+   {
+    "singular": "TRANSPORTATION Add-On",
+    "note": "",
+    "mps": 1,
+    "floor": 499.0,
+    "ceil": 499.0,
+    "n": 4
+   },
+   {
+    "singular": "Two Hour Private Charter",
+    "note": "Up to 6 Passengers",
+    "mps": 1,
+    "floor": 1999.0,
+    "ceil": 1999.0,
+    "n": 4
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 4,
+   "FALLBACK": 13,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "605996": {
+  "class": "a",
+  "why": "name/durationText names the stored tier 'Two Hour Day Sail'",
+  "name": "Private Charter",
+  "price": 2400,
+  "status": "inactive",
+  "sn": "kepoikai",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 17,
+  "tiers": [
+   {
+    "singular": "One Hour Day Sail",
+    "note": "",
+    "mps": 1,
+    "floor": 1200.0,
+    "ceil": 1200.0,
+    "n": 15
+   },
+   {
+    "singular": "Two Hour Day Sail",
+    "note": "",
+    "mps": 1,
+    "floor": 2400.0,
+    "ceil": 2400.0,
+    "n": 15
+   }
+  ],
+  "zeros": [
+   "One Hour Day Sail",
+   "Two Hour Day Sail"
+  ],
+  "grat": [],
+  "statuses": {
+   "OK": 17,
+   "FALLBACK": 0,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "606761": {
+  "class": "HELD-NONVESSEL",
+  "why": "stored == ceiling 'Private Charter (Groups of 7 - 12)'; floor $1,195.00; ground transport",
+  "name": "Private Big Island: Volcano, Waterfalls & Black Sand Full|Day Tour",
+  "price": 1995,
+  "status": "active",
+  "sn": "wayfindhawaii",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 16,
+  "tiers": [
+   {
+    "singular": "Private Charter (Groups of 1 - 4)",
+    "note": "",
+    "mps": 1,
+    "floor": 1195.0,
+    "ceil": 1195.0,
+    "n": 16
+   },
+   {
+    "singular": "Private Charter (Groups of 5 - 8)",
+    "note": "",
+    "mps": 1,
+    "floor": 1595.0,
+    "ceil": 1595.0,
+    "n": 16
+   },
+   {
+    "singular": "Private Charter (Groups of 7 - 12)",
+    "note": "",
+    "mps": 1,
+    "floor": 1995.0,
+    "ceil": 1995.0,
+    "n": 16
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 16,
+   "FALLBACK": 1,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "611584": {
+  "class": "STALE",
+  "why": "stored $700.00 matches no live tier; ladder Private charter $900.00",
+  "name": "Morning Ceremony Sail",
+  "price": 700,
+  "status": "active",
+  "sn": "kepoikai",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 16,
+  "tiers": [
+   {
+    "singular": "Private charter",
+    "note": "All ages",
+    "mps": 1,
+    "floor": 900.0,
+    "ceil": 900.0,
+    "n": 15
+   }
+  ],
+  "zeros": [
+   "Private charter"
+  ],
+  "grat": [],
+  "statuses": {
+   "OK": 16,
+   "FALLBACK": 1,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "619810": {
+  "class": "a",
+  "why": "stored == ladder floor",
+  "name": "Private Fishing Charters",
+  "price": 1400,
+  "status": "active",
+  "sn": "leinlow",
+  "priceSource": "s44-fix-charter-maxtier",
+  "priceConfidence": "high",
+  "valid": 16,
+  "tiers": [
+   {
+    "singular": "Half Day Fishing Charter",
+    "note": "4 hours private charter \u2022 6 guest max",
+    "mps": 1,
+    "floor": 1400.0,
+    "ceil": 1400.0,
+    "n": 16
+   },
+   {
+    "singular": "3/4 Day Fishing Charter",
+    "note": "6 hours private charter \u2022 6 guest max",
+    "mps": 1,
+    "floor": 1600.0,
+    "ceil": 1600.0,
+    "n": 16
+   },
+   {
+    "singular": "Full Day Fishing Charter",
+    "note": "8 hours private charter \u2022 6 guest max",
+    "mps": 1,
+    "floor": 1800.0,
+    "ceil": 1800.0,
+    "n": 16
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 16,
+   "FALLBACK": 1,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "623886": {
+  "class": "INSUFFICIENT",
+  "why": "0 date-valid readings (<3); FALLBACK=17",
+  "name": "Whale Tail and Sunset Sail",
+  "price": 1750,
+  "status": "active",
+  "sn": "wildsidespecialtytours",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 0,
+  "tiers": [],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 0,
+   "FALLBACK": 17,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "632619": {
+  "class": "a",
+  "why": "stored == ladder floor",
+  "name": "Pau Hana Cruise",
+  "price": 2300,
+  "status": "active",
+  "sn": "andyoucreations",
+  "priceSource": "s44-fix-charter-maxtier",
+  "priceConfidence": "high",
+  "valid": 9,
+  "tiers": [
+   {
+    "singular": "Party Option (No swim) - No Transportation",
+    "note": "up to 40 people include children and infant",
+    "mps": 1,
+    "floor": 2300.0,
+    "ceil": 2300.0,
+    "n": 9
+   },
+   {
+    "singular": "Party Option (No swim) - Transportation included",
+    "note": "up to 20 people include children and infant",
+    "mps": 1,
+    "floor": 2300.0,
+    "ceil": 2300.0,
+    "n": 9
+   },
+   {
+    "singular": "Snorkel/ Swim/ Slide option - No Transportation",
+    "note": "up to 40 people include children and infant",
+    "mps": 1,
+    "floor": 2500.0,
+    "ceil": 2500.0,
+    "n": 9
+   },
+   {
+    "singular": "Snorkel/ Swim/ Slide option - Transportation included",
+    "note": "up to 20 people include children and infant",
+    "mps": 1,
+    "floor": 2500.0,
+    "ceil": 2500.0,
+    "n": 9
+   },
+   {
+    "singular": "Party Option (No swim) - Transportation included",
+    "note": "over 21 people include children and infant up to 40 pax",
+    "mps": 1,
+    "floor": 2800.0,
+    "ceil": 2800.0,
+    "n": 9
+   },
+   {
+    "singular": "Snorkel/ Swim/ Slide option - Transportation included",
+    "note": "over 21 people include children and infant up to 40 pax",
+    "mps": 1,
+    "floor": 3000.0,
+    "ceil": 3000.0,
+    "n": 9
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 9,
+   "FALLBACK": 8,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "636915": {
+  "class": "a",
+  "why": "stored == ladder floor",
+  "name": "Island Breeze Private Cruise",
+  "price": 2300,
+  "status": "active",
+  "sn": "andyoucreations",
+  "priceSource": "s44-fix-charter-maxtier",
+  "priceConfidence": "high",
+  "valid": 12,
+  "tiers": [
+   {
+    "singular": "Party Option (No swim) - No Transportation",
+    "note": "up to 40 people include children and infant",
+    "mps": 1,
+    "floor": 2300.0,
+    "ceil": 2300.0,
+    "n": 12
+   },
+   {
+    "singular": "Snorkel/ Swim - No Transportation",
+    "note": "up to 40 people include children and infant",
+    "mps": 1,
+    "floor": 2500.0,
+    "ceil": 2500.0,
+    "n": 12
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 12,
+   "FALLBACK": 5,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "645464": {
+  "class": "a",
+  "why": "stored == ladder floor",
+  "name": "Ma'alaea Premier Luxury Private Charter",
+  "price": 995,
+  "status": "active",
+  "sn": "hawaiinautical-maui",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 16,
+  "tiers": [
+   {
+    "singular": "Private Charter 2 Hour",
+    "note": "",
+    "mps": 1,
+    "floor": 995.0,
+    "ceil": 995.0,
+    "n": 4
+   },
+   {
+    "singular": "Private Charter 3 Hour",
+    "note": "",
+    "mps": 1,
+    "floor": 1995.0,
+    "ceil": 1995.0,
+    "n": 7
+   },
+   {
+    "singular": "Private Charter 5 Hour",
+    "note": "",
+    "mps": 1,
+    "floor": 2995.0,
+    "ceil": 2995.0,
+    "n": 5
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 16,
+   "FALLBACK": 1,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "661692": {
+  "class": "INSUFFICIENT",
+  "why": "1 date-valid readings (<3); OK=1, FALLBACK=16",
+  "name": "10 Hour Private Charter",
+  "price": 1950,
+  "status": "active",
+  "sn": "imua-fishing-charters-kauai",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 1,
+  "tiers": [
+   {
+    "singular": "Private charter",
+    "note": "Ages 6 and up",
+    "mps": 1,
+    "floor": 1950.0,
+    "ceil": 1950.0,
+    "n": 1
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 1,
+   "FALLBACK": 16,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "670258": {
+  "class": "STALE",
+  "why": "stored $995.00 matches no live tier; ladder Two Hour Private Charter $950.00 / Three Hour Private Charter $1,200.00",
+  "name": "Mini Snorkeling Charter",
+  "price": 995,
+  "status": "active",
+  "sn": "oceanbluekonatours",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 15,
+  "tiers": [
+   {
+    "singular": "Two Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 950.0,
+    "ceil": 950.0,
+    "n": 15
+   },
+   {
+    "singular": "Three Hour Private Charter",
+    "note": "",
+    "mps": 1,
+    "floor": 1200.0,
+    "ceil": 1200.0,
+    "n": 15
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 15,
+   "FALLBACK": 2,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "674343": {
+  "class": "STALE",
+  "why": "stored $1,117.00 matches no live tier; ladder Private Charter $1,117.38",
+  "name": "Waimea Falls Oahu Circle Island Tour",
+  "price": 1117,
+  "status": "active",
+  "sn": "bikehawaii",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 16,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "Flat rate for up to 6 guests \u2022 Additional charge for extra guests \u2022 Max 14 passengers",
+    "mps": 6,
+    "floor": 1117.38,
+    "ceil": 1117.38,
+    "n": 16
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 16,
+   "FALLBACK": 1,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ },
+ "674389": {
+  "class": "STALE",
+  "why": "stored $1,117.00 matches no live tier; ladder Private Charter $1,117.38",
+  "name": "East Side Oahu Island Tour",
+  "price": 1117,
+  "status": "active",
+  "sn": "bikehawaii",
+  "priceSource": null,
+  "priceConfidence": "medium",
+  "valid": 16,
+  "tiers": [
+   {
+    "singular": "Private Charter",
+    "note": "Flat rate for up to 6 guests \u2022 Additional charge for extra guests \u2022 Max 14 passengers",
+    "mps": 6,
+    "floor": 1117.38,
+    "ceil": 1117.38,
+    "n": 16
+   }
+  ],
+  "zeros": [],
+  "grat": [],
+  "statuses": {
+   "OK": 16,
+   "FALLBACK": 1,
+   "UNSAMPLED": 0,
+   "ERROR": 0
+  }
+ }
+}
