@@ -2762,9 +2762,9 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "kauai",
-      "price": 950,
+      "price": 900,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "480 minutes",
@@ -2791,7 +2791,60 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 480
+        "durationMinutes": 480,
+        "priceSource": "s45-fix-charter",
+        "priceBasis": "Four Hour Private Charter: private 4h floor; charter label stands",
+        "tiers": [
+          {
+            "singular": "Four Hour Share Trip - Passenger",
+            "note": "Up to 6 passengers.",
+            "minPartySize": 1,
+            "price": 215,
+            "observations": 15
+          },
+          {
+            "singular": "Four Hour Deluxe Share Trip - Passenger",
+            "note": "Up to 4 passengers.",
+            "minPartySize": 1,
+            "price": 250,
+            "observations": 15
+          },
+          {
+            "singular": "Six Hour Share Trip - Passenger",
+            "note": "Up to 6 passengers.",
+            "minPartySize": 1,
+            "price": 250,
+            "observations": 14
+          },
+          {
+            "singular": "Six Hour Deluxe Share Trip - Passenger",
+            "note": "Up to 4 passengers.",
+            "minPartySize": 1,
+            "price": 320,
+            "observations": 14
+          },
+          {
+            "singular": "Four Hour Private Charter",
+            "note": "Up to 6 passengers.",
+            "minPartySize": 1,
+            "price": 900,
+            "observations": 15
+          },
+          {
+            "singular": "Six Hour Private Charter",
+            "note": "Up to 6 passengers.",
+            "minPartySize": 1,
+            "price": 1200,
+            "observations": 14
+          },
+          {
+            "singular": "Eight Hour Private Charter",
+            "note": "Up to 6 passengers.",
+            "minPartySize": 1,
+            "price": 1700,
+            "observations": 11
+          }
+        ]
       },
       "gallery": []
     },
@@ -4864,9 +4917,9 @@
       "category": "",
       "location": "United States/Hawaii/Lihue",
       "island": "kauai",
-      "price": 950,
+      "price": 900,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "480 minutes",
@@ -4891,7 +4944,32 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 480
+        "durationMinutes": 480,
+        "priceSource": "s45-fix-charter",
+        "priceBasis": "Half Day Charter (4hrs): live floor of the private ladder",
+        "tiers": [
+          {
+            "singular": "Half Day Charter (4hrs)",
+            "note": "6 guest max",
+            "minPartySize": 1,
+            "price": 900,
+            "observations": 10
+          },
+          {
+            "singular": "3/4 Day Charter (6hrs)",
+            "note": "6 guest max",
+            "minPartySize": 1,
+            "price": 1200,
+            "observations": 10
+          },
+          {
+            "singular": "Full Day Charter (8hrs)",
+            "note": "6 guest max",
+            "minPartySize": 1,
+            "price": 1750,
+            "observations": 10
+          }
+        ]
       },
       "gallery": []
     },
@@ -6696,9 +6774,9 @@
       "category": "",
       "location": "United States/Hawaii/Lihue",
       "island": "kauai",
-      "price": 1140,
+      "price": 2398.8,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "600 minutes",
@@ -6723,7 +6801,39 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 600
+        "durationMinutes": 600,
+        "priceSource": "s45-fix-charter",
+        "priceBasis": "Ten hour private charter: D-601: durationText \"10 Hour\" names this tier",
+        "tiers": [
+          {
+            "singular": "Four hour private charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 1198.8,
+            "observations": 13
+          },
+          {
+            "singular": "Six hour private charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 1558.8,
+            "observations": 10
+          },
+          {
+            "singular": "Eight hour private charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 1918.8,
+            "observations": 6
+          },
+          {
+            "singular": "Ten hour private charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 2398.8,
+            "observations": 6
+          }
+        ]
       },
       "gallery": []
     },
@@ -16523,9 +16633,9 @@
       "category": "",
       "location": "United States/Hawaii/Kapaʻa",
       "island": "kauai",
-      "price": 950,
+      "price": 850,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "240 minutes",
@@ -16550,7 +16660,32 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 240
+        "durationMinutes": 240,
+        "priceSource": "s45-fix-charter",
+        "priceBasis": "Four Hour Private Charter: live floor",
+        "tiers": [
+          {
+            "singular": "Four Hour Private Charter",
+            "note": "Up to 6 Passengers",
+            "minPartySize": 1,
+            "price": 850,
+            "observations": 9
+          },
+          {
+            "singular": "Six Hour Private Charter",
+            "note": "Up to 6 Passengers",
+            "minPartySize": 1,
+            "price": 1150,
+            "observations": 9
+          },
+          {
+            "singular": "Eight Hour Private Charter",
+            "note": "Up to 6 Passengers",
+            "minPartySize": 1,
+            "price": 1450,
+            "observations": 8
+          }
+        ]
       }
     },
     {
@@ -66707,9 +66842,9 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 995,
+      "price": 950,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -66732,7 +66867,27 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "_unknownFields": {
+        "priceSource": "s45-fix-charter",
+        "priceBasis": "Two Hour Private Charter: live floor",
+        "tiers": [
+          {
+            "singular": "Two Hour Private Charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 950,
+            "observations": 15
+          },
+          {
+            "singular": "Three Hour Private Charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 1200,
+            "observations": 15
+          }
+        ]
+      }
     },
     {
       "id": "674450",
@@ -69303,9 +69458,9 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 2000,
+      "price": 1650,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 80,
       "currency": "USD",
       "duration": null,
@@ -69337,7 +69492,34 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "_unknownFields": {
+        "priceSource": "s45-fix-charter",
+        "priceBasis": "Four Hour Private Charter: live floor",
+        "tiers": [
+          {
+            "singular": "Four Hour Private Charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 1650,
+            "observations": 13
+          },
+          {
+            "singular": "Five Hour Private Charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 1900,
+            "observations": 13
+          },
+          {
+            "singular": "Six Hour Private Charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 2150,
+            "observations": 13
+          }
+        ]
+      }
     },
     {
       "id": "509333",
@@ -76821,9 +77003,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 950,
+      "price": 1199,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "240 minutes",
@@ -76857,7 +77039,39 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 240
+        "durationMinutes": 240,
+        "priceSource": "s45-fix-charter",
+        "priceBasis": "Four Hour Private Charter: D-601: durationText \"4 Hours\" names this tier",
+        "tiers": [
+          {
+            "singular": "Two Hour Private Charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 649,
+            "observations": 16
+          },
+          {
+            "singular": "Three Hour Private Charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 950,
+            "observations": 16
+          },
+          {
+            "singular": "Four Hour Private Charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 1199,
+            "observations": 16
+          },
+          {
+            "singular": "Five Hour Private Charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 1498,
+            "observations": 16
+          }
+        ]
       },
       "gallery": []
     },
@@ -78426,8 +78640,8 @@
       "location": "United States/Hawaii/Kapolei",
       "island": "oahu",
       "price": 325,
-      "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -78454,7 +78668,32 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 180
+        "durationMinutes": 180,
+        "priceSource": "s45-fix-charter",
+        "priceBasis": "Person: primary per-person tier; price unchanged",
+        "tiers": [
+          {
+            "singular": "Infant",
+            "note": "0-2 years old",
+            "minPartySize": 1,
+            "price": 105,
+            "observations": 3
+          },
+          {
+            "singular": "Person",
+            "note": "Ages 3 and older. Price is per person",
+            "minPartySize": 1,
+            "price": 325,
+            "observations": 3
+          },
+          {
+            "singular": "Make it Private",
+            "note": "All Ages • Same cruise, just your crew",
+            "minPartySize": 1,
+            "price": 1950,
+            "observations": 3
+          }
+        ]
       }
     },
     {
@@ -91323,9 +91562,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 1150,
+      "price": 1400,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "90 minutes",
@@ -91356,7 +91595,18 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 90
+        "durationMinutes": 90,
+        "priceSource": "s45-fix-charter",
+        "priceBasis": "Private Charter: live floor; single tier",
+        "tiers": [
+          {
+            "singular": "Private Charter",
+            "note": "Up to 20 people",
+            "minPartySize": 1,
+            "price": 1400,
+            "observations": 6
+          }
+        ]
       },
       "gallery": []
     },
@@ -115682,9 +115932,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 700,
+      "price": 900,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "60 minutes",
@@ -115711,7 +115961,18 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 60
+        "durationMinutes": 60,
+        "priceSource": "s45-fix-charter",
+        "priceBasis": "Private charter: live floor; single tier",
+        "tiers": [
+          {
+            "singular": "Private charter",
+            "note": "All ages",
+            "minPartySize": 1,
+            "price": 900,
+            "observations": 16
+          }
+        ]
       }
     },
     {
@@ -119366,9 +119627,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 899,
+      "price": 1499,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "360 minutes",
@@ -119395,7 +119656,46 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 360
+        "durationMinutes": 360,
+        "priceSource": "s45-fix-charter",
+        "priceBasis": "Six Hour Private Charter: D-601: durationText \"6 hour\" names this tier",
+        "tiers": [
+          {
+            "singular": "Two Hour Private Charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 699,
+            "observations": 17
+          },
+          {
+            "singular": "Three Hour Private Charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 899,
+            "observations": 17
+          },
+          {
+            "singular": "Four Hour Private Charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 1099,
+            "observations": 17
+          },
+          {
+            "singular": "Five Hour Private Charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 1299,
+            "observations": 17
+          },
+          {
+            "singular": "Six Hour Private Charter",
+            "note": "",
+            "minPartySize": 1,
+            "price": 1499,
+            "observations": 16
+          }
+        ]
       },
       "gallery": []
     },
@@ -120360,9 +120660,9 @@
       "category": "",
       "location": "United States/Hawaii/Waimea",
       "island": "kauai",
-      "price": 499,
+      "price": 1999,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -120387,7 +120687,41 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "_unknownFields": {
+        "priceSource": "s45-fix-charter",
+        "priceBasis": "Two Hour Private Charter: the 2h Private Charter fare; stored $499 was an add-on tier (Additional Hours / TRANSPORTATION Add-On), never a fare",
+        "tiers": [
+          {
+            "singular": "CATERED MENU Add-On",
+            "note": "This selection requires a minimum of 7 days advanced notice.  Price is per passenger, select the number of passengers.",
+            "minPartySize": 1,
+            "price": 199,
+            "observations": 4
+          },
+          {
+            "singular": "Additional Hours",
+            "note": "",
+            "minPartySize": 1,
+            "price": 499,
+            "observations": 4
+          },
+          {
+            "singular": "TRANSPORTATION Add-On",
+            "note": "",
+            "minPartySize": 1,
+            "price": 499,
+            "observations": 4
+          },
+          {
+            "singular": "Two Hour Private Charter",
+            "note": "Up to 6 Passengers",
+            "minPartySize": 1,
+            "price": 1999,
+            "observations": 4
+          }
+        ]
+      }
     },
     {
       "id": "2803",
@@ -124573,9 +124907,9 @@
       "category": "",
       "location": "United States/Hawaii/Waianae",
       "island": "oahu",
-      "price": 1499,
+      "price": 1199,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "420 minutes",
@@ -124602,7 +124936,18 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 420
+        "durationMinutes": 420,
+        "priceSource": "s45-fix-charter",
+        "priceBasis": "7H Offshore fishing: live floor; single tier",
+        "tiers": [
+          {
+            "singular": "7H Offshore fishing",
+            "note": "",
+            "minPartySize": 1,
+            "price": 1199,
+            "observations": 7
+          }
+        ]
       }
     },
     {
@@ -140038,9 +140383,9 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 1800,
-      "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "price": 189,
+      "priceLabel": "per person",
+      "priceConfidence": "high",
       "qualityScore": 80,
       "currency": "USD",
       "duration": "240 minutes",
@@ -140067,7 +140412,25 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 240
+        "durationMinutes": 240,
+        "priceSource": "s45-fix-charter",
+        "priceBasis": "Passenger: per-seat product; $1,800 matched no tier",
+        "tiers": [
+          {
+            "singular": "Passenger",
+            "note": "Ages 4+",
+            "minPartySize": 1,
+            "price": 189,
+            "observations": 16
+          },
+          {
+            "singular": "Private Charter",
+            "note": "Up to 18 Total Passengers",
+            "minPartySize": 1,
+            "price": 2400,
+            "observations": 16
+          }
+        ]
       },
       "gallery": []
     },
@@ -142744,8 +143107,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 920,
-      "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceLabel": "unknown",
+      "priceConfidence": "low",
       "qualityScore": 90,
       "currency": "USD",
       "duration": "480 minutes",

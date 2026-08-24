@@ -1,0 +1,550 @@
+{
+ "1321": [
+  {
+   "file": "blog/hawaii-fishing-charters.html",
+   "ctx": "tps://fareharbor.com/embeds/book/fishingcharterskauai/items/1321/?asn=fhdn&asn-ref=walktheplankadventure"
+  },
+  {
+   "file": "blog/hawaii-fishing-charters.html",
+   "ctx": "ok-btn-inline\" target=\"_blank\" rel=\"noopener\" data-tour-id=\"1321\" data-tour-name=\"Ohana Fishing Charter\""
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "rskauai\": {    \"code\": 200,    \"err\": null,    \"pks\": [     1321    ]   },   \"gofishkauai\": {    \"code\":"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"1321\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": ": \"inactive\",    \"storedPrice\": 5700,    \"tags\": []   },   \"1321\": {    \"durationText\": \"8 Hour\",    \"is"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": ",    \"2026-11-22\": {     \"status\": \"UNSAMPLED\"    }   },   \"1321\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "\": \"starting at\",     \"currency\": \"USD\"   },   {     \"id\": \"1321\",     \"name\": \"Ohana Fishing Charter\", "
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "tps://fareharbor.com/embeds/book/fishingcharterskauai/items/1321/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "57549": [
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "cruises\": {    \"code\": 200,    \"err\": null,    \"pks\": [     57549,     496437,     496438,     496441,   "
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"57549\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "edPrice\": 1500,    \"tags\": [     \"Boat Rental\"    ]   },   \"57549\": {    \"durationText\": \"3 Hour\",    \"is"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "d\": 1014345      }     ],     \"zero_tiers\": []    }   },   \"57549\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "el\": \"per adult\",     \"currency\": \"USD\"   },   {     \"id\": \"57549\",     \"name\": \"Ko Olina Exclusive Snork"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "ink\": \"https://fareharbor.com/embeds/book/manacruises/items/57549/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "186807": [
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "shkauai\": {    \"code\": 200,    \"err\": null,    \"pks\": [     186807    ]   },   \"grandersuniversity\": {    "
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"186807\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "0,    \"tags\": [     \"Boat Tour\",     \"Fishing\"    ]   },   \"186807\": {    \"durationText\": \"10 Hour\",    \"i"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "id\": 341339      }     ],     \"zero_tiers\": []    }   },   \"186807\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "scripts-staging/v52-wh-dryrun-raw.json",
+   "ctx": "nal information \",     \"dollarHits\": []   },   {     \"id\": \"186807\",     \"name\": \"Private Fishing Charter\""
+  },
+  {
+   "file": "scripts-staging/v52-wh-dryrun-raw.json",
+   "ctx": "ink\": \"https://fareharbor.com/embeds/book/gofishkauai/items/186807/?asn=fhdn&asn-ref=walktheplankadventure"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "damia nuts\",       \"Map of Kauai\"     ]   },   {     \"id\": \"186807\",     \"name\": \"Private Fishing Charter\""
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "ink\": \"https://fareharbor.com/embeds/book/gofishkauai/items/186807/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "203410": [
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "   \"code\": 200,    \"err\": null,    \"pks\": [     203401,     203410    ]   },   \"hawaiitourboat\": {    \"cod"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"203410\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "   \"Catamaran\",     \"Food Tour\",     \"Private\"    ]   },   \"203410\": {    \"durationText\": \"4 Hours\",    \"i"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "id\": 690551      }     ],     \"zero_tiers\": []    }   },   \"203410\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "abel\": \"unknown\",     \"currency\": \"USD\"   },   {     \"id\": \"203410\",     \"name\": \"Private Catamaran Cruise"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "ttps://fareharbor.com/embeds/book/hawaiioceancharters/items/203410/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "224702": [
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "al-kona\": {    \"code\": 200,    \"err\": null,    \"pks\": [     224702    ]   },   \"hawaiinautical-maui\": {   "
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"224702\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": " [     \"Private\",     \"Scooter\",     \"Snorkel\"    ]   },   \"224702\": {    \"durationText\": \"Duration\\n5 Hou"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "id\": 411042      }     ],     \"zero_tiers\": []    }   },   \"224702\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "scripts-staging/v52-wh-dryrun-raw.json",
+   "ctx": "ails Cruise alon\",     \"dollarHits\": []   },   {     \"id\": \"224702\",     \"name\": \"Kona Luxury Private Yach"
+  },
+  {
+   "file": "scripts-staging/v52-wh-dryrun-raw.json",
+   "ctx": "ttps://fareharbor.com/embeds/book/hawaiinautical-kona/items/224702/?asn=fhdn&asn-ref=walktheplankadventure"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "el\": \"per adult\",     \"currency\": \"USD\"   },   {     \"id\": \"224702\",     \"name\": \"Kona Luxury Private Yach"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "ttps://fareharbor.com/embeds/book/hawaiinautical-kona/items/224702/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "332728": [
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "   \"code\": 200,    \"err\": null,    \"pks\": [     330790,     332728,     416254    ]   },   \"poipuoffshorea"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"332728\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "\"storedPrice\": 520,    \"tags\": [     \"Shuttle\"    ]   },   \"332728\": {    \"durationText\": \"8 Hours\",    \"i"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "id\": 606769      }     ],     \"zero_tiers\": []    }   },   \"332728\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "abel\": \"charter\",     \"currency\": \"USD\"   },   {     \"id\": \"332728\",     \"name\": \"\u300cPrivate Charter\u300d8 Hours"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "ttps://fareharbor.com/embeds/book/paradisehawaiitours/items/332728/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "391875": [
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "gisland\": {    \"code\": 200,    \"err\": null,    \"pks\": [     391875    ]   },   \"snorkelingkona\": {    \"cod"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"391875\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "toredPrice\": 400,    \"tags\": [     \"Boat Tour\"    ]   },   \"391875\": {    \"durationText\": \"Duration\\n\\n4 H"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "id\": 619220      }     ],     \"zero_tiers\": []    }   },   \"391875\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "scripts-staging/v52-wh-dryrun-raw.json",
+   "ctx": "ayaking. Let us \",     \"dollarHits\": []   },   {     \"id\": \"391875\",     \"name\": \"4 Hour Kealakekua Snorke"
+  },
+  {
+   "file": "scripts-staging/v52-wh-dryrun-raw.json",
+   "ctx": " \"https://fareharbor.com/embeds/book/snorkelbigisland/items/391875/?asn=fhdn&asn-ref=walktheplankadventure"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "l\": \"per person\",     \"currency\": \"USD\"   },   {     \"id\": \"391875\",     \"name\": \"4 Hour Kealakekua Snorke"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": " \"https://fareharbor.com/embeds/book/snorkelbigisland/items/391875/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "476368": [
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "shtours\": {    \"code\": 200,    \"err\": null,    \"pks\": [     476368    ]   },   \"kauaifishingcharters\": {  "
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"476368\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "s\": \"active\",    \"storedPrice\": 1998,    \"tags\": []   },   \"476368\": {    \"durationText\": \"Duration\\n1.5 H"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": ",    \"2026-11-22\": {     \"status\": \"UNSAMPLED\"    }   },   \"476368\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "scripts-staging/v52-wh-dryrun-raw.json",
+   "ctx": ",     \"dollarHits\": [       \"$80\"     ]   },   {     \"id\": \"476368\",     \"name\": \"Private Tour\",     \"comp"
+  },
+  {
+   "file": "scripts-staging/v52-wh-dryrun-raw.json",
+   "ctx": "\"https://fareharbor.com/embeds/book/islandsplashtours/items/476368/?asn=fhdn&asn-ref=walktheplankadventure"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "nfidence\": null,     \"priceLabel\": null   },   {     \"id\": \"476368\",     \"name\": \"Private Tour\",     \"comp"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "\"https://fareharbor.com/embeds/book/islandsplashtours/items/476368/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "492381": [
+  {
+   "file": "blog/hawaii-fishing-charters.html",
+   "ctx": "tps://fareharbor.com/embeds/book/kauaifishingcharters/items/492381/?asn=fhdn&asn-ref=walktheplankadventure"
+  },
+  {
+   "file": "blog/hawaii-fishing-charters.html",
+   "ctx": "ok-btn-inline\" target=\"_blank\" rel=\"noopener\" data-tour-id=\"492381\" data-tour-name=\"Private Charters\">Chec"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "harters\": {    \"code\": 200,    \"err\": null,    \"pks\": [     492381    ]   },   \"kepoikai\": {    \"code\": 20"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"492381\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": " \"Boat Rental\",     \"Boat Tour\",     \"Private\"    ]   },   \"492381\": {    \"durationText\": \"8hrs\",    \"isla"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "id\": 876078      }     ],     \"zero_tiers\": []    }   },   \"492381\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": " assess a 100% cancellation fee.\"     ]   },   {     \"id\": \"492381\",     \"name\": \"Private Charters\",     \""
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "tps://fareharbor.com/embeds/book/kauaifishingcharters/items/492381/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "506372": [
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "fishing\": {    \"code\": 200,    \"err\": null,    \"pks\": [     506372    ]   },   \"alohaoceanexcursions\": {  "
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"506372\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "us\": \"active\",    \"storedPrice\": 995,    \"tags\": []   },   \"506372\": {    \"durationText\": \"Duration\\n4 Hou"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "id\": 925760      }     ],     \"zero_tiers\": []    }   },   \"506372\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "abel\": \"unknown\",     \"currency\": \"USD\"   },   {     \"id\": \"506372\",     \"name\": \"Private Charters\",     \""
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "s://fareharbor.com/embeds/book/alohakauaisportfishing/items/506372/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "509332": [
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "   \"code\": 200,    \"err\": null,    \"pks\": [     504448,     509332,     509333,     670258    ]   },   \"oc"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"509332\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "us\": \"active\",    \"storedPrice\": 950,    \"tags\": []   },   \"509332\": {    \"durationText\": \"\",    \"island\":"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "id\": 903015      }     ],     \"zero_tiers\": []    }   },   \"509332\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "scripts-staging/v52-wh-dryrun-raw.json",
+   "ctx": "See any illegal \",     \"dollarHits\": []   },   {     \"id\": \"509332\",     \"name\": \"Premium Snorkeling Chart"
+  },
+  {
+   "file": "scripts-staging/v52-wh-dryrun-raw.json",
+   "ctx": "https://fareharbor.com/embeds/book/oceanbluekonatours/items/509332/?asn=fhdn&asn-ref=walktheplankadventure"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "       \"Night Drop-Off Available\"     ]   },   {     \"id\": \"509332\",     \"name\": \"Premium Snorkeling Chart"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "https://fareharbor.com/embeds/book/oceanbluekonatours/items/509332/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "513910": [
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "ghawaii\": {    \"code\": 200,    \"err\": null,    \"pks\": [     513910    ]   },   \"waikikimarinesports\": {   "
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"513910\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "us\": \"active\",    \"storedPrice\": 995,    \"tags\": []   },   \"513910\": {    \"durationText\": \"7 Hours\",    \"i"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "id\": 900325      }     ],     \"zero_tiers\": []    }   },   \"513910\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "scripts-staging/v52-wh-dryrun-raw.json",
+   "ctx": "oy a bi-coastal \",     \"dollarHits\": []   },   {     \"id\": \"513910\",     \"name\": \"Full Day 7H Private Offs"
+  },
+  {
+   "file": "scripts-staging/v52-wh-dryrun-raw.json",
+   "ctx": "ps://fareharbor.com/embeds/book/ultimateboatinghawaii/items/513910/?asn=fhdn&asn-ref=walktheplankadventure"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "      \"Hotel pickup and drop-off\"     ]   },   {     \"id\": \"513910\",     \"name\": \"Full Day 7H Private Offs"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "ps://fareharbor.com/embeds/book/ultimateboatinghawaii/items/513910/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "565618": [
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "onolulu\": {    \"code\": 200,    \"err\": null,    \"pks\": [     565618,     565627    ]   },   \"snorkelbigisla"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"565618\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "oredPrice\": 1450,    \"tags\": [     \"Boat Tour\"    ]   },   \"565618\": {    \"durationText\": \"6 hour\",    \"is"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "id\": 884476      }     ],     \"zero_tiers\": []    }   },   \"565618\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "abel\": \"unknown\",     \"currency\": \"USD\"   },   {     \"id\": \"565618\",     \"name\": \"Day Sail\",     \"company\""
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "://fareharbor.com/embeds/book/sailingbeautyofhonolulu/items/565618/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "593603": [
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "harters\": {    \"code\": 200,    \"err\": null,    \"pks\": [     593603    ]   },   \"hawaiinautical-kona\": {   "
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"593603\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "us\": \"active\",    \"storedPrice\": 995,    \"tags\": []   },   \"593603\": {    \"durationText\": \"\",    \"island\":"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "d\": 1050765      }     ],     \"zero_tiers\": []    }   },   \"593603\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "ny food you wish to bring aboard\"     ]   },   {     \"id\": \"593603\",     \"name\": \"Sunset Cruise\",     \"com"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "areharbor.com/embeds/book/hawaiiislandprivatecharters/items/593603/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "611584": [
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "   \"code\": 200,    \"err\": null,    \"pks\": [     605996,     611584    ]   },   \"konacowboysportfishing\": {"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"611584\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "r\",     \"History Tour\",     \"Sightseeing Tour\"    ]   },   \"611584\": {    \"durationText\": \"Duration\\n\\n1 h"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "d\": 1070996      }     ],     \"zero_tiers\": []    }   },   \"611584\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "ngers safely to Honolulu Harbor.\"     ]   },   {     \"id\": \"611584\",     \"name\": \"Morning Ceremony Sail\", "
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "ngLink\": \"https://fareharbor.com/embeds/book/kepoikai/items/611584/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "670258": [
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": ": null,    \"pks\": [     504448,     509332,     509333,     670258    ]   },   \"oceanecotour\": {    \"code\""
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"670258\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "s\": \"active\",    \"storedPrice\": 1950,    \"tags\": []   },   \"670258\": {    \"durationText\": \"\",    \"island\":"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "charter\",       \"tier_id\": 633817      }     ]    }   },   \"670258\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "es, to review photos, and relax!\"     ]   },   {     \"id\": \"670258\",     \"name\": \"Mini Snorkeling Charter\""
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "https://fareharbor.com/embeds/book/oceanbluekonatours/items/670258/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "674343": [
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "ehawaii\": {    \"code\": 200,    \"err\": null,    \"pks\": [     674343,     674389    ]   },   \"bishaka\": {   "
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"674343\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "us\": \"active\",    \"storedPrice\": 995,    \"tags\": []   },   \"674343\": {    \"durationText\": \"8 Hours\",    \"i"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "id\": 925761      }     ],     \"zero_tiers\": []    }   },   \"674343\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "scripts-staging/v52-wh-dryrun-raw.json",
+   "ctx": "nal information \",     \"dollarHits\": []   },   {     \"id\": \"674343\",     \"name\": \"Waimea Falls Oahu Circle"
+  },
+  {
+   "file": "scripts-staging/v52-wh-dryrun-raw.json",
+   "ctx": "Link\": \"https://fareharbor.com/embeds/book/bikehawaii/items/674343/?asn=fhdn&asn-ref=walktheplankadventure"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "abel\": \"unknown\",     \"currency\": \"USD\"   },   {     \"id\": \"674343\",     \"name\": \"Waimea Falls Oahu Circle"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "Link\": \"https://fareharbor.com/embeds/book/bikehawaii/items/674343/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ],
+ "674389": [
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "   \"code\": 200,    \"err\": null,    \"pks\": [     674343,     674389    ]   },   \"bishaka\": {    \"code\": 200"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "3\": 200,    \"2026-10-23\": 200,    \"2026-11-22\": 200   },   \"674389\": {    \"2026-08-24\": 200,    \"2026-08-2"
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "toredPrice\": 1117,    \"tags\": [     \"Bus Tour\"    ]   },   \"674389\": {    \"durationText\": \"6.5 Hours\",    "
+  },
+  {
+   "file": "scripts-staging/s44-charter-ladders-2026-08-24.json",
+   "ctx": "d\": 1240532      }     ],     \"zero_tiers\": []    }   },   \"674389\": {    \"2026-08-24\": {     \"date_valid\""
+  },
+  {
+   "file": "scripts-staging/v52-wh-dryrun-raw.json",
+   "ctx": "\"dollarHits\": [       \"$1,117.38\"     ]   },   {     \"id\": \"674389\",     \"name\": \"East Side Oahu Island To"
+  },
+  {
+   "file": "scripts-staging/v52-wh-dryrun-raw.json",
+   "ctx": "Link\": \"https://fareharbor.com/embeds/book/bikehawaii/items/674389/?asn=fhdn&asn-ref=walktheplankadventure"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": ": \"medium\",     \"priceLabel\": \"charter\"   },   {     \"id\": \"674389\",     \"name\": \"East Side Oahu Island To"
+  },
+  {
+   "file": "tours-data.json.bak-pre-akamai-cleanup",
+   "ctx": "Link\": \"https://fareharbor.com/embeds/book/bikehawaii/items/674389/?asn=fhdn&asn-ref=walktheplankadventure"
+  }
+ ]
+}
