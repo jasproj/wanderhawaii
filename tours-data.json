@@ -59727,9 +59727,9 @@
       "category": "",
       "location": "United States/Hawaii/Hilo",
       "island": "big island",
-      "price": 599,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 449,
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -59755,7 +59755,18 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 180
-      }
+      },
+      "priceBreakdown": [
+        {
+          "id": 1168675,
+          "singular": "3 Hour Fishing Charter",
+          "plural": "3 Hour Fishing Charter",
+          "note": "",
+          "priceCents": 44900,
+          "price": 449,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "396",
@@ -117494,8 +117505,8 @@
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
       "price": 599,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "private boat",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -117521,7 +117532,27 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
-      "gallery": []
+      "gallery": [],
+      "priceBreakdown": [
+        {
+          "id": 1010974,
+          "singular": "Snorkeler",
+          "plural": "Snorkelers",
+          "note": "",
+          "priceCents": 0,
+          "price": 0,
+          "minPartySize": 1
+        },
+        {
+          "id": 1010960,
+          "singular": "Private Boat Charter",
+          "plural": "Private Boat Charter",
+          "note": "",
+          "priceCents": 59900,
+          "price": 599,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "5544",
