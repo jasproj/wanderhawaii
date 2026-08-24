@@ -63093,9 +63093,9 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 2500,
+      "price": 1500,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 90,
       "currency": "USD",
       "duration": "120 minutes",
@@ -63122,7 +63122,12 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "priceSource": "s44-fix-charter-maxtier",
+        "priceTier": "Small Private Charter",
+        "priceBaseRule": "D-597 live floor of the whole-boat tier; the Math.max ladder ceiling ($2,500.00) was rejected under D-600",
+        "priceObservations": 17,
+        "priceSweptDates": 17
       }
     },
     {
@@ -63595,9 +63600,9 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 1800,
+      "price": 1400,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "240 minutes",
@@ -63630,7 +63635,12 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 240
+        "durationMinutes": 240,
+        "priceSource": "s44-fix-charter-maxtier",
+        "priceTier": "Half Day Fishing Charter",
+        "priceBaseRule": "D-597 live floor of the whole-boat tier; the Math.max ladder ceiling ($1,800.00) was rejected under D-600",
+        "priceObservations": 16,
+        "priceSweptDates": 17
       },
       "gallery": []
     },
@@ -80105,9 +80115,9 @@
       "category": "",
       "location": "United States/Hawaii/Waianae",
       "island": "oahu",
-      "price": 3000,
+      "price": 2300,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 90,
       "currency": "USD",
       "duration": "120 minutes",
@@ -80132,7 +80142,12 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "priceSource": "s44-fix-charter-maxtier",
+        "priceTier": "Party Option (No swim) - Transportation included",
+        "priceBaseRule": "D-597 live floor of the whole-boat tier; the Math.max ladder ceiling ($3,000.00) was rejected under D-600",
+        "priceObservations": 9,
+        "priceSweptDates": 17
       },
       "gallery": []
     },
@@ -89509,9 +89524,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 2500,
+      "price": 2300,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "120 minutes",
@@ -89545,7 +89560,12 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "priceSource": "s44-fix-charter-maxtier",
+        "priceTier": "Party Option (No swim) - No Transportation",
+        "priceBaseRule": "D-597 live floor of the whole-boat tier; the Math.max ladder ceiling ($2,500.00) was rejected under D-600",
+        "priceObservations": 12,
+        "priceSweptDates": 17
       }
     },
     {
