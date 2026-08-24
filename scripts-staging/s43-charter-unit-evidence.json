@@ -1,0 +1,3113 @@
+{
+  "_meta": {
+    "id": "s43-charter-unit",
+    "title": "S43 — charter-unit template: live adjudication of the 47 whole-unit held rows",
+    "treeBase": "cdeabe79592db1d7027ded5ac0f32bc933b98062",
+    "population": "the whole-unit subset of the 95 rows held by #252 for the charter-unit template",
+    "derivation": "s42 §6 amended PUBLISH (154) minus the 59 pks #252 wrote, filtered to unit==whole-unit. The s42 parse reproduces those 59 pks exactly against the tree, which is what corroborates the untracked s42 evidence file.",
+    "instrument": "fareharbor.com/api/embed/{shortname}/price-preview/per-item/v2/?item_pks={csv}&include_breakdown=yes&date={d}",
+    "datesProbed": [
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-23",
+      "2026-10-23",
+      "2026-11-22"
+    ],
+    "dateValidityRule": "s42: a reading counts only when availability.start_at[0:10] === the requested date. Everything else is discarded, not repaired.",
+    "zeroRules": "D-575: a $0 tier is not a fare and never wins the base. D-505: a reading whose every tier is $0 is contamination. Per the #252 convention $0 tiers ARE retained inside priceBreakdown, so they appear in liveTiers here.",
+    "productIdentity": "(customer_type.id, singular, note, min_party_size) — never the tier id alone, never the label alone.",
+    "basePriceRule": "publish price is the WINNING TIER's own floor across valid readings, never the ladder minimum across all tiers. Cheapest tier is not base fare.",
+    "requests": {
+      "batches": 24,
+      "dates": 17,
+      "total": 408,
+      "failures": 0,
+      "emptyBodies": 0,
+      "distinctResponseHashes": 357
+    },
+    "readings": {
+      "rowDates": 799,
+      "returned": 795,
+      "valid": 631,
+      "fallbackDiscarded": 164,
+      "itemAbsent": 4
+    },
+    "ruling": "Option 1 (2026-08-24): publish 569816 and 663614 only, idiom \"From $X · private boat\". The other 40 cleared rows stay HOLD — the ruled idiom asserts a product kind, and only these two are watercraft. s44 adjudicates per-kind labels AND catalogue scope (the vehicle/shuttle subset may be the ground-transfer class WUSVI ruled out of scope).",
+    "openFindings": [
+      "PARTY_BARE prefix evasion: s42 amendment 1 anchors ^(N|one..ten)\\s+(person|people|ppl|pax)$. Live labels carry prefixes — \"Private Group Tour | 2 People\" (pk 40692) and \"Private Group | 3 People or More\" (pk 5651) — so step 5 never fires and a per-person rate inside a party tier survives as the base. 40692 would publish $350 while a solo buyer pays $700. Same class as the kid|kids and bare-N-People gaps. NEEDS RATIFICATION.",
+      "s42 internal inconsistency: §6 per-row units give other=42, per-item/duration=6 for the held 95; the s42 write-population summary gives 38 and 10. Both sum to 95 and whole-unit=47 agrees exactly, so this does not affect the s43 population.",
+      "Stored-breakdown minima below published base: re-derived 21 of 59 on the #252 rows; s42 states 20. Delta +1, immaterial here, recorded because every claimed figure is untrusted."
+    ],
+    "disposition": {
+      "NO-WHOLE-BOAT-TIER": 5,
+      "HOLD": 40,
+      "PUBLISH": 2
+    },
+    "gateBlastRadius": {
+      "note": "The gate branch matches NORMALIZED priceLabel (trim + toLowerCase), so it also picks up rows already carrying \"Private Boat\" in title case. These were NOT part of the 47-row s43 population and were not written by this pass; they were already published (priceConfidence high, priceBreakdown present) and were simply invisible on curated pages because the old gate did not recognise the label. Both were live-verified here before being allowed to render.",
+      "preExistingRows": [
+        {
+          "pk": 153715,
+          "name": "Sunset Views Cruise",
+          "shortname": "captainchads",
+          "storedPrice": 899.99,
+          "storedLabel": "Private Boat",
+          "valid": 15,
+          "fallbackDiscarded": 2,
+          "liveTier": "Private Boat / plural \"Up To 6 People\" / note \"All Ages welcome\" / mps 1",
+          "liveFloor": 899.99,
+          "storedMatchesLiveTier": true,
+          "reachesCuratedPage": false
+        },
+        {
+          "pk": 277531,
+          "name": "Wildlife Encounter Snorkel",
+          "shortname": "captainchads",
+          "storedPrice": 1050,
+          "storedLabel": "Private Boat",
+          "valid": 13,
+          "fallbackDiscarded": 4,
+          "liveTier": "Private Boat / plural \"Up To 6 People\" / note \"All Ages welcome\" / mps 1",
+          "liveFloor": 1050,
+          "storedMatchesLiveTier": true,
+          "reachesCuratedPage": true
+        }
+      ],
+      "curatedSurfaceEffect": "Exactly 2 rows render \"From $X · private boat\" on the 13 curated pages: 663614 (written here, fishing.html) and 277531 (pre-existing, snorkeling.html + snorkeling-tours-hawaii.html). The other written row 569816 and the other pre-existing row 153715 match NO curated page predicate — 569816 is tagged only \"Boat Tour\" on big island and 153715 only \"Boat Tour\" on kauai, and no curated page filters on that tag. So the branch carries 2 rows on curated surfaces, but not the two that were expected."
+    },
+    "schemaNote": "priceCentsSeen and floorCents are integer cents as returned by FareHarbor. liveTiers is sorted by floorCents then id. Rows sorted by pk. No clock reads: this file regenerates byte-identically from the same sweep."
+  },
+  "rows": [
+    {
+      "pk": 5651,
+      "name": "Nature & Turtle Tour",
+      "company": "Sea & Board Sports Hawaii LLC",
+      "island": "oahu",
+      "shortname": "sbshawaii",
+      "s42": {
+        "baseTier": "3 People or More",
+        "basePrice": "$165.00",
+        "unit": "whole-unit",
+        "decidedBy": "step5 party condition"
+      },
+      "stored": {
+        "price": 165,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 12,
+        "fallbackDiscarded": 5,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "NO-WHOLE-BOAT-TIER",
+      "winningTier": {
+        "id": 17462,
+        "singular": "Private Group | 3 People or More",
+        "note": "Reserved for you and your group only",
+        "minPartySize": 1,
+        "floor": 165
+      },
+      "liveTiers": [
+        {
+          "id": 17452,
+          "singular": "Group Rate",
+          "plural": "Group Rate",
+          "note": "Open Group. Great for making new friends!",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            14000
+          ],
+          "floorCents": 14000,
+          "stable": true,
+          "validDatesSeen": 12
+        },
+        {
+          "id": 17462,
+          "singular": "Private Group | 3 People or More",
+          "plural": "Private Group | 3 People or More",
+          "note": "Reserved for you and your group only",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            16500
+          ],
+          "floorCents": 16500,
+          "stable": true,
+          "validDatesSeen": 12
+        },
+        {
+          "id": 20336,
+          "singular": "2 Person Private",
+          "plural": "2 Person Private",
+          "note": "Max 2 person. One on One tour with instructor",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            18500
+          ],
+          "floorCents": 18500,
+          "stable": true,
+          "validDatesSeen": 12
+        },
+        {
+          "id": 1104299,
+          "singular": "One Person Private",
+          "plural": "One Person Private",
+          "note": "Max 1 person. One on One tour with instructor",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            22500
+          ],
+          "floorCents": 22500,
+          "stable": true,
+          "validDatesSeen": 12
+        }
+      ],
+      "disposition": "NO-WHOLE-BOAT-TIER",
+      "why": "winning tier reads per-person: label=\"Private Group | 3 People or More\"",
+      "published": null
+    },
+    {
+      "pk": 8631,
+      "name": "Private & Semi Private Surf Lesson",
+      "company": "Royal Hawaiian Surf Academy",
+      "island": "maui",
+      "shortname": "royalhawaiiansurfacademy",
+      "s42": {
+        "baseTier": "Exclusive Private Group • 2 Hours",
+        "basePrice": "$150.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 250,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 16,
+        "fallbackDiscarded": 1,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 24193,
+        "singular": "Exclusive Private Group • 2 Hours",
+        "note": "2 to 4 students in a private group with a dedicated instructor",
+        "minPartySize": 1,
+        "floor": 150
+      },
+      "liveTiers": [
+        {
+          "id": 24193,
+          "singular": "Exclusive Private Group • 2 Hours",
+          "plural": "Exclusive Private Group • 2 Hours",
+          "note": "2 to 4 students in a private group with a dedicated instructor",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            15000
+          ],
+          "floorCents": 15000,
+          "stable": true,
+          "validDatesSeen": 16
+        },
+        {
+          "id": 24195,
+          "singular": "Private 1-on-1 Surf Lesson - 2 hours",
+          "plural": "Private  1-on-1 Surf Lessons - 2 hours",
+          "note": "One on one with instructor • Required for children 9 and under",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            25000
+          ],
+          "floorCents": 25000,
+          "stable": true,
+          "validDatesSeen": 16
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 40692,
+      "name": "CIRCLE ISLAND JEEP TOUR",
+      "company": "Sea & Board Sports Hawaii LLC",
+      "island": "oahu",
+      "shortname": "sbshawaii",
+      "s42": {
+        "baseTier": "2 People",
+        "basePrice": "$350.00",
+        "unit": "whole-unit",
+        "decidedBy": "step5 party condition"
+      },
+      "stored": {
+        "price": 700,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 12,
+        "fallbackDiscarded": 5,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "NO-WHOLE-BOAT-TIER",
+      "winningTier": {
+        "id": 1262805,
+        "singular": "Private Group Tour | 2 People",
+        "note": "Private Group Tour | 2 People",
+        "minPartySize": 1,
+        "floor": 350
+      },
+      "liveTiers": [
+        {
+          "id": 778120,
+          "singular": "Private Group Tour | 3-8 People",
+          "plural": "Private Group Tour | 3-8 People",
+          "note": "Private Group Tour | 3-8 People",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            29900
+          ],
+          "floorCents": 29900,
+          "stable": true,
+          "validDatesSeen": 12
+        },
+        {
+          "id": 1262805,
+          "singular": "Private Group Tour | 2 People",
+          "plural": "Private Group Tour | 2 People",
+          "note": "Private Group Tour | 2 People",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            35000
+          ],
+          "floorCents": 35000,
+          "stable": true,
+          "validDatesSeen": 12
+        },
+        {
+          "id": 990238,
+          "singular": "Private Group Tour | 1 Person",
+          "plural": "Private Group Tour | 1 Person",
+          "note": "Private Group Tour | 1 Person",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            70000
+          ],
+          "floorCents": 70000,
+          "stable": true,
+          "validDatesSeen": 12
+        }
+      ],
+      "disposition": "NO-WHOLE-BOAT-TIER",
+      "why": "winning tier reads per-person: label=\"Private Group Tour | 2 People\"",
+      "published": null
+    },
+    {
+      "pk": 67260,
+      "name": "Honeymoon Lei Greeting - Honolulu Airport, Oahu",
+      "company": "LeiGreeting.com",
+      "island": "oahu",
+      "shortname": "leigreeting",
+      "s42": {
+        "baseTier": "Classic Orchid Honeymoon Special (Set of 2)",
+        "basePrice": "$75.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 75,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 14,
+        "fallbackDiscarded": 3,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 150172,
+        "singular": "Classic Orchid Honeymoon Special (Set of 2)",
+        "note": "Two single strand orchid lei",
+        "minPartySize": 1,
+        "floor": 75
+      },
+      "liveTiers": [
+        {
+          "id": 150172,
+          "singular": "Classic Orchid Honeymoon Special (Set of 2)",
+          "plural": "Classic Orchid Honeymoon Special (Set of 2)",
+          "note": "Two single strand orchid lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            7500
+          ],
+          "floorCents": 7500,
+          "stable": true,
+          "validDatesSeen": 14
+        },
+        {
+          "id": 150176,
+          "singular": "Aloha Honeymoon Special (Set of 2)",
+          "plural": "Aloha Honeymoon Special (Set of 2)",
+          "note": "One Single Strand Orchid Lei & one Ti Leaf Lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            7500
+          ],
+          "floorCents": 7500,
+          "stable": true,
+          "validDatesSeen": 14
+        },
+        {
+          "id": 150177,
+          "singular": "Makahiki Honeymoon Special (Set of 2)",
+          "plural": "Makahiki Honeymoon Special (Set of 2)",
+          "note": "One Single Strand Orchid Lei & one Kukui Nut Lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            7500
+          ],
+          "floorCents": 7500,
+          "stable": true,
+          "validDatesSeen": 14
+        },
+        {
+          "id": 150174,
+          "singular": "Traditional Honeymoon Special (Set of 2)",
+          "plural": "Traditional Honeymoon Special (Set of 2)",
+          "note": "One Deluxe Orchid Lei & one Ti Leaf/Orchid Lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            12500
+          ],
+          "floorCents": 12500,
+          "stable": true,
+          "validDatesSeen": 14
+        },
+        {
+          "id": 150175,
+          "singular": "Deluxe Honeymoon Special (Set of 2)",
+          "plural": "Deluxe Honeymoon Special (Set of 2)",
+          "note": "Two Deluxe Orchid Lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            13500
+          ],
+          "floorCents": 13500,
+          "stable": true,
+          "validDatesSeen": 14
+        },
+        {
+          "id": 150179,
+          "singular": "Local Honeymoon Special (Set of 2)",
+          "plural": "Local Honeymoon Special (Set of 2)",
+          "note": "One Deluxe Tuberose/Orchid & one Cigar Lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            13500
+          ],
+          "floorCents": 13500,
+          "stable": true,
+          "validDatesSeen": 14
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "per-set, held by #250 (Honeymoon four) — do not republish without overturning that ruling",
+      "published": null
+    },
+    {
+      "pk": 69116,
+      "name": "Honeymoon Lei Greeting - Kahului Maui Airport",
+      "company": "LeiGreeting.com",
+      "island": "oahu",
+      "shortname": "leigreeting",
+      "s42": {
+        "baseTier": "Classic Orchid Honeymoon Special (Set of 2)",
+        "basePrice": "$95.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 95,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 13,
+        "fallbackDiscarded": 4,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 150172,
+        "singular": "Classic Orchid Honeymoon Special (Set of 2)",
+        "note": "Two single strand orchid lei",
+        "minPartySize": 1,
+        "floor": 95
+      },
+      "liveTiers": [
+        {
+          "id": 150172,
+          "singular": "Classic Orchid Honeymoon Special (Set of 2)",
+          "plural": "Classic Orchid Honeymoon Special (Set of 2)",
+          "note": "Two single strand orchid lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            9500
+          ],
+          "floorCents": 9500,
+          "stable": true,
+          "validDatesSeen": 13
+        },
+        {
+          "id": 150176,
+          "singular": "Aloha Honeymoon Special (Set of 2)",
+          "plural": "Aloha Honeymoon Special (Set of 2)",
+          "note": "One Single Strand Orchid Lei & one Ti Leaf Lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            9500
+          ],
+          "floorCents": 9500,
+          "stable": true,
+          "validDatesSeen": 13
+        },
+        {
+          "id": 150177,
+          "singular": "Makahiki Honeymoon Special (Set of 2)",
+          "plural": "Makahiki Honeymoon Special (Set of 2)",
+          "note": "One Single Strand Orchid Lei & one Kukui Nut Lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            9500
+          ],
+          "floorCents": 9500,
+          "stable": true,
+          "validDatesSeen": 13
+        },
+        {
+          "id": 150174,
+          "singular": "Traditional Honeymoon Special (Set of 2)",
+          "plural": "Traditional Honeymoon Special (Set of 2)",
+          "note": "One Deluxe Orchid Lei & one Ti Leaf/Orchid Lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            15900
+          ],
+          "floorCents": 15900,
+          "stable": true,
+          "validDatesSeen": 13
+        },
+        {
+          "id": 150175,
+          "singular": "Deluxe Honeymoon Special (Set of 2)",
+          "plural": "Deluxe Honeymoon Special (Set of 2)",
+          "note": "Two Deluxe Orchid Lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            16500
+          ],
+          "floorCents": 16500,
+          "stable": true,
+          "validDatesSeen": 13
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "per-set, held by #250 (Honeymoon four) — do not republish without overturning that ruling",
+      "published": null
+    },
+    {
+      "pk": 69146,
+      "name": "Honeymoon Lei Greeting - Kona Hawaii Airport",
+      "company": "LeiGreeting.com",
+      "island": "oahu",
+      "shortname": "leigreeting",
+      "s42": {
+        "baseTier": "Classic Orchid Honeymoon Special (Set of 2)",
+        "basePrice": "$95.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 95,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 12,
+        "fallbackDiscarded": 5,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 150172,
+        "singular": "Classic Orchid Honeymoon Special (Set of 2)",
+        "note": "Two single strand orchid lei",
+        "minPartySize": 1,
+        "floor": 95
+      },
+      "liveTiers": [
+        {
+          "id": 150172,
+          "singular": "Classic Orchid Honeymoon Special (Set of 2)",
+          "plural": "Classic Orchid Honeymoon Special (Set of 2)",
+          "note": "Two single strand orchid lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            9500
+          ],
+          "floorCents": 9500,
+          "stable": true,
+          "validDatesSeen": 12
+        },
+        {
+          "id": 150176,
+          "singular": "Aloha Honeymoon Special (Set of 2)",
+          "plural": "Aloha Honeymoon Special (Set of 2)",
+          "note": "One Single Strand Orchid Lei & one Ti Leaf Lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            9500
+          ],
+          "floorCents": 9500,
+          "stable": true,
+          "validDatesSeen": 12
+        },
+        {
+          "id": 150177,
+          "singular": "Makahiki Honeymoon Special (Set of 2)",
+          "plural": "Makahiki Honeymoon Special (Set of 2)",
+          "note": "One Single Strand Orchid Lei & one Kukui Nut Lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            9500
+          ],
+          "floorCents": 9500,
+          "stable": true,
+          "validDatesSeen": 12
+        },
+        {
+          "id": 150174,
+          "singular": "Traditional Honeymoon Special (Set of 2)",
+          "plural": "Traditional Honeymoon Special (Set of 2)",
+          "note": "One Deluxe Orchid Lei & one Ti Leaf/Orchid Lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            15900
+          ],
+          "floorCents": 15900,
+          "stable": true,
+          "validDatesSeen": 12
+        },
+        {
+          "id": 150175,
+          "singular": "Deluxe Honeymoon Special (Set of 2)",
+          "plural": "Deluxe Honeymoon Special (Set of 2)",
+          "note": "Two Deluxe Orchid Lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            16500
+          ],
+          "floorCents": 16500,
+          "stable": true,
+          "validDatesSeen": 12
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "per-set, held by #250 (Honeymoon four) — do not republish without overturning that ruling",
+      "published": null
+    },
+    {
+      "pk": 69177,
+      "name": "Honeymoon Lei Greeting - Līhuʻe Kaua'i Airport",
+      "company": "LeiGreeting.com",
+      "island": "oahu",
+      "shortname": "leigreeting",
+      "s42": {
+        "baseTier": "Classic Orchid Honeymoon Special (Set of 2)",
+        "basePrice": "$95.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 95,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 12,
+        "fallbackDiscarded": 5,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 150172,
+        "singular": "Classic Orchid Honeymoon Special (Set of 2)",
+        "note": "Two single strand orchid lei",
+        "minPartySize": 1,
+        "floor": 95
+      },
+      "liveTiers": [
+        {
+          "id": 150172,
+          "singular": "Classic Orchid Honeymoon Special (Set of 2)",
+          "plural": "Classic Orchid Honeymoon Special (Set of 2)",
+          "note": "Two single strand orchid lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            9500
+          ],
+          "floorCents": 9500,
+          "stable": true,
+          "validDatesSeen": 12
+        },
+        {
+          "id": 150175,
+          "singular": "Deluxe Honeymoon Special (Set of 2)",
+          "plural": "Deluxe Honeymoon Special (Set of 2)",
+          "note": "Two Deluxe Orchid Lei",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            16500
+          ],
+          "floorCents": 16500,
+          "stable": true,
+          "validDatesSeen": 12
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "per-set, held by #250 (Honeymoon four) — do not republish without overturning that ruling",
+      "published": null
+    },
+    {
+      "pk": 70910,
+      "name": "Class Packages",
+      "company": "Yoga Floats",
+      "island": "oahu",
+      "shortname": "yogafloats",
+      "s42": {
+        "baseTier": "Five Class Package",
+        "basePrice": "$180.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 180,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 16,
+        "fallbackDiscarded": 1,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 156624,
+        "singular": "Five Class Package",
+        "note": "",
+        "minPartySize": 1,
+        "floor": 180
+      },
+      "liveTiers": [
+        {
+          "id": 156624,
+          "singular": "Five Class Package",
+          "plural": "Five Class Packages",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            18000
+          ],
+          "floorCents": 18000,
+          "stable": true,
+          "validDatesSeen": 16
+        },
+        {
+          "id": 156625,
+          "singular": "Ten Class Package",
+          "plural": "Ten Class Packages",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            31000
+          ],
+          "floorCents": 31000,
+          "stable": true,
+          "validDatesSeen": 16
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 212218,
+      "name": "Ohana Nui - 1 Hour Photoshoot",
+      "company": "Saray Sharvit Photography",
+      "island": "maui",
+      "shortname": "sarayphoto",
+      "s42": {
+        "baseTier": "Photography Session",
+        "basePrice": "$545.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 545,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 16,
+        "fallbackDiscarded": 1,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 406676,
+        "singular": "Photography Session",
+        "note": "",
+        "minPartySize": 1,
+        "floor": 545
+      },
+      "liveTiers": [
+        {
+          "id": 406676,
+          "singular": "Photography Session",
+          "plural": "Photography Sessions",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            54500
+          ],
+          "floorCents": 54500,
+          "stable": true,
+          "validDatesSeen": 16
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 212227,
+      "name": "Hele Hele - 90 Min Photoshoot",
+      "company": "Saray Sharvit Photography",
+      "island": "maui",
+      "shortname": "sarayphoto",
+      "s42": {
+        "baseTier": "Photography Session",
+        "basePrice": "$695.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 695,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 14,
+        "fallbackDiscarded": 3,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 406676,
+        "singular": "Photography Session",
+        "note": "",
+        "minPartySize": 1,
+        "floor": 695
+      },
+      "liveTiers": [
+        {
+          "id": 406676,
+          "singular": "Photography Session",
+          "plural": "Photography Sessions",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            69500
+          ],
+          "floorCents": 69500,
+          "stable": true,
+          "validDatesSeen": 14
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 220144,
+      "name": "Road to Hana Slingshot Adventure Tour - Navigation Guided",
+      "company": "Aloha Motorsports Lahaina",
+      "island": "maui",
+      "shortname": "alohamotorsports-lahaina",
+      "s42": {
+        "baseTier": "Slingshot R  - Tour 24 Hours",
+        "basePrice": "$450.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 450,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 17,
+        "fallbackDiscarded": 0,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1267560,
+        "singular": "Slingshot R  - Tour 24 Hours",
+        "note": "",
+        "minPartySize": 1,
+        "floor": 450
+      },
+      "liveTiers": [
+        {
+          "id": 1267560,
+          "singular": "Slingshot R  - Tour 24 Hours",
+          "plural": "Slingshot R  - Tour 24 Hours",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            45000
+          ],
+          "floorCents": 45000,
+          "stable": true,
+          "validDatesSeen": 17
+        },
+        {
+          "id": 1267558,
+          "singular": "Slingshot R with Top - Tour 24 Hours",
+          "plural": "Slingshot R with Top - Tour 24 Hours",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            52500
+          ],
+          "floorCents": 52500,
+          "stable": true,
+          "validDatesSeen": 17
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 220146,
+      "name": "North Loop Coast Slingshot Adventure - Navigation Guided",
+      "company": "Aloha Motorsports Lahaina",
+      "island": "maui",
+      "shortname": "alohamotorsports-lahaina",
+      "s42": {
+        "baseTier": "Slingshot R  - Tour 8 Hours",
+        "basePrice": "$350.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 350,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 17,
+        "fallbackDiscarded": 0,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1267575,
+        "singular": "Slingshot R  - Tour 8 Hours",
+        "note": "",
+        "minPartySize": 1,
+        "floor": 350
+      },
+      "liveTiers": [
+        {
+          "id": 1267575,
+          "singular": "Slingshot R  - Tour 8 Hours",
+          "plural": "Slingshot R  - Tour 8 Hours",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            35000
+          ],
+          "floorCents": 35000,
+          "stable": true,
+          "validDatesSeen": 17
+        },
+        {
+          "id": 1267578,
+          "singular": "Slingshot R with Top - Tour 8 Hours",
+          "plural": "Slingshot R with Top - Tour 8 Hours",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            42500
+          ],
+          "floorCents": 42500,
+          "stable": true,
+          "validDatesSeen": 17
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 220147,
+      "name": "Haleakala Volcano Summit Sunrise or Sunset Adventure Tour - Navigation Guided",
+      "company": "Aloha Motorsports Lahaina",
+      "island": "maui",
+      "shortname": "alohamotorsports-lahaina",
+      "s42": {
+        "baseTier": "Slingshot R  - Tour 24 Hours",
+        "basePrice": "$450.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 450,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 17,
+        "fallbackDiscarded": 0,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1267560,
+        "singular": "Slingshot R  - Tour 24 Hours",
+        "note": "",
+        "minPartySize": 1,
+        "floor": 450
+      },
+      "liveTiers": [
+        {
+          "id": 1267560,
+          "singular": "Slingshot R  - Tour 24 Hours",
+          "plural": "Slingshot R  - Tour 24 Hours",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            45000
+          ],
+          "floorCents": 45000,
+          "stable": true,
+          "validDatesSeen": 17
+        },
+        {
+          "id": 1267558,
+          "singular": "Slingshot R with Top - Tour 24 Hours",
+          "plural": "Slingshot R with Top - Tour 24 Hours",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            52500
+          ],
+          "floorCents": 52500,
+          "stable": true,
+          "validDatesSeen": 17
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 296378,
+      "name": "Luxury Full-Circle Road to Hana Tour - Private Cadillac Escalade",
+      "company": "Hawaiian Style Tours & Transportation",
+      "island": "maui",
+      "shortname": "hawaiianstyletours",
+      "s42": {
+        "baseTier": "Luxury Cadillac Escalade",
+        "basePrice": "$1999.99",
+        "unit": "whole-unit",
+        "decidedBy": "step2 never-a-fare"
+      },
+      "stored": {
+        "price": 200,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 10,
+        "fallbackDiscarded": 7,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 548152,
+        "singular": "Luxury Cadillac Escalade",
+        "note": "Accommodates up to 5 passengers • Price for entire vehicle",
+        "minPartySize": 1,
+        "floor": 1999.99
+      },
+      "liveTiers": [
+        {
+          "id": 578467,
+          "singular": "Cadillac Escalade Gratuity",
+          "plural": "Cadillac Escalade Gratuities",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            20000
+          ],
+          "floorCents": 20000,
+          "stable": true,
+          "validDatesSeen": 10
+        },
+        {
+          "id": 639499,
+          "singular": "Miscellaneous - Upgrade / Gratuity / Services",
+          "plural": "Miscellaneous",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            25000
+          ],
+          "floorCents": 25000,
+          "stable": true,
+          "validDatesSeen": 10
+        },
+        {
+          "id": 548152,
+          "singular": "Luxury Cadillac Escalade",
+          "plural": "Luxury Cadillac Escalade",
+          "note": "Accommodates up to 5 passengers • Price for entire vehicle",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            199999
+          ],
+          "floorCents": 199999,
+          "stable": true,
+          "validDatesSeen": 10
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 296384,
+      "name": "Hike into Heritage: Luxury Rainforest Hike & Waterfall Swim - Private Cadillac Escalade",
+      "company": "Hawaiian Style Tours & Transportation",
+      "island": "maui",
+      "shortname": "hawaiianstyletours",
+      "s42": {
+        "baseTier": "Luxury Cadillac Escalade",
+        "basePrice": "$1999.99",
+        "unit": "whole-unit",
+        "decidedBy": "step2 never-a-fare"
+      },
+      "stored": {
+        "price": 200,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 8,
+        "fallbackDiscarded": 5,
+        "itemAbsent": 4,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 548152,
+        "singular": "Luxury Cadillac Escalade",
+        "note": "Accommodates up to 5 passengers",
+        "minPartySize": 1,
+        "floor": 1999.99
+      },
+      "liveTiers": [
+        {
+          "id": 578467,
+          "singular": "Cadillac Escalade Gratuity",
+          "plural": "Cadillac Escalade Gratuities",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            20000
+          ],
+          "floorCents": 20000,
+          "stable": true,
+          "validDatesSeen": 8
+        },
+        {
+          "id": 548152,
+          "singular": "Luxury Cadillac Escalade",
+          "plural": "Luxury Cadillac Escalade",
+          "note": "Accommodates up to 5 passengers",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            199999
+          ],
+          "floorCents": 199999,
+          "stable": true,
+          "validDatesSeen": 8
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 314433,
+      "name": "Round Trip North Shore Haleiwa Shuttle",
+      "company": "Wildlife Hawaii",
+      "island": "oahu",
+      "shortname": "wildlifehawaii",
+      "s42": {
+        "baseTier": "Passenger",
+        "basePrice": "$70.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 70,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 11,
+        "fallbackDiscarded": 6,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "NO-WHOLE-BOAT-TIER",
+      "winningTier": {
+        "id": 577691,
+        "singular": "Passenger",
+        "note": "Up to 12 Passengers",
+        "minPartySize": 1,
+        "floor": 70
+      },
+      "liveTiers": [
+        {
+          "id": 577691,
+          "singular": "Passenger",
+          "plural": "Passengers",
+          "note": "Up to 12 Passengers",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            7000
+          ],
+          "floorCents": 7000,
+          "stable": true,
+          "validDatesSeen": 11
+        }
+      ],
+      "disposition": "NO-WHOLE-BOAT-TIER",
+      "why": "winning tier reads per-person: label=\"Passenger\"",
+      "published": null
+    },
+    {
+      "pk": 327395,
+      "name": "Luxury Full-Circle Road to Hana Tour - Private Platinum Minibus",
+      "company": "Hawaiian Style Tours & Transportation",
+      "island": "maui",
+      "shortname": "hawaiianstyletours",
+      "s42": {
+        "baseTier": "Platinum Edition Minibus",
+        "basePrice": "$2999.99",
+        "unit": "whole-unit",
+        "decidedBy": "step2 never-a-fare"
+      },
+      "stored": {
+        "price": 300,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 8,
+        "fallbackDiscarded": 9,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 545287,
+        "singular": "Platinum Edition Minibus",
+        "note": "Accommodates up to 13 passengers • Price for entire vehicle",
+        "minPartySize": 1,
+        "floor": 2999.99
+      },
+      "liveTiers": [
+        {
+          "id": 578458,
+          "singular": "Platinum Minibus Gratuity",
+          "plural": "Platinum Minibus Gratuities",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            30000
+          ],
+          "floorCents": 30000,
+          "stable": true,
+          "validDatesSeen": 8
+        },
+        {
+          "id": 545287,
+          "singular": "Platinum Edition Minibus",
+          "plural": "Platinum Edition Minibus",
+          "note": "Accommodates up to 13 passengers • Price for entire vehicle",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            299999
+          ],
+          "floorCents": 299999,
+          "stable": true,
+          "validDatesSeen": 8
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 346502,
+      "name": "The Ultimate Waterfall Experience",
+      "company": "Big Island Backroad Adventures LLC",
+      "island": "big island",
+      "shortname": "hawaiibackroad",
+      "s42": {
+        "baseTier": "Private SUV",
+        "basePrice": "$990.87",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 991,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 12,
+        "fallbackDiscarded": 5,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1037297,
+        "singular": "Private SUV",
+        "note": "Private Big Island Waterfall Tour",
+        "minPartySize": 1,
+        "floor": 990.87
+      },
+      "liveTiers": [
+        {
+          "id": 1037297,
+          "singular": "Private SUV",
+          "plural": "Private SUV",
+          "note": "Private Big Island Waterfall Tour",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            99087
+          ],
+          "floorCents": 99087,
+          "stable": true,
+          "validDatesSeen": 12
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 366730,
+      "name": "Laulima Photo Package",
+      "company": "Better Together Photography",
+      "island": "maui",
+      "shortname": "bettertogetherphotography",
+      "s42": {
+        "baseTier": "Private Photo Session",
+        "basePrice": "$475.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 475,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 16,
+        "fallbackDiscarded": 1,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 663868,
+        "singular": "Private Photo Session",
+        "note": "",
+        "minPartySize": 1,
+        "floor": 475
+      },
+      "liveTiers": [
+        {
+          "id": 663868,
+          "singular": "Private Photo Session",
+          "plural": "Private Photo Session",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            47500
+          ],
+          "floorCents": 47500,
+          "stable": true,
+          "validDatesSeen": 16
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 414087,
+      "name": "VIP Winery Tour & Tasting - $129 per couple",
+      "company": "Oeno Winemaking",
+      "island": "oahu",
+      "shortname": "oenowinemaking",
+      "s42": {
+        "baseTier": "Couple",
+        "basePrice": "$129.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 129,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 17,
+        "fallbackDiscarded": 0,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 276630,
+        "singular": "Couple",
+        "note": "",
+        "minPartySize": 1,
+        "floor": 129
+      },
+      "liveTiers": [
+        {
+          "id": 276630,
+          "singular": "Couple",
+          "plural": "Couples",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            12900
+          ],
+          "floorCents": 12900,
+          "stable": true,
+          "validDatesSeen": 17
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 454801,
+      "name": "Grand Circle Island Tour",
+      "company": "IES Hawai'i",
+      "island": "oahu",
+      "shortname": "islandexpressshuttle",
+      "s42": {
+        "baseTier": "Shared Shuttle Island Tour",
+        "basePrice": "$129.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 143,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 14,
+        "fallbackDiscarded": 3,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 998076,
+        "singular": "Shared Shuttle Island Tour",
+        "note": "Seats up to 14 Passengers • Shared",
+        "minPartySize": 1,
+        "floor": 129
+      },
+      "liveTiers": [
+        {
+          "id": 998076,
+          "singular": "Shared Shuttle Island Tour",
+          "plural": "Shared Shuttle Island Tour",
+          "note": "Seats up to 14 Passengers • Shared",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            12900
+          ],
+          "floorCents": 12900,
+          "stable": true,
+          "validDatesSeen": 14
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "winning tier is a SHARED shuttle seat (\"Seats up to 14 Passengers • Shared\"); \"private\" is false regardless of unit",
+      "published": null
+    },
+    {
+      "pk": 478805,
+      "name": "Oahu Private Circle Island Tour",
+      "company": "Aina Explorer LLC",
+      "island": "oahu",
+      "shortname": "ainaexplorer",
+      "s42": {
+        "baseTier": "Private Tour",
+        "basePrice": "$425.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 400,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 11,
+        "fallbackDiscarded": 6,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 55,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 856592,
+        "singular": "Private Tour",
+        "note": "",
+        "minPartySize": 1,
+        "floor": 425
+      },
+      "liveTiers": [
+        {
+          "id": 1304560,
+          "singular": "Adult  - 6 Hours",
+          "plural": "Adults  - 6 Hours",
+          "note": "API",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            0
+          ],
+          "floorCents": 0,
+          "stable": true,
+          "validDatesSeen": 55
+        },
+        {
+          "id": 856592,
+          "singular": "Private Tour",
+          "plural": "Private Tours",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            42500
+          ],
+          "floorCents": 42500,
+          "stable": true,
+          "validDatesSeen": 11
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 493621,
+      "name": "Beach Proposal Picnic",
+      "company": "Experience Aloha Co",
+      "island": "oahu",
+      "shortname": "experiencealoha",
+      "s42": {
+        "baseTier": "Couple",
+        "basePrice": "$645.00",
+        "unit": "whole-unit",
+        "decidedBy": "step3 non-participant"
+      },
+      "stored": {
+        "price": 595,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 15,
+        "fallbackDiscarded": 2,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "NO-WHOLE-BOAT-TIER",
+      "winningTier": {
+        "id": 882341,
+        "singular": "Couple",
+        "note": "Ages 18+",
+        "minPartySize": 1,
+        "floor": 645
+      },
+      "liveTiers": [
+        {
+          "id": 993722,
+          "singular": "Additional Guest",
+          "plural": "Additional Guests",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            10000
+          ],
+          "floorCents": 10000,
+          "stable": true,
+          "validDatesSeen": 15
+        },
+        {
+          "id": 882341,
+          "singular": "Couple",
+          "plural": "Couples",
+          "note": "Ages 18+",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            64500
+          ],
+          "floorCents": 64500,
+          "stable": true,
+          "validDatesSeen": 15
+        }
+      ],
+      "disposition": "NO-WHOLE-BOAT-TIER",
+      "why": "winning tier reads per-person: label=\"Couple\" / note matches per-person prose",
+      "published": null
+    },
+    {
+      "pk": 494924,
+      "name": "Maui Birding Tour",
+      "company": "Maui Photography Tours",
+      "island": "maui",
+      "shortname": "mauiphotographytours",
+      "s42": {
+        "baseTier": "Four Hour Tour",
+        "basePrice": "$720.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 720,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 16,
+        "fallbackDiscarded": 1,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 884270,
+        "singular": "Four Hour Tour",
+        "note": "Price includes 2 people",
+        "minPartySize": 1,
+        "floor": 720
+      },
+      "liveTiers": [
+        {
+          "id": 884270,
+          "singular": "Four Hour Tour",
+          "plural": "Four Hour Tours",
+          "note": "Price includes 2 people",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            72000
+          ],
+          "floorCents": 72000,
+          "stable": true,
+          "validDatesSeen": 16
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 502798,
+      "name": "Meet you at Kilauea Volcano!",
+      "company": "Big Island Backroad Adventures LLC",
+      "island": "big island",
+      "shortname": "hawaiibackroad",
+      "s42": {
+        "baseTier": "Private SUV",
+        "basePrice": "$824.80",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 825,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 12,
+        "fallbackDiscarded": 5,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1037297,
+        "singular": "Private SUV",
+        "note": "Private Meet you at Kilauea Volcano Tour",
+        "minPartySize": 1,
+        "floor": 824.8
+      },
+      "liveTiers": [
+        {
+          "id": 1037297,
+          "singular": "Private SUV",
+          "plural": "Private SUV",
+          "note": "Private Meet you at Kilauea Volcano Tour",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            82480
+          ],
+          "floorCents": 82480,
+          "stable": true,
+          "validDatesSeen": 12
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 505941,
+      "name": "Hilo Cruise Ship Guest Special - Water and Fire",
+      "company": "Big Island Backroad Adventures LLC",
+      "island": "big island",
+      "shortname": "hawaiibackroad",
+      "s42": {
+        "baseTier": "Private SUV",
+        "basePrice": "$880.16",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 881,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 12,
+        "fallbackDiscarded": 5,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1037297,
+        "singular": "Private SUV",
+        "note": "Private Hilo Waterfall and Volcano Tour",
+        "minPartySize": 1,
+        "floor": 880.16
+      },
+      "liveTiers": [
+        {
+          "id": 1037297,
+          "singular": "Private SUV",
+          "plural": "Private SUV",
+          "note": "Private Hilo Waterfall and Volcano Tour",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            88016
+          ],
+          "floorCents": 88016,
+          "stable": true,
+          "validDatesSeen": 12
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 509403,
+      "name": "Hilo Cruise Ship Guest Special - Botanical Gardens, Waterfalls, and Farmers Market",
+      "company": "Big Island Backroad Adventures LLC",
+      "island": "big island",
+      "shortname": "hawaiibackroad",
+      "s42": {
+        "baseTier": "Private SUV",
+        "basePrice": "$896.77",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 897,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 12,
+        "fallbackDiscarded": 5,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1037297,
+        "singular": "Private SUV",
+        "note": "Private Hilo Botanical Gardens, Waterfalls, and Farmers Market Tour",
+        "minPartySize": 1,
+        "floor": 896.77
+      },
+      "liveTiers": [
+        {
+          "id": 1037297,
+          "singular": "Private SUV",
+          "plural": "Private SUV",
+          "note": "Private Hilo Botanical Gardens, Waterfalls, and Farmers Market Tour",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            89677
+          ],
+          "floorCents": 89677,
+          "stable": true,
+          "validDatesSeen": 12
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 522845,
+      "name": "Custom Oahu Private Tour",
+      "company": "Aina Explorer LLC",
+      "island": "oahu",
+      "shortname": "ainaexplorer",
+      "s42": {
+        "baseTier": "Private Tour",
+        "basePrice": "$450.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 425,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 11,
+        "fallbackDiscarded": 6,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 856592,
+        "singular": "Private Tour",
+        "note": "",
+        "minPartySize": 1,
+        "floor": 450
+      },
+      "liveTiers": [
+        {
+          "id": 856592,
+          "singular": "Private Tour",
+          "plural": "Private Tours",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            45000
+          ],
+          "floorCents": 45000,
+          "stable": true,
+          "validDatesSeen": 11
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 542637,
+      "name": "Waterfont Tent Rental",
+      "company": "Wai Kai",
+      "island": "oahu",
+      "shortname": "waikai-atthelineup",
+      "s42": {
+        "baseTier": "Waterfront Tent",
+        "basePrice": "$250.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 250,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 8,
+        "fallbackDiscarded": 9,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1013147,
+        "singular": "Waterfront Tent",
+        "note": "Half Day Rental",
+        "minPartySize": 1,
+        "floor": 250
+      },
+      "liveTiers": [
+        {
+          "id": 1013147,
+          "singular": "Waterfront Tent",
+          "plural": "Waterfront Tent",
+          "note": "Half Day Rental",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            25000
+          ],
+          "floorCents": 25000,
+          "stable": true,
+          "validDatesSeen": 3
+        },
+        {
+          "id": 1051994,
+          "singular": "Full Day Waterfront Tent",
+          "plural": "Full Day Waterfront Tent",
+          "note": "Max 20 People",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            35000
+          ],
+          "floorCents": 35000,
+          "stable": true,
+          "validDatesSeen": 5
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 547236,
+      "name": "Proposal Photography Session",
+      "company": "Experience Aloha Co",
+      "island": "oahu",
+      "shortname": "experiencealoha",
+      "s42": {
+        "baseTier": "Proposal (Couple)",
+        "basePrice": "$795.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 795,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 13,
+        "fallbackDiscarded": 4,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 970998,
+        "singular": "Proposal (Couple)",
+        "note": "Price Includes 2 People",
+        "minPartySize": 1,
+        "floor": 795
+      },
+      "liveTiers": [
+        {
+          "id": 970998,
+          "singular": "Proposal (Couple)",
+          "plural": "Proposal (Couple)",
+          "note": "Price Includes 2 People",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            79500
+          ],
+          "floorCents": 79500,
+          "stable": true,
+          "validDatesSeen": 13
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 552034,
+      "name": "Topgolf Swing Suite at The Valley Alley",
+      "company": "The Valley Alley",
+      "island": "maui",
+      "shortname": "westinmauiresortswingsuites",
+      "s42": {
+        "baseTier": "1 Hour Top Golf Reservation",
+        "basePrice": "$47.12",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 47,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 16,
+        "fallbackDiscarded": 1,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 978619,
+        "singular": "1 Hour Top Golf Reservation",
+        "note": "For 1-8 golfers",
+        "minPartySize": 1,
+        "floor": 47.12
+      },
+      "liveTiers": [
+        {
+          "id": 978619,
+          "singular": "1 Hour Top Golf Reservation",
+          "plural": "1 Hour Top Golf Reservations",
+          "note": "For 1-8 golfers",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            4712
+          ],
+          "floorCents": 4712,
+          "stable": true,
+          "validDatesSeen": 16
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 559007,
+      "name": "Waterfront Cabanas",
+      "company": "Wai Kai",
+      "island": "oahu",
+      "shortname": "waikai-atthelineup",
+      "s42": {
+        "baseTier": "Waterfront Cabana",
+        "basePrice": "$150.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 150,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 7,
+        "fallbackDiscarded": 10,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 992191,
+        "singular": "Waterfront Cabana",
+        "note": "Suggested for 6-8 people",
+        "minPartySize": 1,
+        "floor": 150
+      },
+      "liveTiers": [
+        {
+          "id": 992191,
+          "singular": "Waterfront Cabana",
+          "plural": "Waterfront Cabanas",
+          "note": "Suggested for 6-8 people",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            15000
+          ],
+          "floorCents": 15000,
+          "stable": true,
+          "validDatesSeen": 3
+        },
+        {
+          "id": 1053747,
+          "singular": "Full Day Waterfront Cabana",
+          "plural": "Full Day Waterfront Cabana",
+          "note": "6 guest allowed",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            20000
+          ],
+          "floorCents": 20000,
+          "stable": true,
+          "validDatesSeen": 4
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 560446,
+      "name": "Luxury Private Chef Experience",
+      "company": "Experience Aloha Co",
+      "island": "oahu",
+      "shortname": "experiencealoha",
+      "s42": {
+        "baseTier": "Couple",
+        "basePrice": "$845.00",
+        "unit": "whole-unit",
+        "decidedBy": "step3 non-participant"
+      },
+      "stored": {
+        "price": 795,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 12,
+        "fallbackDiscarded": 5,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "NO-WHOLE-BOAT-TIER",
+      "winningTier": {
+        "id": 882341,
+        "singular": "Couple",
+        "note": "Ages 18+",
+        "minPartySize": 1,
+        "floor": 845
+      },
+      "liveTiers": [
+        {
+          "id": 993722,
+          "singular": "Additional Guest",
+          "plural": "Additional Guests",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            19500
+          ],
+          "floorCents": 19500,
+          "stable": true,
+          "validDatesSeen": 12
+        },
+        {
+          "id": 882341,
+          "singular": "Couple",
+          "plural": "Couples",
+          "note": "Ages 18+",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            84500
+          ],
+          "floorCents": 84500,
+          "stable": true,
+          "validDatesSeen": 12
+        }
+      ],
+      "disposition": "NO-WHOLE-BOAT-TIER",
+      "why": "winning tier reads per-person: label=\"Couple\" / note matches per-person prose",
+      "published": null
+    },
+    {
+      "pk": 565829,
+      "name": "Private Half-Day HĀNA Maui Open-Air Jeep Tour",
+      "company": "We Wave Logistics (Jeep Tours)",
+      "island": "maui",
+      "shortname": "wewavelogistics",
+      "s42": {
+        "baseTier": "Private Group",
+        "basePrice": "$899.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 899,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 16,
+        "fallbackDiscarded": 1,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 32,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1002861,
+        "singular": "Private Group",
+        "note": "",
+        "minPartySize": 1,
+        "floor": 899
+      },
+      "liveTiers": [
+        {
+          "id": 1003405,
+          "singular": "Booster Seat",
+          "plural": "Booster Seats",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            0
+          ],
+          "floorCents": 0,
+          "stable": true,
+          "validDatesSeen": 16
+        },
+        {
+          "id": 1003407,
+          "singular": "Car Seat",
+          "plural": "Car Seats",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            0
+          ],
+          "floorCents": 0,
+          "stable": true,
+          "validDatesSeen": 16
+        },
+        {
+          "id": 1002861,
+          "singular": "Private Group",
+          "plural": "Private Groups",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            89900
+          ],
+          "floorCents": 89900,
+          "stable": true,
+          "validDatesSeen": 16
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 569816,
+      "name": "Private Boat Charter",
+      "company": "Kona Shore Divers",
+      "island": "big island",
+      "shortname": "konashoredivers",
+      "s42": {
+        "baseTier": "Private Boat Charter",
+        "basePrice": "$599.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 599,
+        "priceLabel": "private boat",
+        "priceConfidence": "high",
+        "hasPriceBreakdown": true
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 16,
+        "fallbackDiscarded": 1,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 16,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1010960,
+        "singular": "Private Boat Charter",
+        "note": "",
+        "minPartySize": 1,
+        "floor": 599
+      },
+      "liveTiers": [
+        {
+          "id": 1010974,
+          "singular": "Snorkeler",
+          "plural": "Snorkelers",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            0
+          ],
+          "floorCents": 0,
+          "stable": true,
+          "validDatesSeen": 16
+        },
+        {
+          "id": 1010960,
+          "singular": "Private Boat Charter",
+          "plural": "Private Boat Charter",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            59900
+          ],
+          "floorCents": 59900,
+          "stable": true,
+          "validDatesSeen": 16
+        }
+      ],
+      "disposition": "PUBLISH",
+      "why": "whole-unit fare on a genuine watercraft product; ruled Option 1",
+      "published": {
+        "price": 599,
+        "priceLabel": "private boat",
+        "priceConfidence": "high"
+      }
+    },
+    {
+      "pk": 620548,
+      "name": "The Experience Tour",
+      "company": "Emountain Bike Tour Maui llc",
+      "island": "maui",
+      "shortname": "emountainbiketourmauillc",
+      "s42": {
+        "baseTier": "Small Ebike",
+        "basePrice": "$260.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 260,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 11,
+        "fallbackDiscarded": 6,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1091731,
+        "singular": "Small Ebike",
+        "note": "Best fits guests 5' to 5'5\" tall",
+        "minPartySize": 1,
+        "floor": 260
+      },
+      "liveTiers": [
+        {
+          "id": 1091731,
+          "singular": "Small Ebike",
+          "plural": "Small Ebikes",
+          "note": "Best fits guests 5' to 5'5\" tall",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            26000
+          ],
+          "floorCents": 26000,
+          "stable": true,
+          "validDatesSeen": 11
+        },
+        {
+          "id": 1091736,
+          "singular": "Medium-Large Ebike",
+          "plural": "Medium-Large Ebikes",
+          "note": "Best fits guests 5'6\" to 6' tall",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            26000
+          ],
+          "floorCents": 26000,
+          "stable": true,
+          "validDatesSeen": 11
+        },
+        {
+          "id": 1091742,
+          "singular": "Xlarge Ebike",
+          "plural": "Xlarge Ebikes",
+          "note": "Best fits guests 6'1\" or taller",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            26000
+          ],
+          "floorCents": 26000,
+          "stable": true,
+          "validDatesSeen": 11
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 632771,
+      "name": "Maui Professional Photographer Couples and Families",
+      "company": "Local Photographer",
+      "island": "maui",
+      "shortname": "mauimomentsphoto",
+      "s42": {
+        "baseTier": "Group",
+        "basePrice": "$100.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 100,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 16,
+        "fallbackDiscarded": 1,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1113759,
+        "singular": "Group",
+        "note": "1 - 15 People",
+        "minPartySize": 1,
+        "floor": 100
+      },
+      "liveTiers": [
+        {
+          "id": 1113759,
+          "singular": "Group",
+          "plural": "Group",
+          "note": "1 - 15 People",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            10000
+          ],
+          "floorCents": 10000,
+          "stable": true,
+          "validDatesSeen": 16
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 633065,
+      "name": "Oahu Professional Photographer Couples and Families",
+      "company": "Local Photographer",
+      "island": "oahu",
+      "shortname": "mauimomentsphoto",
+      "s42": {
+        "baseTier": "Group",
+        "basePrice": "$100.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 100,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 16,
+        "fallbackDiscarded": 1,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1113759,
+        "singular": "Group",
+        "note": "1 - 15 People",
+        "minPartySize": 1,
+        "floor": 100
+      },
+      "liveTiers": [
+        {
+          "id": 1113759,
+          "singular": "Group",
+          "plural": "Group",
+          "note": "1 - 15 People",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            10000
+          ],
+          "floorCents": 10000,
+          "stable": true,
+          "validDatesSeen": 16
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 633066,
+      "name": "Kauai Professional Photographer Couples and Families",
+      "company": "Local Photographer",
+      "island": "kauai",
+      "shortname": "mauimomentsphoto",
+      "s42": {
+        "baseTier": "Group",
+        "basePrice": "$100.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 100,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 16,
+        "fallbackDiscarded": 1,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1113759,
+        "singular": "Group",
+        "note": "1 - 15 People",
+        "minPartySize": 1,
+        "floor": 100
+      },
+      "liveTiers": [
+        {
+          "id": 1113759,
+          "singular": "Group",
+          "plural": "Group",
+          "note": "1 - 15 People",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            10000
+          ],
+          "floorCents": 10000,
+          "stable": true,
+          "validDatesSeen": 16
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 633067,
+      "name": "The Big Island Professional Photographer Couples and Families",
+      "company": "Local Photographer",
+      "island": "big island",
+      "shortname": "mauimomentsphoto",
+      "s42": {
+        "baseTier": "Group",
+        "basePrice": "$100.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 100,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 16,
+        "fallbackDiscarded": 1,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1113759,
+        "singular": "Group",
+        "note": "1 - 15 People",
+        "minPartySize": 1,
+        "floor": 100
+      },
+      "liveTiers": [
+        {
+          "id": 1113759,
+          "singular": "Group",
+          "plural": "Group",
+          "note": "1 - 15 People",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            10000
+          ],
+          "floorCents": 10000,
+          "stable": true,
+          "validDatesSeen": 16
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 640693,
+      "name": "Big Island Birdwatching",
+      "company": "Big Island Backroad Adventures LLC",
+      "island": "big island",
+      "shortname": "hawaiibackroad",
+      "s42": {
+        "baseTier": "Private SUV",
+        "basePrice": "$1212.30",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 881,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 8,
+        "fallbackDiscarded": 9,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1037297,
+        "singular": "Private SUV",
+        "note": "Private Big Island Birdwatching Tour",
+        "minPartySize": 1,
+        "floor": 1212.3
+      },
+      "liveTiers": [
+        {
+          "id": 1037297,
+          "singular": "Private SUV",
+          "plural": "Private SUV",
+          "note": "Private Big Island Birdwatching Tour",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            121230
+          ],
+          "floorCents": 121230,
+          "stable": true,
+          "validDatesSeen": 8
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 647490,
+      "name": "The Grand Tour",
+      "company": "Emountain Bike Tour Maui llc",
+      "island": "maui",
+      "shortname": "emountainbiketourmauillc",
+      "s42": {
+        "baseTier": "Small Ebike",
+        "basePrice": "$260.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 260,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 11,
+        "fallbackDiscarded": 6,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1091731,
+        "singular": "Small Ebike",
+        "note": "Best fits guests 5' to 5'5\" tall",
+        "minPartySize": 1,
+        "floor": 260
+      },
+      "liveTiers": [
+        {
+          "id": 1091731,
+          "singular": "Small Ebike",
+          "plural": "Small Ebikes",
+          "note": "Best fits guests 5' to 5'5\" tall",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            26000
+          ],
+          "floorCents": 26000,
+          "stable": true,
+          "validDatesSeen": 11
+        },
+        {
+          "id": 1091736,
+          "singular": "Medium-Large Ebike",
+          "plural": "Medium-Large Ebikes",
+          "note": "Best fits guests 5'6\" to 6' tall",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            26000
+          ],
+          "floorCents": 26000,
+          "stable": true,
+          "validDatesSeen": 11
+        },
+        {
+          "id": 1091742,
+          "singular": "Xlarge Ebike",
+          "plural": "Xlarge Ebikes",
+          "note": "Best fits guests 6'1\" or taller",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            26000
+          ],
+          "floorCents": 26000,
+          "stable": true,
+          "validDatesSeen": 11
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 662869,
+      "name": "KHA Island Survival Skills",
+      "company": "Kauai Hiking Adventures",
+      "island": "kauai",
+      "shortname": "kauaihikingtours",
+      "s42": {
+        "baseTier": "Private Group",
+        "basePrice": "$680.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 680,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 12,
+        "fallbackDiscarded": 5,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 928527,
+        "singular": "Private Group",
+        "note": "Price includes 4 people",
+        "minPartySize": 1,
+        "floor": 680
+      },
+      "liveTiers": [
+        {
+          "id": 928527,
+          "singular": "Private Group",
+          "plural": "Private Group",
+          "note": "Price includes 4 people",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            68000
+          ],
+          "floorCents": 68000,
+          "stable": true,
+          "validDatesSeen": 12
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 663614,
+      "name": "Near Shore Fishing Charter",
+      "company": "Hilo Ocean Adventures",
+      "island": "big island",
+      "shortname": "hilooceanadventures",
+      "s42": {
+        "baseTier": "3 Hour Fishing Charter",
+        "basePrice": "$449.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 449,
+        "priceLabel": "private boat",
+        "priceConfidence": "high",
+        "hasPriceBreakdown": true
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 16,
+        "fallbackDiscarded": 1,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1168675,
+        "singular": "3 Hour Fishing Charter",
+        "note": "",
+        "minPartySize": 1,
+        "floor": 449
+      },
+      "liveTiers": [
+        {
+          "id": 1168675,
+          "singular": "3 Hour Fishing Charter",
+          "plural": "3 Hour Fishing Charter",
+          "note": "",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            44900
+          ],
+          "floorCents": 44900,
+          "stable": true,
+          "validDatesSeen": 16
+        }
+      ],
+      "disposition": "PUBLISH",
+      "why": "whole-unit fare on a genuine watercraft product; ruled Option 1",
+      "published": {
+        "price": 449,
+        "priceLabel": "private boat",
+        "priceConfidence": "high"
+      }
+    },
+    {
+      "pk": 683657,
+      "name": "Mini Package",
+      "company": "Pono Photo Maui",
+      "island": "maui",
+      "shortname": "ponophotomaui",
+      "s42": {
+        "baseTier": "Mini Package",
+        "basePrice": "$499.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 499,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 16,
+        "fallbackDiscarded": 1,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1194037,
+        "singular": "Mini Package",
+        "note": "30 minute session/6 people",
+        "minPartySize": 1,
+        "floor": 499
+      },
+      "liveTiers": [
+        {
+          "id": 1194037,
+          "singular": "Mini Package",
+          "plural": "Mini Packages",
+          "note": "30 minute session/6 people",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            49900
+          ],
+          "floorCents": 49900,
+          "stable": true,
+          "validDatesSeen": 16
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 683711,
+      "name": "Ohana Session",
+      "company": "Pono Photo Maui",
+      "island": "maui",
+      "shortname": "ponophotomaui",
+      "s42": {
+        "baseTier": "Ohana Package",
+        "basePrice": "$650.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 650,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 16,
+        "fallbackDiscarded": 1,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1194137,
+        "singular": "Ohana Package",
+        "note": "60 minute session/8 people",
+        "minPartySize": 1,
+        "floor": 650
+      },
+      "liveTiers": [
+        {
+          "id": 1194137,
+          "singular": "Ohana Package",
+          "plural": "Ohana Packages",
+          "note": "60 minute session/8 people",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            65000
+          ],
+          "floorCents": 65000,
+          "stable": true,
+          "validDatesSeen": 16
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    },
+    {
+      "pk": 683720,
+      "name": "Kohola Package",
+      "company": "Pono Photo Maui",
+      "island": "maui",
+      "shortname": "ponophotomaui",
+      "s42": {
+        "baseTier": "Kohola Package",
+        "basePrice": "$875.00",
+        "unit": "whole-unit",
+        "decidedBy": "step6 lowest survivor (no exclusion moved it)"
+      },
+      "stored": {
+        "price": 875,
+        "priceLabel": "unknown",
+        "priceConfidence": "low",
+        "hasPriceBreakdown": false
+      },
+      "sweep": {
+        "datesRequested": 17,
+        "valid": 16,
+        "fallbackDiscarded": 1,
+        "itemAbsent": 0,
+        "zeroTiersSeen": 0,
+        "sufficient": true
+      },
+      "ruleVerdict": "CLEARED",
+      "winningTier": {
+        "id": 1194148,
+        "singular": "Kohola Package",
+        "note": "90 minute session/6 people",
+        "minPartySize": 1,
+        "floor": 875
+      },
+      "liveTiers": [
+        {
+          "id": 1194148,
+          "singular": "Kohola Package",
+          "plural": "Kohola Packages",
+          "note": "90 minute session/6 people",
+          "minPartySize": 1,
+          "priceCentsSeen": [
+            87500
+          ],
+          "floorCents": 87500,
+          "stable": true,
+          "validDatesSeen": 16
+        }
+      ],
+      "disposition": "HOLD",
+      "why": "whole-unit fare CLEARED, but the product is not a boat — \"private boat\" would be a false claim; s44 adjudicates a per-kind label and catalogue scope",
+      "published": null
+    }
+  ]
+}

@@ -321,7 +321,8 @@
         const truncated = desc.length > 120 ? desc.substring(0, 117) + '...' : desc;
         const unitKey = String(tour.priceLabel ?? '').trim().toLowerCase();
         const priceUnit = (unitKey === 'per adult' || unitKey === 'adult') ? 'per adult'
-            : (unitKey === 'per person' || unitKey === 'person') ? 'per person' : null;
+            : (unitKey === 'per person' || unitKey === 'person') ? 'per person'
+            : (unitKey === 'private boat') ? '· private boat' : null;
         const price = (priceUnit && Number.isFinite(tour.price) && tour.price > 0) ? `From $${tour.price} ${priceUnit}` : 'Check live price';
         
         return `
