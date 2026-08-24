@@ -305,7 +305,10 @@
     function createTourCard(tour) {
         const tags = (tour.tags || []).slice(0, 3).map(tag => `<span class="tour-tag">${tag}</span>`).join('');
         const desc = (tour.description || '').substring(0, 120);
-        const price = (tour.priceLabel === 'per adult' && Number.isFinite(tour.price)) ? `From $${tour.price}` : 'Check live price';
+        const unitKey = String(tour.priceLabel ?? '').trim().toLowerCase();
+        const priceUnit = (unitKey === 'per adult' || unitKey === 'adult') ? 'per adult'
+            : (unitKey === 'per person' || unitKey === 'person') ? 'per person' : null;
+        const price = (priceUnit && Number.isFinite(tour.price) && tour.price > 0) ? `From $${tour.price} ${priceUnit}` : 'Check live price';
         
         return `<article class="tour-card" data-id="${tour.id}">
             <div class="tour-image">

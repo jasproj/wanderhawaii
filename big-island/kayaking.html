@@ -319,7 +319,10 @@
         
         const desc = tour.description || '';
         const truncated = desc.length > 120 ? desc.substring(0, 117) + '...' : desc;
-        const price = (tour.priceLabel === 'per adult' && Number.isFinite(tour.price)) ? `From $${tour.price}` : 'Check live price';
+        const unitKey = String(tour.priceLabel ?? '').trim().toLowerCase();
+        const priceUnit = (unitKey === 'per adult' || unitKey === 'adult') ? 'per adult'
+            : (unitKey === 'per person' || unitKey === 'person') ? 'per person' : null;
+        const price = (priceUnit && Number.isFinite(tour.price) && tour.price > 0) ? `From $${tour.price} ${priceUnit}` : 'Check live price';
         
         return `
             <article class="tour-card" data-id="${tour.id}">
