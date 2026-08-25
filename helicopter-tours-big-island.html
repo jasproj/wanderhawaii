@@ -68,6 +68,9 @@
         .nav-desktop a { color: #555; text-decoration: none; font-weight: 500; font-size: 0.95rem; }
         .nav-desktop a:hover { color: #0077b6; }
         .mobile-menu-btn { display: none; background: none; border: none; font-size: 1.5rem; cursor: pointer; }
+        .nav-mobile { display: none; flex-direction: column; background: #fff; border-top: 1px solid #eee; padding: 15px 20px; }
+        .nav-mobile.active { display: flex; }
+        .nav-mobile a { padding: 12px 0; border-bottom: 1px solid #f0f0f0; font-weight: 500; color: #555; text-decoration: none; }
         
         @media (max-width: 768px) {
             .hero { padding: 60px 15px 40px; }
@@ -100,18 +103,29 @@
     <script src="/sponsor-slot.js" defer></script>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="header-container">
-            <a href="/" class="logo">
-                <span>🌊</span>
-                <span>WanderHawaii</span>
-            </a>
+            <div class="logo-group">
+                <a href="/" class="logo">
+                    <picture><source type="image/webp" srcset="/images/header-logo-160.webp 160w, /images/header-logo-320.webp 320w, /images/header-logo-480.webp 480w" sizes="(max-width: 768px) 143px, 191px"><img src="/images/header-logo.png" alt="WanderHawaii" class="logo-img" loading="eager" decoding="async"></picture>
+</a>
+</div>
             <nav class="nav-desktop">
                 <a href="/">Home</a>
+                <a href="/">Tours</a>
+                <a href="/blog/">Blog</a>
                 <a href="/about.html">About</a>
             </nav>
-            <button class="mobile-menu-btn">☰</button>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
+        <nav class="nav-mobile">
+            <a href="/">Home</a>
+            <a href="/">Tours</a>
+            <a href="/blog/">Blog</a>
+            <a href="/about.html">About</a>
+        </nav>
     </header>
 
     <section class="hero">
