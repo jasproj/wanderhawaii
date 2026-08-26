@@ -2403,8 +2403,8 @@
       "category": "",
       "location": "United States/Hawaii/Kekaha",
       "island": "kauai",
-      "price": 149,
-      "priceLabel": "Kamaʻāina Adult (13+)",
+      "price": 199,
+      "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
@@ -2498,11 +2498,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s50-whaw-holds",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Kamaʻāina Adult (13+) $149 of 2 base tiers (D-625); not anchoring: Child (5-12 years old) $179 [never], Kamaʻāina Keiki (5-12 years old) $129 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $199; ladder Adult $199 / Child (5-12 years old) $179 / Kamaʻāina Adult (13+) $149 / Kamaʻāina Keiki (5-12 years old) $129; resident/military tier(s) Kamaʻāina Adult (13+) $149, Kamaʻāina Keiki (5-12 years old) $129 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "id": "498521",
@@ -7549,8 +7549,8 @@
       "category": "",
       "location": "United States/Hawaii/Kilauea",
       "island": "kauai",
-      "price": 10.5,
-      "priceLabel": "Mini Golf - Age 13+ - Kama'āina",
+      "price": 19.5,
+      "priceLabel": "Mini Golf - Age 13+",
       "priceConfidence": "high",
       "qualityScore": 75,
       "currency": "USD",
@@ -7634,7 +7634,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "priceTiers": [
         {
@@ -7674,8 +7674,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Mini Golf - Age 13+ - Kama'āina $10.5 of 2 base tiers (D-625); not anchoring: Mini Golf - Keiki $15.75 [never], Mini Golf - Keiki - Kama'āina $8.5 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "D-624 cheapest adult/base per-person tier Mini Golf - Age 13+ $19.5; ladder Mini Golf - Age 13+ $19.5 / Mini Golf - Keiki $15.75 / Mini Golf - Age 13+ - Kama'āina $10.5 / Mini Golf - Keiki - Kama'āina $8.5; resident/military tier(s) Mini Golf - Age 13+ - Kama'āina $10.5, Mini Golf - Keiki - Kama'āina $8.5, Mini Golf - Toddler - Kama'āina $0 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "id": "106305",
@@ -10558,8 +10558,8 @@
       "category": "",
       "location": "United States/Hawaii/Kekaha",
       "island": "kauai",
-      "price": 149,
-      "priceLabel": "Kamaʻāina Adult (13+)",
+      "price": 179,
+      "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
@@ -10653,11 +10653,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s50-whaw-holds",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Kamaʻāina Adult (13+) $149 of 2 base tiers (D-625); not anchoring: Child (5-12 years old) $159 [never], Kamaʻāina Keiki (5-12 years old) $129 [never]; 4/4 dated readings (2 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $179; ladder Adult $179 / Child (5-12 years old) $159 / Kamaʻāina Adult (13+) $149 / Kamaʻāina Keiki (5-12 years old) $129; resident/military tier(s) Kamaʻāina Adult (13+) $149, Kamaʻāina Keiki (5-12 years old) $129 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "id": "455886",
@@ -15581,8 +15581,8 @@
       "category": "",
       "location": "United States/Hawaii/Lihue",
       "island": "kauai",
-      "price": 58.5,
-      "priceLabel": "Kama‘aina Adult",
+      "price": 82.5,
+      "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
@@ -15658,11 +15658,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s50-whaw-holds",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Kama‘aina Adult $58.5 of 2 base tiers (D-625); not anchoring: Military Adult $82.5 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $82.5; ladder Adult $82.5 / Kama‘aina Adult $58.5 / Military Adult $82.5; resident/military tier(s) Kama‘aina Adult $58.5, Military Adult $82.5 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "id": "265337",
@@ -34115,8 +34115,8 @@
       "category": "",
       "location": "United States/Hawaii/Lahaina",
       "island": "maui",
-      "price": 169,
-      "priceLabel": "Kamaʻāina - Adult",
+      "price": 189,
+      "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
@@ -34251,11 +34251,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s50-whaw-holds",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Kamaʻāina - Adult $169 of 2 base tiers (D-625); not anchoring: Child $169 [never], Kamaʻāina - Child $149 [never], Private Charter Raft \"Kai\" - 26 Passenger $5500 [group], Private Charter Raft \"Aloha\" - 19 Passenger $3875 [group]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $189; ladder Adult $189 / Child $169 / Kamaʻāina - Adult $169 / Kamaʻāina - Child $149 / Private Charter Raft \"Kai\" - 26 Passenger $5500 / Private Charter Raft \"Aloha\" - 19 Passenger $3875; resident/military tier(s) Kamaʻāina - Adult $169, Kamaʻāina - Child $149 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "id": "377199",
@@ -34266,8 +34266,8 @@
       "category": "",
       "location": "United States/Hawaii/Lahaina",
       "island": "maui",
-      "price": 79.5,
-      "priceLabel": "Kamaʻāina - Adult",
+      "price": 97,
+      "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
@@ -34386,11 +34386,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s50-whaw-holds",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Kamaʻāina - Adult $79.5 of 2 base tiers (D-625); not anchoring: Child $89 [never], Kamaʻāina - Child $73.5 [never], Private Charter Raft \"Kai\" - 26 Passenger $2200 [group]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $97; ladder Adult $97 / Child $89 / Kamaʻāina - Adult $79.5 / Kamaʻāina - Child $73.5 / Private Charter Raft \"Kai\" - 26 Passenger $2200; resident/military tier(s) Kamaʻāina - Adult $79.5, Kamaʻāina - Child $73.5 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "id": "528460",
@@ -34453,8 +34453,8 @@
       "category": "",
       "location": "United States/Hawaii/Lahaina",
       "island": "maui",
-      "price": 71.5,
-      "priceLabel": "Kamaʻāina - Adult",
+      "price": 84,
+      "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
@@ -34587,11 +34587,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s50-whaw-holds",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Kamaʻāina - Adult $71.5 of 2 base tiers (D-625); not anchoring: Child $76 [never], Kamaʻāina - Child $64.5 [never], Private Charter Raft \"Kai\" - 26 Passenger $2200 [group], Private Charter Raft \"Aloha\" - 19 Passenger $1550 [group]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $84; ladder Adult $84 / Child $76 / Kamaʻāina - Adult $71.5 / Kamaʻāina - Child $64.5 / Private Charter Raft \"Kai\" - 26 Passenger $2200 / Private Charter Raft \"Aloha\" - 19 Passenger $1550; resident/military tier(s) Kamaʻāina - Adult $71.5, Kamaʻāina - Child $64.5 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "id": "136180",
@@ -39015,8 +39015,8 @@
       "category": "",
       "location": "United States/Hawaii/Lahaina",
       "island": "maui",
-      "price": 153,
-      "priceLabel": "Kamaʻāina - Adult",
+      "price": 179,
+      "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
@@ -39136,11 +39136,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s50-whaw-holds",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Kamaʻāina - Adult $153 of 2 base tiers (D-625); not anchoring: Child $159 [never], Kamaʻāina - Child $135 [never], Private Charter Raft - 18 Passenger (4 HR) $3100 [group]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $179; ladder Adult $179 / Child $159 / Kamaʻāina - Adult $153 / Kamaʻāina - Child $135 / Private Charter Raft - 18 Passenger (4 HR) $3100; resident/military tier(s) Kamaʻāina - Adult $153, Kamaʻāina - Child $135 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "id": "382536",
@@ -66165,8 +66165,8 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 90,
-      "priceLabel": "Kamaʻāina",
+      "price": 120,
+      "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
@@ -66263,11 +66263,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s50-whaw-holds",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Kamaʻāina $90 of 2 base tiers (D-625); not anchoring: Student $90 [never], Child $60 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $120; ladder Adult $120 / Kamaʻāina $90 / Student $90 / Child $60; resident/military tier(s) Kamaʻāina $90 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "id": "469092",
@@ -67740,8 +67740,8 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 60,
-      "priceLabel": "Kamaʻāina",
+      "price": 80,
+      "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
@@ -67838,11 +67838,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s50-whaw-holds",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Kamaʻāina $60 of 2 base tiers (D-625); not anchoring: Student $60 [never], Child $40 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $80; ladder Adult $80 / Kamaʻāina $60 / Student $60 / Child $40; resident/military tier(s) Kamaʻāina $60 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "id": "648190",
@@ -79061,8 +79061,8 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 60,
-      "priceLabel": "Kamaʻāina",
+      "price": 80,
+      "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
@@ -79142,11 +79142,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s50-whaw-holds",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Kamaʻāina $60 of 2 base tiers (D-625); not anchoring: Student $60 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $80; ladder Adult $80 / Kamaʻāina $60 / Student $60; resident/military tier(s) Kamaʻāina $60 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "id": "663614",
@@ -83452,11 +83452,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s50-whaw-holds",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "HELD (add-on abort): anchor tier \"25-minute Session Deposit\" (A deposit towards your session package. This amount will be credited towards your final package.) is itself add-on/deposit-shaped; ladder 25-minute Session Deposit $150; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "HELD (ruled 2026-08-26): the only priced tier is a deposit — deposits never anchor; the session price is not published on FareHarbor; ladder 25-minute Session Deposit $150"
     },
     {
       "id": "491348",
@@ -93395,11 +93395,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s50-whaw-holds",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "HELD (add-on abort): anchor tier \"25-minute Session Deposit\" (A deposit towards your session package. This amount will be credited towards your final package.) is itself add-on/deposit-shaped; ladder 25-minute Session Deposit $150; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "HELD (ruled 2026-08-26): the only priced tier is a deposit — deposits never anchor; the session price is not published on FareHarbor; ladder 25-minute Session Deposit $150"
     },
     {
       "id": "357097",
@@ -93465,11 +93465,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s50-whaw-holds",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "HELD (add-on abort): anchor tier \"Session Deposit\" (A deposit towards your session package. Credited towards final package. Packages start at $749.) is itself add-on/deposit-shaped; ladder Session Deposit $250; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "HELD (ruled 2026-08-26): the only priced tier is a deposit — deposits never anchor; the session price is not published on FareHarbor; ladder Session Deposit $250"
     },
     {
       "id": "420338",
@@ -116056,8 +116056,8 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "outside WHAW Hawaii scope (Tahiti) + EUR pricing (D-620); s50-whaw-holds 2026-08-26",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -116105,7 +116105,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "non_usd_currency:EUR",
       "priceTiers": [
         {
@@ -116133,8 +116133,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site USD; true amount EUR 440 (Adult (One or Two People)) stamped, unpublished; 4/4 dated readings (2 date-valid), 1 ladder shape(s)"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "INACTIVE (ruled 2026-08-26, reversible): outside WHAW's Hawaii scope (Teahupo'o, Tahiti) + prices in EUR (D-620) — a scope violation, not a price question; ladder Adult (One or Two People) $440 / Child $150 / Additional Adults $201 / Private Charter $1000"
     },
     {
       "id": "554167",
@@ -120083,8 +120083,8 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "outside WHAW Hawaii scope (Tahiti) + EUR pricing (D-620); s50-whaw-holds 2026-08-26",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -120132,7 +120132,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "non_usd_currency:EUR",
       "priceTiers": [
         {
@@ -120160,8 +120160,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site USD; true amount EUR 184 (Adult (One or Two People)) stamped, unpublished; 4/4 dated readings (3 date-valid), 1 ladder shape(s)"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "INACTIVE (ruled 2026-08-26, reversible): outside WHAW's Hawaii scope (Teahupo'o, Tahiti) + prices in EUR (D-620) — a scope violation, not a price question; ladder Adult (One or Two People) $184 / Child $43 / Additional Adults $92 / Private Charter $610"
     },
     {
       "id": "319928",
@@ -154412,8 +154412,8 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "outside WHAW Hawaii scope (Tahiti) + EUR pricing (D-620); s50-whaw-holds 2026-08-26",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -154461,7 +154461,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "non_usd_currency:EUR",
       "priceTiers": [
         {
@@ -154489,8 +154489,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site USD; true amount EUR 261 (Adult (One or Two People)) stamped, unpublished; 4/4 dated readings (0 date-valid), 1 ladder shape(s)"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "INACTIVE (ruled 2026-08-26, reversible): outside WHAW's Hawaii scope (Teahupo'o, Tahiti) + prices in EUR (D-620) — a scope violation, not a price question; ladder Adult (One or Two People) $261 / Child $55 / Additional Adults $120 / Private Charter $956"
     },
     {
       "id": "565347",
@@ -162102,8 +162102,8 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "outside WHAW Hawaii scope (Tahiti) + EUR pricing (D-620); s50-whaw-holds 2026-08-26",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
@@ -162151,7 +162151,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "non_usd_currency:EUR",
       "priceTiers": [
         {
@@ -162179,8 +162179,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (D-620): live details.currency EUR ≠ site USD; true amount EUR 30 (Child) stamped, unpublished; 4/4 dated readings (3 date-valid), 2 ladder shape(s)"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "INACTIVE (ruled 2026-08-26, reversible): outside WHAW's Hawaii scope (Teahupo'o, Tahiti) + prices in EUR (D-620) — a scope violation, not a price question; ladder One or Two Adults $119 / Child $30 / Additional People $59.5"
     },
     {
       "id": "265184",
@@ -180213,9 +180213,9 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 3,
-      "priceLabel": "Gift Voucher",
-      "priceConfidence": "low",
+      "price": 84.95,
+      "priceLabel": "Adult - Basic Package",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "120 minutes",
@@ -180242,7 +180242,8 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "priceUnit": "Adult - Basic Package"
       },
       "gallery": [],
       "priceBreakdown": [
@@ -180326,11 +180327,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s50-whaw-holds",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "HELD (no adult/base tier): live ladder Adult - Premium Package $125 / Adult - Basic Package $84.95 / Ride Along/Observer $45 / Keiki $55 / Gift Voucher $3 has only never-anchor tiers; floor $3 (Gift Voucher) stamped unpublished pending ruling; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "bundle-is-the-product — the \"package\" is the product's own tier, cheapest adult tier anchors: tier \"Adult - Basic Package\" $84.95 (One Guest (Ages 14+) Snorkel Equipment Included) anchors, unit \"Adult - Basic Package\"; ladder Adult - Premium Package $125 / Adult - Basic Package $84.95 / Ride Along/Observer $45 / Keiki $55 / Gift Voucher $3; ruled 2026-08-26 on the 4-date 2026-08-26 reading"
     },
     {
       "id": "636078",
@@ -192759,7 +192760,7 @@
       "island": "maui",
       "price": 220,
       "priceLabel": "Semi-private lesson (2:1 Student to Instructor ratio)",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 80,
       "currency": "USD",
       "duration": "120 minutes",
@@ -192793,7 +192794,8 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "priceUnit": "2:1 Student to Instructor"
       },
       "gallery": [],
       "priceBreakdown": [
@@ -192819,7 +192821,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "priceTiers": [
         {
@@ -192835,8 +192837,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (no adult/base tier): live ladder Semi-private lesson (2:1 Student to Instructor ratio) $220 / Semi-private lesson (3:1 Student to Instructor ratio) $300 has only never-anchor tiers; floor $220 (Semi-private lesson (2:1 Student to Instructor ratio)) stamped unpublished pending ruling; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "sole-audience lineage — \"student\" names the participant, not a concession: tier \"Semi-private lesson (2:1 Student to Instructor ratio)\" $220 (Age 8 years and older only) anchors, unit \"2:1 Student to Instructor\"; ladder Semi-private lesson (2:1 Student to Instructor ratio) $220 / Semi-private lesson (3:1 Student to Instructor ratio) $300; ruled 2026-08-26 on the 4-date 2026-08-26 reading"
     },
     {
       "id": "42461",
@@ -196411,7 +196413,7 @@
       "island": "maui",
       "price": 220,
       "priceLabel": "Semi-private lesson (2:1 Student to Instructor ratio)",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "qualityScore": 80,
       "currency": "USD",
       "duration": "120 minutes",
@@ -196447,7 +196449,8 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "priceUnit": "2:1 Student to Instructor"
       },
       "gallery": [],
       "priceBreakdown": [
@@ -196473,7 +196476,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "priceTiers": [
         {
@@ -196489,8 +196492,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (no adult/base tier): live ladder Semi-private lesson (2:1 Student to Instructor ratio) $220 / Semi-private lesson (3:1 Student to Instructor ratio) $300 has only never-anchor tiers; floor $220 (Semi-private lesson (2:1 Student to Instructor ratio)) stamped unpublished pending ruling; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "sole-audience lineage — \"student\" names the participant, not a concession: tier \"Semi-private lesson (2:1 Student to Instructor ratio)\" $220 (Age 8 years and older only) anchors, unit \"2:1 Student to Instructor\"; ladder Semi-private lesson (2:1 Student to Instructor ratio) $220 / Semi-private lesson (3:1 Student to Instructor ratio) $300; ruled 2026-08-26 on the 4-date 2026-08-26 reading"
     },
     {
       "id": "42459",
@@ -202307,7 +202310,7 @@
       "name": "Forest Bathing (Shinrin-Yoku): A Guided Journey of Peace and Wellness",
       "description": "Rejuvenate your mind and body in Hawaii’s only cloud forest. Through guided sensory walks and reflection, reconnect with nature’s healing energy, reduce stress, and find peace amid towering trees and soothing bird songs.",
       "location": "Oahu",
-      "price": 50,
+      "price": 60,
       "bookingUrl": "https://fareharbor.com/embeds/book/konacloudforest/items/553416/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/TiAeq1soSIiUm5kafghV/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
@@ -202322,7 +202325,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Kamaʻāina",
+      "priceLabel": "Adult",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
@@ -202356,7 +202359,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/TiAeq1soSIiUm5kafghV/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
       "imageEnrichmentSource": "extract-images-v1",
@@ -202384,8 +202387,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Kamaʻāina $50 of 2 base tiers (D-625); not anchoring: Student $50 [never]; 4/4 dated readings (1 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $60; ladder Adult $60 / Kamaʻāina $50 / Student $50; resident/military tier(s) Kamaʻāina $50 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "pk": 713188,
@@ -202904,7 +202907,7 @@
       "name": "Leilani Farm Sanctuary Tour",
       "description": "Meet friendly rescued animals on a one-hour guided tour through lush, tropical paradise. Cuddle chickens, pet cats, feed rabbits, and learn their inspiring stories in a sanctuary dedicated to healing and hope.",
       "location": "Haiku-Pauwela",
-      "price": 35,
+      "price": 50,
       "bookingUrl": "https://fareharbor.com/embeds/book/leilanifarmsanctuary/items/306442/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/3UkiwkbZSVSzAc5yDQwn/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -202920,7 +202923,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Kamaʻāina Resident - Adult (Hawaii Residents)",
+      "priceLabel": "Adult",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
@@ -202963,7 +202966,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/3UkiwkbZSVSzAc5yDQwn/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -202997,8 +203000,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Kamaʻāina Resident - Adult (Hawaii Residents) $35 of 2 base tiers (D-625); not anchoring: Child $50 [never], Kamaʻāina Resident - Child (Hawaii Residents) $35 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $50; ladder Adult $50 / Child $50 / Kamaʻāina Resident - Adult (Hawaii Residents) $35 / Kamaʻāina Resident - Child (Hawaii Residents) $35; resident/military tier(s) Kamaʻāina Resident - Adult (Hawaii Residents) $35, Kamaʻāina Resident - Child (Hawaii Residents) $35 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "pk": 687498,
@@ -203622,7 +203625,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/DFJyzvlTHuPjblKf5BK0/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
       "imageEnrichmentSource": "extract-images-v1",
@@ -203662,8 +203665,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (hire/rental rule): floor label \"Snorkel Set Rental\" (Mask, snorkel and fins included) carries no duration/unit; ladder Tandem Kayak Rental $69 / Standup Paddleboard Rental $48 / Snorkel Set Rental $15 / Extra Life Vest $12 / 20L Dry Bag $6; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "HELD (ruled 2026-08-26): no duration anywhere (tier labels, notes, product name) for a rental floor; ladder Tandem Kayak Rental $69 / Standup Paddleboard Rental $48 / Snorkel Set Rental $15 / Extra Life Vest $12 / 20L Dry Bag $6"
     },
     {
       "pk": 505662,
@@ -204287,7 +204290,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Small Surfside Cabana",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 901988,
@@ -204311,7 +204314,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/QuGJEEYWRuKoml7MWqV0/convert?cache=true&compress=true&quality=90&w=1868&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -204333,8 +204336,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (hire/rental rule): floor label \"Small Surfside Cabana\" (6 Guests allowed) carries no duration/unit; ladder Small Surfside Cabana $200 / Large Surfside Cabana $250; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "hire/rental — floor tier with its capacity note as unit: tier \"Small Surfside Cabana\" $200 (6 Guests allowed) anchors, unit \"6 Guests allowed\"; ladder Small Surfside Cabana $200 / Large Surfside Cabana $250; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+      "_unknownFields": {
+        "priceUnit": "6 Guests allowed"
+      }
     },
     {
       "pk": 596857,
@@ -215376,7 +215382,7 @@
       "name": "Stargazing Tour",
       "description": "Gaze at the night sky with a pro using a powerful telescope at Ironwoods Beach. Learn about stars, planets, and Hawaiian mythology while soaking in stunning celestial views—an unforgettable blend of science and culture.",
       "location": "Maui",
-      "price": 68,
+      "price": 85,
       "bookingUrl": "https://fareharbor.com/embeds/book/stargazemaui/items/595820/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/Pf0pA0bSQ6um6SSGqvHO/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
@@ -215398,7 +215404,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Kamaʻāina",
+      "priceLabel": "Person",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
@@ -215423,7 +215429,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/Pf0pA0bSQ6um6SSGqvHO/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
       "imageEnrichmentSource": "extract-images-v1",
@@ -215445,8 +215451,8 @@
           "minPartySize": 2
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Kamaʻāina $68 of 2 base tiers (D-625); 2/4 dated readings (2 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "D-624 cheapest adult/base per-person tier Person $85; ladder Person $85 / Kamaʻāina $68; resident/military tier(s) Kamaʻāina $68 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "pk": 625368,
@@ -215746,7 +215752,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Beach Bundle Essential - Full Day Rentals",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 1113781,
@@ -215806,7 +215812,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/DBX2t8J4RJ2spyotlNS3/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -215852,8 +215858,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (no adult/base tier): live ladder Beach Bundle Essential - Full Day Rentals $27.95 / Beach Bundle Essentials - One Week Rental $79.95 / Beach Bundle Essentials - Two Week Rental $159.9 / Beach Bundle Deluxe - Full Day Rentals $59.95 / Beach Bundle Deluxe - One Week Rental $144.95 / Beach Bundle Deluxe - Two Week Rental $287.9 has only never-anchor tiers; floor $27.95 (Beach Bundle Essential - Full Day Rentals) stamped unpublished pending ruling; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "bundle-is-the-product: tier \"Beach Bundle Essential - Full Day Rentals\" $27.95 (Bundle includes 2 chairs, an umbrella, and a cooler) anchors, unit \"Beach Bundle Essential - Full Day Rentals\"; ladder Beach Bundle Essential - Full Day Rentals $27.95 / Beach Bundle Essentials - One Week Rental $79.95 / Beach Bundle Essentials - Two Week Rental $159.9 / Beach Bundle Deluxe - Full Day Rentals $59.95 / Beach Bundle Deluxe - One Week Rental $144.95 / Beach Bundle Deluxe - Two Week Rental $287.9; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+      "_unknownFields": {
+        "priceUnit": "Beach Bundle Essential - Full Day Rentals"
+      }
     },
     {
       "pk": 640964,
@@ -216271,7 +216280,7 @@
       "name": "West Oahu Guided Snorkel Tour",
       "description": "Dive into Oahu’s most adventurous snorkeling spot at Kahe Point Beach, also known as Electric Beach. Swim among vibrant tropical fish, graceful turtles, and colorful coral reefs. With expert guidance, experience the thrill of warm waters teeming with marine life—perfect for active explorers seeking an unforgettable underwater adventure.",
       "location": "Oahu",
-      "price": 72,
+      "price": null,
       "bookingUrl": "https://fareharbor.com/embeds/book/activeoahutours/items/654233/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/DFJyzvlTHuPjblKf5BK0/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
@@ -216286,8 +216295,8 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Kama'aina or Military",
-      "priceConfidence": "high",
+      "priceLabel": null,
+      "priceConfidence": "low",
       "priceBreakdown": [
         {
           "id": 1056,
@@ -216338,8 +216347,8 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
-      "priceEnrichmentStatus": "high",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
+      "priceEnrichmentStatus": "zero_price",
       "image": "https://cdn.filestackcontent.com/DFJyzvlTHuPjblKf5BK0/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:33:06.495Z",
@@ -216378,18 +216387,16 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "single-tier product (s49 delta): sole tier \"Kama'aina or Military\" $72 is the audience, anchors with label verbatim as unit; ladder Kama'aina or Military $72; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
-      "_unknownFields": {
-        "priceUnit": "Kama'aina or Military"
-      }
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "zero_price: every non-resident tier is $0 (ladder Kama'aina or Military $72; resident/military tier(s) Kama'aina or Military $72 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)); stored 2026-08-26 reading",
+      "_unknownFields": {}
     },
     {
       "pk": 670043,
       "name": "Private Stargazing Tour",
       "description": "Gaze at the night sky with a professional guide using a powerful telescope. Learn about stars, planets, Hawaiian mythology, and enjoy stunning celestial views from the beach. Perfect for curious explorers and stargazers alike.",
       "location": "Maui",
-      "price": 800,
+      "price": 1000,
       "bookingUrl": "https://fareharbor.com/embeds/book/stargazemaui/items/670043/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/Pf0pA0bSQ6um6SSGqvHO/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
@@ -216411,7 +216418,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Kamaʻāina - Private Tour",
+      "priceLabel": "Private Tour",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
@@ -216436,7 +216443,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/Pf0pA0bSQ6um6SSGqvHO/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -216458,10 +216465,10 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-614 party-size/party-total ladder floor (s48-R1 when per-head): floor tier \"Kamaʻāina - Private Tour\" $800 (Up to 12 People • Proof of Valid Hawaii ID Required at Check-in) anchors with the tier label verbatim as unit; ladder Private Tour $1000 / Kamaʻāina - Private Tour $800; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD",
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "D-621 whole-unit: tier \"Private Tour\" $1000 anchors, label verbatim as unit; ladder Private Tour $1000 / Kamaʻāina - Private Tour $800; resident/military tier(s) Kamaʻāina - Private Tour $800 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
       "_unknownFields": {
-        "priceUnit": "Kamaʻāina - Private Tour"
+        "priceUnit": "Private Tour"
       }
     },
     {
@@ -219218,7 +219225,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Fireside S’mores Experience",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 1231405,
@@ -219233,7 +219240,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/LW6b2LwNRuHRZQYKSIAA/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -219249,8 +219256,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (add-on abort): anchor tier \"Fireside S’mores Experience\" (Price includes up to 4 guests • $10 for each additional guest) is itself add-on/deposit-shaped; ladder Fireside S’mores Experience $250; 1/4 dated readings (1 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "wave-2 add-on refinement (note advertises extras; the tier is the product): tier \"Fireside S’mores Experience\" $250 (Price includes up to 4 guests • $10 for each additional guest) anchors, unit \"per party, up to 4 guests\"; ladder Fireside S’mores Experience $250; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+      "_unknownFields": {
+        "priceUnit": "per party, up to 4 guests"
+      }
     },
     {
       "pk": 1441,
@@ -222841,7 +222851,7 @@
       "name": "Lilikoi Patch Farm Tour",
       "description": "Stroll through lush orchards and vibrant fields, soaking in fresh air and scenic views on a peaceful, nature-filled walk.",
       "location": "Laupahoehoe",
-      "price": 40,
+      "price": 49,
       "bookingUrl": "https://fareharbor.com/embeds/book/nakihalanifarm/items/679544/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/oT0G0BWbTVyxlWwg24sN/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -222866,7 +222876,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Kamaʻāina",
+      "priceLabel": "Adult",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
@@ -222909,7 +222919,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/oT0G0BWbTVyxlWwg24sN/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -222943,8 +222953,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Kamaʻāina $40 of 2 base tiers (D-625); not anchoring: Senior $40 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "D-624 cheapest adult/base per-person tier Adult $49; ladder Adult $49 / Senior $40 / Kamaʻāina $40; resident/military tier(s) Kamaʻāina $40 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "pk": 680074,
@@ -233426,7 +233436,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/38oedFhRsqIODogKBbXz/convert?cache=true&compress=true&quality=90&h=1052&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -233442,8 +233452,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (hire/rental rule): floor label \"Rental\" (Keep you gear for an additional hour after the lesson) carries no duration/unit; ladder Rental $225; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "HELD (ruled 2026-08-26): no duration anywhere (tier labels, notes, product name) for a rental floor; ladder Rental $225"
     },
     {
       "pk": 420389,
@@ -233678,7 +233688,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Double Kayak",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 757578,
@@ -233756,7 +233766,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/dEHdwFbSqZ90NbehuFvA/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -233814,8 +233824,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (hire/rental rule): floor label \"Beach Umbrella\" carries no duration/unit; ladder Double Kayak $325 / Stand Up Paddle Board $325 / Snorkel Gear $40 / Beach Chair $60 / Beach Umbrella $20 / Cooler $15 / Body Board Weekly $70 / Jerry Lopez Soft Surfboard Weekly $100; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "hire/rental — WEEK in the product name is the duration (case-insensitive duration test): tier \"Double Kayak\" $325 anchors, unit \"Double Kayak · Beach Gear - WEEK RENTAL\"; ladder Double Kayak $325 / Stand Up Paddle Board $325 / Snorkel Gear $40 / Beach Chair $60 / Beach Umbrella $20 / Cooler $15 / Body Board Weekly $70 / Jerry Lopez Soft Surfboard Weekly $100; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+      "_unknownFields": {
+        "priceUnit": "Double Kayak · Beach Gear - WEEK RENTAL"
+      }
     },
     {
       "pk": 421850,
@@ -235295,7 +235308,7 @@
       "name": "Make your own mug or bowl (Beginner Course)",
       "description": "",
       "location": "Makawao",
-      "price": 165,
+      "price": 225,
       "bookingUrl": "https://fareharbor.com/embeds/book/kettpottery/items/530779/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/b3xdCx1mTFK8HoXtIpj2/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -235306,7 +235319,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Kamaʻāina",
+      "priceLabel": "Visitor",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
@@ -235331,7 +235344,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/b3xdCx1mTFK8HoXtIpj2/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -235353,8 +235366,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Kamaʻāina $165 of 2 base tiers (D-625); 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "D-624 cheapest adult/base per-person tier Visitor $225; ladder Visitor $225 / Kamaʻāina $165; resident/military tier(s) Kamaʻāina $165 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "pk": 537086,
@@ -243567,7 +243580,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Beginner Set Up - Four Hour Rental",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 1209335,
@@ -243627,7 +243640,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/fs1deYF2QPWTmlrwUvxT/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -243673,8 +243686,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (hire/rental rule): floor label \"Beginner Set Up - Four Hour Rental\" is a skill grade, not a duration/unit; ladder Beginner Set Up - Four Hour Rental $175 / Beginner Set Up - All Day Rental $250 / Intermediate Set Up - Four Hour Rental $225 / Intermediate Set Up - All Day Rental $300 / Pro Set Up - Four Hour Rental $300 / Pro Set Up - Full Day Rental $250; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "hire/rental — gear-size label verbatim (not a skill grade): tier \"Beginner Set Up - Four Hour Rental\" $175 (130L Board, 1 Wing Size, Board, and Foils) anchors, unit \"Beginner Set Up - Four Hour Rental\"; ladder Beginner Set Up - Four Hour Rental $175 / Beginner Set Up - All Day Rental $250 / Intermediate Set Up - Four Hour Rental $225 / Intermediate Set Up - All Day Rental $300 / Pro Set Up - Four Hour Rental $300 / Pro Set Up - Full Day Rental $250; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+      "_unknownFields": {
+        "priceUnit": "Beginner Set Up - Four Hour Rental"
+      }
     },
     {
       "pk": 696099,
@@ -245706,7 +245722,7 @@
       "name": "Wai Kai Lagoon Explorer (With Shuttle)",
       "description": "Dive into Wai Kai’s lagoon with a floating obstacle course, high-flying rope bridges, and paddle your way across kayaks, paddleboards, and more. Perfect for fun-loving adventurers seeking nonstop water excitement.",
       "location": "Ewa Beach",
-      "price": 55,
+      "price": 110,
       "bookingUrl": "https://fareharbor.com/embeds/book/waikai-atthelineup/items/731191/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/QuGJEEYWRuKoml7MWqV0/convert?cache=true&compress=true&quality=90&w=1868&fit=max&format=webp&rotate=exif",
@@ -245735,8 +245751,8 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Keiki Course Pass (Ages 4-6) Half Day",
-      "priceConfidence": "low",
+      "priceLabel": "AquaVenture, AquaPeakz & Paddle Bundle (Half Day)",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 1174145,
@@ -245760,7 +245776,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/QuGJEEYWRuKoml7MWqV0/convert?cache=true&compress=true&quality=90&w=1868&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -245782,8 +245798,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (no adult/base tier): live ladder AquaVenture, AquaPeakz & Paddle Bundle (Half Day) $110 / Keiki Course Pass (Ages 4-6) Half Day $55 has only never-anchor tiers; floor $55 (Keiki Course Pass (Ages 4-6) Half Day) stamped unpublished pending ruling; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "bundle-is-the-product: tier \"AquaVenture, AquaPeakz & Paddle Bundle (Half Day)\" $110 (Ages 7+ / Time Block Pass) anchors, unit \"AquaVenture, AquaPeakz & Paddle Bundle (Half Day)\"; ladder AquaVenture, AquaPeakz & Paddle Bundle (Half Day) $110 / Keiki Course Pass (Ages 4-6) Half Day $55; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+      "_unknownFields": {
+        "priceUnit": "AquaVenture, AquaPeakz & Paddle Bundle (Half Day)"
+      }
     },
     {
       "pk": 27966,
@@ -254175,7 +254194,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/zKIxrRZTSnqC71wpVCIO/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -254191,8 +254210,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (add-on abort): anchor tier \"This Lil Piggy Slow - Smoked Grinds Plate Lunch ADD ON\" is itself add-on/deposit-shaped; ladder This Lil Piggy Slow - Smoked Grinds Plate Lunch ADD ON $20; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "HELD (ruled 2026-08-26): the sole tier is an ADD ON plate lunch — an add-on product, not a tour; status:inactive ruling queued for Jason; ladder This Lil Piggy Slow - Smoked Grinds Plate Lunch ADD ON $20"
     },
     {
       "pk": 669489,
@@ -258087,7 +258106,7 @@
       "name": "Ecological Monitoring Program",
       "description": "Join our 5-Day Ecological Monitoring Program for an immersive journey into marine conservation. Experience a blend of classroom learning and practical diving, culminating in a globally recognized certification. Gain essential skills, connect with a community of ecological divers, and make a lasting impact on marine ecosystems worldwide.",
       "location": "Oahu",
-      "price": 695,
+      "price": 895,
       "bookingUrl": "https://fareharbor.com/embeds/book/oceanallianceproject/items/448788/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/Veqo8VkhRYu7iOXTHpLu/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -258100,7 +258119,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Resident",
+      "priceLabel": "Person",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
@@ -258134,7 +258153,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/Veqo8VkhRYu7iOXTHpLu/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -258162,8 +258181,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Resident $695 of 2 base tiers (D-625); not anchoring: Advanced Open Water Add-on $185 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "D-624 cheapest adult/base per-person tier Person $895; ladder Resident $695 / Person $895 / Advanced Open Water Add-on $185; resident/military tier(s) Resident $695 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "pk": 451401,
@@ -260464,7 +260483,7 @@
       "name": "(English/英語)Pour Over Workshop",
       "description": "Master the art of pour-over coffee with expert guidance. Learn to perfect grind size, water ratio, and temperature for a rich, flavorful brew in this hands-on workshop.",
       "location": "Oahu",
-      "price": 18,
+      "price": 20,
       "bookingUrl": "https://fareharbor.com/embeds/book/hawaiicoffeecompany/items/573422/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/x3l2SpVFT7CJqYd42Jro/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -260479,7 +260498,7 @@
       "needsEnrichment": true,
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
-      "priceLabel": "Kamaʻāina",
+      "priceLabel": "Person age 12+",
       "priceConfidence": "high",
       "priceBreakdown": [
         {
@@ -260513,7 +260532,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/x3l2SpVFT7CJqYd42Jro/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -260541,8 +260560,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Kamaʻāina $18 of 2 base tiers (D-625); not anchoring: Military/Veterans/First Responders $18 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "D-624 cheapest adult/base per-person tier Person age 12+ $20; ladder Person age 12+ $20 / Kamaʻāina $18 / Military/Veterans/First Responders $18; resident/military tier(s) Kamaʻāina $18, Military/Veterans/First Responders $18 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)"
     },
     {
       "pk": 573622,
@@ -267616,7 +267635,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Birthday Party",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 116643,
@@ -267631,7 +267650,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/DqUmFgUSGeKqrtpw8FgQ/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
       "imageEnrichmentSource": "extract-images-v1",
@@ -267647,8 +267666,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (add-on abort): anchor tier \"Birthday Party\" (Price includes up to 16 people | Add additional people below) is itself add-on/deposit-shaped; ladder Birthday Party $395; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "wave-2 add-on refinement (note advertises extras; the tier is the product): tier \"Birthday Party\" $395 (Price includes up to 16 people | Add additional people below) anchors, unit \"per party, up to 16 people\"; ladder Birthday Party $395; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+      "_unknownFields": {
+        "priceUnit": "per party, up to 16 people"
+      }
     },
     {
       "pk": 56768,
@@ -270698,7 +270720,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Private Tour",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 839982,
@@ -270713,7 +270735,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/AYyvTi05QayDFggGhFBe/convert?cache=true&compress=true&quality=90&w=1868&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -270729,8 +270751,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (hire/rental rule): floor label \"Private Tour\" (up to 7 guest max) carries no duration/unit; ladder Private Tour $1199; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "D-621 whole-unit: tier \"Private Tour\" $1199 (up to 7 guest max) anchors, unit \"up to 7 guests\"; ladder Private Tour $1199; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+      "_unknownFields": {
+        "priceUnit": "up to 7 guests"
+      }
     },
     {
       "pk": 471513,
@@ -271037,7 +271062,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Shorefishing Private Group",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 882046,
@@ -271052,7 +271077,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/4YulFAu5RbKtj60wMH0O/convert?cache=true&compress=true&quality=90&w=1868&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -271068,8 +271093,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (add-on abort): anchor tier \"Shorefishing Private Group\" (Price includes up to 2 anglers • $150 per additional angler) is itself add-on/deposit-shaped; ladder Shorefishing Private Group $550; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "wave-2 add-on refinement (note advertises extras; the tier is the product): tier \"Shorefishing Private Group\" $550 (Price includes up to 2 anglers • $150 per additional angler) anchors, unit \"per group, up to 2 anglers\"; ladder Shorefishing Private Group $550; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+      "_unknownFields": {
+        "priceUnit": "per group, up to 2 anglers"
+      }
     },
     {
       "pk": 494011,
@@ -271520,7 +271548,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/LHOgWpZRiaxiPdCfYPdc/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -271542,8 +271570,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (add-on abort): anchor tier \"KAUAI Photo Session\" ($50 Refundable Deposit Required • Deposit is 100% refundable or can be applied toward the purchase of your photos.) is itself add-on/deposit-shaped; ladder KAUAI Photo Session $50; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "HELD (ruled 2026-08-26): the only priced tier is a deposit — deposits never anchor; the session price is not published on FareHarbor; ladder KAUAI Photo Session $50"
     },
     {
       "pk": 519471,
@@ -278655,7 +278683,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Private Farm Tour",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 116624,
@@ -278670,7 +278698,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/DqUmFgUSGeKqrtpw8FgQ/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
       "imageEnrichmentSource": "extract-images-v1",
@@ -278686,8 +278714,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (add-on abort): anchor tier \"Private Farm Tour\" (Price includes up to 9 people | Add additional people below) is itself add-on/deposit-shaped; ladder Private Farm Tour $250; 4/4 dated readings (1 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "wave-2 add-on refinement (note advertises extras; the tier is the product): tier \"Private Farm Tour\" $250 (Price includes up to 9 people | Add additional people below) anchors, unit \"per party, up to 9 people\"; ladder Private Farm Tour $250; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+      "_unknownFields": {
+        "priceUnit": "per party, up to 9 people"
+      }
     },
     {
       "pk": 51099,
@@ -280606,7 +280637,7 @@
       "source": "fareharbor-hermes-extract",
       "currency": "USD",
       "priceLabel": "Beach Umbrella",
-      "priceConfidence": "low",
+      "priceConfidence": "high",
       "priceBreakdown": [
         {
           "id": 993821,
@@ -280711,7 +280742,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/Nlk6mwk9TQG0YsXcbKCL/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -280787,8 +280818,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "HELD (hire/rental rule): floor label \"WaveStorm Surfboard Rental\" carries no duration/unit; ladder Beach Umbrella $25 / Beach Chair $25 / Boogie Board $25 / Snorkel Gear $25 / Cooler $25 / Hard Top Surfboard Rental $145 / Soft Top Surfboard Rental $130 / Fiber Glass Surfboard Rental $150 / WaveStorm Surfboard Rental $120 / Stand Up Paddle Board $150 / Floating Belt $25; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s50-whaw-holds",
+      "priceBasis": "hire/rental — Week in the product name is the duration; all five tiers $25: tier \"Beach Umbrella\" $25 anchors, unit \"Beach Umbrella · Multiple Items - Week Rental\"; ladder Beach Umbrella $25 / Beach Chair $25 / Boogie Board $25 / Snorkel Gear $25 / Cooler $25 / Hard Top Surfboard Rental $145 / Soft Top Surfboard Rental $130 / Fiber Glass Surfboard Rental $150 / WaveStorm Surfboard Rental $120 / Stand Up Paddle Board $150 / Floating Belt $25; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+      "_unknownFields": {
+        "priceUnit": "Beach Umbrella · Multiple Items - Week Rental"
+      }
     },
     {
       "pk": 562027,
