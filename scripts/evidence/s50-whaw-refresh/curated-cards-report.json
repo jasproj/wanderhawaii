@@ -1,0 +1,1558 @@
+{
+ "forms": {
+  "bare-pk": 21,
+  "template": 10,
+  "shortname/pk": 66
+ },
+ "cards": 87,
+ "verdicts": {
+  "MATCH": 59,
+  "DISAGREE": 23,
+  "NO_STATIC_PRICE_IN_WINDOW": 3,
+  "ROW_UNPUBLISHED": 2
+ },
+ "items": [
+  {
+   "file": "big-island.html",
+   "line": 213,
+   "id": "13713",
+   "form": "bare-pk",
+   "pk": 13713,
+   "staticPrices": [
+    139.0
+   ],
+   "priceLine": 213,
+   "rowPrice": 139,
+   "rowConf": "high",
+   "rowLabel": "Person:  Non-Refundable \u2022 All Sales are Final",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "hawaii-helicopter-tours.html",
+   "line": 145,
+   "id": "jackharterheli/671697",
+   "form": "shortname/pk",
+   "pk": 671697,
+   "staticPrices": [
+    169.0
+   ],
+   "priceLine": 140,
+   "rowPrice": 191,
+   "rowConf": "high",
+   "rowLabel": "Passenger",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "hawaii-helicopter-tours.html",
+   "line": 176,
+   "id": "maunaloahelicoptertourskauai/23718",
+   "form": "shortname/pk",
+   "pk": 23718,
+   "staticPrices": [
+    359.0
+   ],
+   "priceLine": 172,
+   "rowPrice": 359,
+   "rowConf": "high",
+   "rowLabel": "per person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "MATCH"
+  },
+  {
+   "file": "hawaii-helicopter-tours.html",
+   "line": 197,
+   "id": "maunaloahelicoptertoursbigisland/184421",
+   "form": "shortname/pk",
+   "pk": 184421,
+   "staticPrices": [
+    229.0
+   ],
+   "priceLine": 193,
+   "rowPrice": 229,
+   "rowConf": "high",
+   "rowLabel": "per person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "MATCH"
+  },
+  {
+   "file": "hawaii-luaus.html",
+   "line": 131,
+   "id": "royallahaina/1234",
+   "form": "shortname/pk",
+   "pk": 1234,
+   "staticPrices": [
+    208.0
+   ],
+   "priceLine": 127,
+   "rowPrice": 208.94,
+   "rowConf": "high",
+   "rowLabel": "per person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "hawaii-luaus.html",
+   "line": 155,
+   "id": "marriottsunsetluau/55940",
+   "form": "shortname/pk",
+   "pk": 55940,
+   "staticPrices": [
+    179.0
+   ],
+   "priceLine": 151,
+   "rowPrice": 179.14,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "hawaii-luaus.html",
+   "line": 170,
+   "id": "luau-kalamaku/215652",
+   "form": "shortname/pk",
+   "pk": 215652,
+   "staticPrices": [
+    189.0
+   ],
+   "priceLine": 166,
+   "rowPrice": 189.32,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "hawaii-luaus.html",
+   "line": 178,
+   "id": "luau-kalamaku/215997",
+   "form": "shortname/pk",
+   "pk": 215997,
+   "staticPrices": [
+    232.0
+   ],
+   "priceLine": 174,
+   "rowPrice": 232.5,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "hawaii-luaus.html",
+   "line": 186,
+   "id": "luau-kalamaku/235783",
+   "form": "shortname/pk",
+   "pk": 235783,
+   "staticPrices": [
+    265.0
+   ],
+   "priceLine": 182,
+   "rowPrice": 265.71,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "hawaii-luaus.html",
+   "line": 194,
+   "id": "luau-kalamaku/215998",
+   "form": "shortname/pk",
+   "pk": 215998,
+   "staticPrices": [
+    274.57
+   ],
+   "priceLine": 190,
+   "rowPrice": 274.57,
+   "rowConf": "high",
+   "rowLabel": "Guest",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "hawaii-luaus.html",
+   "line": 204,
+   "id": "maukawarriorsluau/532383",
+   "form": "shortname/pk",
+   "pk": 532383,
+   "staticPrices": [
+    83.0
+   ],
+   "priceLine": 200,
+   "rowPrice": 83.74,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "helicopter-tours-big-island.html",
+   "line": 147,
+   "id": "maunaloahelicoptertoursbigisland/23562",
+   "form": "shortname/pk",
+   "pk": 23562,
+   "staticPrices": [
+    429.0
+   ],
+   "priceLine": 155,
+   "rowPrice": 1287,
+   "rowConf": "high",
+   "rowLabel": "1 Person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "helicopter-tours-big-island.html",
+   "line": 157,
+   "id": "maunaloahelicoptertoursbigisland/23562",
+   "form": "shortname/pk",
+   "pk": 23562,
+   "staticPrices": [
+    429.0
+   ],
+   "priceLine": 155,
+   "rowPrice": 1287,
+   "rowConf": "high",
+   "rowLabel": "1 Person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "helicopter-tours-big-island.html",
+   "line": 198,
+   "id": "maunaloahelicoptertoursbigisland/23562",
+   "form": "shortname/pk",
+   "pk": 23562,
+   "staticPrices": [],
+   "priceLine": null,
+   "verdict": "NO_STATIC_PRICE_IN_WINDOW"
+  },
+  {
+   "file": "islands.html",
+   "line": 451,
+   "id": "gohawaii-watersports/563749",
+   "form": "shortname/pk",
+   "pk": 563749,
+   "staticPrices": [
+    69.0
+   ],
+   "priceLine": 451,
+   "rowPrice": 69,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "islands.html",
+   "line": 500,
+   "id": "seamauicharter/156818",
+   "form": "shortname/pk",
+   "pk": 156818,
+   "staticPrices": [
+    154.84
+   ],
+   "priceLine": 500,
+   "rowPrice": 154.84,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "islands.html",
+   "line": 549,
+   "id": "bodyglove/397613",
+   "form": "shortname/pk",
+   "pk": 397613,
+   "staticPrices": [
+    130.0
+   ],
+   "priceLine": 549,
+   "rowPrice": 130,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "islands.html",
+   "line": 598,
+   "id": "napalihawaii/316332",
+   "form": "shortname/pk",
+   "pk": 316332,
+   "staticPrices": [
+    197.0
+   ],
+   "priceLine": 598,
+   "rowPrice": 197,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "kauai-tours.html",
+   "line": 109,
+   "id": "napalihawaii/316332",
+   "form": "shortname/pk",
+   "pk": 316332,
+   "staticPrices": [
+    197.0
+   ],
+   "priceLine": 106,
+   "rowPrice": 197,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "kauai-tours.html",
+   "line": 116,
+   "id": "napalihawaii/316334",
+   "form": "shortname/pk",
+   "pk": 316334,
+   "staticPrices": [
+    197.0
+   ],
+   "priceLine": 113,
+   "rowPrice": 197,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "kauai-tours.html",
+   "line": 123,
+   "id": "holoholo/24206",
+   "form": "shortname/pk",
+   "pk": 24206,
+   "staticPrices": [
+    230.0
+   ],
+   "priceLine": 120,
+   "rowPrice": 220,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "kauai-tours.html",
+   "line": 138,
+   "id": "napaliriders/112417",
+   "form": "shortname/pk",
+   "pk": 112417,
+   "staticPrices": [
+    199.0
+   ],
+   "priceLine": 135,
+   "rowPrice": 149,
+   "rowConf": "high",
+   "rowLabel": "Kama\u02bb\u0101ina Adult (13+)",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "kauai-tours.html",
+   "line": 147,
+   "id": "napalicatamaran/346473",
+   "form": "shortname/pk",
+   "pk": 346473,
+   "staticPrices": [
+    315.0
+   ],
+   "priceLine": 143,
+   "rowPrice": 315,
+   "rowConf": "high",
+   "rowLabel": "per person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "MATCH"
+  },
+  {
+   "file": "kauai-tours.html",
+   "line": 172,
+   "id": "aliikayaks/109242",
+   "form": "shortname/pk",
+   "pk": 109242,
+   "staticPrices": [
+    125.0
+   ],
+   "priceLine": 169,
+   "rowPrice": 125,
+   "rowConf": "high",
+   "rowLabel": "per person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "MATCH"
+  },
+  {
+   "file": "kauai-tours.html",
+   "line": 189,
+   "id": "kauaiztours/34580",
+   "form": "shortname/pk",
+   "pk": 34580,
+   "staticPrices": [
+    115.0
+   ],
+   "priceLine": 186,
+   "rowPrice": 115.5,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "kauai-tours.html",
+   "line": 201,
+   "id": "jackharterheli/671697",
+   "form": "shortname/pk",
+   "pk": 671697,
+   "staticPrices": [
+    169.0
+   ],
+   "priceLine": 197,
+   "rowPrice": 191,
+   "rowConf": "high",
+   "rowLabel": "Passenger",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "kauai-tours.html",
+   "line": 209,
+   "id": "maunaloahelicoptertourskauai/23718",
+   "form": "shortname/pk",
+   "pk": 23718,
+   "staticPrices": [
+    359.0
+   ],
+   "priceLine": 205,
+   "rowPrice": 359,
+   "rowConf": "high",
+   "rowLabel": "per person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "MATCH"
+  },
+  {
+   "file": "kauai-tours.html",
+   "line": 239,
+   "id": "polyad-activities/281005",
+   "form": "shortname/pk",
+   "pk": 281005,
+   "staticPrices": [
+    171.0
+   ],
+   "priceLine": 236,
+   "rowPrice": 171,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "kauai-tours.html",
+   "line": 246,
+   "id": "luau-kalamaku/215652",
+   "form": "shortname/pk",
+   "pk": 215652,
+   "staticPrices": [
+    189.0
+   ],
+   "priceLine": 243,
+   "rowPrice": 189.32,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "kauai-tours.html",
+   "line": 254,
+   "id": "luau-kalamaku/215998",
+   "form": "shortname/pk",
+   "pk": 215998,
+   "staticPrices": [
+    274.0
+   ],
+   "priceLine": 251,
+   "rowPrice": 274.57,
+   "rowConf": "high",
+   "rowLabel": "Guest",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 131,
+   "id": "konasnorkeltrips/13713",
+   "form": "shortname/pk",
+   "pk": 13713,
+   "staticPrices": [
+    139.0
+   ],
+   "priceLine": 131,
+   "rowPrice": 139,
+   "rowConf": "high",
+   "rowLabel": "Person:  Non-Refundable \u2022 All Sales are Final",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 138,
+   "id": "konasnorkeltrips/13713",
+   "form": "shortname/pk",
+   "pk": 13713,
+   "staticPrices": [
+    139.0
+   ],
+   "priceLine": 137,
+   "rowPrice": 139,
+   "rowConf": "high",
+   "rowLabel": "Person:  Non-Refundable \u2022 All Sales are Final",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 183,
+   "id": "konasnorkeltrips/13713",
+   "form": "shortname/pk",
+   "pk": 13713,
+   "staticPrices": [
+    139.0
+   ],
+   "priceLine": 182,
+   "rowPrice": 139,
+   "rowConf": "high",
+   "rowLabel": "Person:  Non-Refundable \u2022 All Sales are Final",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 255,
+   "id": "206545",
+   "form": "bare-pk",
+   "pk": 206545,
+   "staticPrices": [
+    109.0
+   ],
+   "priceLine": 254,
+   "rowPrice": 109,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 261,
+   "id": "1535",
+   "form": "bare-pk",
+   "pk": 1535,
+   "staticPrices": [
+    115.54
+   ],
+   "priceLine": 260,
+   "rowPrice": 115.54,
+   "rowConf": "high",
+   "rowLabel": "per person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 267,
+   "id": "2665",
+   "form": "bare-pk",
+   "pk": 2665,
+   "staticPrices": [
+    118.0
+   ],
+   "priceLine": 266,
+   "rowPrice": 118,
+   "rowConf": "high",
+   "rowLabel": "per person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 273,
+   "id": "572385",
+   "form": "bare-pk",
+   "pk": 572385,
+   "staticPrices": [
+    123.0
+   ],
+   "priceLine": 272,
+   "rowPrice": 123,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 279,
+   "id": "371",
+   "form": "bare-pk",
+   "pk": 371,
+   "staticPrices": [
+    125.0
+   ],
+   "priceLine": 278,
+   "rowPrice": 125,
+   "rowConf": "high",
+   "rowLabel": "Person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 285,
+   "id": "4205",
+   "form": "bare-pk",
+   "pk": 4205,
+   "staticPrices": [
+    125.0
+   ],
+   "priceLine": 284,
+   "rowPrice": 125,
+   "rowConf": "high",
+   "rowLabel": "Adult (Beginner Snorkeler)",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 291,
+   "id": "5085",
+   "form": "bare-pk",
+   "pk": 5085,
+   "staticPrices": [
+    125.0
+   ],
+   "priceLine": 290,
+   "rowPrice": 125,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 297,
+   "id": "54547",
+   "form": "bare-pk",
+   "pk": 54547,
+   "staticPrices": [
+    125.0
+   ],
+   "priceLine": 296,
+   "rowPrice": 125,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 303,
+   "id": "506725",
+   "form": "bare-pk",
+   "pk": 506725,
+   "staticPrices": [
+    130.0
+   ],
+   "priceLine": 302,
+   "rowPrice": 130,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 309,
+   "id": "375",
+   "form": "bare-pk",
+   "pk": 375,
+   "staticPrices": [
+    130.0
+   ],
+   "priceLine": 308,
+   "rowPrice": 130,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 315,
+   "id": "101017",
+   "form": "bare-pk",
+   "pk": 101017,
+   "staticPrices": [
+    130.0
+   ],
+   "priceLine": 314,
+   "rowPrice": 130,
+   "rowConf": "high",
+   "rowLabel": "per person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 321,
+   "id": "673",
+   "form": "bare-pk",
+   "pk": 673,
+   "staticPrices": [
+    135.0
+   ],
+   "priceLine": 320,
+   "rowPrice": 135,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 327,
+   "id": "14176",
+   "form": "bare-pk",
+   "pk": 14176,
+   "staticPrices": [
+    135.0
+   ],
+   "priceLine": 326,
+   "rowPrice": 135,
+   "rowConf": "high",
+   "rowLabel": "Person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 333,
+   "id": "390947",
+   "form": "bare-pk",
+   "pk": 390947,
+   "staticPrices": [
+    137.0
+   ],
+   "priceLine": 332,
+   "rowPrice": 137,
+   "rowConf": "high",
+   "rowLabel": "per person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 339,
+   "id": "63264",
+   "form": "bare-pk",
+   "pk": 63264,
+   "staticPrices": [
+    139.0
+   ],
+   "priceLine": 338,
+   "rowPrice": 139,
+   "rowConf": "high",
+   "rowLabel": "Person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 345,
+   "id": "595342",
+   "form": "bare-pk",
+   "pk": 595342,
+   "staticPrices": [
+    145.0
+   ],
+   "priceLine": 344,
+   "rowPrice": 155,
+   "rowConf": "low",
+   "rowLabel": "unknown",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "ROW_UNPUBLISHED"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 351,
+   "id": "20604",
+   "form": "bare-pk",
+   "pk": 20604,
+   "staticPrices": [
+    210.0
+   ],
+   "priceLine": 350,
+   "rowPrice": 210,
+   "rowConf": "high",
+   "rowLabel": "Adult Snorkeler",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 357,
+   "id": "560491",
+   "form": "bare-pk",
+   "pk": 560491,
+   "staticPrices": [
+    210.0
+   ],
+   "priceLine": 356,
+   "rowPrice": 210,
+   "rowConf": "high",
+   "rowLabel": "Adult Snorkeler",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 363,
+   "id": "20603",
+   "form": "bare-pk",
+   "pk": 20603,
+   "staticPrices": [
+    265.0
+   ],
+   "priceLine": 362,
+   "rowPrice": 265,
+   "rowConf": "high",
+   "rowLabel": "Adult Snorkeler",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 369,
+   "id": "415643",
+   "form": "bare-pk",
+   "pk": 415643,
+   "staticPrices": [
+    1050.0
+   ],
+   "priceLine": 368,
+   "rowPrice": 1050,
+   "rowConf": "high",
+   "rowLabel": "Private Charter",
+   "rowUnit": "Private Charter",
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "manta-ray-big-island.html",
+   "line": 397,
+   "id": "konasnorkeltrips/13713",
+   "form": "shortname/pk",
+   "pk": 13713,
+   "staticPrices": [
+    139.0
+   ],
+   "priceLine": 396,
+   "rowPrice": 139,
+   "rowConf": "high",
+   "rowLabel": "Person:  Non-Refundable \u2022 All Sales are Final",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "pearl-harbor-tours.html",
+   "line": 141,
+   "id": "enoatours/42966",
+   "form": "shortname/pk",
+   "pk": 42966,
+   "staticPrices": [
+    69.0
+   ],
+   "priceLine": 137,
+   "rowPrice": 69,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "pearl-harbor-tours.html",
+   "line": 148,
+   "id": "alohahawaiitours/163820",
+   "form": "shortname/pk",
+   "pk": 163820,
+   "staticPrices": [
+    69.0
+   ],
+   "priceLine": 145,
+   "rowPrice": 69,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "pearl-harbor-tours.html",
+   "line": 156,
+   "id": "polyad-activities/540441",
+   "form": "shortname/pk",
+   "pk": 540441,
+   "staticPrices": [
+    550.0
+   ],
+   "priceLine": 152,
+   "rowPrice": 550,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "pearl-harbor-tours.html",
+   "line": 166,
+   "id": "polyad-activities/280735",
+   "form": "shortname/pk",
+   "pk": 280735,
+   "staticPrices": [
+    224.0
+   ],
+   "priceLine": 162,
+   "rowPrice": 224,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "pearl-harbor-tours.html",
+   "line": 175,
+   "id": "enoatours/9621",
+   "form": "shortname/pk",
+   "pk": 9621,
+   "staticPrices": [
+    59.0
+   ],
+   "priceLine": 171,
+   "rowPrice": 59,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "shark-diving.html",
+   "line": 142,
+   "id": "oneoceandiving/2463",
+   "form": "shortname/pk",
+   "pk": 2463,
+   "staticPrices": [
+    150.0
+   ],
+   "priceLine": 142,
+   "rowPrice": 150,
+   "rowConf": "high",
+   "rowLabel": "Person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "shark-diving.html",
+   "line": 189,
+   "id": "deepblueecotours/338202",
+   "form": "shortname/pk",
+   "pk": 338202,
+   "staticPrices": [
+    150.0
+   ],
+   "priceLine": 189,
+   "rowPrice": 150,
+   "rowConf": "high",
+   "rowLabel": "Person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "things-to-do-maui.html",
+   "line": 132,
+   "id": "polyad-activities/280792",
+   "form": "shortname/pk",
+   "pk": 280792,
+   "staticPrices": [
+    243.0
+   ],
+   "priceLine": 132,
+   "rowPrice": 243,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "things-to-do-maui.html",
+   "line": 141,
+   "id": "hanatoursofmaui/59802",
+   "form": "shortname/pk",
+   "pk": 59802,
+   "staticPrices": [
+    240.0
+   ],
+   "priceLine": 138,
+   "rowPrice": 240,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "things-to-do-maui.html",
+   "line": 148,
+   "id": "polyad-activities/280787",
+   "form": "shortname/pk",
+   "pk": 280787,
+   "staticPrices": [
+    249.0
+   ],
+   "priceLine": 145,
+   "rowPrice": 249,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "things-to-do-maui.html",
+   "line": 160,
+   "id": "kaikanani/62431",
+   "form": "shortname/pk",
+   "pk": 62431,
+   "staticPrices": [
+    279.0
+   ],
+   "priceLine": 157,
+   "rowPrice": 279,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "things-to-do-maui.html",
+   "line": 167,
+   "id": "mauiunderwater/6050",
+   "form": "shortname/pk",
+   "pk": 6050,
+   "staticPrices": [
+    179.0
+   ],
+   "priceLine": 164,
+   "rowPrice": 179,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "things-to-do-maui.html",
+   "line": 181,
+   "id": "hawaiioceanrafting/377199",
+   "form": "shortname/pk",
+   "pk": 377199,
+   "staticPrices": [
+    97.0
+   ],
+   "priceLine": 178,
+   "rowPrice": 79.5,
+   "rowConf": "high",
+   "rowLabel": "Kama\u02bb\u0101ina - Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "things-to-do-maui.html",
+   "line": 200,
+   "id": "mauisnorkelcharters/656326",
+   "form": "shortname/pk",
+   "pk": 656326,
+   "staticPrices": [
+    99.0
+   ],
+   "priceLine": 197,
+   "rowPrice": 99,
+   "rowConf": "high",
+   "rowLabel": "per person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "MATCH"
+  },
+  {
+   "file": "things-to-do-maui.html",
+   "line": 208,
+   "id": "goscubadivemaui/136180",
+   "form": "shortname/pk",
+   "pk": 136180,
+   "staticPrices": [
+    269.0
+   ],
+   "priceLine": 205,
+   "rowPrice": 269,
+   "rowConf": "high",
+   "rowLabel": "per person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "MATCH"
+  },
+  {
+   "file": "things-to-do-maui.html",
+   "line": 218,
+   "id": "seamauicharter/7542",
+   "form": "shortname/pk",
+   "pk": 7542,
+   "staticPrices": [
+    189.0
+   ],
+   "priceLine": 215,
+   "rowPrice": 166.31,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "things-to-do-maui.html",
+   "line": 240,
+   "id": "kapaluaziplines/304505",
+   "form": "shortname/pk",
+   "pk": 304505,
+   "staticPrices": [
+    198.0
+   ],
+   "priceLine": 237,
+   "rowPrice": 198,
+   "rowConf": "high",
+   "rowLabel": "per person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "MATCH"
+  },
+  {
+   "file": "things-to-do-maui.html",
+   "line": 251,
+   "id": "mauisunriders/181765",
+   "form": "shortname/pk",
+   "pk": 181765,
+   "staticPrices": [
+    119.0
+   ],
+   "priceLine": 248,
+   "rowPrice": 119,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "things-to-do-maui.html",
+   "line": 287,
+   "id": "mauipineappletour/171378",
+   "form": "shortname/pk",
+   "pk": 171378,
+   "staticPrices": [
+    95.0
+   ],
+   "priceLine": 284,
+   "rowPrice": 95,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "things-to-do-maui.html",
+   "line": 294,
+   "id": "mauichocolatetour/528460",
+   "form": "shortname/pk",
+   "pk": 528460,
+   "staticPrices": [
+    25.0
+   ],
+   "priceLine": 291,
+   "rowPrice": 125,
+   "rowConf": "high",
+   "rowLabel": "per person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "things-to-do-maui.html",
+   "line": 309,
+   "id": "seamauicharter/156816",
+   "form": "shortname/pk",
+   "pk": 156816,
+   "staticPrices": [
+    189.0
+   ],
+   "priceLine": 306,
+   "rowPrice": 166.31,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "things-to-do-oahu.html",
+   "line": 152,
+   "id": "pinksailswaikiki/80660",
+   "form": "shortname/pk",
+   "pk": 80660,
+   "staticPrices": [
+    56.0
+   ],
+   "priceLine": 149,
+   "rowPrice": 56,
+   "rowConf": "high",
+   "rowLabel": "per person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "MATCH"
+  },
+  {
+   "file": "things-to-do-oahu.html",
+   "line": 164,
+   "id": "pinksailswaikiki/110203",
+   "form": "shortname/pk",
+   "pk": 110203,
+   "staticPrices": [
+    79.0
+   ],
+   "priceLine": 161,
+   "rowPrice": 79,
+   "rowConf": "high",
+   "rowLabel": "per person",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "MATCH"
+  },
+  {
+   "file": "things-to-do-oahu.html",
+   "line": 189,
+   "id": "enoatours/42966",
+   "form": "shortname/pk",
+   "pk": 42966,
+   "staticPrices": [
+    69.0
+   ],
+   "priceLine": 186,
+   "rowPrice": 69,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "things-to-do-oahu.html",
+   "line": 206,
+   "id": "andyoucreations/141714",
+   "form": "shortname/pk",
+   "pk": 141714,
+   "staticPrices": [
+    189.0
+   ],
+   "priceLine": 203,
+   "rowPrice": 189,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "waterfalls.html",
+   "line": 120,
+   "id": "ainaexplorer/518078",
+   "form": "shortname/pk",
+   "pk": 518078,
+   "staticPrices": [
+    25.0
+   ],
+   "priceLine": 117,
+   "rowPrice": 435,
+   "rowConf": "high",
+   "rowLabel": "Private Tour",
+   "rowUnit": "Private Tour",
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "waterfalls.html",
+   "line": 127,
+   "id": "wailuakayakadventure/499642",
+   "form": "shortname/pk",
+   "pk": 499642,
+   "staticPrices": [
+    100.0
+   ],
+   "priceLine": 124,
+   "rowPrice": 120,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "waterfalls.html",
+   "line": 134,
+   "id": "ziplinehawaii/8344",
+   "form": "shortname/pk",
+   "pk": 8344,
+   "staticPrices": [
+    92.0
+   ],
+   "priceLine": 131,
+   "rowPrice": 92.5,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "waterfalls.html",
+   "line": 141,
+   "id": "ziplinetourshawaii/372871",
+   "form": "shortname/pk",
+   "pk": 372871,
+   "staticPrices": [
+    162.0
+   ],
+   "priceLine": 138,
+   "rowPrice": 172,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "DISAGREE"
+  },
+  {
+   "file": "whale-watching.html",
+   "line": 383,
+   "id": "livingoceanscuba/397265",
+   "form": "shortname/pk",
+   "pk": 397265,
+   "staticPrices": [
+    59.0
+   ],
+   "priceLine": 380,
+   "rowPrice": 59,
+   "rowConf": "low",
+   "rowLabel": "unknown",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": null,
+   "verdict": "ROW_UNPUBLISHED"
+  },
+  {
+   "file": "whale-watching.html",
+   "line": 390,
+   "id": "gohawaii-watersports/511169",
+   "form": "shortname/pk",
+   "pk": 511169,
+   "staticPrices": [
+    54.0
+   ],
+   "priceLine": 387,
+   "rowPrice": 54,
+   "rowConf": "high",
+   "rowLabel": "Adult",
+   "rowUnit": null,
+   "rowStatus": "active",
+   "rowSource": "s50-whaw-refresh",
+   "verdict": "MATCH"
+  },
+  {
+   "file": "zipline.html",
+   "line": 155,
+   "id": "kapaluaziplines/235838",
+   "form": "shortname/pk",
+   "pk": 235838,
+   "staticPrices": [],
+   "priceLine": null,
+   "verdict": "NO_STATIC_PRICE_IN_WINDOW"
+  },
+  {
+   "file": "zipline.html",
+   "line": 170,
+   "id": "kohalazipline/18203",
+   "form": "shortname/pk",
+   "pk": 18203,
+   "staticPrices": [],
+   "priceLine": null,
+   "verdict": "NO_STATIC_PRICE_IN_WINDOW"
+  }
+ ]
+}
