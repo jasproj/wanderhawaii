@@ -1,0 +1,19 @@
+{
+ "loaded": 2439,
+ "html_identical": 2263,
+ "html_changed": 176,
+ "changed_all_have_small": true,
+ "changed_diff_is_only_the_small_element": true,
+ "jsonld_identical": 2439,
+ "priceText_identical": 2439,
+ "before_cards_with_small": 0,
+ "after_cards_with_small": 176,
+ "sha256": {
+  "tours-data.json": "c0685fea730092bd5d1cdb66eee08e9d6e21324b29a945d87b5cb8dfbd77ebf8",
+  "app.js_before": "9f4d1fbb38c502d94cb41463d70f5739350ea0564a1c44515a5f700963fd9bf1",
+  "app.js_after": "8d69f73b9ed69df50822b0418820ba5bfb56c35dadf582f1471ea0cdd7ec3dd8",
+  "styles.css_after": "8df3a2f554c0045f3b2a037ea81b1408f828ad7b758b1fb609d79cca8c549d80"
+ },
+ "tours_data_sha_unchanged_vs_origin_main": true,
+ "PASS": true
+}

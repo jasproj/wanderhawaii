@@ -1,0 +1,66 @@
+{
+ "withUnit_after": "From $120<small>whole unit</small>",
+ "withUnit_before": "From $120",
+ "noUnit_after": "From $120",
+ "noUnit_before": "From $120",
+ "noUnit_fullcard_identical": true,
+ "withUnit_jsonld_identical": true,
+ "withUnit_escaped": "From $120<small>&lt;b&gt;x&lt;/b&gt;</small>",
+ "lowConf_withUnit": "Price on request<small>whole unit</small>",
+ "nonstring_unit": "",
+ "blank_unit": "",
+ "no_uf": "",
+ "formatPrice_src_identical": true,
+ "hasUsablePrice_src_identical": true,
+ "formatPrice_samples": [
+  [
+   [
+    120,
+    "high"
+   ],
+   "From $120",
+   "From $120"
+  ],
+  [
+   [
+    120,
+    "medium"
+   ],
+   "From $120",
+   "From $120"
+  ],
+  [
+   [
+    120,
+    "low"
+   ],
+   "Price on request",
+   "Price on request"
+  ],
+  [
+   [
+    1,
+    "high"
+   ],
+   "Price on request",
+   "Price on request"
+  ],
+  [
+   [
+    0,
+    "high"
+   ],
+   "Price on request",
+   "Price on request"
+  ],
+  [
+   [
+    null,
+    "high"
+   ],
+   "Price on request",
+   "Price on request"
+  ]
+ ],
+ "PASS": true
+}

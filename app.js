@@ -223,6 +223,18 @@ function formatPrice(price, confidence) {
     return `From $${price}`;
 }
 
+// Pricing unit for the card badge — "per group", "whole unit", "per person".
+// Ported verbatim from wanderengland/app.js priceUnit() (WENG #97, itself from
+// wanderamsterdam #91 / keywestsandbartours via wandernewzealand #108): driven ONLY
+// by the explicit _unknownFields.priceUnit string — no inference from priceLabel
+// words. Empty for every row that does not carry one, so those cards render exactly
+// as they did before this existed. formatPrice() is left alone: it answers "what is
+// the number", this answers "what does the number buy".
+function priceUnit(tour) {
+    const u = (tour._unknownFields || {}).priceUnit;
+    return (typeof u === "string" && u.trim()) ? u.trim() : "";
+}
+
 function cleanLocation(location = '') {
     return location
         .replace(/^United States\/Hawaii\//, '')
@@ -287,6 +299,8 @@ function createTourCard(tour) {
 
     const cleanLoc = cleanLocation(tour.location);
     const priceDisplay = formatPrice(tour.price, tour.priceConfidence);
+    const unit = priceUnit(tour);
+    const unitHtml = unit ? `<small>${escapeHtml(unit)}</small>` : '';
 
     const schema = generateTourSchema(tour);
     const schemaJson = JSON.stringify(schema).replace(/<\/script/gi, '<\\/script');
@@ -312,7 +326,7 @@ function createTourCard(tour) {
                 <p class="tour-description">${escapeHtml(truncatedDesc)}</p>
                 <div class="tour-tags">${tagDisplay}</div>
                 <div class="tour-footer">
-                    <div class="tour-price">${priceDisplay}</div>
+                    <div class="tour-price">${priceDisplay}${unitHtml}</div>
                     <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-book-btn book-now-btn" data-tour-id="${escapeHtml(tour.id ?? tour.pk)}" data-tour-name="${escapeHtml(tour.name)}" style="text-decoration: none;">Check Availability →</a>
                 </div>
             </div>
