@@ -254194,7 +254194,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T14:11:34.510Z",
+      "priceEnrichmentAt": "2026-08-26T14:23:58.000Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/zKIxrRZTSnqC71wpVCIO/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -254210,8 +254210,10 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-holds",
-      "priceBasis": "HELD (ruled 2026-08-26): the sole tier is an ADD ON plate lunch — an add-on product, not a tour; status:inactive ruling queued for Jason; ladder This Lil Piggy Slow - Smoked Grinds Plate Lunch ADD ON $20"
+      "priceSource": "s50-whaw-651446-inactive",
+      "priceBasis": "INACTIVE (ruled 2026-08-26, reversible): an add-on product is not a tour — sole tier 'This Lil Piggy Slow - Smoked Grinds Plate Lunch ADD ON' $20; HELD (ruled 2026-08-26): the sole tier is an ADD ON plate lunch — an add-on product, not a tour; status:inactive ruling queued for Jason; ladder This Lil Piggy Slow - Smoked Grinds Plate Lunch ADD ON $20",
+      "status": "inactive",
+      "statusReason": "add-on product, not a tour (sole tier 'This Lil Piggy Slow - Smoked Grinds Plate Lunch ADD ON'); Jason's ruling 2026-08-26, reversible; s50-whaw-651446-inactive"
     },
     {
       "pk": 669489,
