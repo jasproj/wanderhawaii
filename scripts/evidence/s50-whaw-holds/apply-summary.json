@@ -1,0 +1,438 @@
+{
+ "stampedAt": "2026-08-26T14:11:34.510Z",
+ "ruled": 45,
+ "rowsChanged": 45,
+ "tally": {
+  "kamaaina:release": 19,
+  "kamaaina:hold": 1,
+  "ruled:release": 14,
+  "ruled:hold": 7,
+  "scope:inactive": 4
+ },
+ "decisions": [
+  {
+   "pk": 112417,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 199,
+   "label": "Adult",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Adult $199; ladder Adult $199 / Child (5-12 years old) $179 / Kamaʻāina Adult (13+) $149 / Kamaʻāina Keiki (5-12 years old) $129; resident/military tier(s) Kamaʻāina Adult (13+) $149, Kamaʻāina Keiki (5-12 years old) $129 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "NĀ PALI COAST SEA CAVES RAFT EXPEDITION + SNORKEL"
+  },
+  {
+   "pk": 64783,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 19.5,
+   "label": "Mini Golf - Age 13+",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Mini Golf - Age 13+ $19.5; ladder Mini Golf - Age 13+ $19.5 / Mini Golf - Keiki $15.75 / Mini Golf - Age 13+ - Kama'āina $10.5 / Mini Golf - Keiki - Kama'āina $8.5; resident/military tier(s) Mini Golf - Age 13+ - Kama'āina $10.5, Mini Golf - Keiki - Kama'āina $8.5, Mini Golf - Toddler - Kama'āina $0 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "Mini Golf & Gardens"
+  },
+  {
+   "pk": 314334,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 179,
+   "label": "Adult",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Adult $179; ladder Adult $179 / Child (5-12 years old) $159 / Kamaʻāina Adult (13+) $149 / Kamaʻāina Keiki (5-12 years old) $129; resident/military tier(s) Kamaʻāina Adult (13+) $149, Kamaʻāina Keiki (5-12 years old) $129 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "NĀ PALI COAST SEA CAVES RAFT EXPEDITION (MAY - SEPTEMBER ONLY)"
+  },
+  {
+   "pk": 209248,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 82.5,
+   "label": "Adult",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Adult $82.5; ladder Adult $82.5 / Kama‘aina Adult $58.5 / Military Adult $82.5; resident/military tier(s) Kama‘aina Adult $58.5, Military Adult $82.5 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "Rum Safari"
+  },
+  {
+   "pk": 377165,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 189,
+   "label": "Adult",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Adult $189; ladder Adult $189 / Child $169 / Kamaʻāina - Adult $169 / Kamaʻāina - Child $149 / Private Charter Raft \"Kai\" - 26 Passenger $5500 / Private Charter Raft \"Aloha\" - 19 Passenger $3875; resident/military tier(s) Kamaʻāina - Adult $169, Kamaʻāina - Child $149 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "Eco-Raft:  Lanai Snorkel & Dolphin Watch (Semi|Private)"
+  },
+  {
+   "pk": 377199,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 97,
+   "label": "Adult",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Adult $97; ladder Adult $97 / Child $89 / Kamaʻāina - Adult $79.5 / Kamaʻāina - Child $73.5 / Private Charter Raft \"Kai\" - 26 Passenger $2200; resident/military tier(s) Kamaʻāina - Adult $79.5, Kamaʻāina - Child $73.5 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "Eco-Raft: Eye-Level Whale Watch Tour"
+  },
+  {
+   "pk": 610948,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 84,
+   "label": "Adult",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Adult $84; ladder Adult $84 / Child $76 / Kamaʻāina - Adult $71.5 / Kamaʻāina - Child $64.5 / Private Charter Raft \"Kai\" - 26 Passenger $2200 / Private Charter Raft \"Aloha\" - 19 Passenger $1550; resident/military tier(s) Kamaʻāina - Adult $71.5, Kamaʻāina - Child $64.5 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "Eco-Raft: Dolphin or Whale Search & Sightsee Tour (2 Hours)"
+  },
+  {
+   "pk": 377167,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 179,
+   "label": "Adult",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Adult $179; ladder Adult $179 / Child $159 / Kamaʻāina - Adult $153 / Kamaʻāina - Child $135 / Private Charter Raft - 18 Passenger (4 HR) $3100; resident/military tier(s) Kamaʻāina - Adult $153, Kamaʻāina - Child $135 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "Eco-Raft: 2n1 Turtle Snorkel & Whale Watch Tour (Semi|Private)"
+  },
+  {
+   "pk": 403334,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 120,
+   "label": "Adult",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Adult $120; ladder Adult $120 / Kamaʻāina $90 / Student $90 / Child $60; resident/military tier(s) Kamaʻāina $90 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "Cloud Forest Tour - Montane Jungle Trail (2.5 hrs)"
+  },
+  {
+   "pk": 451501,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 80,
+   "label": "Adult",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Adult $80; ladder Adult $80 / Kamaʻāina $60 / Student $60 / Child $40; resident/military tier(s) Kamaʻāina $60 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "Cloud Forest Tour - Pantropical Trail (1.5 hr)"
+  },
+  {
+   "pk": 654974,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 80,
+   "label": "Adult",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Adult $80; ladder Adult $80 / Kamaʻāina $60 / Student $60; resident/military tier(s) Kamaʻāina $60 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "The Early Bird: Guided Birding Tour (Thur. & Sat.)"
+  },
+  {
+   "pk": 553416,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 60,
+   "label": "Adult",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Adult $60; ladder Adult $60 / Kamaʻāina $50 / Student $50; resident/military tier(s) Kamaʻāina $50 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "Forest Bathing (Shinrin-Yoku): A Guided Journey of Peace and Wellness"
+  },
+  {
+   "pk": 306442,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 50,
+   "label": "Adult",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Adult $50; ladder Adult $50 / Child $50 / Kamaʻāina Resident - Adult (Hawaii Residents) $35 / Kamaʻāina Resident - Child (Hawaii Residents) $35; resident/military tier(s) Kamaʻāina Resident - Adult (Hawaii Residents) $35, Kamaʻāina Resident - Child (Hawaii Residents) $35 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "Leilani Farm Sanctuary Tour"
+  },
+  {
+   "pk": 595820,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 85,
+   "label": "Person",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Person $85; ladder Person $85 / Kamaʻāina $68; resident/military tier(s) Kamaʻāina $68 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "Stargazing Tour"
+  },
+  {
+   "pk": 654233,
+   "kind": "kamaaina",
+   "action": "hold",
+   "status": "zero_price",
+   "price": null,
+   "label": null,
+   "basis": "zero_price: every non-resident tier is $0 (ladder Kama'aina or Military $72; resident/military tier(s) Kama'aina or Military $72 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)); stored 2026-08-26 reading",
+   "name": "West Oahu Guided Snorkel Tour"
+  },
+  {
+   "pk": 670043,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 1000,
+   "label": "Private Tour",
+   "unit": "Private Tour",
+   "basis": "D-621 whole-unit: tier \"Private Tour\" $1000 anchors, label verbatim as unit; ladder Private Tour $1000 / Kamaʻāina - Private Tour $800; resident/military tier(s) Kamaʻāina - Private Tour $800 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "Private Stargazing Tour"
+  },
+  {
+   "pk": 679544,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 49,
+   "label": "Adult",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Adult $49; ladder Adult $49 / Senior $40 / Kamaʻāina $40; resident/military tier(s) Kamaʻāina $40 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "Lilikoi Patch Farm Tour"
+  },
+  {
+   "pk": 530779,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 225,
+   "label": "Visitor",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Visitor $225; ladder Visitor $225 / Kamaʻāina $165; resident/military tier(s) Kamaʻāina $165 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "Make your own mug or bowl (Beginner Course)"
+  },
+  {
+   "pk": 448788,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 895,
+   "label": "Person",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Person $895; ladder Resident $695 / Person $895 / Advanced Open Water Add-on $185; resident/military tier(s) Resident $695 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "Ecological Monitoring Program"
+  },
+  {
+   "pk": 573422,
+   "kind": "kamaaina",
+   "action": "release",
+   "price": 20,
+   "label": "Person age 12+",
+   "unit": null,
+   "basis": "D-624 cheapest adult/base per-person tier Person age 12+ $20; ladder Person age 12+ $20 / Kamaʻāina $18 / Military/Veterans/First Responders $18; resident/military tier(s) Kamaʻāina $18, Military/Veterans/First Responders $18 never anchor (D-654: never-anchor test unicode-normalised — the okina/macron spelling evaded the ASCII regex in s50-whaw-refresh)",
+   "name": "(English/英語)Pour Over Workshop"
+  },
+  {
+   "pk": 50683,
+   "kind": "ruled",
+   "action": "release",
+   "price": 395,
+   "label": "Birthday Party",
+   "unit": "per party, up to 16 people",
+   "basis": "wave-2 add-on refinement (note advertises extras; the tier is the product): tier \"Birthday Party\" $395 (Price includes up to 16 people | Add additional people below) anchors, unit \"per party, up to 16 people\"; ladder Birthday Party $395; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+   "name": "Private Birthday Party"
+  },
+  {
+   "pk": 50739,
+   "kind": "ruled",
+   "action": "release",
+   "price": 250,
+   "label": "Private Farm Tour",
+   "unit": "per party, up to 9 people",
+   "basis": "wave-2 add-on refinement (note advertises extras; the tier is the product): tier \"Private Farm Tour\" $250 (Price includes up to 9 people | Add additional people below) anchors, unit \"per party, up to 9 people\"; ladder Private Farm Tour $250; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+   "name": "Private Petting Zoo Tour"
+  },
+  {
+   "pk": 493441,
+   "kind": "ruled",
+   "action": "release",
+   "price": 550,
+   "label": "Shorefishing Private Group",
+   "unit": "per group, up to 2 anglers",
+   "basis": "wave-2 add-on refinement (note advertises extras; the tier is the product): tier \"Shorefishing Private Group\" $550 (Price includes up to 2 anglers • $150 per additional angler) anchors, unit \"per group, up to 2 anglers\"; ladder Shorefishing Private Group $550; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+   "name": "Guided Shorefishing"
+  },
+  {
+   "pk": 708433,
+   "kind": "ruled",
+   "action": "release",
+   "price": 250,
+   "label": "Fireside S’mores Experience",
+   "unit": "per party, up to 4 guests",
+   "basis": "wave-2 add-on refinement (note advertises extras; the tier is the product): tier \"Fireside S’mores Experience\" $250 (Price includes up to 4 guests • $10 for each additional guest) anchors, unit \"per party, up to 4 guests\"; ladder Fireside S’mores Experience $250; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+   "name": "Fireside at the Farm"
+  },
+  {
+   "pk": 357088,
+   "kind": "ruled",
+   "action": "hold",
+   "status": "high",
+   "basis": "HELD (ruled 2026-08-26): the only priced tier is a deposit — deposits never anchor; the session price is not published on FareHarbor; ladder 25-minute Session Deposit $150",
+   "name": "Waikoloa Resort Mini Session"
+  },
+  {
+   "pk": 436859,
+   "kind": "ruled",
+   "action": "hold",
+   "status": "high",
+   "basis": "HELD (ruled 2026-08-26): the only priced tier is a deposit — deposits never anchor; the session price is not published on FareHarbor; ladder 25-minute Session Deposit $150",
+   "name": "Outrigger Resort Mini Session"
+  },
+  {
+   "pk": 357097,
+   "kind": "ruled",
+   "action": "hold",
+   "status": "high",
+   "basis": "HELD (ruled 2026-08-26): the only priced tier is a deposit — deposits never anchor; the session price is not published on FareHarbor; ladder Session Deposit $250",
+   "name": "Beach Portrait Session"
+  },
+  {
+   "pk": 516210,
+   "kind": "ruled",
+   "action": "hold",
+   "status": "high",
+   "basis": "HELD (ruled 2026-08-26): the only priced tier is a deposit — deposits never anchor; the session price is not published on FareHarbor; ladder KAUAI Photo Session $50",
+   "name": "Kauai - Complimentary Photo Session"
+  },
+  {
+   "pk": 651446,
+   "kind": "ruled",
+   "action": "hold",
+   "status": "high",
+   "basis": "HELD (ruled 2026-08-26): the sole tier is an ADD ON plate lunch — an add-on product, not a tour; status:inactive ruling queued for Jason; ladder This Lil Piggy Slow - Smoked Grinds Plate Lunch ADD ON $20",
+   "name": "This Lil Piggy Plate Lunch"
+  },
+  {
+   "pk": 421678,
+   "kind": "ruled",
+   "action": "release",
+   "price": 325,
+   "label": "Double Kayak",
+   "unit": "Double Kayak · Beach Gear - WEEK RENTAL",
+   "basis": "hire/rental — WEEK in the product name is the duration (case-insensitive duration test): tier \"Double Kayak\" $325 anchors, unit \"Double Kayak · Beach Gear - WEEK RENTAL\"; ladder Double Kayak $325 / Stand Up Paddle Board $325 / Snorkel Gear $40 / Beach Chair $60 / Beach Umbrella $20 / Cooler $15 / Body Board Weekly $70 / Jerry Lopez Soft Surfboard Weekly $100; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+   "name": "Beach Gear - WEEK RENTAL"
+  },
+  {
+   "pk": 471510,
+   "kind": "ruled",
+   "action": "release",
+   "price": 1199,
+   "label": "Private Tour",
+   "unit": "up to 7 guests",
+   "basis": "D-621 whole-unit: tier \"Private Tour\" $1199 (up to 7 guest max) anchors, unit \"up to 7 guests\"; ladder Private Tour $1199; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+   "name": "Rent-a-guide - Private Tour"
+  },
+  {
+   "pk": 538737,
+   "kind": "ruled",
+   "action": "release",
+   "price": 200,
+   "label": "Small Surfside Cabana",
+   "unit": "6 Guests allowed",
+   "basis": "hire/rental — floor tier with its capacity note as unit: tier \"Small Surfside Cabana\" $200 (6 Guests allowed) anchors, unit \"6 Guests allowed\"; ladder Small Surfside Cabana $200 / Large Surfside Cabana $250; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+   "name": "Surfside Cabana Rental"
+  },
+  {
+   "pk": 560195,
+   "kind": "ruled",
+   "action": "release",
+   "price": 25,
+   "label": "Beach Umbrella",
+   "unit": "Beach Umbrella · Multiple Items - Week Rental",
+   "basis": "hire/rental — Week in the product name is the duration; all five tiers $25: tier \"Beach Umbrella\" $25 anchors, unit \"Beach Umbrella · Multiple Items - Week Rental\"; ladder Beach Umbrella $25 / Beach Chair $25 / Boogie Board $25 / Snorkel Gear $25 / Cooler $25 / Hard Top Surfboard Rental $145 / Soft Top Surfboard Rental $130 / Fiber Glass Surfboard Rental $150 / WaveStorm Surfboard Rental $120 / Stand Up Paddle Board $150 / Floating Belt $25; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+   "name": "Multiple Items - Week Rental"
+  },
+  {
+   "pk": 693804,
+   "kind": "ruled",
+   "action": "release",
+   "price": 175,
+   "label": "Beginner Set Up - Four Hour Rental",
+   "unit": "Beginner Set Up - Four Hour Rental",
+   "basis": "hire/rental — gear-size label verbatim (not a skill grade): tier \"Beginner Set Up - Four Hour Rental\" $175 (130L Board, 1 Wing Size, Board, and Foils) anchors, unit \"Beginner Set Up - Four Hour Rental\"; ladder Beginner Set Up - Four Hour Rental $175 / Beginner Set Up - All Day Rental $250 / Intermediate Set Up - Four Hour Rental $225 / Intermediate Set Up - All Day Rental $300 / Pro Set Up - Four Hour Rental $300 / Pro Set Up - Full Day Rental $250; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+   "name": "Wing Foil Maui Rentals"
+  },
+  {
+   "pk": 402403,
+   "kind": "ruled",
+   "action": "hold",
+   "status": "high",
+   "basis": "HELD (ruled 2026-08-26): no duration anywhere (tier labels, notes, product name) for a rental floor; ladder Tandem Kayak Rental $69 / Standup Paddleboard Rental $48 / Snorkel Set Rental $15 / Extra Life Vest $12 / 20L Dry Bag $6",
+   "name": "Chinaman's Hat Kayak Rental"
+  },
+  {
+   "pk": 420371,
+   "kind": "ruled",
+   "action": "hold",
+   "status": "high",
+   "basis": "HELD (ruled 2026-08-26): no duration anywhere (tier labels, notes, product name) for a rental floor; ladder Rental $225",
+   "name": "Ride & Gear Rental"
+  },
+  {
+   "pk": 24677,
+   "kind": "ruled",
+   "action": "release",
+   "price": 220,
+   "label": "Semi-private lesson (2:1 Student to Instructor ratio)",
+   "unit": "2:1 Student to Instructor",
+   "basis": "sole-audience lineage — \"student\" names the participant, not a concession: tier \"Semi-private lesson (2:1 Student to Instructor ratio)\" $220 (Age 8 years and older only) anchors, unit \"2:1 Student to Instructor\"; ladder Semi-private lesson (2:1 Student to Instructor ratio) $220 / Semi-private lesson (3:1 Student to Instructor ratio) $300; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+   "name": "Semi-Private Surf Lesson"
+  },
+  {
+   "pk": 24690,
+   "kind": "ruled",
+   "action": "release",
+   "price": 220,
+   "label": "Semi-private lesson (2:1 Student to Instructor ratio)",
+   "unit": "2:1 Student to Instructor",
+   "basis": "sole-audience lineage — \"student\" names the participant, not a concession: tier \"Semi-private lesson (2:1 Student to Instructor ratio)\" $220 (Age 8 years and older only) anchors, unit \"2:1 Student to Instructor\"; ladder Semi-private lesson (2:1 Student to Instructor ratio) $220 / Semi-private lesson (3:1 Student to Instructor ratio) $300; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+   "name": "Semi-Private Stand Up Paddle Lesson"
+  },
+  {
+   "pk": 407740,
+   "kind": "ruled",
+   "action": "release",
+   "price": 84.95,
+   "label": "Adult - Basic Package",
+   "unit": "Adult - Basic Package",
+   "basis": "bundle-is-the-product — the \"package\" is the product's own tier, cheapest adult tier anchors: tier \"Adult - Basic Package\" $84.95 (One Guest (Ages 14+) Snorkel Equipment Included) anchors, unit \"Adult - Basic Package\"; ladder Adult - Premium Package $125 / Adult - Basic Package $84.95 / Ride Along/Observer $45 / Keiki $55 / Gift Voucher $3; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+   "name": "Waikiki Snorkel Tour"
+  },
+  {
+   "pk": 633489,
+   "kind": "ruled",
+   "action": "release",
+   "price": 27.95,
+   "label": "Beach Bundle Essential - Full Day Rentals",
+   "unit": "Beach Bundle Essential - Full Day Rentals",
+   "basis": "bundle-is-the-product: tier \"Beach Bundle Essential - Full Day Rentals\" $27.95 (Bundle includes 2 chairs, an umbrella, and a cooler) anchors, unit \"Beach Bundle Essential - Full Day Rentals\"; ladder Beach Bundle Essential - Full Day Rentals $27.95 / Beach Bundle Essentials - One Week Rental $79.95 / Beach Bundle Essentials - Two Week Rental $159.9 / Beach Bundle Deluxe - Full Day Rentals $59.95 / Beach Bundle Deluxe - One Week Rental $144.95 / Beach Bundle Deluxe - Two Week Rental $287.9; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+   "name": "Beach Equipment Bundle"
+  },
+  {
+   "pk": 731191,
+   "kind": "ruled",
+   "action": "release",
+   "price": 110,
+   "label": "AquaVenture, AquaPeakz & Paddle Bundle (Half Day)",
+   "unit": "AquaVenture, AquaPeakz & Paddle Bundle (Half Day)",
+   "basis": "bundle-is-the-product: tier \"AquaVenture, AquaPeakz & Paddle Bundle (Half Day)\" $110 (Ages 7+ / Time Block Pass) anchors, unit \"AquaVenture, AquaPeakz & Paddle Bundle (Half Day)\"; ladder AquaVenture, AquaPeakz & Paddle Bundle (Half Day) $110 / Keiki Course Pass (Ages 4-6) Half Day $55; ruled 2026-08-26 on the 4-date 2026-08-26 reading",
+   "name": "Wai Kai Lagoon Explorer (With Shuttle)"
+  },
+  {
+   "pk": 128706,
+   "kind": "scope",
+   "action": "inactive",
+   "basis": "INACTIVE (ruled 2026-08-26, reversible): outside WHAW's Hawaii scope (Teahupo'o, Tahiti) + prices in EUR (D-620) — a scope violation, not a price question; ladder Adult (One or Two People) $261 / Child $55 / Additional Adults $120 / Private Charter $956",
+   "name": "Teahupo’o Adventure Tour"
+  },
+  {
+   "pk": 128707,
+   "kind": "scope",
+   "action": "inactive",
+   "basis": "INACTIVE (ruled 2026-08-26, reversible): outside WHAW's Hawaii scope (Teahupo'o, Tahiti) + prices in EUR (D-620) — a scope violation, not a price question; ladder Adult (One or Two People) $184 / Child $43 / Additional Adults $92 / Private Charter $610",
+   "name": "Teahupo’o Discovery"
+  },
+  {
+   "pk": 128714,
+   "kind": "scope",
+   "action": "inactive",
+   "basis": "INACTIVE (ruled 2026-08-26, reversible): outside WHAW's Hawaii scope (Teahupo'o, Tahiti) + prices in EUR (D-620) — a scope violation, not a price question; ladder One or Two Adults $119 / Child $30 / Additional People $59.5",
+   "name": "Teahupo'o Wave Watching"
+  },
+  {
+   "pk": 521666,
+   "kind": "scope",
+   "action": "inactive",
+   "basis": "INACTIVE (ruled 2026-08-26, reversible): outside WHAW's Hawaii scope (Teahupo'o, Tahiti) + prices in EUR (D-620) — a scope violation, not a price question; ladder Adult (One or Two People) $440 / Child $150 / Additional Adults $201 / Private Charter $1000",
+   "name": "Teahupo'o from my hotel"
+  }
+ ]
+}

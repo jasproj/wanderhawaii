@@ -1,0 +1,36 @@
+{
+ "ruled": 45,
+ "rowsChanged": 45,
+ "outsideRuledChanged": 0,
+ "allRuledStamped": true,
+ "released": 33,
+ "releasedUsable": 33,
+ "heldOrInactiveUsable": 0,
+ "residentLabelsRemaining": 0,
+ "residentUnitsRemaining": 0,
+ "render": {
+  "loadedBefore": 2349,
+  "loadedAfter": 2360,
+  "nonRuledHtmlDiff": 0,
+  "nonRuledMissing": 0,
+  "ruledRenderedBefore": 20,
+  "ruledRenderedAfter": 31,
+  "ruledWithSmallAfter": 13,
+  "releasedNotRendered": [
+   693804,
+   633489
+  ]
+ },
+ "tally": {
+  "kamaaina:release": 19,
+  "kamaaina:hold": 1,
+  "ruled:release": 14,
+  "ruled:hold": 7,
+  "scope:inactive": 4
+ },
+ "sha256": {
+  "before": "f394aeb84b195aa2910f0316b31a55dd304bf5178fbf167436c3aee1ceeb673c",
+  "after": "b1124c565b89fd2e8b7712aa13a9046528eadbd88e1b74d4d393d57b8ec7bc5d"
+ },
+ "PASS": true
+}
