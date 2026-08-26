@@ -1,0 +1,15 @@
+{
+ "loadedBefore": 2360,
+ "loadedAfter": 2360,
+ "delta": 0,
+ "651446RenderedBefore": false,
+ "651446RenderedAfter": false,
+ "otherHtmlDiffs": 0,
+ "otherMissing": 0,
+ "sha256": {
+  "before": "b1124c565b89fd2e8b7712aa13a9046528eadbd88e1b74d4d393d57b8ec7bc5d",
+  "after": "7c1f4b808bc18157ef3e17bbff39e4e16d8f27b7eb5a0b5f23af479153d0ac61"
+ },
+ "deltaExplained": "651446 was low-confidence since #261, so it was NOT in the draw pool before; status:inactive removes it from every render surface but the pool count is unchanged",
+ "PASS": true
+}
