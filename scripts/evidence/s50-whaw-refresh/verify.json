@@ -1,0 +1,92 @@
+{
+ "population": 1814,
+ "attempted": 1814,
+ "succeeded": 1814,
+ "rowsChanged": 1814,
+ "outsidePopulationChanged": 0,
+ "fullyStamped": 1814,
+ "datedStamp2026_08_25plus": 1814,
+ "undatedBefore": 771,
+ "disposition": {
+  "unchanged": 1254,
+  "repriced": 482,
+  "zero_price": 38,
+  "UNSAMPLED": 15,
+  "HELD-never-only": 5,
+  "HELD-addon": 9,
+  "D-620": 4,
+  "HELD-hire": 7
+ },
+ "nowLow(unpublished)": 78,
+ "released(usable)": 1736,
+ "unitsAssigned": 523,
+ "topUnits": [
+  [
+   "Private Charter",
+   47
+  ],
+  [
+   "Private Tour",
+   35
+  ],
+  [
+   "Three Day Rental",
+   24
+  ],
+  [
+   "Private charter",
+   16
+  ],
+  [
+   "Private Group",
+   15
+  ],
+  [
+   "One Day Rental",
+   15
+  ],
+  [
+   "Private Lesson",
+   14
+  ],
+  [
+   "Lesson Package",
+   6
+  ],
+  [
+   "Private Trip",
+   5
+  ],
+  [
+   "Private Group (1-3 people)",
+   5
+  ],
+  [
+   "Four Hour Charter",
+   5
+  ],
+  [
+   "Private SUV",
+   5
+  ]
+ ],
+ "render": {
+  "loadedBefore": 2439,
+  "loadedAfter": 2349,
+  "popRenderedBefore": 1748,
+  "popRenderedAfter": 1658,
+  "popNotInDrawPoolBeforeViaIsAddonOrRental": 66,
+  "popReleasedGatedByIsAddonOrRental": 78,
+  "popGatedByIsAddonOrRentalBefore": 66,
+  "gatedRowsHadNoBreakdownBefore": 18,
+  "popRenderedAfterPlusGatedEqualsReleased": true,
+  "nonPopHtmlDiff": 0,
+  "nonPopMissingAfter": 0,
+  "popCardsWithSmall": 446
+ },
+ "sha256": {
+  "before": "c0685fea730092bd5d1cdb66eee08e9d6e21324b29a945d87b5cb8dfbd77ebf8",
+  "after": "f394aeb84b195aa2910f0316b31a55dd304bf5178fbf167436c3aee1ceeb673c"
+ },
+ "PASS": true
+}
