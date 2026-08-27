@@ -250,19 +250,130 @@ function cleanLocation(location = '') {
 // of our own record we managed to fill. It stays in the data as a sort key.
 // Do not reinstate a badge, a star, or a superlative from it.
 
+// --- s53 schema unit gate ---------------------------------------------------
+// A bare Offer.price is read as per-person by the Bing/ChatGPT/Copilot
+// ecosystem -- this network's primary conversion channel -- so a whole-boat
+// charter emitted bare misquotes a $2,000 fare as $2,000/person. Ruled s52
+// (network decision): the gate has THREE states, derived from the row's own
+// evidence -- _unknownFields.priceUnit (the exact string the card renders),
+// priceLabel, and the anchor tier (the priceBreakdown tier whose price equals
+// the emitted price). A tier note is corroborating only and is never read here.
+//   1. per-person affirmatively asserted   -> bare Offer.price, byte-identical
+//      to what shipped before this gate existed.
+//   2. non-per-person affirmatively asserted -> no bare price; a
+//      UnitPriceSpecification whose unitText is the VERBATIM card string (the
+//      same field the card reads) -- never a parallel wording. If the card
+//      renders no unit string there is nothing to mirror, so no price at all.
+//   3. no unit evidence either way -> no price at all. Absence of evidence is
+//      not per-person; silence is honest, a guess is not.
+// Every word list below is built from the pool's own vocabulary
+// (scripts/evidence/s53-whaw-schema-gate/vocab-out.txt), and every string the
+// lists do not reach falls to state 3 -- ambiguity resolves toward silence.
+
+// Classify one evidence string: 'per-person', 'non-per-person', or '' (no
+// verdict). Order matters twice: shared/semi-private formats sell seats on
+// someone else's booking and must be read BEFORE the exclusivity words they
+// contain ("Shared Charter", "Semi-Private Lesson"); and because every string
+// containing shared/semi-private/non-private has already returned by then,
+// the plain \bprivate\b test below cannot misfire on them.
+function classifyUnitText(s) {
+    if (typeof s !== 'string' || !s.trim()) return '';
+    const SHARED_RE = /\b(?:shared|semi[-\s]?private|non[-\s]?private)\b/i;
+    if (SHARED_RE.test(s)) return 'per-person';
+
+    // Whole-unit evidence: exclusivity, per-group phrasing, vessel/vehicle/
+    // equipment units, event pricing, capacity counts ("1-6 People",
+    // "Up to 40 Guests", "5 passenger van", "1~5pax").
+    const NON_PER_PERSON_RES = [
+        /\bprivate\b/i,
+        /\bcharter(?:s|ed)?\b/i,
+        /\bper[\s-]?(?:group|booking|party|boat|couple|family|vehicle|van|unit|hour)\b/i,
+        /\bby the hour\b/i,
+        /\bwhole\s?(?:unit|boat|vessel|group)\b/i,
+        /\bgroup\s?(?:of|size|rate)\b/i,
+        /^\s*group\s*$/i,
+        /\bexclusive\b/i,
+        /\brentals?\b/i,
+        /\bpax\b/i,
+        /\bcouples?\b/i,
+        /\b(?:yachts?|cabanas?|umbrellas?|coolers?|(?:e-?)?bikes?|suvs?|vans?)\b/i,
+        /\bcar\s*\/\s*truck\b/i,
+        /\b(?:wedding|ceremony|proposal|burial at sea|family session)\b/i,
+        /\bpackages?\b/i,
+        /\d\s*(?:[-–—~]|to)\s*\d+\s*(?:people|persons?|guests?|passengers?|hikers?|anglers?|surfers?)\b/i,
+        /\bup\s?to\s+\d+\s*(?:people|persons?|guests?|passengers?)\b/i,
+        /\b\d+\s*(?:people|guests|passengers)\b/i,
+        /\b\d+\s?(?:passenger|seater)\b/i,
+        /\b(?:one|two|three|four|five|six|seven|eight|nine|ten)\s+to\s+(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten)\s+(?:people|persons?|guests?|passengers?)\b/i
+    ];
+    for (const re of NON_PER_PERSON_RES) {
+        if (re.test(s)) return 'non-per-person';
+    }
+
+    // Per-person evidence: explicit per-X phrasing, customer-type nouns, age
+    // qualifiers, and per-student formats (courses, classes, lessons, camps).
+    const PER_PERSON_RES = [
+        /\bper[\s-]?(?:person|adult|child|guest|passenger|participant|rider|diver|snorkeler|surfer|student|swimmer|angler|hiker|traveler|golfer)\b/i,
+        /\/\s?person\b/i,
+        /\b(?:adults?|child(?:ren)?|kids?|keiki|youth|infants?|seniors?|teens?|juniors?|toddlers?|persons?|people|snorkele?rs?|(?:free)?divers?|surfers?|riders?|passengers?|participants?|guests?|students?|hikers?|anglers?|travele?rs?|visitors?|campers?|cyclists?|paddlers?|flyers?|birders?|hunters?|fisherm[ae]n|swimmers?|individuals?|attendees?|yogis?|golfers?|drivers?|zippers?|seats?|admission|tickets?|pass(?:es)?|scuba|certified|kamaʻ?'?[aā]ina)\b/i,
+        /\bages?\s?\d+/i,
+        /\b\d+\s?(?:&|and|or)\s?(?:up|under|over|younger|older)\b/i,
+        /^\s*singles?\s*$/i,
+        /\b(?:courses?|class(?:es)?|certifications?|camps?|lessons?)\b/i
+    ];
+    for (const re of PER_PERSON_RES) {
+        if (re.test(s)) return 'per-person';
+    }
+    return '';
+}
+
+// Combine the row's three evidence sources into one state. Any whole-unit
+// assertion outranks a per-person one: the harm of a wrong bare price (a
+// charter read as per-person) dwarfs the harm of a suppressed one.
+function unitStateFromEvidence(tour) {
+    const pb = Array.isArray(tour.priceBreakdown) ? tour.priceBreakdown : [];
+    const anchor = pb.find(p => p.price === tour.price);
+    const verdicts = [
+        priceUnit(tour),                        // the string the card renders
+        (tour.priceLabel || '').trim(),
+        anchor ? (anchor.singular || '').trim() : ''
+    ].map(classifyUnitText);
+    if (verdicts.includes('non-per-person')) return 'non-per-person';
+    if (verdicts.includes('per-person')) return 'per-person';
+    return 'none';
+}
+
 function generateTourSchema(tour) {
     const emitPrice = Number.isFinite(tour.price) && tour.priceConfidence !== 'low';
+    const state = emitPrice ? unitStateFromEvidence(tour) : 'none';
+    const cardUnit = priceUnit(tour);
     return {
         "@context": "https://schema.org",
         "@type": "TouristTrip",
         "name": tour.name,
         "description": tour.description || "",
         "touristType": tour.tags ? tour.tags.join(", ") : "",
-        ...(emitPrice && {
+        ...(state === 'per-person' && {
             "offers": {
                 "@type": "Offer",
                 "price": tour.price,
                 "priceCurrency": "USD",
+                "url": tour.bookingUrl
+            }
+        }),
+        // unitText must mirror the visible card verbatim; a non-per-person row
+        // whose card shows no unit string (or whose card string itself reads
+        // per-person, a contradiction) has nothing honest to emit, so it emits
+        // no price at all.
+        ...(state === 'non-per-person' && cardUnit && classifyUnitText(cardUnit) !== 'per-person' && {
+            "offers": {
+                "@type": "Offer",
+                "priceSpecification": {
+                    "@type": "UnitPriceSpecification",
+                    "price": tour.price,
+                    "priceCurrency": "USD",
+                    "unitText": cardUnit
+                },
                 "url": tour.bookingUrl
             }
         }),

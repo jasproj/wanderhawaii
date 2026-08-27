@@ -1,0 +1,511 @@
+pool (emitting population): 2360 of 4666 rows; baseline emitted a bare Offer.price on all 2360
+
+state 1 per-person asserted      : 1645 rows, face $330,380.09 -> bare Offer.price, byte-identical
+state 2 non-per-person asserted  : 618 rows, face $638,754.88
+  2a card unit mirrored          : 416 rows, face $534,013.01 -> UnitPriceSpecification, unitText = card string verbatim
+  2b no mirrorable card unit     : 202 rows, face $104,741.87 -> no price emitted
+state 3 no unit evidence         : 97 rows, face $51,282.38 -> no price emitted
+
+cross-check vs s52 audit: audit ~441 non-per-person rows / ~$563,600 face / ~298 with card unit; this census: 618 / $638,754.88 / 416
+
+== deciding evidence strings, state per-person (188 distinct) ==
+  653  Adult
+  463  per person
+  166  Person
+   22  Certified Diver
+   17  per adult
+   16  Guest
+   14  Snorkeler
+    9  Passenger
+    9  Certified SCUBA Divers
+    8  Adults
+    8  Rider
+    7  Surfer
+    6  Central Transport - Adult
+    6  Hiker - Online
+    6  Adult with Waikiki Shuttle
+    5  One Person
+    5  Visitor
+    4  General Admission
+    4  Adult Snorkeler
+    4  Student
+    4  ADULT
+    4  Participant
+    4  Person tx
+    3  Group Lesson
+    3  Adult (No Transportation)
+    3  Adult - Single Kayak
+    3  Certified Scuba Diver
+    3  Semi-Private Lesson
+    3  Person u
+    3  Leisure Guests
+    3  General Admission (Under 21 Section)
+    2  Adult + Snorkel Sea Scooter
+    2  Adult (9 Line Zipline)
+    2  2 or more people
+    2  Per person
+    2  Child
+    2  Adult : Snorkeling +Thrilling Jumping Platform)
+    2  People
+    2  2:1 Student to Instructor
+    2  Per Person
+    2  Specialty Student
+    2  SHARED  AIRPORT TRANS
+    2  Snorkelers & Ride-Alongs
+    2  Open Water Course
+    2  person u
+    2  Semi-Private Surf Lesson
+    2  Single Rider
+    2  General Admission - Adult
+    2  2 Hour Lesson
+    2  Shared Shuttle • 1 Person
+    2  Advanced OW Certified Diver
+    1  Central Transport - Guest
+    1  Flyer
+    1  Adult (Shared Tour)
+    1  Canoe Passenger
+    1  Non-certified / Student (DSD) Diver
+    1  Mini Golf - Age 13+
+    1  General Admission Dinner Experience
+    1  Surf Lesson
+    1  Single Lesson
+    1  SUP Lessons
+    1  Non-Certified Diver
+    1  Adult 18 + yrs
+    1  Adult Zipline Tour
+    1  Solo Adult Driver
+    1  Semi-Private Group Lesson (parties of 2-6)
+    1  Fruit Tasting Walking Tour -Adult
+    1  Cyclist
+    1  Zipline - Adult
+    1  Aquaball - Adult
+    1  adult
+    1  Zipline & Aquaball Combo - Adult
+    1  Surf Kids Group (1.5 hours)
+    1  Zipper 13 years and older
+    1  Person:  Non-Refundable • All Sales are Final
+    1  Adult (Beginner Snorkeler)
+    1  Snorkeler guided snorkel tour
+    1  Stellar Adult
+    1  Introductory Diver
+    1  12 or younger
+    1  One Week Garden Pass
+    1  1 Person
+    1  Guest Adult
+    1  Adult UTV Rider
+    1  Certified Dive Buddy
+    1  One-on-One Individual
+    1  Group Rider
+    1  Adult with Transportation
+    1  Splash Premium - Adult W/ Transportation
+    1  Celebrity Adult W/ Transportation
+    1  Three day camp
+    1  Pearl Harbor Tour - Half Day Adult (13+)
+    1  Splash Adult W/ Transportation
+    1  Enriched Air Diver (NITROX)
+    1  Adult Cage Diver (Online Special)
+    1  Hidden Gems with Waimea Botanical Garden (Adult)
+    1  Hidden Gems with Byodo In and Turtle Spotting (Adult)
+    1  大人（Adult）
+    1  North Shore Tour - Adult
+    1  Optional Snorkeler/Rider
+    1  Classic Adult W/ Transportation
+    1  1-DAY PINK LINE PASS
+    1  Birder
+    1  Classic Adult
+    1  Adult : New Year's Eve Boat Cruise
+    1  Adult Group
+    1  One Tank SCUBA Dive
+    1  Windsurfing Lesson - Group
+    1  Windsurf Group Kids Class (2hrs)
+    1  Beginner Scuba Diver
+    1  Turtle Canyon Snorkel and Swim Adult (13+)
+    1  Stand-Up Paddleboard Lesson - Group
+    1  VIP Person
+    1  Surfer (Semi-Private Lesson)
+    1  Windsurf Kids-Camp 3-Day (6 hours)
+    1  Diamond Head Shuttle Tour (Adult)
+    1  Person (Ages 10+)
+    1  Certified & Need Refresher
+    1  Level 1 Freediver
+    1  BOGO Passenger
+    1  Passenger/Snorkeler
+    1  Weekly Snorkel Gear Hotel Guest
+    1  Large Group Lessons
+    1  Group Surf Lesson
+    1  Discover SCUBA Diver
+    1  Person - 3 Hour Surf Tour
+    1  One Person Group
+    1  Aquatic safari shared charter
+    1  Group Surf Lessons
+    1  Bamboo Board Regular - Adult
+    1  Discovery SCUBA Dive
+    1  Adult / Child
+    1  Group Surfing Lesson
+    1  Referral Open Water Certification
+    1  Certified Diver 2 Tank
+    1  Person (Ages 10+) Half Day
+    1  Scuba Refresher Dive
+    1  Try Scuba Experience
+    1  EFR Class
+    1  12 & up
+    1  One Surfer
+    1  Non-Private
+    1  Single Surfer
+    1  Non-refundable Adult Ticket
+    1  Discover Scuba Diver
+    1  PADI Open Water Class
+    1  Kid
+    1  Surf Camp full payment $100 off
+    1  Adult Ticket
+    1  Bounce House Pass
+    1  Individual
+    1  Yogis (Public Session)
+    1  Adult from Maui
+    1  Children
+    1  Person S
+    1  Adult Online Special
+    1  Paniolo Roasting Tour (General Admission)
+    1  Seat
+    1  Open-Group Lesson - 60 minutes
+    1  Adult Introductory Diver – 1 Dive
+    1  Person age 12+
+    1  Adult Life Jackets - Day
+    1  NTBG Individual Member
+    1  Diver
+    1  person t
+    1  Snorkeling Only - Adult
+    1  Intro to Scuba
+    1  Certified Diver - 1 Tank Dive
+    1  Semi-Private Open Water Course
+    1  Number of Surfers for Semi-Private SURF Lesson
+    1  Hunter
+    1  UTV Rider
+    1  Certified Diver Pool Refresher
+    1  One Day Freediving Course
+    1  Two Day Freediving Course with photos
+    1  Partially-Obstructed View Seat
+    1  Two Hour Sailing Lesson
+    1  Tag Along Diver - Already certified
+    1  Cuba Trip Diver
+    1  Person in Double Kayak 1.5 Hour
+    1  Full Day Shared Charter
+    1  Certified Diver - 1 Dive
+    1  Certified Diver (1 tank)
+    1  Three Day Freediving Course
+    1  General Admission Ticket
+    1  Assistant Instructor Training Course Student
+    1  Instructor Training Course Student
+    1  Keiki 10 and under
+
+== deciding evidence strings, state non-per-person (209 distinct) ==
+  115  per group
+   47  Private Charter
+   36  per booking
+   36  Private Tour
+   20  whole unit
+   19  Private Lesson
+   16  charter
+   16  Private charter
+   15  Private Group
+    8  Sole Nine "O" single-speed bike
+    6  Lesson Package
+    5  24 Hour Rental
+    5  Four Hour Charter
+    5  Private Surf Lesson
+    5  Private Group (1-3 people)
+    5  Private Trip
+    5  Private SUV
+    5  2 Hour Charter
+    4  Private Tour - participant
+    4  Four Hour Private Charter
+    4  Two Hour Private Charter
+    4  Exclusive (1 person)
+    4  Full Day Charter
+    3  Group
+    3  Private Excursion
+    3  Eight Hour Rental
+    3  1/2 Day Private Charter
+    3  1-4 Guests
+    3  1-6 People
+    3  Two Hour Day Charter
+    3  Private Lesson (1 student per Instructor)
+    2  2 Passengers
+    2  6 Hour Private Charter
+    2  Private Tour (1-7 Guests)
+    2  Private VW Tour
+    2  Private Photoshoot
+    2  private boat
+    2  Private Group - Up to 6 People
+    2  Exclusive Group (2HR)
+    2  Private Duo Lesson
+    2  Private Trio Lesson
+    2  Private Party of 4 Lesson
+    2  Single Person Private
+    2  Private Tour - up to 6 people
+    2  3 Hour Private Charter
+    2  1.5 Hour Private Charter
+    2  Private Charter 4 Hours
+    2  Private Boat
+    2  One Day Rental
+    2  Passenger Van - Ford Transit
+    2  Two Hour Charter
+    2  Private Party Surf Lesson
+    2  Private Tour (upto 6 Guests)
+    2  Private Tour - For Groups of 1-13 Hikers
+    2  Full Day Rental
+    2  Private
+    2  Half Day Private Charter
+    2  Private Photo Session
+    1  Adult - Private -Groups of 5+ adults
+    1  Private lesson
+    1  4 Hour Private Charter
+    1  8 Hour Private Charter
+    1  Two Days Rental
+    1  Private Charter 2 Hour
+    1  8 Hour Private Group (1 - 4 people)
+    1  Private Group (1 - 4 people)
+    1  One Piece Private Experience (1 hour)
+    1  Private Group of 2 ($150/person)
+    1  Private Excursion 1 - 2 people
+    1  Private Charter - 3 Hours
+    1  Five Hour Charter
+    1  Private Van
+    1  Two Hour Charter - Catamaran
+    1  Catamaran Full Day Charter
+    1  Six Hour Charter
+    1  Wing-surf Private 3-Day Course (6 hours)
+    1  Private Full Day
+    1  Private Fisherman
+    1  Private Half Way
+    1  Group of 1
+    1  Two Hour Charter - Monohull
+    1  Monohull Full Day Charter
+    1  Private Charter 6 Hour
+    1  Small Private Charter
+    1  VIP Private Tour
+    1  1/2 day private charter
+    1  Private Group Charter - HILO Pick Up
+    1  4 Hour Charter
+    1  Four Hour Rental
+    1  Two-hour Luxury Private Charter
+    1  NAUTILUS - Private Cruise up to 6 Passenger - Per Hour
+    1  Charter By The Hour
+    1  Group Rate
+    1  2 Hour Private 4Man Canoe lessons
+    1  Ko Olina to Haleʻiwa Adventure (1-3 Guests)
+    1  Ohana Package - Adult
+    1  One Hour Daytime Private Charter (Up to 40 Guests)
+    1  Private charter 1-4 Persons
+    1  Chartered
+    1  One to six people
+    1  North Shore Beach Bus Private Charter (1-14 Pax Rate)
+    1  Private Charter; base rate for up to 10 people
+    1  Private Lesson one-on-one Instruction
+    1  Private Tour - Up to 14 people
+    1  Private Tour - Up to 24 people
+    1  Private Charter (Groups of 1 - 4)
+    1  5 in 1 Deluxe Turtle Snorkeling - Up to 20 guests
+    1  3.5 Hour Private Charter
+    1  2.5 Hour Private Charter
+    1  2-Hour Charter
+    1  2hr  private charter (for 1-6 people)
+    1  Three Hour Charter - Catamaran
+    1  Half Day Charter
+    1  Extended Half Day 3/4 Fishing Charter
+    1  Private Charter Up to 6 Passengers (Per Hour)
+    1  Private Sunset Excursion
+    1  2 Hour Private Charter
+    1  Group of 1-4 People
+    1  Three Hour Private Charter
+    1  Three-Hours  Private Charters
+    1  Private fishing
+    1  One Person Private Lesson
+    1  Private group
+    1  Windsurf Beginner Private (2 hours)
+    1  The Bronze Package
+    1  Nio Package
+    1  Ohia Package
+    1  Hala Package
+    1  Koa Package
+    1  Ulu Package
+    1  Hau Package
+    1  2 Hour Private Lesson
+    1  Three Hour Charter
+    1  Adult - Basic Package
+    1  Private Snorkel Excursion
+    1  Private Class
+    1  Van 1- 3 passengers
+    1  1-6 Person Private Tour
+    1  Small Ebike
+    1  Single Kayak Rental
+    1  1 person/2hrs Private Lesson
+    1  6 Guests allowed
+    1  Private Black Water
+    1  Wedding Ceremony
+    1  Private Surf Safari - 1st guest
+    1  Private Tour • up to 6 people
+    1  Private Charter for 2 People
+    1  1 on 1 Private Surf Lesson
+    1  Private - 1.5 Hours
+    1  Car/Truck
+    1  10-13 surfers
+    1  Two-Hour Private Charter
+    1  Ceremony Charter
+    1  Group of 1-12
+    1  Private Lesson, Turtle
+    1  Three Quarter Day Charter
+    1  1-2 People
+    1  per party, up to 4 guests
+    1  1-4 PASSENGER • one-way
+    1  1/2 Day Charter
+    1  2 People
+    1  Couple
+    1  Person (Group of 1 - 2)
+    1  Photo Package
+    1  Private Guide
+    1  Six Hour Private Charter
+    1  Double Kayak · Beach Gear - WEEK RENTAL
+    1  Ride Along / Yacht Cruise
+    1  Private 1-On-1 Lesson • 60 minutes
+    1  43' Sailing Yacht
+    1  Group of up to 2 People
+    1  Rental
+    1  Tommy Bahama Beach Umbrella · 1 Day Rental
+    1  Tommy Bahama Beach Umbrella · 3 Day Rental
+    1  Tommy Bahama Beach Umbrella · 5 Day Rental
+    1  Tommy Bahama Beach Umbrella · 6 Day Rental
+    1  Tommy Bahama Beach Umbrella · One Week Rental
+    1  One Cooler
+    1  Cooler with Ice Only
+    1  90 Minute Private Charter
+    1  Half-Day Charter
+    1  Private Van (up to 6 guests)
+    1  2 Hour Exclusive Charter
+    1  Private Charter - Finnattic
+    1  Private Shuttle • 3 People
+    1  One to 2 people
+    1  Two Hour Private Sail
+    1  Single Kayak 1.5 Hour Rental
+    1  per party, up to 16 people
+    1  Kitefoil | Private Lesson
+    1  1hr EXCLUSIVE Lesson
+    1  Private Tour - Up to 4 people
+    1  Snorkel Set - Three Day Rental
+    1  up to 7 guests
+    1  per group, up to 2 anglers
+    1  Large Private Group
+    1  Cooler
+    1  Burial At Sea
+    1  Private Party
+    1  8-14 Passengers
+    1  per party, up to 9 people
+    1  Beach Umbrella · Multiple Items - Week Rental
+    1  WaveStorm Surfboard Rental · Multiple Items - Day Rental
+    1  Group of 2
+    1  Advanced Private Lesson
+    1  Custom Charter 2026
+    1  VL&STAR Charter 2026
+    1  Book a 5 passenger van
+    1  Private Sunset Proposal Experience
+
+== deciding evidence strings, state none (81 distinct) ==
+    6  General
+    4  Ekahi Special
+    3  Owner
+    2  Beach Photoshoot
+    2  Three Hour Sail
+    2  Half Day
+    2  Standard Lei
+    2  One Hour
+    2  Three Hours
+    1  Rappel
+    1  4 Hour Shuttle
+    1  Tandem Skydive
+    1  Surfari
+    1  Photography Session
+    1  Whale Watch
+    1  1/2 Day
+    1  Basic Tour
+    1  3/4 Day
+    1  BOGO Half Off
+    1  Half Day Deep Sea Fishing
+    1  Morning Snorkel + Lunch
+    1  Venture Nearshore Fishing
+    1  Venture West Wildlife Snorkel
+    1  Venture Whale Watch + Snorkel
+    1  Baseball Cap - Navy Blue - Stars Above Hawaii logo
+    1  Venture Whale Watch
+    1  Transfer Fee
+    1  Dive Ohana Club
+    1  5H Offshore Fishing PM
+    1  One Hour Tour
+    1  5H Offshore Trip AM
+    1  Very Important Primate
+    1  Airlines - Arrival
+    1  Leis
+    1  Snorkel Gear: LARGE - 4 Days
+    1  Module 1: Paddling
+    1  2 hour Test Drive
+    1  Small PartyBana Half Day
+    1  PADI -  Reactivate
+    1  お一人様サップドッグ体験ツアー
+    1  Waikiki Sunset Coastal Drive
+    1  Windsurf 5-Day (10 hours)
+    1  30ft Wave Session
+    1  Four Hour Tour
+    1  Circle Island Tour
+    1  60-minute Flight
+    1  Guided Ford Bronco Tour - 4 Hour
+    1  Four Hour
+    1  Advanced Open Water
+    1  ADD Bumper Tube
+    1  Bumper Tube
+    1  Standard MOTORCOACH
+    1  体験ダイバー（キッズ・ご家族）
+    1  SSI - Advanced Open Water - Group
+    1  One Way Trip
+    1  Four Hours
+    1  Eight Hours
+    1  Roof Carrier- Full Day
+    1  ADD Tandem Jet Ski
+    1  Open Water Checkout Dives (OW Dives 1-4)
+    1  Single Kayak
+    1  Eight Hour Experience
+    1  Necklace Workshop - Single Pearl Design
+    1  SSI Referral Processing
+    1  Half day 1-4 hrs
+    1  Beach Day Set Up
+    1  AquaVenture & AquaPeakz (Half Day)
+    1  AquaVenture, AquaPeakz & Paddle Bundle (Half Day)
+    1  プライベート
+    1  FULL DAY
+    1  Surf & Yoga Retreat - 7 Days
+    1  Single Picture
+    1  Floating Belt
+    1  Day Lei Tour
+    1  Our ʻohana
+    1  Guide
+    1  Single Price Tour
+    1  Maui Island Tour
+    1  Hot Shots
+    1  2026 TRF 1~5pax
+    1  sunrise dive
+
+=== fixture: perPerson — pk 316332 "Morning NaPali Coast Snorkel Tour- Super Raft Adventure" price $197 ===
+  evidence: priceUnit="" priceLabel="Adult" anchorSingular="Adult"
+  before offers: {"@type":"Offer","price":197,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/napalihawaii/items/316332/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}
+  after  offers: {"@type":"Offer","price":197,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/napalihawaii/items/316332/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}
+  full schema byte-identical to baseline: true
+
+=== fixture: noEvidence — pk 140356 "Waterfall Rappel" price $247.35 ===
+  evidence: priceUnit="" priceLabel="Rappel" anchorSingular="Rappel"
+  before offers: {"@type":"Offer","price":247.35,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/kauaibeachboys/items/140356/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}
+  after  offers: null
+
+=== fixture: wholeBoat — pk 584304 "Private Whale Watch Charter" price $1999 ===
+  evidence: priceUnit="Private Charter" priceLabel="Private Charter" anchorSingular="Private Charter"
+  before offers: {"@type":"Offer","price":1999,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/napaliexperience/items/584304/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}
+  after  offers: {"@type":"Offer","priceSpecification":{"@type":"UnitPriceSpecification","price":1999,"priceCurrency":"USD","unitText":"Private Charter"},"url":"https://fareharbor.com/embeds/book/napaliexperience/items/584304/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"}
+
+all assertions passed: partition exact, state-1 byte-identical, state-2a verbatim card unitText + no bare price, state-2b/3 no price key
