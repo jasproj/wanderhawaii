@@ -45992,8 +45992,8 @@
       "location": "United States/Hawaii/Kahului",
       "island": "maui",
       "price": 325,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "Private Tour with Convertible Bronco",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "420 minutes",
@@ -46023,7 +46023,7 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "inactive",
+      "status": "active",
       "statusReason": "no-online-availability",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
@@ -46031,7 +46031,12 @@
       "_unknownFields": {
         "durationMinutes": 420
       },
-      "statusCheckedAt": "2026-08-17T16:04:41Z"
+      "statusCheckedAt": "2026-08-17T16:04:41Z",
+      "priceSource": "s54-deadlinks",
+      "priceEnrichmentSource": "live-probe-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-28T17:24:24.000Z",
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "Live price-preview probe: item present, 4/4 dated readings, 4/4 date-valid, identical ladder (Private Tour with Convertible Bronco $325 / Private Tour with Transit Van $325 / Tiny Traveler $0 [never-anchor]); stored price $325 exact match. Contradicts stored status:inactive — item is live and bookable; status corrected to active — company /api/v1/companies/holoholomauitours/ 200."
     },
     {
       "id": "273555",
@@ -47611,8 +47616,8 @@
       "location": "United States/Hawaii/Lahaina",
       "island": "maui",
       "price": 229,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "Private Lesson",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "90 minutes",
@@ -47638,7 +47643,12 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 90
-      }
+      },
+      "priceSource": "s54-deadlinks",
+      "priceEnrichmentSource": "live-probe-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-28T17:24:24.000Z",
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "Live price-preview probe: item present, 4/4 dated readings (2/4 date-valid, 2 fallback echoes to the next open date), single tier \"Private Lesson\" $229 identical on all 4 readings; stored price $229 exact match — company /api/v1/companies/swellmauisurf/ 200."
     },
     {
       "id": "304489",
@@ -81056,9 +81066,9 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 155,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 145,
+      "priceLabel": "Person",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "150 minutes",
@@ -81086,7 +81096,12 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 150
-      }
+      },
+      "priceSource": "s54-deadlinks",
+      "priceEnrichmentSource": "live-probe-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-28T17:24:24.000Z",
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "Live price-preview probe: item present, 4/4 dated readings (3/4 date-valid), identical ladder every reading (Person $145 / Kama'aina $135 [not the public-site base tier] / Private Charter $820 [group]); prior stored price $155 did not match any live tier — corrected to the live \"Person\" base tier $145 — company /api/v1/companies/midpacifictours/ 200."
     },
     {
       "id": "599369",
@@ -95997,8 +96012,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 80,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "Parasailing Experience (600ft)",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "1440 minutes",
@@ -96030,7 +96045,12 @@
       "_unknownFields": {
         "durationMinutes": 1440
       },
-      "gallery": []
+      "gallery": [],
+      "priceSource": "s54-deadlinks",
+      "priceEnrichmentSource": "live-probe-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-28T17:24:24.000Z",
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "Live price-preview probe: item present, 4/4 dated readings, 4/4 date-valid, identical ladder (Parasailing Experience (600ft) $80 / Standard Ride (800ft) $90 / Ultimate Ride (1000ft) $115 / Observer $45 [never-anchor]); stored price $80 exact match — company /api/v1/companies/gohawaii-watersports/ 200."
     },
     {
       "id": "663537",
@@ -96431,8 +96451,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 100,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "Group Lesson",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "120 minutes",
@@ -96462,7 +96482,12 @@
       "_unknownFields": {
         "durationMinutes": 120
       },
-      "gallery": []
+      "gallery": [],
+      "priceSource": "s54-deadlinks",
+      "priceEnrichmentSource": "live-probe-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-28T17:24:24.000Z",
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "Live price-preview probe: item present, 4/4 dated readings, 4/4 date-valid, identical ladder (Group Lesson $100 / Semi Private Lesson $140 / Private Lesson $175 / Surf with a Pro $400); stored price $100 exact match — company /api/v1/companies/hhsurf/ 200."
     },
     {
       "id": "213711",
@@ -97166,8 +97191,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 105,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "Xtreme Parasailer",
+      "priceConfidence": "high",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "60 minutes",
@@ -97195,7 +97220,12 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 60
-      }
+      },
+      "priceSource": "s54-deadlinks",
+      "priceEnrichmentSource": "live-probe-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-28T17:24:24.000Z",
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "Live price-preview probe (dates +7/+14/+30/+60d from 2026-08-29, price-preview/per-item/v2): item present, 4/4 dated readings, 4/4 date-valid, identical ladder every reading (Xtreme Parasailer $105 / Deluxe Parasailer $90 / Standard Parasailer $75 / Observer $50 [never-anchor] / Ultimate Xtreme Parasail $120 / Ultimate Xtreme Parasail Private Charter $1500 [group]); stored price $105 exact match to \"Xtreme Parasailer\" — company /api/v1/companies/xtreme/ 200."
     },
     {
       "id": "9620",
@@ -102197,8 +102227,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 59,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "Person Age 3+: Refundable • Up To 48 Hours Before Trip",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "60 minutes",
@@ -102228,7 +102258,12 @@
       "_unknownFields": {
         "durationMinutes": 60
       },
-      "gallery": []
+      "gallery": [],
+      "priceSource": "s54-deadlinks",
+      "priceEnrichmentSource": "live-probe-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-28T17:24:24.000Z",
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "Live price-preview probe: item present, 4/4 dated readings, 0/4 date-valid — every dated request echoes the same single next departure, 2027-01-02 (seasonal whale-watch product, in-season Dec-Apr per site convention; the far-out constant next-departure is the expected signature of a seasonal product, not a dead one). Ladder identical every reading (Person Age 3+ Refundable $59 / Person Ages 3+ Non-Refundable $49); stored price $59 exact match to the refundable tier — company /api/v1/companies/livingoceanscuba/ 200."
     },
     {
       "id": "444204",
@@ -109082,8 +109117,8 @@
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
       "price": 75,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "priceLabel": "Parasailing Experience (600ft)",
+      "priceConfidence": "high",
       "qualityScore": 90,
       "currency": "USD",
       "duration": null,
@@ -109108,7 +109143,12 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "priceSource": "s54-deadlinks",
+      "priceEnrichmentSource": "live-probe-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-28T17:24:24.000Z",
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "Live price-preview probe: item present, 4/4 dated readings, 4/4 date-valid, identical ladder (Parasailing Experience (600ft) $75 / Standard Ride (800ft) $85 / Ultimate Ride (1000ft) $95 / Observer $45 [never-anchor]); stored price $75 exact match — company /api/v1/companies/gohawaii-waikikiparasail/ 200."
     },
     {
       "id": "672153",
@@ -130690,9 +130730,9 @@
       "category": "",
       "location": "United States/Hawaii/Kapolei",
       "island": "oahu",
-      "price": 59,
-      "priceLabel": "unknown",
-      "priceConfidence": "low",
+      "price": 79,
+      "priceLabel": "Participant (13+ years old)",
+      "priceConfidence": "high",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "120 minutes",
@@ -130713,7 +130753,7 @@
       "timeOfDay": "night",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "inactive",
+      "status": "active",
       "statusReason": "no-online-availability",
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
@@ -130721,7 +130761,12 @@
       "_unknownFields": {
         "durationMinutes": 120
       },
-      "statusCheckedAt": "2026-08-17T16:04:41Z"
+      "statusCheckedAt": "2026-08-17T16:04:41Z",
+      "priceSource": "s54-deadlinks",
+      "priceEnrichmentSource": "live-probe-price-preview-v2",
+      "priceEnrichmentAt": "2026-08-28T17:24:24.000Z",
+      "priceEnrichmentStatus": "high",
+      "priceBasis": "Live price-preview probe: item present, 4/4 dated readings (2/4 date-valid), identical ladder every reading (Participant (13+ years old) $79 / Child - Ages 6-12 $59); prior stored price $59 was the CHILD tier, not the base/adult tier — corrected to the $79 base tier per this repo's adult/base-anchor convention (child tiers are never-anchor). Contradicts stored status:inactive — item is live and bookable; status corrected to active — company /api/v1/companies/coralcrater/ 200."
     },
     {
       "id": "330772",
