@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Which Hawaiian Island Is Right For You? — Quiz | WanderHawaii</title>
+<meta name="description" content="Take our 60-second quiz to find your perfect Hawaiian island. Get personalized tour recommendations for Oahu, Maui, Big Island, or Kauai based on your travel style.">
+<link rel="canonical" href="https://wanderhawaii.com/island-quiz.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://wanderhawaii.com/island-quiz.html">
+<meta property="og:title" content="Which Hawaiian Island Is Right For You? — Quiz">
+<meta property="og:description" content="60-second quiz to find your perfect Hawaiian island with personalized tour picks.">
+<meta property="og:image" content="https://wanderhawaii.com/images/og-image.jpg">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PL7CN6NG44"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-PL7CN6NG44');
+</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ocean-deep:#0A4D68;
+  --teal:#2A9D8F;
+  --coral:#FF6B6B;
+  --plumeria:#ffd166;
+  --sand:#FFF8E7;
+  --pale-blue:#F0F6F9;
+  --white:#FFFFFF;
+  --gray-100:#F5F5F5;
+  --gray-300:#D4D4D4;
+  --gray-600:#525252;
+  --gray-800:#262626;
+  --font-display:'DM Sans',sans-serif;
+  --font-body:'Inter',sans-serif;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);color:var(--gray-800);background:var(--pale-blue);line-height:1.6;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+
+/* HEADER */
+.site-header{background:var(--white);box-shadow:0 2px 8px rgba(0,0,0,.08);position:sticky;top:0;z-index:100}
+.header-inner{max-width:1280px;margin:0 auto;padding:12px 24px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:var(--font-display);font-size:1.5rem;font-weight:700;color:var(--ocean-deep)}
+.logo span{color:var(--teal)}
+nav a{margin-left:24px;font-size:.9rem;font-weight:500;color:var(--gray-600);transition:color .2s}
+nav a:hover{color:var(--ocean-deep)}
+@media(max-width:768px){nav{display:none}}
+
+/* QUIZ CONTAINER */
+.quiz-wrap{max-width:720px;margin:0 auto;padding:24px 16px 60px}
+.quiz-hero{text-align:center;padding:40px 0 32px}
+.quiz-hero h1{font-family:var(--font-display);font-size:2rem;color:var(--ocean-deep);margin-bottom:8px}
+.quiz-hero p{color:var(--gray-600);font-size:1.05rem}
+
+/* PROGRESS */
+.progress-bar{height:6px;background:var(--gray-100);border-radius:3px;margin-bottom:32px;overflow:hidden}
+.progress-fill{height:100%;background:linear-gradient(90deg,var(--teal),var(--ocean-deep));border-radius:3px;transition:width .4s ease}
+
+/* QUESTION */
+.question-card{background:var(--white);border-radius:16px;padding:32px 28px;box-shadow:0 4px 20px rgba(0,0,0,.06);display:none}
+.question-card.active{display:block;animation:fadeUp .35s ease}
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.question-card h2{font-family:var(--font-display);font-size:1.25rem;color:var(--ocean-deep);margin-bottom:20px;text-align:center}
+.options{display:grid;gap:12px}
+.option-btn{display:flex;align-items:center;gap:14px;padding:16px 20px;border:2px solid var(--gray-100);border-radius:12px;background:var(--white);cursor:pointer;transition:all .2s;text-align:left;font-size:.95rem;line-height:1.4}
+.option-btn:hover{border-color:var(--teal);background:rgba(42,157,143,.04)}
+.option-btn.selected{border-color:var(--teal);background:rgba(42,157,143,.08)}
+.option-icon{font-size:1.5rem;flex-shrink:0;width:36px;text-align:center}
+.option-text strong{display:block;color:var(--ocean-deep);font-weight:600}
+.option-text span{color:var(--gray-600);font-size:.85rem}
+
+/* RESULTS */
+.results-section{display:none}
+.results-section.active{display:block;animation:fadeUp .4s ease}
+.result-hero{text-align:center;padding:32px 0 24px}
+.result-hero .island-emoji{font-size:3rem;margin-bottom:8px}
+.result-hero h2{font-family:var(--font-display);font-size:1.75rem;color:var(--ocean-deep)}
+.result-hero .island-name{color:var(--teal);display:block}
+.result-hero p{color:var(--gray-600);margin-top:8px;font-size:1rem;max-width:520px;margin-left:auto;margin-right:auto}
+.match-bar{display:flex;justify-content:center;gap:24px;margin:20px 0 28px;flex-wrap:wrap}
+.match-item{text-align:center}
+.match-item .pct{font-family:var(--font-display);font-size:1.5rem;font-weight:700;color:var(--ocean-deep)}
+.match-item .label{font-size:.75rem;color:var(--gray-600);display:block}
+
+/* ISLAND CARD */
+.island-detail{background:var(--white);border-radius:16px;padding:28px;box-shadow:0 4px 20px rgba(0,0,0,.06);margin-bottom:24px}
+.island-detail h3{font-family:var(--font-display);color:var(--ocean-deep);font-size:1.15rem;margin-bottom:12px}
+.island-detail p{color:var(--gray-600);font-size:.95rem;margin-bottom:16px}
+
+/* TOUR CARDS */
+.tour-grid{display:grid;gap:14px}
+.tour-card{display:flex;align-items:center;justify-content:space-between;padding:16px;border:1px solid var(--gray-100);border-radius:12px;transition:box-shadow .2s}
+.tour-card:hover{box-shadow:0 4px 12px rgba(0,0,0,.08)}
+.tour-info{flex:1;min-width:0}
+.tour-info .tour-name{font-weight:600;color:var(--ocean-deep);font-size:.9rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tour-info .tour-co{font-size:.8rem;color:var(--gray-600)}
+.tour-price{font-family:var(--font-display);font-weight:700;color:var(--teal);font-size:1.1rem;white-space:nowrap;margin-left:12px}
+.tour-card .book-btn{display:inline-block;margin-left:12px;padding:8px 16px;background:var(--coral);color:var(--white);border-radius:8px;font-size:.8rem;font-weight:600;transition:background .2s;white-space:nowrap}
+.tour-card .book-btn:hover{background:#e55a5a}
+
+/* EMAIL CTA */
+.email-cta{background:linear-gradient(135deg,var(--ocean-deep),var(--teal));border-radius:16px;padding:32px 28px;text-align:center;margin-top:28px;color:var(--white)}
+.email-cta h3{font-family:var(--font-display);font-size:1.15rem;margin-bottom:6px}
+.email-cta p{font-size:.9rem;opacity:.85;margin-bottom:16px}
+.email-form{display:flex;gap:10px;max-width:400px;margin:0 auto}
+.email-form input{flex:1;padding:12px 16px;border:none;border-radius:10px;font-size:.9rem;font-family:var(--font-body)}
+.email-form button{padding:12px 20px;background:var(--coral);color:var(--white);border:none;border-radius:10px;font-weight:600;font-size:.9rem;cursor:pointer;transition:background .2s}
+.email-form button:hover{background:#e55a5a}
+.email-ok{display:none;font-size:.9rem;margin-top:10px}
+@media(max-width:480px){.email-form{flex-direction:column}}
+
+/* RETAKE */
+.retake-wrap{text-align:center;margin-top:24px}
+.retake-btn{display:inline-block;padding:12px 28px;border:2px solid var(--ocean-deep);border-radius:10px;color:var(--ocean-deep);font-weight:600;cursor:pointer;transition:all .2s}
+.retake-btn:hover{background:var(--ocean-deep);color:var(--white)}
+
+/* EXPLORE LINK */
+.explore-link{display:block;text-align:center;margin-top:16px;padding:14px;background:var(--plumeria);color:var(--ocean-deep);border-radius:10px;font-weight:600;transition:background .2s}
+.explore-link:hover{background:#f2be4a}
+
+/* FOOTER */
+.site-footer{background:var(--ocean-deep);color:rgba(255,255,255,.7);text-align:center;padding:28px 16px;margin-top:48px;font-size:.85rem}
+.site-footer a{color:var(--plumeria)}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo">Wander<span>Hawaii</span></a>
+    <nav>
+      <a href="/tours.html">Tours</a>
+      <a href="/islands.html">Islands</a>
+      <a href="/map.html">Map</a>
+      <a href="/blog/">Blog</a>
+      <a href="/about.html">About</a>
+      <a href="/faq.html">FAQs</a>
+    </nav>
+  </div>
+</header>
+
+<main class="quiz-wrap">
+  <div class="quiz-hero">
+    <h1>Which Hawaiian Island Is Right For You?</h1>
+    <p>Answer 5 quick questions. We'll match you with your perfect island and top-rated tours.</p>
+  </div>
+
+  <div class="progress-bar"><div class="progress-fill" id="progress" style="width:0%"></div></div>
+
+  <!-- Q1 -->
+  <div class="question-card active" data-q="0">
+    <h2>What's your ideal vacation vibe?</h2>
+    <div class="options">
+      <button class="option-btn" data-scores='{"oahu":3,"maui":1,"big_island":0,"kauai":0}'>
+        <span class="option-icon">🌃</span>
+        <div class="option-text"><strong>City buzz + beach days</strong><span>Nightlife, shopping, restaurants, plus gorgeous beaches</span></div>
+      </button>
+      <button class="option-btn" data-scores='{"oahu":1,"maui":3,"big_island":1,"kauai":1}'>
+        <span class="option-icon">🏖️</span>
+        <div class="option-text"><strong>Beach & relaxation</strong><span>Sunset cocktails, snorkeling, pure chill</span></div>
+      </button>
+      <button class="option-btn" data-scores='{"oahu":0,"maui":1,"big_island":3,"kauai":1}'>
+        <span class="option-icon">🌋</span>
+        <div class="option-text"><strong>Adventure & nature</strong><span>Volcanoes, lava fields, night dives, off-grid exploration</span></div>
+      </button>
+      <button class="option-btn" data-scores='{"oahu":0,"maui":0,"big_island":1,"kauai":3}'>
+        <span class="option-icon">🌿</span>
+        <div class="option-text"><strong>Secluded & wild</strong><span>Dramatic cliffs, hidden trails, no crowds</span></div>
+      </button>
+    </div>
+  </div>
+
+  <!-- Q2 -->
+  <div class="question-card" data-q="1">
+    <h2>Who's coming with you?</h2>
+    <div class="options">
+      <button class="option-btn" data-scores='{"oahu":1,"maui":3,"big_island":1,"kauai":2}'>
+        <span class="option-icon">💑</span>
+        <div class="option-text"><strong>Couple / Honeymoon</strong><span>Romance, privacy, sunset cruises</span></div>
+      </button>
+      <button class="option-btn" data-scores='{"oahu":3,"maui":2,"big_island":1,"kauai":0}'>
+        <span class="option-icon">👨‍👩‍👧‍👦</span>
+        <div class="option-text"><strong>Family with kids</strong><span>Kid-friendly activities, easy logistics</span></div>
+      </button>
+      <button class="option-btn" data-scores='{"oahu":3,"maui":2,"big_island":1,"kauai":1}'>
+        <span class="option-icon">🤙</span>
+        <div class="option-text"><strong>Friends group</strong><span>High energy, variety, shared experiences</span></div>
+      </button>
+      <button class="option-btn" data-scores='{"oahu":1,"maui":1,"big_island":2,"kauai":3}'>
+        <span class="option-icon">🧘</span>
+        <div class="option-text"><strong>Solo traveler</strong><span>Self-paced discovery, reflection, freedom</span></div>
+      </button>
+    </div>
+  </div>
+
+  <!-- Q3 -->
+  <div class="question-card" data-q="2">
+    <h2>What's your must-do activity?</h2>
+    <div class="options">
+      <button class="option-btn" data-scores='{"oahu":2,"maui":3,"big_island":2,"kauai":1}'>
+        <span class="option-icon">🤿</span>
+        <div class="option-text"><strong>Snorkeling & water sports</strong><span>Reefs, turtles, dolphins, surf lessons</span></div>
+      </button>
+      <button class="option-btn" data-scores='{"oahu":0,"maui":1,"big_island":2,"kauai":3}'>
+        <span class="option-icon">🥾</span>
+        <div class="option-text"><strong>Hiking & waterfalls</strong><span>Trails through rainforests, canyon views, hidden falls</span></div>
+      </button>
+      <button class="option-btn" data-scores='{"oahu":3,"maui":1,"big_island":1,"kauai":0}'>
+        <span class="option-icon">🏛️</span>
+        <div class="option-text"><strong>Culture, history & food</strong><span>Pearl Harbor, luaus, local cuisine tours</span></div>
+      </button>
+      <button class="option-btn" data-scores='{"oahu":0,"maui":2,"big_island":1,"kauai":3}'>
+        <span class="option-icon">🚁</span>
+        <div class="option-text"><strong>Scenic tours & sightseeing</strong><span>Helicopter tours, Na Pali Coast, Road to Hana</span></div>
+      </button>
+    </div>
+  </div>
+
+  <!-- Q4 -->
+  <div class="question-card" data-q="3">
+    <h2>How do you like your days?</h2>
+    <div class="options">
+      <button class="option-btn" data-scores='{"oahu":3,"maui":1,"big_island":2,"kauai":0}'>
+        <span class="option-icon">⚡</span>
+        <div class="option-text"><strong>Action-packed, every day</strong><span>Morning surf, afternoon tour, evening luau</span></div>
+      </button>
+      <button class="option-btn" data-scores='{"oahu":1,"maui":3,"big_island":1,"kauai":1}'>
+        <span class="option-icon">⚖️</span>
+        <div class="option-text"><strong>Mix of action and downtime</strong><span>One big activity plus beach time each day</span></div>
+      </button>
+      <button class="option-btn" data-scores='{"oahu":0,"maui":1,"big_island":3,"kauai":2}'>
+        <span class="option-icon">🔭</span>
+        <div class="option-text"><strong>A few big adventures</strong><span>Two or three bucket-list experiences, rest between</span></div>
+      </button>
+      <button class="option-btn" data-scores='{"oahu":0,"maui":2,"big_island":0,"kauai":3}'>
+        <span class="option-icon">🌺</span>
+        <div class="option-text"><strong>Full relaxation mode</strong><span>Beach, hammock, maybe one sunset cruise</span></div>
+      </button>
+    </div>
+  </div>
+
+  <!-- Q5 -->
+  <div class="question-card" data-q="4">
+    <h2>Tour budget per person?</h2>
+    <div class="options">
+      <button class="option-btn" data-scores='{"oahu":3,"maui":1,"big_island":2,"kauai":0}'>
+        <span class="option-icon">💵</span>
+        <div class="option-text"><strong>Under $100</strong><span>Affordable fun — surf lessons, snorkel trips, food tours</span></div>
+      </button>
+      <button class="option-btn" data-scores='{"oahu":2,"maui":3,"big_island":2,"kauai":1}'>
+        <span class="option-icon">💰</span>
+        <div class="option-text"><strong>$100 – $200</strong><span>Premium experiences — whale watching, guided hikes, kayak tours</span></div>
+      </button>
+      <button class="option-btn" data-scores='{"oahu":1,"maui":2,"big_island":2,"kauai":3}'>
+        <span class="option-icon">💎</span>
+        <div class="option-text"><strong>$200 – $350</strong><span>Bucket list — helicopter tours, full-day excursions, private charters</span></div>
+      </button>
+      <button class="option-btn" data-scores='{"oahu":0,"maui":1,"big_island":1,"kauai":3}'>
+        <span class="option-icon">✨</span>
+        <div class="option-text"><strong>$350+</strong><span>Ultimate splurge — private helicopters, multi-island tours</span></div>
+      </button>
+    </div>
+  </div>
+
+  <!-- RESULTS -->
+  <div class="results-section" id="results">
+    <div class="result-hero">
+      <div class="island-emoji" id="resultEmoji"></div>
+      <h2>Your Perfect Island: <span class="island-name" id="resultIsland"></span></h2>
+      <p id="resultDesc"></p>
+    </div>
+    <div class="match-bar" id="matchBar"></div>
+    <div class="island-detail" id="islandDetail">
+      <h3 id="whyTitle"></h3>
+      <p id="whyText"></p>
+    </div>
+    <div class="island-detail">
+      <h3>Top Tours We'd Book For You</h3>
+      <div class="tour-grid" id="tourGrid"></div>
+    </div>
+
+    <div class="email-cta">
+      <h3>Get Your Personalized Island Guide</h3>
+      <p>We'll email your results plus insider tips for your island</p>
+      <form class="email-form" id="emailForm" action="https://formspree.io/f/xpwzgkla" method="POST">
+        <input type="hidden" name="quiz" value="island-quiz">
+        <input type="hidden" name="result" id="emailResult" value="">
+        <input type="email" name="email" placeholder="you@email.com" required>
+        <button type="submit">Send Guide</button>
+      </form>
+      <div class="email-ok" id="emailOk">Mahalo! Check your inbox.</div>
+    </div>
+
+    <a href="/tours.html" class="explore-link">Browse All Hawaii Tours &rarr;</a>
+
+    <div class="retake-wrap">
+      <button class="retake-btn" id="retakeBtn">Retake Quiz</button>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 <a href="/">WanderHawaii</a> &middot; Part of the <a href="https://wandertournetwork.com">Wander Tour Network</a></p>
+</footer>
+
+<script>
+const ISLANDS = {
+  oahu: {
+    name: 'Oahu',
+    emoji: '🏙️🌺',
+    desc: 'The Gathering Place. Oahu blends world-class beaches with urban energy — Waikiki, Pearl Harbor, North Shore surf, and the best nightlife in Hawaii.',
+    whyTitle: 'Why Oahu Is Your Match',
+    whyText: 'You want variety and convenience. Oahu delivers legendary surf breaks, historic Pearl Harbor, Waikiki\'s restaurant scene, and family-friendly activities all on one island. The infrastructure makes it easy to pack in multiple experiences per day.',
+    link: '/oahu.html'
+  },
+  maui: {
+    name: 'Maui',
+    emoji: '🐋🌅',
+    desc: 'The Valley Isle. Maui is the sweet spot — world-class snorkeling at Molokini, the epic Road to Hana, Haleakala sunrise, and some of the best whale watching on earth.',
+    whyTitle: 'Why Maui Is Your Match',
+    whyText: 'You want the best of everything without roughing it. Maui combines pristine beaches, a legendary road trip, crater sunrises, and premium dining. It\'s the most popular island for a reason — balance of adventure and luxury.',
+    link: '/maui.html'
+  },
+  big_island: {
+    name: 'Big Island',
+    emoji: '🌋🌌',
+    desc: 'The Island of Hawaii. Active volcanoes, black-sand beaches, manta ray night dives, and stargazing at 13,000 feet. The Big Island is raw, dramatic, and unlike anywhere else.',
+    whyTitle: 'Why Big Island Is Your Match',
+    whyText: 'You crave once-in-a-lifetime experiences. Walking across a lava field, night-diving with manta rays, watching stars from Mauna Kea — the Big Island trades polish for sheer wonder. It\'s bigger than all other islands combined and rewards explorers.',
+    link: '/big-island.html'
+  },
+  kauai: {
+    name: 'Kauai',
+    emoji: '🌿🏔️',
+    desc: 'The Garden Isle. Kauai is Hawaii\'s oldest and wildest island — the Na Pali Coast, Waimea Canyon, helicopter-only waterfalls, and blissful remoteness.',
+    whyTitle: 'Why Kauai Is Your Match',
+    whyText: 'You want dramatic beauty and peace. Kauai limits development by law — no building taller than a palm tree. The Na Pali Coast is one of the most spectacular coastlines on earth, and Waimea Canyon is the "Grand Canyon of the Pacific." This is Hawaii at its most untouched.',
+    link: '/kauai.html'
+  }
+};
+
+const TOURS = {
+  oahu: [
+    { name: 'Surf Lessons', company: 'Ohana Surf Project', price: 205, url: 'https://wanderhawaii.com/tours.html?island=oahu' },
+    { name: 'Pearl Harbor City Tour', company: 'E Noa Corporation', price: 69, url: 'https://wanderhawaii.com/pearl-harbor-tours.html' },
+    { name: 'Dolphins and You', company: 'And You Creations', price: 189, url: 'https://wanderhawaii.com/tours.html?island=oahu' },
+    { name: 'Turtle Snorkeling Adventure', company: 'Pink Sails Waikiki', price: 79, url: 'https://wanderhawaii.com/snorkeling-tours-hawaii.html' },
+    { name: 'Popoia Island Kayak Tour', company: 'Active Oahu Tours', price: 145, url: 'https://wanderhawaii.com/kayak.html' },
+    { name: 'Sunset Splash Adventure', company: 'Pink Sails Waikiki', price: 56, url: 'https://wanderhawaii.com/tours.html?island=oahu' }
+  ],
+  maui: [
+    { name: 'Road to Hana Adventure Tour', company: 'Polynesian Adventure', price: 249, url: 'https://wanderhawaii.com/tours.html?island=maui' },
+    { name: 'Haleakala Sunrise Tour', company: 'Polynesian Adventure', price: 243, url: 'https://wanderhawaii.com/tours.html?island=maui' },
+    { name: 'Premium Sunset Dinner Cruise', company: 'Sea Maui', price: 166, url: 'https://wanderhawaii.com/tours.html?island=maui' },
+    { name: '2 Hour Whale Watch', company: 'Sea Maui', price: 104, url: 'https://wanderhawaii.com/whale-watching-maui.html' },
+    { name: 'Xpress Snorkel at Molokini', company: 'Sea Maui', price: 132, url: 'https://wanderhawaii.com/snorkeling-tours-hawaii.html' },
+    { name: 'Haleakala Downhill Bike Tour', company: 'Maui Sunriders', price: 119, url: 'https://wanderhawaii.com/tours.html?island=maui' }
+  ],
+  big_island: [
+    { name: 'Manta Ray Night Snorkel', company: 'Body Glove Hawaii', price: 149, url: 'https://wanderhawaii.com/manta-ray-big-island.html' },
+    { name: 'Captain Cook Snorkeling Tour', company: 'Kona Snorkel Trips', price: 139, url: 'https://wanderhawaii.com/tours.html?island=big+island' },
+    { name: '2-Tank Morning Dive Charter', company: 'Kona Honu Divers', price: 199, url: 'https://wanderhawaii.com/tours.html?island=big+island' },
+    { name: 'Super-Raft Sunset Tour', company: 'Body Glove Hawaii', price: 120, url: 'https://wanderhawaii.com/tours.html?island=big+island' },
+    { name: 'Hawaiian Craft Chocolate Tasting', company: "Honoli'i Orchards", price: 50, url: 'https://wanderhawaii.com/tours.html?island=big+island' },
+    { name: 'Kona Snorkeling in Pawai Bay', company: 'Kona Snorkel Trips', price: 99, url: 'https://wanderhawaii.com/best-snorkeling-hawaii.html' }
+  ],
+  kauai: [
+    { name: 'Na Pali Coast Snorkel Tour', company: 'Kauai Offshore Adventures', price: 197, url: 'https://wanderhawaii.com/kauai-tours.html' },
+    { name: 'Private Helicopter Tour', company: "Ali'i Air Tours", price: 399, url: 'https://wanderhawaii.com/hawaii-helicopter-tours.html' },
+    { name: 'Na Pali Catamaran Morning Tour', company: 'Na Pali Catamaran', price: 315, url: 'https://wanderhawaii.com/kauai-tours.html' },
+    { name: 'Waimea Canyon & Fern Grotto', company: 'Polynesian Adventure', price: 228, url: 'https://wanderhawaii.com/kauai-tours.html' },
+    { name: 'Kauai Highlights & Movie Sites', company: 'Polynesian Adventure', price: 171, url: 'https://wanderhawaii.com/kauai-tours.html' },
+    { name: 'Na Pali Coast by Raft', company: 'Makana Charters', price: 199, url: 'https://wanderhawaii.com/kauai-tours.html' }
+  ]
+};
+
+let currentQ = 0;
+const totalQ = 5;
+const scores = { oahu: 0, maui: 0, big_island: 0, kauai: 0 };
+const cards = document.querySelectorAll('.question-card');
+const progress = document.getElementById('progress');
+
+document.querySelectorAll('.option-btn').forEach(btn => {
+  btn.addEventListener('click', function() {
+    const card = this.closest('.question-card');
+    card.querySelectorAll('.option-btn').forEach(b => b.classList.remove('selected'));
+    this.classList.add('selected');
+
+    const s = JSON.parse(this.dataset.scores);
+    Object.keys(s).forEach(k => scores[k] += s[k]);
+
+    gtag('event', 'quiz_answer', {
+      event_category: 'island_quiz',
+      event_label: 'q' + (currentQ + 1),
+      value: this.querySelector('strong').textContent
+    });
+
+    setTimeout(() => {
+      currentQ++;
+      progress.style.width = (currentQ / totalQ * 100) + '%';
+
+      if (currentQ >= totalQ) {
+        showResults();
+      } else {
+        card.classList.remove('active');
+        cards[currentQ].classList.add('active');
+      }
+    }, 300);
+  });
+});
+
+function showResults() {
+  cards.forEach(c => c.classList.remove('active'));
+  document.querySelector('.quiz-hero').style.display = 'none';
+  document.querySelector('.progress-bar').style.display = 'none';
+
+  const sorted = Object.entries(scores).sort((a, b) => b[1] - a[1]);
+  const winner = sorted[0][0];
+  const maxScore = sorted[0][1];
+  const totalPts = sorted.reduce((sum, e) => sum + e[1], 0) || 1;
+
+  const island = ISLANDS[winner];
+  document.getElementById('resultEmoji').textContent = island.emoji;
+  document.getElementById('resultIsland').textContent = island.name;
+  document.getElementById('resultDesc').textContent = island.desc;
+  document.getElementById('whyTitle').textContent = island.whyTitle;
+  document.getElementById('whyText').textContent = island.whyText;
+  document.getElementById('emailResult').value = island.name;
+
+  const bar = document.getElementById('matchBar');
+  bar.innerHTML = '';
+  sorted.forEach(([key, val]) => {
+    const pct = Math.round(val / totalPts * 100);
+    const d = document.createElement('div');
+    d.className = 'match-item';
+    d.innerHTML = '<span class="pct">' + pct + '%</span><span class="label">' + ISLANDS[key].name + '</span>';
+    bar.appendChild(d);
+  });
+
+  const grid = document.getElementById('tourGrid');
+  grid.innerHTML = '';
+  const tours = TOURS[winner] || [];
+  tours.forEach(t => {
+    const card = document.createElement('a');
+    card.href = t.url;
+    card.target = '_blank';
+    card.className = 'tour-card';
+    card.innerHTML =
+      '<div class="tour-info"><div class="tour-name">' + t.name + '</div><div class="tour-co">' + t.company + '</div></div>' +
+      '<span class="tour-price">$' + t.price + '</span>' +
+      '<span class="book-btn">View</span>';
+    grid.appendChild(card);
+  });
+
+  document.getElementById('results').classList.add('active');
+
+  gtag('event', 'quiz_complete', {
+    event_category: 'island_quiz',
+    event_label: island.name,
+    value: Math.round(maxScore / totalPts * 100)
+  });
+}
+
+document.getElementById('retakeBtn').addEventListener('click', function() {
+  currentQ = 0;
+  Object.keys(scores).forEach(k => scores[k] = 0);
+  cards.forEach(c => c.classList.remove('active'));
+  cards[0].classList.add('active');
+  document.querySelector('.quiz-hero').style.display = '';
+  document.querySelector('.progress-bar').style.display = '';
+  progress.style.width = '0%';
+  document.getElementById('results').classList.remove('active');
+  document.getElementById('emailOk').style.display = 'none';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+document.getElementById('emailForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const fd = new FormData(this);
+  fetch(this.action, { method: 'POST', body: fd, headers: { Accept: 'application/json' } })
+    .then(r => {
+      if (r.ok) {
+        document.getElementById('emailOk').style.display = 'block';
+        this.style.display = 'none';
+        gtag('event', 'quiz_email', { event_category: 'island_quiz', event_label: document.getElementById('emailResult').value });
+      }
+    });
+});
+</script>
+</body>
+</html>
