@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git fetch *)",
+      "Bash(git archive *)",
+      "Bash(npm -v)",
+      "Bash(echo \"npm: $\\(npm -v 2>&1\\)\")",
+      "Bash(npm ls *)",
+      "Read(//Applications/Google Chrome.app/Contents/MacOS/**)",
+      "Read(//Users/jasondudney/.cache/puppeteer/**)",
+      "Read(//Users/jasondudney/Library/Caches/ms-playwright/**)",
+      "Bash(node -e \"try{const p=require\\('/opt/homebrew/lib/node_modules/playwright'\\);console.log\\('resolved global playwright'\\)}catch\\(e\\){console.log\\('ERR',e.message.split\\('\\\\n'\\)[0]\\)}\")",
+      "Bash(npm root *)",
+      "Bash(node *)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}\\\\n' http://127.0.0.1:__TRACKED_VAR__/index.html)",
+      "Bash(pkill -f 'serve.js /private/tmp/claude-501/-Users-jasondudney-repos-wanderhawaii/5fdd4354-c92b-484d-b2f1-32ecfb4620cf/scratchpad/pre __CMDSUB_OUTPUT__')",
+      "Bash(curl -s -m 2 -o /dev/null -w 'server now: %{http_code}\\\\n' http://127.0.0.1:__CMDSUB_OUTPUT__/index.html)",
+      "Bash(rm -f __TRACKED_VAR__/pre/synthetic-400.html)",
+      "Bash(curl -s -m 3 -o /dev/null -w 'server alive: %{http_code}\\\\n' http://127.0.0.1:__CMDSUB_OUTPUT__/styles.css)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(gh pr create --base main --head fix/cta-box-p-contrast --title 'fix\\(whaw\\): restore #fff on .cta-box paragraphs across 22 blog pages' --body ' *)",
+      "Bash(gh pr *)",
+      "Read(//tmp/**)",
+      "Bash(gh api *)",
+      "Bash(curl -s \"https://wanderhawaii.com/styles.css?cb=$\\(date +%s\\)\")",
+      "Read(//Users/jasondudney/repos/ai-memory-hub/bin/templates/**)",
+      "Read(//Users/jasondudney/repos/ai-memory-hub/bin/**)",
+      "Read(//Users/jasondudney/hub-deltas/**)",
+      "Bash(mkdir -p ~/hub-deltas/2026-08-18-s34)",
+      "Bash(~/repos/ai-memory-hub/bin/hub-delta-assemble.sh --help)",
+      "Bash(git ls-remote *)",
+      "Bash(awk '{print $2}')",
+      "Bash(awk '{print \"  \"$2}')",
+      "Bash(~/repos/ai-memory-hub/bin/hub-delta-assemble.sh --check ~/hub-deltas/2026-08-18-s34/wanderhawaii.md)",
+      "Bash(echo \"EXIT CODE: $?\")",
+      "Bash(grep -c '^_network$' ~/hub-deltas/2026-08-18-s34/_manifest.txt)"
+    ]
+  }
+}
