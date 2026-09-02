@@ -104,13 +104,12 @@
     <link rel="stylesheet" href="/sponsor-slot.css">
     <script src="/sponsor-slot.js" defer></script>
     <style>
-        /* Filter bar moved above the fold. The .header is position:fixed, so this
-           section carries its own clearance -- 113px desktop / 77px mobile, both
-           measured, not assumed. Nothing about the controls changed; only where
-           they sit. Measured 2026-08-21: the bar was at 1,417px against an 800px
-           fold while filter_used fired 44 times to load_more_clicked's 2. */
-        .filters-section-top { padding: 129px 20px 8px; background: var(--white, #fff); }
-        @media (max-width: 768px) { .filters-section-top { padding: 93px 16px 8px; } }
+        /* Filter bar sits directly below the hero (s56, Jason 2026-09-02: hero first
+           on every site; on mobile the bar alone filled the first screen). It was
+           above the hero from 2026-08-21 on filter_used evidence (44 vs 2 load_more);
+           that is the trade-off being made here. No header clearance needed now. */
+        .filters-section-top { padding: 24px 20px 8px; background: var(--white, #fff); }
+        @media (max-width: 768px) { .filters-section-top { padding: 16px 16px 8px; } }
     </style>
 </head>
 <body>
@@ -149,6 +148,57 @@
     </header>
 
     <!-- FILTER BAR (moved above the fold; controls unchanged) -->
+
+    <!-- HERO -->
+    <section class="hero" id="islands">
+        <div class="hero-bg">
+            <div class="hero-slide"></div>
+            <div class="hero-slide"></div>
+            <div class="hero-slide"></div>
+            <div class="hero-slide"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-tagline">Book Local. Live Aloha.</p>
+            <h1 class="hero-decision-h1">Which Hawaiian island should you book?</h1>
+            <p class="hero-decision-sub">Oahu has the most tours. Maui has the whales. Big Island has the volcano and the manta rays. Kauai has the coastline.</p>
+            <div class="island-decision-cards">
+                <a class="island-decision-card" href="oahu.html">
+                    <span class="island-decision-card__name">Oahu</span>
+                    <span class="island-decision-card__desc">Most tours, easiest logistics · best for first-timers</span>
+                </a>
+                <a class="island-decision-card" href="maui.html">
+                    <span class="island-decision-card__name">Maui</span>
+                    <span class="island-decision-card__desc">Whales, Road to Hana, Molokini snorkeling</span>
+                </a>
+                <a class="island-decision-card" href="big-island.html">
+                    <span class="island-decision-card__name">Big Island</span>
+                    <span class="island-decision-card__desc">Volcano, manta ray night snorkel, Kona coffee</span>
+                </a>
+                <a class="island-decision-card" href="kauai.html">
+                    <span class="island-decision-card__name">Kauai</span>
+                    <span class="island-decision-card__desc">Na Pali coast, Waimea Canyon, most dramatic scenery</span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="trust-bar">
+            <div class="trust-item">
+                <span class="trust-number" id="verified-tours-count"></span>
+                <span class="trust-label">Verified Tours</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+                <span class="trust-number">4</span>
+                <span class="trust-label">Islands</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+                <span class="trust-number">100%</span>
+                <span class="trust-label">Local Operators</span>
+            </div>
+        </div>
+    </section>
     <section class="filters-section-top">
         <div class="container">
                 <div class="filters-bar">
@@ -207,57 +257,6 @@
                     
                     <button class="clear-filters" onclick="clearAllFilters()">Clear All</button>
                 </div>
-        </div>
-    </section>
-
-    <!-- HERO -->
-    <section class="hero" id="islands">
-        <div class="hero-bg">
-            <div class="hero-slide"></div>
-            <div class="hero-slide"></div>
-            <div class="hero-slide"></div>
-            <div class="hero-slide"></div>
-        </div>
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <p class="hero-tagline">Book Local. Live Aloha.</p>
-            <h1 class="hero-decision-h1">Which Hawaiian island should you book?</h1>
-            <p class="hero-decision-sub">Oahu has the most tours. Maui has the whales. Big Island has the volcano and the manta rays. Kauai has the coastline.</p>
-            <div class="island-decision-cards">
-                <a class="island-decision-card" href="oahu.html">
-                    <span class="island-decision-card__name">Oahu</span>
-                    <span class="island-decision-card__desc">Most tours, easiest logistics · best for first-timers</span>
-                </a>
-                <a class="island-decision-card" href="maui.html">
-                    <span class="island-decision-card__name">Maui</span>
-                    <span class="island-decision-card__desc">Whales, Road to Hana, Molokini snorkeling</span>
-                </a>
-                <a class="island-decision-card" href="big-island.html">
-                    <span class="island-decision-card__name">Big Island</span>
-                    <span class="island-decision-card__desc">Volcano, manta ray night snorkel, Kona coffee</span>
-                </a>
-                <a class="island-decision-card" href="kauai.html">
-                    <span class="island-decision-card__name">Kauai</span>
-                    <span class="island-decision-card__desc">Na Pali coast, Waimea Canyon, most dramatic scenery</span>
-                </a>
-            </div>
-        </div>
-        
-        <div class="trust-bar">
-            <div class="trust-item">
-                <span class="trust-number" id="verified-tours-count"></span>
-                <span class="trust-label">Verified Tours</span>
-            </div>
-            <div class="trust-divider"></div>
-            <div class="trust-item">
-                <span class="trust-number">4</span>
-                <span class="trust-label">Islands</span>
-            </div>
-            <div class="trust-divider"></div>
-            <div class="trust-item">
-                <span class="trust-number">100%</span>
-                <span class="trust-label">Local Operators</span>
-            </div>
         </div>
     </section>
 
