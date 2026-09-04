@@ -72,7 +72,12 @@
         .nav-desktop { display: flex; gap: 25px; }
         .nav-desktop a { color: #555; text-decoration: none; font-weight: 500; font-size: 0.95rem; }
         .nav-desktop a:hover { color: #0077b6; }
-        .mobile-menu-btn { display: none; background: none; border: none; font-size: 1.5rem; cursor: pointer; }
+        .mobile-menu-btn { display: none; flex-direction: column; justify-content: center; align-items: center;
+                           gap: 5px; min-width: 44px; min-height: 44px; padding: 0.5rem;
+                           background: none; border: none; cursor: pointer; }
+        /* Without these the three bars have no size, the button collapses to 0x0
+           and the menu cannot be tapped at all. */
+        .mobile-menu-btn span { display: block; width: 24px; height: 2px; background: #333; }
         .nav-mobile { display: none; flex-direction: column; background: #fff; border-top: 1px solid #eee; padding: 15px 20px; }
         .nav-mobile.active { display: flex; }
         .nav-mobile a { padding: 12px 0; border-bottom: 1px solid #f0f0f0; font-weight: 500; color: #555; text-decoration: none; }
@@ -87,7 +92,7 @@
             .offer-box .cta-btn { font-size: 1rem; }
             .included-list { grid-template-columns: 1fr; }
             .nav-desktop { display: none; }
-            .mobile-menu-btn { display: block; }
+            .mobile-menu-btn { display: flex; }
         }
         
         @media (max-width: 480px) {
@@ -134,6 +139,7 @@
         .load-more-btn:hover { background: #0077b6; color: white; }
     </style>
 <script src="/tracking.js" defer></script>
+<script src="/mobile-menu.js" defer></script>
     <link rel="stylesheet" href="/sponsor-slot.css">
     <script src="/sponsor-slot.js" defer></script>
 
