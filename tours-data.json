@@ -2687,7 +2687,7 @@
       "category": "",
       "location": "United States/Hawaii/Lihue",
       "island": "kauai",
-      "price": 399,
+      "price": 389,
       "priceLabel": "Passenger",
       "priceConfidence": "high",
       "qualityScore": 100,
@@ -2716,7 +2716,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 60
+        "durationMinutes": 60,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "priceBreakdown": [
         {
@@ -5092,7 +5094,7 @@
       "category": "",
       "location": "United States/Hawaii/Kapaʻa",
       "island": "kauai",
-      "price": 205,
+      "price": 995,
       "priceLabel": "Adult (Shared Tour)",
       "priceConfidence": "high",
       "qualityScore": 90,
@@ -5125,7 +5127,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 420
+        "durationMinutes": 420,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "priceBreakdown": [
         {
@@ -12422,7 +12426,7 @@
       "category": "",
       "location": "United States/Hawaii/Lihue",
       "island": "kauai",
-      "price": 358.8,
+      "price": 238.8,
       "priceLabel": "Person",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -12449,7 +12453,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 480
+        "durationMinutes": 480,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "priceBreakdown": [
         {
@@ -16200,7 +16206,7 @@
       "category": "",
       "location": "United States/Hawaii/Koloa",
       "island": "kauai",
-      "price": 245,
+      "price": 255,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 95,
@@ -16229,7 +16235,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 240
+        "durationMinutes": 240,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": [],
       "statusCheckedAt": "2026-08-17T16:04:41Z"
@@ -20068,7 +20076,7 @@
       "category": "",
       "location": "United States/Hawaii/Kapaʻa",
       "island": "kauai",
-      "price": 850,
+      "price": 875,
       "priceLabel": "starting at",
       "priceConfidence": "medium",
       "qualityScore": 95,
@@ -20095,7 +20103,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 300
+        "durationMinutes": 300,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "statusCheckedAt": "2026-08-17T16:04:41Z"
     },
@@ -35019,7 +35029,7 @@
       "category": "",
       "location": "United States/Hawaii/Wailuku",
       "island": "maui",
-      "price": 995,
+      "price": 1995,
       "priceLabel": "Private Charter 2 Hour",
       "priceConfidence": "high",
       "qualityScore": 90,
@@ -35058,7 +35068,9 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 120,
-        "priceUnit": "Private Charter 2 Hour"
+        "priceUnit": "Private Charter 2 Hour",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "priceBreakdown": [
         {
@@ -40631,7 +40643,7 @@
       "category": "",
       "location": "United States/Hawaii/Lahaina",
       "island": "maui",
-      "price": 125,
+      "price": 115,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 95,
@@ -40661,7 +40673,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
@@ -54196,7 +54210,7 @@
       "category": "",
       "location": "United States/Hawaii/Lahaina",
       "island": "maui",
-      "price": 47,
+      "price": 47.12,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 95,
@@ -54225,7 +54239,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 60
+        "durationMinutes": 60,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -61491,7 +61507,7 @@
       "category": "",
       "location": "United States/Hawaii/Lahaina",
       "island": "maui",
-      "price": 125,
+      "price": 499,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 100,
@@ -61518,7 +61534,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 180
+        "durationMinutes": 180,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
@@ -64087,7 +64105,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 109.99,
+      "price": 119.99,
       "priceLabel": "per person",
       "priceConfidence": "high",
       "qualityScore": 100,
@@ -64116,7 +64134,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 300
+        "durationMinutes": 300,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "priceBreakdown": [
         {
@@ -64769,7 +64789,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 2495,
+      "price": 995,
       "priceLabel": "Private Charter 6 Hour",
       "priceConfidence": "high",
       "qualityScore": 85,
@@ -64803,7 +64823,9 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 300,
-        "priceUnit": "Private Charter 6 Hour"
+        "priceUnit": "Private Charter 6 Hour",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": [],
       "priceBreakdown": [
@@ -82959,7 +82981,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 991,
+      "price": 1323.01,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 90,
@@ -82991,7 +83013,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 480
+        "durationMinutes": 480,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
@@ -83004,7 +83028,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 881,
+      "price": 1212.3,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 90,
@@ -83039,7 +83063,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 480
+        "durationMinutes": 480,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
@@ -83369,7 +83395,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 881,
+      "price": 1212.3,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 90,
@@ -83399,7 +83425,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 480
+        "durationMinutes": 480,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
@@ -83698,7 +83726,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 881,
+      "price": 1212.3,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 90,
@@ -83729,7 +83757,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 420
+        "durationMinutes": 420,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
@@ -83742,7 +83772,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 897,
+      "price": 1273.19,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 90,
@@ -83773,7 +83803,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 420
+        "durationMinutes": 420,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -83841,7 +83873,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 659,
+      "price": 1018.55,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 90,
@@ -83873,7 +83905,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 360
+        "durationMinutes": 360,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -87269,7 +87303,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 825,
+      "price": 1212.3,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 90,
@@ -87299,7 +87333,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 360
+        "durationMinutes": 360,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
@@ -94094,7 +94130,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 881,
+      "price": 1212.3,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 90,
@@ -94121,7 +94157,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 540
+        "durationMinutes": 540,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -95928,7 +95966,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 39.5,
+      "price": 79,
       "priceLabel": "BOGO Half Off",
       "priceConfidence": "high",
       "qualityScore": 90,
@@ -95957,7 +95995,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": [],
       "priceBreakdown": [
@@ -96061,7 +96101,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 543,
+      "price": 1999,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 90,
@@ -96090,7 +96130,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 2880
+        "durationMinutes": 2880,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -103702,7 +103744,7 @@
       "category": "",
       "location": "United States/Hawaii/Waialua",
       "island": "oahu",
-      "price": 168,
+      "price": 188,
       "priceLabel": "per person",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -103731,7 +103773,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 2880
+        "durationMinutes": 2880,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": [],
       "priceBreakdown": [
@@ -104363,7 +104407,7 @@
       "category": "",
       "location": "United States/Hawaii/Kapolei",
       "island": "oahu",
-      "price": 1950,
+      "price": 1350,
       "priceLabel": "Morning Snorkel + Lunch",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -104393,7 +104437,9 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 480,
-        "priceUnit": "Morning Snorkel + Lunch"
+        "priceUnit": "Morning Snorkel + Lunch",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "priceBreakdown": [
         {
@@ -134119,7 +134165,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "oahu",
-      "price": 850,
+      "price": 799,
       "priceLabel": "1-6 People",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -134154,7 +134200,9 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 480,
-        "priceUnit": "1-6 People"
+        "priceUnit": "1-6 People",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": [],
       "priceBreakdown": [
@@ -134833,7 +134881,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "oahu",
-      "price": 650,
+      "price": 799,
       "priceLabel": "1-6 People",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -134866,7 +134914,9 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 420,
-        "priceUnit": "1-6 People"
+        "priceUnit": "1-6 People",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": [],
       "priceBreakdown": [
@@ -137585,7 +137635,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 400,
+      "price": 425,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 100,
@@ -137615,7 +137665,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 480
+        "durationMinutes": 480,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -139032,7 +139084,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 425,
+      "price": 450,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 100,
@@ -139061,7 +139113,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 480
+        "durationMinutes": 480,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -148552,7 +148606,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 106.29,
+      "price": 121.85,
       "priceLabel": "Passenger for Private Charter • Captain Cook Exclusive",
       "priceConfidence": "high",
       "qualityScore": 65,
@@ -148598,7 +148652,11 @@
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:21:35.502Z",
       "priceEnrichmentStatus": "high",
-      "statusCheckedAt": "2026-08-17T16:04:41Z"
+      "statusCheckedAt": "2026-08-17T16:04:41Z",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "1702",
@@ -154634,7 +154692,7 @@
       "category": "",
       "location": "United States/Hawaii/Haleiwa",
       "island": "oahu",
-      "price": 1400,
+      "price": 1200,
       "priceLabel": "Extended Half Day 3/4 Fishing Charter",
       "priceConfidence": "high",
       "qualityScore": 90,
@@ -154668,9 +154726,10 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "priceSource": "v52-dominant-gate",
+        "priceSource": "s57-fh-price-preview",
         "durationMinutes": 540,
-        "priceUnit": "Extended Half Day 3/4 Fishing Charter"
+        "priceUnit": "Extended Half Day 3/4 Fishing Charter",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": [],
       "priceBreakdown": [
@@ -162590,7 +162649,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 795,
+      "price": 695,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 100,
@@ -162619,7 +162678,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 60
+        "durationMinutes": 60,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
@@ -166051,7 +166112,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "maui",
-      "price": 20,
+      "price": 195,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 95,
@@ -166080,7 +166141,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -167563,7 +167626,7 @@
       "category": "",
       "location": "United States/Hawaii/Kahului",
       "island": "maui",
-      "price": 179,
+      "price": 187,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 60,
@@ -167616,7 +167679,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $179; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $179; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "506711",
@@ -168205,7 +168272,7 @@
       "category": "",
       "location": "United States/Hawaii/Waianae",
       "island": "oahu",
-      "price": 999,
+      "price": 799,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 95,
@@ -168234,7 +168301,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 240
+        "durationMinutes": 240,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -176525,7 +176594,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 1500,
+      "price": 3100,
       "priceLabel": "Student",
       "priceConfidence": "high",
       "qualityScore": 75,
@@ -176555,8 +176624,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "priceSource": "v52-dominant-gate",
-        "priceUnit": "Student"
+        "priceSource": "s57-fh-price-preview",
+        "priceUnit": "Student",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": [],
       "priceBreakdown": [
@@ -179329,7 +179399,7 @@
       "category": "",
       "location": "United States/Hawaii/Kihei",
       "island": "maui",
-      "price": 15,
+      "price": 15.9,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 95,
@@ -179361,7 +179431,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 2880
+        "durationMinutes": 2880,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
@@ -188632,7 +188704,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 143,
+      "price": 129,
       "priceLabel": "unknown",
       "priceConfidence": "low",
       "qualityScore": 85,
@@ -188661,7 +188733,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 540
+        "durationMinutes": 540,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
@@ -198513,7 +198587,7 @@
       "category": "",
       "location": "United States/Hawaii/Haleiwa",
       "island": "oahu",
-      "price": 499,
+      "price": 600,
       "priceLabel": "per group",
       "priceConfidence": "high",
       "qualityScore": 100,
@@ -198542,7 +198616,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 240
+        "durationMinutes": 240,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": [],
       "priceBreakdown": [
@@ -198895,7 +198971,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 420,
+      "price": 475,
       "priceLabel": "per group",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -198924,7 +199000,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 60
+        "durationMinutes": 60,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": [],
       "priceBreakdown": [
@@ -224746,7 +224824,7 @@
       "name": "Big Island Volcano Helicopter & Ground Tour - From OAHU (With Air Ticket-Flexible)",
       "description": "Fly over Hawaii’s fiery volcanoes since 1983, witnessing glowing lava flows, lush rainforests, and waterfalls. Explore black sand beaches, gardens, and cultural sites on a 14-hour adventure full of natural wonders.",
       "location": "Maui",
-      "price": 1099,
+      "price": 799,
       "bookingUrl": "https://fareharbor.com/embeds/book/dynamictourhawaii/items/591390/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/BKOt8wdRT5aYAIPJkGHX/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
@@ -224789,7 +224867,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: person u $1099; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: person u $1099; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "pk": 593218,
@@ -226759,7 +226841,7 @@
       "name": "Exclusive Circle Island",
       "description": "Explore Oahu’s highlights in a 9-hour adventure: from Diamond Head views and the Halona Blowhole to swimming at Waimea Bay, visiting Byodo Temple, and enjoying scenic drives—an unforgettable day of island discovery.",
       "location": "Oahu",
-      "price": 120,
+      "price": 80,
       "bookingUrl": "https://fareharbor.com/embeds/book/thesurfbus/items/387669/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/bzZNv2vjQPuNN2r3JmFm/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
@@ -226802,7 +226884,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $120; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $120; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "pk": 403900,
@@ -235613,7 +235699,7 @@
       "name": "The Haleiwa Distilling Experience: Aloha in Every Sip",
       "description": "Embark on a captivating journey at Haleiwa Distilling Company, nestled in the historic Old Waialua Sugar Mill. Enjoy a 45-minute guided tour showcasing the art of crafting rum, whiskey, gin, and moonshine. Conclude with a tasting of unique spirits and a custom cocktail, celebrating Hawaii's vibrant craft spirit scene.",
       "location": "Waialua",
-      "price": 50,
+      "price": 40,
       "bookingUrl": "https://fareharbor.com/embeds/book/haleiwadistillingco/items/551206/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/WCRuQ3pTSzyIEJl7CmA7/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
@@ -235692,7 +235778,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $50; not anchoring: Youth $15 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $50; not anchoring: Youth $15 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "pk": 551224,
@@ -250749,7 +250839,7 @@
       "name": "Private Fishing Charter on The Bob Marlin",
       "description": "Join a thrilling fishing adventure on The Bob Marlin, targeting giant tuna, marlin, mahi, and wahoo off Oʻahu’s north shore. Expert guides, stunning ocean views, and big catches await—book your trip now!",
       "location": "Haleiwa",
-      "price": 1200,
+      "price": 1500,
       "bookingUrl": "https://fareharbor.com/embeds/book/bobmarlincharters/items/157952/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/RHfpbEibR1iXIjEOWcI5/convert?cache=true&compress=true&quality=90&w=1236&fit=max&format=webp&rotate=exif",
@@ -250799,7 +250889,9 @@
       "priceSource": "s50-whaw-refresh",
       "priceBasis": "D-621 whole-boat/whole-unit: floor tier \"Half Day Private Charter\" $1200 (Up to 6 Passengers) anchors with the tier label verbatim as unit; ladder Half Day Private Charter $1200; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD",
       "_unknownFields": {
-        "priceUnit": "Half Day Private Charter"
+        "priceUnit": "Half Day Private Charter",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -284959,7 +285051,7 @@
       "name": "Private Tour & Shuttle",
       "description": "",
       "location": "Kaneohe",
-      "price": 250,
+      "price": 240,
       "bookingUrl": "https://fareharbor.com/embeds/book/hawaiiviettoursandtrans/items/507377/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/dDavMTkxSuSfVUTvd5Hd/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -285007,7 +285099,9 @@
       "priceSource": "s50-whaw-refresh",
       "priceBasis": "D-621 whole-boat/whole-unit: floor tier \"Group\" $250 anchors with the tier label verbatim as unit; ladder Group $250; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
       "_unknownFields": {
-        "priceUnit": "Group"
+        "priceUnit": "Group",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -285108,7 +285202,7 @@
       "name": "Custom Group",
       "description": "Experience a personalized adventure with our custom groups, tailored specifically to your preferences and desires. Whether for team-building, celebrations, or special events, this unique opportunity allows you to create unforgettable memories with a group that reflects your vision. Embrace the excitement of a truly bespoke experience!",
       "location": "Waimea",
-      "price": 300,
+      "price": 100,
       "bookingUrl": "https://fareharbor.com/embeds/book/bigislandbiketours/items/561466/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/xLMjCeWLRk2bpvvtAc0y/convert?cache=true&compress=true&quality=90&w=604&fit=max&format=webp&rotate=exif",
@@ -285174,7 +285268,11 @@
       "bookingUrlLegacy": "https://fareharbor.com/bigislandbiketours/items/561466/book/?full-items=yes&flow=no&ref=walktheplankadventures",
       "status": "inactive",
       "statusReason": "no-online-availability",
-      "statusCheckedAt": "2026-08-17T16:04:41Z"
+      "statusCheckedAt": "2026-08-17T16:04:41Z",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "pk": 563609,
@@ -298332,7 +298430,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 79.99,
+      "price": 99.99,
       "priceLabel": "per person",
       "priceConfidence": "high",
       "qualityScore": 98,
@@ -298370,7 +298468,9 @@
         "priceSweptDates": 6,
         "priceStartAtMoves": true,
         "source": "fh-marketplace-export-2026-08-22",
-        "durationMinutes": 210
+        "durationMinutes": 210,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
@@ -298487,7 +298587,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 279,
+      "price": 249,
       "priceLabel": "per person",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -298531,7 +298631,9 @@
         "source": "fh-marketplace-export-2026-08-22",
         "durationMinutes": 420,
         "priceRangeLow": 279,
-        "priceRangeHigh": 299
+        "priceRangeHigh": 299,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
@@ -298881,7 +298983,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 209,
+      "price": 199,
       "priceLabel": "per person",
       "priceConfidence": "high",
       "qualityScore": 89,
@@ -298922,7 +299024,9 @@
         "source": "fh-marketplace-export-2026-08-22",
         "durationMinutes": 180,
         "priceRangeLow": 209,
-        "priceRangeHigh": 239
+        "priceRangeHigh": 239,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
@@ -298935,7 +299039,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 260.1,
+      "price": 289,
       "priceLabel": "per person",
       "priceConfidence": "high",
       "qualityScore": 89,
@@ -298975,7 +299079,9 @@
         "source": "fh-marketplace-export-2026-08-22",
         "durationMinutes": 30,
         "priceRangeLow": 260.1,
-        "priceRangeHigh": 289
+        "priceRangeHigh": 289,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
@@ -301372,7 +301478,7 @@
       "category": "",
       "location": "United States/Hawaii/Lihue",
       "island": "kauai",
-      "price": 150,
+      "price": 225,
       "priceLabel": "per group",
       "priceConfidence": "high",
       "qualityScore": 64,
@@ -301407,7 +301513,9 @@
         "priceObservations": 5,
         "priceSweptDates": 4,
         "priceStartAtMoves": true,
-        "source": "fh-marketplace-export-2026-08-22"
+        "source": "fh-marketplace-export-2026-08-22",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
@@ -302405,7 +302513,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 170.1,
+      "price": 189,
       "priceLabel": "per person",
       "priceConfidence": "high",
       "qualityScore": 80,
@@ -302444,7 +302552,9 @@
         "priceStartAtMoves": true,
         "source": "fh-marketplace-export-2026-08-22",
         "priceRangeLow": 170.1,
-        "priceRangeHigh": 189
+        "priceRangeHigh": 189,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
@@ -302751,7 +302861,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 206.1,
+      "price": 229,
       "priceLabel": "per person",
       "priceConfidence": "high",
       "qualityScore": 78,
@@ -302789,7 +302899,9 @@
         "source": "fh-marketplace-export-2026-08-22",
         "durationMinutes": 60,
         "priceRangeLow": 206.1,
-        "priceRangeHigh": 229
+        "priceRangeHigh": 229,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "gallery": []
     },
