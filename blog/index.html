@@ -172,6 +172,14 @@
         </div>
     </header>
 
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav">
+        <a href="/#tours-section">Tours</a>
+        <a href="/#islands">Islands</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about.html">About</a>
+    </nav>
+
     <!-- Breadcrumb -->
     <div class="breadcrumb">
         <a href="/">Home</a> → <span>Blog</span>
@@ -406,5 +414,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 <script src="/mobile-menu.js" defer></script>
+<script>
+document.querySelector('.mobile-menu-btn')?.addEventListener('click', () => {
+    document.querySelector('.mobile-nav')?.classList.toggle('active');
+});
+</script>
 </body>
 </html>

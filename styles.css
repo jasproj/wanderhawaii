@@ -351,6 +351,15 @@ header + article.blog-article { margin-top: var(--header-h); }
 .nav-mobile.active,
 .mobile-nav.active { display: flex; }
 
+/* .mobile-nav sits AFTER </header> on all 15 pages that use it, so when it
+   opens it starts at y=0 -- underneath the position:fixed header, which hid
+   its first link ("Tours") on every one of them. Measured at 390px: the panel
+   opened at y=0 behind a 77px header. margin-top (not padding-top) because
+   the panel paints a white background, which padding would drag up behind
+   the translucent header. .nav-mobile is inside the header on the other
+   sites and moves with it, so it must not get this. */
+.mobile-nav.active { margin-top: var(--header-h); }
+
 .nav-mobile a,
 .mobile-nav a {
     padding: var(--space-md) 0;
