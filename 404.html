@@ -108,6 +108,11 @@
         .suggestions a:hover {
             text-decoration: underline;
         }
+    
+        /* This page carries the site footer markup but not styles.css, so it
+           never got the img reset. The footer badge is 1254px natively and was
+           rendering at that size, making the page 822px wide on a phone. */
+        img { max-width: 100%; height: auto; }
     </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL7CN6NG44"></script>
