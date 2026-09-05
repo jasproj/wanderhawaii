@@ -69,7 +69,10 @@
         header { background: white; padding: 15px 20px; border-bottom: 1px solid #eee; }
         .header-container { max-width: 900px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
         .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #0077b6; font-weight: 700; font-size: 1.2rem; }
-        .logo img { width: 32px; height: 32px; }
+        /* The header logo is 2042x855. Forcing it into a 32x32 box squashed it
+           into an illegible blob -- it read as a broken image. Same 32px height,
+           natural width. */
+        .logo img { height: 32px; width: auto; }
         .nav-desktop { display: flex; gap: 25px; }
         .nav-desktop a { color: #555; text-decoration: none; font-weight: 500; font-size: 0.95rem; }
         .nav-desktop a:hover { color: #0077b6; }
@@ -95,7 +98,12 @@
             .cta-btn { padding: 12px 24px; font-size: 0.95rem; }
         }
         @media (max-width: 767px) {
-            .hero { padding: 8px 15px 6px; min-height: 90px; max-height: 120px; overflow: hidden; }
+            /* The compact mobile hero is 90-120px tall and sits at y=0, under the
+               position:fixed header (79px here). Its h1 and its Check Availability
+               button were both behind the header, and overflow:hidden clipped what
+               was left. Push it below the header; nothing else about the compact
+               treatment changes. */
+            .hero { margin-top: var(--header-h); padding: 8px 15px 6px; min-height: 90px; max-height: 120px; overflow: hidden; }
             .hero h1 { font-size: 1.1rem; margin-bottom: 4px; line-height: 1.15; }
             .hero p,
             .hero-stats { display: none; }
