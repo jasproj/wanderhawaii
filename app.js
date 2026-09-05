@@ -141,7 +141,11 @@ async function loadTours() {
         // A card with no price cannot convert, so unpriced tours are removed from the
         // DRAW POOL rather than rendered as "Price on request". Eligibility only --
         // page size, ordering and the shuffle are untouched.
-        toursData = toursData.filter(t => t.status !== 'inactive' && !t.bookingDead
+        // hidden:true is the human-ruled hide, same convention as the
+        // keywestsandbartours and wanderusvi repos: the row stays in the file
+        // with hiddenReason/hiddenAt so the ruling survives a re-scrape and can
+        // be reversed by clearing one flag, rather than being re-litigated.
+        toursData = toursData.filter(t => t.status !== 'inactive' && !t.bookingDead && !t.hidden
                                       && hasUsablePrice(t) && !isAddonOrRental(t));
         console.log(`✅ Loaded ${toursData.length} tours`);
         updateVerifiedToursCount(toursData.length);

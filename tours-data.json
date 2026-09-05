@@ -266816,7 +266816,10 @@
       "priceBasis": "single-tier product (s49 delta): sole tier \"Student\" $2999 is the audience, anchors with label verbatim as unit; ladder Student $2999; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
       "_unknownFields": {
         "priceUnit": "Student"
-      }
+      },
+      "hidden": true,
+      "hiddenReason": "s57 geo hide 2026-09-05: 15-day PADI course in Cabo San Lucas, Mexico. The location field says Oahu; the product name does not.",
+      "hiddenAt": "2026-09-05"
     },
     {
       "pk": 268,
