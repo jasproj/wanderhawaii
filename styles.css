@@ -215,7 +215,7 @@ header + article.blog-article { margin-top: var(--header-h); }
 }
 
 .footer-logo-img {
-    height: 120px;
+    height: 92px;
     width: auto;
 }
 
@@ -278,7 +278,7 @@ header + article.blog-article { margin-top: var(--header-h); }
         height: 60px;
     }
     .footer-logo-img {
-        height: 90px;
+        height: 74px;
     }
 }
 
@@ -2572,12 +2572,14 @@ section { padding: var(--space-3xl) 0; }
 
 .blog-featured-image { width: 100%; max-width: 100%; border-radius: 8px; margin: 24px 0; object-fit: cover; }
 
-/* Footer badge — light pill background for contrast on dark footer */
+/* Footer logo — the header mark, on a light panel. These logos are navy line
+   art on transparent and would vanish on the #171717 footer, so the panel
+   stays; it is a rounded rectangle rather than the old circle, which was drawn
+   for a 1:1 badge and turned a 2.4:1 wordmark into an ellipse. */
 .footer-logo-img {
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 50%;
-    padding: 10px;
-    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
+    background: rgba(255, 255, 255, 0.94);
+    border-radius: 10px;
+    padding: 14px 20px;
 }
 
 /* ============================================
