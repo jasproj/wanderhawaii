@@ -310,6 +310,8 @@ nav a:hover{color:var(--ocean-deep)}
         <input type="hidden" name="quiz" value="island-quiz">
         <input type="hidden" name="result" id="emailResult" value="">
         <input type="email" name="email" placeholder="you@email.com" required>
+        <!-- Honeypot spam protection - bots fill this, humans don't see it -->
+        <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
         <button type="submit">Send Guide</button>
       </form>
       <div class="email-ok" id="emailOk">Mahalo! Check your inbox.</div>
