@@ -214,9 +214,11 @@ header + article.blog-article { margin-top: var(--header-h); }
     align-items: center;
 }
 
+.footer .footer-logo-img,
 .footer-logo-img {
-    height: 92px;
+    height: 160px;
     width: auto;
+    max-width: 100%;
 }
 
 /* Logo Group with Tagline */
@@ -277,8 +279,9 @@ header + article.blog-article { margin-top: var(--header-h); }
     .logo-icon {
         height: 60px;
     }
+    .footer .footer-logo-img,
     .footer-logo-img {
-        height: 74px;
+        height: 160px;
     }
 }
 
@@ -2576,11 +2579,7 @@ section { padding: var(--space-3xl) 0; }
    art on transparent and would vanish on the #171717 footer, so the panel
    stays; it is a rounded rectangle rather than the old circle, which was drawn
    for a 1:1 badge and turned a 2.4:1 wordmark into an ellipse. */
-.footer-logo-img {
-    background: rgba(255, 255, 255, 0.94);
-    border-radius: 10px;
-    padding: 14px 20px;
-}
+
 
 /* ============================================
    RELATED CARDS
