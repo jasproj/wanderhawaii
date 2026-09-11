@@ -240,6 +240,7 @@
   gtag('config', 'G-PL7CN6NG44');
 </script>
 <script src="/tracking.js" defer></script>
+<script src="/tour-rank.js" defer></script>
 </head>
 <body>
     <!-- HEADER -->
@@ -541,6 +542,7 @@
                 tour.status !== 'inactive' && !tour.bookingDead &&
                 tour.tags?.includes(ACTIVITY)
             );
+            filteredTours = window.rankTours ? window.rankTours(filteredTours) : filteredTours;
 
             console.log(`✅ Loaded ${filteredTours.length} ${ACTIVITY} tours`);
             renderActivityTours();
