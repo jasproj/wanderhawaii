@@ -125,11 +125,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 330
       },
@@ -3414,11 +3414,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 270
       },
@@ -3521,11 +3521,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 270
       },
@@ -3651,11 +3651,11 @@
       "timeOfDay": "afternoon",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 270
       },
@@ -3860,11 +3860,11 @@
       "timeOfDay": "afternoon",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 270
       },
@@ -5507,11 +5507,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 660
       },
@@ -6000,11 +6000,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceBreakdown": [
         {
           "id": 765658,
@@ -6099,11 +6099,11 @@
       "timeOfDay": "night",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceBreakdown": [
         {
           "id": 765658,
@@ -6351,11 +6351,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 270
       },
@@ -6395,11 +6395,11 @@
       "timeOfDay": "afternoon",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 270
       },
@@ -10583,11 +10583,11 @@
       "timeOfDay": "afternoon",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 180
       },
@@ -14913,11 +14913,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 720
       },
@@ -15210,11 +15210,11 @@
       "timeOfDay": "afternoon",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 60
       },
@@ -20380,11 +20380,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "bookingDead": true,
       "bookingDeadCheckedAt": "2026-07-24",
       "priceEnrichmentSource": "extract-prices-v7-api",
@@ -20503,11 +20503,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 15
       },
@@ -23354,11 +23354,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceBreakdown": [
         {
           "id": 730397,
@@ -23825,11 +23825,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 210
       },
@@ -23871,11 +23871,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 210
       },
@@ -26092,11 +26092,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 90
       },
@@ -29464,11 +29464,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 480
       },
@@ -29801,11 +29801,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 300
       },
@@ -33078,11 +33078,11 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       },
@@ -34785,11 +34785,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-private",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 180
       },
@@ -37969,11 +37969,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 150
       },
@@ -43975,11 +43975,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "bookingDead": true
     },
@@ -44157,11 +44157,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       },
@@ -44662,11 +44662,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 720
       },
@@ -45983,11 +45983,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       },
@@ -47206,11 +47206,11 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       },
@@ -47347,11 +47347,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 60
       },
@@ -50471,11 +50471,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 180
       },
@@ -54569,11 +54569,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 420
       }
@@ -56272,11 +56272,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 360
       },
@@ -59020,11 +59020,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 240
       },
@@ -60487,11 +60487,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 420
       }
@@ -60567,11 +60567,11 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 180
       },
@@ -60611,11 +60611,11 @@
       "timeOfDay": "afternoon",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 180
       },
@@ -60711,11 +60711,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 30
       },
@@ -60755,11 +60755,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 150
       },
@@ -61268,11 +61268,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 180,
         "priceUnit": "Private Charter"
@@ -68806,11 +68806,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 150
       },
@@ -69291,11 +69291,11 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       },
@@ -73228,11 +73228,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 240
       },
@@ -73610,11 +73610,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       }
@@ -78042,11 +78042,11 @@
       "timeOfDay": "morning",
       "capacity": 10,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 60
       },
@@ -78321,11 +78321,11 @@
       "timeOfDay": "night",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 150
       },
@@ -80016,11 +80016,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 360
       },
@@ -80096,11 +80096,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 540
       },
@@ -80176,11 +80176,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 720
       },
@@ -80255,11 +80255,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 360
       },
@@ -80334,11 +80334,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 540
       },
@@ -80414,11 +80414,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 480
       },
@@ -80493,11 +80493,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 360
       },
@@ -80554,11 +80554,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 540
       },
@@ -80615,11 +80615,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 720
       },
@@ -81392,11 +81392,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 720
       },
@@ -81972,11 +81972,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 360
       },
@@ -83242,11 +83242,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 420
       },
@@ -85373,11 +85373,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:22:02.786Z",
@@ -86757,11 +86757,11 @@
       "timeOfDay": "night",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 180
       },
@@ -87103,11 +87103,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 180
       },
@@ -94069,11 +94069,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       }
@@ -96472,11 +96472,11 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:22:18.371Z",
       "priceEnrichmentStatus": "none",
@@ -97073,11 +97073,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:22:18.371Z",
       "priceEnrichmentStatus": "none",
@@ -97116,11 +97116,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:22:18.371Z",
       "priceEnrichmentStatus": "none",
@@ -99205,11 +99205,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 60
       },
@@ -99253,11 +99253,11 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 300
       },
@@ -102292,11 +102292,11 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 60
       },
@@ -102433,11 +102433,11 @@
       "timeOfDay": "night",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:22:18.371Z",
       "priceEnrichmentStatus": "none",
@@ -103609,11 +103609,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:22:18.371Z",
       "priceEnrichmentStatus": "none",
@@ -103959,11 +103959,11 @@
       "timeOfDay": "afternoon",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 180
       },
@@ -111769,11 +111769,11 @@
       "timeOfDay": "afternoon",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 1440
       },
@@ -112161,11 +112161,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:22:32.448Z",
       "priceEnrichmentStatus": "none",
@@ -115779,11 +115779,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       },
@@ -119890,11 +119890,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:22:32.448Z",
       "priceEnrichmentStatus": "none",
@@ -123613,11 +123613,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 150
       },
@@ -127537,11 +127537,11 @@
       "timeOfDay": "night",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 60
       }
@@ -131769,11 +131769,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 360
       },
@@ -131943,11 +131943,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 360
       },
@@ -132023,11 +132023,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 540
       },
@@ -132103,11 +132103,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 720
       },
@@ -132183,11 +132183,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 540
       },
@@ -132263,11 +132263,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 720
       },
@@ -132343,11 +132343,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 360
       },
@@ -132423,11 +132423,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 540
       },
@@ -132503,11 +132503,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 720
       },
@@ -144523,11 +144523,11 @@
       "timeOfDay": "afternoon",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       },
@@ -146247,11 +146247,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       },
@@ -147783,11 +147783,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 60
       },
@@ -147975,11 +147975,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-private",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 1440
       },
@@ -149168,11 +149168,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 300
       },
@@ -150121,11 +150121,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "priceSource": "v52-dominant-gate",
         "priceUnit": "Three Hour Charter - Catamaran"
@@ -150198,11 +150198,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 240
       },
@@ -150253,11 +150253,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 480
       },
@@ -150308,11 +150308,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 480
       },
@@ -150363,11 +150363,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 1440
       },
@@ -153058,11 +153058,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:25:08.490Z",
       "priceEnrichmentStatus": "none",
@@ -153300,11 +153300,11 @@
       "timeOfDay": "afternoon",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 2880
       },
@@ -154234,11 +154234,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 720
       },
@@ -154384,11 +154384,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 480
       },
@@ -155886,11 +155886,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 90
       },
@@ -156738,11 +156738,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "priceSource": "v52-dominant-gate",
         "durationMinutes": 240,
@@ -158242,11 +158242,11 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 90
       },
@@ -158483,11 +158483,11 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       },
@@ -159046,11 +159046,11 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       },
@@ -160932,11 +160932,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       },
@@ -165131,11 +165131,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 90,
         "priceUnit": "Private fishing"
@@ -167842,11 +167842,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:25:55.053Z",
       "priceEnrichmentStatus": "none",
@@ -168706,11 +168706,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:22:04.520Z",
       "priceEnrichmentStatus": "none"
@@ -169802,11 +169802,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 45
       },
@@ -169900,11 +169900,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 360
       },
@@ -169979,11 +169979,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 540
       },
@@ -170112,11 +170112,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 150
       },
@@ -170505,11 +170505,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 720
       },
@@ -171714,11 +171714,11 @@
       "timeOfDay": "night",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:24:17.238Z",
       "priceEnrichmentStatus": "none",
@@ -173653,11 +173653,11 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       },
@@ -174744,11 +174744,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 150
       },
@@ -175177,11 +175177,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:24:17.238Z",
       "priceEnrichmentStatus": "none",
@@ -176865,11 +176865,11 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 60
       }
@@ -177726,11 +177726,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-private",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "bookingDead": true,
       "bookingDeadCheckedAt": "2026-05-28"
     },
@@ -178349,11 +178349,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceBreakdown": [
         {
           "id": 371347,
@@ -179472,11 +179472,11 @@
       "timeOfDay": "night",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 240
       },
@@ -181874,11 +181874,11 @@
       "timeOfDay": "morning",
       "capacity": 14,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 1440
       },
@@ -183406,11 +183406,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       },
@@ -184225,11 +184225,11 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 480
       },
@@ -187270,11 +187270,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       },
@@ -188952,11 +188952,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 45
       },
@@ -188998,11 +188998,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 45
       },
@@ -189433,11 +189433,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:24:16.753Z",
       "priceEnrichmentStatus": "none",
@@ -189486,11 +189486,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T05:24:16.753Z",
       "priceEnrichmentStatus": "none",
@@ -189605,11 +189605,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 150
       },
@@ -191027,11 +191027,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "bookingDead": true
     },
     {
@@ -191066,11 +191066,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "bookingDead": true
     },
     {
@@ -191386,11 +191386,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "bookingDead": true
     },
@@ -191426,11 +191426,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "bookingDead": true
     },
@@ -191466,11 +191466,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "bookingDead": true
     },
@@ -191506,11 +191506,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "gallery": [],
       "bookingDead": true
     },
@@ -191546,11 +191546,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 45
       },
@@ -191592,11 +191592,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 30
       },
@@ -191821,11 +191821,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 45
       },
@@ -191868,11 +191868,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 45
       },
@@ -191915,11 +191915,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 60
       },
@@ -195183,11 +195183,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 240
       },
@@ -195611,11 +195611,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 60
       },
@@ -195657,11 +195657,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 60
       },
@@ -196104,11 +196104,11 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 150,
         "islandRuling": {
@@ -196292,11 +196292,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 60
       },
@@ -198379,11 +198379,11 @@
       "timeOfDay": "evening",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 120
       },
@@ -199155,11 +199155,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 240
       },
@@ -200387,11 +200387,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 180
       },
@@ -200796,11 +200796,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "durationMinutes": 360
       },
@@ -205348,7 +205348,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $125; not anchoring: Child $85 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $125; not anchoring: Child $85 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "fareharbor-private",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 715936,
@@ -205498,7 +205502,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Level 1 Freediver $398; 2/4 dated readings (1 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: Level 1 Freediver $398; 2/4 dated readings (1 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 318007,
@@ -209363,7 +209371,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Person $114; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: Person $114; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 315381,
@@ -209938,7 +209950,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Person $89; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: Person $89; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 508546,
@@ -210732,7 +210748,11 @@
       "priceBasis": "D-621 whole-boat/whole-unit: floor tier \"Semi-Private Lesson\" $258 (Price is for 2 students with 1 instructor) anchors with the tier label verbatim as unit; ladder Semi-Private Lesson $258; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
       "_unknownFields": {
         "priceUnit": "Semi-Private Lesson"
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 510019,
@@ -212634,7 +212654,11 @@
       "imageEnrichmentAt": "2026-05-28T00:24:01.088Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/tradewindcharters/items/20008/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "island": "oahu"
+      "island": "oahu",
+      "status": "inactive",
+      "statusReason": "fareharbor-private",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 44690,
@@ -215650,7 +215674,11 @@
       "priceBasis": "D-621 whole-boat/whole-unit: floor tier \"1-6 People\" $1195 anchors with the tier label verbatim as unit; ladder 1-6 People $1195; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
       "_unknownFields": {
         "priceUnit": "1-6 People"
-      }
+      },
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 626865,
@@ -223730,7 +223758,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored $500 (Private Group Minimum) retained unpublished pending a live reading"
+      "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored $500 (Private Group Minimum) retained unpublished pending a live reading",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 693418,
@@ -226188,7 +226220,11 @@
       "priceBasis": "D-614 party-size/party-total ladder floor (s48-R1 when per-head): floor tier \"1/2 Day Charter\" $700 (4 Hours • Price is for up to 4 guests) anchors with the tier label verbatim as unit; ladder Full Day Charter $1200 / 3/4 Day Charter $900 / 1/2 Day Charter $700; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
       "_unknownFields": {
         "priceUnit": "1/2 Day Charter"
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 709680,
@@ -242802,7 +242838,11 @@
       "imageEnrichmentAt": "2026-05-28T01:27:03.752Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingDead": true,
-      "bookingDeadCheckedAt": "2026-05-28"
+      "bookingDeadCheckedAt": "2026-05-28",
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 676725,
@@ -246972,7 +247012,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored $49 (Child) retained unpublished pending a live reading"
+      "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored $49 (Child) retained unpublished pending a live reading",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 726371,
@@ -247027,7 +247071,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored $49 (Child) retained unpublished pending a live reading"
+      "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored $49 (Child) retained unpublished pending a live reading",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 380824,
@@ -247615,7 +247663,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $20; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $20; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 597532,
@@ -250832,7 +250884,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored $50 (Adult) retained unpublished pending a live reading"
+      "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored $50 (Adult) retained unpublished pending a live reading",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 157952,
@@ -251005,7 +251061,11 @@
       "imageEnrichmentAt": "2026-05-28T01:47:08.730Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/21degreesestate/items/178621/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "island": "oahu"
+      "island": "oahu",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 207122,
@@ -252437,7 +252497,11 @@
       "imageEnrichmentAt": "2026-05-28T01:53:15.310Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/waikikiyoga/items/493533/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "bookingDead": true
+      "bookingDead": true,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 495777,
@@ -252742,7 +252806,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $120; not anchoring: Child $110 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $120; not anchoring: Child $110 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 510015,
@@ -253345,7 +253413,11 @@
       "imageEnrichmentAt": "2026-05-28T01:56:39.218Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/oceantherapycharters/items/553095/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "bookingDead": true
+      "bookingDead": true,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 554045,
@@ -253827,7 +253899,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Seat $160; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: Seat $160; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 601928,
@@ -254099,7 +254175,11 @@
       "priceBasis": "D-614 party-size/party-total ladder floor (s48-R1 when per-head): floor tier \"Two Hour Charter\" $1200 (Up to 13 Passengers) anchors with the tier label verbatim as unit; ladder Two Hour Charter $1200 / Three Hour Charter $1800; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
       "_unknownFields": {
         "priceUnit": "Two Hour Charter"
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 642664,
@@ -254241,7 +254321,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $100; not anchoring: Child $60 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $100; not anchoring: Child $60 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 648747,
@@ -254297,7 +254381,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $100; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $100; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 651446,
@@ -261333,7 +261421,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: NTBG Individual Member $112 of 4 base tiers (D-625); not anchoring: Kama'aina $112 [never], NTBG Family Member $112 [never]; 2/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: NTBG Individual Member $112 of 4 base tiers (D-625); not anchoring: Kama'aina $112 [never], NTBG Family Member $112 [never]; 2/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 649104,
@@ -262119,7 +262211,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "zero_price: every live tier is $0 on the majority reading (Adult / Kama'aina Adult); 2/4 dated readings (0 date-valid), 2 ladder shape(s); live USD"
+      "priceBasis": "zero_price: every live tier is $0 on the majority reading (Adult / Kama'aina Adult); 2/4 dated readings (0 date-valid), 2 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 726012,
@@ -265119,7 +265215,11 @@
       "imageEnrichmentAt": "2026-05-28T02:22:59.205Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/waikai-atthelineup/items/504956/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "island": "oahu"
+      "island": "oahu",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 522324,
@@ -266295,7 +266395,11 @@
       "imageEnrichmentAt": "2026-05-28T02:27:07.419Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/hanagardenlands/items/647503/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "bookingDead": true
+      "bookingDead": true,
+      "status": "inactive",
+      "statusReason": "fareharbor-private",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 659019,
@@ -266411,7 +266515,11 @@
       "imageEnrichmentAt": "2026-05-28T02:27:28.071Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/ahiuilafireshow/items/659441/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "bookingDead": true
+      "bookingDead": true,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 670096,
@@ -266755,7 +266863,11 @@
       "priceBasis": "D-621 whole-boat/whole-unit: floor tier \"Two Hour Private Sail\" $325 anchors with the tier label verbatim as unit; ladder Two Hour Private Sail $325; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
       "_unknownFields": {
         "priceUnit": "Two Hour Private Sail"
-      }
+      },
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 731576,
@@ -270158,7 +270270,11 @@
       "imageEnrichmentAt": "2026-05-28T02:39:09.903Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/origamitours/items/433603/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "bookingDead": true
+      "bookingDead": true,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 434026,
@@ -274394,7 +274510,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Two Hour Sailing Lesson $400 of 4 base tiers (D-625); 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: Two Hour Sailing Lesson $400 of 4 base tiers (D-625); 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 713124,
@@ -274446,7 +274566,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Burial At Sea $375; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: Burial At Sea $375; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 716091,
@@ -275536,7 +275660,11 @@
       "imageEnrichmentAt": "2026-05-28T02:55:38.621Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/aquaticlifedivers/items/67699/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "island": "oahu"
+      "island": "oahu",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 115559,
@@ -277460,7 +277588,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Cuba Trip Diver $1600; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: Cuba Trip Diver $1600; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 663577,
@@ -282916,7 +283048,11 @@
       "imageEnrichmentAt": "2026-05-28T03:23:44.488Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/ritzcarltonmauiluau/items/658114/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "bookingDead": true
+      "bookingDead": true,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 666256,
@@ -284865,7 +285001,11 @@
       "imageEnrichmentAt": "2026-05-28T03:31:27.083Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/ohanafunfishing/items/398136/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "island": "oahu"
+      "island": "oahu",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 415472,
@@ -287910,7 +288050,11 @@
       "imageEnrichmentAt": "2026-05-28T03:44:40.830Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/ritzcarltonmauiluau/items/658113/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "bookingDead": true
+      "bookingDead": true,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 664225,
@@ -289232,7 +289376,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: General Admission Ticket $33.92; not anchoring: Senior Ticket $28.62 [never], Student Ticket $23.32 [never], Military Ticket $23.32 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: General Admission Ticket $33.92; not anchoring: Senior Ticket $28.62 [never], Student Ticket $23.32 [never], Military Ticket $23.32 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 711758,
@@ -289733,7 +289881,11 @@
       "imageEnrichmentAt": "2026-05-28T03:52:12.799Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/proartsmaui/items/729712/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "island": "maui"
+      "island": "maui",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 729714,
@@ -290501,7 +290653,11 @@
       "imageEnrichmentAt": "2026-05-28T03:55:32.800Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/oahutennisacademy/items/215790/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "bookingDead": true
+      "bookingDead": true,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 218222,
@@ -290557,7 +290713,11 @@
       "imageEnrichmentAt": "2026-05-28T03:55:52.353Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/kauaisportsacademy/items/295805/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "bookingDead": true
+      "bookingDead": true,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 295839,
@@ -290616,7 +290776,11 @@
       "imageEnrichmentAt": "2026-05-28T03:56:12.664Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/kauaisportsacademy/items/295857/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "bookingDead": true
+      "bookingDead": true,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 295864,
@@ -290828,7 +290992,11 @@
       "imageEnrichmentAt": "2026-05-28T03:57:21.325Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/oahutennisacademy/items/359329/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "bookingDead": true
+      "bookingDead": true,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 363142,
@@ -290884,7 +291052,11 @@
       "imageEnrichmentAt": "2026-05-28T03:57:40.827Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/oahutennisacademy/items/365477/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "bookingDead": true
+      "bookingDead": true,
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 365978,
@@ -290966,7 +291138,11 @@
       "imageEnrichmentAt": "2026-05-28T03:58:11.433Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingDead": true,
-      "bookingDeadCheckedAt": "2026-05-28"
+      "bookingDeadCheckedAt": "2026-05-28",
+      "status": "inactive",
+      "statusReason": "fareharbor-404",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 402404,
@@ -291113,7 +291289,11 @@
       "imageEnrichmentAt": "2026-05-28T03:59:03.180Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/oceainasurfschool/items/446154/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "island": "oahu"
+      "island": "oahu",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 451389,
@@ -291572,7 +291752,11 @@
       "imageEnrichmentAt": "2026-05-28T04:01:32.620Z",
       "imageEnrichmentStatus": "filestack_found",
       "bookingUrlLegacy": "https://fareharbor.com/ritzcarltonmauiluau/items/651939/book/?full-items=yes&flow=no&ref=walktheplankadventures",
-      "bookingDead": true
+      "bookingDead": true,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 658107,
@@ -292131,7 +292315,11 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored $695 (Stress and Rescue) retained unpublished pending a live reading"
+      "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-31, 2026-09-14, 2026-09-28, 2026-10-19); stored $695 (Stress and Rescue) retained unpublished pending a live reading",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
+      "lastUpdated": "2026-09-22"
     },
     {
       "pk": 583432,
@@ -296351,11 +296539,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "fh-marketplace-export-2026-08-22",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": "2026-08-22",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "minPartySize": 1,
         "priceTier": "Adult",
@@ -296989,11 +297177,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "fh-marketplace-export-2026-08-22",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": "2026-08-22",
+      "status": "inactive",
+      "statusReason": "fareharbor-private",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "minPartySize": 1,
         "priceTier": "Certified Diver Group",
@@ -301406,11 +301594,11 @@
       "timeOfDay": "",
       "capacity": null,
       "enrichmentSource": "fh-marketplace-export-2026-08-22",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": "2026-08-22",
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-22",
       "_unknownFields": {
         "minPartySize": 1,
         "priceTier": "Adult",
