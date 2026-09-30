@@ -220,6 +220,7 @@ header + article.blog-article { margin-top: var(--header-h); }
     width: auto;
     max-width: 100%;
     object-fit: contain;
+    filter: brightness(0) invert(1);
 }
 
 /* Logo Group with Tagline */
