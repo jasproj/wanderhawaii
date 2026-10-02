@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.8",
-  "lastNormalized": "2026-07-09T16:37:27.511Z",
+  "lastNormalized": "2026-10-02T22:23:47Z",
   "tours": [
     {
       "id": "316332",
@@ -671,7 +671,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "kauai",
-      "price": 274.57,
+      "price": 262.88,
       "priceLabel": "Guest",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -727,7 +727,7 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
       "priceTiers": [
         {
@@ -737,8 +737,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Guest $274.57; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s62-whaw-price-refresh",
+      "priceBasis": "s62-whaw-price-refresh: Guest $274.57 -> $262.88 (stale_seasonal); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "671697",
@@ -956,7 +956,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "kauai",
-      "price": 189.32,
+      "price": 181.26,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -1054,11 +1054,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $189.32; not anchoring: Teen $109.6 [never], Child $65.32 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Adult $189.32 -> $181.26 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "232777",
@@ -1069,7 +1069,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "kauai",
-      "price": 264.6,
+      "price": 253.34,
       "priceLabel": "Central Transport - Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -1288,11 +1288,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Central Transport - Adult $264.6 of 3 base tiers (D-625); not anchoring: Central Transport - Teen $179.35 [never], Central Transport - Child $117.35 [never], North Transport - Teen $183.78 [never], North Transport - Child $119.57 [never], Poipu Transport - Teen $179.35 [never], Poipu Transport - Child $117.35 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Central Transport - Adult $264.60 -> $253.34 (stale_seasonal); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "235764",
@@ -1303,7 +1303,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "kauai",
-      "price": 298.92,
+      "price": 286.2,
       "priceLabel": "Central Transport - Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -1520,11 +1520,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Central Transport - Adult $298.92 of 3 base tiers (D-625); not anchoring: Central Transport - Teen $212.57 [never], Central Transport - Child $139.5 [never], North Transport - Teen $217 [never], North Transport - Child $141.71 [never], Poipu Transport - Teen $212.57 [never], Poipu Transport - Child $139.5 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Central Transport - Adult $298.92 -> $286.20 (stale_seasonal); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "235783",
@@ -1535,7 +1535,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "kauai",
-      "price": 265.71,
+      "price": 254.4,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -1632,11 +1632,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $265.71; not anchoring: Teen $180.46 [never], Child $124 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Adult $265.71 -> $254.40 (stale_seasonal); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "236580",
@@ -1647,7 +1647,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "kauai",
-      "price": 303.35,
+      "price": 290.44,
       "priceLabel": "Central Transport - Guest",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -1721,7 +1721,7 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
       "priceTiers": [
         {
@@ -1743,8 +1743,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Central Transport - Guest $303.35 of 3 base tiers (D-625); 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s62-whaw-price-refresh",
+      "priceBasis": "s62-whaw-price-refresh: Central Transport - Guest $303.35 -> $290.44 (stale_seasonal); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "377022",
@@ -1804,7 +1804,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "kauai",
-      "price": 232.5,
+      "price": 222.6,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -1902,11 +1902,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $232.5; not anchoring: Teen $147.25 [never], Child $101.86 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Adult $232.50 -> $222.60 (stale_seasonal); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "235800",
@@ -1917,7 +1917,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "kauai",
-      "price": 221.42,
+      "price": 212,
       "priceLabel": "Central Transport - Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -2137,11 +2137,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Central Transport - Adult $221.42 of 3 base tiers (D-625); not anchoring: Central Transport - Teen $141.71 [never], Central Transport - Child $80.82 [never], North Transport - Teen $146.14 [never], North Transport - Child $83.03 [never], Poipu Transport - Teen $141.71 [never], Poipu Transport - Child $80.82 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Central Transport - Adult $221.42 -> $212.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "1802",
@@ -2575,7 +2575,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "kauai",
-      "price": 222.53,
+      "price": 213.06,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -2672,11 +2672,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $222.53; not anchoring: Teen $142.82 [never], Child $87.46 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Adult $222.53 -> $213.06 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "163552",
@@ -2747,7 +2747,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "kauai",
-      "price": 254.64,
+      "price": 243.8,
       "priceLabel": "Central Transport - Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -2964,11 +2964,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Central Transport - Adult $254.64 of 3 base tiers (D-625); not anchoring: Central Transport - Teen $174.92 [never], Central Transport - Child $102.96 [never], North Transport - Teen $179.35 [never], North Transport - Child $105.18 [never], Poipu Transport - Teen $174.92 [never], Poipu Transport - Child $102.96 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Central Transport - Adult $254.64 -> $243.80 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "498536",
@@ -8048,7 +8048,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "kauai",
-      "price": 209.25,
+      "price": 200.34,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -8143,11 +8143,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $209.25; not anchoring: Teen $128.43 [never], Child $83.03 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Adult $209.25 -> $200.34 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "602743",
@@ -8158,7 +8158,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "kauai",
-      "price": 241.35,
+      "price": 231.08,
       "priceLabel": "Central Transport - Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -8373,11 +8373,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Central Transport - Adult $241.35 of 3 base tiers (D-625); not anchoring: Central Transport - Teen $160.53 [never], Central Transport - Child $98.53 [never], North Transport - Teen $164.96 [never], North Transport - Child $100.75 [never], Poipu Transport - Teen $160.53 [never], Poipu Transport - Child $98.53 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Central Transport - Adult $241.35 -> $231.08 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "602744",
@@ -8388,7 +8388,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "kauai",
-      "price": 242.46,
+      "price": 232.14,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -8483,11 +8483,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $242.46; not anchoring: Teen $161.64 [never], Child $105.18 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Adult $242.46 -> $232.14 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "602745",
@@ -8498,7 +8498,7 @@
       "category": "",
       "location": "United States/Hawaii",
       "island": "kauai",
-      "price": 274.57,
+      "price": 262.88,
       "priceLabel": "Central Transport - Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -8713,11 +8713,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Central Transport - Adult $274.57 of 3 base tiers (D-625); not anchoring: Central Transport - Teen $193.75 [never], Central Transport - Child $120.68 [never], North Transport - Teen $198.17 [never], North Transport - Child $122.89 [never], Poipu Transport - Teen $193.75 [never], Poipu Transport - Child $120.68 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Central Transport - Adult $274.57 -> $262.88 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "79571",
@@ -34918,7 +34918,7 @@
       "category": "",
       "location": "United States/Hawaii/Wailuku",
       "island": "maui",
-      "price": 213,
+      "price": 198,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 90,
@@ -34989,7 +34989,7 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
       "priceTiers": [
         {
@@ -35017,8 +35017,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $213; not anchoring: Child $158 [never], Snuba Add-On $82.68 [never]; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s62-whaw-price-refresh",
+      "priceBasis": "s62-whaw-price-refresh: Adult $213.00 -> $198.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "645464",
@@ -45402,7 +45402,7 @@
       "category": "",
       "location": "United States/Hawaii/Lahaina",
       "island": "maui",
-      "price": 269,
+      "price": 239,
       "priceLabel": "Person",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -45457,7 +45457,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
       "priceTiers": [
         {
@@ -45467,8 +45467,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Person $269; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s62-whaw-price-refresh",
+      "priceBasis": "s62-whaw-price-refresh: Person $269.00 -> $239.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "151205",
@@ -65066,7 +65066,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 118,
+      "price": 110,
       "priceLabel": "Guest",
       "priceConfidence": "high",
       "qualityScore": 100,
@@ -65139,7 +65139,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
       "priceTiers": [
         {
@@ -65161,8 +65161,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Guest $118; not anchoring: 12 or younger $110 [group], Not snorkeling, Only Boat Ride $100 [group]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s62-whaw-price-refresh",
+      "priceBasis": "s62-whaw-price-refresh: Guest $118.00 -> $110.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "204214",
@@ -67593,7 +67593,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 129,
+      "price": 109,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -67675,11 +67675,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $129; not anchoring: Child $129 [never], Private Charter - 4 Hour $3000 [group]; 4/4 dated readings (2 date-valid), 2 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Adult $129.00 -> $109.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "372871",
@@ -69082,7 +69082,7 @@
       "category": "",
       "location": "United States/Hawaii/Hilo",
       "island": "big island",
-      "price": 199.99,
+      "price": 172.49,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -69151,11 +69151,11 @@
           "minPartySize": 2
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $199.99; not anchoring: Child $189.99 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Adult $199.99 -> $172.49 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "287421",
@@ -98316,7 +98316,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 149,
+      "price": 129,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 85,
@@ -98395,11 +98395,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $149; not anchoring: Child $129 [never], Lap Child $20 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Adult $149.00 -> $129.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "346894",
@@ -98410,7 +98410,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 159,
+      "price": 139,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 85,
@@ -98489,11 +98489,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $159; not anchoring: Child $139 [never], Lap Child $20 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Adult $159.00 -> $139.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "356330",
@@ -98504,7 +98504,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 129,
+      "price": 109,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 85,
@@ -98583,11 +98583,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $129; not anchoring: Child $109 [never], Lap Child $20 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Adult $129.00 -> $109.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "692451",
@@ -115645,7 +115645,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 135,
+      "price": 91,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -115741,11 +115741,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $135; not anchoring: Senior $118 [never], Child $105 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Adult $135.00 -> $91.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "238856",
@@ -116537,7 +116537,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 135,
+      "price": 91,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -116633,11 +116633,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $135; not anchoring: Senior $118 [never], Child $105 [never]; 4/4 dated readings (3 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Adult $135.00 -> $91.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "2769",
@@ -132559,7 +132559,7 @@
       "category": "",
       "location": "United States/Hawaii/Kapolei",
       "island": "oahu",
-      "price": 174,
+      "price": 154,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -132660,11 +132660,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $174; not anchoring: Child $154 [never], Buy Out $7999 [group]; 4/4 dated readings (0 date-valid), 2 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Adult $174.00 -> $154.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "544383",
@@ -146153,7 +146153,7 @@
       "category": "",
       "location": "United States/Hawaii/Kapolei",
       "island": "oahu",
-      "price": 3850,
+      "price": 3375,
       "priceLabel": "Private Charter",
       "priceConfidence": "high",
       "qualityScore": 100,
@@ -146208,11 +146208,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-621 whole-boat/whole-unit: floor tier \"Private Charter\" $3850 (Private Covers Up to 25 Guests • Additional Charge For Guests Up to 49 Passengers) anchors with the tier label verbatim as unit; ladder Private Charter $3850; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Private Charter $3850.00 -> $3375.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "338210",
@@ -156630,7 +156630,7 @@
       "category": "",
       "location": "United States/Hawaii/Kaiminani",
       "island": "big island",
-      "price": 137,
+      "price": 123.3,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 100,
@@ -156697,11 +156697,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $137; not anchoring: Child $110 [never]; 4/4 dated readings (1 date-valid), 2 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Adult $137.00 -> $123.30 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "363796",
@@ -182042,7 +182042,7 @@
       "category": "",
       "location": "United States/Hawaii/Kaiminani",
       "island": "big island",
-      "price": 150,
+      "price": 135,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 100,
@@ -182109,11 +182109,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $150; not anchoring: Child $120 [never]; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Adult $150.00 -> $135.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "534521",
@@ -184466,7 +184466,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 199.99,
+      "price": 179.99,
       "priceLabel": "Certified Scuba Diver",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -184548,11 +184548,11 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
+      "priceSource": "s62-whaw-price-refresh",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Certified Scuba Diver $199.99 of 2 base tiers (D-625); product-name affinity preferred Certified Scuba Diver over Snorkeler $99.99; not anchoring: Ride Along $89.99 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "s62-whaw-price-refresh: Certified Scuba Diver $199.99 -> $179.99 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "391875",
@@ -185738,7 +185738,7 @@
       "category": "",
       "location": "United States/Hawaii/Honolulu",
       "island": "oahu",
-      "price": 120,
+      "price": 95,
       "priceLabel": "Person",
       "priceConfidence": "high",
       "qualityScore": 100,
@@ -185796,7 +185796,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
       "priceTiers": [
         {
@@ -185812,8 +185812,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Person $120; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s62-whaw-price-refresh",
+      "priceBasis": "s62-whaw-price-refresh: Person $120.00 -> $95.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "341671",
@@ -206441,7 +206441,7 @@
       "name": "Waterfall Rappelling",
       "description": "Rappel 120 feet down Hawaii’s largest private waterfall, feeling the spray and hearing the roar. Perfect for families and beginners, this eco-friendly adventure offers stunning views and a thrill you won’t forget.",
       "location": "Big Island",
-      "price": 249,
+      "price": 179,
       "bookingUrl": "https://fareharbor.com/embeds/book/waterfallmgmt/items/345083/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/8RW45DAQY2eY7hvKv3X7/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
@@ -206482,7 +206482,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T05:27:32.142Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/8RW45DAQY2eY7hvKv3X7/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
       "imageEnrichmentSource": "extract-images-v1",
@@ -206492,7 +206492,9 @@
       "island": "big island",
       "status": "inactive",
       "statusReason": "no-online-availability",
-      "statusCheckedAt": "2026-08-17T16:04:41Z"
+      "statusCheckedAt": "2026-08-17T16:04:41Z",
+      "priceSource": "s62-whaw-price-refresh",
+      "priceBasis": "s62-whaw-price-refresh: Person $249.00 -> $179.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "pk": 345084,
@@ -231053,7 +231055,7 @@
       "name": "Kealakekua Bay (Capt. Cook) Adventure",
       "description": "Set out on a 3-hour Kona Ocean Safari to spot sea turtles, dolphins, whales, sharks, and manta rays. Scan the coastline for wildlife, swim with deep-sea creatures, and enjoy a personalized adventure on a private or shared boat.",
       "location": "Oahu",
-      "price": 143.1,
+      "price": 135,
       "bookingUrl": "https://fareharbor.com/embeds/book/kaimanaoceansafari/items/343343/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/GX5QgBA1SuDzqhN6r4g1/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
@@ -231092,7 +231094,7 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/GX5QgBA1SuDzqhN6r4g1/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -231114,8 +231116,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Person $143.1; not anchoring: Private Charter $848 [group]; 4/4 dated readings (3 date-valid), 2 ladder shape(s); live USD"
+      "priceSource": "s62-whaw-price-refresh",
+      "priceBasis": "s62-whaw-price-refresh: Person $143.10 -> $135.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "pk": 344541,
@@ -248115,7 +248117,7 @@
       "name": "Private Sunset Dolphin Watch & Snorkel Cruise with Cocktails Only",
       "description": "Experience the beauty of O’ahu with a private charter on the Kai ‘Oli’Oli, where you can customize your adventure. Enjoy exclusive access to stunning coastlines, sip on cocktails, and snorkel in crystal-clear waters. Perfect for romantic getaways or family fun, this personalized cruise promises unforgettable memories in paradise.",
       "location": "Kapolei",
-      "price": 3350,
+      "price": 2875,
       "bookingUrl": "https://fareharbor.com/embeds/book/oceanjoy/items/637003/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/EsEOE6VoRD7nVGBFtn8o/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
@@ -248145,7 +248147,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/EsEOE6VoRD7nVGBFtn8o/convert?cache=true&compress=true&quality=90&h=692&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -248161,8 +248163,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-621 whole-boat/whole-unit: floor tier \"Private Charter\" $3350 (Private Covers Up to 25 Guests • Additional Charge For Guests Up to 49 Passengers) anchors with the tier label verbatim as unit; ladder Private Charter $3350; 4/4 dated readings (4 date-valid), 2 ladder shape(s); live USD",
+      "priceSource": "s62-whaw-price-refresh",
+      "priceBasis": "s62-whaw-price-refresh: Private Charter $3350.00 -> $2875.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time",
       "_unknownFields": {
         "priceUnit": "Private Charter"
       }
@@ -282801,7 +282803,7 @@
       "name": "Huaka'i Luau Maui VIP Seating",
       "description": "Savor Hawaiian flavors, lively Polynesian shows, and oceanfront views at Hilton’s Huaka'i Lu'au. Feel the warmth of aloha as music, dance, and culture create an unforgettable island night for all.",
       "location": "Maui",
-      "price": 237.14,
+      "price": 236.67,
       "bookingUrl": "https://fareharbor.com/embeds/book/nahokufeastluau/items/728370/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/IuEme0QR0SHCOkSVgs7S/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
@@ -282847,7 +282849,7 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/IuEme0QR0SHCOkSVgs7S/convert?cache=true&compress=true&quality=90&format=webp&rotate=exif&h=250&fit=max",
       "imageEnrichmentSource": "extract-images-v1",
@@ -282875,8 +282877,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult $237.14; not anchoring: Child $94.86 [never]; 4/4 dated readings (0 date-valid), 1 ladder shape(s); live USD"
+      "priceSource": "s62-whaw-price-refresh",
+      "priceBasis": "s62-whaw-price-refresh: Adult $237.14 -> $236.67 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "pk": 622875,
@@ -295293,7 +295295,7 @@
       "name": "Private Sunset Proposal Experience",
       "description": "Share a romantic sunset ride along Kauaʻi’s coast, with ocean views and expert help to create the perfect proposal moment. An intimate, scenic adventure designed for one couple to cherish forever.",
       "location": "Waimea",
-      "price": 850,
+      "price": 790,
       "bookingUrl": "https://fareharbor.com/embeds/book/whoadearanch/items/733838/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "gallery": [
         "https://cdn.filestackcontent.com/jBJ9hCQOfyDGYYiE5gw5/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
@@ -295323,7 +295325,7 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": false,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-26T02:27:35.937Z",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
       "priceEnrichmentStatus": "high",
       "image": "https://cdn.filestackcontent.com/jBJ9hCQOfyDGYYiE5gw5/convert?cache=true&compress=true&quality=90&w=920&fit=max&format=webp&rotate=exif",
       "imageEnrichmentSource": "extract-images-v1",
@@ -295338,8 +295340,8 @@
           "minPartySize": 1
         }
       ],
-      "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-621 whole-boat/whole-unit: floor tier \"Private Sunset Proposal Experience\" $850 anchors with the tier label verbatim as unit; ladder Private Sunset Proposal Experience $850; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "priceSource": "s62-whaw-price-refresh",
+      "priceBasis": "s62-whaw-price-refresh: Private Sunset Proposal Experience $850.00 -> $790.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time",
       "_unknownFields": {
         "priceUnit": "Private Sunset Proposal Experience"
       }
@@ -304648,7 +304650,7 @@
       "category": "",
       "location": "United States/Hawaii/Kailua-Kona",
       "island": "big island",
-      "price": 259,
+      "price": 219,
       "priceLabel": "Certified Diver",
       "priceConfidence": "high",
       "qualityScore": 95,
@@ -304691,7 +304693,10 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export (s61 gap audit): live, priced, never listed",
         "availabilityNext30Days": 21
-      }
+      },
+      "priceSource": "s62-whaw-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
+      "priceBasis": "s62-whaw-price-refresh: Certified Diver $259.00 -> $219.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "526399",
@@ -305352,7 +305357,7 @@
       "category": "",
       "location": "United States/Hawaii/Kapaʻa",
       "island": "kauai",
-      "price": 128,
+      "price": 103.5,
       "priceLabel": "Group discount - 6+ people (5%)",
       "priceConfidence": "high",
       "qualityScore": 49,
@@ -305390,7 +305395,10 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export (s61 gap audit): live, priced, never listed",
         "availabilityNext30Days": 62
-      }
+      },
+      "priceSource": "s62-whaw-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
+      "priceBasis": "s62-whaw-price-refresh: Group discount - 6+ people (5%) $128.00 -> $103.50 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "426933",
@@ -307678,7 +307686,7 @@
       "category": "",
       "location": "United States/Hawaii/Wailuku",
       "island": "maui",
-      "price": 309,
+      "price": 269,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 77,
@@ -307749,7 +307757,10 @@
           "price": 0,
           "minPartySize": 1
         }
-      ]
+      ],
+      "priceSource": "s62-whaw-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
+      "priceBasis": "s62-whaw-price-refresh: Adult $309.00 -> $269.00 (stale_seasonal); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "472325",
@@ -328447,7 +328458,7 @@
       "category": "",
       "location": "United States/Hawaii/Kula",
       "island": "maui",
-      "price": 55,
+      "price": 50,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 55,
@@ -328538,7 +328549,10 @@
           "price": 0,
           "minPartySize": 1
         }
-      ]
+      ],
+      "priceSource": "s62-whaw-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T22:23:47Z",
+      "priceBasis": "s62-whaw-price-refresh: Adult $55.00 -> $50.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "160542",
