@@ -1,0 +1,556 @@
+{
+ "generated": "2026-10-02",
+ "site": "whaw",
+ "source": "fareharbor price-preview asn=fhdn, 4 dates",
+ "rule": "price := exact priceLabel tier price, or highest observed where seasonal",
+ "auto": [
+  {
+   "co": "aliinuimaui",
+   "pk": "439014",
+   "name": "Molokini Deluxe Snorkel & Sail",
+   "oldPrice": 309.0,
+   "newPrice": 269.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE_SEASONAL",
+   "note": "seasonal; card exceeded every observed price, set to the highest observed (249.00-269.00)"
+  },
+  {
+   "co": "captainzodiac",
+   "pk": "174861",
+   "name": "Kealakekua Bay Snorkeling Tour",
+   "oldPrice": 137.0,
+   "newPrice": 123.3,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "captainzodiac",
+   "pk": "174865",
+   "name": "Kona Snorkeling \u2013 Beat the Crowd Tour",
+   "oldPrice": 150.0,
+   "newPrice": 135.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "hawaiianadventureskona",
+   "pk": "266579",
+   "name": "Pelagic Whale Watch",
+   "oldPrice": 129.0,
+   "newPrice": 109.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "hawaiiislandandoceantours",
+   "pk": "159432",
+   "name": "Whale / Dolphin Watch, Sea Cave & Captain Cook Kealakekua Ba",
+   "oldPrice": 118.0,
+   "newPrice": 110.0,
+   "oldLabel": "Guest",
+   "newLabel": "Guest",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "kaimanaoceansafari",
+   "pk": "343343",
+   "name": "Kealakekua Bay (Capt. Cook) Adventure",
+   "oldPrice": 143.1,
+   "newPrice": 135.0,
+   "oldLabel": "Person",
+   "newLabel": "Person",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "konahonudivers",
+   "pk": "1482",
+   "name": "2 Tank Night Manta Dive Charter",
+   "oldPrice": 259.0,
+   "newPrice": 219.0,
+   "oldLabel": "Certified Diver",
+   "newLabel": "Certified Diver",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "luau-kalamaku",
+   "pk": "215998",
+   "name": "Manor House Experience",
+   "oldPrice": 274.57,
+   "newPrice": 262.88,
+   "oldLabel": "Guest",
+   "newLabel": "Guest",
+   "cls": "STALE_SEASONAL",
+   "note": "seasonal; card exceeded every observed price, set to the highest observed (254.40-262.88)"
+  },
+  {
+   "co": "luau-kalamaku",
+   "pk": "215652",
+   "name": "Hawaiian Package",
+   "oldPrice": 189.32,
+   "newPrice": 181.26,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "luau-kalamaku",
+   "pk": "232777",
+   "name": "Gold Package with Round-Trip Transportation",
+   "oldPrice": 264.6,
+   "newPrice": 253.34,
+   "oldLabel": "Central Transport - Adult",
+   "newLabel": "Central Transport - Adult",
+   "cls": "STALE_SEASONAL",
+   "note": "seasonal; card exceeded every observed price, set to the highest observed (245.92-253.34)"
+  },
+  {
+   "co": "luau-kalamaku",
+   "pk": "235764",
+   "name": "Gold Package with Train Ride & Round-Trip Transportation",
+   "oldPrice": 298.92,
+   "newPrice": 286.2,
+   "oldLabel": "Central Transport - Adult",
+   "newLabel": "Central Transport - Adult",
+   "cls": "STALE_SEASONAL",
+   "note": "seasonal; card exceeded every observed price, set to the highest observed (277.72-286.20)"
+  },
+  {
+   "co": "luau-kalamaku",
+   "pk": "235783",
+   "name": "Gold Package with Train Ride",
+   "oldPrice": 265.71,
+   "newPrice": 254.4,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE_SEASONAL",
+   "note": "seasonal; card exceeded every observed price, set to the highest observed (246.98-254.40)"
+  },
+  {
+   "co": "luau-kalamaku",
+   "pk": "236580",
+   "name": "Manor House Experience with Round-Trip Transportation",
+   "oldPrice": 303.35,
+   "newPrice": 290.44,
+   "oldLabel": "Central Transport - Guest",
+   "newLabel": "Central Transport - Guest",
+   "cls": "STALE_SEASONAL",
+   "note": "seasonal; card exceeded every observed price, set to the highest observed (281.96-290.44)"
+  },
+  {
+   "co": "luau-kalamaku",
+   "pk": "215997",
+   "name": "Gold Package",
+   "oldPrice": 232.5,
+   "newPrice": 222.6,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE_SEASONAL",
+   "note": "seasonal; card exceeded every observed price, set to the highest observed (215.18-222.60)"
+  },
+  {
+   "co": "luau-kalamaku",
+   "pk": "235800",
+   "name": "Hawaiian Package with Round-Trip Transportation",
+   "oldPrice": 221.42,
+   "newPrice": 212.0,
+   "oldLabel": "Central Transport - Adult",
+   "newLabel": "Central Transport - Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "luau-kalamaku",
+   "pk": "236560",
+   "name": "Hawaiian Package with Train Ride",
+   "oldPrice": 222.53,
+   "newPrice": 213.06,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "luau-kalamaku",
+   "pk": "236563",
+   "name": "Hawaiian Package with Train & Round-Trip Transportation",
+   "oldPrice": 254.64,
+   "newPrice": 243.8,
+   "oldLabel": "Central Transport - Adult",
+   "newLabel": "Central Transport - Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "luau-kalamaku",
+   "pk": "602741",
+   "name": "Silver Package",
+   "oldPrice": 209.25,
+   "newPrice": 200.34,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "luau-kalamaku",
+   "pk": "602743",
+   "name": "Silver Package with Round-Trip Transportation",
+   "oldPrice": 241.35,
+   "newPrice": 231.08,
+   "oldLabel": "Central Transport - Adult",
+   "newLabel": "Central Transport - Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "luau-kalamaku",
+   "pk": "602744",
+   "name": "Silver Package with Train Ride",
+   "oldPrice": 242.46,
+   "newPrice": 232.14,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "luau-kalamaku",
+   "pk": "602745",
+   "name": "Silver Package with Train Ride & Round-Trip Transportation",
+   "oldPrice": 274.57,
+   "newPrice": 262.88,
+   "oldLabel": "Central Transport - Adult",
+   "newLabel": "Central Transport - Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "malahinitours",
+   "pk": "138453",
+   "name": "Majestic Waterfalls Tour",
+   "oldPrice": 199.99,
+   "newPrice": 172.49,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "nahokufeastluau",
+   "pk": "728370",
+   "name": "Huaka'i Luau Maui VIP Seating",
+   "oldPrice": 237.14,
+   "newPrice": 236.67,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "oceanjoy",
+   "pk": "193",
+   "name": "Sunset Dolphin Watch & Snorkel Cruise with Dinner and Cockta",
+   "oldPrice": 174.0,
+   "newPrice": 154.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "oceanjoy",
+   "pk": "546",
+   "name": "Private Sunset Dolphin Watch & Snorkel Cruise with Dinner an",
+   "oldPrice": 3850.0,
+   "newPrice": 3375.0,
+   "oldLabel": "Private Charter",
+   "newLabel": "Private Charter",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "oceanjoy",
+   "pk": "637003",
+   "name": "Private Sunset Dolphin Watch & Snorkel Cruise with Cocktails",
+   "oldPrice": 3350.0,
+   "newPrice": 2875.0,
+   "oldLabel": "Private Charter",
+   "newLabel": "Private Charter",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "olaparadive",
+   "pk": "324932",
+   "name": "Shallow 2 Tank Certified Diver Boat Charter (40-60 ft)",
+   "oldPrice": 199.99,
+   "newPrice": 179.99,
+   "oldLabel": "Certified Scuba Diver",
+   "newLabel": "Certified Scuba Diver",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "prideofmaui",
+   "pk": "417874",
+   "name": "Pride of Maui Maxi Catamaran: Molokini & Turtle Town Snorkel",
+   "oldPrice": 213.0,
+   "newPrice": 198.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "queenswaikikiluau",
+   "pk": "343142",
+   "name": "Middle Section",
+   "oldPrice": 149.0,
+   "newPrice": 129.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "queenswaikikiluau",
+   "pk": "346894",
+   "name": "Front Section",
+   "oldPrice": 159.0,
+   "newPrice": 139.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "queenswaikikiluau",
+   "pk": "356330",
+   "name": "Back Section",
+   "oldPrice": 129.0,
+   "newPrice": 109.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "riverstothesea",
+   "pk": "43948",
+   "name": "One-On-One Private Lesson",
+   "oldPrice": 269.0,
+   "newPrice": 239.0,
+   "oldLabel": "Person",
+   "newLabel": "Person",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "sailmakani",
+   "pk": "104686",
+   "name": "Fun in the Sun Sail",
+   "oldPrice": 135.0,
+   "newPrice": 91.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "sailmakani",
+   "pk": "151",
+   "name": "Honolulu Sunset Sail",
+   "oldPrice": 135.0,
+   "newPrice": 91.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "waiaina",
+   "pk": "697698",
+   "name": "Kauai Private Baby Farm Animal Experience & Micro Dairy Imme",
+   "oldPrice": 128.0,
+   "newPrice": 103.5,
+   "oldLabel": "Group discount - 6+ people (5%)",
+   "newLabel": "Group discount - 6+ people (5%)",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "waipoligreens",
+   "pk": "755256",
+   "name": "Hydroponic Farm Discovery Tour",
+   "oldPrice": 55.0,
+   "newPrice": 50.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "waterfallmgmt",
+   "pk": "345083",
+   "name": "Waterfall Rappelling",
+   "oldPrice": 249.0,
+   "newPrice": 179.0,
+   "oldLabel": "Person",
+   "newLabel": "Person",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "whoadearanch",
+   "pk": "733838",
+   "name": "Private Sunset Proposal Experience",
+   "oldPrice": 850.0,
+   "newPrice": 790.0,
+   "oldLabel": "Private Sunset Proposal Experience",
+   "newLabel": "Private Sunset Proposal Experience",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  },
+  {
+   "co": "yolohawaiillc",
+   "pk": "120948",
+   "name": "2 Hour Snorkel with Turtles + Water Scooter + Paddleboard",
+   "oldPrice": 120.0,
+   "newPrice": 95.0,
+   "oldLabel": "Person",
+   "newLabel": "Person",
+   "cls": "STALE",
+   "note": "exact-label price identical on all 4 dates"
+  }
+ ],
+ "flag": [
+  {
+   "co": "captainzodiac",
+   "pk": "176299",
+   "name": "Private Charter",
+   "card": 1050.0,
+   "label": "Four Hour Private Charter",
+   "tiers": [
+    [
+     "Four Hour Private Charter",
+     1125.0
+    ],
+    [
+     "Five Hour Private Charter",
+     1215.0
+    ],
+    [
+     "Four Hour Private Charter",
+     945.0
+    ],
+    [
+     "Five Hour Private Charter",
+     1035.0
+    ]
+   ],
+   "reason": "two tiers share the label 'Four Hour Private Charter'; cannot tell which is the headline rate"
+  },
+  {
+   "co": "hawaiianoceansports",
+   "pk": "403643",
+   "name": "GOLD Card",
+   "card": 360.0,
+   "label": "Adult",
+   "tiers": [
+    [
+     "Adult",
+     360.0
+    ],
+    [
+     "Adult",
+     180.0
+    ],
+    [
+     "Adult",
+     80.0
+    ]
+   ],
+   "reason": "two tiers share the label 'Adult'; cannot tell which is the headline rate"
+  },
+  {
+   "co": "hawaiiforestandtrail",
+   "pk": "62729",
+   "name": "Kohala Waterfalls Adventure - Private Ohana Outing",
+   "card": 400.0,
+   "label": "Adult",
+   "tiers": [
+    [
+     "Adult",
+     400.0
+    ],
+    [
+     "Adult",
+     50.0
+    ]
+   ],
+   "reason": "two tiers share the label 'Adult'; cannot tell which is the headline rate"
+  },
+  {
+   "co": "hawaiiforestandtrail",
+   "pk": "337285",
+   "name": "Volcano, Chocolate & Waterfalls | Private Ohana Outing",
+   "card": 483.33,
+   "label": "Adult",
+   "tiers": [
+    [
+     "Adult",
+     483.33
+    ],
+    [
+     "Adult",
+     100.0
+    ]
+   ],
+   "reason": "two tiers share the label 'Adult'; cannot tell which is the headline rate"
+  },
+  {
+   "co": "ritzcarltonmauiluau",
+   "pk": "693778",
+   "name": "Native Hawaiian Crafts",
+   "card": 79.5,
+   "label": "Keiki",
+   "tiers": [
+    [
+     "Keiki",
+     0.0
+    ]
+   ],
+   "reason": "FareHarbor returns 0.00 on every date; likely a free inclusion, not a $79.50 item"
+  },
+  {
+   "co": "snorkelanddivehawaii",
+   "pk": "575927",
+   "name": "Adaptive Snorkeling Tours",
+   "card": 250.0,
+   "label": "Snorkeler",
+   "tiers": [
+    [
+     "Adaptive Snorkeler",
+     250.0
+    ],
+    [
+     "Snorkeler",
+     125.0
+    ]
+   ],
+   "reason": "card price is really the Adaptive Snorkeler tier; relabel rather than reprice"
+  }
+ ],
+ "delist": []
+}
