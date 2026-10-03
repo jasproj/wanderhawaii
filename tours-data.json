@@ -218246,7 +218246,9 @@
         }
       ],
       "priceSource": "s50-whaw-refresh",
-      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult with Waikiki Shuttle $96.53 of 2 base tiers (D-625); product-name affinity preferred Adult with Waikiki Shuttle over Adult $75; not anchoring: Child $50 [never], Child with Waikiki Shuttle $69.36 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD"
+      "priceBasis": "D-624 cheapest adult/base per-person tier: Adult with Waikiki Shuttle $96.53 of 2 base tiers (D-625); product-name affinity preferred Adult with Waikiki Shuttle over Adult $75; not anchoring: Child $50 [never], Child with Waikiki Shuttle $69.36 [never]; 4/4 dated readings (4 date-valid), 1 ladder shape(s); live USD",
+      "status": "inactive",
+      "statusReason": "fareharbor-item-removed"
     },
     {
       "pk": 294278,
