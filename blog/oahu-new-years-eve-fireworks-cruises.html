@@ -74,7 +74,7 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-PL7CN6NG44');
+  /*ga-gate*/(function(){var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}if(navigator.webdriver||/HeadlessChrome/.test(navigator.userAgent))return;var c=function(){gtag('config','G-PL7CN6NG44')};if(!/^Asia\/(Singapore|Shanghai|Hong_Kong|Chongqing|Harbin|Urumqi)$/.test(tz)){c();return;}var d=false,ev=['pointermove','touchstart','scroll','keydown'];function go(){if(d)return;d=true;ev.forEach(function(e){removeEventListener(e,go)});c()}ev.forEach(function(e){addEventListener(e,go,{passive:true})})})();
 </script>
 <script src="/tracking.js" defer></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://wanderhawaii.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://wanderhawaii.com/blog/"},{"@type":"ListItem","position":3,"name":"New Year&#x27;s Eve in Waikiki: Midnight Fireworks, Cruises and Where to Watch","item":"https://wanderhawaii.com/blog/oahu-new-years-eve-fireworks-cruises.html"}]}</script>
