@@ -22,7 +22,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"></noscript>
+    <link rel="preload" as="image" href="images/hero-photo-1-800.webp" type="image/webp" media="(max-width: 768px)" fetchpriority="high">
+    <link rel="preload" as="image" href="images/hero-photo-1-1600.webp" type="image/webp" media="(min-width: 769px)" fetchpriority="high">
 
     <!-- Google Analytics 4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL7CN6NG44"></script>
@@ -95,7 +98,8 @@
 }
 </script>
 <script src="/tracking.js" defer></script>
-    <link rel="stylesheet" href="/sponsor-slot.css">
+    <link rel="stylesheet" href="/sponsor-slot.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="/sponsor-slot.css"></noscript>
     <script src="/sponsor-slot.js" defer></script>
     <style>
         /* Filter bar sits directly below the hero (s56, Jason 2026-09-02: hero first
@@ -286,7 +290,7 @@
         <article class="tour-card" data-id="508787">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Bespoke Private Charter","description":"A perfect day on the water, curated to your preferences. Expert local guides keep you safe and share their intimate knowledge of Hawaii’s marine environment. Up to 4 hours on the most comfortable, capable boat in its class in Hawai’i are included. A hand-picked selection of local treats are provided for refreshment. Additional time, catered meals, and premium activities are also available.","touristType":"Private","offers":{"@type":"Offer","priceSpecification":{"@type":"UnitPriceSpecification","price":2499,"priceCurrency":"USD","unitText":"whole boat · up to 6 people"},"url":"https://fareharbor.com/embeds/book/hawaiiislandprivatecharters/items/508787/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness","name":"Hawaiʻi Island Private Charters"}}</script>
             <div class="tour-image">
-                <img src="/images/hero-photo-1.jpg" alt="Bespoke Private Charter" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="/images/hero-photo-1-800.webp" alt="Bespoke Private Charter" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -304,7 +308,7 @@
         <article class="tour-card" data-id="447557">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Luau Transportation Private Group Oahu","description":"Most luaus on Oahu are located outside of Waikiki, often in more remote areas. Some luaus provide transportation via large motor coaches, which typically requires walking to a designated meeting point and sharing the ride with many other guests.","touristType":"Walking Tour","provider":{"@type":"LocalBusiness","name":"DanielsHawaii"}}</script>
             <div class="tour-image">
-                <img src="/images/hero-photo-1.jpg" alt="Luau Transportation Private Group Oahu" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="/images/hero-photo-1-800.webp" alt="Luau Transportation Private Group Oahu" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -322,7 +326,7 @@
         <article class="tour-card" data-id="575379">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Volcanoes National Park Private Guided Hike","description":"Traverse volcanic landscapes on an 8-mile loop, passing steaming vents, lush Hawaiian forests, and the awe-inspiring Kilauea Iki Crater before exploring the famous Thurston Lava Tube.","touristType":"","offers":{"@type":"Offer","priceSpecification":{"@type":"UnitPriceSpecification","price":1250,"priceCurrency":"USD","unitText":"Private Tour"},"url":"https://fareharbor.com/embeds/book/volcanoeshikingguides/items/575379/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness"}}</script>
             <div class="tour-image">
-                <img src="/images/hero-photo-1.jpg" alt="Volcanoes National Park Private Guided Hike" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="/images/hero-photo-1-800.webp" alt="Volcanoes National Park Private Guided Hike" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -340,7 +344,7 @@
         <article class="tour-card" data-id="737792">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Wednesday and Saturday Market Tour","description":"","touristType":"","offers":{"@type":"Offer","priceSpecification":{"@type":"UnitPriceSpecification","price":1900,"priceCurrency":"USD","unitText":"per group · up to 6 people"},"url":"https://fareharbor.com/embeds/book/wildhawaiitours/items/737792/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness","name":"Wild Hawaii Tours"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/tq9PBeYvTR6In9Y1Jj1U" alt="Wednesday and Saturday Market Tour" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/tq9PBeYvTR6In9Y1Jj1U" alt="Wednesday and Saturday Market Tour" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -358,7 +362,7 @@
         <article class="tour-card" data-id="316297">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"2H - Complete Pearl Harbor Experience Departing from the Big Island","description":"The experience extends beyond Pearl Harbor with a scenic drive-by tour of Honolulu’s historic sites. Marvel at the solemn beauty of the Punchbowl National Cemetery, where American service members are laid to rest.","touristType":"Boat Tour, Events, History Tour, Museum, Transportation","offers":{"@type":"Offer","price":499.99,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/alohasunshinetours/items/316297/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness","name":"Aloha Sunshine Tours"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/LGfP0jvfSPygKAIcr2kf" alt="2H - Complete Pearl Harbor Experience Departing from the Big Island" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/LGfP0jvfSPygKAIcr2kf" alt="2H - Complete Pearl Harbor Experience Departing from the Big Island" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -376,7 +380,7 @@
         <article class="tour-card" data-id="394415">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Local Kine Brunch","description":"Join the ultimate brunch tour in Kaka'ako, where you'll explore and savor delicious offerings from four top breakfast cafes in just two hours. Perfect for all ages, this experience promises to kickstart your day with delightful flavors and a vibrant atmosphere. Don't miss out on this tasty adventure!","touristType":"","offers":{"@type":"Offer","price":75,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/cruzneathawaii/items/394415/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/SVYaboybQ8Kx3HX2YVbS/convert?cache=true&amp;compress=true&amp;quality=90&amp;w=604&amp;fit=max&amp;format=webp&amp;rotate=exif" alt="Local Kine Brunch" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/SVYaboybQ8Kx3HX2YVbS" alt="Local Kine Brunch" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -394,7 +398,7 @@
         <article class="tour-card" data-id="527309">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Madam Pele’s Volcano Hike","description":"Embark on a captivating cultural hike to Kīlauea, the world's most active volcano. Experience breathtaking views, rich Hawaiian history, and stories of deities and past eruptions. Whether witnessing lava or enjoying starry skies, this unforgettable adventure deepens your appreciation for Hawaii's unique culture and stunning landscapes.","touristType":"","offers":{"@type":"Offer","price":149,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/bathingsuitsandrainboots/items/527309/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/1UjnXPxXRjarxOwZQtA9/convert?cache=true&amp;compress=true&amp;quality=90&amp;h=692&amp;fit=max&amp;format=webp&amp;rotate=exif" alt="Madam Pele’s Volcano Hike" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/1UjnXPxXRjarxOwZQtA9" alt="Madam Pele’s Volcano Hike" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -412,7 +416,7 @@
         <article class="tour-card" data-id="664423">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Cruise Ship Pier to Airport","description":"Skip the hassle with a quick shuttle from the pier terminal straight to Honolulu Airport, making your travel seamless and stress-free.","touristType":"","offers":{"@type":"Offer","price":23.5,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/enoatours/items/664423/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/n0T8o0vwRx6CHUFpGzS9/convert?cache=true&amp;compress=true&amp;quality=90&amp;w=920&amp;fit=max&amp;format=webp&amp;rotate=exif" alt="Cruise Ship Pier to Airport" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/n0T8o0vwRx6CHUFpGzS9" alt="Cruise Ship Pier to Airport" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -430,7 +434,7 @@
         <article class="tour-card" data-id="744134">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Keiki to Kūpuna Tour","description":"About the Experience Bring the whole family for an approachable, approximately 1 to 2-mile crater-rim walk designed for keiki, kūpuna and multigenerational families. Your experienced guide adapts the experience so different ages can enjoy and learn together. For Keiki and Kūpuna Keiki enjoy a volcano-themed scavenger hunt and earn a Volcano Explorer certificate, while kūpuna and adults receive deeper geological, ecological and relevant Hawaiian cultural stories. Along the Way Your guide may point out steam vents, colorful sulfur deposits, ʻōhiʻa trees, native birds and other accessible…","touristType":"","offers":{"@type":"Offer","priceSpecification":{"@type":"UnitPriceSpecification","price":89,"priceCurrency":"USD","unitText":"per group · up to 2 people"},"url":"https://fareharbor.com/embeds/book/volcanoeshikingguides/items/744134/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness","name":"Volcanoes Hiking Guides"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/qYRwwuWLQ56j0lkvTcGg" alt="Keiki to Kūpuna Tour" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/qYRwwuWLQ56j0lkvTcGg" alt="Keiki to Kūpuna Tour" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -448,7 +452,7 @@
         <article class="tour-card" data-id="69005">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Kayak, Snorkel & Waterfall Combo Tour","description":"Do it all – ocean kayak and snorkel, waterfalls, and rainforests – in one 7-hour trip. Hug Maui’s rugged coastline as you kayak in the calm morning ocean. Snorkel off your kayak among colorful fish, coral, and inquisitive sea turtles.","touristType":"","offers":{"@type":"Offer","price":249,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/hikemaui/items/69005/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness","name":"Hike Maui"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/kQ8b6krlRkKqyvFam9Or" alt="Kayak, Snorkel &amp; Waterfall Combo Tour" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/kQ8b6krlRkKqyvFam9Or" alt="Kayak, Snorkel &amp; Waterfall Combo Tour" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -466,7 +470,7 @@
         <article class="tour-card" data-id="9120">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Wreck & Reef Tour","description":"Dive Oahu reserves the right to alter charter details or cancel charters should it be necessary, due to adverse weather, minimum passenger requirements, or other related conditions.","touristType":"Boat Tour, Dolphin, Guided Tour, Scuba, Snorkel, Water Activities, Wildlife","offers":{"@type":"Offer","price":231,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/diveoahu/items/9120/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness","name":"Dive Oahu"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/QGb2pjpCT6CeIKoFIGZO" alt="Wreck &amp; Reef Tour" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/QGb2pjpCT6CeIKoFIGZO" alt="Wreck &amp; Reef Tour" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -484,7 +488,7 @@
         <article class="tour-card" data-id="587829">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Waikiki Whale Watch","description":"In the case of no whale or wildlife sightings, you can reschedule to another day during the duration of your trip free of charge on a space available basis.","touristType":"","offers":{"@type":"Offer","price":80,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/irukajapan/items/587829/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness","name":"Iruka Hawaii"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/nhueVWxQlyToV3OFgBJA" alt="Waikiki Whale Watch" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/nhueVWxQlyToV3OFgBJA" alt="Waikiki Whale Watch" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -502,7 +506,7 @@
         <article class="tour-card" data-id="666222">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"UV Resin Jewelry Set","description":"Discover the art of UV resin in this hands-on and creative jewelry-making workshop led by Yulia Maui Art.","touristType":"Workshop","offers":{"@type":"Offer","price":105,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/yuliamauiart/items/666222/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness","name":"Yulia Maui Art"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/j6EUoxgdTnyTxRVRis0a" alt="UV Resin Jewelry Set" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/j6EUoxgdTnyTxRVRis0a" alt="UV Resin Jewelry Set" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -520,7 +524,7 @@
         <article class="tour-card" data-id="375073">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"9+ Surfers. Private \"Ohana\" Package","description":"Join a fun 2-hour private surf lesson for groups, with personalized service, special gear options, and the chance to get professional photos—perfect for friends, families, or organizations seeking a memorable wave experience.","touristType":"","provider":{"@type":"LocalBusiness"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/lNZDZDO4SZiNw34QZVJS/convert?cache=true&amp;compress=true&amp;quality=90&amp;w=604&amp;fit=max&amp;format=webp&amp;rotate=exif" alt="9+ Surfers. Private &quot;Ohana&quot; Package" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/lNZDZDO4SZiNw34QZVJS" alt="9+ Surfers. Private &quot;Ohana&quot; Package" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -538,7 +542,7 @@
         <article class="tour-card" data-id="576870">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Beach Chair Rentals","description":"Delivery requires 24 hours notice & 2-day minimum rental. Delivery Address MUST be a residence. ex: condo, airbnb, hotels, etc. WE WILL NOT DELIVER TO BEACHES.","touristType":"","offers":{"@type":"Offer","priceSpecification":{"@type":"UnitPriceSpecification","price":15,"priceCurrency":"USD","unitText":"per group"},"url":"https://fareharbor.com/embeds/book/hulakaisurfco/items/576870/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness","name":"Hulakai"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/QcrrzvRcTuq7PWZwsd9J" alt="Beach Chair Rentals" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/QcrrzvRcTuq7PWZwsd9J" alt="Beach Chair Rentals" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -556,7 +560,7 @@
         <article class="tour-card" data-id="743463">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Kona Whale Watch","description":"Join us for a Whale Watch!","touristType":"Whale Watch","offers":{"@type":"Offer","priceSpecification":{"@type":"UnitPriceSpecification","price":600,"priceCurrency":"USD","unitText":"per group · up to 6 people"},"url":"https://fareharbor.com/embeds/book/ohanaoceanconnections/items/743463/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness","name":"Ohana Ocean Connections"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/a3FH5isQ0yOCcksqmYhw" alt="Kona Whale Watch" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/a3FH5isQ0yOCcksqmYhw" alt="Kona Whale Watch" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -574,7 +578,7 @@
         <article class="tour-card" data-id="462795">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"AIDA 1","description":"Learn freediving basics in a fun, safe way with this 1-day course. Practice breath-hold techniques in a pool and shallow water, mastering static and dynamic apnea while enjoying stunning Waikiki views.","touristType":"","offers":{"@type":"Offer","price":275,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/mitchbrownphotofreediving/items/462795/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/aSpzpTETGWqY7TYZB2hQ/convert?cache=true&amp;compress=true&amp;quality=90&amp;h=692&amp;fit=max&amp;format=webp&amp;rotate=exif" alt="AIDA 1" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/aSpzpTETGWqY7TYZB2hQ" alt="AIDA 1" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -592,7 +596,7 @@
         <article class="tour-card" data-id="421678">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Beach Gear - WEEK RENTAL","description":"Experience the thrill of the water with our diverse rental options! Choose from single or double kayaks, stand-up paddle boards tailored to your skill level, and complete snorkel gear for underwater exploration. Plus, enjoy a perfect beach day with our beach chairs, coolers, and umbrellas. Adventure awaits!","touristType":"","offers":{"@type":"Offer","priceSpecification":{"@type":"UnitPriceSpecification","price":325,"priceCurrency":"USD","unitText":"Double Kayak · Beach Gear - WEEK RENTAL"},"url":"https://fareharbor.com/embeds/book/molokaioutdoors/items/421678/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/dEHdwFbSqZ90NbehuFvA/convert?cache=true&amp;compress=true&amp;quality=90&amp;w=920&amp;fit=max&amp;format=webp&amp;rotate=exif" alt="Beach Gear - WEEK RENTAL" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/dEHdwFbSqZ90NbehuFvA" alt="Beach Gear - WEEK RENTAL" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -610,7 +614,7 @@
         <article class="tour-card" data-id="539606">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Bubble Wand Blacksmith Experience : Beginner Level","description":"You'll learn the techniques of forging while crafting your very own \"Performance Bubble Wand.\" Under the guidance of our skilled blacksmith, you'll learn several essential blacksmithing skills including: Forge set up, parts of the anvil, hammer techn...","touristType":"","offers":{"@type":"Offer","price":279,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/mauiforge/items/539606/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness","name":"Maui Blacksmith - Maui Forge"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/haqKx8j4RUuXlRz6DYjw" alt="Bubble Wand Blacksmith Experience : Beginner Level" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/haqKx8j4RUuXlRz6DYjw" alt="Bubble Wand Blacksmith Experience : Beginner Level" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -628,7 +632,7 @@
         <article class="tour-card" data-id="354129">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Private Snorkel Lessons","description":"Experience a unique snorkeling adventure with your own private instructor, tailored to your needs. Enjoy one-on-one guidance in a serene setting, free from distractions, allowing you to learn at your own pace. This personalized approach ensures an unforgettable and enriching underwater exploration.","touristType":"","offers":{"@type":"Offer","price":150,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/mauiislandsurfsnorkel/items/354129/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/yCDUuA3TnWZWQPyib4KX/convert?cache=true&amp;compress=true&amp;quality=90&amp;h=692&amp;fit=max&amp;format=webp&amp;rotate=exif" alt="Private Snorkel Lessons" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/yCDUuA3TnWZWQPyib4KX" alt="Private Snorkel Lessons" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -646,7 +650,7 @@
         <article class="tour-card" data-id="17262">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Maunakea Summit & Stars Adventure","description":"Guests should be able to walk on uneven or rocky terrain. We sometimes encounter cool, wet, or muddy conditions. Because of altitude, this tour is not advised for those with respiratory, circulatory, or heart conditions, pregnancy, or poor health.","touristType":"Walking Tour","offers":{"@type":"Offer","price":315,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/hawaiiforestandtrail/items/17262/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness","name":"Hawaii Forest & Trail"}}</script>
             <div class="tour-image">
-                <img src="https://www.filepicker.io/api/file/tHaRLLbxSQSdxQKfcsMQ" alt="Maunakea Summit &amp; Stars Adventure" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://www.filepicker.io/api/file/tHaRLLbxSQSdxQKfcsMQ" alt="Maunakea Summit &amp; Stars Adventure" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -664,7 +668,7 @@
         <article class="tour-card" data-id="35233">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Airport Lei Greeting Maui, Kahului $85.00","description":"Full service clients will be escorted to the baggage claim area to claim their luggage. Assistance will be provided.","touristType":"Service","offers":{"@type":"Offer","price":275,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/airportleigreeting/items/35233/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness","name":"Leis of Hawaii"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/5jRw1yIPSxWj5uODaHP0" alt="Airport Lei Greeting Maui, Kahului $85.00" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/5jRw1yIPSxWj5uODaHP0" alt="Airport Lei Greeting Maui, Kahului $85.00" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -682,7 +686,7 @@
         <article class="tour-card" data-id="577314">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Sunset Swim & Sail","description":"Sail along the iconic Gold Coast as the sky transforms into colors casting a sparkling glow over Waikīkī’s skyline. This evening offers unmatched views and a perfect way to end your day in Hawaii.","touristType":"Boat Tour","offers":{"@type":"Offer","price":65,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/alohasailswaikiki/items/577314/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness","name":"Aloha Sails Waikiki"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/NAJskDA2QzeTRI7uH6ko" alt="Sunset Swim &amp; Sail" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/NAJskDA2QzeTRI7uH6ko" alt="Sunset Swim &amp; Sail" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
@@ -700,7 +704,7 @@
         <article class="tour-card" data-id="377199">
             <script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":"Eco-Raft: Eye-Level Whale Watch Tour","description":"Avoid the crowds and enjoy comfortable seating in a small group with spectacular views of Maui’s humpback whales.","touristType":"Boat Tour, Eco Tour, Guided Tour, Photography Tour, Rafting, Sightseeing Tour, Whale Watch, Wildlife","offers":{"@type":"Offer","price":97,"priceCurrency":"USD","url":"https://fareharbor.com/embeds/book/hawaiioceanrafting/items/377199/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no"},"provider":{"@type":"LocalBusiness","name":"Hawaii Ocean Rafting"}}</script>
             <div class="tour-image">
-                <img src="https://cdn.filestackcontent.com/7jAq2yYgS8Kr8ftFNs1K" alt="Eco-Raft: Eye-Level Whale Watch Tour" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1.jpg'" style="width: 100%; height: auto; object-fit: cover;">
+                <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/7jAq2yYgS8Kr8ftFNs1K" alt="Eco-Raft: Eye-Level Whale Watch Tour" loading="lazy" width="400" height="300" onerror="this.src='/images/hero-photo-1-800.webp'" style="width: 100%; height: auto; object-fit: cover;">
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
