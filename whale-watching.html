@@ -333,6 +333,19 @@
   ]
 }
 </script>
+<style id="top-picks-css">
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .tp-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.top-picks-grid>*{min-width:0;margin:0}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks .tp-wrap{padding:0 16px}
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+}
+</style>
 </head>
 <body>
     <!-- HEADER -->
@@ -385,6 +398,66 @@
             </div>
         </div>
     </section>
+<section class="top-picks" aria-label="Top picks">
+  <div class="tp-wrap">
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card" data-id="384839">
+                <div class="tour-image">
+                    <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/QZ09OcryRE28nCAcAxHS" alt="2 Hour Whale Watch" loading="eager" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'">
+                </div>
+                <div class="tour-content">
+                    <div class="tour-meta">
+                        <span class="tour-location">📍 Lahaina</span>
+                    </div>
+                    <h3 class="tour-title">2 Hour Whale Watch</h3>
+                    <p class="tour-description">Our cancellation policy for those without TripSafe protection is 48 hours prior to departure time. To cancel, refund ...</p>
+                    <div class="tour-tags"><span class="tour-tag">Catamaran</span><span class="tour-tag">Sailing</span><span class="tour-tag">Whale Watch</span></div>
+                    <div class="tour-footer">
+                        <div class="tour-price">From $104.37 per adult</div>
+                        <a href="https://fareharbor.com/embeds/book/seamauicharter/items/384839/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="tour-book-btn" data-tour-id="384839" data-tour-name="2 Hour Whale Watch">Check Availability →</a>
+                    </div>
+                </div>
+            </article>
+<article class="tour-card" data-id="497">
+                <div class="tour-image">
+                    <img src="https://www.filepicker.io/api/file/S9nkdSHJTnizZ02LiZtn" alt="Whale Watch" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'">
+                </div>
+                <div class="tour-content">
+                    <div class="tour-meta">
+                        <span class="tour-location">📍 Kailua-Kona</span>
+                    </div>
+                    <h3 class="tour-title">Whale Watch</h3>
+                    <p class="tour-description">Join us on the Kanoa II for a 2.5-hour Whale Watch Adventure. View and hear Humpback whales as they journey to Hawaii...</p>
+                    <div class="tour-tags"><span class="tour-tag">Dolphin</span><span class="tour-tag">Whale Watch</span></div>
+                    <div class="tour-footer">
+                        <div class="tour-price">From $139.99 per adult</div>
+                        <a href="https://fareharbor.com/embeds/book/bodyglove/items/497/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="tour-book-btn" data-tour-id="497" data-tour-name="Whale Watch">Check Availability →</a>
+                    </div>
+                </div>
+            </article>
+<article class="tour-card" data-id="334772">
+                <div class="tour-image">
+                    <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/jGba9HUMRXSeKyD8ULPT" alt="Whales and You" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'">
+                </div>
+                <div class="tour-content">
+                    <div class="tour-meta">
+                        <span class="tour-location">📍 Honolulu</span>
+                    </div>
+                    <h3 class="tour-title">Whales and You</h3>
+                    <p class="tour-description">Join us on a whale-watching adventure along Oahu's Gold Coast, where you can witness humpback whales and other marine...</p>
+                    <div class="tour-tags"><span class="tour-tag">Boat Tour</span><span class="tour-tag">Whale Watch</span></div>
+                    <div class="tour-footer">
+                        <div class="tour-price">From $99 per adult</div>
+                        <a href="https://fareharbor.com/embeds/book/andyoucreations/items/334772/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="tour-book-btn" data-tour-id="334772" data-tour-name="Whales and You">Check Availability →</a>
+                    </div>
+                </div>
+            </article>
+    </div>
+    <a class="top-picks-more" href="#tours-grid">See all tours ↓</a>
+  </div>
+</section>
+
 
     <!-- SEASON INFO -->
     <section class="season-section">

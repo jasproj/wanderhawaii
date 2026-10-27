@@ -280,6 +280,19 @@
   ]
 }
 </script>
+<style id="top-picks-css">
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .tp-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.top-picks-grid>*{min-width:0;margin:0}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks .tp-wrap{padding:0 16px}
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+}
+</style>
 </head>
 <body>
     <header class="header">
@@ -305,6 +318,51 @@
             </div>
         </div>
     </section>
+<section class="top-picks" aria-label="Top picks">
+  <div class="tp-wrap">
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/93lMtiLfQtiuZL2Wpw4s" alt="Popoia Island &amp; Kailua Bay Guided Kayak Tour" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $145</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Active Oahu Tours</div>
+        <h3 class="tour-title">Popoia Island &amp; Kailua Bay Guided Kayak Tour</h3>
+        <p class="tour-desc">Embark on a captivating journey with our beginner-friendly guided kayak tour to Popoia or Flat Island, just a 15-minute paddle from the…</p>
+        <a href="https://fareharbor.com/embeds/book/activeoahutours/items/491549/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="491549" data-tour-name="Popoia Island &amp; Kailua Bay Guided Kayak Tour">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://www.filepicker.io/api/file/CFOEKDBRNiAMnxXKSPBJ" alt="South Maui Premier Kayak &amp; Snorkel" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $139</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Maui Eco Tours/South Pacific Kayak/Kelii&#x27;s Kayaks</div>
+        <h3 class="tour-title">South Maui Premier Kayak &amp; Snorkel</h3>
+        <p class="tour-desc">Our staff of full time guides will show you all of the underwater spectacles themselves, as we are the only snorkeling outfitter that…</p>
+        <a href="https://fareharbor.com/embeds/book/mauiecotours/items/448/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="448" data-tour-name="South Maui Premier Kayak &amp; Snorkel">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/T6EaisFITROwFVzbjErO" alt="Secret Falls Kayak &amp; Hike Tour" loading="lazy" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From $125</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Alii Kayaks</div>
+        <h3 class="tour-title">Secret Falls Kayak &amp; Hike Tour</h3>
+        <p class="tour-desc">Take an eco-adventure Kayak/Hike with Alii Kayaks and see a Secret Waterfall! Your Kayak Adventure starts with a leisure 2-mile paddle…</p>
+        <a href="https://fareharbor.com/embeds/book/aliikayaks/items/109242/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="109242" data-tour-name="Secret Falls Kayak &amp; Hike Tour">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">See all tours ↓</a>
+  </div>
+</section>
+
     <section class="tours" id="tours">
       <div class="container">
         <h2>Book 🚣 Hawaii Kayaking Tours (9 available)</h2>
