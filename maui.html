@@ -165,6 +165,19 @@
     }
 }
     </script>
+<style id="top-picks-css">
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .tp-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.top-picks-grid>*{min-width:0;margin:0}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks .tp-wrap{padding:0 16px}
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+}
+</style>
 </head>
 <body>
     <!-- Header -->
@@ -228,6 +241,68 @@
             </div>
         </div>
     </section>
+<section class="top-picks" aria-label="Top picks">
+  <div class="tp-wrap">
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+                    <div class="tour-image-container">
+                        <img src="https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400" alt="Shoreline Snorkel at Turtle Reef - Olowalu Beach" loading="eager" onerror="this.src='https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400'">
+                        <span class="tour-price">From $119</span>
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-location">📍 Maryland</div>
+                        <h3 class="tour-title">Shoreline Snorkel at Turtle Reef - Olowalu Beach</h3>
+                        <p class="tour-description">Mask (full-face or standard), Snorkel, Swim Fins, Life Jacket/Flotaion Devices, water and snacks (granola, fruit or muff...</p>
+                        <div class="tour-tags">
+                            <span class="tour-tag">Snorkel</span>
+                        </div>
+                        <div class="tour-footer">
+                            <span class="tour-company">Maui Adventure Tours</span>
+                            <a href="https://fareharbor.com/embeds/book/mauiadventuretours/items/587477/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="book-btn" data-tour-id="587477" data-tour-name="Shoreline Snorkel at Turtle Reef - Olowalu Beach">Check Availability →</a>
+                        </div>
+                    </div>
+                </article>
+<article class="tour-card">
+                    <div class="tour-image-container">
+                        <img src="https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400" alt="Maui Pre Dawn Bike Tour" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400'">
+                        <span class="tour-price">From $145</span>
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-location">📍 Paia</div>
+                        <h3 class="tour-title">Maui Pre Dawn Bike Tour</h3>
+                        <p class="tour-description">From our Office, we will transport guests to the 6,500′ level and your tour guide will provide you with the history of H...</p>
+                        <div class="tour-tags">
+                            <span class="tour-tag">Bike Tour</span><span class="tour-tag">History Tour</span>
+                        </div>
+                        <div class="tour-footer">
+                            <span class="tour-company">Maui Mountain Riders</span>
+                            <a href="https://fareharbor.com/embeds/book/mountainriders/items/275207/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="book-btn" data-tour-id="275207" data-tour-name="Maui Pre Dawn Bike Tour">Check Availability →</a>
+                        </div>
+                    </div>
+                </article>
+<article class="tour-card">
+                    <div class="tour-image-container">
+                        <img src="https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400" alt="Maui Whale Watching Tour" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400'">
+                        <span class="tour-price">From $85</span>
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-location">📍 Kihei</div>
+                        <h3 class="tour-title">Maui Whale Watching Tour</h3>
+                        <p class="tour-description">Join a guaranteed 1.5-hour whale-watching adventure departing from the Kihei/Wailea area. Ride an adventure-style raft w...</p>
+                        <div class="tour-tags">
+                        </div>
+                        <div class="tour-footer">
+                            <span class="tour-company">Blue Water Rafting</span>
+                            <a href="https://fareharbor.com/embeds/book/bluewaterrafting/items/273557/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="book-btn" data-tour-id="273557" data-tour-name="Maui Whale Watching Tour">Check Availability →</a>
+                        </div>
+                    </div>
+                </article>
+    </div>
+    <a class="top-picks-more" href="#tours-grid">See all tours ↓</a>
+  </div>
+</section>
+
 
     <!-- Search & Filter -->
     <section class="filter-section" style="padding: 30px 20px; background: #fff; border-bottom: 1px solid #eee;">

@@ -165,6 +165,19 @@
     }
 }
     </script>
+<style id="top-picks-css">
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .tp-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.top-picks-grid>*{min-width:0;margin:0}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks .tp-wrap{padding:0 16px}
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+}
+</style>
 </head>
 <body>
     <!-- Header -->
@@ -228,6 +241,74 @@
             </div>
         </div>
     </section>
+<section class="top-picks" aria-label="Top picks">
+  <div class="tp-wrap">
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+                    <div class="tour-image-container">
+                        <img src="https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400" alt="Shore Diving South Side Kauai" loading="eager" onerror="this.src='https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400'">
+                        <span class="tour-price">From $145</span>
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-location">📍 Koloa</div>
+                        <h3 class="tour-title">Shore Diving South Side Kauai</h3>
+                        <p class="tour-description">Koloa Landing, also known as Whalers Cove, was voted one of the Best Shore Dives in the Pacific by Scuba Diving Magazine...</p>
+                        <div class="tour-tags">
+                            <span class="tour-tag">Scuba</span>
+                        </div>
+                        <div class="tour-footer">
+                            <span class="tour-company">Seasport Divers</span>
+                            <a href="https://fareharbor.com/embeds/book/seasportdivers/items/11361/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="book-btn" data-tour-id="11361" data-tour-name="Shore Diving South Side Kauai">Check Availability →</a>
+                        </div>
+                    </div>
+                </article>
+<article class="tour-card">
+                    <div class="tour-image-container">
+                        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/yg7uGot2QGqPl5IGGvTI" alt="Wildlife Encounter Snorkel" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400'">
+                        <span class="tour-price">From $1050</span>
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-location">📍 Waimea</div>
+                        <h3 class="tour-title">Wildlife Encounter Snorkel</h3>
+                        <p class="tour-description">Wildlife Encounter Snorkel
+Duration
+3 Hours
+About
+Encounter ocean wildlife including Humpback Whales, Green Sea Turtl...</p>
+                        <div class="tour-tags">
+                            <span class="tour-tag">Dolphin</span><span class="tour-tag">Snorkel</span>
+                        </div>
+                        <div class="tour-footer">
+                            <span class="tour-company">Captain Chad's Charters</span>
+                            <a href="https://fareharbor.com/embeds/book/captainchads/items/277531/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="book-btn" data-tour-id="277531" data-tour-name="Wildlife Encounter Snorkel">Check Availability →</a>
+                        </div>
+                    </div>
+                </article>
+<article class="tour-card">
+                    <div class="tour-image-container">
+                        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/6p2EhWcQTa62hewyOl4T" alt="Discover Scuba Dive - 2 TANK DIVE OCEAN EXPERIENCE" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=400'">
+                        <span class="tour-price">From $169</span>
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-location">📍 Poipu</div>
+                        <h3 class="tour-title">Discover Scuba Dive - 2 TANK DIVE OCEAN EXPERIENCE</h3>
+                        <p class="tour-description">For Non-Certified Divers
+First time (non-certified) divers will experience the PADI Discover Scuba Diving program, which...</p>
+                        <div class="tour-tags">
+                            <span class="tour-tag">Eco Tour</span><span class="tour-tag">Guided Tour</span><span class="tour-tag">Scuba</span>
+                        </div>
+                        <div class="tour-footer">
+                            <span class="tour-company">Dive Kauai</span>
+                            <a href="https://fareharbor.com/embeds/book/divekauai/items/490321/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="book-btn" data-tour-id="490321" data-tour-name="Discover Scuba Dive - 2 TANK DIVE OCEAN EXPERIENCE">Check Availability →</a>
+                        </div>
+                    </div>
+                </article>
+    </div>
+    <a class="top-picks-more" href="#tours-grid">See all tours ↓</a>
+  </div>
+</section>
+
 
     <!-- Search & Filter -->
     <section class="filter-section" style="padding: 30px 20px; background: #fff; border-bottom: 1px solid #eee;">

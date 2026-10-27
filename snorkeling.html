@@ -241,6 +241,19 @@
 </script>
 <script src="/tracking.js" defer></script>
 <script src="/tour-rank.js" defer></script>
+<style id="top-picks-css">
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .tp-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.top-picks-grid>*{min-width:0;margin:0}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks .tp-wrap{padding:0 16px}
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+}
+</style>
 </head>
 <body>
     <!-- HEADER -->
@@ -293,6 +306,66 @@
             </div>
         </div>
     </section>
+<section class="top-picks" aria-label="Top picks">
+  <div class="tp-wrap">
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card" data-id="316332">
+                <div class="tour-image">
+                    <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/gDpUmbwTVKMwDmPLgl5g" alt="Morning NaPali Coast Snorkel Tour- Super Raft Adventure" loading="eager" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'">
+                </div>
+                <div class="tour-content">
+                    <div class="tour-meta">
+                        <span class="tour-location">📍 Eleele</span>
+                    </div>
+                    <h3 class="tour-title">Morning NaPali Coast Snorkel Tour- Super Raft Adventure</h3>
+                    <p class="tour-description">Embark on a 4.5 hour adventure along the Na Pali Coast aboard our luxurious 37’ super raft, Kauai Voyager I.</p>
+                    <div class="tour-tags"><span class="tour-tag">Dolphin</span><span class="tour-tag">Rafting</span><span class="tour-tag">Snorkel</span></div>
+                    <div class="tour-footer">
+                        <div class="tour-price">From $197 per adult</div>
+                        <a href="https://fareharbor.com/embeds/book/napalihawaii/items/316332/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="tour-book-btn" data-tour-id="316332" data-tour-name="Morning NaPali Coast Snorkel Tour- Super Raft Adventure">Check Availability →</a>
+                    </div>
+                </div>
+            </article>
+<article class="tour-card" data-id="156809">
+                <div class="tour-image">
+                    <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/DxxhJ6NISjuiZmHbz3Bi" alt="Xpress Snorkel" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'">
+                </div>
+                <div class="tour-content">
+                    <div class="tour-meta">
+                        <span class="tour-location">📍 Lahaina</span>
+                    </div>
+                    <h3 class="tour-title">Xpress Snorkel</h3>
+                    <p class="tour-description">Our cancellation policy for those without TripSafe protection is 48 hours prior to departure time. To cancel, refund ...</p>
+                    <div class="tour-tags"><span class="tour-tag">Snorkel</span></div>
+                    <div class="tour-footer">
+                        <div class="tour-price">From $131.9 per adult</div>
+                        <a href="https://fareharbor.com/embeds/book/seamauicharter/items/156809/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="tour-book-btn" data-tour-id="156809" data-tour-name="Xpress Snorkel">Check Availability →</a>
+                    </div>
+                </div>
+            </article>
+<article class="tour-card" data-id="156818">
+                <div class="tour-image">
+                    <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/1byPWDSKQHKikwni6MxT" alt="Afternoon West Maui Snorkel" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1507876466758-bc54f384809c?w=400'">
+                </div>
+                <div class="tour-content">
+                    <div class="tour-meta">
+                        <span class="tour-location">📍 Lahaina</span>
+                    </div>
+                    <h3 class="tour-title">Afternoon West Maui Snorkel</h3>
+                    <p class="tour-description">Our cancellation policy for those without TripSafe protection is 48 hours prior to departure time. To cancel, refund ...</p>
+                    <div class="tour-tags"><span class="tour-tag">Snorkel</span></div>
+                    <div class="tour-footer">
+                        <div class="tour-price">From $154.84 per adult</div>
+                        <a href="https://fareharbor.com/embeds/book/seamauicharter/items/156818/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener" class="tour-book-btn" data-tour-id="156818" data-tour-name="Afternoon West Maui Snorkel">Check Availability →</a>
+                    </div>
+                </div>
+            </article>
+    </div>
+    <a class="top-picks-more" href="#tours-grid">See all tours ↓</a>
+  </div>
+</section>
+
 
     <!-- BEST SPOTS -->
     <section class="spots-section">
