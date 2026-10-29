@@ -293,6 +293,19 @@
   .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
 }
 </style>
+<style id="featured-op-css">
+.featured-op{background:#fff;padding:22px 0 0}
+.featured-op .fo-wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.featured-op .fo-box{display:grid;grid-template-columns:96px 1fr auto;gap:18px;align-items:center;border:2px solid #E3B341;border-radius:14px;padding:16px 20px;background:#FFFBEE}
+.featured-op .fo-badge{width:96px;height:96px}
+.featured-op .fo-label{font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8a6d1a;margin:0 0 4px}
+.featured-op h2{font-size:1.2rem;margin:0 0 6px;color:var(--ocean-deep,#0A4D68)}
+.featured-op p{margin:0;font-size:.95rem;line-height:1.45;color:#333}
+.featured-op .fo-ctas{display:flex;flex-direction:column;gap:8px;min-width:200px}
+.featured-op .fo-book{display:inline-block;text-align:center;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:11px 18px;border-radius:999px;text-decoration:none}
+.featured-op .fo-more{text-align:center;font-weight:600;color:var(--ocean-mid,#088395);text-decoration:none}
+@media (max-width:760px){.featured-op .fo-wrap{padding:0 16px}.featured-op .fo-box{grid-template-columns:64px 1fr;gap:12px}.featured-op .fo-badge{width:64px;height:64px}.featured-op .fo-ctas{grid-column:1/-1;flex-direction:row}.featured-op .fo-book,.featured-op .fo-more{flex:1}}
+</style>
 </head>
 <body>
     <header class="header">
@@ -318,6 +331,20 @@
             </div>
         </div>
     </section>
+<section class="featured-op" aria-label="Featured operator">
+  <div class="fo-wrap"><div class="fo-box">
+    <img class="fo-badge" src="/images/golden-lei-award-2026.png" alt="2026 Golden Lei Awards nominee" width="96" height="96">
+    <div>
+      <p class="fo-label">Featured · 2026 Golden Lei nominee, Best Kayak Tour</p>
+      <h2>Kailua Beach Adventures</h2>
+      <p>Why we picked them: on Kailua Beach since 1982, the Twin Islands trip paddles to the Mokulua Islands with a guide and a beach landing, and every tour we list with them was bookable the day we checked. From $249 per adult.</p>
+    </div>
+    <div class="fo-ctas">
+      <a class="fo-book" href="https://fareharbor.com/embeds/book/kailuasailboards/items/504/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener">Check Availability →</a>
+      <a class="fo-more" href="/partners/kailua-beach-adventures.html">Read our spotlight</a>
+    </div>
+  </div></div>
+</section>
 <section class="top-picks" aria-label="Top picks">
   <div class="tp-wrap">
     <h2>Top picks</h2>
