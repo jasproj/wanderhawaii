@@ -584,22 +584,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wanderhawaii.com/luau-maui.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://wanderhawaii.com/oahu/helicopter.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://wanderhawaii.com/oahu/snorkeling.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://wanderhawaii.com/maui/luau.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
