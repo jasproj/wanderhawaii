@@ -4213,9 +4213,9 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "no-availability-90d",
+      "statusFirstSeen": "2026-11-11",
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
